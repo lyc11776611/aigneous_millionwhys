@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Screen reader only - for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+:root {
+  /* Light theme colors */
+  --background-light: #ffffff;
+  --foreground-light: #171717;
+  --slate-700-light: 215 25% 27%;
+  --slate-800-light: 217 33% 17%;
+  --primary-light: #D94E33;
+  --primary-hover-light: #FF6B52;
+  --secondary-light: #1a465b;
+  --secondary-hover-light: #245a73;
+  --surface-light: #f3f4f6;
+  --surface-hover-light: #e5e7eb;
+  --border-light: #d1d5db;
+
+  /* Dark theme colors */
+  --background-dark: #111827;
+  --foreground-dark: #ededed;
+  --slate-700-dark: 215 25% 27%;
+  --slate-800-dark: 217 33% 17%;
+  --primary-dark: #D94E33;
+  --primary-hover-dark: #FF6B52;
+  --secondary-dark: #1a465b;
+  --secondary-hover-dark: #245a73;
+  --surface-dark: #1e293b;
+  --surface-hover-dark: #2d3a4f;
+  --border-dark: #374151;
+}
+
+/* Light theme */
+.light {
+  --background: var(--background-light);
+  --foreground: var(--foreground-light);
+  --slate-700: var(--slate-700-light);
+  --slate-800: var(--slate-800-light);
+  --primary: var(--primary-light);
+  --primary-hover: var(--primary-hover-light);
+  --secondary: var(--secondary-light);
+  --secondary-hover: var(--secondary-hover-light);
+  --surface: var(--surface-light);
+  --surface-hover: var(--surface-hover-light);
+  --border: var(--border-light);
+}
+
+/* Dark theme */
+.dark {
+  --background: var(--background-dark);
+  --foreground: var(--foreground-dark);
+  --slate-700: var(--slate-700-dark);
+  --slate-800: var(--slate-800-dark);
+  --primary: var(--primary-dark);
+  --primary-hover: var(--primary-hover-dark);
+  --secondary: var(--secondary-dark);
+  --secondary-hover: var(--secondary-hover-dark);
+  --surface: var(--surface-dark);
+  --surface-hover: var(--surface-hover-dark);
+  --border: var(--border-dark);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
