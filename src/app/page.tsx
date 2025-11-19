@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import ClickVolcanoEffect from './components/ClickVolcanoEffect';
 import KnowledgeGraphBackground from './components/KnowledgeGraphBackground';
 
@@ -192,14 +193,14 @@ export default function LandingPage() {
           <section id="get-started" className="px-6 lg:px-8 pb-12">
             <div className="text-center max-w-4xl mx-auto">
               <div className="flex flex-col items-center gap-3">
-                <a
-                  href="#"
+                <Link
+                  href="/quiz"
                   className="group relative bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-16 rounded-2xl text-lg transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-110 active:scale-95 overflow-hidden"
                 >
                   <span className="relative z-10">Start Learning!</span>
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 group-hover:translate-x-full transition-all duration-700 -translate-x-full"></div>
-                </a>
+                </Link>
 
                 <p className="text-xs text-gray-500 mt-4 max-w-md mx-auto leading-relaxed">
                   ✨ Free access to all features, no credit card required<br />
@@ -283,14 +284,14 @@ export default function LandingPage() {
           <section aria-label="Call to action" className="text-center bg-orange-50 py-12 px-6 rounded-3xl mb-12 mx-4 sm:mx-6 lg:mx-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to start learning?</h2>
             <p className="text-gray-600 mb-6">Start free, no credit card needed</p>
-            <a
-              href="#get-started"
+            <Link
+              href="/quiz"
               className="group relative inline-block bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-16 rounded-2xl text-lg transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-110 active:scale-95 overflow-hidden"
             >
               <span className="relative z-10">Start Learning!</span>
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 group-hover:translate-x-full transition-all duration-700 -translate-x-full"></div>
-            </a>
+            </Link>
           </section>
         </main>
 
