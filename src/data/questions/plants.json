@@ -1,0 +1,102 @@
+{
+  "category_en": "Plant Science",
+  "category_zh": "植物科学",
+  "questions": [
+    {
+      "id": "plant_001",
+      "question_en": "Why are most leaves green?",
+      "question_zh": "为什么大多数叶子是绿色？",
+
+      "choices_en": [
+        "Green pigment is cheapest",
+        "Chlorophyll reflects green light",
+        "Absorbs heat better",
+        "Matches the environment"
+      ],
+      "choices_zh": [
+        "绿色素最便宜",
+        "叶绿素反射绿光",
+        "更好吸收热量",
+        "匹配环境"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Evolution doesn't work by cost efficiency of pigments. Chlorophyll evolved because it effectively captures the most useful wavelengths of light for photosynthesis.",
+        "Correct! Leaves contain chlorophyll, which absorbs red and blue light for photosynthesis. Green light is not absorbed, so it bounces back to our eyes. That's why leaves look green. This color isn't random - chlorophyll evolved to capture the most useful light wavelengths for making food!",
+        "Wrong. Leaf color is about light absorption for photosynthesis, not heat. Chlorophyll absorbs red and blue light for energy, reflecting green light we see.",
+        "Wrong. Leaves aren't green to camouflage with the environment. The green color is a byproduct of chlorophyll reflecting green light while absorbing red and blue for photosynthesis."
+      ],
+      "explanations_zh": [
+        "错误。进化不是按色素的成本效益运作的。叶绿素的进化是因为它能有效捕获光合作用最有用的光波长。",
+        "正确！叶子含有叶绿素，吸收红光和蓝光进行光合作用。绿光不被吸收，所以反射回我们眼睛。这就是为什么叶子看起来是绿色的。这个颜色不是随机的——叶绿素进化出来捕获最有用的光波长来制造食物！",
+        "错误。叶子颜色关乎光合作用的光吸收，而非热量。叶绿素吸收红光和蓝光获取能量，反射我们看到的绿光。",
+        "错误。叶子不是为了与环境伪装而呈绿色。绿色是叶绿素反射绿光同时吸收红蓝光进行光合作用的副产品。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "plant_002",
+      "question_en": "Why do flowers have bright colors?",
+      "question_zh": "为什么花朵有鲜艳颜色？",
+
+      "choices_en": [
+        "To absorb more sunlight",
+        "To attract pollinators",
+        "Protect from UV radiation",
+        "Show they're healthy"
+      ],
+      "choices_zh": [
+        "吸收更多阳光",
+        "吸引传粉者",
+        "防止紫外线",
+        "显示健康"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Flowers don't need to absorb sunlight - that's the job of leaves with chlorophyll. Flower colors are for attracting pollinators, not photosynthesis.",
+        "Correct! Bright flower colors attract pollinators like bees, butterflies, and birds. Different colors attract different animals: bees see UV patterns, hummingbirds prefer red, butterflies like bright colors. This partnership helps plants reproduce. The more attractive the flower, the more visits it gets!",
+        "Wrong. While some pigments may provide minor UV protection, the primary function of bright flower colors is to attract pollinators for reproduction.",
+        "Wrong. Flower colors aren't health indicators for other plants. They evolved specifically to attract animal pollinators through visual signals."
+      ],
+      "explanations_zh": [
+        "错误。花朵不需要吸收阳光——那是含有叶绿素的叶子的工作。花朵颜色是为了吸引传粉者，而非光合作用。",
+        "正确！鲜艳的花色吸引蜜蜂、蝴蝶和鸟类等传粉者。不同颜色吸引不同动物：蜜蜂看到紫外线图案，蜂鸟喜欢红色，蝴蝶喜欢鲜艳颜色。这种伙伴关系帮助植物繁殖。花越有吸引力，访问次数越多！",
+        "错误。虽然某些色素可能提供轻微的紫外线保护，但鲜艳花色的主要功能是吸引传粉者进行繁殖。",
+        "错误。花朵颜色不是给其他植物的健康指标。它们的进化专门是为了通过视觉信号吸引动物传粉者。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_003",
+      "question_en": "Why do tree leaves change color?",
+      "question_zh": "为什么树叶会变色？",
+
+      "choices_en": [
+        "Trees produce new pigments",
+        "Chlorophyll breaks down",
+        "Cold weather damages leaves",
+        "Less water turns them brown"
+      ],
+      "choices_zh": [
+        "树木产生新色素",
+        "叶绿素分解",
+        "寒冷损坏叶子",
+        "缺水让它们变褐"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Trees don't produce new pigments in fall. The yellow and orange colors were always there but hidden by green chlorophyll. Only red pigments are sometimes newly produced.",
+        "Correct! In fall, trees stop making chlorophyll as days get shorter. The green fades, revealing other pigments that were always there: yellow carotenoids and orange xanthophylls. Red and purple appear when sugars get trapped in leaves. This colorful show helps trees prepare for winter by recycling nutrients!",
+        "Wrong. Cold doesn't damage leaves to create colors. The color change is a controlled process where chlorophyll breaks down, revealing other pigments as trees prepare for winter.",
+        "Wrong. Water deficiency causes wilting and browning, not the beautiful fall colors. Autumn colors come from chlorophyll breakdown revealing other pigments as trees recycle nutrients."
+      ],
+      "explanations_zh": [
+        "错误。树木在秋天不会产生新色素。黄色和橙色一直都在，只是被绿色叶绿素掩盖。只有红色色素有时是新产生的。",
+        "正确！秋天日照缩短，树木停止制造叶绿素。绿色消退，显露出一直存在的其他色素：黄色类胡萝卜素和橙色叶黄素。当糖分被困在叶子中时出现红色和紫色。这场色彩盛宴帮助树木通过回收养分为冬季做准备！",
+        "错误。寒冷不会损坏叶子来产生颜色。颜色变化是一个受控过程，叶绿素分解，显露出其他色素，树木为冬季做准备。",
+        "错误。缺水会导致枯萎和变褐，而非美丽的秋色。秋天颜色来自叶绿素分解显露出其他色素，树木回收养分。"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

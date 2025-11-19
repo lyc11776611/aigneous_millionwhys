@@ -1,0 +1,102 @@
+{
+  "category_en": "Technology",
+  "category_zh": "技术",
+  "questions": [
+    {
+      "id": "tech_001",
+      "question_en": "How does WiFi work?",
+      "question_zh": "WiFi是如何工作的？",
+
+      "choices_en": [
+        "Sends data through wires",
+        "Uses radio waves for data",
+        "Bounces signals off satellites",
+        "Creates magnetic fields"
+      ],
+      "choices_zh": [
+        "通过电线传输数据",
+        "用无线电波传数据",
+        "从卫星反弹信号",
+        "产生磁场"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. WiFi is wireless technology - that's what the 'Wi' stands for. It uses radio waves through the air, not physical wires, to transmit data.",
+        "Correct! WiFi sends data using radio waves, similar to radio or TV broadcasts. Your router converts internet data into radio signals. Your device receives these signals and converts them back to data. It all happens incredibly fast. Walls and distance weaken the signal, which is why WiFi works better when you're closer to the router!",
+        "Wrong. WiFi doesn't use satellites - it operates locally between your device and router using radio waves. Satellite internet is a different technology.",
+        "Wrong. WiFi uses electromagnetic radio waves, not magnetic fields, to transmit data wirelessly between your device and the router."
+      ],
+      "explanations_zh": [
+        "错误。WiFi是无线技术——Wi就代表无线。它通过空气中的无线电波传输数据，而不是物理电线。",
+        "正确！WiFi使用无线电波传输数据，类似于广播或电视。你的路由器将互联网数据转换为无线电信号。你的设备接收这些信号并转换回数据。这一切发生得极快。墙壁和距离会削弱信号，这就是为什么离路由器越近WiFi越好！",
+        "错误。WiFi不使用卫星——它使用无线电波在设备和路由器之间本地运作。卫星互联网是不同的技术。",
+        "错误。WiFi使用电磁无线电波，而非磁场，在设备和路由器之间无线传输数据。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tech_002",
+      "question_en": "Why do batteries run out?",
+      "question_zh": "为什么电池会耗尽？",
+
+      "choices_en": [
+        "Electricity leaks out slowly",
+        "Chemical reactions deplete",
+        "They absorb surrounding energy",
+        "Internal parts wear down"
+      ],
+      "choices_zh": [
+        "电慢慢泄漏出去",
+        "化学反应耗尽",
+        "吸收周围能量",
+        "内部零件磨损"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Electricity doesn't leak out of batteries like water from a container. Batteries generate electricity through chemical reactions, which eventually get used up.",
+        "Correct! Batteries store energy in chemicals. When you use a battery, chemical reactions produce electricity. Over time, these chemicals get used up and can't react anymore. That's when the battery dies. Rechargeable batteries can reverse this reaction when plugged in, restoring the chemicals for reuse!",
+        "Wrong. Batteries don't absorb energy from their surroundings. They generate electricity by converting stored chemical energy through reactions that eventually deplete.",
+        "Wrong. While some battery degradation can occur, batteries primarily run out because the chemicals that produce electricity through reactions get depleted, not from mechanical wear."
+      ],
+      "explanations_zh": [
+        "错误。电不会像容器中的水一样从电池中泄漏出来。电池通过化学反应产生电力，这些反应最终会被耗尽。",
+        "正确！电池将能量储存在化学物质中。使用电池时，化学反应产生电力。随着时间推移，这些化学物质被用完，无法再反应了。这时电池就没电了。可充电电池插上电源后可以逆转这个反应，恢复化学物质供再次使用！",
+        "错误。电池不会从周围吸收能量。它们通过最终会耗尽的反应转化储存的化学能来产生电力。",
+        "错误。虽然某些电池退化可能发生，但电池主要是因为通过反应产生电力的化学物质耗尽而没电，而非机械磨损。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "tech_003",
+      "question_en": "How do touchscreens work?",
+      "question_zh": "触摸屏是如何工作的？",
+
+      "choices_en": [
+        "Detect pressure from fingers",
+        "Sense electrical field changes",
+        "Use heat from your touch",
+        "Cameras track finger position"
+      ],
+      "choices_zh": [
+        "检测手指压力",
+        "感应电场变化",
+        "利用触摸热量",
+        "摄像头跟踪手指"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Modern touchscreens don't rely on pressure. Old resistive screens did, but today's capacitive screens detect electrical changes from your finger's conductive properties.",
+        "Correct! Most touchscreens use capacitive technology. Your screen has a grid of sensors that create a tiny electrical field. When your finger touches it, your body absorbs some electricity, changing the field. The phone calculates exactly where you touched. That's why touchscreens don't work with gloves - they block the electrical connection!",
+        "Wrong. Touchscreens don't detect heat. They work by sensing changes in electrical fields when your conductive finger touches the screen.",
+        "Wrong. Touchscreens don't use cameras to track fingers. They have an electrical sensor grid beneath the glass that detects touch through field changes."
+      ],
+      "explanations_zh": [
+        "错误。现代触摸屏不依赖压力。旧的电阻屏确实如此，但今天的电容屏检测手指导电特性引起的电场变化。",
+        "正确！大多数触摸屏使用电容技术。屏幕有一个传感器网格，产生微小电场。当手指触摸时，身体会吸收一些电，改变电场。手机计算出你触摸的确切位置。这就是为什么戴手套触摸屏不起作用——手套阻断了电连接！",
+        "错误。触摸屏不检测热量。它们通过感应导电手指触摸屏幕时电场的变化来工作。",
+        "错误。触摸屏不使用摄像头跟踪手指。它们在玻璃下方有电传感器网格，通过电场变化检测触摸。"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

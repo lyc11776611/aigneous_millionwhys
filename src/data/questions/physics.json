@@ -1,0 +1,102 @@
+{
+  "category_en": "Physics in Daily Life",
+  "category_zh": "日常物理",
+  "questions": [
+    {
+      "id": "phys_001",
+      "question_en": "Why does ice float on water?",
+      "question_zh": "为什么冰会浮在水面上？",
+
+      "choices_en": [
+        "Ice is filled with air bubbles",
+        "Ice is less dense than water",
+        "Surface tension holds it up",
+        "Cold pushes things upward"
+      ],
+      "choices_zh": [
+        "冰里充满气泡",
+        "冰的密度比水小",
+        "表面张力托住它",
+        "寒冷推东西向上"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While ice can trap some air bubbles, this isn't why it floats. Pure ice without bubbles still floats because its molecular structure makes it less dense than water.",
+        "Correct! Ice is less dense than liquid water, which is unusual. When water freezes, molecules arrange in a crystal structure with more space between them. This makes ice about 9% less dense than water. So ice floats! This property is crucial for aquatic life, as frozen lakes stay liquid underneath.",
+        "Wrong. Surface tension can hold very light objects on water, but ice floats due to its lower density, not surface tension. Even large icebergs float.",
+        "Wrong. Temperature doesn't create an upward force. Ice floats because when water freezes into a crystal structure, it becomes less dense than liquid water."
+      ],
+      "explanations_zh": [
+        "错误。虽然冰可以困住一些气泡，但这不是它漂浮的原因。没有气泡的纯冰仍然会浮起，因为其分子结构使它比水的密度小。",
+        "正确！冰的密度比液态水小，这很不寻常。当水结冰时，分子排列成晶体结构，彼此间隔更大。这使冰的密度比水低约9%。所以冰会浮起来！这一特性对水生生物至关重要，因为结冰的湖泊底部保持液态。",
+        "错误。表面张力可以托住非常轻的物体，但冰漂浮是由于其密度较低，而非表面张力。即使是大型冰山也会漂浮。",
+        "错误。温度不会产生向上的力。冰漂浮是因为水冻结成晶体结构时，密度变得比液态水小。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_002",
+      "question_en": "Why do microwaves heat food?",
+      "question_zh": "为什么微波炉能加热食物？",
+
+      "choices_en": [
+        "They vibrate water molecules",
+        "They create chemical reactions",
+        "They compress air around food",
+        "They emit infrared heat"
+      ],
+      "choices_zh": [
+        "振动水分子",
+        "产生化学反应",
+        "压缩食物周围空气",
+        "发出红外热量"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Microwaves are electromagnetic waves that make water molecules vibrate rapidly. Food contains lots of water. When water molecules spin back and forth billions of times per second, this friction creates heat. That's why foods with more water heat faster, and why empty plates stay cool!",
+        "Wrong. Microwaves don't cause chemical reactions in food. They simply make water molecules vibrate, creating heat through friction. Cooking may cause chemical changes, but that's from the heat, not the microwaves directly.",
+        "Wrong. Microwaves don't work by compressing air. They penetrate food and directly cause water molecules inside to vibrate and generate heat.",
+        "Wrong. Microwaves and infrared are different types of electromagnetic radiation. Microwaves work by causing water molecules to vibrate, not by emitting infrared heat."
+      ],
+      "explanations_zh": [
+        "正确！微波是一种电磁波，能使水分子快速振动。食物含有大量水分。当水分子每秒来回旋转数十亿次时，这种摩擦产生热量。这就是为什么含水多的食物加热更快，空盘子却保持冷却！",
+        "错误。微波不会引起食物中的化学反应。它们只是使水分子振动，通过摩擦产生热量。烹饪可能导致化学变化，但那是热量造成的，不是微波直接作用。",
+        "错误。微波不是通过压缩空气工作的。它们穿透食物，直接使内部水分子振动并产生热量。",
+        "错误。微波和红外线是不同类型的电磁辐射。微波通过使水分子振动起作用，而不是发出红外热量。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_003",
+      "question_en": "Why does a ball bounce?",
+      "question_zh": "为什么球会弹起来？",
+
+      "choices_en": [
+        "Air inside pushes it back up",
+        "Stored energy from compression",
+        "Ground repels the ball",
+        "Gravity reverses briefly"
+      ],
+      "choices_zh": [
+        "内部空气推回去",
+        "压缩储存的能量",
+        "地面排斥球",
+        "重力短暂反转"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While air pressure in the ball helps maintain its shape, bouncing happens because the ball's material compresses and releases elastic energy, not just from air pressure.",
+        "Correct! When a ball hits the ground, it compresses and stores elastic energy, like a spring. This stored energy pushes the ball back to its original shape, launching it upward. Some energy is lost as heat and sound, so each bounce is lower. Materials like rubber store more energy and bounce better!",
+        "Wrong. The ground doesn't repel the ball. The bounce comes from elastic energy stored when the ball compresses on impact, then releases as it returns to its original shape.",
+        "Wrong. Gravity never reverses - it always pulls downward. The ball bounces up due to elastic energy released when the compressed ball springs back to its original shape."
+      ],
+      "explanations_zh": [
+        "错误。虽然球内气压有助于保持其形状，但弹跳是因为球的材料压缩并释放弹性能量，而不仅仅是气压作用。",
+        "正确！球撞击地面时会被压缩并储存弹性能量，就像弹簧一样。这种储存的能量推动球恢复原形，使其向上弹起。部分能量以热量和声音形式损失，所以每次弹跳都更低。橡胶等材料储能更多，弹性更好！",
+        "错误。地面不会排斥球。弹跳来自球在撞击时压缩储存的弹性能量，然后在恢复原形时释放。",
+        "错误。重力永远不会反转——它总是向下拉。球向上弹起是因为压缩的球弹回原形时释放的弹性能量。"
+      ],
+      "difficulty": "medium"
+    }
+  ]
+}

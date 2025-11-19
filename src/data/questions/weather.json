@@ -1,0 +1,102 @@
+{
+  "category_en": "Weather & Climate",
+  "category_zh": "天气与气候",
+  "questions": [
+    {
+      "id": "weather_001",
+      "question_en": "Why are clouds white but rain clouds dark?",
+      "question_zh": "为什么云是白色雨云是黑色？",
+
+      "choices_en": [
+        "Rain clouds have dirty water",
+        "Rain clouds are thicker",
+        "Different cloud materials",
+        "Rain clouds cast shadows"
+      ],
+      "choices_zh": [
+        "雨云含有脏水",
+        "雨云更厚",
+        "云的物质不同",
+        "雨云产生阴影"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Rain clouds aren't dirty - they're made of the same water droplets as white clouds. The darkness comes from their thickness, not contamination.",
+        "Correct! All clouds scatter sunlight, making them white. But rain clouds are much thicker and denser. As light passes through, most gets absorbed before reaching the bottom. Less light escapes, making them appear dark gray. The darker the cloud, the more water it holds, so rain is more likely!",
+        "Wrong. All clouds are made of water droplets or ice crystals. Rain clouds appear dark because they're thicker and denser, not because they're made of different materials.",
+        "Wrong. While rain clouds can cast shadows on the ground, their dark appearance is due to their thickness absorbing light as it passes through, not from shadows they create."
+      ],
+      "explanations_zh": [
+        "错误。雨云不是脏的——它们和白云一样由水滴组成。黑暗来自它们的厚度，而非污染。",
+        "正确！所有云都会散射阳光，呈现白色。但雨云厚得多、密得多。光线穿过时大部分在到达底部前被吸收。透出的光线少，看起来就是深灰色。云越黑，含水越多，下雨可能性越大！",
+        "错误。所有云都由水滴或冰晶组成。雨云看起来黑是因为它们更厚更密，而不是由不同材料组成。",
+        "错误。虽然雨云可以在地面投下阴影，但它们的黑暗外观是由于其厚度在光线穿过时吸收光线，而不是它们产生的阴影。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "weather_002",
+      "question_en": "Why does thunder come after lightning?",
+      "question_zh": "为什么先看到闪电后听到雷声？",
+
+      "choices_en": [
+        "Lightning is faster than sound",
+        "Light travels faster than sound",
+        "Thunder takes time to form",
+        "Our eyes react faster"
+      ],
+      "choices_zh": [
+        "闪电比声音快",
+        "光速比声速快",
+        "雷声需要时间形成",
+        "眼睛反应更快"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Lightning itself doesn't travel - it's a discharge. The difference is that we see the light instantly because light travels much faster than the sound (thunder) travels to reach us.",
+        "Correct! Lightning and thunder happen at the same instant. But light travels at 300,000 km/s while sound only travels at 0.3 km/s - about a million times slower! So you see the flash almost instantly, but the sound takes time to reach you. Count the seconds between flash and thunder, divide by 3 to get distance in kilometers!",
+        "Wrong. Thunder is created instantly when lightning heats the air. The delay is because sound travels much slower than light, not because thunder takes time to form.",
+        "Wrong. Our eyes and ears process signals at similar speeds. The delay between seeing lightning and hearing thunder is due to light traveling vastly faster than sound."
+      ],
+      "explanations_zh": [
+        "错误。闪电本身不会移动——它是一种放电。区别在于我们几乎立即看到光，因为光传播速度比声音（雷声）到达我们这里快得多。",
+        "正确！闪电和雷声同时发生。但光速是30万公里/秒，而声速只有0.3公里/秒——慢了约100万倍！所以你几乎立即看到闪光，但声音需要时间才能到达。数一下闪电和雷声间隔的秒数，除以3就是距离（公里）！",
+        "错误。雷声在闪电加热空气时立即产生。延迟是因为声音比光传播慢得多，而不是雷声需要时间形成。",
+        "错误。我们的眼睛和耳朵处理信号的速度相似。看到闪电和听到雷声之间的延迟是由于光传播速度远快于声音。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "weather_003",
+      "question_en": "Why is the sky blue?",
+      "question_zh": "为什么天空是蓝色的？",
+
+      "choices_en": [
+        "Ocean reflects blue light",
+        "Air scatters blue light more",
+        "Sun emits mostly blue light",
+        "Our eyes prefer blue"
+      ],
+      "choices_zh": [
+        "海洋反射蓝光",
+        "空气更多散射蓝光",
+        "太阳主要发出蓝光",
+        "眼睛偏好蓝色"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The sky is blue everywhere, even far from oceans. Actually, the ocean appears blue partly because it reflects the blue sky, not the other way around!",
+        "Correct! Sunlight is white, containing all colors. When it hits Earth's atmosphere, tiny air molecules scatter it. Blue light has shorter waves that scatter more easily than other colors. So blue light bounces everywhere in the sky while other colors pass through more directly, making the sky appear blue.",
+        "Wrong. The Sun emits white light containing all colors of the spectrum. The sky appears blue because Earth's atmosphere scatters blue light more than other colors.",
+        "Wrong. Our eyes can see all colors equally well. The sky looks blue because atmospheric molecules scatter blue wavelengths of sunlight more than other colors."
+      ],
+      "explanations_zh": [
+        "错误。即使远离海洋，天空也是蓝色的。实际上，海洋看起来蓝色部分是因为它反射蓝天，而不是相反！",
+        "正确！阳光是白色的，包含所有颜色。当它撞击地球大气层时，微小的空气分子将其散射。蓝光波长较短，比其他颜色更容易散射。所以蓝光在天空中到处反弹，而其他颜色更直接穿过，使天空呈现蓝色。",
+        "错误。太阳发出包含光谱所有颜色的白光。天空看起来蓝是因为地球大气层散射蓝光多于其他颜色。",
+        "错误。我们的眼睛可以同样好地看到所有颜色。天空看起来蓝是因为大气分子散射太阳光的蓝色波长多于其他颜色。"
+      ],
+      "difficulty": "medium"
+    }
+  ]
+}

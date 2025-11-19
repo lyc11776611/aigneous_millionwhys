@@ -1,0 +1,102 @@
+{
+  "category_en": "Economics & Money",
+  "category_zh": "经济与金融",
+  "questions": [
+    {
+      "id": "econ_001",
+      "question_en": "Why do prices go up over time?",
+      "question_zh": "为什么物价会持续上涨？",
+
+      "choices_en": [
+        "Stores want more profit",
+        "Money supply increases",
+        "Products get better quality",
+        "Demand always rises"
+      ],
+      "choices_zh": [
+        "商店想要更多利润",
+        "货币供应量增加",
+        "产品质量提高",
+        "需求总是上升"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While stores do want profit, competition usually prevents them from just raising prices freely. The real cause is that each dollar becomes less valuable over time.",
+        "Correct! This is called inflation. When governments print more money, each dollar becomes less valuable. With more money chasing the same goods, prices rise. A small amount of inflation is normal and healthy. But too much inflation means your money buys less over time. That's why $1 today buys less than in 1950!",
+        "Wrong. While quality improvements can affect some prices, this doesn't explain the general upward trend of all prices over time, including basic commodities.",
+        "Wrong. Demand fluctuates for different products and doesn't always rise. The consistent upward pressure on all prices comes from the increasing money supply reducing each dollar's value."
+      ],
+      "explanations_zh": [
+        "错误。虽然商店确实想要利润，但竞争通常会阻止它们随意提价。真正的原因是每一元钱随时间变得不那么值钱。",
+        "正确！这叫做通货膨胀。当政府印更多钞票时，每一元钱变得不那么值钱。更多钱追逐同样的商品，价格就上涨。少量通胀是正常和健康的。但过多通胀意味着你的钱随时间购买力下降。这就是为什么今天1元买的东西比1950年少！",
+        "错误。虽然质量提高会影响某些价格，但这不能解释所有价格随时间普遍上涨的趋势，包括基本商品。",
+        "错误。不同产品的需求会波动，并不总是上升。所有价格持续上涨的压力来自货币供应增加导致每一元钱的价值降低。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ_002",
+      "question_en": "Why do stock prices change?",
+      "question_zh": "为什么股价会波动？",
+
+      "choices_en": [
+        "Random computer algorithms",
+        "Buyer and seller agreement",
+        "Company decides the price",
+        "Government sets daily rates"
+      ],
+      "choices_zh": [
+        "随机计算机算法",
+        "买卖双方达成一致",
+        "公司决定价格",
+        "政府设定日率"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While algorithms do participate in trading, they're not random. They follow rules based on market data. Stock prices are ultimately determined by what buyers and sellers agree to pay.",
+        "Correct! Stock prices change based on supply and demand. When more people want to buy a stock, the price goes up. When more want to sell, it goes down. Investors buy or sell based on company performance, news, and future expectations. It's like an auction happening all day long!",
+        "Wrong. Companies don't set their own stock prices after the initial public offering. The market determines prices through buying and selling activity.",
+        "Wrong. In free markets, governments don't set stock prices. Prices are determined by buyers and sellers trading on exchanges."
+      ],
+      "explanations_zh": [
+        "错误。虽然算法确实参与交易，但它们不是随机的。它们遵循基于市场数据的规则。股价最终由买卖双方愿意支付的价格决定。",
+        "正确！股价根据供求关系变化。当更多人想买股票时，价格上涨。当更多人想卖时，价格下跌。投资者根据公司业绩、新闻和未来预期进行买卖。这就像一场全天进行的拍卖会！",
+        "错误。公司在首次公开募股后不会设定自己的股价。市场通过买卖活动决定价格。",
+        "错误。在自由市场中，政府不设定股价。价格由在交易所交易的买卖双方决定。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ_003",
+      "question_en": "Why do banks pay interest?",
+      "question_zh": "为什么银行支付利息？",
+
+      "choices_en": [
+        "Required by law",
+        "To attract deposits to lend",
+        "Reward loyal customers",
+        "Government gives them money"
+      ],
+      "choices_zh": [
+        "法律要求",
+        "吸引存款来放贷",
+        "奖励忠实客户",
+        "政府给他们钱"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While banking is regulated, laws don't require banks to pay interest. Banks pay interest as a business strategy to attract deposits.",
+        "Correct! Banks pay interest to attract your deposits. They then lend that money to others at higher interest rates. The difference is their profit. For example, they might pay you 2% but charge borrowers 6%. You get paid for letting them use your money, they profit from the spread!",
+        "Wrong. While customer loyalty matters, interest is not a reward program. It's a fundamental part of banking business model - paying for deposits to relend at higher rates.",
+        "Wrong. Governments don't give banks money to pay interest. Banks earn money from the interest rate spread between what they pay depositors and charge borrowers."
+      ],
+      "explanations_zh": [
+        "错误。虽然银行业受到监管，但法律并不要求银行支付利息。银行支付利息是一种吸引存款的商业策略。",
+        "正确！银行支付利息是为了吸引你的存款。然后他们以更高利率把钱借给别人。差额就是他们的利润。例如，他们可能付你2%，但向借款人收6%。你因让他们使用你的钱而获得报酬，他们从利差中获利！",
+        "错误。虽然客户忠诚度很重要，但利息不是奖励计划。它是银行商业模式的基本部分——为存款付费以便以更高利率再贷出。",
+        "错误。政府不给银行钱来支付利息。银行从向存款人支付的利率和向借款人收取的利率之间的利差中赚钱。"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}
