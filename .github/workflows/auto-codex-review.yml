@@ -1,0 +1,28 @@
+name: Auto Trigger Codex Review
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  trigger-codex:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: read
+
+    steps:
+      - name: Trigger Codex Review
+        uses: actions/github-script@v7
+        with:
+          # IMPORTANT: Use PERSONAL_GITHUB_TOKEN instead of GITHUB_TOKEN
+          # Codex ignores comments from github-actions[bot]
+          # You must create a Personal Access Token and add it as a secret
+          github-token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '@codex review this PR and give all comments'
+            })
