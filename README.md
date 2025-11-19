@@ -1,3 +1,4 @@
+TEST
 # AIgneous Million Whys - MVP Landing Page
 
 A minimal MVP landing page for AIgneous, featuring interactive volcano effects and knowledge graph visualizations.
