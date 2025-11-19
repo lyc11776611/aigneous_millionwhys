@@ -73,6 +73,17 @@
   }
 }
 
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
@@ -96,6 +107,10 @@
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient 3s ease infinite;
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.3s ease-out;
 }
 
 /* Infinite Scroll Animations - Pixel-perfect seamless loop */

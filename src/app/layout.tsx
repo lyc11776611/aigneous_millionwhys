@@ -4,8 +4,8 @@ import "./globals.css";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "AIgneous - Your AI Learning Companion",
-  description: "Turn scattered learning into knowledge maps. Learn deep, learn fast with your AI learning companion.",
+  title: "AIgneous - Your Curiosity Engine",
+  description: "Transform questions into understanding in 10 seconds. Micro-learning that turns daily curiosity into lasting knowledge.",
 };
 
 // Google Analytics 4 Configuration

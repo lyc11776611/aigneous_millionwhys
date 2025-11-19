@@ -7,7 +7,7 @@ interface InfiniteCarouselProps {
   direction: 'left' | 'right';
   speed?: number;
   className?: string;
-  onItemClick?: () => void;
+  onItemClick?: (item: string) => void;
   icon?: string;
 }
 
@@ -130,7 +130,7 @@ export default function InfiniteCarousel({
           <button
             key={`carousel-item-${index}`}
             className="flex-shrink-0 mx-2 p-[2px] rounded-2xl bg-gradient-to-br from-[#D94E33]/40 via-[#FF6B52]/30 to-orange-300/20 hover:from-[#D94E33]/60 hover:via-[#FF6B52]/50 hover:to-orange-300/40 transform hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-orange-200/50 hover:z-10"
-            onClick={onItemClick}
+            onClick={() => onItemClick && onItemClick(item)}
             style={{
               minWidth: '280px',
               flexShrink: 0,

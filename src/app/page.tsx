@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import ClickVolcanoEffect from './components/ClickVolcanoEffect';
 import KnowledgeGraphBackground from './components/KnowledgeGraphBackground';
 import LanguageSwitcher from './components/LanguageSwitcher';
@@ -12,14 +14,24 @@ import { getCarouselQuestions } from './lib/loadQuestions';
 export default function LandingPage() {
   const [isClient, setIsClient] = useState(false);
   const [activeFeature, setActiveFeature] = useState<number>(0);
+  const [showComingSoon, setShowComingSoon] = useState(false);
+  const router = useRouter();
   const { t, language } = useLanguage();
   const [allQuestions, setAllQuestions] = useState({
     en: { row1: [] as string[], row2: [] as string[] },
     zh: { row1: [] as string[], row2: [] as string[] }
   });
 
+  const handleQuestionClick = (question: string) => {
+    // Navigate to quiz with the question as a query parameter
+    const encodedQuestion = encodeURIComponent(question);
+    router.push(`/quiz?q=${encodedQuestion}`);
+  };
+
   const handleInPrep = () => {
-    alert('In prep~');
+    // Show coming soon message
+    setShowComingSoon(true);
+    setTimeout(() => setShowComingSoon(false), 2000);
   };
 
   // Load questions only once
@@ -50,6 +62,18 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/30 to-white relative overflow-hidden">
+      {/* Coming Soon Toast */}
+      {showComingSoon && (
+        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50 animate-fade-in-down">
+          <div className="bg-gray-800 text-white px-6 py-3 rounded-full shadow-lg flex items-center space-x-2">
+            <svg className="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="font-medium">{language === 'zh' ? '功能开发中...' : 'Coming Soon...'}</span>
+          </div>
+        </div>
+      )}
+
       {/* Enhanced click effect */}
       <ClickVolcanoEffect />
 
@@ -140,7 +164,7 @@ export default function LandingPage() {
                     direction="left"
                     speed={100}
                     className=""
-                    onItemClick={handleInPrep}
+                    onItemClick={handleQuestionClick}
                     icon="❓"
                   />
                 </div>
@@ -152,7 +176,7 @@ export default function LandingPage() {
                     direction="right"
                     speed={100}
                     className=""
-                    onItemClick={handleInPrep}
+                    onItemClick={handleQuestionClick}
                     icon="🤔"
                   />
                 </div>
@@ -164,14 +188,16 @@ export default function LandingPage() {
 
               {/* CTA Button */}
               <div className="flex items-center justify-center">
-                <button className="relative px-10 py-4 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] text-white font-semibold rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-orange-400/50 group">
-                  <span className="relative z-10 flex items-center space-x-2">
-                    <span>{t.hero.cta}</span>
-                    <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </span>
-                </button>
+                <Link href="/quiz" className="inline-block">
+                  <button className="relative px-10 py-4 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] text-white font-semibold rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-orange-400/50 group">
+                    <span className="relative z-10 flex items-center space-x-2">
+                      <span>{t.hero.cta}</span>
+                      <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </button>
+                </Link>
               </div>
 
               {/* Trust indicators */}
@@ -288,12 +314,14 @@ export default function LandingPage() {
                           {t.features.items[activeFeature].subtitle}
                         </p>
                         <div className="pt-4">
-                          <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] text-white rounded-full">
-                            <span className="font-medium">{t.features.tryNow}</span>
-                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
-                          </div>
+                          <Link href="/quiz" className="inline-block">
+                            <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] text-white rounded-full cursor-pointer hover:shadow-lg transition-shadow">
+                              <span className="font-medium">{t.features.tryNow}</span>
+                              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                              </svg>
+                            </div>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -387,10 +415,12 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <button className="px-10 py-4 bg-white text-[#D94E33] font-semibold rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-white/30">
-                {t.cta.startNow}
-              </button>
-              <button className="px-10 py-4 border-2 border-white/50 text-white font-semibold rounded-full hover:bg-white/10 hover:border-white transition-all duration-300">
+              <Link href="/quiz" className="inline-block">
+                <button className="px-10 py-4 bg-white text-[#D94E33] font-semibold rounded-full hover:shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-white/30">
+                  {t.cta.startNow}
+                </button>
+              </Link>
+              <button onClick={handleInPrep} className="px-10 py-4 border-2 border-white/50 text-white font-semibold rounded-full hover:bg-white/10 hover:border-white transition-all duration-300">
                 {t.cta.learnMore}
               </button>
             </div>
@@ -458,9 +488,7 @@ export default function LandingPage() {
 
             <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
               <p className="text-sm">
-                {t.footer.copyright.replace('AIgneous', '')}
-                <span className="text-white">AIgneous</span>
-                {t.footer.copyright.includes('。') ? '。' : '.'}
+                {t.footer.copyright}
               </p>
               <div className="flex space-x-6 mt-4 sm:mt-0">
                 <button onClick={handleInPrep} className="text-sm hover:text-white transition-colors">{t.footer.privacy}</button>
