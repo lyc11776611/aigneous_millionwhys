@@ -24,7 +24,7 @@ export default function InfiniteCarousel({
 }: InfiniteCarouselProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number>(0);
   const positionRef = useRef(0);
   const currentIndexRef = useRef(0);
 

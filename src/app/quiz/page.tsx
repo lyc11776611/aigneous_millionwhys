@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -108,7 +108,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-export default function QuizPage() {
+function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { language, setLanguage } = useLanguage();
@@ -147,11 +147,11 @@ export default function QuizPage() {
     // Check if a specific question was requested via URL parameter
     const requestedQuestion = searchParams.get('q');
     if (requestedQuestion) {
-      const decodedQuestion = decodeURIComponent(requestedQuestion);
+      // searchParams.get() already returns a decoded string, no need for decodeURIComponent
       // Find the question that matches the requested text (in either language)
       const matchingQuestion = shuffled.find(q =>
-        q.question_en.toLowerCase().includes(decodedQuestion.toLowerCase()) ||
-        q.question_zh.includes(decodedQuestion)
+        q.question_en.toLowerCase().includes(requestedQuestion.toLowerCase()) ||
+        q.question_zh.includes(requestedQuestion)
       );
 
       if (matchingQuestion) {
@@ -568,5 +568,20 @@ export default function QuizPage() {
         }
       `}</style>
     </div>
+  );
+}
+
+export default function QuizPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading quiz...</p>
+        </div>
+      </div>
+    }>
+      <QuizContent />
+    </Suspense>
   );
 }

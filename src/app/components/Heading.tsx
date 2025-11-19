@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 interface HeadingProps {
   children: ReactNode;
@@ -17,7 +17,7 @@ export default function Heading({
   subtitle,
   className = '',
 }: HeadingProps) {
-  const Tag = `h${level}` as keyof JSX.IntrinsicElements;
+  const Tag = `h${level}` as keyof React.JSX.IntrinsicElements;
 
   const sizes = {
     1: 'text-5xl sm:text-6xl lg:text-7xl',

@@ -12,7 +12,6 @@ import { useLanguage } from './contexts/LanguageContext';
 import { getCarouselQuestions } from './lib/loadQuestions';
 
 export default function LandingPage() {
-  const [isClient, setIsClient] = useState(false);
   const [activeFeature, setActiveFeature] = useState<number>(0);
   const [showComingSoon, setShowComingSoon] = useState(false);
   const router = useRouter();
@@ -36,8 +35,6 @@ export default function LandingPage() {
 
   // Load questions only once
   useEffect(() => {
-    setIsClient(true);
-
     // Load questions for both languages once
     const questionsEn = getCarouselQuestions('en');
     const questionsZh = getCarouselQuestions('zh');
@@ -55,10 +52,6 @@ export default function LandingPage() {
 
     return () => clearInterval(interval);
   }, [t.features.items.length]);
-
-  if (!isClient) {
-    return null;
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/30 to-white relative overflow-hidden">
