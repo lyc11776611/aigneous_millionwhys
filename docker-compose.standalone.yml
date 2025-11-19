@@ -1,0 +1,21 @@
+# Standalone Production Mode
+# Usage: ./docker-start.sh standalone
+# Access: http://localhost:8004
+# Features: Production build, no nginx dependency
+
+services:
+  millionwhys-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: millionwhys-frontend:standalone
+    container_name: millionwhys-frontend
+    ports:
+      - "${PORT:-8004}:${PORT:-8004}"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - PORT=${PORT:-8004}
+    env_file:
+      - .env
+    restart: unless-stopped

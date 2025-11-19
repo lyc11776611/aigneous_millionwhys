@@ -1,0 +1,31 @@
+# Production Mode with Nginx
+# Usage: ./docker-start.sh prod
+# Access: https://whys.igneous-ai.com (or your configured domain)
+# Features: Production build, nginx reverse proxy
+
+services:
+  millionwhys-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: millionwhys-frontend:production
+    container_name: millionwhys-frontend
+    ports:
+      - "${PORT:-8004}:${PORT:-8004}"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - PORT=${PORT:-8004}
+      - VIRTUAL_HOST=${VIRTUAL_HOST:-whys.igneous-ai.com}
+      - VIRTUAL_PORT=${PORT:-8004}
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - default
+      - nginx-proxy
+
+networks:
+  nginx-proxy:
+    external: true
+    name: nginx-proxy_proxy-network
