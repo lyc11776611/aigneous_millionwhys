@@ -37,6 +37,8 @@ const difficultyConfig = {
   hard: { label_en: 'Hard', label_zh: '困难', color: 'bg-red-100 text-red-700 border-red-300' },
 };
 
+// Emoji mapping based on English category keywords
+// Note: Always pass English category to this function for consistent matching
 const categoryEmojis: { [key: string]: string } = {
   'animal': '🐾',
   'astronomy': '🌌',
@@ -237,8 +239,9 @@ export default function QuizPage() {
 
   const isCorrect = showFeedback && selectedAnswer === currentQuestion.correct_answer;
   const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+  // Always use English category for emoji matching, regardless of UI language
   const questionEmoji = getCategoryEmoji(
-    language === 'en' ? currentQuestion.category_en || '' : currentQuestion.category_zh || '',
+    currentQuestion.category_en || '',
     language === 'en' ? currentQuestion.question_en : currentQuestion.question_zh
   );
 
@@ -400,20 +403,24 @@ export default function QuizPage() {
             )}
 
             {/* Action buttons - show after answering */}
-            {showFeedback && !allQuestionsCompleted && (
+            {showFeedback && (
               <div className="flex gap-3">
                 <button
                   onClick={() => setShowExplanationModal(true)}
-                  className="flex-1 bg-white border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 hover:shadow-lg transform hover:scale-105"
+                  className={`${
+                    allQuestionsCompleted ? 'w-full' : 'flex-1'
+                  } bg-white border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 hover:shadow-lg transform hover:scale-105`}
                 >
                   {language === 'en' ? '💡 View Explanation' : '💡 查看解答'}
                 </button>
-                <button
-                  onClick={handleNextQuestion}
-                  className="flex-1 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
-                >
-                  {language === 'en' ? 'Next →' : '下一题 →'}
-                </button>
+                {!allQuestionsCompleted && (
+                  <button
+                    onClick={handleNextQuestion}
+                    className="flex-1 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    {language === 'en' ? 'Next →' : '下一题 →'}
+                  </button>
+                )}
               </div>
             )}
           </div>
