@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect, Suspense } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useLanguage } from '../contexts/LanguageContext';
 
 // Import all question files
 import animalsData from '@/data/questions/animals.json';
@@ -14,8 +15,6 @@ import plantsData from '@/data/questions/plants.json';
 import psychologyData from '@/data/questions/psychology.json';
 import technologyData from '@/data/questions/technology.json';
 import weatherData from '@/data/questions/weather.json';
-
-type Language = 'en' | 'zh';
 
 interface Question {
   id: string;
@@ -109,13 +108,14 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-export default function QuizPage() {
+function QuizContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { language, setLanguage } = useLanguage();
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
-  const [language, setLanguage] = useState<Language>('en');
   const [answeredCount, setAnsweredCount] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [answeredQuestionIds, setAnsweredQuestionIds] = useState<Set<string>>(new Set());
@@ -144,16 +144,40 @@ export default function QuizPage() {
     const answeredIds = savedAnsweredIds ? new Set<string>(JSON.parse(savedAnsweredIds)) : new Set<string>();
     setAnsweredQuestionIds(answeredIds);
 
-    // Find first unanswered question
-    const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
-    if (unansweredQuestions.length > 0) {
-      setCurrentQuestion(unansweredQuestions[0]);
-    } else if (shuffled.length > 0) {
-      // All questions answered - show completion state
-      setAllQuestionsCompleted(true);
-      setCurrentQuestion(shuffled[0]);
+    // Check if a specific question was requested via URL parameter
+    const requestedQuestion = searchParams.get('q');
+    if (requestedQuestion) {
+      // searchParams.get() already returns a decoded string, no need for decodeURIComponent
+      // Find the question that matches the requested text (in either language)
+      const matchingQuestion = shuffled.find(q =>
+        q.question_en.toLowerCase().includes(requestedQuestion.toLowerCase()) ||
+        q.question_zh.includes(requestedQuestion)
+      );
+
+      if (matchingQuestion) {
+        setCurrentQuestion(matchingQuestion);
+      } else {
+        // If no matching question found, proceed with normal flow
+        const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
+        if (unansweredQuestions.length > 0) {
+          setCurrentQuestion(unansweredQuestions[0]);
+        } else if (shuffled.length > 0) {
+          setAllQuestionsCompleted(true);
+          setCurrentQuestion(shuffled[0]);
+        }
+      }
+    } else {
+      // Normal flow - find first unanswered question
+      const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
+      if (unansweredQuestions.length > 0) {
+        setCurrentQuestion(unansweredQuestions[0]);
+      } else if (shuffled.length > 0) {
+        // All questions answered - show completion state
+        setAllQuestionsCompleted(true);
+        setCurrentQuestion(shuffled[0]);
+      }
     }
-  }, []);
+  }, [searchParams]);
 
   const handleSelectAnswer = (index: number) => {
     if (showFeedback || !currentQuestion) return; // Prevent changing answer after submission
@@ -288,7 +312,7 @@ export default function QuizPage() {
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors font-medium text-gray-700"
             >
               <span className="text-sm">🌐</span>
-              <span className="text-sm">{language === 'en' ? '中文' : 'EN'}</span>
+              <span className="text-sm">{language === 'en' ? 'EN' : '中文'}</span>
             </button>
           </div>
         </div>
@@ -544,5 +568,20 @@ export default function QuizPage() {
         }
       `}</style>
     </div>
+  );
+}
+
+export default function QuizPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading quiz...</p>
+        </div>
+      </div>
+    }>
+      <QuizContent />
+    </Suspense>
   );
 }
