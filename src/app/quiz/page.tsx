@@ -116,45 +116,112 @@ export default function QuizPage() {
   const [language, setLanguage] = useState<Language>('en');
   const [answeredCount, setAnsweredCount] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
+  const [answeredQuestionIds, setAnsweredQuestionIds] = useState<Set<string>>(new Set());
+  const [allQuestionsCompleted, setAllQuestionsCompleted] = useState(false);
+  const [showExplanationModal, setShowExplanationModal] = useState(false);
 
-  // Initialize questions on mount
+  // Initialize questions and load saved stats from localStorage
   useEffect(() => {
     const questions = loadAllQuestions();
     const shuffled = shuffleArray(questions);
     setAllQuestions(shuffled);
-    setCurrentQuestion(shuffled[0]);
+
+    // Load saved statistics from localStorage
+    const savedAnsweredCount = localStorage.getItem('quiz_answered_count');
+    const savedCorrectCount = localStorage.getItem('quiz_correct_count');
+    const savedAnsweredIds = localStorage.getItem('quiz_answered_ids');
+
+    if (savedAnsweredCount) {
+      setAnsweredCount(parseInt(savedAnsweredCount, 10));
+    }
+    if (savedCorrectCount) {
+      setCorrectCount(parseInt(savedCorrectCount, 10));
+    }
+
+    // Load answered question IDs
+    const answeredIds = savedAnsweredIds ? new Set<string>(JSON.parse(savedAnsweredIds)) : new Set<string>();
+    setAnsweredQuestionIds(answeredIds);
+
+    // Find first unanswered question
+    const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
+    if (unansweredQuestions.length > 0) {
+      setCurrentQuestion(unansweredQuestions[0]);
+    } else if (shuffled.length > 0) {
+      // All questions answered - show completion state
+      setAllQuestionsCompleted(true);
+      setCurrentQuestion(shuffled[0]);
+    }
   }, []);
 
   const handleSelectAnswer = (index: number) => {
-    if (showFeedback) return; // Prevent changing answer after submission
+    if (showFeedback || !currentQuestion) return; // Prevent changing answer after submission
+
+    const newAnsweredCount = answeredCount + 1;
+    const isCorrect = index === currentQuestion.correct_answer;
+    const newCorrectCount = isCorrect ? correctCount + 1 : correctCount;
+
+    // Add current question ID to answered set
+    const newAnsweredIds = new Set(answeredQuestionIds);
+    newAnsweredIds.add(currentQuestion.id);
 
     setSelectedAnswer(index);
     setShowFeedback(true);
-    setAnsweredCount(answeredCount + 1);
+    setAnsweredCount(newAnsweredCount);
+    setCorrectCount(newCorrectCount);
+    setAnsweredQuestionIds(newAnsweredIds);
 
-    if (index === currentQuestion?.correct_answer) {
-      setCorrectCount(correctCount + 1);
+    // Save statistics to localStorage
+    localStorage.setItem('quiz_answered_count', newAnsweredCount.toString());
+    localStorage.setItem('quiz_correct_count', newCorrectCount.toString());
+    localStorage.setItem('quiz_answered_ids', JSON.stringify(Array.from(newAnsweredIds)));
+
+    // Check if all questions are now answered
+    if (newAnsweredIds.size >= allQuestions.length) {
+      setAllQuestionsCompleted(true);
     }
   };
 
   const handleNextQuestion = () => {
-    const nextIndex = (answeredCount % allQuestions.length);
+    // Get unanswered questions
+    const unansweredQuestions = allQuestions.filter(q => !answeredQuestionIds.has(q.id));
 
-    // If we've gone through all questions, reshuffle
-    if (nextIndex === 0 && answeredCount > 0) {
-      const reshuffled = shuffleArray(allQuestions);
-      setAllQuestions(reshuffled);
-      setCurrentQuestion(reshuffled[0]);
+    if (unansweredQuestions.length > 0) {
+      // Pick a random unanswered question
+      const randomIndex = Math.floor(Math.random() * unansweredQuestions.length);
+      setCurrentQuestion(unansweredQuestions[randomIndex]);
+      setAllQuestionsCompleted(false);
     } else {
-      setCurrentQuestion(allQuestions[nextIndex]);
+      // All questions answered - keep showing completion state
+      setAllQuestionsCompleted(true);
     }
 
     setSelectedAnswer(null);
     setShowFeedback(false);
+    setShowExplanationModal(false);
   };
 
   const toggleLanguage = () => {
     setLanguage(language === 'en' ? 'zh' : 'en');
+  };
+
+  const handleResetStats = () => {
+    if (confirm(language === 'en' ? 'Reset all statistics and start fresh?' : '重置所有统计数据并重新开始？')) {
+      setAnsweredCount(0);
+      setCorrectCount(0);
+      setAnsweredQuestionIds(new Set());
+      setAllQuestionsCompleted(false);
+      localStorage.removeItem('quiz_answered_count');
+      localStorage.removeItem('quiz_correct_count');
+      localStorage.removeItem('quiz_answered_ids');
+
+      // Pick a random question to restart
+      if (allQuestions.length > 0) {
+        const randomIndex = Math.floor(Math.random() * allQuestions.length);
+        setCurrentQuestion(allQuestions[randomIndex]);
+        setSelectedAnswer(null);
+        setShowFeedback(false);
+      }
+    }
   };
 
   if (!currentQuestion) {
@@ -190,14 +257,24 @@ export default function QuizPage() {
               >
                 🏠
               </button>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 flex-wrap">
                 <span className="text-lg font-bold text-gray-900">
-                  🎯 {answeredCount} {language === 'en' ? 'answered' : '已答'}
+                  🎯 {answeredQuestionIds.size}/{allQuestions.length} {language === 'en' ? 'completed' : '已完成'}
                 </span>
                 {answeredCount > 0 && (
-                  <span className="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
-                    {accuracy}% {language === 'en' ? 'correct' : '正确率'}
-                  </span>
+                  <>
+                    <span className="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
+                      {accuracy}% {language === 'en' ? 'correct' : '正确率'}
+                    </span>
+                    <button
+                      onClick={handleResetStats}
+                      className="text-gray-400 hover:text-gray-600 transition-colors"
+                      title={language === 'en' ? 'Reset statistics' : '重置统计'}
+                      aria-label={language === 'en' ? 'Reset statistics' : '重置统计'}
+                    >
+                      🔄
+                    </button>
+                  </>
                 )}
               </div>
             </div>
@@ -302,21 +379,72 @@ export default function QuizPage() {
               )}
             </div>
 
-            {/* Feedback section - expands when answered */}
-            {showFeedback && selectedAnswer !== null && (
-              <div
-                className={`mb-6 p-6 rounded-2xl border-2 transition-all duration-500 ease-out transform ${
-                  isCorrect
-                    ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-200 animate-slideUp'
-                    : 'bg-gradient-to-r from-red-50 to-pink-50 border-red-200 animate-slideUp'
-                }`}
-              >
+            {/* Completion message */}
+            {allQuestionsCompleted && (
+              <div className="mb-6 p-6 rounded-2xl bg-gradient-to-r from-purple-50 to-pink-50 border-2 border-purple-200 text-center">
+                <div className="text-5xl mb-3">🎉</div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                  {language === 'en' ? 'All Questions Completed!' : '所有题目已完成！'}
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  {language === 'en'
+                    ? `You've answered all ${allQuestions.length} questions! Click reset to start again.`
+                    : `你已经完成了全部 ${allQuestions.length} 道题目！点击重置按钮重新开始。`}
+                </p>
+                <p className="text-sm text-gray-600">
+                  {language === 'en'
+                    ? `Total: ${answeredCount} | Accuracy: ${accuracy}%`
+                    : `总计：${answeredCount} 题 | 正确率：${accuracy}%`}
+                </p>
+              </div>
+            )}
+
+            {/* Action buttons - show after answering */}
+            {showFeedback && !allQuestionsCompleted && (
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowExplanationModal(true)}
+                  className="flex-1 bg-white border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 hover:shadow-lg transform hover:scale-105"
+                >
+                  {language === 'en' ? '💡 View Explanation' : '💡 查看解答'}
+                </button>
+                <button
+                  onClick={handleNextQuestion}
+                  className="flex-1 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  {language === 'en' ? 'Next →' : '下一题 →'}
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </main>
+
+      {/* Explanation Modal */}
+      {showExplanationModal && selectedAnswer !== null && (
+        <div
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-fadeIn"
+          onClick={() => setShowExplanationModal(false)}
+        >
+          <div
+            className="bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto animate-scaleIn"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div
+              className={`p-6 rounded-t-3xl ${
+                isCorrect
+                  ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-b-2 border-green-200'
+                  : 'bg-gradient-to-r from-red-50 to-pink-50 border-b-2 border-red-200'
+              }`}
+            >
+              <div className="flex items-start justify-between">
                 <div className="flex items-start gap-3">
-                  <span className="text-3xl flex-shrink-0">
+                  <span className="text-4xl flex-shrink-0">
                     {isCorrect ? '✅' : 'ℹ️'}
                   </span>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-1">
                       {isCorrect
                         ? language === 'en'
                           ? 'Correct! 🎉'
@@ -325,32 +453,45 @@ export default function QuizPage() {
                         ? "Let's learn together! 💪"
                         : '一起学习吧！💪'}
                     </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {language === 'en'
-                        ? currentQuestion.explanations_en[selectedAnswer]
-                        : currentQuestion.explanations_zh[selectedAnswer]}
+                    <p className="text-sm text-gray-600">
+                      {language === 'en' ? currentQuestion.question_en : currentQuestion.question_zh}
                     </p>
                   </div>
                 </div>
-              </div>
-            )}
-
-            {/* Action button - only show after answering */}
-            {showFeedback && (
-              <div className="flex justify-center">
                 <button
-                  onClick={handleNextQuestion}
-                  className="w-full bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  onClick={() => setShowExplanationModal(false)}
+                  className="text-gray-400 hover:text-gray-600 transition-colors text-3xl leading-none"
+                  aria-label="Close"
                 >
-                  {language === 'en' ? 'Next Question →' : '下一题 →'}
+                  ×
                 </button>
               </div>
-            )}
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6">
+              <h4 className="text-lg font-bold text-gray-900 mb-3">
+                {language === 'en' ? 'Explanation' : '解释'}
+              </h4>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                {language === 'en'
+                  ? currentQuestion.explanations_en[selectedAnswer]
+                  : currentQuestion.explanations_zh[selectedAnswer]}
+              </p>
+
+              {/* Close button */}
+              <button
+                onClick={() => setShowExplanationModal(false)}
+                className="w-full bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                {language === 'en' ? 'Got it!' : '明白了！'}
+              </button>
+            </div>
           </div>
         </div>
-      </main>
+      )}
 
-      {/* Add slide-up animation */}
+      {/* Add animations */}
       <style jsx>{`
         @keyframes slideUp {
           from {
@@ -363,8 +504,36 @@ export default function QuizPage() {
           }
         }
 
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        @keyframes scaleIn {
+          from {
+            opacity: 0;
+            transform: scale(0.9);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+
         .animate-slideUp {
           animation: slideUp 0.4s ease-out;
+        }
+
+        .animate-fadeIn {
+          animation: fadeIn 0.3s ease-out;
+        }
+
+        .animate-scaleIn {
+          animation: scaleIn 0.3s ease-out;
         }
       `}</style>
     </div>
