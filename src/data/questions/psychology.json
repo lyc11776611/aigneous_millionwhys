@@ -1,0 +1,102 @@
+{
+  "category_en": "Psychology & Behavior",
+  "category_zh": "心理与行为",
+  "questions": [
+    {
+      "id": "psych_001",
+      "question_en": "Why does time feel faster as we age?",
+      "question_zh": "为什么年纪越大时间过得越快？",
+
+      "choices_en": [
+        "Our brain slows down",
+        "Each year is smaller part of life",
+        "We have fewer memories",
+        "We sleep less as we age"
+      ],
+      "choices_zh": [
+        "大脑运转变慢",
+        "每年占生命比例更小",
+        "记忆变少了",
+        "睡眠时间减少"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Brain processing doesn't slow down in a way that makes time feel faster. The perception change is due to proportional time and fewer novel experiences, not processing speed.",
+        "Correct! At age 5, one year is 20% of your life. At 50, it's only 2%. Also, children experience many 'firsts' that create detailed memories, making time feel longer. Adults have routine lives with fewer novel experiences, so our brains encode less detail and time seems to fly.",
+        "Wrong. We don't have fewer memories as we age - we actually accumulate more total memories. The issue is that routine adult life creates fewer distinctive, detailed memories than childhood's many novel experiences.",
+        "Wrong. Sleep changes don't explain the perception of time speeding up. It's about each year being a smaller fraction of your total life and having fewer novel experiences that create detailed memories."
+      ],
+      "explanations_zh": [
+        "错误。大脑处理速度的减慢不会让时间感觉更快。感知变化是由于比例时间和更少的新鲜体验，而不是处理速度。",
+        "正确！5岁时，一年占生命的20%。50岁时只占2%。此外，儿童经历许多第一次，创造详细记忆，使时间感觉更长。成年人生活常规化，新鲜体验较少，大脑编码的细节更少，时间就似乎飞逝了。",
+        "错误。我们随着年龄增长记忆并没有变少——实际上积累了更多总记忆。问题是常规成人生活创造的独特、详细记忆比童年的众多新鲜体验要少。",
+        "错误。睡眠变化不能解释时间加速的感知。这是因为每年在你总生命中占比更小，以及更少能创造详细记忆的新鲜体验。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_002",
+      "question_en": "Why do we yawn when tired?",
+      "question_zh": "为什么累了会打哈欠？",
+
+      "choices_en": [
+        "To get more oxygen",
+        "To cool the brain",
+        "To stretch muscles",
+        "To signal sleepiness"
+      ],
+      "choices_zh": [
+        "为了获得更多氧气",
+        "为了给大脑降温",
+        "为了拉伸肌肉",
+        "为了表示困倦"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. This is a common misconception. Research shows blood oxygen levels don't change significantly with yawning. The current theory focuses on brain temperature regulation.",
+        "Correct! Recent research suggests yawning helps cool your brain. When tired, your brain heats up slightly. Yawning brings cool air into your nasal and oral cavities, which cools blood going to the brain. This helps keep your brain at optimal temperature for functioning. That's why yawning often happens when drowsy or in warm rooms.",
+        "Wrong. While yawning does involve jaw movement, muscle stretching is not its primary purpose. The main function appears to be cooling the brain through air circulation.",
+        "Wrong. While yawning is associated with tiredness, it's not a social signal. It's a physiological response to help cool the brain when it's overheated from fatigue or warm conditions."
+      ],
+      "explanations_zh": [
+        "错误。这是一个常见误解。研究显示打哈欠不会显著改变血氧水平。目前的理论集中在大脑温度调节上。",
+        "正确！最新研究表明打哈欠有助于给大脑降温。疲劳时大脑会轻微升温。打哈欠将凉爽空气带入鼻腔和口腔，冷却流向大脑的血液，帮助大脑保持最佳工作温度。这就是为什么在困倦或闷热环境中容易打哈欠。",
+        "错误。虽然打哈欠确实涉及下颌运动，但拉伸肌肉不是其主要目的。主要功能似乎是通过空气循环给大脑降温。",
+        "错误。虽然打哈欠与疲倦有关，但它不是社交信号。这是一种生理反应，帮助大脑在因疲劳或温暖条件过热时降温。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_003",
+      "question_en": "Why do babies cry so much?",
+      "question_zh": "为什么婴儿总是哭？",
+
+      "choices_en": [
+        "They're manipulative",
+        "It's their only communication",
+        "They have more pain",
+        "Their brains are underdeveloped"
+      ],
+      "choices_zh": [
+        "他们很爱操控人",
+        "这是唯一的沟通方式",
+        "他们更容易疼痛",
+        "大脑发育不完全"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Babies aren't manipulative - they lack the cognitive development for manipulation. Crying is an honest signal of needs, not a calculated attempt to control caregivers.",
+        "Correct! Babies can't talk, walk, or point to tell you what they need. Crying is their primary way to communicate hunger, discomfort, tiredness, or needing affection. It's an evolutionary survival mechanism that ensures caregivers respond quickly to their needs. As babies develop language and motor skills, crying decreases significantly.",
+        "Wrong. Babies don't experience more pain than adults. They cry frequently because crying is their only way to communicate all needs, not just pain.",
+        "Wrong. While baby brains are developing, this isn't why they cry. Crying is a communication tool they use because they can't yet use language or gestures to express needs."
+      ],
+      "explanations_zh": [
+        "错误。婴儿不会操控人——他们缺乏操控所需的认知发展。哭泣是需求的诚实信号，而非控制照顾者的精心计算。",
+        "正确！婴儿不会说话、走路或用手指表达需求。哭泣是他们表达饥饿、不适、疲倦或需要关爱的主要方式。这是一种进化出的生存机制，确保照顾者快速响应他们的需要。随着语言和运动能力发展，哭泣会显著减少。",
+        "错误。婴儿经历的疼痛并不比成人多。他们频繁哭泣是因为哭泣是他们表达所有需求的唯一方式，而不仅仅是疼痛。",
+        "错误。虽然婴儿大脑正在发育，但这不是他们哭泣的原因。哭泣是一种沟通工具，因为他们还不能用语言或手势表达需求而使用。"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}

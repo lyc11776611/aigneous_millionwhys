@@ -1,0 +1,99 @@
+{
+  "category_en": "Animal Behavior",
+  "category_zh": "动物行为",
+  "questions": [
+    {
+      "id": "anim_001",
+      "question_en": "Why do cats purr?",
+      "question_zh": "为什么猫会发出呼噜声？",
+      "choices_en": [
+        "Only when they're happy",
+        "For comfort and healing",
+        "To call their kittens",
+        "Breathing through their nose"
+      ],
+      "choices_zh": [
+        "只在开心时",
+        "为了安慰和治愈",
+        "呼叫小猫",
+        "用鼻子呼吸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While cats do purr when happy, they also purr when scared, hurt, or giving birth. Purring serves multiple purposes beyond just expressing happiness.",
+        "Correct! Cats purr for many reasons: comfort, healing, and self-soothing. The vibrations (25-150 Hz) may help heal bones and reduce pain. Mother cats purr to calm kittens, and injured cats purr to self-soothe. It's a multi-purpose comfort tool!",
+        "Wrong. While mother cats do use purring to communicate with kittens, it's not specifically to call them. Cats use different vocalizations like meowing or chirping to call their young.",
+        "Wrong. Purring is not caused by breathing through the nose. It's produced by rapid vibration of muscles in the larynx (voice box), causing the vocal cords to vibrate as the cat breathes in and out."
+      ],
+      "explanations_zh": [
+        "错误。虽然猫在开心时确实会呼噜，但它们在害怕、受伤或分娩时也会呼噜。呼噜声不仅仅用于表达快乐，还有多种用途。",
+        "正确！猫为了安慰、治愈和自我安抚而发出呼噜声。这种振动（25-150赫兹）可能有助于骨骼愈合和减轻疼痛。母猫用呼噜声安抚小猫，受伤的猫用它自我安慰。这是多用途安慰工具！",
+        "错误。虽然母猫确实用呼噜声与小猫交流，但这不是专门用来呼叫它们的。猫会用不同的叫声如喵叫或啾啾声来呼叫幼崽。",
+        "错误。呼噜声不是通过鼻子呼吸产生的。它是由喉部（声带）肌肉快速振动产生的，在猫吸气和呼气时使声带振动。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_002",
+      "question_en": "Why do dogs wag their tails?",
+      "question_zh": "为什么狗会摇尾巴？",
+      "choices_en": [
+        "Always means they're happy",
+        "Shows different emotions",
+        "To balance when running",
+        "Keep flies away"
+      ],
+      "choices_zh": [
+        "总是代表开心",
+        "表达不同情绪",
+        "跑步时保持平衡",
+        "赶走苍蝇"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Tail wagging doesn't always mean happiness. Fast, stiff wagging can indicate aggression or high arousal. A tucked, slow wag might show fear. It's important to read the whole body language.",
+        "Correct! Tail wagging shows various emotions. A relaxed, wide wag means friendly. Fast, stiff wagging can mean arousal or aggression. Direction matters: wagging right often shows positive feelings, left shows negative. It's body language we can read to understand their mood!",
+        "Wrong. While the tail does help with balance, that's not why dogs wag it. Wagging is primarily for communication of emotions. The balance function is separate from the wagging behavior.",
+        "Wrong. Dogs don't wag their tails to keep flies away. That's more common in horses and cows. Dogs wag specifically to communicate emotions and intentions to other animals and humans."
+      ],
+      "explanations_zh": [
+        "错误。摇尾巴并不总是代表开心。快速僵硬的摇摆可能表示攻击性或高度兴奋。夹着尾巴缓慢摇摆可能表示恐惧。重要的是要观察整个肢体语言。",
+        "正确！摇尾巴表达各种情绪。放松宽幅的摇摆表示友好。快速僵硬的摇摆可能意味着兴奋或攻击性。方向很重要：向右摇通常表示积极情绪，向左表示消极。这是我们能读懂的肢体语言！",
+        "错误。虽然尾巴确实有助于保持平衡，但这不是狗摇尾巴的原因。摇尾巴主要是为了沟通情绪。平衡功能与摇尾巴行为是分开的。",
+        "错误。狗不会摇尾巴来赶走苍蝇。这在马和牛中更常见。狗摇尾巴专门是为了向其他动物和人类传达情绪和意图。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_003",
+      "question_en": "Why do birds migrate?",
+      "question_zh": "为什么鸟类会迁徙？",
+      "choices_en": [
+        "Escape cold weather only",
+        "Follow food sources seasonally",
+        "Avoid predators",
+        "Find better nesting sites"
+      ],
+      "choices_zh": [
+        "只为逃避寒冷",
+        "季节性追随食物来源",
+        "躲避捕食者",
+        "寻找更好巢穴"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Temperature is a factor, but not the main reason. Some Arctic birds migrate to Antarctica, still experiencing cold. It's about food availability, not just escaping cold.",
+        "Correct! Birds migrate primarily to follow seasonal food sources. In winter, insects and plants become scarce in cold regions. Birds fly to warmer areas with abundant food. Some Arctic birds even migrate to Antarctica, following summer and food! This journey requires enormous energy but ensures survival.",
+        "Wrong. Predator avoidance is not the primary driver of migration. Predators exist in both breeding and wintering grounds. The energy cost of migration would be too high if it were just about avoiding predators.",
+        "Wrong. While birds do seek good nesting sites, they typically return to the same breeding grounds each year. Migration is driven by seasonal food availability, not the search for better nesting locations."
+      ],
+      "explanations_zh": [
+        "错误。温度是一个因素，但不是主要原因。一些北极鸟类迁徙到南极，仍然经历寒冷。这关乎食物供应，而不仅仅是逃避寒冷。",
+        "正确！鸟类迁徙主要是为了追随季节性食物来源。冬季寒冷地区昆虫和植物变得稀缺。鸟儿飞往食物丰富的温暖地区。有些北极鸟类甚至迁徙到南极，追随夏季和食物！这段旅程需要巨大能量但确保生存。",
+        "错误。躲避捕食者不是迁徙的主要驱动力。在繁殖地和越冬地都有捕食者。如果只是为了躲避捕食者，迁徙的能量成本会太高。",
+        "错误。虽然鸟类确实寻找好的巢址，但它们通常每年返回相同的繁殖地。迁徙是由季节性食物供应驱动的，而不是寻找更好的巢穴位置。"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

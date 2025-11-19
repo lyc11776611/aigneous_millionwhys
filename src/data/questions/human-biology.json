@@ -1,0 +1,102 @@
+{
+  "category_en": "Human Biology",
+  "category_zh": "人体生物学",
+  "questions": [
+    {
+      "id": "bio_001",
+      "question_en": "Why do we get hiccups?",
+      "question_zh": "为什么会打嗝？",
+
+      "choices_en": [
+        "Stomach sends air back up",
+        "Diaphragm muscle spasms",
+        "Lungs expand too quickly",
+        "Food stuck in throat"
+      ],
+      "choices_zh": [
+        "胃把空气送回来",
+        "横膈膜肌肉痉挛",
+        "肺部扩张太快",
+        "食物卡在喉咙"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While the stomach can send up air as burps, hiccups are caused by the diaphragm muscle below the lungs, not stomach activity.",
+        "Correct! Hiccups happen when your diaphragm muscle suddenly contracts. This muscle sits below your lungs and controls breathing. When it spasms, you quickly suck in air and your vocal cords snap shut, making the 'hic' sound. Common triggers include eating too fast, carbonated drinks, or sudden temperature changes.",
+        "Wrong. Hiccups aren't caused by lung expansion. They result from involuntary contractions of the diaphragm muscle that controls breathing.",
+        "Wrong. Food stuck in the throat would cause choking or coughing, not hiccups. Hiccups come from diaphragm spasms below the lungs."
+      ],
+      "explanations_zh": [
+        "错误。虽然胃可以通过打嗝释放空气，但打嗝是由肺部下方的横膈膜肌肉引起的，而不是胃的活动。",
+        "正确！打嗝是因为横膈膜肌肉突然收缩。这块肌肉位于肺部下方，控制呼吸。当它痉挛时，你会快速吸气，声带突然关闭，发出嗝声。常见诱因包括吃太快、碳酸饮料或温度突变。",
+        "错误。打嗝不是由肺部扩张引起的。它源于控制呼吸的横膈膜肌肉的非自主收缩。",
+        "错误。食物卡在喉咙会引起窒息或咳嗽，而不是打嗝。打嗝来自肺部下方的横膈膜痉挛。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_002",
+      "question_en": "Why do we feel hungry?",
+      "question_zh": "为什么会感到饿？",
+
+      "choices_en": [
+        "Stomach is completely empty",
+        "Blood sugar drops trigger brain",
+        "Digestive system needs work",
+        "Body temperature decreases"
+      ],
+      "choices_zh": [
+        "胃完全空了",
+        "血糖下降触发大脑",
+        "消化系统需要工作",
+        "体温下降"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. You can feel hungry even with food still in your stomach. Hunger is controlled by blood sugar levels detected by the brain, not stomach emptiness.",
+        "Correct! Hunger is controlled by your brain, not your stomach. When blood sugar levels drop, your brain detects this change. It releases hormones like ghrelin that signal hunger. Your stomach may growl, but that's just movement, not emptiness. This system ensures your body gets energy before reserves run too low.",
+        "Wrong. The digestive system doesn't need to work constantly. Hunger signals come from the brain detecting low blood sugar, not from the digestive system needing activity.",
+        "Wrong. While body temperature affects metabolism, hunger is primarily triggered by the brain detecting drops in blood sugar levels, not temperature changes."
+      ],
+      "explanations_zh": [
+        "错误。即使胃里还有食物，你也可能感到饥饿。饥饿由大脑检测到的血糖水平控制，而不是胃的空虚程度。",
+        "正确！饥饿由大脑而非胃控制。当血糖水平下降时，大脑检测到这一变化，释放饥饿素等激素发出饥饿信号。胃可能咕咕叫，但那只是蠕动而非空虚。这个系统确保身体在储备耗尽前获得能量。",
+        "错误。消化系统不需要持续工作。饥饿信号来自大脑检测到低血糖，而不是消化系统需要活动。",
+        "错误。虽然体温会影响新陈代谢，但饥饿主要由大脑检测血糖水平下降触发，而不是温度变化。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_003",
+      "question_en": "Why do we get goosebumps?",
+      "question_zh": "为什么会起鸡皮疙瘩？",
+
+      "choices_en": [
+        "To generate body heat",
+        "Reflex from furry ancestors",
+        "Blood vessels contracting",
+        "Skin cells multiplying"
+      ],
+      "choices_zh": [
+        "产生体温",
+        "来自毛茸祖先的反射",
+        "血管收缩",
+        "皮肤细胞增殖"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While goosebumps occur when cold, they don't actually generate much heat in humans due to our sparse body hair. It's an ineffective evolutionary remnant.",
+        "Correct! Goosebumps are an evolutionary leftover from our furry ancestors. Tiny muscles raise our hairs, which would trap warm air in thick fur. But humans have little body hair, so it barely helps us stay warm. We still get this reflex when cold or experiencing strong emotions like fear or awe!",
+        "Wrong. Blood vessel constriction is a separate response to cold. Goosebumps are caused by tiny muscles raising hairs, an evolutionary reflex from when we had thick fur.",
+        "Wrong. Goosebumps don't involve skin cell multiplication. They're caused by tiny muscles at hair follicles contracting to raise hairs upward."
+      ],
+      "explanations_zh": [
+        "错误。虽然鸡皮疙瘩在寒冷时出现，但由于人类体毛稀少，它们实际上不会产生太多热量。这是一个无效的进化遗留。",
+        "正确！鸡皮疙瘩是从毛茸茸祖先那里继承的进化遗留。微小肌肉使毛发竖起，在厚毛皮中可困住温暖空气。但人类体毛稀少，所以对保暖几乎没帮助。当我们寒冷或感到恐惧、敬畏等强烈情绪时仍会有这种反应！",
+        "错误。血管收缩是对寒冷的另一种反应。鸡皮疙瘩是由竖起毛发的微小肌肉引起的，是我们拥有厚毛皮时的进化反射。",
+        "错误。鸡皮疙瘩不涉及皮肤细胞增殖。它们是由毛囊处的微小肌肉收缩使毛发竖起引起的。"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

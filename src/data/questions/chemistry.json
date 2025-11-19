@@ -1,0 +1,130 @@
+{
+  "category_en": "Chemistry Around Us",
+  "category_zh": "身边的化学",
+  "questions": [
+    {
+      "id": "chem_001",
+      "question_en": "Why do onions make us cry?",
+      "question_zh": "为什么切洋葱会流泪？",
+      "choices_en": [
+        "They contain spicy chemicals",
+        "They release gas forming acid",
+        "The smell triggers tears",
+        "Tiny particles irritate eyes"
+      ],
+      "choices_zh": [
+        "含有辛辣化学物质",
+        "释放气体形成酸",
+        "气味刺激泪腺",
+        "微粒刺激眼睛"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While onions do have strong compounds, it's not just 'spiciness' causing tears. The specific mechanism involves a chemical reaction that produces sulfuric acid in your eyes.",
+        "Correct! When you cut onions, enzymes are released that react with sulfur compounds to create a gas. This gas reaches your eyes and reacts with your tears to form sulfuric acid. Your eyes produce more tears to wash away the irritation. Chilling onions helps reduce this reaction!",
+        "Wrong. It's not the smell that triggers tears. The gas from onions chemically reacts with the moisture in your eyes to form acid, which causes the irritation and tearing.",
+        "Wrong. There are no particles from onions irritating your eyes. It's actually a gas (propanethial S-oxide) that reaches your eyes and forms sulfuric acid when it mixes with tears."
+      ],
+      "explanations_zh": [
+        "错误。虽然洋葱确实含有强烈的化合物，但引起流泪的不仅仅是辛辣。具体机制涉及在眼睛中产生硫酸的化学反应。",
+        "正确！切洋葱时释放的酶与硫化合物反应产生气体。这种气体到达眼睛后与泪液反应形成硫酸。眼睛产生更多泪水来冲洗刺激物。冷藏洋葱有助于减少这种反应！",
+        "错误。不是气味引发流泪。洋葱释放的气体与眼睛中的水分发生化学反应形成酸，从而引起刺激和流泪。",
+        "错误。不是洋葱的微粒刺激眼睛。实际上是一种气体（丙硫醛S-氧化物）到达眼睛后与泪液混合形成硫酸。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_002",
+      "question_en": "Why does soap clean dishes?",
+      "question_zh": "为什么肥皂能洗干净碗？",
+      "choices_en": [
+        "It dissolves everything",
+        "Molecules grab water and oil",
+        "It kills all bacteria",
+        "It creates hot water"
+      ],
+      "choices_zh": [
+        "溶解所有东西",
+        "分子同时抓住水和油",
+        "杀死所有细菌",
+        "产生热水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Soap doesn't dissolve everything. Many substances like glass, ceramic, and certain plastics are unaffected by soap. Soap specifically works on oils and grease through its unique molecular structure.",
+        "Correct! Soap molecules are special: one end likes water, the other likes oil and grease. When you wash dishes, soap surrounds grease with its oil-loving ends, while water-loving ends face outward. This lets water rinse away the grease. It's like a molecular bridge between oil and water!",
+        "Wrong. While some soaps have antibacterial properties, that's not how they clean dishes. The primary cleaning action comes from the molecular structure that allows soap to bind both water and oils, lifting away grease.",
+        "Wrong. Soap doesn't create hot water. Hot water can help cleaning by making oils more fluid, but soap's cleaning power comes from its molecules that can simultaneously bind to both water and oil."
+      ],
+      "explanations_zh": [
+        "错误。肥皂不会溶解所有东西。许多物质如玻璃、陶瓷和某些塑料不受肥皂影响。肥皂专门通过其独特的分子结构作用于油和脂肪。",
+        "正确！肥皂分子很特别：一端亲水，另一端亲油。洗碗时，肥皂用亲油端包围油脂，亲水端朝外。这样水就能冲走油脂了。它就像油和水之间的分子桥梁！",
+        "错误。虽然有些肥皂具有抗菌特性，但这不是它们清洁碗碟的方式。主要的清洁作用来自能够同时结合水和油的分子结构，去除油脂。",
+        "错误。肥皂不会产生热水。热水可以使油更流动从而帮助清洁，但肥皂的清洁力来自其能够同时结合水和油的分子。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_003",
+      "question_en": "Why does metal feel colder than wood?",
+      "question_zh": "为什么金属摸起来比木头冷？",
+      "choices_en": [
+        "Metal is actually colder",
+        "Metal conducts heat faster",
+        "Wood generates heat",
+        "Metal absorbs body heat"
+      ],
+      "choices_zh": [
+        "金属温度更低",
+        "金属导热更快",
+        "木头会产生热量",
+        "金属吸收体温"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. At room temperature, metal and wood are the same temperature. You can verify this with a thermometer. The difference is in how they conduct heat, not their actual temperature.",
+        "Correct! At room temperature, metal and wood are the same temperature. But metal is a great heat conductor, so it quickly pulls heat from your warm hand. Wood is a poor conductor, so heat leaves your hand slowly. The faster heat loss makes metal feel colder, even though it isn't!",
+        "Wrong. Wood doesn't generate heat on its own. Both wood and metal are at room temperature. The difference is that wood is a poor heat conductor, so it doesn't pull heat from your hand as quickly as metal does.",
+        "Wrong. While this sounds close, it's not quite accurate. Both materials will take heat from your hand if they're cooler, but metal does it much faster because of its high thermal conductivity. The speed of heat transfer is what matters."
+      ],
+      "explanations_zh": [
+        "错误。室温下，金属和木头温度相同。你可以用温度计验证这一点。区别在于它们如何传导热量，而不是它们的实际温度。",
+        "正确！室温下，金属和木头温度相同。但金属导热性好，快速从温暖的手中抽走热量。木头导热性差，热量流失缓慢。更快的热量流失让金属感觉更冷，尽管它并不冷！",
+        "错误。木头本身不会产生热量。木头和金属都处于室温。区别在于木头导热性差，不会像金属那样快速从你的手中抽走热量。",
+        "错误。虽然听起来接近，但不太准确。如果它们更冷，两种材料都会从你的手中吸收热量，但金属因为高导热性而做得更快。热传递的速度才是关键。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_004",
+      "question_en": "Why are soap bubbles always round?",
+      "question_zh": "为什么肥皂泡总是圆的？",
+      "choices_en": [
+        "Air pressure makes them round",
+        "Surface tension minimizes area",
+        "Gravity pulls them into spheres",
+        "Soap molecules form circles"
+      ],
+      "choices_zh": [
+        "气压使其变圆",
+        "表面张力最小化面积",
+        "重力拉成球形",
+        "肥皂分子形成圆圈"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air pressure inside and outside the bubble is nearly equal. While pressure plays a role in keeping the bubble inflated, it's not what makes it spherical. Surface tension is the key factor.",
+        "Correct! Surface tension in the soap film pulls it into the shape with the smallest surface area for its volume - a sphere. Every point on a sphere is equidistant from the center, creating equal tension throughout. This minimizes energy, making spheres the most stable bubble shape!",
+        "Wrong. Gravity actually pulls bubbles downward but doesn't make them round. In fact, in zero gravity (like on the space station), bubbles are still perfectly spherical, proving gravity isn't the cause.",
+        "Wrong. Soap molecules don't form circles. They create a thin film with surface tension. It's this surface tension that pulls the bubble into a sphere, not the arrangement of individual molecules."
+      ],
+      "explanations_zh": [
+        "错误。气泡内外的气压几乎相等。虽然压力在保持气泡充气方面起作用，但它不是使其呈球形的原因。表面张力才是关键因素。",
+        "正确！肥皂膜中的表面张力将其拉成体积最小表面积的形状 - 球体。球体上的每个点到中心的距离相等，产生均匀的张力。这最小化了能量，使球体成为最稳定的气泡形状！",
+        "错误。重力实际上将气泡向下拉，但不会使其变圆。事实上，在零重力环境下（如空间站），气泡仍然是完美的球形，证明重力不是原因。",
+        "错误。肥皂分子不会形成圆圈。它们形成具有表面张力的薄膜。正是这种表面张力将气泡拉成球体，而不是单个分子的排列。"
+      ],
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -8,6 +8,78 @@ A minimal MVP landing page for AIgneous, featuring interactive volcano effects a
 - 🕸️ **Knowledge Graph Background** - Animated network visualization that responds to mouse movements
 - 🎨 **Modern Design** - Clean, responsive layout with AIgneous brand colors
 - ⚡ **Next.js 15** - Built with the latest Next.js and React 19
+- 📚 **Curious Minds Questions** - 31+ scientifically validated Q&A questions in 10 categories
+
+## Questions Database
+
+This repository includes a comprehensive bilingual (English/Chinese) Q&A database for educational purposes.
+
+### Features
+
+- **31+ Questions** across 10 topics (Astronomy, Chemistry, Physics, Biology, etc.)
+- **Scientifically Validated** - All questions verified through 3-layer validation system
+- **Bilingual** - Full English and Chinese translations
+- **Mobile Optimized** - Character limits designed for small screens
+- **Type-Safe** - Full TypeScript support with type definitions
+
+### Quick Usage
+
+```typescript
+import type { Question, QuestionCategory } from '@/types/questions';
+import chemistryData from '@/data/questions/chemistry.json';
+
+export default function QuizPage() {
+  const questions = chemistryData.questions;
+
+  return (
+    <div>
+      {questions.map((q) => (
+        <div key={q.id}>
+          <h2>{q.question_en}</h2>
+          {q.choices_en.map((choice, i) => (
+            <button key={i}>{choice}</button>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+}
+```
+
+### Available Categories
+
+- Animals (动物行为) - 3 questions
+- Astronomy (天文与太空) - 3 questions
+- Chemistry (身边的化学) - 4 questions
+- Economics (经济与金融) - 3 questions
+- Human Biology (人体生物学) - 3 questions
+- Physics (日常物理) - 3 questions
+- Plants (植物科学) - 3 questions
+- Psychology (心理与行为) - 3 questions
+- Technology (技术) - 3 questions
+- Weather (天气与气候) - 3 questions
+
+### Validation
+
+All questions are automatically validated before commits:
+
+```bash
+# Validate all questions
+npm run validate
+
+# Validate specific category
+npm run validate:single chemistry.json
+
+# Watch for changes
+npm run validate:watch
+```
+
+### Documentation
+
+- [Quick Start Guide](docs/CURIOUS_MINDS_QUICKSTART.md) - Get started with questions
+- [Type Definitions](src/types/questions.ts) - TypeScript types and helpers
+- [Usage Examples](src/examples/QuestionUsageExamples.tsx) - Component examples
+- [Complete Documentation](docs/questions/README.md) - Full question database docs
 
 ## Getting Started
 
@@ -43,6 +115,24 @@ src/
 │   ├── globals.css                    # Global styles and animations
 │   ├── layout.tsx                     # Root layout
 │   └── page.tsx                       # Main landing page
+├── data/
+│   └── questions/                     # Q&A database (10 categories, 31+ questions)
+├── types/
+│   ├── questions.ts                   # TypeScript type definitions
+│   └── index.ts                       # Type exports
+└── examples/
+    └── QuestionUsageExamples.tsx      # Usage examples for questions
+
+scripts/                                # Validation scripts
+├── auto_validate.py                   # Automated validation system
+├── validate_facts.py                  # Structure validation
+├── ai_fact_check.py                   # AI fact-checking
+└── install_git_hook.sh                # Git pre-commit hook installer
+
+docs/                                   # Documentation
+├── CURIOUS_MINDS_QUICKSTART.md        # Quick start guide
+├── questions/                         # Question database docs
+└── ...                                # Additional documentation
 ```
 
 ## Key Interactions

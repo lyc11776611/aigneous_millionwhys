@@ -1,0 +1,102 @@
+{
+  "category_en": "Astronomy & Space",
+  "category_zh": "天文与太空",
+  "questions": [
+    {
+      "id": "astro_001",
+      "question_en": "Why can we only see one side of the Moon?",
+      "question_zh": "为什么我们只能看到月球的一面？",
+
+      "choices_en": [
+        "The Moon doesn't rotate",
+        "Its rotation matches its orbit",
+        "Earth's gravity stops rotation",
+        "The far side is always dark"
+      ],
+      "choices_zh": [
+        "月球不会自转",
+        "自转周期等于公转周期",
+        "地球引力阻止自转",
+        "背面永远是黑暗的"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The Moon does rotate on its axis. If it didn't rotate at all, we would eventually see all sides of it as it orbits Earth.",
+        "Correct! This is called 'tidal locking.' The Moon rotates, but takes the same time (27.3 days) to spin once as it does to orbit Earth. This happened over millions of years due to Earth's gravity. So the same side always faces us. The far side gets sunlight too, we just never see it from Earth.",
+        "Wrong. Earth's gravity doesn't stop the Moon from rotating. Instead, gravity caused tidal locking over time, making the rotation period equal to the orbital period.",
+        "Wrong. The far side of the Moon receives sunlight just like the near side. It's not permanently dark - we just can't see it from Earth due to tidal locking."
+      ],
+      "explanations_zh": [
+        "错误。月球确实会自转。如果它完全不自转，随着它绕地球公转，我们最终会看到它的所有面。",
+        "正确！这叫做潮汐锁定。月球确实自转，但自转一周所需时间（27.3天）与绕地球公转时间相同。这是数百万年来地球引力作用的结果。因此同一面总是朝向地球。月球背面也有阳光照射，只是我们在地球上看不到。",
+        "错误。地球引力并没有阻止月球自转。相反，引力随着时间导致了潮汐锁定，使自转周期等于公转周期。",
+        "错误。月球背面和正面一样接收阳光。它不是永远黑暗的——我们只是因为潮汐锁定而无法从地球上看到它。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_002",
+      "question_en": "Why do stars twinkle but planets don't?",
+      "question_zh": "为什么星星会闪烁而行星不会？",
+
+      "choices_en": [
+        "Stars are farther away",
+        "Planets reflect more light",
+        "Stars are point sources of light",
+        "Planets have atmospheres"
+      ],
+      "choices_zh": [
+        "星星距离更远",
+        "行星反射更多光",
+        "星星是点光源",
+        "行星有大气层"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. While stars are indeed farther away, distance alone doesn't explain twinkling. The key is that distance makes stars appear as tiny points of light, which are more affected by atmospheric distortion.",
+        "Wrong. The amount of light reflected doesn't determine whether an object twinkles. Both bright and dim planets show steady light compared to stars.",
+        "Correct! Stars appear as tiny points of light because they're so far away. Earth's atmosphere moves and bends this single point of light, making it twinkle. Planets are much closer, so they appear as small disks. Light from different parts of the disk averages out atmospheric distortion, creating steady light.",
+        "Wrong. Planetary atmospheres don't prevent twinkling from our perspective. The steadiness comes from planets appearing as disks rather than points, which averages out atmospheric effects."
+      ],
+      "explanations_zh": [
+        "错误。虽然星星确实更远，但距离本身不能解释闪烁。关键是距离使星星看起来像微小的光点，更容易受到大气扰动的影响。",
+        "错误。反射光量的多少并不决定物体是否闪烁。明亮和暗淡的行星相比星星都显示出稳定的光线。",
+        "正确！星星距离极远，看起来像微小的光点。地球大气层的流动会使这个光点产生弯曲，造成闪烁。而行星离我们近得多，呈现为小圆盘。来自圆盘不同部分的光线会平均掉大气扰动，因此看起来比较稳定。",
+        "错误。从我们的角度来看，行星大气层并不能防止闪烁。稳定性来自于行星呈现为圆盘而非点光源，这平均掉了大气影响。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_003",
+      "question_en": "Why is the sunset colorful?",
+      "question_zh": "为什么日落时天空五彩缤纷？",
+
+      "choices_en": [
+        "Pollution creates colors",
+        "Light travels through more air",
+        "The Sun changes color",
+        "Clouds reflect differently"
+      ],
+      "choices_zh": [
+        "污染产生颜色",
+        "光线穿过更多空气",
+        "太阳改变颜色",
+        "云朵反射不同"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While pollution can sometimes enhance sunset colors slightly, it's not the primary cause. Clean air produces beautiful sunsets too through natural light scattering.",
+        "Correct! At sunset, sunlight travels through much more atmosphere to reach your eyes. Blue light scatters away first, leaving reds, oranges, and yellows. The thicker the atmosphere the light passes through, the more blue is removed, making sunsets appear warmer and more colorful than midday sky.",
+        "Wrong. The Sun itself doesn't change color - it emits the same spectrum of light throughout the day. The apparent color change is due to atmospheric filtering.",
+        "Wrong. While clouds can add to the beauty of sunsets by reflecting the colored light, they don't create the colors. The warm hues come from atmospheric scattering of sunlight."
+      ],
+      "explanations_zh": [
+        "错误。虽然污染有时会略微增强日落颜色，但这不是主要原因。清洁空气通过自然光散射也能产生美丽的日落。",
+        "正确！日落时，阳光需要穿过更多的大气层才能到达我们的眼睛。蓝光首先被散射掉，留下红色、橙色和黄色。光线穿过的大气层越厚，蓝光被过滤得越多，所以日落比正午的天空更温暖、更多彩。",
+        "错误。太阳本身不会改变颜色——它全天发出相同光谱的光。表观颜色变化是由于大气过滤造成的。",
+        "错误。虽然云朵可以通过反射彩色光为日落增添美感，但它们不会产生这些颜色。温暖色调来自大气对阳光的散射。"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}
