@@ -11,25 +11,58 @@ A minimal MVP landing page for AIgneous, featuring interactive volcano effects a
 
 ## Getting Started
 
-### Installation
+This project uses Docker for consistent development and deployment environments.
+
+### Prerequisites
+
+- Docker and Docker Compose installed
+- Copy `.env.example` to `.env` (optional, uses defaults if not present)
+
+### Quick Start
+
+**Development Mode** (Hot Reload):
+```bash
+./docker-start.sh dev
+# or simply
+./docker-start.sh
+```
+Access at: http://localhost:8004
+
+**Standalone Production** (No nginx):
+```bash
+./docker-start.sh standalone
+```
+Access at: http://localhost:8004
+
+**Production with Nginx** (Requires nginx-proxy):
+```bash
+./docker-start.sh prod
+```
+Access at: https://whys.igneous-ai.com
+
+### Available Commands
 
 ```bash
-npm install
+./docker-start.sh help          # Show all available options
+./docker-start.sh dev           # Start development server
+./docker-start.sh standalone    # Build and run standalone production
+./docker-start.sh prod          # Build and run with nginx proxy
 ```
 
-### Development
+### Useful Docker Commands
 
 ```bash
-npm run dev
-```
+# View logs
+docker logs -f millionwhys-frontend
 
-Open [http://localhost:3000](http://localhost:3000) to view the landing page.
+# Stop container
+docker compose down
 
-### Build
+# Restart container
+docker restart millionwhys-frontend
 
-```bash
-npm run build
-npm start
+# Enter container shell
+docker exec -it millionwhys-frontend sh
 ```
 
 ## Project Structure
