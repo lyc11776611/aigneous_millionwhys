@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { LanguageProvider } from "./contexts/LanguageContext";
 
 export const metadata: Metadata = {
   title: "AIgneous - Your AI Learning Companion",
@@ -38,7 +39,9 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased" suppressHydrationWarning>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -15,6 +15,7 @@
   border-width: 0;
 }
 
+/* Enhanced Animations */
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -27,8 +28,197 @@
   }
 }
 
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes pulse-slower {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes spin-slower {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0) rotate(45deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(45deg);
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-slower {
+  animation: pulse-slower 6s ease-in-out infinite;
+}
+
+.animate-spin-slower {
+  animation: spin-slower 20s linear infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+/* Infinite Scroll Animations - Pixel-perfect seamless loop */
+@keyframes infinite-scroll-left {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    /* Move exactly 50% (one complete set) */
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes infinite-scroll-right {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+/* Infinite scroll tracks with GPU acceleration - Super fast */
+.infinite-scroll-left {
+  display: flex;
+  animation: infinite-scroll-left 5s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.infinite-scroll-right {
+  display: flex;
+  animation: infinite-scroll-right 5s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+/* Responsive speeds for infinite scroll - Still fast on larger screens */
+@media (min-width: 640px) {
+  .infinite-scroll-left,
+  .infinite-scroll-right {
+    animation-duration: 6s;
+  }
+}
+
+@media (min-width: 1024px) {
+  .infinite-scroll-left,
+  .infinite-scroll-right {
+    animation-duration: 7s;
+  }
+}
+
+/* Pause on hover for better UX */
+.infinite-scroll-left:hover,
+.infinite-scroll-right:hover {
+  animation-play-state: paused;
+}
+
+
+/* Soft dotted background pattern using brand color */
+.bg-dots-soft {
+  background-image: radial-gradient(rgba(217, 78, 51, 0.08) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+/* Brand gradient text helper */
+.brand-gradient-text {
+  background: linear-gradient(90deg, #D94E33 0%, #FF6B52 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom focus styles */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #D94E33;
+  outline-offset: 2px;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* Glass morphism effects */
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient borders */
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(45deg, #D94E33, #FF6B52);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 
 :root {
@@ -92,5 +282,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
 }
