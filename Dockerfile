@@ -36,6 +36,9 @@ RUN adduser --system --uid 1001 nextjs
 # Copy necessary files from builder
 COPY --from=builder /app/public ./public
 
+# Copy question data for API routes
+COPY --from=builder /app/src/data ./src/data
+
 # Set the correct permission for prerender cache
 RUN mkdir .next
 RUN chown nextjs:nodejs .next
