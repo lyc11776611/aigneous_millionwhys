@@ -1,0 +1,14 @@
+# Allow all crawlers for main site
+User-agent: *
+Allow: /
+
+# Block all crawlers from admin pages
+User-agent: *
+Disallow: /admin/
+Disallow: /api/admin/
+
+# Block data logs directory
+Disallow: /data/
+
+# Sitemap (optional, can add later)
+# Sitemap: https://yourdomain.com/sitemap.xml

@@ -122,6 +122,13 @@ export const translations = {
       privacy: 'Privacy Policy',
       terms: 'Terms of Service',
     },
+
+    // Quiz
+    quiz: {
+      shareButton: 'Share this question',
+      shareTitle: 'Can you answer this?',
+      shareText: 'Try this question from AIgneous:',
+    },
   },
 
   zh: {
@@ -246,6 +253,13 @@ export const translations = {
       copyright: '© 2025 AIgneous。保留所有权利。',
       privacy: '隐私政策',
       terms: '服务条款',
+    },
+
+    // Quiz
+    quiz: {
+      shareButton: '分享这道题',
+      shareTitle: '你能答对这道题吗？',
+      shareText: '来试试 AIgneous 的这道题：',
     },
   },
 };

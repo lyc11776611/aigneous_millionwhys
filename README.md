@@ -2,13 +2,41 @@
 
 A minimal MVP landing page for AIgneous, featuring interactive volcano effects and knowledge graph visualizations.
 
+## Recent Major Changes
+
+### Interactive Quiz Application
+- **Quiz Interface** - Full-featured quiz experience at `/quiz`
+  - Random question selection from 186-question bank
+  - Bilingual support (English/Chinese toggle)
+  - Instant feedback with detailed explanations
+  - Share functionality (Web Share API + Clipboard)
+  - Session-based tracking (no user accounts required)
+  - Mobile-optimized responsive design
+
+### Analytics & Admin Dashboard
+- **Admin Dashboard** - Comprehensive analytics interface at `/admin`
+  - Password-protected access (ADMIN_PASSWORD in .env)
+  - Real-time quiz answer tracking with accuracy metrics
+  - Share analytics (by method, category, difficulty)
+  - Top 10 active users leaderboard
+  - Recent 100 answers and 50 shares tracking
+  - Read-only question bank viewer with inline explanations
+- **Privacy Protection** - User data logged to `data/logs/` (git-ignored)
+- **SEO Protection** - Admin routes blocked via `robots.txt`
+
+### Question Bank Management
+- **186 Questions** - Expanded from 31 to 186 scientifically validated questions
+- **Secure Storage** - Questions stored in `src/data/questions/` (not publicly accessible)
+- **Admin Interface** - Browse all questions with clickable answer explanations
+- **Data Tracking** - JSONL-based logging for answers and shares (append-only, privacy-safe)
+
 ## Features
 
 - 🌋 **Interactive Volcano Effect** - Click anywhere to create volcanic animations with particle physics
 - 🕸️ **Knowledge Graph Background** - Animated network visualization that responds to mouse movements
 - 🎨 **Modern Design** - Clean, responsive layout with AIgneous brand colors
 - ⚡ **Next.js 15** - Built with the latest Next.js and React 19
-- 📚 **Curious Minds Questions** - 31+ scientifically validated Q&A questions in 10 categories
+- 📚 **Curious Minds Questions** - 186 scientifically validated Q&A questions in 10 categories
 
 ## Questions Database
 

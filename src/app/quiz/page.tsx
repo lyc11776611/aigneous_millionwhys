@@ -3,18 +3,15 @@
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../lib/translations';
+import { isQuestion } from '@/types/questions';
 
-// Import all question files
-import animalsData from '@/data/questions/animals.json';
-import astronomyData from '@/data/questions/astronomy.json';
-import chemistryData from '@/data/questions/chemistry.json';
-import economicsData from '@/data/questions/economics.json';
-import humanBiologyData from '@/data/questions/human-biology.json';
-import physicsData from '@/data/questions/physics.json';
-import plantsData from '@/data/questions/plants.json';
-import psychologyData from '@/data/questions/psychology.json';
-import technologyData from '@/data/questions/technology.json';
-import weatherData from '@/data/questions/weather.json';
+// Declare gtag for TypeScript
+declare global {
+  interface Window {
+    gtag: (command: string, eventName: string, params?: any) => void;
+  }
+}
 
 interface Question {
   id: string;
@@ -68,34 +65,60 @@ function getCategoryEmoji(category: string, question: string): string {
   return '❓';
 }
 
-// Merge all questions from different categories
-function loadAllQuestions(): Question[] {
-  const allData = [
-    { data: animalsData, category_en: animalsData.category_en, category_zh: animalsData.category_zh },
-    { data: astronomyData, category_en: astronomyData.category_en, category_zh: astronomyData.category_zh },
-    { data: chemistryData, category_en: chemistryData.category_en, category_zh: chemistryData.category_zh },
-    { data: economicsData, category_en: economicsData.category_en, category_zh: economicsData.category_zh },
-    { data: humanBiologyData, category_en: humanBiologyData.category_en, category_zh: humanBiologyData.category_zh },
-    { data: physicsData, category_en: physicsData.category_en, category_zh: physicsData.category_zh },
-    { data: plantsData, category_en: plantsData.category_en, category_zh: plantsData.category_zh },
-    { data: psychologyData, category_en: psychologyData.category_en, category_zh: psychologyData.category_zh },
-    { data: technologyData, category_en: technologyData.category_en, category_zh: technologyData.category_zh },
-    { data: weatherData, category_en: weatherData.category_en, category_zh: weatherData.category_zh },
-  ];
+// Category file names to load
+const QUESTION_CATEGORIES = [
+  'animals',
+  'astronomy',
+  'chemistry',
+  'earth-science',
+  'economics',
+  'food-nutrition',
+  'human-biology',
+  'physics',
+  'plants',
+  'psychology',
+  'technology',
+  'weather',
+];
 
-  const questions: Question[] = [];
+// Fetch and merge all questions from different categories
+async function loadAllQuestions(): Promise<Question[]> {
+  try {
+    // Fetch all category files in parallel via API
+    const responses = await Promise.all(
+      QUESTION_CATEGORIES.map(category =>
+        fetch(`/api/questions?category=${category}`).then(res => {
+          if (!res.ok) throw new Error(`Failed to load ${category}`);
+          return res.json();
+        })
+      )
+    );
 
-  allData.forEach(({ data, category_en, category_zh }) => {
-    data.questions.forEach((q: any) => {
-      questions.push({
-        ...q,
-        category_en,
-        category_zh,
+    const questions: Question[] = [];
+
+    // Merge questions from all categories
+    responses.forEach((data: any) => {
+      const { category_en, category_zh, questions: categoryQuestions } = data;
+
+      categoryQuestions.forEach((q: any) => {
+        // Runtime type validation
+        if (isQuestion(q)) {
+          questions.push({
+            ...q,
+            category_en,
+            category_zh,
+          });
+        } else {
+          console.warn('Invalid question format:', q);
+        }
       });
     });
-  });
 
-  return questions;
+    return questions;
+  } catch (error) {
+    console.error('Error loading questions:', error);
+    throw error;
+  }
 }
 
 // Shuffle array using Fisher-Yates algorithm
@@ -108,82 +131,200 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+// Shuffle choices while maintaining correct answer mapping
+function shuffleChoices(question: Question): ShuffledChoices {
+  // Create indices array [0, 1, 2, 3]
+  const indices = [0, 1, 2, 3];
+  const shuffledIndices = shuffleArray(indices);
+
+  return {
+    choices_en: shuffledIndices.map(i => question.choices_en[i]),
+    choices_zh: shuffledIndices.map(i => question.choices_zh[i]),
+    explanations_en: shuffledIndices.map(i => question.explanations_en[i]),
+    explanations_zh: shuffledIndices.map(i => question.explanations_zh[i]),
+    correctAnswerIndex: shuffledIndices.indexOf(question.correct_answer),
+  };
+}
+
+// Shuffled choices state interface
+interface ShuffledChoices {
+  choices_en: string[];
+  choices_zh: string[];
+  explanations_en: string[];
+  explanations_zh: string[];
+  correctAnswerIndex: number;
+}
+
+// Get today's date as string (YYYY-MM-DD)
+function getTodayString(): string {
+  const today = new Date();
+  return today.toISOString().split('T')[0];
+}
+
+// Get color style based on daily count (1-20+: cool to hot, then FIRE!)
+function getDailyCountStyle(count: number): { bg: string; text: string; border: string; fire: boolean } {
+  if (count === 0) {
+    return { bg: 'bg-gray-100', text: 'text-gray-600', border: 'border-gray-300', fire: false };
+  }
+
+  // 20+ questions = FIRE MODE! 🔥
+  if (count >= 20) {
+    return {
+      bg: 'bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500',
+      text: 'text-white',
+      border: 'border-orange-400',
+      fire: true
+    };
+  }
+
+  // Color progression: 1-19 questions
+  // Cool blue → Fresh green → Warm yellow → Hot orange
+  if (count <= 5) {
+    // 1-5: Cool blue (冷静开始)
+    return { bg: 'bg-blue-100', text: 'text-blue-700', border: 'border-blue-200', fire: false };
+  } else if (count <= 10) {
+    // 6-10: Fresh green (活力充沛)
+    return { bg: 'bg-green-100', text: 'text-green-700', border: 'border-green-300', fire: false };
+  } else if (count <= 15) {
+    // 11-15: Warm yellow (开始发光)
+    return { bg: 'bg-yellow-100', text: 'text-yellow-800', border: 'border-yellow-300', fire: false };
+  } else {
+    // 16-19: Hot orange (即将点燃)
+    return { bg: 'bg-orange-200', text: 'text-orange-800', border: 'border-orange-400', fire: false };
+  }
+}
+
 function QuizContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { language, setLanguage } = useLanguage();
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+  const [shuffledChoices, setShuffledChoices] = useState<ShuffledChoices | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
-  const [answeredCount, setAnsweredCount] = useState(0);
+  const [dailyCount, setDailyCount] = useState(0); // Today's answered questions count
   const [correctCount, setCorrectCount] = useState(0);
   const [answeredQuestionIds, setAnsweredQuestionIds] = useState<Set<string>>(new Set());
   const [allQuestionsCompleted, setAllQuestionsCompleted] = useState(false);
   const [showExplanationModal, setShowExplanationModal] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Shuffle choices whenever current question changes
+  useEffect(() => {
+    if (currentQuestion) {
+      setShuffledChoices(shuffleChoices(currentQuestion));
+    }
+  }, [currentQuestion]);
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (showMenu) {
+        const target = event.target as HTMLElement;
+        if (!target.closest('.menu-container')) {
+          setShowMenu(false);
+        }
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [showMenu]);
 
   // Initialize questions and load saved stats from localStorage
   useEffect(() => {
-    const questions = loadAllQuestions();
-    const shuffled = shuffleArray(questions);
-    setAllQuestions(shuffled);
+    const initializeQuiz = async () => {
+      try {
+        setLoading(true);
+        setError(null);
 
-    // Load saved statistics from localStorage
-    const savedAnsweredCount = localStorage.getItem('quiz_answered_count');
-    const savedCorrectCount = localStorage.getItem('quiz_correct_count');
-    const savedAnsweredIds = localStorage.getItem('quiz_answered_ids');
+        // Fetch questions from public directory
+        const questions = await loadAllQuestions();
+        const shuffled = shuffleArray(questions);
+        setAllQuestions(shuffled);
 
-    if (savedAnsweredCount) {
-      setAnsweredCount(parseInt(savedAnsweredCount, 10));
-    }
-    if (savedCorrectCount) {
-      setCorrectCount(parseInt(savedCorrectCount, 10));
-    }
+        // Load saved statistics from localStorage (daily stats)
+        const today = getTodayString();
+        const savedDate = localStorage.getItem('quiz_date');
+        const savedDailyCount = localStorage.getItem('quiz_daily_count');
+        const savedCorrectCount = localStorage.getItem('quiz_correct_count');
+        const savedAnsweredIds = localStorage.getItem('quiz_answered_ids');
 
-    // Load answered question IDs
-    const answeredIds = savedAnsweredIds ? new Set<string>(JSON.parse(savedAnsweredIds)) : new Set<string>();
-    setAnsweredQuestionIds(answeredIds);
-
-    // Check if a specific question was requested via URL parameter
-    const requestedQuestion = searchParams.get('q');
-    if (requestedQuestion) {
-      // searchParams.get() already returns a decoded string, no need for decodeURIComponent
-      // Find the question that matches the requested text (in either language)
-      const matchingQuestion = shuffled.find(q =>
-        q.question_en.toLowerCase().includes(requestedQuestion.toLowerCase()) ||
-        q.question_zh.includes(requestedQuestion)
-      );
-
-      if (matchingQuestion) {
-        setCurrentQuestion(matchingQuestion);
-      } else {
-        // If no matching question found, proceed with normal flow
-        const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
-        if (unansweredQuestions.length > 0) {
-          setCurrentQuestion(unansweredQuestions[0]);
-        } else if (shuffled.length > 0) {
-          setAllQuestionsCompleted(true);
-          setCurrentQuestion(shuffled[0]);
+        // Reset stats if it's a new day
+        if (savedDate !== today) {
+          localStorage.setItem('quiz_date', today);
+          localStorage.setItem('quiz_daily_count', '0');
+          localStorage.setItem('quiz_correct_count', '0');
+          setDailyCount(0);
+          setCorrectCount(0);
+        } else {
+          // Load today's stats
+          if (savedDailyCount) {
+            setDailyCount(parseInt(savedDailyCount, 10));
+          }
+          if (savedCorrectCount) {
+            setCorrectCount(parseInt(savedCorrectCount, 10));
+          }
         }
+
+        // Load answered question IDs
+        const answeredIds = savedAnsweredIds ? new Set<string>(JSON.parse(savedAnsweredIds)) : new Set<string>();
+        setAnsweredQuestionIds(answeredIds);
+
+        // Check if a specific question was requested via URL parameter
+        const requestedQuestion = searchParams.get('q');
+        if (requestedQuestion) {
+          // Find the question that matches the requested text (in either language)
+          const matchingQuestion = shuffled.find(q =>
+            q.question_en.toLowerCase().includes(requestedQuestion.toLowerCase()) ||
+            q.question_zh.includes(requestedQuestion)
+          );
+
+          if (matchingQuestion) {
+            setCurrentQuestion(matchingQuestion);
+          } else {
+            // If no matching question found, proceed with normal flow
+            const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
+            if (unansweredQuestions.length > 0) {
+              setCurrentQuestion(unansweredQuestions[0]);
+            } else if (shuffled.length > 0) {
+              setAllQuestionsCompleted(true);
+              setCurrentQuestion(shuffled[0]);
+            }
+          }
+        } else {
+          // Normal flow - find first unanswered question
+          const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
+          if (unansweredQuestions.length > 0) {
+            setCurrentQuestion(unansweredQuestions[0]);
+          } else if (shuffled.length > 0) {
+            // All questions answered - show completion state
+            setAllQuestionsCompleted(true);
+            setCurrentQuestion(shuffled[0]);
+          }
+        }
+
+        setLoading(false);
+      } catch (err) {
+        console.error('Failed to load questions:', err);
+        setError(language === 'en'
+          ? 'Failed to load questions. Please refresh the page.'
+          : '加载题目失败。请刷新页面。');
+        setLoading(false);
       }
-    } else {
-      // Normal flow - find first unanswered question
-      const unansweredQuestions = shuffled.filter(q => !answeredIds.has(q.id));
-      if (unansweredQuestions.length > 0) {
-        setCurrentQuestion(unansweredQuestions[0]);
-      } else if (shuffled.length > 0) {
-        // All questions answered - show completion state
-        setAllQuestionsCompleted(true);
-        setCurrentQuestion(shuffled[0]);
-      }
-    }
-  }, [searchParams]);
+    };
+
+    initializeQuiz();
+  }, [searchParams]); // Only re-run when URL searchParams change, not on language toggle
 
   const handleSelectAnswer = (index: number) => {
-    if (showFeedback || !currentQuestion) return; // Prevent changing answer after submission
+    if (showFeedback || !currentQuestion || !shuffledChoices) return; // Prevent changing answer after submission
 
-    const newAnsweredCount = answeredCount + 1;
-    const isCorrect = index === currentQuestion.correct_answer;
+    const isCorrect = index === shuffledChoices.correctAnswerIndex;
+    const newDailyCount = dailyCount + 1;
     const newCorrectCount = isCorrect ? correctCount + 1 : correctCount;
 
     // Add current question ID to answered set
@@ -192,14 +333,56 @@ function QuizContent() {
 
     setSelectedAnswer(index);
     setShowFeedback(true);
-    setAnsweredCount(newAnsweredCount);
+    setDailyCount(newDailyCount);
     setCorrectCount(newCorrectCount);
     setAnsweredQuestionIds(newAnsweredIds);
 
     // Save statistics to localStorage
-    localStorage.setItem('quiz_answered_count', newAnsweredCount.toString());
+    const today = getTodayString();
+    localStorage.setItem('quiz_date', today);
+    localStorage.setItem('quiz_daily_count', newDailyCount.toString());
     localStorage.setItem('quiz_correct_count', newCorrectCount.toString());
     localStorage.setItem('quiz_answered_ids', JSON.stringify(Array.from(newAnsweredIds)));
+
+    // Track answer to backend (silent fail - don't block user experience)
+    const sessionId = localStorage.getItem('quiz_session_id') || (() => {
+      const newSessionId = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+      localStorage.setItem('quiz_session_id', newSessionId);
+      return newSessionId;
+    })();
+
+    fetch('/api/track-answer', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        sessionId,
+        questionId: currentQuestion.id,
+        category: currentQuestion.category_en,
+        isCorrect,
+        difficulty: currentQuestion.difficulty,
+        language,
+      }),
+    }).catch(err => console.error('Tracking failed:', err));
+
+    // GA4 Event: Track correct or incorrect answer
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', isCorrect ? 'quiz_answer_correct' : 'quiz_answer_incorrect', {
+        question_id: currentQuestion.id,
+        category: currentQuestion.category_en,
+        difficulty: currentQuestion.difficulty,
+        session_count: newDailyCount,
+        accuracy: Math.round((newCorrectCount / newDailyCount) * 100),
+      });
+
+      // GA4 Event: Milestone tracking (5, 10, 20, 30, 40...)
+      if (newDailyCount === 5 || newDailyCount === 10 || (newDailyCount >= 20 && newDailyCount % 10 === 0)) {
+        window.gtag('event', 'quiz_milestone', {
+          milestone: newDailyCount,
+          accuracy: Math.round((newCorrectCount / newDailyCount) * 100),
+          correct_count: newCorrectCount,
+        });
+      }
+    }
 
     // Check if all questions are now answered
     if (newAnsweredIds.size >= allQuestions.length) {
@@ -231,13 +414,15 @@ function QuizContent() {
   };
 
   const handleResetStats = () => {
-    if (confirm(language === 'en' ? 'Reset all statistics and start fresh?' : '重置所有统计数据并重新开始？')) {
-      setAnsweredCount(0);
+    if (confirm(language === 'en' ? 'Reset today\'s statistics?' : '重置今日统计数据？')) {
+      setDailyCount(0);
       setCorrectCount(0);
       setAnsweredQuestionIds(new Set());
       setAllQuestionsCompleted(false);
-      localStorage.removeItem('quiz_answered_count');
-      localStorage.removeItem('quiz_correct_count');
+      const today = getTodayString();
+      localStorage.setItem('quiz_date', today);
+      localStorage.setItem('quiz_daily_count', '0');
+      localStorage.setItem('quiz_correct_count', '0');
       localStorage.removeItem('quiz_answered_ids');
 
       // Pick a random question to restart
@@ -250,19 +435,125 @@ function QuizContent() {
     }
   };
 
-  if (!currentQuestion) {
+  const handleShareQuestion = async () => {
+    if (!currentQuestion) return;
+
+    const t = translations[language].quiz;
+    const questionText = language === 'en' ? currentQuestion.question_en : currentQuestion.question_zh;
+
+    // Create share URL with question as parameter
+    const shareUrl = `${window.location.origin}/quiz?q=${encodeURIComponent(questionText)}`;
+
+    const shareData = {
+      title: `${questionText} - ${t.shareTitle}`,
+      text: `${questionText}\n\n${t.shareText}`,
+      url: shareUrl,
+    };
+
+    let shareMethod = 'unknown';
+    let shareSuccessful = false;
+
+    try {
+      // Check if Web Share API is supported
+      if (navigator.share) {
+        await navigator.share(shareData);
+        shareMethod = 'web_share';
+        shareSuccessful = true;
+      } else {
+        // Fallback: copy to clipboard
+        await navigator.clipboard.writeText(`${shareData.text}\n${shareData.url}`);
+        alert(language === 'en' ? 'Link copied to clipboard!' : '链接已复制到剪贴板！');
+        shareMethod = 'clipboard';
+        shareSuccessful = true;
+      }
+    } catch (err) {
+      // User cancelled or error occurred
+      console.log('Share cancelled or failed:', err);
+      shareSuccessful = false;
+    }
+
+    // Track share action (silent - don't block user experience)
+    if (shareSuccessful) {
+      const sessionId = localStorage.getItem('quiz_session_id') || 'unknown';
+
+      // GA4 Event: Track share
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'share_question', {
+          question_id: currentQuestion.id,
+          category: currentQuestion.category_en,
+          difficulty: currentQuestion.difficulty,
+          method: shareMethod,
+        });
+      }
+
+      // JSONL Backend tracking (silent fail)
+      fetch('/api/track-share', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          sessionId,
+          questionId: currentQuestion.id,
+          category: currentQuestion.category_en,
+          difficulty: currentQuestion.difficulty,
+          method: shareMethod,
+          language,
+        }),
+      }).catch(err => console.error('Share tracking failed:', err));
+    }
+  };
+
+  // Loading state
+  if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-blue-50 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">📚</div>
-          <p className="text-xl text-gray-600">Loading questions...</p>
+          <p className="text-xl text-gray-600">
+            {language === 'en' ? 'Loading questions...' : '加载题目中...'}
+          </p>
         </div>
       </div>
     );
   }
 
-  const isCorrect = showFeedback && selectedAnswer === currentQuestion.correct_answer;
-  const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+  // Error state
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-blue-50 flex items-center justify-center p-4">
+        <div className="text-center max-w-md">
+          <div className="text-6xl mb-4">⚠️</div>
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">
+            {language === 'en' ? 'Oops!' : '哎呀！'}
+          </h2>
+          <p className="text-lg text-gray-700 mb-6">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-3 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            {language === 'en' ? 'Refresh Page' : '刷新页面'}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // No questions loaded
+  if (!currentQuestion || !shuffledChoices) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-blue-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-6xl mb-4 animate-bounce">📚</div>
+          <p className="text-xl text-gray-600">
+            {language === 'en' ? 'Loading questions...' : '加载题目中...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  const isCorrect = showFeedback && selectedAnswer === shuffledChoices.correctAnswerIndex;
+  const accuracy = dailyCount > 0 ? Math.round((correctCount / dailyCount) * 100) : 0;
+  const dailyCountStyle = getDailyCountStyle(dailyCount);
   // Always use English category for emoji matching, regardless of UI language
   const questionEmoji = getCategoryEmoji(
     currentQuestion.category_en || '',
@@ -275,45 +566,80 @@ function QuizContent() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4">
           <div className="flex items-center justify-between">
-            {/* Stats */}
-            <div className="flex items-center gap-4">
+            {/* Left: Daily stats */}
+            <div className="flex items-center gap-3">
+              <span className={`text-base font-bold px-4 py-2 rounded-full border transition-all duration-300 ${dailyCountStyle.bg} ${dailyCountStyle.text} ${dailyCountStyle.border} ${dailyCountStyle.fire ? 'shadow-lg ring-2 ring-orange-300' : ''}`}>
+                {dailyCountStyle.fire && '🔥 '}
+                {language === 'en' ? 'Today' : '今日'}: {dailyCount}
+                {dailyCount > 0 && ` · ${accuracy}%`}
+              </span>
+            </div>
+
+            {/* Right: Share button + Menu */}
+            <div className="flex items-center gap-2 relative">
+              {/* Share button */}
               <button
-                onClick={() => router.push('/')}
-                className="text-2xl hover:scale-110 transition-transform"
-                aria-label="Back to home"
+                onClick={handleShareQuestion}
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-100 hover:bg-orange-200 active:bg-orange-300 transition-all hover:scale-105 shadow-sm hover:shadow"
+                title={translations[language].quiz.shareButton}
+                aria-label={translations[language].quiz.shareButton}
               >
-                🏠
+                📤
               </button>
-              <div className="flex items-center gap-3 flex-wrap">
-                <span className="text-lg font-bold text-gray-900">
-                  🎯 {answeredQuestionIds.size}/{allQuestions.length} {language === 'en' ? 'completed' : '已完成'}
-                </span>
-                {answeredCount > 0 && (
-                  <>
-                    <span className="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
-                      {accuracy}% {language === 'en' ? 'correct' : '正确率'}
-                    </span>
+
+              {/* Menu button and dropdown container */}
+              <div className="menu-container relative">
+                <button
+                  onClick={() => setShowMenu(!showMenu)}
+                  className="w-10 h-10 flex items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 active:bg-gray-300 transition-all hover:scale-105 shadow-sm hover:shadow"
+                  aria-label="Menu"
+                >
+                  <div className="flex flex-col gap-1 w-4">
+                    <div className="h-0.5 bg-gray-700 rounded"></div>
+                    <div className="h-0.5 bg-gray-700 rounded"></div>
+                    <div className="h-0.5 bg-gray-700 rounded"></div>
+                  </div>
+                </button>
+
+                {/* Dropdown menu */}
+                {showMenu && (
+                  <div className="absolute right-0 top-full mt-2 bg-white rounded-lg shadow-xl border border-gray-200 py-2 min-w-[160px] z-10">
+                  <button
+                    onClick={() => {
+                      router.push('/');
+                      setShowMenu(false);
+                    }}
+                    className="w-full px-4 py-2 text-left hover:bg-gray-50 transition-colors flex items-center gap-3 text-gray-700"
+                  >
+                    <span>🏠</span>
+                    <span>{language === 'en' ? 'Home' : '返回首页'}</span>
+                  </button>
+                  <button
+                    onClick={() => {
+                      toggleLanguage();
+                      setShowMenu(false);
+                    }}
+                    className="w-full px-4 py-2 text-left hover:bg-gray-50 transition-colors flex items-center gap-3 text-gray-700"
+                  >
+                    <span>🌐</span>
+                    <span>{language === 'en' ? '中文' : 'English'}</span>
+                  </button>
+                  {dailyCount > 0 && (
                     <button
-                      onClick={handleResetStats}
-                      className="text-gray-400 hover:text-gray-600 transition-colors"
-                      title={language === 'en' ? 'Reset statistics' : '重置统计'}
-                      aria-label={language === 'en' ? 'Reset statistics' : '重置统计'}
+                      onClick={() => {
+                        handleResetStats();
+                        setShowMenu(false);
+                      }}
+                      className="w-full px-4 py-2 text-left hover:bg-gray-50 transition-colors flex items-center gap-3 text-gray-700"
                     >
-                      🔄
+                      <span>🔄</span>
+                      <span>{language === 'en' ? 'Reset Stats' : '重置进度'}</span>
                     </button>
-                  </>
+                  )}
+                </div>
                 )}
               </div>
             </div>
-
-            {/* Language toggle */}
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors font-medium text-gray-700"
-            >
-              <span className="text-sm">🌐</span>
-              <span className="text-sm">{language === 'en' ? 'EN' : '中文'}</span>
-            </button>
           </div>
         </div>
       </header>
@@ -325,7 +651,7 @@ function QuizContent() {
           <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-10">
             {/* Category & Difficulty */}
             <div className="flex justify-between items-start mb-6">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-wrap">
                 <span className="text-sm text-gray-500">
                   {language === 'en' ? currentQuestion.category_en : currentQuestion.category_zh}
                 </span>
@@ -349,10 +675,10 @@ function QuizContent() {
 
             {/* Choices */}
             <div className="space-y-3 mb-6">
-              {(language === 'en' ? currentQuestion.choices_en : currentQuestion.choices_zh).map(
+              {(language === 'en' ? shuffledChoices.choices_en : shuffledChoices.choices_zh).map(
                 (choice, index) => {
                   const isSelected = selectedAnswer === index;
-                  const isCorrectAnswer = index === currentQuestion.correct_answer;
+                  const isCorrectAnswer = index === shuffledChoices.correctAnswerIndex;
                   const showAsCorrect = showFeedback && isCorrectAnswer;
                   const showAsIncorrect = showFeedback && isSelected && !isCorrectAnswer;
 
@@ -418,11 +744,10 @@ function QuizContent() {
                     ? `You've answered all ${allQuestions.length} questions! Click reset to start again.`
                     : `你已经完成了全部 ${allQuestions.length} 道题目！点击重置按钮重新开始。`}
                 </p>
-                <p className="text-sm text-gray-600">
-                  {language === 'en'
-                    ? `Total: ${answeredCount} | Accuracy: ${accuracy}%`
-                    : `总计：${answeredCount} 题 | 正确率：${accuracy}%`}
-                </p>
+                <span className={`inline-flex items-center text-lg font-bold px-6 py-3 rounded-full border ${dailyCountStyle.bg} ${dailyCountStyle.text} ${dailyCountStyle.border} ${dailyCountStyle.fire ? 'shadow-lg ring-2 ring-orange-300' : ''}`}>
+                  {dailyCountStyle.fire && '🔥 '}
+                  {language === 'en' ? 'Today' : '今日'}: {dailyCount} · {accuracy}%
+                </span>
               </div>
             )}
 
@@ -430,17 +755,28 @@ function QuizContent() {
             {showFeedback && (
               <div className="flex gap-3">
                 <button
-                  onClick={() => setShowExplanationModal(true)}
+                  onClick={() => {
+                    setShowExplanationModal(true);
+                    // GA4 Event: Track explanation view
+                    if (typeof window !== 'undefined' && window.gtag && currentQuestion) {
+                      const isCorrect = selectedAnswer === shuffledChoices?.correctAnswerIndex;
+                      window.gtag('event', isCorrect ? 'view_explanation_correct' : 'view_explanation_incorrect', {
+                        question_id: currentQuestion.id,
+                        category: currentQuestion.category_en,
+                        difficulty: currentQuestion.difficulty,
+                      });
+                    }
+                  }}
                   className={`${
                     allQuestionsCompleted ? 'w-full' : 'flex-1'
-                  } bg-white border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 hover:shadow-lg transform hover:scale-105`}
+                  } bg-white border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold py-4 px-4 rounded-xl text-base transition-all duration-300 hover:shadow-lg transform hover:scale-105 whitespace-nowrap`}
                 >
                   {language === 'en' ? '💡 View Explanation' : '💡 查看解答'}
                 </button>
                 {!allQuestionsCompleted && (
                   <button
                     onClick={handleNextQuestion}
-                    className="flex-1 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-6 rounded-xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="flex-1 bg-gradient-to-r from-[#D94E33] to-[#FF6B52] hover:from-[#FF6B52] hover:to-[#D94E33] text-white font-bold py-4 px-4 rounded-xl text-base transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 whitespace-nowrap"
                   >
                     {language === 'en' ? 'Next →' : '下一题 →'}
                   </button>
@@ -506,8 +842,8 @@ function QuizContent() {
               </h4>
               <p className="text-gray-700 leading-relaxed mb-6">
                 {language === 'en'
-                  ? currentQuestion.explanations_en[selectedAnswer]
-                  : currentQuestion.explanations_zh[selectedAnswer]}
+                  ? shuffledChoices.explanations_en[selectedAnswer]
+                  : shuffledChoices.explanations_zh[selectedAnswer]}
               </p>
 
               {/* Close button */}

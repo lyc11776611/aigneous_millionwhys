@@ -1,7 +1,7 @@
 # AIgneous MillionWhys - Multi-stage Production Dockerfile
 # Stage 1: Install dependencies
 FROM node:20-alpine AS deps
-RUN apk add --no-cache libc6-compat
+RUN apk update && apk add --no-cache libc6-compat
 WORKDIR /app
 
 # Install dependencies based on the preferred package manager
@@ -35,6 +35,9 @@ RUN adduser --system --uid 1001 nextjs
 
 # Copy necessary files from builder
 COPY --from=builder /app/public ./public
+
+# Copy question data for API routes
+COPY --from=builder /app/src/data ./src/data
 
 # Set the correct permission for prerender cache
 RUN mkdir .next

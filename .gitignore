@@ -44,3 +44,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# user data logs (privacy & size concerns)
+/data/logs/*
+!/data/logs/.gitkeep
