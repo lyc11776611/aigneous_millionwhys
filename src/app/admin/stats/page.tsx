@@ -19,6 +19,21 @@ interface Stats {
     difficulty: string;
     language: string;
   }>;
+  shares: {
+    total: number;
+    byMethod: Record<string, number>;
+    byCategory: Record<string, number>;
+    byDifficulty: Record<string, number>;
+    recentShares: Array<{
+      timestamp: string;
+      sessionId: string;
+      questionId: string;
+      category: string;
+      difficulty: string;
+      method: string;
+      language: string;
+    }>;
+  };
 }
 
 export default function AdminStatsPage() {
@@ -108,7 +123,7 @@ export default function AdminStatsPage() {
       </div>
 
         {/* Overview Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow p-6">
             <div className="text-gray-500 text-sm mb-2">Total Answers</div>
             <div className="text-3xl font-bold text-gray-900">{stats.total}</div>
@@ -120,6 +135,10 @@ export default function AdminStatsPage() {
           <div className="bg-white rounded-xl shadow p-6">
             <div className="text-gray-500 text-sm mb-2">Overall Accuracy</div>
             <div className="text-3xl font-bold text-gray-900">{stats.accuracy}%</div>
+          </div>
+          <div className="bg-white rounded-xl shadow p-6">
+            <div className="text-gray-500 text-sm mb-2">Total Shares</div>
+            <div className="text-3xl font-bold text-orange-600">{stats.shares?.total || 0}</div>
           </div>
         </div>
 
@@ -188,6 +207,107 @@ export default function AdminStatsPage() {
             </div>
           </div>
         </div>
+
+        {/* Share Analytics */}
+        {stats.shares && stats.shares.total > 0 && (
+        <>
+          <div className="bg-white rounded-xl shadow p-6 mb-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Share Analytics</h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* By Method */}
+              <div>
+                <h3 className="font-medium text-gray-700 mb-3">By Method</h3>
+                <div className="space-y-2">
+                  {stats.shares.byMethod && Object.entries(stats.shares.byMethod).map(([method, count]) => (
+                    <div key={method} className="flex justify-between items-center bg-gray-50 rounded px-3 py-2">
+                      <span className="text-gray-700 capitalize">{method === 'web_share' ? 'Web Share API' : method === 'clipboard' ? 'Clipboard' : method}</span>
+                      <span className="font-bold text-gray-900">{count}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* By Category */}
+              <div>
+                <h3 className="font-medium text-gray-700 mb-3">By Category</h3>
+                <div className="space-y-2">
+                  {stats.shares.byCategory && Object.entries(stats.shares.byCategory)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map(([category, count]) => (
+                      <div key={category} className="flex justify-between items-center bg-gray-50 rounded px-3 py-2">
+                        <span className="text-gray-700 capitalize">{category}</span>
+                        <span className="font-bold text-gray-900">{count}</span>
+                      </div>
+                    ))}
+                </div>
+              </div>
+
+              {/* By Difficulty */}
+              <div>
+                <h3 className="font-medium text-gray-700 mb-3">By Difficulty</h3>
+                <div className="space-y-2">
+                  {stats.shares.byDifficulty && Object.entries(stats.shares.byDifficulty).map(([difficulty, count]) => (
+                    <div key={difficulty} className="flex justify-between items-center bg-gray-50 rounded px-3 py-2">
+                      <span className="text-gray-700 capitalize">{difficulty}</span>
+                      <span className="font-bold text-gray-900">{count}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Recent Shares */}
+          {stats.shares.recentShares && stats.shares.recentShares.length > 0 && (
+          <div className="bg-white rounded-xl shadow p-6 mb-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Recent 50 Shares</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200">
+                    <th className="text-left py-2 px-3 text-gray-600">Time</th>
+                    <th className="text-left py-2 px-3 text-gray-600">Session</th>
+                    <th className="text-left py-2 px-3 text-gray-600">Category</th>
+                    <th className="text-left py-2 px-3 text-gray-600">Difficulty</th>
+                    <th className="text-left py-2 px-3 text-gray-600">Method</th>
+                    <th className="text-left py-2 px-3 text-gray-600">Lang</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {stats.shares.recentShares.map((share, idx) => (
+                    <tr key={idx} className="border-b border-gray-100 hover:bg-gray-50">
+                      <td className="py-2 px-3 text-gray-700">
+                        {new Date(share.timestamp).toLocaleString('zh-CN', {
+                          month: 'short',
+                          day: 'numeric',
+                          hour: '2-digit',
+                          minute: '2-digit'
+                        })}
+                      </td>
+                      <td className="py-2 px-3 text-gray-700 font-mono text-xs">{share.sessionId.slice(0, 8)}</td>
+                      <td className="py-2 px-3 text-gray-700 capitalize">{share.category}</td>
+                      <td className="py-2 px-3 text-gray-700 capitalize">{share.difficulty}</td>
+                      <td className="py-2 px-3 text-gray-700">
+                        <span className={`px-2 py-1 rounded text-xs ${
+                          share.method === 'web_share'
+                            ? 'bg-blue-100 text-blue-700'
+                            : 'bg-purple-100 text-purple-700'
+                        }`}>
+                          {share.method === 'web_share' ? '📤 Share' : '📋 Copy'}
+                        </span>
+                      </td>
+                      <td className="py-2 px-3 text-gray-700">{share.language}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          )}
+        </>
+        )}
 
         {/* Recent Answers */}
         {stats.recentAnswers && stats.recentAnswers.length > 0 && (
