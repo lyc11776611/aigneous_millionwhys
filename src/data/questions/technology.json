@@ -97,6 +97,326 @@
         "错误。触摸屏不使用摄像头跟踪手指。它们在玻璃下方有电传感器网格，通过电场变化检测触摸。"
       ],
       "difficulty": "hard"
+    },
+    {
+      "id": "tech_004",
+      "question_en": "Why do computers slow down over time?",
+      "question_zh": "为什么电脑越来越慢？",
+
+      "choices_en": [
+        "Parts physically wear out",
+        "Files get fragmented on disk",
+        "Dust blocks cooling fans",
+        "Battery loses power"
+      ],
+      "choices_zh": [
+        "零件物理磨损",
+        "磁盘文件碎片化",
+        "灰尘堵塞风扇",
+        "电池失去电力"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Computer parts like processors and RAM don't physically wear out from use like mechanical parts. The slowdown is usually software-related, not hardware degradation.",
+        "Correct! As you use your computer, files get broken into pieces scattered across the hard drive - this is called fragmentation. The computer has to search multiple locations to read one file, which takes longer. Also, background programs, temporary files, and software updates accumulate over time, using more resources. Regular maintenance like disk defragmentation and cleaning startup programs helps restore speed!",
+        "Wrong. While dust can affect cooling and cause overheating, it's not the main reason computers slow down over time. Software issues like fragmentation and accumulated programs are the primary causes.",
+        "Wrong. Battery degradation affects laptop runtime, not computer speed. Slowdowns are mainly caused by software issues like file fragmentation and too many programs running."
+      ],
+      "explanations_zh": [
+        "错误。处理器和内存等计算机部件不会像机械部件那样因使用而物理磨损。减速通常与软件有关，而非硬件退化。",
+        "正确！使用电脑时，文件会被分解成碎片分散在硬盘各处——这叫做碎片化。电脑必须搜索多个位置来读取一个文件，这需要更长时间。此外，后台程序、临时文件和软件更新随时间积累，占用更多资源。定期维护如磁盘碎片整理和清理启动项能帮助恢复速度！",
+        "错误。虽然灰尘会影响散热并导致过热，但这不是电脑变慢的主要原因。碎片化和积累的程序等软件问题才是主因。",
+        "错误。电池退化影响笔记本电脑续航时间，而非电脑速度。减速主要由文件碎片化和运行过多程序等软件问题引起。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tech_005",
+      "question_en": "Why does Wi-Fi have limited range?",
+      "question_zh": "为什么WiFi范围有限？",
+
+      "choices_en": [
+        "Radio waves weaken with distance",
+        "Routers have power limits",
+        "Air absorbs all signals",
+        "Too many devices connected"
+      ],
+      "choices_zh": [
+        "无线电波随距离减弱",
+        "路由器功率限制",
+        "空气吸收所有信号",
+        "连接设备太多"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! WiFi uses radio waves that naturally spread out and weaken as they travel through space - following the inverse square law. Walls, furniture, and other obstacles absorb and reflect these waves, reducing signal strength. The 2.4GHz frequency penetrates walls better but has shorter theoretical range than 5GHz, which is faster but more easily blocked. This is why you get better WiFi closer to the router!",
+        "Wrong. While routers have power limits set by regulations, this isn't the main reason WiFi range is limited. The fundamental issue is that radio waves naturally weaken as they spread out over distance.",
+        "Wrong. Air doesn't absorb all radio signals - they can travel quite far. However, radio waves do naturally weaken as they spread out, and solid objects like walls absorb and reflect them significantly.",
+        "Wrong. Too many devices can slow your WiFi speed by sharing bandwidth, but it doesn't reduce the signal range. The limited range is due to radio waves weakening with distance."
+      ],
+      "explanations_zh": [
+        "正确！WiFi使用的无线电波在空间中传播时自然扩散并减弱——遵循平方反比定律。墙壁、家具和其他障碍物吸收和反射这些波，降低信号强度。2.4GHz频率穿透墙壁能力更好但理论范围比5GHz短，后者更快但更易被阻挡。这就是为什么离路由器越近WiFi越好！",
+        "错误。虽然法规设定了路由器功率限制，但这不是WiFi范围受限的主因。根本问题是无线电波随距离扩散自然减弱。",
+        "错误。空气不会吸收所有无线电信号——它们可以传播很远。然而，无线电波确实会随扩散自然减弱，而墙壁等固体物体会显著吸收和反射它们。",
+        "错误。设备太多会因共享带宽而降低WiFi速度，但不会减少信号范围。范围有限是因为无线电波随距离减弱。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tech_006",
+      "question_en": "Why do we need to charge batteries?",
+      "question_zh": "为什么电池需要充电？",
+
+      "choices_en": [
+        "To refill lost electricity",
+        "To reverse chemical reactions",
+        "To cool down internal parts",
+        "To clean battery contacts"
+      ],
+      "choices_zh": [
+        "补充流失的电",
+        "逆转化学反应",
+        "冷却内部零件",
+        "清洁电池触点"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Electricity doesn't 'fill' a battery like water in a tank. Batteries work through chemical reactions that produce electricity, not by storing electrons directly.",
+        "Correct! Rechargeable batteries like lithium-ion work through reversible chemical reactions. When you use the battery, chemicals react to produce electricity, converting chemical energy to electrical energy. Charging applies electrical current to reverse this reaction, restoring the chemicals to their original state. This is why you can recharge a battery hundreds of times - you're literally reversing the chemistry!",
+        "Wrong. Charging doesn't cool batteries - it actually generates some heat. Charging reverses the chemical reactions inside the battery to restore its energy storage capacity.",
+        "Wrong. Cleaning contacts might improve connection but isn't what charging does. Charging reverses the chemical reactions that were depleted during use to restore the battery's energy."
+      ],
+      "explanations_zh": [
+        "错误。电不会像水箱里的水那样'填充'电池。电池通过产生电力的化学反应工作，而非直接储存电子。",
+        "正确！锂离子等可充电电池通过可逆化学反应工作。使用电池时，化学物质反应产生电力，将化学能转化为电能。充电施加电流逆转这个反应，将化学物质恢复到原始状态。这就是为什么你可以充电数百次——你实际上在逆转化学反应！",
+        "错误。充电不会冷却电池——实际上会产生一些热量。充电逆转电池内部的化学反应以恢复其储能能力。",
+        "错误。清洁触点可能改善连接但这不是充电的作用。充电逆转使用期间耗尽的化学反应以恢复电池能量。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "tech_007",
+      "question_en": "Why does GPS know where you are?",
+      "question_zh": "为什么GPS知道你位置？",
+
+      "choices_en": [
+        "Tracks your phone movements",
+        "Measures satellite distances",
+        "Connects to cell towers",
+        "Uses internet location data"
+      ],
+      "choices_zh": [
+        "追踪手机移动",
+        "测量卫星距离",
+        "连接手机信号塔",
+        "使用网络位置数据"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. GPS doesn't track your movements - it calculates your position in real-time. Your device receives signals from satellites and uses the time delay to calculate distances.",
+        "Correct! GPS works through trilateration using satellites. Your device receives signals from at least 4 GPS satellites orbiting Earth. Each satellite sends its location and timestamp. Your device calculates how far away each satellite is by measuring signal travel time (signals travel at light speed). With distances from multiple satellites, it can pinpoint your exact location - like drawing circles and finding where they intersect!",
+        "Wrong. While cell towers can provide approximate location through triangulation, that's not GPS. GPS specifically uses satellite signals, not cellular towers, to determine precise position.",
+        "Wrong. GPS doesn't require internet - it only receives signals from satellites. Internet can help GPS load maps and speed up initial location lock, but position calculation is done using satellite signals alone."
+      ],
+      "explanations_zh": [
+        "错误。GPS不追踪你的移动——它实时计算你的位置。你的设备接收卫星信号并使用时间延迟计算距离。",
+        "正确！GPS通过卫星三边测量工作。你的设备从至少4颗绕地球轨道运行的GPS卫星接收信号。每颗卫星发送其位置和时间戳。你的设备通过测量信号传播时间（信号以光速传播）计算每颗卫星的距离。有了多颗卫星的距离，它就能精确定位你的位置——就像画圆并找到它们相交的地方！",
+        "错误。虽然手机信号塔可以通过三角测量提供大致位置，但那不是GPS。GPS专门使用卫星信号而非蜂窝塔来确定精确位置。",
+        "错误。GPS不需要互联网——它只接收卫星信号。互联网能帮助GPS加载地图和加快初始定位锁定，但位置计算仅使用卫星信号完成。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "tech_008",
+      "question_en": "Why do LED lights use less energy?",
+      "question_zh": "为什么LED灯更省电？",
+
+      "choices_en": [
+        "Emit light without heat",
+        "Convert electricity efficiently",
+        "Use less bright light",
+        "Turn on and off rapidly"
+      ],
+      "choices_zh": [
+        "发光不产生热量",
+        "高效转换电能",
+        "使用较暗的光",
+        "快速开关"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. LEDs do produce some heat, just much less than traditional bulbs. The key is they convert most electricity directly into light rather than wasting it as heat.",
+        "Correct! LEDs (Light Emitting Diodes) convert electricity to light much more efficiently than traditional incandescent bulbs. When electricity passes through a semiconductor material in the LED, electrons release energy as photons (light) through electroluminescence. Incandescent bulbs waste about 90% of energy as heat - they work by heating a wire until it glows! LEDs convert about 80-90% of energy to light, which is why they stay cooler and save energy.",
+        "Wrong. LEDs can be just as bright as traditional bulbs while using less energy. The energy savings come from their efficient conversion of electricity to light, not from being dimmer.",
+        "Wrong. While LEDs can turn on/off instantly, that's not why they use less energy. Their efficiency comes from converting electricity directly to light through semiconductor physics rather than heating a filament."
+      ],
+      "explanations_zh": [
+        "错误。LED确实会产生一些热量，只是比传统灯泡少得多。关键是它们将大部分电能直接转换为光而不是作为热量浪费。",
+        "正确！LED（发光二极管）将电能转换为光的效率比传统白炽灯泡高得多。当电流通过LED中的半导体材料时，电子通过电致发光释放能量为光子（光）。白炽灯泡约90%的能量作为热量浪费——它们通过加热金属丝直到发光工作！LED约80-90%的能量转换为光，这就是为什么它们更凉且省电。",
+        "错误。LED可以与传统灯泡一样亮却用更少能量。节能来自它们高效地将电能转换为光，而非更暗。",
+        "错误。虽然LED能瞬间开关，但这不是它们省电的原因。它们的效率来自通过半导体物理直接将电能转换为光，而非加热灯丝。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tech_009",
+      "question_en": "Why do solar panels generate electricity?",
+      "question_zh": "为什么太阳能板发电？",
+
+      "choices_en": [
+        "Heat creates steam power",
+        "Photons knock electrons loose",
+        "Sun's magnetism pulls electrons",
+        "Light pressure moves turbines"
+      ],
+      "choices_zh": [
+        "热量产生蒸汽动力",
+        "光子敲松电子",
+        "太阳磁力拉电子",
+        "光压力推动涡轮"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Solar panels don't use heat or steam - that's how solar thermal plants work, not photovoltaic (solar) panels. Solar panels convert light directly to electricity through the photovoltaic effect.",
+        "Correct! Solar panels work through the photovoltaic effect. They're made of semiconductor materials (usually silicon) with two layers. When photons (light particles) from sunlight hit the panel, they transfer energy to electrons in the atoms. This energy knocks electrons loose, creating free electrons. The panel's structure creates an electric field that pushes these electrons to flow in one direction - that's electricity! No moving parts needed!",
+        "Wrong. Solar panels don't use magnetism. They generate electricity when photons from sunlight knock electrons loose in semiconductor materials, creating an electrical current through the photovoltaic effect.",
+        "Wrong. Solar panels have no moving parts or turbines. They generate electricity directly when light photons knock electrons loose in the semiconductor material - this is called the photovoltaic effect."
+      ],
+      "explanations_zh": [
+        "错误。太阳能板不使用热量或蒸汽——那是太阳能热电站的工作方式，而非光伏（太阳能）板。太阳能板通过光伏效应直接将光转换为电。",
+        "正确！太阳能板通过光伏效应工作。它们由具有两层的半导体材料（通常是硅）制成。当来自阳光的光子（光粒子）击中面板时，它们将能量传递给原子中的电子。这种能量敲松电子，产生自由电子。面板的结构产生电场，推动这些电子朝一个方向流动——那就是电！不需要移动部件！",
+        "错误。太阳能板不使用磁力。当来自阳光的光子敲松半导体材料中的电子时，它们通过光伏效应产生电流。",
+        "错误。太阳能板没有移动部件或涡轮。当光子敲松半导体材料中的电子时，它们直接发电——这称为光伏效应。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "tech_010",
+      "question_en": "Why does Bluetooth connect wirelessly?",
+      "question_zh": "为什么蓝牙无线连接？",
+
+      "choices_en": [
+        "Uses infrared light beams",
+        "Creates magnetic fields",
+        "Uses short-range radio waves",
+        "Sends ultrasonic sound waves"
+      ],
+      "choices_zh": [
+        "使用红外光束",
+        "产生磁场",
+        "使用短程无线电波",
+        "发送超声波"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Bluetooth doesn't use infrared light - that's a different technology (like old TV remotes). Bluetooth uses radio waves in the 2.4GHz frequency band for wireless communication.",
+        "Wrong. Bluetooth doesn't create magnetic fields to transfer data. It transmits information through radio waves at 2.4GHz frequency, similar to WiFi but optimized for shorter range and lower power.",
+        "Correct! Bluetooth uses short-range radio waves in the 2.4GHz frequency band. It works like a mini radio station - your devices broadcast and receive data through radio signals. The technology uses frequency hopping: it rapidly switches between 79 different frequencies to avoid interference. This is why Bluetooth works through walls and pockets but has limited range (usually 10-100 meters). It's designed for low-power, short-distance connections!",
+        "Wrong. Bluetooth doesn't use sound waves - it uses radio waves. Sound waves would require line-of-sight and wouldn't work through walls like Bluetooth does."
+      ],
+      "explanations_zh": [
+        "错误。蓝牙不使用红外光——那是不同的技术（如旧电视遥控器）。蓝牙使用2.4GHz频段的无线电波进行无线通信。",
+        "错误。蓝牙不产生磁场来传输数据。它通过2.4GHz频率的无线电波传输信息，类似WiFi但针对更短距离和更低功耗优化。",
+        "正确！蓝牙使用2.4GHz频段的短程无线电波。它像一个迷你电台——你的设备通过无线电信号广播和接收数据。该技术使用跳频：在79个不同频率之间快速切换以避免干扰。这就是为什么蓝牙能穿过墙壁和口袋但范围有限（通常10-100米）。它专为低功耗短距离连接设计！",
+        "错误。蓝牙不使用声波——它使用无线电波。声波需要视线且无法像蓝牙那样穿过墙壁。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "tech_011",
+      "question_en": "Why do QR codes work?",
+      "question_zh": "为什么二维码有效？",
+
+      "choices_en": [
+        "Patterns encode data in 2D",
+        "Colors store information",
+        "Magnetic strips hold data",
+        "Holograms contain codes"
+      ],
+      "choices_zh": [
+        "图案二维编码数据",
+        "颜色储存信息",
+        "磁条保存数据",
+        "全息图包含代码"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! QR codes (Quick Response codes) encode information in a 2D pattern of black and white squares. Each square represents binary data (black=1, white=0). The three large corner squares help cameras orient the code correctly. The pattern can store thousands of characters - much more than traditional barcodes. Your camera captures the image, software decodes the pattern, and extracts the data (like URLs or text). QR codes also include error correction, so they work even if partially damaged!",
+        "Wrong. Standard QR codes only use black and white patterns, not colors. The information is encoded in the arrangement and position of these black and white squares, not in color variations.",
+        "Wrong. QR codes don't have magnetic strips - they're just printed patterns. The information is visually encoded in the arrangement of black and white squares that cameras can read.",
+        "Wrong. QR codes aren't holograms - they're simple 2D printed patterns. The black and white squares encode data that can be read by any camera without special 3D viewing technology."
+      ],
+      "explanations_zh": [
+        "正确！二维码（快速响应码）在黑白方块的二维图案中编码信息。每个方块代表二进制数据（黑=1，白=0）。三个大角方块帮助相机正确定向代码。图案可以存储数千个字符——比传统条形码多得多。你的相机捕获图像，软件解码图案，提取数据（如网址或文本）。二维码还包括纠错功能，因此即使部分损坏也能工作！",
+        "错误。标准二维码只使用黑白图案，不用颜色。信息编码在这些黑白方块的排列和位置中，而非颜色变化。",
+        "错误。二维码没有磁条——它们只是打印图案。信息视觉编码在相机可以读取的黑白方块排列中。",
+        "错误。二维码不是全息图——它们是简单的二维打印图案。黑白方块编码的数据可被任何相机读取，无需特殊3D查看技术。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "tech_012",
+      "question_en": "Why does 5G work faster than 4G?",
+      "question_zh": "为什么5G比4G更快？",
+
+      "choices_en": [
+        "Uses stronger signal power",
+        "Has more cell towers",
+        "Uses higher frequencies",
+        "Compresses data better"
+      ],
+      "choices_zh": [
+        "使用更强信号功率",
+        "有更多信号塔",
+        "使用更高频率",
+        "压缩数据更好"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. 5G doesn't work faster because of stronger signal power. In fact, higher frequency 5G signals are weaker and travel shorter distances than 4G signals.",
+        "Wrong. While 5G networks may eventually have more towers, speed doesn't come from tower quantity. The speed advantage comes from using higher radio frequencies that can carry more data simultaneously.",
+        "Correct! 5G uses higher radio frequencies (24-100 GHz) compared to 4G (under 6 GHz). Think of frequency like a highway - higher frequencies are like wider highways that can carry more data at once. These millimeter waves can transmit much more information simultaneously. The tradeoff is they travel shorter distances and are blocked by walls more easily, which is why 5G needs more small cells. This is why 5G can be 10-100 times faster than 4G!",
+        "Wrong. 5G and 4G use similar data compression techniques. The speed advantage comes from 5G using higher radio frequencies that can carry more data simultaneously, not better compression."
+      ],
+      "explanations_zh": [
+        "错误。5G不是因为更强的信号功率而更快。事实上，更高频率的5G信号比4G信号更弱且传播距离更短。",
+        "错误。虽然5G网络最终可能有更多信号塔，但速度不来自信号塔数量。速度优势来自使用能同时传输更多数据的更高无线电频率。",
+        "正确！5G使用比4G（低于6GHz）更高的无线电频率（24-100GHz）。把频率想象成高速公路——更高频率就像更宽的高速公路可以同时承载更多数据。这些毫米波可以同时传输更多信息。代价是它们传播距离更短且更容易被墙壁阻挡，这就是为什么5G需要更多小基站。这就是为什么5G可以比4G快10-100倍！",
+        "错误。5G和4G使用类似的数据压缩技术。速度优势来自5G使用能同时传输更多数据的更高无线电频率，而非更好的压缩。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "tech_013",
+      "question_en": "Why do electric cars not need gasoline?",
+      "question_zh": "为什么电动车不需汽油？",
+
+      "choices_en": [
+        "Use battery-powered motors",
+        "Run on solar power only",
+        "Generate power while driving",
+        "Use hydrogen fuel cells"
+      ],
+      "choices_zh": [
+        "使用电池驱动电机",
+        "仅靠太阳能运行",
+        "行驶时自己发电",
+        "使用氢燃料电池"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Electric cars use large battery packs (usually lithium-ion) to store electrical energy. Instead of an internal combustion engine that burns gasoline, they have electric motors that convert electrical energy directly into mechanical motion. You charge the battery by plugging it in, just like charging a phone but much larger! Electric motors are also more efficient than gas engines - they convert about 85-90% of energy to motion versus only 20-30% for gas engines. No gasoline, oil changes, or exhaust emissions needed!",
+        "Wrong. Electric cars don't run only on solar power - they charge from the electrical grid. Some have solar panels for auxiliary power, but the main power comes from rechargeable batteries charged via plugging in.",
+        "Wrong. While electric cars capture some energy through regenerative braking, they can't generate enough power to drive indefinitely. They primarily rely on battery power that must be recharged by plugging in.",
+        "Wrong. Most electric cars use battery-powered electric motors, not hydrogen fuel cells. Hydrogen fuel cell vehicles are a different type of electric vehicle that generates electricity from hydrogen gas."
+      ],
+      "explanations_zh": [
+        "正确！电动车使用大型电池组（通常是锂离子）储存电能。它们不用燃烧汽油的内燃机，而是有电动机将电能直接转换为机械运动。你通过插电给电池充电，就像给手机充电但大得多！电动机也比汽油发动机更高效——它们将约85-90%的能量转换为运动，而汽油发动机只有20-30%。不需要汽油、换油或排气！",
+        "错误。电动车不仅靠太阳能运行——它们从电网充电。有些配有太阳能板供辅助电力，但主要动力来自通过插电充电的可充电电池。",
+        "错误。虽然电动车通过再生制动捕获一些能量，但它们无法产生足够动力无限期行驶。它们主要依靠必须通过插电充电的电池动力。",
+        "错误。大多数电动车使用电池驱动的电动机，而非氢燃料电池。氢燃料电池车是从氢气产生电力的不同类型电动车。"
+      ],
+      "difficulty": "easy"
     }
   ]
 }

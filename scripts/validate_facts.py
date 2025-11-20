@@ -48,6 +48,31 @@ class FactChecker:
     def __init__(self, verbose=False):
         self.verbose = verbose
         self.results: List[ValidationResult] = []
+        # Category name mapping for normalization
+        self.category_mapping = {
+            'chemistry around us': 'Chemistry',
+            'physics in daily life': 'Physics',
+            'astronomy & space': 'Astronomy',
+            'astronomy and space': 'Astronomy',
+            'human biology': 'Biology',
+            'animal behavior': 'Biology',
+            'plant science': 'Biology',
+            'psychology & behavior': 'Psychology',
+            'psychology and behavior': 'Psychology',
+            'economics & money': 'Economics',
+            'economics and money': 'Economics',
+            'weather & climate': 'Weather',
+            'weather and climate': 'Weather',
+            'technology': 'Technology',
+            'food & nutrition': 'Nutrition',
+            'food and nutrition': 'Nutrition',
+            'earth science': 'Earth Science',
+        }
+
+    def normalize_category(self, category: str) -> str:
+        """Normalize category name for consistent checking"""
+        normalized = category.lower().strip()
+        return self.category_mapping.get(normalized, category)
 
     def log(self, message: str):
         """Print verbose logging"""
@@ -89,6 +114,10 @@ class FactChecker:
 
         self.log(f"Checking {q_id}: {q_text}")
 
+        # Normalize category for consistent checking
+        normalized_category = self.normalize_category(category)
+        self.log(f"Category: {category} -> {normalized_category}")
+
         issues = []
         notes = []
 
@@ -105,7 +134,7 @@ class FactChecker:
         issues.extend(self._check_answer_consistency(question))
 
         # 5. Scientific accuracy markers (automated pre-check)
-        issues.extend(self._check_accuracy_markers(question, category))
+        issues.extend(self._check_accuracy_markers(question, normalized_category))
 
         # Determine confidence level
         critical_count = sum(1 for i in issues if i.severity == 'critical')
@@ -122,7 +151,7 @@ class FactChecker:
             passed = True
 
         # Add notes about what to manually verify
-        notes.extend(self._get_manual_verification_notes(question, category))
+        notes.extend(self._get_manual_verification_notes(question, normalized_category))
 
         return ValidationResult(
             question_id=q_id,

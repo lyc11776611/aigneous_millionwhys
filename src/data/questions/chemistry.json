@@ -125,6 +125,471 @@
         "错误。肥皂分子不会形成圆圈。它们形成具有表面张力的薄膜。正是这种表面张力将气泡拉成球体，而不是单个分子的排列。"
       ],
       "difficulty": "medium"
+    },
+    {
+      "id": "chem_005",
+      "question_en": "Why does bread rise when baking?",
+      "question_zh": "为什么面包烘烤时会膨胀？",
+      "choices_en": [
+        "Heat expands the dough",
+        "Yeast produces CO2 gas",
+        "Water turns to steam",
+        "Air bubbles get bigger"
+      ],
+      "choices_zh": [
+        "热量膨胀面团",
+        "酵母产生二氧化碳",
+        "水变成蒸汽",
+        "气泡变大"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Heat alone doesn't make bread rise. While heat does cause some expansion, the main rising happens before baking through a biological process. The heat actually sets the structure after yeast has done its work.",
+        "Correct! Yeast is a living microorganism that eats sugars in the dough and produces carbon dioxide gas as waste. These CO2 bubbles get trapped in the gluten network, making the dough expand. Heat from baking makes the gas expand more and kills the yeast, setting the fluffy structure!",
+        "Wrong. While steam does form during baking and contributes slightly to rise, it's not the main cause. The primary rising comes from CO2 produced by yeast fermentation, which happens even before the dough goes in the oven.",
+        "Wrong. Air bubbles don't spontaneously get bigger. The bubbles are filled with carbon dioxide produced by yeast through fermentation. It's this biological process of yeast consuming sugars and releasing CO2 that creates the gas bubbles."
+      ],
+      "explanations_zh": [
+        "错误。仅靠热量不能使面包膨胀。虽然热量确实会引起一些膨胀，但主要的发酵过程在烘烤前通过生物过程完成。热量实际上是在酵母完成工作后固定结构。",
+        "正确！酵母是一种活的微生物，它吃掉面团中的糖并产生二氧化碳气体作为废物。这些二氧化碳气泡被困在面筋网络中，使面团膨胀。烘烤的热量使气体进一步膨胀并杀死酵母，固定了蓬松的结构！",
+        "错误。虽然烘烤时确实会形成蒸汽并略微促进膨胀，但这不是主要原因。主要的膨胀来自酵母发酵产生的二氧化碳，这甚至在面团进入烤箱之前就发生了。",
+        "错误。气泡不会自发变大。气泡中充满了酵母通过发酵产生的二氧化碳。正是酵母消耗糖并释放二氧化碳的生物过程产生了气泡。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_006",
+      "question_en": "Why does popcorn pop?",
+      "question_zh": "为什么爆米花会爆开？",
+      "choices_en": [
+        "Heat breaks the kernel",
+        "Water vapor builds pressure",
+        "Air expands inside",
+        "Oil makes it explode"
+      ],
+      "choices_zh": [
+        "热量打破玉米粒",
+        "水蒸气产生压力",
+        "内部空气膨胀",
+        "油使其爆炸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Heat doesn't directly break the kernel. The shell is tough and can withstand high temperatures. What breaks it is the pressure buildup from water turning into steam inside the kernel.",
+        "Correct! Each popcorn kernel contains about 14% water inside a hard shell. When heated, this water turns to steam and builds up pressure. At about 180°C, the pressure reaches 9 times normal atmospheric pressure and the shell ruptures. The starch inside instantly expands into the fluffy white foam we love!",
+        "Wrong. There's no air pocket inside popcorn kernels. The pressure comes from water molecules turning into steam vapor. This phase change from liquid to gas creates much more pressure than air expansion would.",
+        "Wrong. Oil is used for cooking, not for popping. The pop comes from water inside the kernel turning to steam. You can even pop corn without oil using an air popper or microwave."
+      ],
+      "explanations_zh": [
+        "错误。热量不会直接打破玉米粒。外壳很坚硬，可以承受高温。打破它的是玉米粒内部水变成蒸汽产生的压力。",
+        "正确！每个爆米花粒含有约14%的水分，包裹在硬壳中。加热时，水变成蒸汽并产生压力。在约180°C时，压力达到正常大气压的9倍，外壳破裂。里面的淀粉瞬间膨胀成我们喜爱的蓬松白色泡沫！",
+        "错误。爆米花粒内没有气穴。压力来自水分子变成水蒸气。这种从液态到气态的相变产生的压力远大于空气膨胀。",
+        "错误。油是用来烹饪的，不是用来爆开的。爆开来自玉米粒内的水变成蒸汽。你甚至可以用空气爆米花机或微波炉不加油爆米花。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_007",
+      "question_en": "Why does soap make bubbles?",
+      "question_zh": "为什么肥皂会产生泡泡？",
+      "choices_en": [
+        "It traps air between layers",
+        "It creates oxygen gas",
+        "It reacts with water",
+        "It dissolves air"
+      ],
+      "choices_zh": [
+        "在层之间困住空气",
+        "产生氧气",
+        "与水反应",
+        "溶解空气"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Soap molecules have two ends: one loves water, one hates it. When you add air, soap molecules arrange themselves into a thin sandwich - water-loving ends face the water on both sides, water-hating ends face each other in the middle. This creates a stable film that traps air, forming bubbles!",
+        "Wrong. Soap doesn't create oxygen or any gas. Bubbles form because soap molecules create a thin film that can trap air you blow into it or that gets mixed in when you shake or stir the soapy water.",
+        "Wrong. Soap dissolves in water but doesn't chemically react with it to produce gas. The bubbles are simply air trapped in a thin film made possible by soap's unique molecular structure that stabilizes the water film.",
+        "Wrong. Soap doesn't dissolve air. Air is already present in the environment. Soap's special molecular structure allows it to form thin, stable films that can trap and hold air bubbles when you agitate the water."
+      ],
+      "explanations_zh": [
+        "正确！肥皂分子有两端：一端亲水，一端疏水。当你加入空气时，肥皂分子排列成薄薄的三明治结构 - 亲水端朝向两侧的水，疏水端在中间相对。这创造了一个稳定的薄膜来困住空气，形成泡泡！",
+        "错误。肥皂不会产生氧气或任何气体。泡泡的形成是因为肥皂分子创造了一层薄膜，可以困住你吹入的空气或搅拌肥皂水时混入的空气。",
+        "错误。肥皂溶于水但不与水发生化学反应产生气体。泡泡只是被困在薄膜中的空气，肥皂独特的分子结构使这层水膜得以稳定。",
+        "错误。肥皂不会溶解空气。空气已经存在于环境中。肥皂特殊的分子结构使其能够形成薄而稳定的膜，当你搅动水时可以困住并保持气泡。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_008",
+      "question_en": "Why do apples turn brown after cutting?",
+      "question_zh": "为什么苹果切开后变褐色？",
+      "choices_en": [
+        "Dirt gets on the surface",
+        "Enzymes react with oxygen",
+        "Sugar caramelizes",
+        "Cells die and decay"
+      ],
+      "choices_zh": [
+        "表面沾上灰尘",
+        "酶与氧气反应",
+        "糖分焦糖化",
+        "细胞死亡腐烂"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The browning happens too quickly to be dirt. Even freshly cut apples in clean environments turn brown within minutes. This is a chemical reaction, not contamination.",
+        "Correct! Apples contain enzymes called polyphenol oxidase and compounds called phenols. When you cut an apple, these enzymes mix with oxygen in the air and oxidize the phenols, creating brown melanin pigments. This is the same process that makes bruises brown! Lemon juice prevents this by lowering pH.",
+        "Wrong. Caramelization requires high heat to break down sugars. Apple browning happens at room temperature through enzymatic oxidation, not heat-driven caramelization.",
+        "Wrong. While cells are damaged when cut, the browning is specifically from enzymatic oxidation, not decay. The process happens in minutes, far too fast to be decay. It's a chemical defense mechanism, not decomposition."
+      ],
+      "explanations_zh": [
+        "错误。褐变发生得太快了，不可能是灰尘。即使在干净环境中新切的苹果也会在几分钟内变褐色。这是化学反应，不是污染。",
+        "正确！苹果含有称为多酚氧化酶的酶和称为酚类的化合物。当你切开苹果时，这些酶与空气中的氧气混合，氧化酚类物质，产生褐色的黑色素色素。这与淤伤变褐色的过程相同！柠檬汁通过降低pH值来防止这种情况。",
+        "错误。焦糖化需要高温来分解糖。苹果褐变在室温下通过酶促氧化发生，而不是热驱动的焦糖化。",
+        "错误。虽然切开时细胞受损，但褐变特别来自酶促氧化，而不是腐烂。这个过程在几分钟内发生，太快了不可能是腐烂。这是一种化学防御机制，而不是分解。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_009",
+      "question_en": "Why do baking soda and vinegar react?",
+      "question_zh": "为什么小苏打和醋会反应？",
+      "choices_en": [
+        "Acid neutralizes base",
+        "They create heat",
+        "Water is released",
+        "Bubbles form naturally"
+      ],
+      "choices_zh": [
+        "酸中和碱",
+        "产生热量",
+        "释放水分",
+        "自然形成气泡"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Baking soda is a base (sodium bicarbonate) and vinegar is an acid (acetic acid). When mixed, they undergo an acid-base neutralization reaction. This produces sodium acetate, water, and carbon dioxide gas - the bubbles you see! The reaction is: NaHCO3 + CH3COOH → NaCH3COO + H2O + CO2.",
+        "Wrong. While the reaction does release a tiny bit of energy, heat generation is not why they react. They react because of acid-base chemistry. The bubbling comes from CO2 gas being produced, not from heat.",
+        "Wrong. Water is actually produced as one of the products of the reaction, not released from the ingredients. The main visible effect is the CO2 gas that creates bubbles, not water release.",
+        "Wrong. The bubbles don't form naturally or spontaneously. They are carbon dioxide gas produced by the specific chemical reaction between the acid in vinegar and the base in baking soda. This is a classic acid-base neutralization."
+      ],
+      "explanations_zh": [
+        "正确！小苏打是碱（碳酸氢钠），醋是酸（乙酸）。混合时，它们发生酸碱中和反应。这产生乙酸钠、水和二氧化碳气体 - 你看到的气泡！反应式为：NaHCO3 + CH3COOH → NaCH3COO + H2O + CO2。",
+        "错误。虽然反应确实释放少量能量，但产生热量不是它们反应的原因。它们反应是因为酸碱化学。冒泡来自产生的二氧化碳气体，而不是热量。",
+        "错误。水实际上是反应的产物之一，而不是从成分中释放出来的。主要的可见效果是产生气泡的二氧化碳气体，而不是水的释放。",
+        "错误。气泡不是自然或自发形成的。它们是醋中的酸和小苏打中的碱之间特定化学反应产生的二氧化碳气体。这是经典的酸碱中和反应。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_010",
+      "question_en": "Why does salt melt ice?",
+      "question_zh": "为什么盐能融化冰？",
+      "choices_en": [
+        "It generates heat",
+        "It lowers freezing point",
+        "It breaks ice crystals",
+        "It absorbs coldness"
+      ],
+      "choices_zh": [
+        "产生热量",
+        "降低冰点",
+        "破坏冰晶",
+        "吸收寒冷"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Salt doesn't generate heat. The melting process actually absorbs heat from surroundings, making it colder. Salt works through a different mechanism - changing the freezing point of water.",
+        "Correct! Salt lowers water's freezing point through 'freezing point depression'. Pure water freezes at 0°C, but salt water can stay liquid below 0°C. When salt dissolves, it interferes with water molecules forming ice crystals. This forces existing ice to melt even in cold temperatures. That's why we salt roads in winter!",
+        "Wrong. Salt doesn't physically break ice crystals. It works at the molecular level by interfering with how water molecules bond together to form ice. The process is chemical, not mechanical.",
+        "Wrong. Cold isn't a substance that can be absorbed - it's the absence of heat. Salt melts ice by lowering the temperature at which water freezes, not by absorbing or generating anything."
+      ],
+      "explanations_zh": [
+        "错误。盐不产生热量。融化过程实际上从周围吸收热量，使其更冷。盐通过不同的机制起作用 - 改变水的冰点。",
+        "正确！盐通过'冰点下降'降低水的冰点。纯水在0°C结冰，但盐水可以在0°C以下保持液态。当盐溶解时，它干扰水分子形成冰晶。这迫使现有的冰即使在寒冷温度下也会融化。这就是为什么我们在冬天给道路撒盐！",
+        "错误。盐不会物理上破坏冰晶。它在分子水平上通过干扰水分子如何结合形成冰来起作用。这个过程是化学的，而不是机械的。",
+        "错误。寒冷不是可以被吸收的物质 - 它是热量的缺失。盐通过降低水结冰的温度来融化冰，而不是通过吸收或产生任何东西。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_011",
+      "question_en": "Why does water boil at 100°C?",
+      "question_zh": "为什么水在100°C沸腾？",
+      "choices_en": [
+        "It's a universal constant",
+        "Vapor pressure equals air pressure",
+        "Molecules break apart",
+        "Maximum temperature for water"
+      ],
+      "choices_zh": [
+        "这是普遍常数",
+        "蒸气压等于气压",
+        "分子破裂",
+        "水的最高温度"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. 100°C is not universal - it only applies at sea level atmospheric pressure. On Mount Everest, water boils at 70°C because of lower air pressure. In a pressure cooker, it can exceed 100°C.",
+        "Correct! Boiling happens when water's vapor pressure equals atmospheric pressure. At 100°C at sea level, molecules have enough energy to form bubbles throughout the liquid, not just at the surface. Lower air pressure means less energy needed, so water boils at lower temperatures at high altitudes!",
+        "Wrong. Water molecules don't break apart when boiling - that would be electrolysis requiring much higher energy. Boiling is a phase change from liquid to gas. The H2O molecules stay intact, they just move farther apart.",
+        "Wrong. Water can be heated above 100°C under pressure. In fact, superheated steam in power plants can reach over 500°C. 100°C is just the temperature where vapor pressure matches normal atmospheric pressure at sea level."
+      ],
+      "explanations_zh": [
+        "错误。100°C不是普遍的 - 它只适用于海平面大气压。在珠穆朗玛峰上，水在70°C沸腾，因为气压较低。在高压锅中，它可以超过100°C。",
+        "正确！沸腾发生在水的蒸气压等于大气压时。在海平面100°C时，分子有足够的能量在整个液体中形成气泡，而不仅仅在表面。较低的气压意味着需要较少的能量，所以水在高海拔地区沸点更低！",
+        "错误。沸腾时水分子不会破裂 - 那将是需要更高能量的电解。沸腾是从液态到气态的相变。H2O分子保持完整，它们只是相距更远。",
+        "错误。在压力下水可以被加热到100°C以上。事实上，发电厂的过热蒸汽可以达到500°C以上。100°C只是在海平面正常大气压下蒸气压与气压匹配的温度。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "chem_012",
+      "question_en": "Why do fizzy drinks bubble?",
+      "question_zh": "为什么汽水会冒泡？",
+      "choices_en": [
+        "Sugar ferments quickly",
+        "CO2 escapes from solution",
+        "Air gets mixed in",
+        "Chemical reaction occurs"
+      ],
+      "choices_zh": [
+        "糖快速发酵",
+        "二氧化碳逸出溶液",
+        "空气混入",
+        "发生化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Fermentation takes days or weeks and is used to make the CO2 initially, but not when you drink it. The bubbles you see come from CO2 that's already dissolved under pressure being released when you open the bottle.",
+        "Correct! Fizzy drinks are made by dissolving CO2 gas into liquid under high pressure. This creates carbonic acid, giving the tangy taste. When you open the bottle, pressure drops and CO2 becomes less soluble. It escapes from the solution as bubbles. Shaking creates nucleation sites, making it bubble faster!",
+        "Wrong. The bubbles aren't air being mixed in. They're carbon dioxide gas that was dissolved in the liquid under pressure. When pressure is released by opening the container, the CO2 comes out of solution.",
+        "Wrong. No new chemical reaction occurs when you open a fizzy drink. The CO2 was already dissolved in the liquid. Opening it just releases the pressure, allowing the dissolved CO2 to escape as gas bubbles."
+      ],
+      "explanations_zh": [
+        "错误。发酵需要数天或数周，用于最初制造二氧化碳，但不是在你喝的时候。你看到的气泡来自打开瓶子时释放的已经在压力下溶解的二氧化碳。",
+        "正确！汽水是通过在高压下将二氧化碳气体溶解到液体中制成的。这产生碳酸，带来酸味。当你打开瓶子时，压力下降，二氧化碳溶解度降低。它从溶液中逸出形成气泡。摇晃会产生成核点，使其冒泡更快！",
+        "错误。气泡不是混入的空气。它们是在压力下溶解在液体中的二氧化碳气体。当通过打开容器释放压力时，二氧化碳从溶液中逸出。",
+        "错误。打开汽水时不会发生新的化学反应。二氧化碳已经溶解在液体中。打开它只是释放压力，允许溶解的二氧化碳以气泡形式逸出。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_013",
+      "question_en": "Why does milk turn sour?",
+      "question_zh": "为什么牛奶会变酸？",
+      "choices_en": [
+        "It oxidizes in air",
+        "Bacteria produce lactic acid",
+        "Proteins decompose",
+        "Sugar ferments to alcohol"
+      ],
+      "choices_zh": [
+        "在空气中氧化",
+        "细菌产生乳酸",
+        "蛋白质分解",
+        "糖发酵成酒精"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While oxygen can affect milk quality, sourness specifically comes from acid production, not oxidation. The sour taste and smell are from lactic acid, not oxidized compounds.",
+        "Correct! Bacteria (mainly Lactobacillus) naturally present in milk feed on lactose (milk sugar) and produce lactic acid as a byproduct. This acid lowers the pH, making milk taste sour and causing proteins to curdle. Pasteurization kills most bacteria to delay this, but eventually some survive and multiply. That's why milk has an expiration date!",
+        "Wrong. Protein decomposition happens later in spoilage and creates foul odors, not sourness. The sour taste comes specifically from lactic acid produced by bacteria consuming milk sugar, not from protein breakdown.",
+        "Wrong. While fermentation is involved, milk bacteria produce lactic acid, not alcohol. Alcohol fermentation requires different microorganisms (yeasts) and conditions. The sourness in milk is specifically from lactic acid fermentation."
+      ],
+      "explanations_zh": [
+        "错误。虽然氧气会影响牛奶质量，但酸味特别来自酸的产生，而不是氧化。酸味和气味来自乳酸，而不是氧化化合物。",
+        "正确！牛奶中天然存在的细菌（主要是乳酸杆菌）以乳糖（牛奶中的糖）为食，产生乳酸作为副产品。这种酸降低pH值，使牛奶变酸并导致蛋白质凝结。巴氏杀菌杀死大多数细菌以延迟这种情况，但最终一些存活并繁殖。这就是为什么牛奶有保质期！",
+        "错误。蛋白质分解发生在变质后期，产生难闻的气味，而不是酸味。酸味特别来自细菌消耗牛奶糖产生的乳酸，而不是蛋白质分解。",
+        "错误。虽然涉及发酵，但牛奶中的细菌产生乳酸，而不是酒精。酒精发酵需要不同的微生物（酵母）和条件。牛奶的酸味特别来自乳酸发酵。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_014",
+      "question_en": "Why do batteries produce electricity?",
+      "question_zh": "为什么电池能产生电？",
+      "choices_en": [
+        "They store static charge",
+        "Chemical reactions move electrons",
+        "Metals generate current",
+        "Acid conducts electricity"
+      ],
+      "choices_zh": [
+        "储存静电",
+        "化学反应移动电子",
+        "金属产生电流",
+        "酸导电"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Batteries don't store static electricity. They store chemical energy that gets converted to electrical energy through controlled chemical reactions. Static charge would discharge instantly, not provide steady current.",
+        "Correct! Batteries have two electrodes (anode and cathode) in an electrolyte. Chemical reactions at the anode release electrons, while reactions at the cathode accept them. This creates electron flow (electricity) through the external circuit. For example, zinc atoms lose electrons at one end while manganese dioxide gains them at the other. Chemistry powers your devices!",
+        "Wrong. Metals alone don't generate electricity. You need specific metals in a chemical system where one metal oxidizes (loses electrons) and the other reduces (gains electrons). It's the chemical reaction, not just the presence of metal, that creates current.",
+        "Wrong. While acid (electrolyte) conducts electricity inside the battery, it doesn't generate it. The electricity comes from chemical reactions at the electrodes that create a difference in electron concentration, driving electron flow."
+      ],
+      "explanations_zh": [
+        "错误。电池不储存静电。它们储存通过受控化学反应转化为电能的化学能。静电会立即放电，不会提供稳定的电流。",
+        "正确！电池有两个电极（阳极和阴极）浸在电解质中。阳极的化学反应释放电子，而阴极的反应接受电子。这通过外部电路产生电子流（电）。例如，锌原子在一端失去电子，而二氧化锰在另一端获得电子。化学为你的设备供电！",
+        "错误。仅有金属不会产生电。你需要特定金属在化学系统中，其中一种金属氧化（失去电子），另一种还原（获得电子）。产生电流的是化学反应，而不仅仅是金属的存在。",
+        "错误。虽然酸（电解质）在电池内部导电，但它不产生电。电来自电极处的化学反应，这些反应产生电子浓度差异，驱动电子流动。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "chem_015",
+      "question_en": "Why does rust form on iron?",
+      "question_zh": "为什么铁会生锈？",
+      "choices_en": [
+        "Iron absorbs moisture",
+        "Iron oxidizes with oxygen",
+        "Bacteria attack the metal",
+        "Acid dissolves the surface"
+      ],
+      "choices_zh": [
+        "铁吸收水分",
+        "铁与氧气氧化",
+        "细菌侵蚀金属",
+        "酸溶解表面"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While moisture is necessary for rust, absorption alone doesn't cause it. Water acts as a medium for the chemical reaction between iron and oxygen. It's the oxidation reaction, not moisture absorption, that creates rust.",
+        "Correct! Rust is iron oxide (Fe2O3), formed when iron reacts with oxygen in the presence of water. Iron atoms lose electrons (oxidize) to oxygen atoms. The reaction is: 4Fe + 3O2 + 6H2O → 4Fe(OH)3, which becomes rust. Both oxygen and water are needed. Painting or oiling metal prevents rust by blocking oxygen!",
+        "Wrong. Bacteria don't cause rust, though they can contribute to some metal corrosion in specific environments. Rust is purely a chemical process - iron oxidizing in the presence of oxygen and water.",
+        "Wrong. While acid can corrode iron, common rust is from oxidation, not acid dissolution. Normal rust forms in regular air and moisture conditions without acid. Acid corrosion is faster but chemically different from typical rust formation."
+      ],
+      "explanations_zh": [
+        "错误。虽然水分是生锈所必需的，但仅吸收不会导致生锈。水作为铁和氧之间化学反应的媒介。产生锈的是氧化反应，而不是水分吸收。",
+        "正确！锈是氧化铁（Fe2O3），当铁在水的存在下与氧气反应时形成。铁原子失去电子（氧化）给氧原子。反应式为：4Fe + 3O2 + 6H2O → 4Fe(OH)3，变成锈。需要氧气和水。涂漆或上油通过阻挡氧气来防止生锈！",
+        "错误。细菌不会导致生锈，尽管它们可以在特定环境中促进某些金属腐蚀。生锈纯粹是化学过程 - 铁在氧气和水的存在下氧化。",
+        "错误。虽然酸可以腐蚀铁，但普通的锈来自氧化，而不是酸溶解。正常的锈在普通空气和湿度条件下形成，不需要酸。酸腐蚀更快，但化学上与典型的生锈形成不同。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_016",
+      "question_en": "Why does fire need oxygen?",
+      "question_zh": "为什么火需要氧气？",
+      "choices_en": [
+        "Oxygen is flammable",
+        "Oxygen enables combustion",
+        "It makes flames visible",
+        "It provides fuel"
+      ],
+      "choices_zh": [
+        "氧气可燃",
+        "氧气使燃烧成为可能",
+        "使火焰可见",
+        "提供燃料"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Oxygen itself is not flammable - it doesn't burn. Oxygen is an oxidizer that supports combustion of other materials. In fact, pure oxygen can make fires burn more intensely, but it's not the fuel.",
+        "Correct! Fire is a rapid oxidation reaction. Fuel molecules react with oxygen, breaking chemical bonds and forming new ones (like CO2 and H2O), releasing energy as heat and light. Without oxygen, this reaction can't occur. That's why smothering a fire with a blanket works - you cut off the oxygen supply!",
+        "Wrong. Flames are visible because of glowing hot particles and excited molecules, not because of oxygen. Flames can actually occur in different colors depending on what's burning and at what temperature, but oxygen is needed for the chemical reaction, not visibility.",
+        "Wrong. Oxygen is not the fuel - it's the oxidizer. The fuel is what burns (wood, gasoline, etc.). Oxygen reacts with the fuel in a chemical reaction. Fire needs three things: fuel, oxygen, and heat (the fire triangle)."
+      ],
+      "explanations_zh": [
+        "错误。氧气本身不可燃 - 它不会燃烧。氧气是支持其他材料燃烧的氧化剂。事实上，纯氧可以使火燃烧得更猛烈，但它不是燃料。",
+        "正确！火是快速氧化反应。燃料分子与氧气反应，打破化学键并形成新键（如二氧化碳和水），以热和光的形式释放能量。没有氧气，这个反应无法发生。这就是为什么用毯子闷火有效 - 你切断了氧气供应！",
+        "错误。火焰可见是因为发光的热颗粒和激发的分子，而不是因为氧气。火焰实际上可以根据燃烧物和温度呈现不同的颜色，但氧气是化学反应所需的，而不是为了可见性。",
+        "错误。氧气不是燃料 - 它是氧化剂。燃料是燃烧的东西（木头、汽油等）。氧气在化学反应中与燃料反应。火需要三样东西：燃料、氧气和热量（火三角）。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_017",
+      "question_en": "Why does sugar dissolve in water?",
+      "question_zh": "为什么糖能溶解在水中？",
+      "choices_en": [
+        "Water breaks sugar molecules",
+        "Water molecules surround sugar",
+        "Sugar melts in liquid",
+        "Chemical reaction occurs"
+      ],
+      "choices_zh": [
+        "水打破糖分子",
+        "水分子包围糖",
+        "糖在液体中融化",
+        "发生化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Water doesn't break sugar molecules apart. Dissolving is a physical change, not chemical. The sucrose molecules stay intact - they just separate from each other and get surrounded by water molecules.",
+        "Correct! Sugar dissolves because 'like dissolves like' - both water and sugar are polar molecules. Water's polar molecules are attracted to sugar's polar regions. Water molecules surround each sugar molecule, pulling them away from the crystal and into solution. This is called hydration. No chemical bonds are broken - sugar can be recovered by evaporating water!",
+        "Wrong. Dissolving and melting are different processes. Melting requires heat to change from solid to liquid. Sugar dissolves at room temperature through molecular interactions with water, not by melting. Melted sugar is entirely different (it's caramel).",
+        "Wrong. Dissolving sugar in water is a physical change, not a chemical reaction. The sugar molecules remain as sucrose - they don't change into different substances. You can get the sugar back by evaporating the water, which you couldn't do with a chemical reaction."
+      ],
+      "explanations_zh": [
+        "错误。水不会打破糖分子。溶解是物理变化，不是化学变化。蔗糖分子保持完整 - 它们只是彼此分离并被水分子包围。",
+        "正确！糖溶解是因为'相似相溶' - 水和糖都是极性分子。水的极性分子被糖的极性区域吸引。水分子包围每个糖分子，将它们从晶体中拉出并进入溶液。这称为水合。没有化学键被打破 - 糖可以通过蒸发水来回收！",
+        "错误。溶解和融化是不同的过程。融化需要热量从固态变为液态。糖在室温下通过与水的分子相互作用溶解，而不是通过融化。融化的糖完全不同（它是焦糖）。",
+        "错误。糖溶解在水中是物理变化，不是化学反应。糖分子保持为蔗糖 - 它们不会变成不同的物质。你可以通过蒸发水来取回糖，而化学反应则不能这样做。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "chem_018",
+      "question_en": "Why does baking powder make cakes rise?",
+      "question_zh": "为什么泡打粉使蛋糕膨胀？",
+      "choices_en": [
+        "It creates air pockets",
+        "It releases CO2 when heated",
+        "It reacts with eggs",
+        "It adds volume to batter"
+      ],
+      "choices_zh": [
+        "产生气穴",
+        "加热时释放二氧化碳",
+        "与鸡蛋反应",
+        "增加面糊体积"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Baking powder doesn't create air pockets mechanically. It produces carbon dioxide gas through chemical reactions. These gas bubbles then create the pockets that make cakes fluffy.",
+        "Correct! Baking powder contains sodium bicarbonate (a base) and an acid (like cream of tartar). When mixed with liquid and heated, they react to produce CO2 gas. Most baking powder is 'double-acting' - it releases some CO2 when wet and more when heated. The gas expands in the oven, making cakes rise!",
+        "Wrong. While baking powder does interact with wet ingredients, it doesn't specifically react with eggs. The reaction is between the base and acid in the baking powder itself, triggered by moisture and heat.",
+        "Wrong. Adding volume is the result, not the cause. Baking powder works by producing carbon dioxide gas through a chemical reaction. This gas expands when heated, creating bubbles that make the cake rise and become fluffy."
+      ],
+      "explanations_zh": [
+        "错误。泡打粉不是机械地产生气穴。它通过化学反应产生二氧化碳气体。这些气泡然后创造使蛋糕蓬松的气穴。",
+        "正确！泡打粉含有碳酸氢钠（碱）和酸（如酒石酸氢钾）。与液体混合并加热时，它们反应产生二氧化碳气体。大多数泡打粉是'双效'的 - 湿时释放一些二氧化碳，加热时释放更多。气体在烤箱中膨胀，使蛋糕膨胀！",
+        "错误。虽然泡打粉确实与湿配料相互作用，但它不专门与鸡蛋反应。反应是在泡打粉本身的碱和酸之间，由水分和热量触发。",
+        "错误。增加体积是结果，而不是原因。泡打粉通过化学反应产生二氧化碳气体来工作。这种气体在加热时膨胀，产生使蛋糕膨胀和变得蓬松的气泡。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "chem_019",
+      "question_en": "Why does copper turn green?",
+      "question_zh": "为什么铜会变绿？",
+      "choices_en": [
+        "It grows mold",
+        "It forms copper carbonate",
+        "Paint oxidizes on it",
+        "Algae grow on surface"
+      ],
+      "choices_zh": [
+        "长霉菌",
+        "形成碳酸铜",
+        "油漆氧化",
+        "表面长藻类"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The green color is not from mold or any biological growth. It's a chemical compound formed through reactions with the environment. This green layer is called patina and is actually protective.",
+        "Correct! Copper reacts with oxygen, water, and carbon dioxide in the air over time. This creates a green layer of copper carbonate (CuCO3) and copper hydroxide. This is why the Statue of Liberty is green - it's made of copper! The patina actually protects the metal underneath from further corrosion.",
+        "Wrong. There's no paint involved. The green color comes from chemical reactions of the copper itself with environmental factors. Pure copper starts out reddish-brown and naturally develops the green patina over years.",
+        "Wrong. Algae don't grow on copper - in fact, copper is antimicrobial and inhibits algae growth! The green is a chemical compound (patina) formed from copper reacting with air, moisture, and carbon dioxide over time."
+      ],
+      "explanations_zh": [
+        "错误。绿色不是来自霉菌或任何生物生长。它是通过与环境反应形成的化学化合物。这层绿色被称为铜绿，实际上是保护性的。",
+        "正确！铜随着时间推移与空气中的氧气、水和二氧化碳反应。这产生一层绿色的碳酸铜（CuCO3）和氢氧化铜。这就是为什么自由女神像是绿色的 - 它是铜制的！铜绿实际上保护下面的金属免受进一步腐蚀。",
+        "错误。不涉及油漆。绿色来自铜本身与环境因素的化学反应。纯铜开始时是红棕色的，多年后自然形成绿色铜绿。",
+        "错误。藻类不会在铜上生长 - 事实上，铜是抗菌的，抑制藻类生长！绿色是铜随时间与空气、湿气和二氧化碳反应形成的化学化合物（铜绿）。"
+      ],
+      "difficulty": "medium"
     }
   ]
 }

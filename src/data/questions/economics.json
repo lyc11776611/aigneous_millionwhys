@@ -97,6 +97,166 @@
         "错误。政府不给银行钱来支付利息。银行从向存款人支付的利率和向借款人收取的利率之间的利差中赚钱。"
       ],
       "difficulty": "hard"
+    },
+    {
+      "id": "econ_004",
+      "question_en": "Why do countries trade with each other?",
+      "question_zh": "为什么国家之间互相贸易？",
+
+      "choices_en": [
+        "To make diplomatic friends",
+        "Specialization saves resources",
+        "Move goods long distance",
+        "Create shipping jobs"
+      ],
+      "choices_zh": [
+        "建立外交友谊",
+        "专业化节省资源",
+        "运输货物远距离",
+        "创造航运工作"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While trade can improve relations, that's not the economic reason. Countries trade because it's more efficient than making everything themselves.",
+        "Correct! This is called comparative advantage. Each country focuses on what it does best, then trades with others. Japan makes cars efficiently, Brazil grows coffee well, Saudi Arabia has oil. By specializing and trading, everyone gets more goods at lower cost than making everything alone!",
+        "Wrong. Moving goods long distance is a cost of trade, not the reason for it. Countries trade because specialization makes production more efficient overall.",
+        "Wrong. While trade does create jobs in shipping and logistics, this is a side effect. The main reason is that specialization allows countries to produce more efficiently."
+      ],
+      "explanations_zh": [
+        "错误。虽然贸易可以改善关系，但这不是经济原因。国家贸易是因为这比自己制造一切更有效率。",
+        "正确！这叫做比较优势。每个国家专注于自己最擅长的，然后与他人交易。日本高效制造汽车，巴西种咖啡很好，沙特有石油。通过专业化和贸易，每个人以更低成本获得更多商品，比独自生产一切要好！",
+        "错误。长途运输货物是贸易的成本，而不是原因。国家贸易是因为专业化使整体生产更有效率。",
+        "错误。虽然贸易确实创造了航运和物流工作，但这是副作用。主要原因是专业化使各国能够更有效地生产。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ_005",
+      "question_en": "Why is gold valuable?",
+      "question_zh": "为什么黄金很有价值？",
+
+      "choices_en": [
+        "Inherently most useful metal",
+        "Scarcity and social agreement",
+        "Required for all electronics",
+        "Magical properties"
+      ],
+      "choices_zh": [
+        "本质上最有用金属",
+        "稀缺性和社会共识",
+        "所有电子产品必需",
+        "具有魔法属性"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Gold is not the most useful metal. Iron and copper are far more useful in daily life. Gold's value comes from different factors.",
+        "Correct! Gold is valuable because it's rare, doesn't corrode, and societies agreed to value it for thousands of years. It has some uses in jewelry and electronics, but its high price is mainly because people believe it's valuable and want to own it. This is called market value!",
+        "Wrong. While gold is used in some electronics due to good conductivity, it's not required for all devices. Many alternatives exist. Gold's high price is not justified by its industrial uses alone.",
+        "Wrong. Gold has no magical properties. Its value is purely based on human psychology, cultural tradition, scarcity, and its physical properties like not rusting."
+      ],
+      "explanations_zh": [
+        "错误。黄金不是最有用的金属。铁和铜在日常生活中有用得多。黄金的价值来自不同的因素。",
+        "正确！黄金有价值是因为它稀有、不腐蚀，而且几千年来社会一致认为它有价值。它在珠宝和电子产品中有一些用途，但其高价主要是因为人们相信它有价值并想拥有它。这叫做市场价值！",
+        "错误。虽然黄金因良好的导电性用于某些电子产品，但并非所有设备都需要。存在许多替代品。黄金的高价不能仅由其工业用途来证明。",
+        "错误。黄金没有魔法属性。它的价值纯粹基于人类心理、文化传统、稀缺性和它不生锈等物理特性。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "econ_006",
+      "question_en": "Why do companies advertise?",
+      "question_zh": "为什么公司要打广告？",
+
+      "choices_en": [
+        "Legal requirement to inform",
+        "Increase awareness and sales",
+        "Support media industry",
+        "Fill empty TV time"
+      ],
+      "choices_zh": [
+        "法律要求告知",
+        "提高知名度和销量",
+        "支持媒体行业",
+        "填补电视空档"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Advertising is not legally required (except for certain disclosures). Companies choose to advertise as a business strategy to boost sales.",
+        "Correct! Companies advertise to make people aware of their products and convince them to buy. Even a great product won't sell if nobody knows it exists. Advertising creates demand, builds brand loyalty, and tells customers why their product is better than competitors. The money spent often returns as increased sales!",
+        "Wrong. While advertising does fund media, that's not why companies do it. They advertise to promote their own products and increase their own sales.",
+        "Wrong. Companies don't advertise to help TV stations fill time. They pay for ad slots because it's an effective way to reach potential customers and increase their sales."
+      ],
+      "explanations_zh": [
+        "错误。广告不是法律要求的（除了某些披露）。公司选择广告作为提升销售的商业策略。",
+        "正确！公司打广告是为了让人们知道他们的产品并说服他们购买。即使是好产品，如果没人知道它存在也卖不出去。广告创造需求、建立品牌忠诚度，并告诉顾客为什么他们的产品比竞争对手更好。花费的钱通常会以增加的销售额回报！",
+        "错误。虽然广告确实为媒体提供资金，但这不是公司这样做的原因。他们打广告是为了推广自己的产品，增加自己的销售额。",
+        "错误。公司不是为了帮助电视台填补时间而打广告。他们为广告时段付费是因为这是接触潜在客户和增加销售的有效方式。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ_007",
+      "question_en": "Why do sales and discounts work?",
+      "question_zh": "为什么促销和折扣有效？",
+
+      "choices_en": [
+        "Psychology of getting a deal",
+        "Products actually cost less",
+        "Stores lose money to help",
+        "Government requires them"
+      ],
+      "choices_zh": [
+        "占便宜的心理",
+        "产品实际更便宜",
+        "商店亏本帮助人",
+        "政府要求促销"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Discounts trigger psychological responses. People feel they're getting a deal and fear missing out. A $100 item marked down to $70 feels like saving $30, even if you weren't planning to buy it. Stores often raise prices first, then discount. The urgency and perceived value drive purchases!",
+        "Wrong. Production costs don't suddenly drop during sales. Stores often build the discount into their pricing strategy from the start, or use sales to move excess inventory.",
+        "Wrong. Stores don't run sales to lose money. They use strategic pricing to increase total revenue by attracting more customers, clearing inventory, or competing with rivals.",
+        "Wrong. Governments don't require sales or discounts. Stores choose to offer them as a marketing strategy to increase customer traffic and sales volume."
+      ],
+      "explanations_zh": [
+        "正确！折扣触发心理反应。人们觉得自己占了便宜，害怕错过机会。一件100元的商品降到70元，感觉省了30元，即使你本来不打算买。商店经常先提价再打折。紧迫感和感知价值驱动购买！",
+        "错误。生产成本在促销期间不会突然下降。商店通常从一开始就将折扣纳入定价策略，或用促销来清理多余库存。",
+        "错误。商店进行促销不是为了亏本。他们使用战略定价通过吸引更多顾客、清理库存或与竞争对手竞争来增加总收入。",
+        "错误。政府不要求促销或折扣。商店选择提供它们作为营销策略来增加客流量和销售量。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "econ_008",
+      "question_en": "Why do countries use different currencies?",
+      "question_zh": "为什么各国使用不同货币？",
+
+      "choices_en": [
+        "Can't agree on one design",
+        "Control their own economy",
+        "Prevent counterfeiting",
+        "Tradition and pride only"
+      ],
+      "choices_zh": [
+        "无法统一设计",
+        "控制本国经济",
+        "防止假币",
+        "仅为传统骄傲"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Currency design is not the issue. Countries could agree on designs if they wanted. The real reason is about economic control and sovereignty.",
+        "Correct! Each country wants to control its own monetary policy. By having their own currency, they can adjust interest rates, print money when needed, and respond to their specific economic conditions. The Euro shows both benefits (easier trade) and drawbacks (less individual control) of shared currency!",
+        "Wrong. Different currencies don't prevent counterfeiting - each currency faces that problem. Countries maintain separate currencies primarily for economic independence and policy control.",
+        "Wrong. While tradition and national identity play a role, the main reason is practical economic control. Countries need the ability to manage their money supply and interest rates independently."
+      ],
+      "explanations_zh": [
+        "错误。货币设计不是问题。如果各国愿意，可以统一设计。真正的原因是关于经济控制和主权。",
+        "正确！每个国家都想控制自己的货币政策。通过拥有自己的货币，他们可以调整利率、在需要时印钞，并应对他们特定的经济状况。欧元既显示了共同货币的好处（更容易贸易），也显示了缺点（较少的个体控制）！",
+        "错误。不同货币不能防止假币——每种货币都面临这个问题。各国保持独立货币主要是为了经济独立和政策控制。",
+        "错误。虽然传统和民族认同发挥作用，但主要原因是实际的经济控制。各国需要能够独立管理货币供应和利率。"
+      ],
+      "difficulty": "hard"
     }
   ]
 }

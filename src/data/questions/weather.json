@@ -97,6 +97,390 @@
         "错误。我们的眼睛可以同样好地看到所有颜色。天空看起来蓝是因为大气分子散射太阳光的蓝色波长多于其他颜色。"
       ],
       "difficulty": "medium"
+    },
+    {
+      "id": "weather_004",
+      "question_en": "Why does wind blow?",
+      "question_zh": "为什么会有风？",
+
+      "choices_en": [
+        "Earth's rotation creates air flow",
+        "Air moves from high to low pressure",
+        "Trees wave and push the air",
+        "Temperature makes air vibrate"
+      ],
+      "choices_zh": [
+        "地球自转产生气流",
+        "空气从高压流向低压",
+        "树木摇动推动空气",
+        "温度使空气振动"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth's rotation does affect wind direction (Coriolis effect), but it doesn't create wind. Wind is created by air pressure differences caused by uneven heating of Earth's surface.",
+        "Correct! Wind happens because air moves from high-pressure areas to low-pressure areas. The sun heats Earth's surface unevenly - some areas get warmer, creating low pressure as warm air rises. Cooler air (high pressure) rushes in to fill the space, creating wind. The greater the pressure difference, the stronger the wind!",
+        "Wrong. Trees don't create wind - they move because of wind! Wind is air in motion caused by pressure differences in the atmosphere.",
+        "Wrong. Temperature changes air density and pressure, but doesn't make it vibrate to create wind. Wind forms when air moves from high-pressure to low-pressure areas."
+      ],
+      "explanations_zh": [
+        "错误。地球自转确实影响风向（科里奥利效应），但不会产生风。风是由地球表面受热不均造成的气压差产生的。",
+        "正确！风的产生是因为空气从高压区移动到低压区。太阳不均匀地加热地球表面——一些区域变暖，暖空气上升形成低压。冷空气（高压）冲进来填补空间，形成风。压力差越大，风越强！",
+        "错误。树木不会产生风——它们因为风而移动！风是由大气中的压力差引起的空气运动。",
+        "错误。温度改变空气密度和压力，但不会使其振动产生风。风是在空气从高压区移动到低压区时形成的。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "weather_005",
+      "question_en": "Why is it colder at higher altitudes?",
+      "question_zh": "为什么海拔越高越冷？",
+
+      "choices_en": [
+        "Less sunlight reaches high places",
+        "Air is thinner and holds less heat",
+        "Air expands and cools as it rises",
+        "Mountains block warm air"
+      ],
+      "choices_zh": [
+        "高处阳光更少",
+        "空气稀薄保温差",
+        "空气上升膨胀降温",
+        "山脉阻挡暖空气"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Higher altitudes actually receive more direct sunlight with less atmospheric filtering. But the air can't hold that heat effectively due to lower pressure.",
+        "Wrong. While air is thinner at altitude, this isn't the main reason. The key is that rising air expands due to lower pressure, and expansion causes cooling through a process called adiabatic cooling.",
+        "Correct! As air rises, atmospheric pressure decreases. Lower pressure allows air to expand, and when gases expand, they cool down - this is adiabatic cooling. Temperature drops about 6.5°C per kilometer of altitude. So even though you're closer to the sun on a mountain, the air is much colder!",
+        "Wrong. Mountains don't block warm air in a way that explains altitude temperature. The cooling happens because rising air expands in lower pressure and loses heat through adiabatic cooling."
+      ],
+      "explanations_zh": [
+        "错误。高海拔实际上接收更直接的阳光，大气过滤更少。但由于压力较低，空气无法有效保持热量。",
+        "错误。虽然高海拔空气稀薄，但这不是主要原因。关键是上升的空气因压力降低而膨胀，膨胀通过绝热冷却过程导致降温。",
+        "正确！随着空气上升，大气压降低。较低的压力使空气膨胀，气体膨胀时会冷却——这就是绝热冷却。温度每升高一公里下降约6.5°C。所以即使你在山上离太阳更近，空气却冷得多！",
+        "错误。山脉不会以能解释海拔温度的方式阻挡暖空气。降温是因为上升的空气在低压下膨胀，通过绝热冷却失去热量。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "weather_006",
+      "question_en": "Why does fog form?",
+      "question_zh": "为什么会起雾？",
+
+      "choices_en": [
+        "Clouds fall to the ground",
+        "Smoke mixes with moisture",
+        "Air cools and water condenses",
+        "Ice crystals float near surface"
+      ],
+      "choices_zh": [
+        "云降落到地面",
+        "烟雾混合水汽",
+        "空气降温水汽凝结",
+        "冰晶飘浮地表"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Fog isn't a cloud that fell down. Fog forms at ground level when water vapor condenses, just like clouds form in the sky. Fog is essentially a cloud touching the ground!",
+        "Wrong. Fog is pure water droplets, not smoke. While pollution can make fog appear dirtier (smog), fog itself forms when water vapor condenses in cool air.",
+        "Correct! Fog forms when air cools to its dew point - the temperature where water vapor condenses into tiny droplets. This often happens at night when the ground cools, chilling the air above it. Millions of suspended water droplets scatter light, reducing visibility. Fog is basically a cloud at ground level!",
+        "Wrong. Fog is made of liquid water droplets, not ice crystals. Ice fog can form in extremely cold conditions (below -30°C), but regular fog is liquid water suspended in air."
+      ],
+      "explanations_zh": [
+        "错误。雾不是掉下来的云。雾在地面形成，当水蒸气凝结时，就像云在天空中形成一样。雾本质上是接触地面的云！",
+        "错误。雾是纯水滴，不是烟雾。虽然污染会使雾看起来更脏（烟雾），但雾本身是在冷空气中水蒸气凝结时形成的。",
+        "正确！雾在空气冷却到露点时形成——水蒸气凝结成微小水滴的温度。这通常发生在夜间地面冷却，冷却其上空气时。数百万悬浮水滴散射光线，降低能见度。雾基本上是地面的云！",
+        "错误。雾由液态水滴组成，不是冰晶。冰雾可以在极冷条件下（低于-30°C）形成，但普通雾是悬浮在空气中的液态水。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "weather_007",
+      "question_en": "Why do clouds float in the sky?",
+      "question_zh": "为什么云会漂浮在空中？",
+
+      "choices_en": [
+        "Wind holds them up",
+        "Droplets are lighter than air",
+        "Rising air keeps them aloft",
+        "Static electricity suspends them"
+      ],
+      "choices_zh": [
+        "风托着它们",
+        "水滴比空气轻",
+        "上升气流托住它们",
+        "静电悬浮它们"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Wind moves clouds sideways but doesn't hold them up. Clouds float because tiny water droplets fall so slowly that rising air currents keep them suspended.",
+        "Wrong. Water is actually denser than air! Cloud droplets are extremely tiny (about 0.01mm) and fall very slowly - only about 1 cm per second. Rising air moves upward faster than droplets fall, keeping clouds aloft.",
+        "Correct! Cloud droplets are tiny and fall very slowly. But warm air constantly rises from Earth's surface through convection. This upward air movement (updraft) is faster than the droplets' fall speed, keeping them suspended. When droplets grow heavy enough (combining into raindrops), they overcome the updraft and fall as rain!",
+        "Wrong. While clouds contain some electrical charge (creating lightning), static electricity doesn't hold clouds up. Clouds float because rising air currents support tiny, slowly-falling water droplets."
+      ],
+      "explanations_zh": [
+        "错误。风横向移动云，但不会托住它们。云漂浮是因为微小的水滴下降得很慢，上升气流使它们保持悬浮。",
+        "错误。水实际上比空气密！云滴极小（约0.01毫米），下降得很慢——只有每秒约1厘米。上升的空气向上移动比水滴下降快，使云保持漂浮。",
+        "正确！云滴很小，下降得很慢。但暖空气通过对流不断从地球表面上升。这种向上的空气运动（上升气流）比水滴的下降速度快，使它们保持悬浮。当水滴变得足够重（结合成雨滴）时，它们克服上升气流，以雨的形式下降！",
+        "错误。虽然云含有一些电荷（产生闪电），但静电不会托住云。云漂浮是因为上升气流支撑着微小、缓慢下降的水滴。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "weather_008",
+      "question_en": "Why does it rain?",
+      "question_zh": "为什么会下雨？",
+
+      "choices_en": [
+        "Clouds become too heavy",
+        "Droplets merge and grow large",
+        "Temperature drops in clouds",
+        "Clouds absorb too much water"
+      ],
+      "choices_zh": [
+        "云变得太重",
+        "水滴合并变大",
+        "云中温度下降",
+        "云吸收太多水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. 'Too heavy' is imprecise. Rain happens when individual droplets grow large enough that gravity pulls them down faster than rising air can hold them up.",
+        "Correct! Cloud droplets are tiny (0.01mm) and stay suspended in air. Rain forms when millions of these droplets collide and merge, growing into drops about 2-5mm. At this size, gravity overcomes the rising air currents, and they fall as rain. Warm clouds use collision; cold clouds form ice crystals that melt while falling!",
+        "Wrong. Temperature changes can affect cloud formation, but rain occurs when droplets grow large enough to fall. In warm clouds, droplets merge; in cold clouds, ice crystals form and fall.",
+        "Wrong. Clouds don't 'absorb' water like a sponge. They're made of suspended droplets that merge and grow until they're heavy enough to overcome updrafts and fall as rain."
+      ],
+      "explanations_zh": [
+        "错误。'太重'不够精确。雨发生在单个水滴长得足够大，重力将它们向下拉的速度比上升气流托住它们的速度快时。",
+        "正确！云滴很小（0.01毫米），保持悬浮在空气中。雨在数百万个这些水滴碰撞并合并时形成，长成约2-5毫米的水滴。在这个大小时，重力克服上升气流，它们作为雨下降。暖云使用碰撞；冷云形成冰晶在下降时融化！",
+        "错误。温度变化可以影响云的形成，但雨发生在水滴长得足够大而下降时。在暖云中，水滴合并；在冷云中，冰晶形成并下降。",
+        "错误。云不会像海绵一样'吸收'水。它们由悬浮的水滴组成，这些水滴合并并生长，直到它们足够重以克服上升气流并作为雨下降。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "weather_009",
+      "question_en": "Why do we see our breath in cold weather?",
+      "question_zh": "为什么冷天能看到呼出的气？",
+
+      "choices_en": [
+        "Cold makes our breath visible",
+        "Water vapor condenses into mist",
+        "Oxygen freezes in the air",
+        "Our breath contains ice particles"
+      ],
+      "choices_zh": [
+        "寒冷使呼吸可见",
+        "水蒸气凝结成雾",
+        "氧气在空气中结冰",
+        "呼吸含冰颗粒"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Cold doesn't make breath visible by itself. The visibility comes from water vapor in your warm breath condensing into tiny droplets when it meets cold air.",
+        "Correct! Your breath contains water vapor from your lungs. When you exhale into cold air, the warm moisture suddenly cools below its dew point and condenses into tiny water droplets, forming a visible mist - just like a miniature cloud! The colder the air, the more dramatic the effect.",
+        "Wrong. Oxygen doesn't freeze at winter temperatures (it freezes at -218°C!). The visible mist is water vapor condensing, not frozen gases.",
+        "Wrong. Your breath doesn't contain ice particles. The visible cloud forms when water vapor from your warm, moist breath condenses into tiny liquid droplets upon meeting cold air."
+      ],
+      "explanations_zh": [
+        "错误。寒冷本身不会使呼吸可见。可见性来自温暖呼吸中的水蒸气在遇到冷空气时凝结成微小水滴。",
+        "正确！你的呼吸含有来自肺部的水蒸气。当你呼气到冷空气中时，温暖的水分突然冷却到露点以下，凝结成微小的水滴，形成可见的雾——就像一个微型云！空气越冷，效果越明显。",
+        "错误。氧气在冬季温度下不会结冰（它在-218°C结冰！）。可见的雾是水蒸气凝结，不是冻结的气体。",
+        "错误。你的呼吸不含冰颗粒。可见的云是在温暖、潮湿呼吸中的水蒸气遇到冷空气时凝结成微小液滴形成的。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "weather_010",
+      "question_en": "Why does ice form on windows in winter?",
+      "question_zh": "为什么冬天窗户会结冰？",
+
+      "choices_en": [
+        "Rain freezes on the glass",
+        "Indoor moisture on cold glass",
+        "Cold air contains ice crystals",
+        "Glass attracts frozen particles"
+      ],
+      "choices_zh": [
+        "雨水在玻璃上结冰",
+        "室内水汽在冷玻璃上结冰",
+        "冷空气含冰晶",
+        "玻璃吸引冰颗粒"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Window ice usually forms on the inside, not from outside rain. It's created when indoor water vapor contacts the freezing cold window surface.",
+        "Correct! Indoor air contains water vapor from breathing, cooking, and other activities. When this warm, moist air touches a very cold window (below 0°C), the vapor deposits directly as ice crystals, skipping the liquid phase - a process called deposition. The beautiful frost patterns form because ice grows along scratches and imperfections in the glass!",
+        "Wrong. Cold air can hold very little moisture. The ice on windows comes from indoor water vapor that freezes when it contacts the cold glass surface.",
+        "Wrong. Glass doesn't attract ice particles. Ice forms when water vapor in warm indoor air deposits directly onto the cold window surface, creating frost crystals."
+      ],
+      "explanations_zh": [
+        "错误。窗冰通常在内侧形成，不是从外面的雨。它是在室内水蒸气接触冰冷的窗户表面时产生的。",
+        "正确！室内空气含有来自呼吸、烹饪和其他活动的水蒸气。当这种温暖、潮湿的空气接触非常冷的窗户（低于0°C）时，蒸气直接沉积为冰晶，跳过液相——这个过程称为凝华。美丽的霜花图案形成是因为冰沿着玻璃上的划痕和瑕疵生长！",
+        "错误。冷空气只能容纳很少的水分。窗户上的冰来自室内水蒸气，当它接触冷玻璃表面时结冰。",
+        "错误。玻璃不会吸引冰颗粒。冰是在温暖室内空气中的水蒸气直接沉积到冷窗户表面时形成的，产生霜晶。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "weather_011",
+      "question_en": "Why is humidity uncomfortable?",
+      "question_zh": "为什么湿度大会不舒服？",
+
+      "choices_en": [
+        "Humid air is heavier to breathe",
+        "Sweat can't evaporate to cool us",
+        "Water vapor blocks oxygen",
+        "Humidity makes air hotter"
+      ],
+      "choices_zh": [
+        "湿润空气呼吸困难",
+        "汗水无法蒸发降温",
+        "水蒸气阻挡氧气",
+        "湿度使空气更热"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While humid air is slightly denser, this doesn't affect breathing. Discomfort comes from your body's inability to cool itself through sweat evaporation.",
+        "Correct! Your body cools itself by sweating - as sweat evaporates from your skin, it takes heat with it. But evaporation requires dry air. In high humidity, air is already saturated with water vapor, so sweat can't evaporate. It just sits on your skin, leaving you hot, sticky, and unable to cool down effectively!",
+        "Wrong. Water vapor doesn't block oxygen - air contains both. High humidity feels uncomfortable because saturated air prevents sweat from evaporating, blocking your body's cooling system.",
+        "Wrong. Humidity doesn't change air temperature. It feels hotter because humid air prevents sweat evaporation, stopping your body's natural cooling mechanism."
+      ],
+      "explanations_zh": [
+        "错误。虽然湿润空气稍微密一点，但这不影响呼吸。不适来自你的身体无法通过汗水蒸发来降温。",
+        "正确！你的身体通过出汗来降温——当汗水从皮肤蒸发时，它带走热量。但蒸发需要干燥的空气。在高湿度下，空气已经饱和水蒸气，所以汗水无法蒸发。它只是停留在皮肤上，让你又热又黏，无法有效降温！",
+        "错误。水蒸气不会阻挡氧气——空气同时含有两者。高湿度感觉不舒服是因为饱和空气阻止汗水蒸发，阻塞你身体的冷却系统。",
+        "错误。湿度不会改变空气温度。感觉更热是因为湿润空气阻止汗水蒸发，停止你身体的自然冷却机制。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "weather_012",
+      "question_en": "Why do tornadoes spin?",
+      "question_zh": "为什么龙卷风会旋转？",
+
+      "choices_en": [
+        "Earth's rotation makes them spin",
+        "Wind shear creates rotation",
+        "Hot air spirals upward",
+        "Lightning creates spinning air"
+      ],
+      "choices_zh": [
+        "地球自转使其旋转",
+        "风切变产生旋转",
+        "热空气螺旋上升",
+        "闪电产生旋转气流"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth's rotation (Coriolis effect) affects large systems like hurricanes but is too weak to create tornadoes. Tornado spin comes from wind shear - winds at different heights moving in different directions.",
+        "Correct! Tornadoes form when winds at different heights blow in different directions or speeds (wind shear). This creates a horizontal spinning effect. When a powerful thunderstorm updraft tilts this rotation vertical and tightens it, a tornado forms. As the spinning column narrows (conservation of angular momentum), it spins faster - like a figure skater pulling in their arms!",
+        "Wrong. While rising hot air is part of thunderstorms, it doesn't create the spin. Tornado rotation comes from wind shear being tilted vertical by updrafts, then tightening into a vortex.",
+        "Wrong. Lightning is an electrical discharge and doesn't create spinning air. Tornado rotation comes from wind shear - different wind speeds at different heights creating rotation that gets tilted and tightened by updrafts."
+      ],
+      "explanations_zh": [
+        "错误。地球自转（科里奥利效应）影响飓风等大型系统，但太弱无法产生龙卷风。龙卷风旋转来自风切变——不同高度的风向不同方向移动。",
+        "正确！龙卷风在不同高度的风以不同方向或速度吹动（风切变）时形成。这产生水平旋转效应。当强大的雷暴上升气流将这种旋转倾斜为垂直并收紧时，龙卷风就形成了。随着旋转柱变窄（角动量守恒），它旋转得更快——就像花样滑冰运动员收拢手臂！",
+        "错误。虽然上升的热空气是雷暴的一部分，但它不会产生旋转。龙卷风旋转来自被上升气流倾斜为垂直的风切变，然后收紧成涡旋。",
+        "错误。闪电是放电，不会产生旋转空气。龙卷风旋转来自风切变——不同高度的不同风速产生旋转，被上升气流倾斜并收紧。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "weather_013",
+      "question_en": "Why does dew form on grass in the morning?",
+      "question_zh": "为什么早晨草上会有露水？",
+
+      "choices_en": [
+        "Plants release water overnight",
+        "Air cools and moisture condenses",
+        "Morning fog settles on grass",
+        "Underground water rises up"
+      ],
+      "choices_zh": [
+        "植物夜间释放水分",
+        "空气降温水汽凝结",
+        "晨雾落在草上",
+        "地下水上升"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While plants do transpire water, dew comes from water vapor in the air, not from plants. It forms when air cools enough for its moisture to condense on cool surfaces.",
+        "Correct! At night, grass and ground cool by radiating heat to space. Air touching these cool surfaces drops below its dew point - the temperature where water vapor condenses. Moisture in the air then condenses into droplets on the cool grass. Clear, calm nights create the most dew because heat radiates away efficiently without clouds or wind!",
+        "Wrong. Dew isn't fog settling - it's water vapor condensing directly onto cool surfaces. Fog is suspended droplets in air; dew forms on surfaces when they cool below the air's dew point.",
+        "Wrong. Dew doesn't come from underground - it forms from water vapor in the air. When surfaces cool overnight, air moisture condenses on them as tiny droplets."
+      ],
+      "explanations_zh": [
+        "错误。虽然植物确实会蒸腾水分，但露水来自空气中的水蒸气，不是来自植物。它在空气冷却到足以使其水分在冷表面凝结时形成。",
+        "正确！夜间，草和地面通过向太空辐射热量而冷却。接触这些冷表面的空气降到露点以下——水蒸气凝结的温度。空气中的水分然后在冷草上凝结成水滴。晴朗、平静的夜晚产生最多露水，因为热量在没有云或风的情况下有效地辐射掉！",
+        "错误。露水不是雾落下——它是水蒸气直接凝结在冷表面上。雾是空气中的悬浮水滴；露水在表面冷却到低于空气露点时形成。",
+        "错误。露水不来自地下——它由空气中的水蒸气形成。当表面在夜间冷却时，空气水分在其上凝结成微小水滴。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "weather_014",
+      "question_en": "Why do thunderstorms produce hail?",
+      "question_zh": "为什么雷暴会产生冰雹？",
+
+      "choices_en": [
+        "Rain freezes while falling",
+        "Ice is thrown up and down in clouds",
+        "Lightning freezes water droplets",
+        "Cold air meets warm storms"
+      ],
+      "choices_zh": [
+        "雨在下落时结冰",
+        "冰在云中上下抛掷",
+        "闪电冻结水滴",
+        "冷空气遇到暖风暴"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Rain doesn't freeze while falling to make hail. Hailstones form inside thunderclouds where strong updrafts repeatedly lift ice particles through freezing zones, building up layers.",
+        "Correct! Hail forms in powerful thunderstorms with strong updrafts. Ice particles get lifted above the freezing level, collect supercooled water droplets, freeze, then fall. But updrafts throw them up again! This cycle repeats, building concentric ice layers like an onion. When hailstones grow too heavy for updrafts to lift (some reach baseball size!), they finally fall to the ground.",
+        "Wrong. Lightning doesn't freeze water - it's an electrical discharge. Hail forms when strong updrafts repeatedly cycle ice through freezing zones, building layers of ice.",
+        "Wrong. While thunderstorms have temperature contrasts, hail specifically forms when strong updrafts repeatedly lift ice particles through freezing levels, allowing layers to accumulate."
+      ],
+      "explanations_zh": [
+        "错误。雨不会在下落时结冰形成冰雹。冰雹在雷云内部形成，强上升气流反复将冰粒提升通过冰冻区，堆积层次。",
+        "正确！冰雹在具有强上升气流的强大雷暴中形成。冰粒被提升到冰点以上，收集过冷水滴，结冰，然后下降。但上升气流再次将它们抛起！这个循环重复，像洋葱一样形成同心冰层。当冰雹变得太重，上升气流无法提升时（有些达到棒球大小！），它们最终落到地面。",
+        "错误。闪电不会冻结水——它是电放电。冰雹在强上升气流反复将冰循环通过冰冻区时形成，堆积冰层。",
+        "错误。虽然雷暴有温度对比，但冰雹具体在强上升气流反复将冰粒提升通过冰点水平时形成，允许层次积累。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "weather_015",
+      "question_en": "Why does wind feel colder than still air?",
+      "question_zh": "为什么有风比无风感觉更冷？",
+
+      "choices_en": [
+        "Wind is actually colder air",
+        "Wind removes warm air near skin",
+        "Moving air has less heat",
+        "Wind increases air pressure"
+      ],
+      "choices_zh": [
+        "风本身就更冷",
+        "风吹走皮肤暖空气",
+        "运动空气热量少",
+        "风增加气压"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Wind doesn't have to be colder - even at the same temperature, wind feels colder than still air. The difference is that wind constantly removes the warm air layer near your skin.",
+        "Correct! Your body warms a thin layer of air next to your skin. In still air, this warm layer insulates you. But wind constantly blows this warm air away and replaces it with cooler air, forcing your body to work harder to stay warm. This 'wind chill' effect makes 10°C with wind feel much colder than 10°C without wind!",
+        "Wrong. Moving air doesn't have less heat than still air at the same temperature. Wind feels colder because it removes the warm insulating layer of air around your body faster than still air.",
+        "Wrong. Wind doesn't increase air pressure in a way that affects temperature sensation. Wind feels colder because it removes the warm air layer your body creates, increasing heat loss."
+      ],
+      "explanations_zh": [
+        "错误。风不一定更冷——即使在相同温度下，风也比静止空气感觉更冷。区别在于风不断吹走皮肤附近的温暖空气层。",
+        "正确！你的身体温暖皮肤旁边的薄空气层。在静止空气中，这个温暖层使你保温。但风不断吹走这个温暖空气，用较冷空气替换，迫使你的身体更努力工作来保暖。这种'风寒'效应使有风的10°C比无风的10°C感觉冷得多！",
+        "错误。运动空气在相同温度下的热量不比静止空气少。风感觉更冷是因为它比静止空气更快地移除身体周围的温暖绝缘空气层。",
+        "错误。风不会以影响温度感觉的方式增加气压。风感觉更冷是因为它移除你身体产生的温暖空气层，增加热量损失。"
+      ],
+      "difficulty": "easy"
     }
   ]
 }

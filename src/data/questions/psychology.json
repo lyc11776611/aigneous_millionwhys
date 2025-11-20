@@ -97,6 +97,390 @@
         "错误。虽然婴儿大脑正在发育，但这不是他们哭泣的原因。哭泣是一种沟通工具，因为他们还不能用语言或手势表达需求而使用。"
       ],
       "difficulty": "easy"
+    },
+    {
+      "id": "psych_004",
+      "question_en": "Why do we forget things?",
+      "question_zh": "为什么我们会忘记东西？",
+
+      "choices_en": [
+        "Brain deletes old memories",
+        "Memories fade without use",
+        "We remember too many things",
+        "Brain damage over time"
+      ],
+      "choices_zh": [
+        "大脑删除旧记忆",
+        "记忆不用会褪色",
+        "记太多东西了",
+        "大脑随时间受损"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The brain doesn't actively delete memories like a computer. Instead, memory traces become weaker when neural pathways aren't reinforced through retrieval and use.",
+        "Correct! Forgetting follows the 'use it or lose it' principle. When we don't recall a memory, the neural connections that store it weaken over time through a process called memory decay. Our brains also constantly form new memories, which can interfere with old ones (interference theory). Additionally, we may fail to encode memories properly initially if we weren't paying attention, making them 'forgotten' even though they were never truly stored.",
+        "Wrong. While we do store vast amounts of information, the quantity alone doesn't cause forgetting. The issue is the weakening of unused neural pathways and interference from new memories, not storage capacity.",
+        "Wrong. Normal forgetting isn't caused by brain damage. It's a natural process where unused memory pathways weaken. Brain damage causes different, more severe memory problems than everyday forgetting."
+      ],
+      "explanations_zh": [
+        "错误。大脑不像电脑那样主动删除记忆。相反，当神经通路没有通过提取和使用得到加强时，记忆痕迹会变弱。",
+        "正确！遗忘遵循'用进废退'原则。当我们不回忆某个记忆时，存储它的神经连接会随时间减弱，这个过程叫记忆衰退。大脑也不断形成新记忆，会干扰旧记忆（干扰理论）。此外，如果当时注意力不集中，我们可能无法正确编码记忆，使其'被遗忘'，尽管它从未真正存储过。",
+        "错误。虽然我们确实存储大量信息，但数量本身不会导致遗忘。问题在于未使用的神经通路减弱和新记忆的干扰，而不是存储容量。",
+        "错误。正常遗忘不是由大脑损伤引起的。这是一个自然过程，未使用的记忆通路会减弱。大脑损伤造成的记忆问题比日常遗忘更严重。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_005",
+      "question_en": "Why do we laugh when tickled?",
+      "question_zh": "为什么被挠痒痒会笑？",
+
+      "choices_en": [
+        "It actually hurts",
+        "Panic response to touch",
+        "Brain interprets as play",
+        "Automatic muscle reflex"
+      ],
+      "choices_zh": [
+        "其实是疼痛感",
+        "对触摸的恐慌",
+        "大脑理解为玩耍",
+        "肌肉自动反射"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Tickling doesn't hurt - it creates a unique sensation that's different from pain. The laughter response is social, not a pain reaction.",
+        "Wrong. While tickling does trigger a heightened response from the somatosensory cortex (detecting unexpected touch), the laughter isn't panic. It's a social bonding behavior indicating playful interaction.",
+        "Correct! When someone tickles you, your brain's prefrontal cortex interprets the unexpected touch as playful social interaction, triggering laughter as a bonding response. Interestingly, you can't tickle yourself because your cerebellum predicts your own touch, eliminating the surprise element. Tickle laughter evolved as a way for humans to signal play and build social bonds, which is why it happens most between people who know each other.",
+        "Wrong. While laughter involves muscle movements, tickle response isn't a simple reflex. It requires brain interpretation of social context - that's why strangers tickling you feels uncomfortable, not funny."
+      ],
+      "explanations_zh": [
+        "错误。挠痒痒不会疼——它产生的是一种独特的感觉，不同于疼痛。笑的反应是社交性的，不是对疼痛的反应。",
+        "错误。虽然挠痒痒确实触发躯体感觉皮层的强烈反应（检测意外触摸），但笑声不是恐慌。这是一种社交联结行为，表明玩耍互动。",
+        "正确！当有人挠你痒时，大脑前额叶皮层将意外触摸解读为玩耍性社交互动，触发笑声作为联结反应。有趣的是，你无法自己挠自己痒，因为小脑会预测自己的触摸，消除了惊喜元素。挠痒痒的笑声进化为人类传递玩耍信号和建立社交联系的方式，这就是为什么它最常发生在熟人之间。",
+        "错误。虽然笑声涉及肌肉运动，但挠痒反应不是简单的反射。它需要大脑对社交情境的解读——这就是为什么陌生人挠你会感觉不舒服，而不是有趣。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_006",
+      "question_en": "Why remember bad events more than good?",
+      "question_zh": "为何坏事比好事记得牢？",
+
+      "choices_en": [
+        "We're naturally pessimistic",
+        "Negativity bias for survival",
+        "Good memories fade faster",
+        "Brain focuses on problems"
+      ],
+      "choices_zh": [
+        "天生悲观主义者",
+        "生存需要负面偏见",
+        "好记忆褪色更快",
+        "大脑专注问题"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Remembering negative events better isn't about personality pessimism. It's an evolved cognitive bias present in most humans, regardless of their general outlook on life.",
+        "Correct! This is called 'negativity bias' - a survival mechanism evolved over millions of years. Our ancestors who remembered dangerous or negative experiences (where predators hide, which foods are poisonous) survived better than those who forgot them. The amygdala, our brain's threat-detection center, strongly encodes negative emotional experiences, making them stick better in memory. One bad experience could mean death, while missing one good opportunity rarely did.",
+        "Wrong. It's not that positive memories decay faster - both types decay similarly over time. The difference is in initial encoding strength: negative events trigger stronger emotional arousal and amygdala activation, creating deeper memory traces from the start.",
+        "Wrong. While the brain does attend to problems, this explanation is too vague. The specific mechanism is negativity bias - an evolutionary adaptation where the amygdala encodes threatening information more strongly than positive information."
+      ],
+      "explanations_zh": [
+        "错误。更好地记住负面事件不是性格悲观。这是大多数人类都有的进化认知偏见，无论他们对生活的总体看法如何。",
+        "正确！这叫'负面偏见'——一种经过数百万年进化的生存机制。我们的祖先记住危险或负面经历（捕食者藏哪、哪些食物有毒）比忘记它们的人生存得更好。杏仁核是大脑的威胁检测中心，会强烈编码负面情绪体验，使其在记忆中更牢固。一次糟糕经历可能意味着死亡，而错过一次好机会很少会。",
+        "错误。不是积极记忆衰退更快——两种类型随时间衰退相似。区别在于初始编码强度：负面事件触发更强的情绪唤醒和杏仁核激活，从一开始就创建更深的记忆痕迹。",
+        "错误。虽然大脑确实关注问题，但这个解释太模糊。具体机制是负面偏见——一种进化适应，杏仁核对威胁信息的编码比积极信息更强。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_007",
+      "question_en": "Why do first impressions matter?",
+      "question_zh": "为什么第一印象很重要？",
+
+      "choices_en": [
+        "We judge people quickly",
+        "Primacy effect in memory",
+        "Social rules require it",
+        "We trust our instincts"
+      ],
+      "choices_zh": [
+        "我们快速评判他人",
+        "记忆首因效应",
+        "社会规则要求",
+        "我们相信直觉"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While we do make rapid judgments (in seconds), this doesn't explain why those first impressions are so hard to change. The real reason involves how our memory and cognitive biases work.",
+        "Correct! First impressions matter due to the 'primacy effect' - information encountered first has disproportionate influence on our overall judgment. Our brains use initial information to create a schema (mental framework) about a person. Later information gets filtered through this existing schema via confirmation bias - we notice and remember things that confirm our first impression while dismissing contradictory evidence. This happens because changing existing schemas requires more cognitive effort than maintaining them.",
+        "Wrong. Social etiquette doesn't cause the psychological stickiness of first impressions. The effect comes from cognitive mechanisms like primacy effect and confirmation bias, not social conventions.",
+        "Wrong. 'Trusting instincts' doesn't explain why first impressions persist even when later evidence contradicts them. The real mechanism is primacy effect plus confirmation bias, which makes us unconsciously favor information that confirms our initial judgment."
+      ],
+      "explanations_zh": [
+        "错误。虽然我们确实会快速判断（几秒内），但这不能解释为什么第一印象如此难以改变。真正原因涉及我们的记忆和认知偏见如何工作。",
+        "正确！第一印象重要是因为'首因效应'——最先遇到的信息对我们的整体判断有不成比例的影响力。我们的大脑用初始信息创建关于一个人的图式（心理框架）。后来的信息通过确认偏见被这个现有图式过滤——我们注意并记住确认第一印象的事，而忽略矛盾证据。这是因为改变现有图式比维持它们需要更多认知努力。",
+        "错误。社交礼仪不会导致第一印象的心理粘性。这个效应来自首因效应和确认偏见等认知机制，而非社会习俗。",
+        "错误。'相信直觉'不能解释为什么第一印象即使在后来证据矛盾时仍持续存在。真正机制是首因效应加确认偏见，使我们无意识地偏向确认初始判断的信息。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_008",
+      "question_en": "Why do we procrastinate?",
+      "question_zh": "为什么我们会拖延？",
+
+      "choices_en": [
+        "We're lazy by nature",
+        "Present bias over future",
+        "We lack discipline",
+        "Tasks are too difficult"
+      ],
+      "choices_zh": [
+        "天生就懒惰",
+        "偏好当下胜过未来",
+        "缺乏自律能力",
+        "任务太困难了"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Procrastination isn't about laziness - people often work hard on other tasks while procrastinating. It's about how our brain weighs immediate mood repair versus future consequences.",
+        "Correct! Procrastination is caused by 'present bias' and temporal discounting. Our limbic system (emotional brain) strongly values immediate rewards and avoiding current discomfort, while our prefrontal cortex (planning brain) tries to consider future benefits. When facing an unpleasant task, the limbic system wins: the immediate relief from NOT doing the task feels better than the abstract future reward of completion. Our brain literally values future rewards less than immediate ones - a psychological phenomenon called hyperbolic discounting.",
+        "Wrong. Procrastination isn't a character flaw or lack of discipline. It's a brain wiring issue where emotional regulation (limbic system) overpowers planning (prefrontal cortex) when tasks trigger negative emotions like anxiety or boredom.",
+        "Wrong. Task difficulty isn't the core issue - people procrastinate on both easy and hard tasks. The key factor is emotional aversion (stress, boredom, anxiety) that makes our brain prioritize immediate mood repair over long-term goals."
+      ],
+      "explanations_zh": [
+        "错误。拖延不是懒惰——人们拖延时常在其他任务上努力工作。这是关于大脑如何权衡即时情绪修复与未来后果。",
+        "正确！拖延由'当下偏见'和时间折扣引起。我们的边缘系统（情绪大脑）强烈重视即时奖励和避免当前不适，而前额叶皮层（计划大脑）试图考虑未来利益。面对不愉快任务时，边缘系统获胜：不做任务的即时解脱感比完成任务的抽象未来奖励感觉更好。我们的大脑对未来奖励的重视程度确实低于即时奖励——这种心理现象叫双曲贴现。",
+        "错误。拖延不是性格缺陷或缺乏自律。这是大脑接线问题，当任务触发焦虑或无聊等负面情绪时，情绪调节（边缘系统）压倒计划（前额叶皮层）。",
+        "错误。任务难度不是核心问题——人们对简单和困难任务都会拖延。关键因素是情绪厌恶（压力、无聊、焦虑），使我们的大脑优先考虑即时情绪修复而非长期目标。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_009",
+      "question_en": "Why do colors affect our mood?",
+      "question_zh": "为什么颜色影响情绪？",
+
+      "choices_en": [
+        "Cultural color associations",
+        "Brain chemistry responses",
+        "Learned emotional connections",
+        "Evolutionary survival cues"
+      ],
+      "choices_zh": [
+        "文化颜色联想",
+        "大脑化学反应",
+        "学习的情绪连接",
+        "进化生存线索"
+      ],
+      "correct_answer": 3,
+      "explanations_en": [
+        "Wrong. While culture does influence some color preferences (like red meaning luck in China vs. danger in Western contexts), the fundamental mood effects of colors have evolutionary and biological bases that exist across cultures.",
+        "Wrong. Colors don't directly trigger brain chemistry changes like drugs do. The mood effects come from evolutionary associations and how our visual system processes different wavelengths, not chemical reactions.",
+        "Wrong. Though we do learn some color associations, many color-mood effects appear innate and cross-cultural, suggesting deeper evolutionary roots rather than purely learned responses.",
+        "Correct! Colors affect mood primarily through evolutionary associations. Blue and green (water, vegetation, clear sky) signal safety and resources, triggering calm responses. Red increases arousal because it signals ripe fruit, blood, and danger - our ancestors needed heightened alertness around red. Yellow (sunlight) energizes us. These connections developed over millions of years. Additionally, different wavelengths stimulate our photoreceptors differently: blue light affects circadian rhythms and alertness through specialized cells in our eyes."
+      ],
+      "explanations_zh": [
+        "错误。虽然文化确实影响一些颜色偏好（如红色在中国意味着幸运，在西方意味着危险），但颜色的基本情绪效应具有跨文化存在的进化和生物学基础。",
+        "错误。颜色不像药物那样直接触发大脑化学变化。情绪效应来自进化联想和我们的视觉系统如何处理不同波长，而非化学反应。",
+        "错误。尽管我们确实学习了一些颜色联想，但许多颜色-情绪效应似乎是天生的且跨文化的，表明有更深的进化根源而非纯粹习得的反应。",
+        "正确！颜色主要通过进化联想影响情绪。蓝色和绿色（水、植被、晴朗天空）标志安全和资源，触发平静反应。红色增加唤醒，因为它标志成熟果实、血液和危险——我们的祖先需要对红色保持警觉。黄色（阳光）让我们有活力。这些联系经过数百万年发展。此外，不同波长对我们的光感受器刺激不同：蓝光通过眼睛中的特殊细胞影响昼夜节律和警觉性。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_010",
+      "question_en": "Why do we like music?",
+      "question_zh": "为什么我们喜欢音乐？",
+
+      "choices_en": [
+        "Music is universally pleasant",
+        "Dopamine reward prediction",
+        "Social bonding tool",
+        "Brain pattern recognition"
+      ],
+      "choices_zh": [
+        "音乐普遍令人愉悦",
+        "多巴胺奖励预测",
+        "社交联结工具",
+        "大脑模式识别"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Music isn't universally pleasant - different people like different types. This doesn't explain the neurological mechanism of why music feels good when we do like it.",
+        "Correct! Music activates the brain's reward system through dopamine release, particularly in the nucleus accumbens. The key is 'reward prediction' - music creates expectations (based on patterns) and then either fulfills or violates them in interesting ways. When a song builds tension and releases it, or when we anticipate a familiar chorus, our brain releases dopamine. This is the same chemical involved in food, sex, and other pleasures. Music also engages multiple brain regions simultaneously (auditory cortex, motor cortex, emotional centers), creating a rich, pleasurable experience.",
+        "Wrong. While music does facilitate social bonding (think concerts, lullabies, group singing), this doesn't explain the neurological reward mechanism. The dopamine-based reward prediction system is why individual listening still feels good.",
+        "Wrong. Pattern recognition is involved in how we process music, but it doesn't explain the pleasure. The reward comes from dopamine release triggered by how music plays with our predictions and expectations, not pattern recognition alone."
+      ],
+      "explanations_zh": [
+        "错误。音乐并非普遍令人愉悦——不同的人喜欢不同类型。这不能解释当我们确实喜欢音乐时为什么感觉良好的神经学机制。",
+        "正确！音乐通过多巴胺释放激活大脑的奖励系统，特别是在伏隔核中。关键是'奖励预测'——音乐创造期望（基于模式），然后以有趣的方式实现或违背这些期望。当一首歌建立张力并释放它，或当我们期待熟悉的副歌时，大脑会释放多巴胺。这与食物、性和其他快乐涉及的化学物质相同。音乐还同时调动多个大脑区域（听觉皮层、运动皮层、情感中心），创造丰富、愉悦的体验。",
+        "错误。虽然音乐确实促进社交联结（想想音乐会、摇篮曲、集体唱歌），但这不能解释神经学奖励机制。基于多巴胺的奖励预测系统是为什么单独听音乐仍然感觉良好的原因。",
+        "错误。模式识别确实参与我们如何处理音乐，但它不能解释快乐。奖励来自多巴胺释放，由音乐如何玩弄我们的预测和期望触发，而非仅仅模式识别。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_011",
+      "question_en": "Why do we get nervous before exams?",
+      "question_zh": "为什么考试前会紧张？",
+
+      "choices_en": [
+        "We're afraid of failure",
+        "Stress hormone activation",
+        "Lack of preparation",
+        "Performance pressure builds"
+      ],
+      "choices_zh": [
+        "害怕失败结果",
+        "压力激素激活",
+        "准备不充分",
+        "表现压力累积"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Fear of failure is a psychological trigger, but it doesn't explain the physical nervousness (sweating, racing heart, butterflies). The actual mechanism involves stress hormones.",
+        "Correct! Exam nervousness is your fight-or-flight response activating. When you perceive an exam as threatening to your social standing or future, your amygdala triggers the release of stress hormones - cortisol and adrenaline. These hormones increase heart rate, redirect blood to muscles, sharpen focus, and create that 'butterflies' feeling. This response evolved to help our ancestors escape physical danger. Your brain can't distinguish between 'exam threat' and 'predator threat,' so it activates the same ancient survival system - even though you can't fight or flee from an exam!",
+        "Wrong. Even well-prepared students feel nervous because the stress response is triggered by perceived threat to self-esteem and future consequences, not actual preparation level. The amygdala reacts to the stakes, not your study hours.",
+        "Wrong. 'Pressure' is too vague. The specific mechanism is the hypothalamic-pituitary-adrenal (HPA) axis releasing cortisol and adrenaline when your brain perceives the exam as a threat, triggering physical symptoms."
+      ],
+      "explanations_zh": [
+        "错误。害怕失败是心理触发因素，但不能解释生理紧张（出汗、心跳加速、肚子翻腾）。实际机制涉及压力激素。",
+        "正确！考试紧张是你的战斗或逃跑反应激活。当你认为考试威胁到你的社会地位或未来时，杏仁核触发压力激素释放——皮质醇和肾上腺素。这些激素增加心率，将血液重新导向肌肉，提高专注力，产生'肚子翻腾'的感觉。这种反应进化来帮助我们的祖先逃离物理危险。你的大脑无法区分'考试威胁'和'捕食者威胁'，所以激活同样的古老生存系统——尽管你无法对考试战斗或逃跑！",
+        "错误。即使准备充分的学生也会紧张，因为压力反应是由对自尊和未来后果的感知威胁触发的，而非实际准备水平。杏仁核对风险做出反应，而非你的学习时长。",
+        "错误。'压力'太模糊。具体机制是下丘脑-垂体-肾上腺（HPA）轴在大脑认为考试是威胁时释放皮质醇和肾上腺素，触发生理症状。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_012",
+      "question_en": "Why do habits form?",
+      "question_zh": "为什么会形成习惯？",
+
+      "choices_en": [
+        "We repeat comfortable actions",
+        "Basal ganglia automates tasks",
+        "Memory of past success",
+        "Brain saves mental energy"
+      ],
+      "choices_zh": [
+        "重复舒适的行为",
+        "基底神经节自动化",
+        "过去成功的记忆",
+        "大脑节省能量"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Comfort doesn't explain the automaticity of habits or why they're so hard to break. The mechanism involves specific brain structures that create automatic behavioral loops.",
+        "Correct! Habits form through the basal ganglia, which converts repeated behaviors into automatic routines via 'chunking.' When you perform a sequence (cue → routine → reward) repeatedly, the basal ganglia encodes it as a single unit, freeing your prefrontal cortex for other tasks. This creates a habit loop: the cue triggers the routine automatically without conscious decision-making. Neurologically, the behavior pathway gets myelinated (insulated), making signals travel faster and more efficiently. This automation was evolutionarily advantageous - imagine having to consciously think about walking!",
+        "Wrong. While memory is involved, simply remembering success doesn't create the automatic, unconscious nature of habits. The basal ganglia's chunking process is what makes habits automatic and resistant to conscious control.",
+        "Wrong. Though habits do conserve mental energy (by reducing decisions), this is the benefit, not the mechanism. The actual formation process involves the basal ganglia creating automated neural pathways through repetition."
+      ],
+      "explanations_zh": [
+        "错误。舒适感不能解释习惯的自动性或为何如此难以打破。机制涉及创建自动行为循环的特定大脑结构。",
+        "正确！习惯通过基底神经节形成，它通过'组块'将重复行为转化为自动程序。当你重复执行一个序列（提示→惯例→奖励）时，基底神经节将其编码为单一单元，释放前额叶皮层做其他任务。这创建了习惯循环：提示自动触发惯例，无需意识决策。神经学上，行为通路会被髓鞘化（绝缘），使信号传播更快更高效。这种自动化在进化上有优势——想象必须有意识地思考走路！",
+        "错误。虽然记忆确实参与，但仅仅记住成功不会创造习惯的自动、无意识本质。基底神经节的组块过程才是使习惯自动化且抗拒意识控制的原因。",
+        "错误。虽然习惯确实节约精神能量（通过减少决策），但这是好处，而非机制。实际形成过程涉及基底神经节通过重复创建自动化神经通路。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "psych_013",
+      "question_en": "Why do we have emotions?",
+      "question_zh": "为什么我们有情绪？",
+
+      "choices_en": [
+        "To express our feelings",
+        "Evolutionary survival signals",
+        "Social communication needs",
+        "Brain chemical reactions"
+      ],
+      "choices_zh": [
+        "为了表达感受",
+        "进化生存信号",
+        "社交沟通需要",
+        "大脑化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Expressing feelings is what we do with emotions, not why we have them. This doesn't explain emotions' evolutionary purpose or why specific emotions exist.",
+        "Correct! Emotions evolved as rapid decision-making and action systems for survival. Fear triggers fight-or-flight before conscious thought - crucial when facing danger. Disgust prevents us from eating spoiled food or touching contaminants. Anger prepares us to fight threats. Joy reinforces beneficial behaviors. Sadness signals loss and triggers support-seeking. These emotional programs, coordinated by the limbic system (especially amygdala), provided faster responses than rational analysis - a life-or-death advantage for our ancestors. Emotions are essentially your brain's fast-track survival software.",
+        "Wrong. While emotions do facilitate social communication (facial expressions, empathy), this is a secondary benefit. The primary evolutionary function is individual survival through rapid threat/opportunity responses.",
+        "Wrong. Brain chemicals (neurotransmitters like serotonin, dopamine) are the mechanism of how emotions work, not why we have them. The evolutionary reason is survival advantage through rapid action programs."
+      ],
+      "explanations_zh": [
+        "错误。表达感受是我们用情绪做什么，而非我们为什么有它们。这不能解释情绪的进化目的或为什么存在特定情绪。",
+        "正确！情绪作为生存的快速决策和行动系统进化而来。恐惧在意识思考前触发战斗或逃跑——面对危险时至关重要。厌恶防止我们吃腐败食物或触碰污染物。愤怒让我们准备对抗威胁。快乐强化有益行为。悲伤标志损失并触发寻求支持。这些由边缘系统（特别是杏仁核）协调的情绪程序，提供比理性分析更快的反应——对我们祖先来说是生死攸关的优势。情绪本质上是大脑的快速生存软件。",
+        "错误。虽然情绪确实促进社交沟通（面部表情、同理心），但这是次要好处。主要进化功能是通过快速威胁/机会反应实现个体生存。",
+        "错误。大脑化学物质（神经递质如血清素、多巴胺）是情绪如何工作的机制，而非我们为什么有它们。进化原因是通过快速行动程序获得生存优势。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_014",
+      "question_en": "Why do we enjoy playing games?",
+      "question_zh": "为什么我们喜欢玩游戏？",
+
+      "choices_en": [
+        "Games are fun entertainment",
+        "Dopamine from achieving goals",
+        "Escape from real life",
+        "Competition is natural"
+      ],
+      "choices_zh": [
+        "游戏是娱乐活动",
+        "达成目标的多巴胺",
+        "逃避现实生活",
+        "竞争是天性"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Saying games are 'fun' just restates the question without explaining the neurological mechanism of why they feel good. The real answer involves brain chemistry.",
+        "Correct! Games trigger dopamine release through a perfectly calibrated reward system. Games provide clear goals, immediate feedback, and achievable challenges - creating a continuous dopamine loop. When you're about to achieve something (level up, win, solve puzzle), your brain releases dopamine in anticipation, making the activity feel rewarding. This is the same neurotransmitter involved in learning and survival behaviors. Games essentially 'hack' our achievement-reward circuitry. Variable rewards (like loot boxes) are especially powerful because unpredictability enhances dopamine release - similar to gambling.",
+        "Wrong. While some people use games to avoid real-world problems, this doesn't explain the fundamental appeal. Even well-adjusted people enjoy games because of the dopamine-based reward mechanisms.",
+        "Wrong. Competition exists in some games but not all (many are cooperative or solo). The universal appeal comes from dopamine release triggered by goal achievement and progression, not competition specifically."
+      ],
+      "explanations_zh": [
+        "错误。说游戏'有趣'只是重新表述问题，没有解释为什么感觉良好的神经学机制。真正答案涉及大脑化学。",
+        "正确！游戏通过完美校准的奖励系统触发多巴胺释放。游戏提供明确目标、即时反馈和可实现的挑战——创建持续的多巴胺循环。当你即将实现某事（升级、获胜、解谜）时，大脑在期待中释放多巴胺，使活动感觉有奖励。这与学习和生存行为涉及的神经递质相同。游戏本质上'黑进'了我们的成就-奖励回路。可变奖励（如战利品箱）特别强大，因为不可预测性增强多巴胺释放——类似于赌博。",
+        "错误。虽然有些人用游戏逃避现实问题，但这不能解释根本吸引力。即使心理健康的人也喜欢游戏，因为基于多巴胺的奖励机制。",
+        "错误。竞争存在于某些游戏中但不是全部（许多是合作或单人游戏）。普遍吸引力来自目标达成和进展触发的多巴胺释放，而非具体竞争。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "psych_015",
+      "question_en": "Why do we learn better by doing?",
+      "question_zh": "为什么实践学得更好？",
+
+      "choices_en": [
+        "Hands-on is more engaging",
+        "Motor cortex aids memory",
+        "We remember what we practice",
+        "Active learning vs. passive"
+      ],
+      "choices_zh": [
+        "动手更有参与感",
+        "运动皮层辅助记忆",
+        "记住练习的内容",
+        "主动学习非被动"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. 'Engaging' is too vague and doesn't explain the neurological advantage. The brain mechanism involves multiple memory systems working together.",
+        "Correct! Learning by doing engages procedural memory (stored in the basal ganglia and cerebellum) alongside declarative memory (hippocampus). When you physically perform an action while learning, your motor cortex, sensory cortex, and memory centers all activate simultaneously, creating multiple neural pathways to the same information - a process called 'encoding specificity.' This multi-pathway encoding makes memories stronger and easier to retrieve. Additionally, active learning triggers deeper cognitive processing and error correction, which strengthens neural connections more than passive observation.",
+        "Wrong. This is partially true but doesn't explain why practice creates stronger memories than reading/listening. The key is multi-system encoding: motor actions create additional neural pathways that reinforce memory beyond simple repetition.",
+        "Wrong. Active vs. passive learning is a useful distinction but doesn't explain the mechanism. The neurological reason is that doing engages motor and sensory cortices along with memory systems, creating redundant neural pathways that make information more retrievable."
+      ],
+      "explanations_zh": [
+        "错误。'参与感'太模糊，没有解释神经学优势。大脑机制涉及多个记忆系统协同工作。",
+        "正确！实践学习将程序性记忆（存储在基底神经节和小脑）与陈述性记忆（海马体）结合起来。当你在学习时身体执行动作时，运动皮层、感觉皮层和记忆中心同时激活，为同一信息创建多条神经通路——这个过程叫'编码特异性'。这种多通路编码使记忆更强，更容易提取。此外，主动学习触发更深的认知处理和错误纠正，比被动观察更能强化神经连接。",
+        "错误。这部分正确，但没有解释为什么练习比阅读/听讲创建更强的记忆。关键是多系统编码：运动动作创建额外的神经通路，在简单重复之外强化记忆。",
+        "错误。主动与被动学习是有用的区分，但没有解释机制。神经学原因是实践将运动和感觉皮层与记忆系统结合，创建冗余神经通路，使信息更易提取。"
+      ],
+      "difficulty": "hard"
     }
   ]
 }
