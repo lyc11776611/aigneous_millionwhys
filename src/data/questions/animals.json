@@ -94,6 +94,533 @@
         "错误。虽然鸟类确实寻找好的巢址，但它们通常每年返回相同的繁殖地。迁徙是由季节性食物供应驱动的，而不是寻找更好的巢穴位置。"
       ],
       "difficulty": "hard"
+    },
+    {
+      "id": "anim_004",
+      "question_en": "Why do cats land on their feet?",
+      "question_zh": "为什么猫总是用脚着地？",
+      "choices_en": [
+        "They have a special bone",
+        "Flexible spine twists mid-air",
+        "Their tail balances them",
+        "They can sense the ground"
+      ],
+      "choices_zh": [
+        "有特殊骨骼",
+        "灵活脊柱在空中扭转",
+        "尾巴保持平衡",
+        "能感应地面"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Cats don't have special bones for landing. Their skeletal structure is similar to other mammals. It's their flexible spine and inner ear balance system that enables the righting reflex.",
+        "Correct! Cats have an extremely flexible spine with extra vertebrae that allows them to twist their body mid-air. Combined with their inner ear balance system, they can rotate their front and back independently. This 'righting reflex' develops around 3-4 weeks old!",
+        "Wrong. While the tail helps with balance, tailless cats (like Manx breed) can still land on their feet. The key is the flexible spine and vestibular system in the inner ear.",
+        "Wrong. Cats don't sense the ground to land properly. Their righting reflex is triggered by the vestibular apparatus in their inner ear detecting the fall orientation, not ground proximity."
+      ],
+      "explanations_zh": [
+        "错误。猫没有用于着陆的特殊骨骼。它们的骨骼结构与其他哺乳动物相似。是它们灵活的脊柱和内耳平衡系统使翻正反射成为可能。",
+        "正确！猫有极其灵活的脊柱，有额外的椎骨可以在空中扭转身体。结合内耳平衡系统，它们可以独立旋转前后身体。这种翻正反射在3-4周龄时发展完成！",
+        "错误。虽然尾巴有助于平衡，但无尾猫（如曼岛猫品种）仍然可以用脚着地。关键是灵活的脊柱和内耳的前庭系统。",
+        "错误。猫不是通过感应地面来正确着陆的。它们的翻正反射是由内耳前庭器官检测跌落方向触发的，而不是地面接近度。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_005",
+      "question_en": "Why do dolphins sleep with one eye open?",
+      "question_zh": "为什么海豚睁一只眼睡觉？",
+      "choices_en": [
+        "Watch for predators",
+        "Half brain stays awake",
+        "They don't actually sleep",
+        "Keep swimming while resting"
+      ],
+      "choices_zh": [
+        "警惕捕食者",
+        "一半大脑保持清醒",
+        "它们实际上不睡觉",
+        "休息时继续游泳"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While watching for danger is a benefit, it's not the reason. The mechanism is unihemispheric slow-wave sleep where half the brain sleeps while the other half stays awake.",
+        "Correct! Dolphins use 'unihemispheric sleep' where one brain hemisphere sleeps while the other stays awake. This allows them to breathe consciously (they can't breathe automatically like us), watch for threats, and maintain pod contact. They switch sides every 2 hours!",
+        "Wrong. Dolphins do sleep, but differently than land mammals. They need rest but must remain partially conscious to surface and breathe, since breathing is voluntary for them.",
+        "Wrong. While continued swimming is necessary and enabled by this sleep pattern, it's not the primary reason. The key is that dolphins must breathe consciously, so part of their brain must always stay awake."
+      ],
+      "explanations_zh": [
+        "错误。虽然警惕危险是一个好处，但这不是原因。机制是单侧慢波睡眠，大脑一半睡觉而另一半保持清醒。",
+        "正确！海豚使用单侧睡眠，一个脑半球睡觉而另一个保持清醒。这让它们能有意识地呼吸（它们不能像我们一样自动呼吸）、警惕威胁并保持群体联系。它们每2小时切换一次！",
+        "错误。海豚确实睡觉，但方式与陆地哺乳动物不同。它们需要休息，但必须保持部分意识以浮上水面呼吸，因为它们的呼吸是自主的。",
+        "错误。虽然持续游泳是必要的，并由这种睡眠模式实现，但这不是主要原因。关键是海豚必须有意识地呼吸，所以部分大脑必须始终保持清醒。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "anim_006",
+      "question_en": "Why do elephants have good memory?",
+      "question_zh": "为什么大象记忆力好？",
+      "choices_en": [
+        "They live very long lives",
+        "Large brain with complex neurons",
+        "They write things down",
+        "Special memory organ"
+      ],
+      "choices_zh": [
+        "寿命很长",
+        "大脑大且神经复杂",
+        "会记录事情",
+        "有特殊记忆器官"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While elephants do live 60-70 years, longevity alone doesn't create better memory. Many long-lived species don't have exceptional memory. Brain structure and size matter more.",
+        "Correct! Elephants have large brains (5kg, largest among land animals) with highly developed hippocampus and cerebral cortex. They can remember herd members, water sources, and migration routes for decades. They even recognize humans they met years ago!",
+        "Wrong. Elephants don't write or use external memory aids. Their impressive memory is biological, stored in their large, complex brains.",
+        "Wrong. There's no special memory organ. Their exceptional memory comes from their large brain size and particularly well-developed hippocampus, the brain region crucial for forming and storing long-term memories."
+      ],
+      "explanations_zh": [
+        "错误。虽然大象确实活60-70年，但长寿本身不会产生更好的记忆。许多长寿物种没有特别好的记忆。大脑结构和大小更重要。",
+        "正确！大象有大脑袋（5公斤，陆地动物中最大）和高度发达的海马体和大脑皮层。它们能记住群体成员、水源和迁徙路线几十年。它们甚至能认出多年前见过的人！",
+        "错误。大象不会写字或使用外部记忆辅助。它们惊人的记忆是生物性的，存储在大而复杂的大脑中。",
+        "错误。没有特殊的记忆器官。它们出色的记忆来自大脑尺寸大和特别发达的海马体，海马体是形成和存储长期记忆的关键脑区。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_007",
+      "question_en": "Why do fireflies light up at night?",
+      "question_zh": "为什么萤火虫夜晚发光？",
+      "choices_en": [
+        "To see in the dark",
+        "To attract mates",
+        "To scare predators away",
+        "They absorb sunlight"
+      ],
+      "choices_zh": [
+        "为了在黑暗中看清",
+        "为了吸引配偶",
+        "吓跑捕食者",
+        "吸收了阳光"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Fireflies don't use their light to see. Their eyes are adapted to darkness and they navigate using other senses. The bioluminescence is specifically for communication, not illumination.",
+        "Correct! Fireflies produce light through bioluminescence using luciferin and luciferase enzymes. Males flash specific patterns to attract females of their species. Each species has unique flash patterns - like a secret code! Females respond with their own flashes. It's nature's light-based dating app!",
+        "Wrong. While the light might occasionally startle predators, that's not its primary purpose. The specific, rhythmic patterns are designed for mate attraction, not defense.",
+        "Wrong. Fireflies produce their own light through a chemical reaction (bioluminescence), not by storing or reflecting sunlight. The reaction happens in special light organs in their abdomen."
+      ],
+      "explanations_zh": [
+        "错误。萤火虫不用它们的光来看东西。它们的眼睛适应黑暗，用其他感官导航。生物发光专门用于交流，而非照明。",
+        "正确！萤火虫通过使用荧光素和荧光素酶进行生物发光。雄性闪烁特定模式来吸引同种雌性。每个物种都有独特的闪光模式——就像密码！雌性用自己的闪光回应。这是大自然的光基约会应用！",
+        "错误。虽然光可能偶尔会吓到捕食者，但这不是主要目的。特定的节奏模式是为吸引配偶而设计的，而非防御。",
+        "错误。萤火虫通过化学反应（生物发光）产生自己的光，而不是储存或反射阳光。反应发生在腹部的特殊发光器官中。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_008",
+      "question_en": "Why mosquitoes bite some people more?",
+      "question_zh": "为什么蚊子更爱咬某些人？",
+      "choices_en": [
+        "Sweet blood attracts them",
+        "Body odor and CO2 levels",
+        "Wearing bright colors",
+        "Eating sugary foods"
+      ],
+      "choices_zh": [
+        "血液甜吸引它们",
+        "体味和二氧化碳水平",
+        "穿鲜艳颜色",
+        "吃甜食"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Blood doesn't have a 'sweet' taste that mosquitoes can detect from a distance. They find hosts using chemical and thermal cues, not blood sugar levels.",
+        "Correct! Mosquitoes are attracted to CO2 from breath, body heat, and specific body odors created by skin bacteria. People with more skin bacteria, higher body temperature, or blood type O get bitten more. Pregnancy increases CO2 output, making pregnant women mosquito magnets. Genetics affect body odor too!",
+        "Wrong. While mosquitoes can see colors, this isn't a primary factor. Dark colors might retain more heat (which attracts them), but chemical signals like CO2 and body odor are much more important.",
+        "Wrong. Eating sugar doesn't change your blood chemistry enough to attract mosquitoes. However, drinking beer can increase attractiveness slightly, possibly due to increased body temperature and changed skin emissions."
+      ],
+      "explanations_zh": [
+        "错误。血液没有蚊子能从远处探测到的'甜'味。它们通过化学和热信号找到宿主，而非血糖水平。",
+        "正确！蚊子被呼吸中的二氧化碳、体温和皮肤细菌产生的特定体味所吸引。皮肤细菌多、体温高或O型血的人更易被叮咬。怀孕增加二氧化碳排放，使孕妇成为蚊子磁铁。遗传也影响体味！",
+        "错误。虽然蚊子能看到颜色，但这不是主要因素。深色可能保留更多热量（吸引它们），但二氧化碳和体味等化学信号更重要。",
+        "错误。吃糖不会改变血液化学成分来吸引蚊子。但是喝啤酒可能略微增加吸引力，可能是由于体温升高和皮肤排放物改变。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "anim_009",
+      "question_en": "Why owls turn heads 270 degrees?",
+      "question_zh": "为什么猫头鹰能转头270度？",
+      "choices_en": [
+        "Flexible neck muscles",
+        "Special neck vertebrae",
+        "Their eyes can't move",
+        "To hear better"
+      ],
+      "choices_zh": [
+        "颈部肌肉灵活",
+        "特殊颈椎",
+        "眼球不能转动",
+        "为了听得更好"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. While neck muscles play a role, that's not the main reason. Many animals have flexible necks but can't turn their heads this far. The key is that owl eyes are fixed in their sockets.",
+        "Wrong. Owls do have 14 neck vertebrae (humans have 7), but the main reason for head rotation is their fixed eyes. The extra vertebrae help enable the rotation, but aren't the primary driver.",
+        "Correct! Owl eyes are tubular and completely fixed in their sockets - they cannot move at all! To compensate, they evolved the ability to rotate their heads up to 270 degrees. Special vertebrae, blood vessel adaptations, and flexible neck structures prevent injury during these extreme rotations.",
+        "Wrong. While owls have excellent hearing and do turn their heads to locate sounds, the extreme rotation ability exists because their eyes are fixed. Hearing helps them hunt, but doesn't explain the 270-degree rotation."
+      ],
+      "explanations_zh": [
+        "错误。虽然颈部肌肉起作用，但这不是主要原因。许多动物有灵活的脖子但不能转头这么远。关键是猫头鹰的眼球固定在眼窝中。",
+        "错误。猫头鹰确实有14个颈椎（人类有7个），但转头的主要原因是它们的眼球固定。额外的颈椎有助于实现旋转，但不是主要驱动因素。",
+        "正确！猫头鹰的眼睛呈管状且完全固定在眼窝中——根本不能转动！为了补偿，它们进化出将头旋转270度的能力。特殊的椎骨、血管适应和灵活的颈部结构防止极端旋转时受伤。",
+        "错误。虽然猫头鹰听力出色并确实转头定位声音，但极端旋转能力存在是因为它们的眼球是固定的。听力帮助它们狩猎，但不能解释270度旋转。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_010",
+      "question_en": "Why do penguins huddle together?",
+      "question_zh": "为什么企鹅挤在一起？",
+      "choices_en": [
+        "To stay warm in cold",
+        "Protection from predators",
+        "Social bonding activity",
+        "Share food with group"
+      ],
+      "choices_zh": [
+        "在寒冷中保暖",
+        "抵御捕食者",
+        "社交联系活动",
+        "与群体分享食物"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Emperor penguins huddle during Antarctic winters (-40°C winds) to conserve heat. The huddle can have thousands of penguins, with interior temperature reaching 37°C while outside is -20°C! They rotate positions so everyone gets a turn in the warm center. This coordinated behavior is essential for survival!",
+        "Wrong. Penguins huddle primarily for warmth, not predator protection. During breeding season on ice, their main threats are aerial predators like skuas, and huddling doesn't protect against them.",
+        "Wrong. While huddling does involve social interaction, it's not primarily for bonding. It's a survival mechanism for extreme cold. The behavior is driven by thermoregulation necessity, not social needs.",
+        "Wrong. Penguins don't share food within huddles. Adult emperor penguins fast for months during breeding season while incubating eggs. The huddle is purely for thermal protection."
+      ],
+      "explanations_zh": [
+        "正确！帝企鹅在南极冬季（-40°C寒风）抱团保暖。抱团可以有数千只企鹅，内部温度达37°C而外部是-20°C！它们轮换位置让每只都能轮流到温暖的中心。这种协调行为对生存至关重要！",
+        "错误。企鹅抱团主要是为了保暖，而非抵御捕食者。繁殖季节在冰上，它们的主要威胁是空中捕食者如贼鸥，抱团无法抵御它们。",
+        "错误。虽然抱团确实涉及社交互动，但主要不是为了联系。这是应对极寒的生存机制。这种行为是由体温调节必要性驱动的，而非社交需求。",
+        "错误。企鹅不在抱团时分享食物。成年帝企鹅在繁殖季节孵蛋时禁食数月。抱团纯粹是为了热保护。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_011",
+      "question_en": "Why do snakes shed their skin?",
+      "question_zh": "为什么蛇会蜕皮？",
+      "choices_en": [
+        "To grow bigger",
+        "Remove parasites only",
+        "Change color for camouflage",
+        "When skin gets dirty"
+      ],
+      "choices_zh": [
+        "为了长大",
+        "只为去除寄生虫",
+        "改变颜色伪装",
+        "皮肤脏了"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Snake skin doesn't grow with their body, so they must shed (ecdysis) to accommodate growth. Young snakes shed every few weeks, adults several times yearly. Shedding also removes parasites, repairs damage, and refreshes eye scales. The entire outer layer comes off in one piece!",
+        "Wrong. While shedding does remove parasites, that's a beneficial side effect, not the main reason. Snakes shed primarily because their skin doesn't stretch as they grow. Even in parasite-free environments, they still shed regularly.",
+        "Wrong. Snakes don't change color through shedding. Their color patterns are determined by pigment cells in deeper skin layers that don't shed. The new skin underneath has the same pattern as before.",
+        "Wrong. Cleanliness isn't why snakes shed. Their skin doesn't grow, so they must replace it as they grow larger. Shedding is a growth-related process, not a hygiene one."
+      ],
+      "explanations_zh": [
+        "正确！蛇皮不会随身体生长，所以它们必须蜕皮（蜕壳）以适应成长。幼蛇每几周蜕一次，成年蛇每年数次。蜕皮还能去除寄生虫、修复损伤并更新眼鳞。整个外层一次性脱落！",
+        "错误。虽然蜕皮确实能去除寄生虫，但那是有益的副作用，不是主要原因。蛇蜕皮主要是因为它们的皮肤不会随成长而伸展。即使在无寄生虫环境中，它们仍会定期蜕皮。",
+        "错误。蛇不会通过蜕皮改变颜色。它们的颜色图案由更深层皮肤中的色素细胞决定，这些细胞不会脱落。下面的新皮肤与之前图案相同。",
+        "错误。清洁不是蛇蜕皮的原因。它们的皮肤不会生长，所以随着身体长大必须更换。蜕皮是与生长相关的过程，而非卫生过程。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_012",
+      "question_en": "Why do squirrels bury nuts?",
+      "question_zh": "为什么松鼠埋坚果？",
+      "choices_en": [
+        "Playing and having fun",
+        "Store food for winter",
+        "Plant trees for future",
+        "Hide from other animals"
+      ],
+      "choices_zh": [
+        "玩耍和娱乐",
+        "储存冬季食物",
+        "种树为未来",
+        "藏起来躲避他者"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Nut burying (caching) is not play behavior. It's a serious survival strategy. Squirrels spend significant energy on this activity because it's essential for winter survival.",
+        "Correct! Squirrels cache nuts for winter using 'scatter hoarding' - burying nuts in multiple locations. They remember thousands of locations using spatial memory and landmarks. They retrieve 70-80% of buried nuts. The forgotten nuts often grow into trees - squirrels are accidental forest planters!",
+        "Wrong. While forgotten nuts do become trees, squirrels don't bury nuts with the intention of planting. They're trying to store food for themselves. Forest growth is an unintentional beneficial side effect.",
+        "Wrong. Burying nuts is about long-term storage, not immediate hiding. Squirrels often bury nuts in plain sight and rely on memory to find them later. It's a sophisticated food storage system, not a simple hiding behavior."
+      ],
+      "explanations_zh": [
+        "错误。埋坚果（贮藏）不是玩耍行为。这是严肃的生存策略。松鼠在这项活动上花费大量精力，因为它对冬季生存至关重要。",
+        "正确！松鼠为冬季贮藏坚果，使用'分散贮藏'——在多个地点埋坚果。它们使用空间记忆和地标记住数千个位置。它们找回70-80%的埋藏坚果。被遗忘的坚果常长成树——松鼠是意外的森林种植者！",
+        "错误。虽然被遗忘的坚果确实会变成树，但松鼠埋坚果的意图不是种植。它们试图为自己储存食物。森林生长是无意的有益副作用。",
+        "错误。埋坚果是为了长期储存，而非即时隐藏。松鼠常在显眼处埋坚果，依靠记忆后来找到。这是复杂的食物储存系统，而非简单的隐藏行为。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_013",
+      "question_en": "Why do zebras have stripes?",
+      "question_zh": "为什么斑马有条纹？",
+      "choices_en": [
+        "Camouflage in grasslands",
+        "Confuse predators when running",
+        "Repel biting flies",
+        "Identify each other"
+      ],
+      "choices_zh": [
+        "草原伪装",
+        "奔跑时迷惑捕食者",
+        "驱赶叮咬的苍蝇",
+        "互相识别"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Zebras are quite visible in grasslands - their stripes don't blend in. Lions and other predators have no trouble spotting zebras. Research shows stripes don't function as effective camouflage.",
+        "Wrong. While the 'motion dazzle' theory was popular, research shows predators aren't confused by stripes during hunts. Lions successfully catch zebras despite the stripes. The confusion hypothesis lacks strong evidence.",
+        "Correct! Recent research shows stripes primarily deter biting flies (tsetse and horseflies) which carry diseases. Flies have trouble landing on striped patterns. In experiments, horses wearing striped coats had 70% fewer fly landings! The stripe width matches fly visual sensitivity patterns.",
+        "Wrong. While each zebra has unique stripe patterns, individual recognition isn't the primary evolutionary reason for stripes. They use other cues like scent and vocalizations for recognition."
+      ],
+      "explanations_zh": [
+        "错误。斑马在草原上相当显眼——它们的条纹不能融入环境。狮子和其他捕食者发现斑马没有困难。研究表明条纹不能作为有效伪装。",
+        "错误。虽然'运动眩晕'理论曾流行，但研究表明捕食者在狩猎时不会被条纹迷惑。狮子尽管有条纹仍能成功捕获斑马。迷惑假说缺乏有力证据。",
+        "正确！最新研究表明条纹主要是为了驱赶携带疾病的叮咬苍蝇（采采蝇和马蝇）。苍蝇难以降落在条纹图案上。实验中，穿条纹衣的马苍蝇降落次数减少70%！条纹宽度与苍蝇视觉敏感度模式匹配。",
+        "错误。虽然每只斑马的条纹图案独特，但个体识别不是条纹进化的主要原因。它们使用气味和叫声等其他线索进行识别。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "anim_014",
+      "question_en": "Why can't penguins fly?",
+      "question_zh": "为什么企鹅不会飞？",
+      "choices_en": [
+        "Wings are too small",
+        "Evolved for swimming efficiency",
+        "Too heavy to lift off",
+        "Lost ability over time"
+      ],
+      "choices_zh": [
+        "翅膀太小",
+        "为游泳效率进化",
+        "太重飞不起来",
+        "随时间失去能力"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Wing size alone isn't the issue. Penguins have proportionally appropriate wings for their body, but these wings evolved for a different purpose - swimming, not flying.",
+        "Correct! Penguins evolved from flying birds but adapted to excel at swimming. Their wings became flippers optimized for underwater 'flight' - reaching speeds of 22 mph! The biomechanics for efficient swimming conflict with aerial flight. Dense bones (unlike hollow bird bones) help them dive deep. Evolution favored swimming specialization!",
+        "Wrong. Weight is a factor, but not the primary reason. If penguins had wings designed for flight, their weight could be manageable. The key is that their wings evolved specifically for swimming, making aerial flight biomechanically impossible.",
+        "Wrong. This implies random loss, but penguin wing evolution was purposeful adaptation. They didn't 'lose' flight ability - they traded it for superior swimming capabilities through natural selection. It was an evolutionary trade-off, not a loss."
+      ],
+      "explanations_zh": [
+        "错误。单靠翅膀尺寸不是问题。企鹅的翅膀与身体比例适当，但这些翅膀为不同目的进化——游泳，而非飞行。",
+        "正确！企鹅从会飞的鸟类进化而来，但适应了擅长游泳。它们的翅膀变成了为水下'飞行'优化的鳍状肢——速度达22英里/小时！高效游泳的生物力学与空中飞行冲突。致密骨骼（不像空心鸟骨）帮助它们深潜。进化偏向游泳专业化！",
+        "错误。体重是一个因素，但不是主要原因。如果企鹅有为飞行设计的翅膀，它们的体重可能是可控的。关键是它们的翅膀专门为游泳进化，使空中飞行在生物力学上不可能。",
+        "错误。这暗示随机丧失，但企鹅翅膀进化是有目的的适应。它们没有'失去'飞行能力——通过自然选择用它换取了卓越的游泳能力。这是进化权衡，而非丧失。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_015",
+      "question_en": "Why do bees make honey?",
+      "question_zh": "为什么蜜蜂酿蜜？",
+      "choices_en": [
+        "To feed humans",
+        "Winter food storage",
+        "Attract flowers to hive",
+        "Cool down the hive"
+      ],
+      "choices_zh": [
+        "喂养人类",
+        "储存冬季食物",
+        "吸引花朵到蜂巢",
+        "给蜂巢降温"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Bees don't make honey for humans. Honey production evolved millions of years before humans started beekeeping. Bees make honey solely for their own colony's survival.",
+        "Correct! Bees make honey as their winter food supply. They collect nectar, process it with enzymes, and store it in hexagonal cells. One hive makes 30-60 lbs yearly! Honey never spoils due to low moisture and acidic pH. Worker bees need this energy-dense food when flowers aren't blooming and they can't leave the hive.",
+        "Wrong. Bees visit flowers to collect nectar, not to attract them. Flowers are stationary plants - they can't move to a hive. Bees are attracted to flowers, not the other way around.",
+        "Wrong. While bees do control hive temperature by fanning their wings, honey isn't used for cooling. Honey is specifically an energy-rich food storage system for survival during winter and periods of scarcity."
+      ],
+      "explanations_zh": [
+        "错误。蜜蜂不是为人类酿蜜。蜂蜜生产在人类开始养蜂之前数百万年就进化出来了。蜜蜂酿蜜纯粹是为了自己族群的生存。",
+        "正确！蜜蜂酿蜜作为冬季食物供应。它们收集花蜜，用酶处理，储存在六角形巢房中。一个蜂巢每年产30-60磅！由于低水分和酸性pH值，蜂蜜永不变质。工蜂在花朵不开且无法离巢时需要这种高能量食物。",
+        "错误。蜜蜂访问花朵以收集花蜜，而非吸引它们。花朵是固定的植物——无法移动到蜂巢。是蜜蜂被花朵吸引，而非反过来。",
+        "错误。虽然蜜蜂确实通过扇动翅膀控制蜂巢温度，但蜂蜜不用于降温。蜂蜜专门是富含能量的食物储存系统，用于冬季和稀缺时期的生存。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "anim_016",
+      "question_en": "Why do chameleons change color?",
+      "question_zh": "为什么变色龙会变色？",
+      "choices_en": [
+        "Match background perfectly",
+        "Communication and mood",
+        "Absorb sunlight better",
+        "Confuse prey insects"
+      ],
+      "choices_zh": [
+        "完美匹配背景",
+        "交流和表达情绪",
+        "更好吸收阳光",
+        "迷惑猎物昆虫"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Chameleons don't perfectly match their surroundings. Their color changes are limited to their species' range (greens, browns, reds). The primary purpose isn't camouflage - many stay visible even after color change.",
+        "Correct! Chameleons change color mainly to communicate emotions and intentions. Bright colors signal aggression or courtship, darker colors show submission or stress. They adjust nanocrystal spacing in skin cells to reflect different wavelengths. Temperature regulation is a secondary benefit. It's like mood ring biology!",
+        "Wrong. While color can slightly affect heat absorption, that's not why they change color. Temperature regulation through color change is a minor side benefit, not the primary evolutionary purpose.",
+        "Wrong. Chameleons are sit-and-wait predators relying on camouflage while stationary and their long, fast tongues for catching prey. Color changes are too slow to confuse insects and aren't used during hunting."
+      ],
+      "explanations_zh": [
+        "错误。变色龙不会完美匹配周围环境。它们的颜色变化仅限于其物种范围（绿色、棕色、红色）。主要目的不是伪装——许多在变色后仍然可见。",
+        "正确！变色龙变色主要是为了交流情绪和意图。鲜艳颜色表示攻击性或求偶，较暗颜色表示顺从或压力。它们调整皮肤细胞中的纳米晶体间距以反射不同波长。温度调节是次要好处。就像情绪戒指生物学！",
+        "错误。虽然颜色可以略微影响热量吸收，但这不是它们变色的原因。通过变色进行温度调节是次要的副作用，不是主要的进化目的。",
+        "错误。变色龙是守株待兔的捕食者，依靠静止时的伪装和快速的长舌头捕捉猎物。颜色变化太慢无法迷惑昆虫，狩猎时不使用变色。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "anim_017",
+      "question_en": "Why do woodpeckers peck trees?",
+      "question_zh": "为什么啄木鸟啄树？",
+      "choices_en": [
+        "Sharpen their beaks",
+        "Find insects and make nests",
+        "Mark their territory only",
+        "Exercise their neck muscles"
+      ],
+      "choices_zh": [
+        "磨尖喙",
+        "寻找昆虫和筑巢",
+        "只为标记领地",
+        "锻炼颈部肌肉"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Woodpecker beaks don't need sharpening like tools. They continuously grow to replace wear. Pecking serves specific purposes: finding food, creating nest cavities, and communication - not beak maintenance.",
+        "Correct! Woodpeckers peck for multiple reasons: excavating insects (beetles, ants) from tree bark, creating nest cavities in dead wood, and 'drumming' to communicate territory and attract mates. They can peck 20 times per second! Special skull adaptations prevent brain damage from the impact.",
+        "Wrong. While drumming does mark territory, that's only one of three main pecking purposes. They also peck to find food and excavate nest holes. Territory marking alone wouldn't explain the extensive pecking behavior.",
+        "Wrong. Pecking isn't for exercise. It's a purposeful behavior for survival: finding food in tree bark, creating homes in tree cavities, and communication through rhythmic drumming. The strong muscles evolved to support these functions."
+      ],
+      "explanations_zh": [
+        "错误。啄木鸟的喙不像工具需要磨尖。它们持续生长以替换磨损。啄树有特定目的：寻找食物、挖掘巢穴和交流——而非喙部维护。",
+        "正确！啄木鸟啄树有多个原因：从树皮中挖掘昆虫（甲虫、蚂蚁）、在枯木中挖掘巢穴，以及通过'鼓击'交流领地和吸引配偶。它们每秒能啄20次！特殊的头骨适应防止撞击造成脑损伤。",
+        "错误。虽然鼓击确实标记领地，但这只是三个主要啄树目的之一。它们还啄树寻找食物和挖掘巢洞。仅领地标记无法解释广泛的啄树行为。",
+        "错误。啄树不是为了锻炼。这是为了生存的有目的行为：在树皮中寻找食物、在树洞中创建家园，以及通过节奏鼓击交流。强壮肌肉进化是为了支持这些功能。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_018",
+      "question_en": "Why do dogs have wet noses?",
+      "question_zh": "为什么狗的鼻子是湿的？",
+      "choices_en": [
+        "They lick them frequently",
+        "Enhance smell and cooling",
+        "Sign of good health only",
+        "Collect water from air"
+      ],
+      "choices_zh": [
+        "经常舔鼻子",
+        "增强嗅觉和降温",
+        "只是健康标志",
+        "从空气收集水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While dogs do lick their noses, that's not why noses are wet. Special mucous glands in the nose produce moisture that helps trap scent particles. Licking helps clean the nose and transfer scents to the mouth for analysis.",
+        "Correct! Dogs' noses have mucous glands that keep them moist. The moisture layer helps absorb and trap scent chemicals, dramatically improving their already powerful sense of smell. It also aids evaporative cooling. Dogs lick their noses to sample scents and keep the nose clean and functional!",
+        "Wrong. While a wet nose often indicates health, wetness itself isn't just a health indicator. The moisture serves functional purposes: enhancing scent detection and temperature regulation. A temporarily dry nose doesn't always mean illness.",
+        "Wrong. Dog noses don't collect atmospheric water. The moisture comes from specialized mucus-producing glands inside the nose. The wetness serves to enhance olfactory ability and cooling, not hydration."
+      ],
+      "explanations_zh": [
+        "错误。虽然狗确实会舔鼻子，但这不是鼻子湿润的原因。鼻子里的特殊粘液腺产生的水分有助于捕获气味颗粒。舔鼻子帮助清洁鼻子并将气味转移到口腔进行分析。",
+        "正确！狗的鼻子有粘液腺保持湿润。水分层有助于吸收和捕获气味化学物质，大大改善它们本已强大的嗅觉。它还有助于蒸发降温。狗舔鼻子是为了采样气味并保持鼻子清洁和功能！",
+        "错误。虽然湿鼻子通常表示健康，但湿润本身不只是健康指标。水分有功能性目的：增强气味检测和温度调节。暂时干燥的鼻子并不总是意味着生病。",
+        "错误。狗鼻子不从大气中收集水分。水分来自鼻内专门的粘液分泌腺。湿润用于增强嗅觉能力和降温，而非补水。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_019",
+      "question_en": "Why do cats' eyes glow in the dark?",
+      "question_zh": "为什么猫眼在黑暗中发光？",
+      "choices_en": [
+        "They produce their own light",
+        "Tapetum reflects light back",
+        "Eyes absorb moonlight",
+        "Special glow proteins"
+      ],
+      "choices_zh": [
+        "自己产生光",
+        "反光层反射光线",
+        "吸收月光",
+        "特殊发光蛋白"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Cats don't produce light like fireflies. Their eyes glow because they reflect available light, not generate it. Without any light source, cat eyes appear dark.",
+        "Correct! Cats have a reflective layer called tapetum lucidum behind their retinas. It reflects light back through the retina, giving photoreceptors a second chance to detect it. This boosts night vision by up to 6 times! The 'glow' is reflected light, not produced light. Eye color affects glow color!",
+        "Wrong. Eyes don't absorb and store light like solar panels. The glow is immediate reflection of available light (any light source, not just moon). When light hits the tapetum lucidum, it bounces back instantly, creating the glow effect.",
+        "Wrong. Cats don't have bioluminescent proteins. The glow is purely optical - light reflecting off the tapetum lucidum structure. It's a physical reflection phenomenon, not a biological light production."
+      ],
+      "explanations_zh": [
+        "错误。猫不像萤火虫那样产生光。它们的眼睛发光是因为反射可用光线，而不是产生光。没有任何光源时，猫眼看起来是黑暗的。",
+        "正确！猫的视网膜后面有一层叫做反光层的反射层。它将光线反射回视网膜，让光感受器有第二次机会检测它。这将夜视能力提高6倍！'发光'是反射光，而非产生的光。眼睛颜色影响发光颜色！",
+        "错误。眼睛不像太阳能电池板那样吸收和储存光。发光是对可用光（任何光源，不只是月亮）的即时反射。当光线照射反光层时，它立即反弹回来，产生发光效果。",
+        "错误。猫没有生物发光蛋白。发光纯粹是光学现象——光从反光层结构反射。这是物理反射现象，而非生物产生光。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "anim_020",
+      "question_en": "Why do horses sleep standing up?",
+      "question_zh": "为什么马站着睡觉？",
+      "choices_en": [
+        "Too heavy to lie down",
+        "Quick escape from predators",
+        "Lying hurts their organs",
+        "Save energy from getting up"
+      ],
+      "choices_zh": [
+        "太重躺不下",
+        "快速逃离捕食者",
+        "躺下会伤害器官",
+        "节省起身能量"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Horses can and do lie down - they need to for REM sleep. Weight isn't the issue. They have a special 'stay apparatus' in their legs that locks joints, allowing them to doze standing without muscle effort.",
+        "Correct! Horses evolved as prey animals on open plains. Standing sleep allows instant flight from predators. A special leg-locking mechanism (stay apparatus) lets them doze standing without tiring. However, they MUST lie down for deep REM sleep (2-3 hours daily) or they become sleep-deprived. It's a survival balance!",
+        "Wrong. Lying down doesn't harm healthy horses. They regularly lie down for deep REM sleep. Large horses can develop circulation issues if lying on one side too long, but this isn't why they stand to sleep - predator escape is the evolutionary driver.",
+        "Wrong. Getting up doesn't require excessive energy for healthy horses. The standing sleep ability evolved specifically for predator escape, not energy conservation. The 'stay apparatus' saves energy while standing, but that's a mechanism enabling the behavior, not the reason for it."
+      ],
+      "explanations_zh": [
+        "错误。马可以也确实会躺下——它们需要躺下进行快速眼动睡眠。体重不是问题。它们腿部有特殊的'支撑装置'锁定关节，让它们能站着打盹而不费肌肉力气。",
+        "正确！马作为开阔平原上的猎物动物进化而来。站立睡眠允许从捕食者那里瞬间逃跑。特殊的腿部锁定机制（支撑装置）让它们能站着打盹而不疲劳。但是，它们必须躺下进行深度快速眼动睡眠（每天2-3小时），否则会睡眠不足。这是生存平衡！",
+        "错误。躺下不会伤害健康的马。它们定期躺下进行深度快速眼动睡眠。大型马长时间躺在一侧可能会出现循环问题，但这不是它们站着睡觉的原因——捕食者逃离是进化驱动力。",
+        "错误。对健康的马来说起身不需要过多能量。站立睡眠能力专门为了逃离捕食者而进化，而非节能。'支撑装置'在站立时节省能量，但那是实现行为的机制，而非原因。"
+      ],
+      "difficulty": "hard"
     }
   ]
 }

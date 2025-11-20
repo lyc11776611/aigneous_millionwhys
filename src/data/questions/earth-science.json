@@ -1,0 +1,471 @@
+{
+  "category_en": "Earth Science",
+  "category_zh": "地球科学",
+  "questions": [
+    {
+      "id": "earth_001",
+      "question_en": "Why do earthquakes happen?",
+      "question_zh": "为什么会发生地震？",
+      "choices_en": [
+        "The ground shakes randomly",
+        "Tectonic plates move and shift",
+        "Underground explosions occur",
+        "Gravity pulls the earth"
+      ],
+      "choices_zh": [
+        "地面随机震动",
+        "地壳板块移动",
+        "地下发生爆炸",
+        "重力拉扯地球"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earthquakes don't happen randomly. They occur at specific locations where tectonic plates meet and interact. Most earthquakes happen along fault lines, which are boundaries between plates.",
+        "Correct! Earth's crust is broken into large pieces called tectonic plates that float on the semi-molten mantle below. These plates constantly move very slowly. When they grind against each other, get stuck, then suddenly slip, the stored energy is released as seismic waves - that's an earthquake! Most occur at plate boundaries.",
+        "Wrong. While underground explosions (like nuclear tests) can cause minor tremors, natural earthquakes are caused by tectonic plate movements, not explosions. The energy comes from the slow buildup of stress along fault lines.",
+        "Wrong. Gravity doesn't cause earthquakes. While gravity affects plate tectonics indirectly, earthquakes are caused by the movement and collision of tectonic plates driven by convection currents in Earth's mantle, not by gravity pulling the earth."
+      ],
+      "explanations_zh": [
+        "错误。地震不是随机发生的。它们发生在地壳板块相遇和相互作用的特定位置。大多数地震发生在断层线上，这是板块之间的边界。",
+        "正确！地球的地壳被分成大块称为地壳板块，漂浮在下面的半熔融地幔上。这些板块不断非常缓慢地移动。当它们相互摩擦、卡住，然后突然滑动时，储存的能量以地震波的形式释放 - 这就是地震！大多数发生在板块边界。",
+        "错误。虽然地下爆炸（如核试验）可能引起轻微震动，但自然地震是由地壳板块运动引起的，而不是爆炸。能量来自断层线上应力的缓慢积累。",
+        "错误。重力不会引起地震。虽然重力间接影响板块构造，但地震是由地球地幔中对流引起的地壳板块运动和碰撞引起的，而不是重力拉扯地球。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_002",
+      "question_en": "Why do volcanoes erupt?",
+      "question_zh": "为什么火山会喷发？",
+      "choices_en": [
+        "Mountains get too hot",
+        "Magma pressure forces it up",
+        "Gas bubbles cause explosion",
+        "Earthquakes trigger eruptions"
+      ],
+      "choices_zh": [
+        "山体过热",
+        "岩浆压力推动上升",
+        "气泡导致爆炸",
+        "地震触发喷发"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. It's not the mountain getting hot - the heat comes from deep inside Earth. Volcanoes form where magma from the mantle can reach the surface. The mountain is just the cone built up from previous eruptions.",
+        "Correct! Deep underground, rock melts into magma due to extreme heat and pressure. Magma is less dense than surrounding rock, so it rises. As it rises, dissolved gases expand and pressure builds. When pressure exceeds the strength of the overlying rock, the volcano erupts! Magma can reach the surface through cracks or weak spots in Earth's crust.",
+        "Wrong. While gas bubbles in magma do contribute to explosive eruptions by expanding, they're not the primary cause. The fundamental cause is magma pressure. Gases make eruptions more violent, but pressure buildup from rising magma is what drives eruptions.",
+        "Wrong. While earthquakes and volcanic eruptions are related (both occur at plate boundaries), earthquakes don't cause eruptions. Both are symptoms of tectonic activity. The eruption is caused by magma pressure, though earthquakes can sometimes trigger eruptions that were already ready to happen."
+      ],
+      "explanations_zh": [
+        "错误。不是山体变热 - 热量来自地球深处。火山形成于地幔中的岩浆可以到达地表的地方。山只是由以前喷发堆积而成的锥体。",
+        "正确！在地下深处，由于极端的热量和压力，岩石融化成岩浆。岩浆比周围的岩石密度小，所以上升。随着上升，溶解的气体膨胀，压力增加。当压力超过上覆岩石的强度时，火山就喷发了！岩浆可以通过地壳中的裂缝或薄弱点到达地表。",
+        "错误。虽然岩浆中的气泡通过膨胀确实有助于爆炸性喷发，但它们不是主要原因。根本原因是岩浆压力。气体使喷发更猛烈，但上升岩浆的压力积累才是驱动喷发的原因。",
+        "错误。虽然地震和火山喷发有关（两者都发生在板块边界），但地震不会引起喷发。两者都是构造活动的症状。喷发是由岩浆压力引起的，尽管地震有时可以触发已经准备好喷发的火山。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_003",
+      "question_en": "Why is the ocean salty?",
+      "question_zh": "为什么海洋是咸的？",
+      "choices_en": [
+        "Salt deposits dissolved over time",
+        "Sea creatures produce salt",
+        "Underwater volcanoes add salt",
+        "Evaporation concentrates salt"
+      ],
+      "choices_zh": [
+        "盐沉积物长期溶解",
+        "海洋生物产生盐",
+        "海底火山增加盐",
+        "蒸发浓缩盐"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! For billions of years, rain has weathered rocks on land, dissolving minerals including salts. Rivers carry these dissolved minerals to the ocean. Water evaporates, but the salts stay behind, accumulating over time. Underwater volcanic activity also adds minerals. The ocean has been collecting these salts for over 3 billion years!",
+        "Wrong. Sea creatures don't produce salt. In fact, marine organisms must adapt to the salty environment. Some filter salt out, others maintain salt balance. The salt comes from rock weathering and volcanic activity, not biological processes.",
+        "Wrong. While underwater volcanoes do contribute some minerals to the ocean, they're not the main source of salt. The primary source is weathering of rocks on land over billions of years. Rivers constantly carry dissolved minerals to the sea.",
+        "Wrong. Evaporation is the result, not the cause. Evaporation does concentrate salt in areas like the Dead Sea, but it doesn't explain where the salt came from originally. The salt is from weathered rocks carried to the ocean by rivers over geological time."
+      ],
+      "explanations_zh": [
+        "正确！数十亿年来，雨水风化陆地上的岩石，溶解包括盐在内的矿物质。河流将这些溶解的矿物质带到海洋。水蒸发，但盐留下来，随着时间积累。海底火山活动也增加矿物质。海洋已经收集这些盐超过30亿年了！",
+        "错误。海洋生物不产生盐。事实上，海洋生物必须适应咸的环境。一些过滤盐，另一些保持盐平衡。盐来自岩石风化和火山活动，而不是生物过程。",
+        "错误。虽然海底火山确实向海洋贡献一些矿物质，但它们不是盐的主要来源。主要来源是数十亿年来陆地岩石的风化。河流不断将溶解的矿物质带到海洋。",
+        "错误。蒸发是结果，不是原因。蒸发确实会在死海等地区浓缩盐，但它不能解释盐最初从哪里来。盐来自经过地质时间被河流带到海洋的风化岩石。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "earth_004",
+      "question_en": "Why do mountains have snow on top?",
+      "question_zh": "为什么山顶有雪？",
+      "choices_en": [
+        "Clouds drop snow there",
+        "Temperature drops with altitude",
+        "Wind carries snow upward",
+        "Mountains are closer to clouds"
+      ],
+      "choices_zh": [
+        "云在那里降雪",
+        "温度随海拔降低",
+        "风将雪带上去",
+        "山离云更近"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While precipitation does fall from clouds at high altitudes, this doesn't explain why it's snow rather than rain, or why snow stays on top. The key is that temperature decreases with altitude.",
+        "Correct! Temperature decreases about 6.5°C per 1000 meters of altitude. This is called the environmental lapse rate. Above a certain altitude (the snow line), it's cold enough for precipitation to fall as snow and for snow to remain frozen year-round. Even tropical mountains can have permanent snow at high elevations! The thinner air also holds less heat.",
+        "Wrong. Wind doesn't carry snow upward to deposit on mountains. Snow forms when water vapor in cold air crystallizes. Mountain tops are colder due to altitude, so precipitation falls as snow there and stays frozen.",
+        "Wrong. Being closer to clouds doesn't make it colder. In fact, clouds form at various altitudes. Mountains have snow because temperature decreases with altitude due to lower air pressure and thinner atmosphere, which holds less heat. It's the cold temperature that creates and preserves snow."
+      ],
+      "explanations_zh": [
+        "错误。虽然降水确实从高海拔的云中落下，但这不能解释为什么是雪而不是雨，或者为什么雪留在山顶。关键是温度随海拔降低。",
+        "正确！温度每升高1000米下降约6.5°C。这称为环境递减率。在某个海拔（雪线）以上，足够冷，降水以雪的形式落下，雪全年保持冰冻。即使热带山脉在高海拔也可以有永久雪！稀薄的空气也保持较少的热量。",
+        "错误。风不会将雪向上带到山上沉积。雪是在冷空气中水蒸气结晶时形成的。山顶由于海拔而更冷，所以降水以雪的形式落在那里并保持冰冻。",
+        "错误。离云更近不会使其更冷。事实上，云在不同海拔形成。山有雪是因为温度随海拔降低，这是由于较低的气压和较薄的大气层，保持较少的热量。是寒冷的温度创造和保存雪。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_005",
+      "question_en": "Why are there waves in the ocean?",
+      "question_zh": "为什么海洋中有波浪？",
+      "choices_en": [
+        "Fish swimming creates waves",
+        "Wind friction on water surface",
+        "Moon pulls water up and down",
+        "Ocean floor pushes water"
+      ],
+      "choices_zh": [
+        "鱼游动产生波浪",
+        "风摩擦水面",
+        "月亮拉动水",
+        "海底推动水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Fish can create small ripples, but ocean waves are far too large to be caused by sea creatures. Waves are primarily created by wind, with the wave size depending on wind speed, duration, and fetch (distance over water).",
+        "Correct! Wind blowing across the ocean transfers energy to the water through friction. This creates ripples that grow into waves. Wave size depends on wind speed, how long it blows, and the distance (fetch) over which it blows. The water itself doesn't move forward - energy does! Only the wave form travels; water particles move in circular orbits.",
+        "Wrong. While the moon does affect ocean water, it causes tides (rise and fall over hours), not waves (which occur every few seconds). Tides are different from waves. Regular ocean waves are caused by wind, not lunar gravitational pull.",
+        "Wrong. The ocean floor doesn't push water to create waves. Waves are surface phenomena caused by wind. However, underwater earthquakes can create special waves called tsunamis, but regular ocean waves come from wind friction on the surface."
+      ],
+      "explanations_zh": [
+        "错误。鱼可以产生小波纹，但海浪太大了，不可能由海洋生物引起。波浪主要由风产生，波浪大小取决于风速、持续时间和风区（水面上的距离）。",
+        "正确！吹过海洋的风通过摩擦将能量传递给水。这产生波纹，然后长成波浪。波浪大小取决于风速、吹的时间和吹过的距离（风区）。水本身不向前移动 - 能量移动！只有波形传播；水粒子在圆形轨道中移动。",
+        "错误。虽然月亮确实影响海水，但它引起潮汐（数小时内的涨落），而不是波浪（每几秒发生一次）。潮汐与波浪不同。常规海浪是由风引起的，而不是月球引力拉动。",
+        "错误。海底不会推动水产生波浪。波浪是由风引起的表面现象。然而，海底地震可以产生称为海啸的特殊波浪，但常规海浪来自水面上的风摩擦。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "earth_006",
+      "question_en": "Why does sand exist at beaches?",
+      "question_zh": "为什么海滩上有沙子？",
+      "choices_en": [
+        "Ocean creates sand particles",
+        "Rocks eroded over millions of years",
+        "Shells dissolve into sand",
+        "Wind carries desert sand there"
+      ],
+      "choices_zh": [
+        "海洋产生沙粒",
+        "岩石历经百万年侵蚀",
+        "贝壳溶解成沙",
+        "风带来沙漠的沙"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The ocean doesn't create sand - it transports and deposits it. Sand comes from the weathering and erosion of rocks, minerals, and sometimes shells over extremely long periods. Ocean waves and currents move the sand to beaches.",
+        "Correct! Sand is mostly tiny fragments of rocks and minerals, created by weathering and erosion over millions of years. Rivers carry these particles to the ocean, where waves and currents sort and deposit them on beaches. Beach sand composition varies - some is quartz from granite, some is volcanic rock, some is coral or shell fragments! White sand beaches have more shell and coral content.",
+        "Wrong. While some beach sand does contain shell fragments, especially on tropical beaches, most sand comes from eroded rocks. Shells can break down into sand-sized particles but aren't the primary source. Rock erosion over geological time creates most beach sand.",
+        "Wrong. Desert sand rarely reaches beaches. Beach sand is locally sourced from nearby rock erosion and river deposits. Desert sand grains are actually more rounded from wind erosion, while beach sand is more angular from water action. They form through different processes."
+      ],
+      "explanations_zh": [
+        "错误。海洋不产生沙子 - 它运输和沉积沙子。沙子来自极长时期内岩石、矿物质，有时是贝壳的风化和侵蚀。海浪和洋流将沙子移动到海滩。",
+        "正确！沙子主要是岩石和矿物质的微小碎片，是数百万年的风化和侵蚀产生的。河流将这些颗粒带到海洋，海浪和洋流将它们分类并沉积在海滩上。海滩沙子成分各不相同 - 有些是来自花岗岩的石英，有些是火山岩，有些是珊瑚或贝壳碎片！白沙滩含有更多贝壳和珊瑚成分。",
+        "错误。虽然一些海滩沙子确实含有贝壳碎片，特别是在热带海滩，但大多数沙子来自侵蚀的岩石。贝壳可以分解成沙粒大小的颗粒，但不是主要来源。地质时间内的岩石侵蚀产生大多数海滩沙子。",
+        "错误。沙漠沙子很少到达海滩。海滩沙子来自当地附近的岩石侵蚀和河流沉积。沙漠沙粒实际上由于风蚀更圆，而海滩沙子由于水作用更有棱角。它们通过不同的过程形成。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_007",
+      "question_en": "Why do rivers flow to the ocean?",
+      "question_zh": "为什么河流流向海洋？",
+      "choices_en": [
+        "Ocean pulls water magnetically",
+        "Gravity pulls water downhill",
+        "Earth's rotation pushes water",
+        "Rivers follow underground tunnels"
+      ],
+      "choices_zh": [
+        "海洋磁性吸引水",
+        "重力将水拉下坡",
+        "地球自转推动水",
+        "河流沿地下隧道"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. The ocean doesn't have magnetic properties that pull water. Water is not magnetic. Rivers flow because of gravity - they follow the path of least resistance downhill, and oceans are at the lowest elevation.",
+        "Correct! Water always flows downhill due to gravity, following the path of least resistance. Rivers start at high elevations (mountains, hills) and flow toward the lowest point - usually the ocean. The land surface naturally slopes toward the sea. Rivers carve valleys over time, creating channels that guide the flow. All rivers eventually reach the ocean or an inland lake/sea at a lower elevation!",
+        "Wrong. Earth's rotation does affect ocean currents and wind patterns (Coriolis effect), but it doesn't push rivers toward the ocean. Rivers flow downhill due to gravity. The direction is determined by topography (landscape slope), not Earth's rotation.",
+        "Wrong. Rivers don't follow underground tunnels - they flow on the surface along channels they've carved through erosion. Groundwater can flow underground, but rivers are surface water flowing downhill due to gravity, creating their own paths over geological time."
+      ],
+      "explanations_zh": [
+        "错误。海洋没有吸引水的磁性。水不是磁性的。河流流动是因为重力 - 它们沿着最小阻力的下坡路径，而海洋处于最低海拔。",
+        "正确！由于重力，水总是向下流动，沿着最小阻力的路径。河流从高海拔（山脉、丘陵）开始，流向最低点 - 通常是海洋。陆地表面自然向海倾斜。河流随着时间侵蚀山谷，创造引导流动的河道。所有河流最终到达海洋或较低海拔的内陆湖泊/海！",
+        "错误。地球自转确实影响洋流和风模式（科里奥利效应），但它不会推动河流流向海洋。河流由于重力向下流动。方向由地形（景观坡度）决定，而不是地球自转。",
+        "错误。河流不沿地下隧道流动 - 它们在表面沿着通过侵蚀雕刻的河道流动。地下水可以在地下流动，但河流是由于重力在表面流动的水，在地质时间内创造自己的路径。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "earth_008",
+      "question_en": "Why are caves formed?",
+      "question_zh": "为什么会形成洞穴？",
+      "choices_en": [
+        "Animals dig them out",
+        "Water dissolves rock over time",
+        "Earthquakes crack rocks open",
+        "Wind erosion hollows rocks"
+      ],
+      "choices_zh": [
+        "动物挖出来的",
+        "水长期溶解岩石",
+        "地震裂开岩石",
+        "风侵蚀掏空岩石"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While some animals live in caves or enlarge small holes, they don't create large cave systems. Most caves form through chemical dissolution of rock by water, a process taking thousands to millions of years.",
+        "Correct! Most caves form in limestone rock through a process called dissolution. Rainwater absorbs carbon dioxide from air and soil, becoming slightly acidic. This weak carbonic acid slowly dissolves limestone as it seeps through cracks. Over thousands of years, this creates underground caverns. Stalactites and stalagmites form from minerals redeposited by dripping water!",
+        "Wrong. While earthquakes can crack rocks and create fissures, they don't create the large hollow chambers we call caves. Cave formation is a slow chemical process of rock dissolution by water, not sudden mechanical breaking.",
+        "Wrong. Wind erosion can create shallow rock shelters in deserts, but not deep underground cave systems. Most caves form through water dissolving soluble rocks like limestone underground. Wind erosion is a surface process and too weak to create large underground chambers."
+      ],
+      "explanations_zh": [
+        "错误。虽然一些动物生活在洞穴中或扩大小洞，但它们不会创造大型洞穴系统。大多数洞穴通过水对岩石的化学溶解形成，这个过程需要数千到数百万年。",
+        "正确！大多数洞穴通过称为溶解的过程在石灰岩中形成。雨水从空气和土壤中吸收二氧化碳，变得微酸性。这种弱碳酸在渗透裂缝时慢慢溶解石灰岩。经过数千年，这创造了地下洞穴。钟乳石和石笋由滴水重新沉积的矿物质形成！",
+        "错误。虽然地震可以裂开岩石并产生裂缝，但它们不会创造我们称为洞穴的大型空心室。洞穴形成是水对岩石的缓慢化学溶解过程，而不是突然的机械破裂。",
+        "错误。风侵蚀可以在沙漠中创造浅岩石遮蔽物，但不能创造深地下洞穴系统。大多数洞穴通过水溶解地下可溶性岩石如石灰岩形成。风侵蚀是表面过程，太弱无法创造大型地下室。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_009",
+      "question_en": "Why do islands form?",
+      "question_zh": "为什么会形成岛屿？",
+      "choices_en": [
+        "Floating rocks accumulate",
+        "Volcanic or tectonic activity",
+        "Sand piles up from ocean",
+        "Icebergs melt and settle"
+      ],
+      "choices_zh": [
+        "漂浮岩石积累",
+        "火山或构造活动",
+        "海洋沙子堆积",
+        "冰山融化沉降"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Rocks don't float and accumulate to form islands. Islands are land masses that are part of Earth's crust, connected to the seafloor. They form through volcanic activity, tectonic uplift, or sometimes coral reef growth.",
+        "Correct! Islands form through several processes: volcanic eruptions build up land from the seafloor (like Hawaii); tectonic plate movements uplift underwater land above sea level; coral reefs grow on volcanic foundations (atolls); or rising sea levels isolate former mainland areas. Some islands like Japan sit on plate boundaries. The key is geological processes creating land above water!",
+        "Wrong. While sand can form barrier islands near coasts, this doesn't explain most islands. Major islands form through volcanic activity or tectonic uplift. Sand movement is a secondary process that might modify coastlines, not create substantial islands.",
+        "Wrong. Icebergs are floating ice that melts into water - they don't settle to form land. Islands are solid rock formations that rise from the seafloor, formed by volcanic activity, tectonic uplift, or coral growth, not from melted ice."
+      ],
+      "explanations_zh": [
+        "错误。岩石不会漂浮并积累形成岛屿。岛屿是属于地壳一部分的陆地块，连接到海底。它们通过火山活动、构造隆起，或有时珊瑚礁生长形成。",
+        "正确！岛屿通过几个过程形成：火山喷发从海底堆积陆地（如夏威夷）；地壳板块运动将水下陆地抬升到海平面以上；珊瑚礁在火山基础上生长（环礁）；或海平面上升隔离以前的大陆地区。一些岛屿如日本位于板块边界上。关键是地质过程创造水上陆地！",
+        "错误。虽然沙子可以在海岸附近形成屏障岛，但这不能解释大多数岛屿。主要岛屿通过火山活动或构造隆起形成。沙子移动是可能改变海岸线的次要过程，而不是创造大量岛屿。",
+        "错误。冰山是融化成水的漂浮冰 - 它们不会沉降形成陆地。岛屿是从海底升起的固体岩石地层，由火山活动、构造隆起或珊瑚生长形成，而不是来自融化的冰。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_010",
+      "question_en": "Why do tsunamis happen?",
+      "question_zh": "为什么会发生海啸？",
+      "choices_en": [
+        "Strong winds create huge waves",
+        "Underwater quakes displace water",
+        "Moon's gravity pulls ocean",
+        "Underwater volcanoes boil water"
+      ],
+      "choices_zh": [
+        "强风产生巨浪",
+        "海底地震移动水体",
+        "月球引力拉动海洋",
+        "海底火山煮沸水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Wind creates regular ocean waves, not tsunamis. Tsunamis are different - they're caused by sudden displacement of massive amounts of water, usually from underwater earthquakes. Wind-driven waves only affect the surface; tsunamis involve the entire water column.",
+        "Correct! Tsunamis are triggered by sudden vertical displacement of the seafloor, usually from underwater earthquakes at subduction zones. When tectonic plates suddenly shift, they push or pull huge volumes of water. This energy travels as waves at jet speed (up to 800 km/h) across the ocean! Underwater landslides and volcanic eruptions can also cause tsunamis. Wave height increases dramatically in shallow coastal waters.",
+        "Wrong. The moon's gravity creates tides - slow, predictable rises and falls over 6-hour periods. Tsunamis are sudden, catastrophic waves triggered by geological events like underwater earthquakes or landslides. They're completely different phenomena.",
+        "Wrong. Underwater volcanoes don't boil water to create tsunamis. However, violent volcanic explosions can displace water suddenly, creating tsunamis. But most tsunamis come from underwater earthquakes, not volcanic activity. It's the sudden movement of Earth's crust displacing water that creates these waves."
+      ],
+      "explanations_zh": [
+        "错误。风产生常规海浪，而不是海啸。海啸不同 - 它们由大量水的突然位移引起，通常来自海底地震。风驱动的波浪只影响表面；海啸涉及整个水柱。",
+        "正确！海啸由海底的突然垂直位移触发，通常来自俯冲带的海底地震。当地壳板块突然移动时，它们推动或拉动大量水。这种能量以喷气速度（高达800公里/小时）在海洋中传播波浪！海底滑坡和火山喷发也可以引起海啸。波浪高度在浅海水域急剧增加。",
+        "错误。月球引力产生潮汐 - 在6小时内缓慢、可预测的涨落。海啸是由地质事件如海底地震或滑坡触发的突然灾难性波浪。它们是完全不同的现象。",
+        "错误。海底火山不会煮沸水产生海啸。然而，猛烈的火山爆发可以突然移动水，产生海啸。但大多数海啸来自海底地震，而不是火山活动。是地壳的突然运动移动水产生这些波浪。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_011",
+      "question_en": "Why is underground water cold?",
+      "question_zh": "为什么地下水是冷的？",
+      "choices_en": [
+        "Ice melts underground",
+        "Earth insulates from surface heat",
+        "Rocks cool the water",
+        "Lack of sunlight makes it cold"
+      ],
+      "choices_zh": [
+        "地下冰融化",
+        "地球隔绝地表热量",
+        "岩石冷却水",
+        "缺少阳光使其冷"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Ice melting would provide cold water temporarily, but there's no ice underground in most regions. Underground water temperature is stable and determined by depth and local geothermal conditions, insulated from surface temperature changes.",
+        "Correct! Underground water maintains a relatively constant temperature close to the average annual surface temperature of that location (usually 10-15°C). The earth acts as insulation, protecting groundwater from daily and seasonal temperature swings. This is why caves feel cool in summer and warm in winter! However, water gets warmer deeper down due to geothermal heat from Earth's interior.",
+        "Wrong. Rocks don't actively cool water. Rocks act as insulators, maintaining water at a stable temperature. The coolness comes from being insulated from surface heat variations. At shallow depths, groundwater temperature reflects the average annual temperature of the region.",
+        "Wrong. Lack of sunlight doesn't directly make water cold - it just means no direct heating. Underground water is cool because earth insulates it from surface temperature changes. The stable temperature is close to the annual average surface temperature. Deep underground, water actually gets warmer from geothermal heat!"
+      ],
+      "explanations_zh": [
+        "错误。冰融化会暂时提供冷水，但大多数地区地下没有冰。地下水温度稳定，由深度和当地地热条件决定，与地表温度变化隔绝。",
+        "正确！地下水保持相对恒定的温度，接近该地区的年平均地表温度（通常为10-15°C）。地球充当绝缘体，保护地下水免受日常和季节性温度波动的影响。这就是为什么洞穴在夏天感觉凉爽，在冬天感觉温暖！然而，由于地球内部的地热，深处的水会变得更温暖。",
+        "错误。岩石不会主动冷却水。岩石充当绝缘体，保持水在稳定温度。凉爽来自与地表热量变化隔绝。在浅层深度，地下水温度反映该地区的年平均温度。",
+        "错误。缺少阳光不会直接使水变冷 - 它只是意味着没有直接加热。地下水凉爽是因为地球使其与地表温度变化隔绝。稳定的温度接近年平均地表温度。深地下，水实际上由于地热而变得更温暖！"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "earth_012",
+      "question_en": "Why do glaciers move?",
+      "question_zh": "为什么冰川会移动？",
+      "choices_en": [
+        "Wind pushes them forward",
+        "Gravity and ice deformation",
+        "Ocean currents pull them",
+        "Earthquakes shake them loose"
+      ],
+      "choices_zh": [
+        "风推动它们",
+        "重力和冰变形",
+        "洋流拉动它们",
+        "地震震松它们"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Wind cannot move glaciers - they're massive ice formations weighing millions of tons. Glaciers move due to gravity and their own weight causing ice to deform and flow, much like a very slow-moving river of ice.",
+        "Correct! Glaciers move through two mechanisms: internal deformation and basal sliding. Under immense pressure from their own weight, ice crystals deform and flow like a very viscous fluid - gravity pulls them downhill. At the base, friction melts some ice, creating a thin water layer that acts as lubricant. Glaciers can move millimeters to meters per day! They've carved valleys and shaped landscapes over thousands of years.",
+        "Wrong. Ocean currents don't pull glaciers. Valley glaciers move downhill due to gravity, while ice sheets spread outward from their centers. When glaciers reach the ocean, they can form icebergs that drift with currents, but the glacier itself moves due to gravity and ice physics.",
+        "Wrong. Earthquakes don't cause glacier movement. Glaciers move continuously and slowly due to gravity and ice deformation under pressure. While earthquakes might trigger ice avalanches on steep glacier faces, they don't cause the fundamental slow flow of glaciers."
+      ],
+      "explanations_zh": [
+        "错误。风不能移动冰川 - 它们是重达数百万吨的巨大冰层。冰川由于重力和自身重量导致冰变形和流动而移动，就像非常缓慢流动的冰河。",
+        "正确！冰川通过两种机制移动：内部变形和基底滑动。在自身重量的巨大压力下，冰晶变形并像非常粘稠的流体一样流动 - 重力将它们拉下坡。在基底，摩擦融化一些冰，产生薄水层作为润滑剂。冰川每天可以移动毫米到米！它们在数千年间雕刻了山谷并塑造了景观。",
+        "错误。洋流不会拉动冰川。山谷冰川由于重力向下移动，而冰盖从其中心向外扩散。当冰川到达海洋时，它们可以形成随洋流漂流的冰山，但冰川本身由于重力和冰物理学而移动。",
+        "错误。地震不会引起冰川运动。冰川由于重力和压力下的冰变形而持续缓慢移动。虽然地震可能触发陡峭冰川面上的冰雪崩，但它们不会引起冰川的基本缓慢流动。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "earth_013",
+      "question_en": "Why do deserts exist?",
+      "question_zh": "为什么会有沙漠？",
+      "choices_en": [
+        "Sand naturally accumulates there",
+        "Low rainfall due to air patterns",
+        "Sun evaporates all water",
+        "No plants grow there"
+      ],
+      "choices_zh": [
+        "沙子自然积累",
+        "气流模式导致少雨",
+        "太阳蒸发所有水",
+        "没有植物生长"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Sand is a result of deserts, not the cause. Deserts exist due to lack of rainfall, which is caused by atmospheric circulation patterns and geographical factors. Not all deserts are sandy - some are rocky or ice (Antarctica is a desert!).",
+        "Correct! Most deserts form due to atmospheric circulation. At the equator, hot air rises and releases moisture as rain (tropical forests). This dry air moves toward 30° latitude, sinks, and warms - the sinking air prevents clouds and rain. This creates subtropical deserts like the Sahara! Rain shadow deserts form when mountains block moisture. Cold ocean currents and distance from water also create deserts.",
+        "Wrong. While the sun does cause evaporation, this alone doesn't create deserts. The fundamental cause is lack of rainfall due to atmospheric circulation patterns, geographical barriers, or cold ocean currents. Some deserts like the Atacama receive almost no rain for decades!",
+        "Wrong. Plants don't grow because it's a desert, not the other way around. Deserts exist primarily due to lack of rainfall from atmospheric and geographical factors. The absence of vegetation is a consequence, not a cause. Some plants do survive in deserts by adapting to extreme water scarcity."
+      ],
+      "explanations_zh": [
+        "错误。沙子是沙漠的结果，而不是原因。沙漠存在是因为缺少降雨，这是由大气环流模式和地理因素引起的。并非所有沙漠都是沙质的 - 有些是岩石或冰（南极洲是沙漠！）。",
+        "正确！大多数沙漠由于大气环流形成。在赤道，热空气上升并释放水分作为降雨（热带森林）。这种干空气向30°纬度移动，下沉并变暖 - 下沉空气阻止云和雨。这创造了亚热带沙漠如撒哈拉！雨影沙漠在山脉阻挡水分时形成。寒冷洋流和远离水也创造沙漠。",
+        "错误。虽然太阳确实引起蒸发，但这本身不会创造沙漠。根本原因是由于大气环流模式、地理屏障或寒冷洋流导致缺少降雨。一些沙漠如阿塔卡马几十年几乎没有降雨！",
+        "错误。植物不生长是因为它是沙漠，而不是相反。沙漠主要由于大气和地理因素导致缺少降雨而存在。植被的缺乏是结果，而不是原因。一些植物通过适应极端缺水在沙漠中生存。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "earth_014",
+      "question_en": "Why does earth have different layers?",
+      "question_zh": "为什么地球有不同的层？",
+      "choices_en": [
+        "Layers formed randomly",
+        "Dense materials sank when molten",
+        "Volcanic eruptions created layers",
+        "Asteroids deposited different rocks"
+      ],
+      "choices_zh": [
+        "层随机形成",
+        "密集材料下沉形成",
+        "火山喷发产生层次",
+        "小行星沉积不同岩石"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth's layers didn't form randomly. They formed through differentiation - a systematic process where materials separated by density when Earth was molten. Heavier elements sank to the center while lighter ones rose to the surface.",
+        "Correct! When Earth formed 4.6 billion years ago, it was molten from collision energy. Through 'planetary differentiation', denser materials (iron, nickel) sank to form the core, while lighter silicate rocks floated up to form the mantle and crust. This created distinct layers: inner core, outer core, mantle, and crust. It's like oil floating on water - materials separate by density!",
+        "Wrong. Volcanic eruptions occur because of Earth's layered structure, they didn't create it. The layers formed during Earth's early molten state through density-driven separation. Volcanoes bring material from the mantle to the surface but don't create the fundamental layer structure.",
+        "Wrong. While asteroids added material during Earth's formation, they didn't create the layered structure. The layers formed through differentiation when Earth was molten - denser materials sank to the center, lighter materials rose. Asteroid impacts contributed material but didn't organize the layers."
+      ],
+      "explanations_zh": [
+        "错误。地球的层次不是随机形成的。它们通过分异形成 - 当地球熔融时材料按密度分离的系统过程。较重的元素沉到中心，而较轻的元素上升到表面。",
+        "正确！当地球在46亿年前形成时，由于碰撞能量而熔融。通过'行星分异'，密度较大的材料（铁、镍）下沉形成核心，而较轻的硅酸盐岩石漂浮上升形成地幔和地壳。这创造了不同的层次：内核、外核、地幔和地壳。这就像油漂浮在水上 - 材料按密度分离！",
+        "错误。火山喷发发生是因为地球的分层结构，它们没有创造它。层次在地球早期熔融状态下通过密度驱动的分离形成。火山将材料从地幔带到地表，但不会创造基本的层次结构。",
+        "错误。虽然小行星在地球形成期间增加了材料，但它们没有创造分层结构。层次通过地球熔融时的分异形成 - 密度较大的材料沉到中心，较轻的材料上升。小行星撞击贡献了材料，但没有组织层次。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "earth_015",
+      "question_en": "Why are fossils found in rocks?",
+      "question_zh": "为什么岩石中有化石？",
+      "choices_en": [
+        "Animals hide in rocks",
+        "Organisms buried and mineralized",
+        "Rocks grow around bones",
+        "Earthquakes trap animals"
+      ],
+      "choices_zh": [
+        "动物藏在岩石中",
+        "生物被埋藏矿化",
+        "岩石围绕骨骼生长",
+        "地震困住动物"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Animals don't hide in rocks and become fossils. Fossils form when organisms die and are quickly buried by sediment before they decay. Over millions of years, the surrounding sediment becomes rock while the organism is replaced by minerals.",
+        "Correct! Fossilization occurs when organisms are rapidly buried by sediment (mud, sand) after death, protecting them from decay. Over millions of years, sediment layers compress into sedimentary rock. Meanwhile, minerals gradually replace the organic material, creating a rock copy of the organism. Only a tiny fraction of organisms become fossils - it requires specific conditions! Fossils provide evidence of ancient life.",
+        "Wrong. Rocks don't grow around bones. Fossils form through a process where organisms are buried by sediment, which then turns into sedimentary rock over millions of years through compression. The organic material is replaced by minerals, creating a fossil within the rock.",
+        "Wrong. While sudden burial helps fossilization (volcanic ash, mudslides), earthquakes don't trap animals to create fossils. Fossils form when organisms are buried in sediment that later becomes rock, and minerals gradually replace the organic material over millions of years. It's a slow geological process."
+      ],
+      "explanations_zh": [
+        "错误。动物不会藏在岩石中并成为化石。化石在生物死亡并在腐烂前被沉积物快速掩埋时形成。经过数百万年，周围的沉积物变成岩石，而生物被矿物质替代。",
+        "正确！化石化发生在生物死后迅速被沉积物（泥、沙）掩埋，保护它们免于腐烂。经过数百万年，沉积物层压缩成沉积岩。与此同时，矿物质逐渐替代有机物质，创造生物的岩石副本。只有极少数生物成为化石 - 它需要特定条件！化石提供古代生命的证据。",
+        "错误。岩石不会围绕骨骼生长。化石通过生物被沉积物掩埋的过程形成，然后经过数百万年的压缩变成沉积岩。有机物质被矿物质替代，在岩石内创造化石。",
+        "错误。虽然突然掩埋有助于化石化（火山灰、泥石流），但地震不会困住动物产生化石。化石在生物被沉积物掩埋后形成，沉积物后来变成岩石，矿物质在数百万年内逐渐替代有机物质。这是一个缓慢的地质过程。"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -97,6 +97,454 @@
         "错误。鸡皮疙瘩不涉及皮肤细胞增殖。它们是由毛囊处的微小肌肉收缩使毛发竖起引起的。"
       ],
       "difficulty": "hard"
+    },
+    {
+      "id": "bio_004",
+      "question_en": "Why do we sneeze?",
+      "question_zh": "为什么会打喷嚏？",
+
+      "choices_en": [
+        "To release excess air",
+        "To expel irritants from nose",
+        "To cool down the brain",
+        "To exercise facial muscles"
+      ],
+      "choices_zh": [
+        "释放多余空气",
+        "排出鼻腔刺激物",
+        "冷却大脑",
+        "锻炼面部肌肉"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Sneezing isn't about releasing excess air. It's a protective reflex triggered by the nervous system when irritants are detected in the nasal passages.",
+        "Correct! Sneezing is a powerful reflex that protects your respiratory system. When dust, pollen, or germs irritate your nose, nerve endings send signals to your brain. Your brain triggers a forceful expulsion of air at up to 100 mph to blast out irritants. This automatic defense keeps harmful particles from entering your lungs.",
+        "Wrong. Sneezing doesn't cool the brain. It's a reflex action controlled by the trigeminal nerve to clear irritants from nasal passages and protect the respiratory system.",
+        "Wrong. While facial muscles do contract during sneezing, this isn't the purpose. Sneezing is a protective reflex to expel irritants and pathogens from the nasal cavity."
+      ],
+      "explanations_zh": [
+        "错误。打喷嚏不是为了释放多余空气。它是神经系统在鼻腔检测到刺激物时触发的保护性反射。",
+        "正确！打喷嚏是保护呼吸系统的强大反射。当灰尘、花粉或细菌刺激鼻子时，神经末梢向大脑发送信号。大脑触发强力排气，速度可达每小时160公里，将刺激物喷出。这种自动防御机制防止有害颗粒进入肺部。",
+        "错误。打喷嚏不能冷却大脑。它是由三叉神经控制的反射动作，用于清除鼻腔刺激物并保护呼吸系统。",
+        "错误。虽然打喷嚏时面部肌肉确实会收缩，但这不是目的。打喷嚏是保护性反射，用于排出鼻腔中的刺激物和病原体。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_005",
+      "question_en": "Why do we cry when we're sad?",
+      "question_zh": "为什么伤心时会哭？",
+
+      "choices_en": [
+        "To release stress hormones",
+        "To attract attention",
+        "To lower body temperature",
+        "To clean the eyes"
+      ],
+      "choices_zh": [
+        "释放压力激素",
+        "吸引注意力",
+        "降低体温",
+        "清洁眼睛"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Emotional tears contain stress hormones like cortisol and endorphins. When you cry, your body releases these chemicals, which helps relieve emotional pain. Crying also activates the parasympathetic nervous system, which calms you down. It's a natural way your body processes intense emotions and signals others you need support.",
+        "Wrong. While crying can signal distress to others, the primary biological reason is to release stress hormones and regulate emotions through the limbic system and autonomic nervous system.",
+        "Wrong. Tears don't lower body temperature. Emotional crying releases stress hormones and activates calming responses in the nervous system to help process feelings.",
+        "Wrong. That's the purpose of reflex tears that keep eyes moist. Emotional tears have a different composition containing stress hormones that help regulate emotions."
+      ],
+      "explanations_zh": [
+        "正确！情绪性眼泪含有皮质醇和内啡肽等压力激素。哭泣时，身体释放这些化学物质，有助于缓解情绪痛苦。哭泣还激活副交感神经系统，让你平静下来。这是身体处理强烈情绪的自然方式，也向他人发出需要支持的信号。",
+        "错误。虽然哭泣可以向他人发出痛苦信号，但主要生理原因是通过边缘系统和自主神经系统释放压力激素并调节情绪。",
+        "错误。眼泪不会降低体温。情绪性哭泣释放压力激素并激活神经系统的镇静反应，帮助处理情感。",
+        "错误。那是保持眼睛湿润的反射性眼泪的作用。情绪性眼泪的成分不同，含有帮助调节情绪的压力激素。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_006",
+      "question_en": "Why do we need to sleep?",
+      "question_zh": "为什么需要睡眠？",
+
+      "choices_en": [
+        "To save energy only",
+        "Repair body and consolidate memory",
+        "To avoid predators",
+        "To digest food"
+      ],
+      "choices_zh": [
+        "仅为节省能量",
+        "修复身体巩固记忆",
+        "躲避捕食者",
+        "消化食物"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While sleep does conserve some energy, this isn't the main reason. Sleep is essential for brain function, memory consolidation, cellular repair, and immune system maintenance.",
+        "Correct! Sleep is crucial for survival. During sleep, your brain consolidates memories and removes toxins through the glymphatic system. Your body repairs tissues, builds muscle, and strengthens the immune system. Growth hormone is released, and neurons form new connections. Without adequate sleep, cognitive function, mood, and physical health all deteriorate rapidly.",
+        "Wrong. While this may have been an evolutionary factor, modern humans need sleep primarily for brain maintenance, memory processing, cellular repair, and immune function.",
+        "Wrong. Digestion continues during sleep but isn't the reason we need it. Sleep is essential for brain detoxification, memory consolidation, tissue repair, and immune system function."
+      ],
+      "explanations_zh": [
+        "错误。虽然睡眠确实能节省一些能量，但这不是主要原因。睡眠对大脑功能、记忆巩固、细胞修复和免疫系统维护至关重要。",
+        "正确！睡眠对生存至关重要。睡眠时，大脑巩固记忆并通过类淋巴系统清除毒素。身体修复组织、构建肌肉并增强免疫系统。生长激素释放，神经元形成新连接。缺乏充足睡眠会导致认知功能、情绪和身体健康迅速恶化。",
+        "错误。虽然这可能是进化因素，但现代人需要睡眠主要是为了大脑维护、记忆处理、细胞修复和免疫功能。",
+        "错误。消化在睡眠期间继续进行，但不是我们需要睡眠的原因。睡眠对大脑解毒、记忆巩固、组织修复和免疫系统功能至关重要。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_007",
+      "question_en": "Why do we dream?",
+      "question_zh": "为什么会做梦？",
+
+      "choices_en": [
+        "Process emotions and memories",
+        "To predict the future",
+        "Eyes need practice moving",
+        "Random electrical signals only"
+      ],
+      "choices_zh": [
+        "大脑处理情绪记忆",
+        "预测未来",
+        "眼睛需要练习",
+        "仅随机电信号"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Dreams occur mainly during REM sleep when your brain is highly active. The brain processes emotions, consolidates memories, and makes connections between new and old information. The limbic system handles emotional content while the prefrontal cortex is less active, explaining dreams' illogical nature. Dreams may help solve problems and process experiences.",
+        "Wrong. Dreams don't predict the future. They're your brain processing memories and emotions during REM sleep, creating narratives from neural activity in the limbic system and hippocampus.",
+        "Wrong. While eye movements do occur during REM sleep, dreams serve the deeper purpose of memory consolidation and emotional processing in the brain's limbic system.",
+        "Wrong. Dreams aren't random. They involve organized brain activity in the limbic system and hippocampus that processes memories, emotions, and experiences from your waking life."
+      ],
+      "explanations_zh": [
+        "正确！梦主要发生在快速眼动睡眠期间，此时大脑高度活跃。大脑处理情绪、巩固记忆，并在新旧信息之间建立联系。边缘系统处理情感内容，而前额叶皮层活动减少，这解释了梦的不合逻辑性。梦可能帮助解决问题和处理经历。",
+        "错误。梦不能预测未来。它们是大脑在快速眼动睡眠期间处理记忆和情绪，从边缘系统和海马体的神经活动中创建叙事。",
+        "错误。虽然快速眼动睡眠时确实会有眼球运动，但梦的更深层目的是在大脑边缘系统中进行记忆巩固和情绪处理。",
+        "错误。梦不是随机的。它们涉及边缘系统和海马体中有组织的大脑活动，处理清醒生活中的记忆、情绪和经历。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "bio_008",
+      "question_en": "Why does our stomach growl?",
+      "question_zh": "为什么肚子会叫？",
+
+      "choices_en": [
+        "Air trapped in stomach",
+        "Digestive muscles contracting",
+        "Food fermenting",
+        "Stomach acid bubbling"
+      ],
+      "choices_zh": [
+        "胃里困住空气",
+        "消化肌肉收缩",
+        "食物发酵",
+        "胃酸冒泡"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While gas can contribute to sounds, stomach growling is primarily caused by peristalsis - rhythmic muscle contractions that move food and fluids through the digestive tract.",
+        "Correct! Stomach growling, called borborygmi, happens when digestive muscles contract in waves called peristalsis. These contractions move food, fluids, and air through your intestines. When your stomach is empty, the contractions squeeze mostly air, creating louder rumbling sounds. Hormones like motilin trigger these contractions, especially when you're hungry.",
+        "Wrong. Food fermentation by gut bacteria does produce gas, but stomach growling is caused by peristaltic muscle contractions moving contents through the digestive tract.",
+        "Wrong. Stomach acid doesn't bubble to create growling sounds. The noise comes from peristaltic contractions of smooth muscles squeezing air and fluids through the digestive system."
+      ],
+      "explanations_zh": [
+        "错误。虽然气体会产生一些声音，但肚子叫主要由蠕动引起——节律性肌肉收缩推动食物和液体通过消化道。",
+        "正确！肚子叫，称为肠鸣音，是消化肌肉以蠕动波浪式收缩时产生的。这些收缩推动食物、液体和空气通过肠道。当胃空时，收缩主要挤压空气，产生更响的隆隆声。胃动素等激素触发这些收缩，尤其在饥饿时。",
+        "错误。肠道细菌发酵食物确实会产生气体，但肚子叫是由蠕动性肌肉收缩推动内容物通过消化道引起的。",
+        "错误。胃酸不会冒泡产生咕咕声。声音来自平滑肌的蠕动收缩，将空气和液体挤压通过消化系统。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_009",
+      "question_en": "Why do we get tired after eating?",
+      "question_zh": "为什么饭后会困？",
+
+      "choices_en": [
+        "Blood rushes to stomach",
+        "Hormones and brain chemicals shift",
+        "Body temperature rises",
+        "Too much oxygen used"
+      ],
+      "choices_zh": [
+        "血液涌向胃部",
+        "激素和脑化学变化",
+        "体温升高",
+        "氧气消耗过多"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While digestion increases blood flow to the gut, this doesn't cause post-meal fatigue. The real cause is hormonal changes - insulin, serotonin, and melatonin levels shift after eating.",
+        "Correct! After eating, your body releases insulin to process glucose. This triggers tryptophan to enter the brain, where it converts to serotonin and melatonin - chemicals that promote sleep. Orexin levels also drop. Large meals, especially with carbs, amplify this effect. This is why you feel drowsy after lunch, often called a 'food coma'.",
+        "Wrong. Body temperature does rise slightly during digestion, but post-meal drowsiness is caused by hormonal changes - particularly increased serotonin and melatonin production after insulin release.",
+        "Wrong. Oxygen use doesn't cause post-meal fatigue. Sleepiness comes from hormonal shifts - insulin triggers tryptophan conversion to serotonin and melatonin in the brain."
+      ],
+      "explanations_zh": [
+        "错误。虽然消化确实会增加流向肠道的血液，但这不会引起餐后疲劳。真正原因是激素变化——胰岛素、血清素和褪黑素水平在进食后发生变化。",
+        "正确！进食后，身体释放胰岛素处理葡萄糖。这触发色氨酸进入大脑，在那里转化为血清素和褪黑素——促进睡眠的化学物质。食欲素水平也下降。大餐，尤其是富含碳水化合物的，会放大这种效应。这就是午饭后感到困倦的原因，常被称为食物昏迷。",
+        "错误。消化时体温确实会略微上升，但餐后困倦是由激素变化引起的——特别是胰岛素释放后血清素和褪黑素产生增加。",
+        "错误。氧气消耗不会导致餐后疲劳。困倦来自激素变化——胰岛素触发色氨酸在大脑中转化为血清素和褪黑素。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "bio_010",
+      "question_en": "Why do our eyes blink?",
+      "question_zh": "为什么眼睛会眨？",
+
+      "choices_en": [
+        "To exercise eye muscles",
+        "To spread tears and protect eyes",
+        "To reset vision",
+        "To block bright light"
+      ],
+      "choices_zh": [
+        "锻炼眼部肌肉",
+        "涂抹泪液保护眼",
+        "重置视觉",
+        "阻挡强光"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While eye muscles do move during blinking, this isn't the purpose. Blinking spreads tear film across the cornea to keep eyes moist and flush away debris.",
+        "Correct! Blinking is essential for eye health. Each blink spreads a thin tear film across your cornea, keeping it moist and washing away dust and debris. This tear layer has three parts: mucus, water, and oil. You blink about 15-20 times per minute automatically. The reflex is controlled by the trigeminal nerve and protects against dryness and infection.",
+        "Wrong. Blinking doesn't reset vision. Its purpose is to distribute tears across the cornea for lubrication, remove particles, and maintain the protective tear film layer.",
+        "Wrong. Squinting blocks bright light, not blinking. Blinking's main function is to spread tears across the eye surface for moisture and protection, controlled by the trigeminal nerve."
+      ],
+      "explanations_zh": [
+        "错误。虽然眨眼时眼部肌肉确实会运动，但这不是目的。眨眼将泪膜涂抹在角膜上，保持眼睛湿润并冲走碎屑。",
+        "正确！眨眼对眼睛健康至关重要。每次眨眼都会在角膜上涂抹一层薄薄的泪膜，保持湿润并冲走灰尘和碎屑。这层泪液有三部分：粘液、水和油脂。你每分钟自动眨眼约15-20次。这种反射由三叉神经控制，防止干燥和感染。",
+        "错误。眨眼不会重置视觉。其目的是在角膜上分布泪液以润滑、清除颗粒并维持保护性泪膜层。",
+        "错误。眯眼阻挡强光，而不是眨眼。眨眼的主要功能是在眼球表面涂抹泪液以保湿和保护，由三叉神经控制。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_011",
+      "question_en": "Why does our heart beat faster with exercise?",
+      "question_zh": "为什么运动时心跳加快？",
+
+      "choices_en": [
+        "To cool down the body",
+        "To deliver more oxygen to muscles",
+        "To burn more calories",
+        "To remove sweat faster"
+      ],
+      "choices_zh": [
+        "冷却身体",
+        "向肌肉输送更多氧",
+        "燃烧更多热量",
+        "更快排汗"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While exercise generates heat, heart rate increases primarily to pump oxygen-rich blood to working muscles. Cooling happens through sweating, not faster heartbeat.",
+        "Correct! During exercise, your muscles need more oxygen to produce energy. Your heart beats faster to pump oxygen-rich blood to muscles more quickly. The sympathetic nervous system releases adrenaline, which increases heart rate. Working muscles also produce carbon dioxide that must be removed. Your heart rate can double or triple to meet these demands!",
+        "Wrong. While a faster heart rate during exercise does burn calories, this is a side effect. The primary reason is to deliver oxygen and nutrients to muscles and remove carbon dioxide.",
+        "Wrong. Sweeat is produced by sweat glands, not the heart. Heart rate increases to pump oxygen-rich blood to muscles and remove metabolic waste like carbon dioxide."
+      ],
+      "explanations_zh": [
+        "错误。虽然运动确实产生热量，但心率加快主要是为了将富氧血液泵送到工作中的肌肉。冷却通过出汗而不是更快心跳实现。",
+        "正确！运动时，肌肉需要更多氧气来产生能量。心脏跳动加快，更快地将富氧血液泵送到肌肉。交感神经系统释放肾上腺素，增加心率。工作中的肌肉还产生必须清除的二氧化碳。你的心率可以翻倍甚至三倍来满足这些需求！",
+        "错误。虽然运动时心率加快确实会燃烧卡路里，但这是副作用。主要原因是向肌肉输送氧气和营养物质并清除二氧化碳。",
+        "错误。汗液由汗腺产生，而不是心脏。心率增加是为了将富氧血液泵送到肌肉并清除二氧化碳等代谢废物。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_012",
+      "question_en": "Why do we shiver when cold?",
+      "question_zh": "为什么冷时会发抖？",
+
+      "choices_en": [
+        "To alert others",
+        "Muscles contract to generate heat",
+        "To increase blood flow",
+        "To remove toxins"
+      ],
+      "choices_zh": [
+        "警告他人",
+        "肌肉收缩产生热量",
+        "增加血流",
+        "排除毒素"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Shivering doesn't serve as a warning signal. It's a thermoregulatory reflex where muscles rapidly contract to generate heat when body temperature drops.",
+        "Correct! Shivering is your body's automatic response to cold, controlled by the hypothalamus. When body temperature drops, your brain triggers rapid muscle contractions. These involuntary movements burn energy and generate heat through friction and metabolic activity. Shivering can increase heat production by up to five times, helping maintain your core temperature at 98.6°F (37°C).",
+        "Wrong. While cold does affect blood flow (vessels constrict to preserve core heat), shivering specifically works by rapid muscle contractions that generate heat through metabolic activity.",
+        "Wrong. Shivering has nothing to do with removing toxins. It's a thermoregulatory mechanism where the hypothalamus triggers muscle contractions to generate heat when body temperature drops."
+      ],
+      "explanations_zh": [
+        "错误。发抖不是作为警告信号。它是体温调节反射，当体温下降时肌肉快速收缩产生热量。",
+        "正确！发抖是身体对寒冷的自动反应，由下丘脑控制。当体温下降时，大脑触发快速肌肉收缩。这些非自主运动燃烧能量，通过摩擦和代谢活动产生热量。发抖可以使产热增加多达五倍，帮助维持核心体温在37摄氏度。",
+        "错误。虽然寒冷确实会影响血流（血管收缩以保存核心热量），但发抖专门通过快速肌肉收缩产生热量，通过代谢活动实现。",
+        "错误。发抖与排除毒素无关。它是体温调节机制，下丘脑在体温下降时触发肌肉收缩以产生热量。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_013",
+      "question_en": "Why do we sweat?",
+      "question_zh": "为什么会出汗？",
+
+      "choices_en": [
+        "To remove waste products",
+        "To cool body through evaporation",
+        "To moisturize skin",
+        "To ward off insects"
+      ],
+      "choices_zh": [
+        "排除废物",
+        "通过蒸发冷却身体",
+        "滋润皮肤",
+        "驱赶昆虫"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While sweat does contain small amounts of waste, its primary function isn't excretion. Sweating is a thermoregulatory mechanism that cools the body through evaporation.",
+        "Correct! Sweating is your body's air conditioning system. When body temperature rises from exercise or heat, the hypothalamus activates sweat glands. They release water onto your skin surface. As this water evaporates, it absorbs heat energy from your body, cooling you down. You have 2-4 million sweat glands that can produce up to several liters per hour!",
+        "Wrong. Sweat doesn't moisturize skin - it actually contains salt that can dry it. Sweating's purpose is thermoregulation: cooling the body through evaporation when temperature rises.",
+        "Wrong. Sweat doesn't ward off insects. It's a thermoregulatory mechanism controlled by the hypothalamus where water evaporates from skin to remove heat when body temperature rises."
+      ],
+      "explanations_zh": [
+        "错误。虽然汗液确实含有少量废物，但其主要功能不是排泄。出汗是通过蒸发冷却身体的体温调节机制。",
+        "正确！出汗是身体的空调系统。当运动或高温导致体温升高时，下丘脑激活汗腺。它们将水释放到皮肤表面。当这些水蒸发时，从身体吸收热能，使你冷却下来。你有200-400万个汗腺，每小时可以产生数升汗液！",
+        "错误。汗液不会滋润皮肤——它实际上含有会使皮肤干燥的盐分。出汗的目的是体温调节：当温度升高时通过蒸发冷却身体。",
+        "错误。汗液不能驱赶昆虫。它是由下丘脑控制的体温调节机制，当体温升高时水从皮肤蒸发以去除热量。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "bio_014",
+      "question_en": "Why do we get wrinkles as we age?",
+      "question_zh": "为什么老了会长皱纹？",
+
+      "choices_en": [
+        "Skin cells multiply faster",
+        "Collagen and elastin break down",
+        "Skin absorbs less water",
+        "Blood vessels expand"
+      ],
+      "choices_zh": [
+        "皮肤细胞增殖快",
+        "胶原蛋白弹性蛋白分解",
+        "皮肤吸水减少",
+        "血管扩张"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Skin cell production actually slows with age, not speeds up. Wrinkles form because collagen and elastin proteins that keep skin firm and elastic gradually break down over time.",
+        "Correct! Wrinkles develop as skin loses its structural proteins. Collagen provides firmness while elastin allows skin to stretch and bounce back. With age, fibroblast cells produce less of these proteins, and existing ones break down from UV damage, oxidation, and repeated facial expressions. The skin becomes thinner, drier, and less elastic, forming permanent creases.",
+        "Wrong. While aging skin does become drier, wrinkles specifically result from breakdown of collagen and elastin - structural proteins that maintain skin's firmness and elasticity.",
+        "Wrong. Blood vessel changes affect skin color and circulation, but wrinkles form due to decreased production and breakdown of collagen and elastin proteins in the dermal layer."
+      ],
+      "explanations_zh": [
+        "错误。皮肤细胞生成实际上随年龄减慢而非加快。皱纹形成是因为保持皮肤紧致和弹性的胶原蛋白和弹性蛋白随时间逐渐分解。",
+        "正确！皱纹随着皮肤失去结构蛋白而形成。胶原蛋白提供紧致度，而弹性蛋白使皮肤能够拉伸和回弹。随着年龄增长，成纤维细胞产生的这些蛋白减少，现有蛋白因紫外线损伤、氧化和重复面部表情而分解。皮肤变得更薄、更干、弹性降低，形成永久性皱褶。",
+        "错误。虽然衰老皮肤确实变得更干燥，但皱纹特别是由胶原蛋白和弹性蛋白分解引起的——这些结构蛋白维持皮肤的紧致度和弹性。",
+        "错误。血管变化会影响皮肤颜色和循环，但皱纹形成是由于真皮层中胶原蛋白和弹性蛋白产生减少和分解。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_015",
+      "question_en": "Why do we have fingerprints?",
+      "question_zh": "为什么会有指纹？",
+
+      "choices_en": [
+        "For personal identification",
+        "Improve grip and touch sensitivity",
+        "To regulate temperature",
+        "To protect finger bones"
+      ],
+      "choices_zh": [
+        "用于个人识别",
+        "提高抓握触觉灵敏",
+        "调节温度",
+        "保护指骨"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While fingerprints are unique and used for identification, this isn't why they evolved. Fingerprints enhance grip by channeling away moisture and increase touch sensitivity through dermal papillae.",
+        "Correct! Fingerprints serve two main functions. The ridges increase friction, improving grip on objects by channeling away moisture like tire treads. More importantly, they amplify vibrations from textures you touch. The ridges create pressure variations that stimulate mechanoreceptors in the skin, giving you enhanced tactile sensitivity. They form in the womb as dermal papillae create unique patterns.",
+        "Wrong. Fingerprints don't regulate temperature. They evolved to enhance grip by channeling moisture and improve touch sensitivity by creating dermal ridges that amplify texture vibrations.",
+        "Wrong. Fingerprints don't protect bones. These dermal ridges enhance grip through increased friction and moisture channeling, plus improve touch sensitivity by amplifying vibrations to mechanoreceptors."
+      ],
+      "explanations_zh": [
+        "错误。虽然指纹是独特的且用于识别，但这不是它们进化的原因。指纹通过疏导水分增强抓握力，通过真皮乳头增加触觉灵敏度。",
+        "正确！指纹有两个主要功能。脊纹增加摩擦力，通过像轮胎花纹一样疏导水分来改善对物体的抓握。更重要的是，它们放大你触摸的纹理振动。脊纹产生压力变化，刺激皮肤中的机械感受器，提供增强的触觉灵敏度。它们在子宫中形成，真皮乳头创造独特图案。",
+        "错误。指纹不能调节温度。它们进化是为了通过疏导水分增强抓握力，并通过创建放大纹理振动的真皮脊纹来提高触觉灵敏度。",
+        "错误。指纹不保护骨骼。这些真皮脊纹通过增加摩擦和疏导水分增强抓握力，并通过将振动放大到机械感受器来提高触觉灵敏度。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "bio_016",
+      "question_en": "Why does our hair turn gray?",
+      "question_zh": "为什么头发会变白？",
+
+      "choices_en": [
+        "Lack of vitamins",
+        "Melanocytes stop making pigment",
+        "Hair absorbs less sunlight",
+        "Blood flow to scalp decreases"
+      ],
+      "choices_zh": [
+        "缺乏维生素",
+        "黑色素细胞停止产色素",
+        "头发吸收光线减少",
+        "头皮血流减少"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While severe nutritional deficiencies can affect hair, normal graying is caused by melanocyte cells in hair follicles losing their ability to produce melanin pigment over time.",
+        "Correct! Hair color comes from melanin produced by melanocyte cells in hair follicles. As you age, these cells gradually produce less melanin and eventually stop altogether. The hair grows without pigment, appearing gray or white. This happens due to oxidative stress, hydrogen peroxide buildup, and stem cell depletion in follicles. Genetics determines when this process starts for you.",
+        "Wrong. Hair doesn't get color from absorbing sunlight. Gray hair occurs when melanocyte cells in follicles stop producing melanin pigment due to aging, oxidative stress, and cellular changes.",
+        "Wrong. While scalp circulation may change with age, gray hair specifically results from melanocyte cells losing their ability to produce melanin pigment in the hair follicle."
+      ],
+      "explanations_zh": [
+        "错误。虽然严重营养缺乏会影响头发，但正常变白是由毛囊中的黑色素细胞随时间失去产生黑色素能力引起的。",
+        "正确！头发颜色来自毛囊中黑色素细胞产生的黑色素。随着年龄增长，这些细胞逐渐产生更少黑色素，最终完全停止。头发在没有色素的情况下生长，呈现灰色或白色。这是由氧化应激、过氧化氢积累和毛囊干细胞耗竭引起的。遗传决定这个过程何时开始。",
+        "错误。头发不是通过吸收阳光获得颜色。白发发生在毛囊中的黑色素细胞因衰老、氧化应激和细胞变化而停止产生黑色素时。",
+        "错误。虽然头皮循环可能随年龄变化，但白发特别是由黑色素细胞失去在毛囊中产生黑色素的能力引起的。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "bio_017",
+      "question_en": "Why do we have blood types?",
+      "question_zh": "为什么会有血型？",
+
+      "choices_en": [
+        "To identify family members",
+        "Antigens on red blood cells vary",
+        "Different oxygen capacities",
+        "To fight different diseases"
+      ],
+      "choices_zh": [
+        "识别家庭成员",
+        "红细胞表面抗原不同",
+        "氧气携带能力不同",
+        "对抗不同疾病"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Blood types aren't for identification. They exist because of genetic variations in antigens (protein markers) on red blood cell surfaces. Your immune system produces antibodies against antigens you don't have.",
+        "Correct! Blood types (A, B, AB, O) are determined by antigens - protein markers on red blood cell surfaces. Type A has A antigens, B has B antigens, AB has both, and O has neither. Your immune system makes antibodies against antigens you lack. If incompatible blood is transfused, antibodies attack the foreign cells, causing dangerous clumping. The Rh factor is another antigen system.",
+        "Wrong. All blood types carry oxygen equally well using hemoglobin. Blood types differ because of genetic variations in surface antigens on red blood cells, which trigger immune responses if mixed incorrectly.",
+        "Wrong. While blood type may influence disease susceptibility slightly, types exist due to genetic variations in red blood cell surface antigens. Your immune system makes antibodies against antigens you don't have."
+      ],
+      "explanations_zh": [
+        "错误。血型不是用于识别。它们存在是因为红细胞表面抗原（蛋白质标记）的遗传变异。你的免疫系统对你没有的抗原产生抗体。",
+        "正确！血型（A、B、AB、O）由抗原决定——红细胞表面的蛋白质标记。A型有A抗原，B型有B抗原，AB型两者都有，O型都没有。你的免疫系统对你缺乏的抗原产生抗体。如果输入不相容的血液，抗体会攻击外来细胞，导致危险的凝集。Rh因子是另一个抗原系统。",
+        "错误。所有血型使用血红蛋白携带氧气的能力相同。血型不同是因为红细胞表面抗原的遗传变异，如果错误混合会触发免疫反应。",
+        "错误。虽然血型可能略微影响疾病易感性，但血型存在是由于红细胞表面抗原的遗传变异。你的免疫系统对你没有的抗原产生抗体。"
+      ],
+      "difficulty": "hard"
     }
   ]
 }

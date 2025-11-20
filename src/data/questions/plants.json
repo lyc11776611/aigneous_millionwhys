@@ -97,6 +97,358 @@
         "错误。缺水会导致枯萎和变褐，而非美丽的秋色。秋天颜色来自叶绿素分解显露出其他色素，树木回收养分。"
       ],
       "difficulty": "hard"
+    },
+    {
+      "id": "plant_004",
+      "question_en": "Why do plants need sunlight?",
+      "question_zh": "为什么植物需要阳光？",
+
+      "choices_en": [
+        "To stay warm",
+        "For photosynthesis to make food",
+        "To dry out moisture",
+        "To grow taller"
+      ],
+      "choices_zh": [
+        "保持温暖",
+        "光合作用制造食物",
+        "蒸发水分",
+        "长得更高"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While sunlight provides warmth, plants don't need it primarily for temperature. They need light energy for photosynthesis to create their own food.",
+        "Correct! Plants use sunlight as energy for photosynthesis - a process where they convert carbon dioxide and water into glucose (sugar) and oxygen. This happens in chloroplasts using chlorophyll. Without sunlight, plants can't make food and will eventually die. Light is literally their energy source!",
+        "Wrong. Plants don't use sunlight to dry moisture. In fact, sunlight can increase transpiration (water loss), but the main reason plants need light is for photosynthesis to produce food.",
+        "Wrong. While plants do grow toward light, they don't need sunlight just to grow taller. They need light energy for photosynthesis to create the sugars that fuel all growth processes."
+      ],
+      "explanations_zh": [
+        "错误。虽然阳光提供温暖，但植物主要不是为了温度需要它。它们需要光能进行光合作用来制造食物。",
+        "正确！植物利用阳光作为光合作用的能量——一个将二氧化碳和水转化为葡萄糖（糖）和氧气的过程。这发生在叶绿体中，使用叶绿素。没有阳光，植物无法制造食物，最终会死亡。光就是它们的能量来源！",
+        "错误。植物不用阳光蒸发水分。事实上，阳光会增加蒸腾作用（失水），但植物需要光的主要原因是进行光合作用生产食物。",
+        "错误。虽然植物确实向光生长，但它们不只是为了长得更高才需要阳光。它们需要光能进行光合作用，产生为所有生长过程提供动力的糖。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "plant_005",
+      "question_en": "Why do trees shed leaves in autumn?",
+      "question_zh": "为什么树木秋天落叶？",
+
+      "choices_en": [
+        "Leaves die from cold",
+        "To conserve water and energy",
+        "Make room for new growth",
+        "Wind blows them off"
+      ],
+      "choices_zh": [
+        "叶子冻死了",
+        "保存水分和能量",
+        "为新生长腾空间",
+        "风吹落的"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Trees don't passively lose leaves to cold damage. Leaf drop is an active, controlled process where trees form special cells to cut off leaves and conserve resources for winter.",
+        "Correct! Trees shed leaves as a survival strategy. In winter, frozen ground makes water scarce and leaves would lose too much water through transpiration. By dropping leaves, trees reduce water loss and save energy. They seal off leaves with a special layer, reabsorb nutrients, then let them fall. It's called dormancy!",
+        "Wrong. Trees don't shed leaves to make room for new ones. They drop leaves to survive winter by conserving water and energy when conditions are harsh.",
+        "Wrong. Wind doesn't cause leaf drop - it just helps already-loose leaves fall. Trees actively disconnect leaves by creating an abscission layer that cuts off water and nutrients first."
+      ],
+      "explanations_zh": [
+        "错误。树木不是被动地因寒冷损害而失去叶子。落叶是一个主动的、受控的过程，树木形成特殊细胞来切断叶子并为冬季保存资源。",
+        "正确！树木落叶是一种生存策略。冬天冻土使水稀缺，叶子会通过蒸腾作用损失太多水分。通过落叶，树木减少失水并节省能量。它们用特殊层封闭叶子，重新吸收养分，然后让它们脱落。这叫休眠！",
+        "错误。树木不是为了给新叶腾空间而落叶。它们落叶是为了在严酷条件下通过保存水分和能量来度过冬天。",
+        "错误。风不会导致落叶——它只是帮助已经松动的叶子掉落。树木通过创建脱落层主动断开叶子，首先切断水和养分供应。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_006",
+      "question_en": "Why do cacti store water?",
+      "question_zh": "为什么仙人掌储水？",
+
+      "choices_en": [
+        "Desert survival adaptation",
+        "To stay cool in heat",
+        "Protect from predators",
+        "Support heavy flowers"
+      ],
+      "choices_zh": [
+        "沙漠生存适应",
+        "在高温下保持凉爽",
+        "防御捕食者",
+        "支撑沉重花朵"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Cacti evolved in deserts where rain is rare. They store water in thick, fleshy stems (not leaves - those became spines!). Their accordion-like ribs expand to hold water after rare rains. Waxy coating prevents evaporation. Some cacti can survive a year without rain by using stored water. Perfect desert adaptation!",
+        "Wrong. While stored water helps cacti tolerate heat, the primary reason for water storage is survival during long dry periods. Cacti can't rely on frequent rainfall in deserts.",
+        "Wrong. Cacti's spines (modified leaves) protect from predators, but water storage is for surviving drought. The water-filled tissue is actually attractive to thirsty desert animals!",
+        "Wrong. Cacti don't store water to support flowers. Water storage evolved to survive desert droughts where rain might not come for months or even years."
+      ],
+      "explanations_zh": [
+        "正确！仙人掌在雨水稀少的沙漠中进化。它们在厚实多肉的茎中储水（不是叶子——那些变成刺了！）。它们像手风琴般的棱在罕见的雨后膨胀以容纳水分。蜡质涂层防止蒸发。一些仙人掌靠储存的水可以存活一年不下雨。完美的沙漠适应！",
+        "错误。虽然储存的水帮助仙人掌忍受高温，但储水的主要原因是在长期干旱期间生存。仙人掌不能依赖沙漠中频繁的降雨。",
+        "错误。仙人掌的刺（变形的叶子）防御捕食者，但储水是为了度过干旱。充满水分的组织实际上对口渴的沙漠动物很有吸引力！",
+        "错误。仙人掌储水不是为了支撑花朵。储水进化是为了在可能数月甚至数年不下雨的沙漠干旱中生存。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "plant_007",
+      "question_en": "Why do bamboo grow so fast?",
+      "question_zh": "为什么竹子生长如此快？",
+
+      "choices_en": [
+        "Hollow stems are lightweight",
+        "Pre-formed cells expand rapidly",
+        "Deep roots pull nutrients",
+        "High water absorption rate"
+      ],
+      "choices_zh": [
+        "空心茎轻便",
+        "预制细胞快速扩张",
+        "深根吸取养分",
+        "高吸水率"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While hollow stems help bamboo be lightweight and flexible, they don't explain the growth speed. Bamboo grows fast because cells are already formed underground and just expand.",
+        "Correct! Bamboo's secret is that all cells are created first in underground shoots. When conditions are right, these pre-formed cells just fill with water and expand - like inflating a balloon! Some species grow up to 91cm in 24 hours. Bamboo also has nodes that allow sections to grow simultaneously. Fastest growing plant on Earth!",
+        "Wrong. While bamboo does have extensive underground rhizomes (not deep roots), the fast growth comes from pre-formed cells rapidly expanding with water, not from pulling nutrients quickly.",
+        "Wrong. Though bamboo does absorb water to expand cells, the real reason for speed is that all cells are pre-formed underground and just need to inflate, rather than being created during growth."
+      ],
+      "explanations_zh": [
+        "错误。虽然空心茎帮助竹子轻便灵活，但它们不能解释生长速度。竹子生长快是因为细胞已经在地下形成，只是扩张而已。",
+        "正确！竹子的秘密是所有细胞首先在地下笋中创建。当条件合适时，这些预制细胞只需充满水分并扩张——就像给气球充气！有些品种24小时长91厘米。竹子还有节，允许各段同时生长。地球上生长最快的植物！",
+        "错误。虽然竹子确实有广泛的地下根状茎（不是深根），但快速生长来自预制细胞用水快速扩张，而非快速吸取养分。",
+        "错误。虽然竹子确实吸水扩张细胞，但速度的真正原因是所有细胞都在地下预制，只需充气，而非在生长期间创建。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "plant_008",
+      "question_en": "Why do sunflowers follow the sun?",
+      "question_zh": "为什么向日葵跟随太阳？",
+
+      "choices_en": [
+        "Maximize photosynthesis",
+        "Keep petals warm",
+        "Attract more bees",
+        "Prevent water loss"
+      ],
+      "choices_zh": [
+        "最大化光合作用",
+        "保持花瓣温暖",
+        "吸引更多蜜蜂",
+        "防止失水"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Young sunflowers track the sun from east to west during the day (heliotropism). This maximizes photosynthesis by keeping leaves perpendicular to sunlight. At night, they turn back east to greet the sunrise. The mechanism involves growth hormones: auxin accumulates on the shaded side, causing faster growth there, turning the plant toward light. Mature sunflowers stop and face east!",
+        "Wrong. Sunflowers don't track the sun to warm petals. Young plants follow the sun to maximize light capture for photosynthesis. Interestingly, mature sunflowers stop moving and permanently face east.",
+        "Wrong. While east-facing mature sunflowers do attract more bees in warm morning sun, young sunflowers track the sun specifically to maximize photosynthesis for growth.",
+        "Wrong. Sun tracking isn't about water conservation. Sunflowers follow the sun to capture maximum light for photosynthesis. They use auxin hormones to grow faster on shaded sides, turning toward light."
+      ],
+      "explanations_zh": [
+        "正确！年轻向日葵白天从东向西追踪太阳（向日性）。这通过保持叶子垂直于阳光来最大化光合作用。晚上，它们转回东方迎接日出。机制涉及生长激素：生长素在阴暗面积累，导致那里生长更快，使植物转向光。成熟向日葵停止移动并面向东方！",
+        "错误。向日葵追踪太阳不是为了温暖花瓣。年轻植物跟随太阳是为了最大化光捕获进行光合作用。有趣的是，成熟向日葵停止移动并永久面向东方。",
+        "错误。虽然面向东方的成熟向日葵确实在温暖的早晨阳光下吸引更多蜜蜂，但年轻向日葵追踪太阳专门是为了最大化光合作用促进生长。",
+        "错误。追踪太阳与水分保存无关。向日葵跟随太阳是为了捕获最大光量进行光合作用。它们使用生长素激素在阴暗面生长更快，转向光。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_009",
+      "question_en": "Why do fruits taste sour or sweet?",
+      "question_zh": "为什么水果有酸甜味？",
+
+      "choices_en": [
+        "Random genetic variation",
+        "Ripeness signals for animals",
+        "Temperature affects flavor",
+        "Soil pH determines taste"
+      ],
+      "choices_zh": [
+        "随机基因变异",
+        "成熟度对动物信号",
+        "温度影响味道",
+        "土壤酸碱度决定"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Fruit flavors aren't random. They evolved specifically as signals to animals. Sour unripe fruits say 'not ready,' while sweet ripe fruits say 'eat me and spread my seeds!'",
+        "Correct! Fruits are sweet or sour as communication with animals. Unripe fruits are sour (high acid, low sugar) to discourage eating before seeds mature. Ripe fruits convert acids to sugars, becoming sweet to attract animals. Animals eat sweet fruit, walk away, and deposit seeds in droppings. Evolution's perfect partnership for seed dispersal!",
+        "Wrong. While temperature can affect sugar production in some fruits, the sour-to-sweet transition is primarily about ripeness signaling, not temperature. It's an evolutionary strategy for seed dispersal.",
+        "Wrong. Soil pH doesn't directly determine fruit taste. The sour-to-sweet change happens during ripening as plants convert acids to sugars, signaling animals that seeds are ready for dispersal."
+      ],
+      "explanations_zh": [
+        "错误。水果风味不是随机的。它们专门作为对动物的信号而进化。酸的未熟水果说'还没准备好'，而甜的成熟水果说'吃我并传播我的种子！'",
+        "正确！水果酸甜是与动物的交流。未熟水果是酸的（高酸低糖）以阻止在种子成熟前被吃掉。成熟水果将酸转化为糖，变甜以吸引动物。动物吃甜果，走开，在粪便中沉积种子。进化的完美伙伴关系用于种子传播！",
+        "错误。虽然温度会影响某些水果的糖生产，但酸到甜的转变主要是关于成熟信号，而非温度。这是种子传播的进化策略。",
+        "错误。土壤酸碱度不直接决定水果味道。酸到甜的变化发生在成熟期间，植物将酸转化为糖，向动物发出种子准备好传播的信号。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_010",
+      "question_en": "Why do plants grow towards light?",
+      "question_zh": "为什么植物向光生长？",
+
+      "choices_en": [
+        "Light pulls plants magnetically",
+        "Auxin hormone causes bending",
+        "Light side grows faster",
+        "Roots push from darkness"
+      ],
+      "choices_zh": [
+        "光磁性吸引植物",
+        "生长素激素导致弯曲",
+        "受光侧长得更快",
+        "根从黑暗处推"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Light doesn't pull plants magnetically. Plants grow toward light through a hormone-mediated process where cells on the shaded side elongate, bending the plant toward the light source.",
+        "Correct! This is called phototropism. When light hits one side, auxin (growth hormone) moves to the shaded side. Auxin makes cells elongate faster, so the dark side grows longer, bending the stem toward light. It's the opposite of what you'd expect - the shaded side grows more! This ensures maximum photosynthesis. Discovered by Darwin!",
+        "Wrong. Actually, the opposite is true! The shaded side grows faster due to auxin accumulation, which causes the plant to bend toward light. The light side grows slower, not faster.",
+        "Wrong. Roots don't push plants toward light. The bending is caused by auxin hormone making cells on the shaded side of the stem elongate faster, turning the plant toward light."
+      ],
+      "explanations_zh": [
+        "错误。光不会磁性吸引植物。植物通过激素介导的过程向光生长，阴暗面的细胞伸长，使植物弯向光源。",
+        "正确！这叫向光性。当光照射一侧时，生长素（生长激素）移向阴暗面。生长素使细胞伸长更快，所以暗面长得更长，茎弯向光。这与你预期的相反——阴暗面生长更多！这确保最大光合作用。达尔文发现的！",
+        "错误。实际上，相反才是真的！由于生长素积累，阴暗面生长更快，导致植物弯向光。受光面生长较慢，而非更快。",
+        "错误。根不会把植物推向光。弯曲是由生长素激素使茎阴暗面的细胞伸长更快引起的，使植物转向光。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "plant_011",
+      "question_en": "Why do pine trees stay green in winter?",
+      "question_zh": "为什么松树冬天保持绿色？",
+
+      "choices_en": [
+        "Needles are freeze-resistant",
+        "Produce antifreeze chemicals",
+        "Continue photosynthesis slowly",
+        "Needles have waxy coating"
+      ],
+      "choices_zh": [
+        "针叶抗冻",
+        "产生防冻化学物质",
+        "继续缓慢光合作用",
+        "针叶有蜡质层"
+      ],
+      "correct_answer": 3,
+      "explanations_en": [
+        "Wrong. While needles can resist freezing somewhat, that's not why they stay green. The waxy coating and small surface area of needles prevent water loss, allowing pines to keep them year-round.",
+        "Wrong. Though pines do have some antifreeze-like compounds, the main reason they keep needles is their waxy coating and small surface area reduce water loss dramatically compared to broad leaves.",
+        "Wrong. While evergreens can photosynthesize slowly in winter, they keep green needles primarily because waxy coating and small size prevent water loss, making it efficient to retain them year-round.",
+        "Correct! Pine needles have thick waxy coating and small surface area, which minimizes water loss through transpiration. This makes it efficient to keep them year-round rather than regrow annually. Needle shape, waxy cuticle, and sunken stomata all reduce water loss. In harsh climates where growing season is short, keeping needles saves energy. That's why they're 'evergreen'!"
+      ],
+      "explanations_zh": [
+        "错误。虽然针叶在某种程度上能抵抗冰冻，但这不是它们保持绿色的原因。针叶的蜡质层和小表面积防止失水，使松树能够常年保留它们。",
+        "错误。虽然松树确实有一些类似防冻剂的化合物，但它们保留针叶的主要原因是蜡质层和小表面积与阔叶相比大幅减少失水。",
+        "错误。虽然常绿植物在冬天可以缓慢进行光合作用，但它们保持绿色针叶主要是因为蜡质层和小尺寸防止失水，使全年保留它们变得高效。",
+        "正确！松针有厚蜡质层和小表面积，最大限度减少通过蒸腾作用失水。这使得全年保留它们比每年重新生长更高效。针叶形状、蜡质角质层和下陷气孔都减少失水。在生长季短的严酷气候中，保留针叶节省能量。这就是为什么它们是'常绿'的！"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_012",
+      "question_en": "Why do onions have layers?",
+      "question_zh": "为什么洋葱有层？",
+
+      "choices_en": [
+        "Modified leaves store food",
+        "Protection from insects",
+        "Multiple growth seasons",
+        "Help absorb water"
+      ],
+      "choices_zh": [
+        "变形叶储存食物",
+        "防御昆虫",
+        "多个生长季节",
+        "帮助吸水"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Onion layers are actually modified leaves called 'scales' attached to a short underground stem (bulb). The bulb is a storage organ where the onion saves food (sugars) made during photosynthesis. Each fleshy layer is a scale leaf packed with nutrients. This stored energy helps the onion survive dormancy and quickly grow when conditions improve. Not all onions form bulbs - green onions don't!",
+        "Wrong. Onion layers aren't for insect protection. They're modified leaves that store food (sugars and nutrients) for the plant. The onion bulb is an underground storage organ for surviving unfavorable conditions.",
+        "Wrong. Layers don't represent multiple seasons. Each layer is a modified leaf scale that stores food. The bulb forms in one season as a survival strategy, storing nutrients for dormancy and future growth.",
+        "Wrong. Onion layers don't help absorb water - that's the job of roots below the bulb. Layers are modified leaves that store food produced by the green leaves above ground."
+      ],
+      "explanations_zh": [
+        "正确！洋葱层实际上是附着在短地下茎（鳞茎）上的变形叶，称为'鳞片'。鳞茎是一个储存器官，洋葱在那里保存光合作用制造的食物（糖）。每一肉质层都是充满营养的鳞片叶。这种储存的能量帮助洋葱度过休眠期，并在条件改善时快速生长。不是所有洋葱都形成鳞茎——大葱就不！",
+        "错误。洋葱层不是为了防御昆虫。它们是储存植物食物（糖和营养）的变形叶。洋葱鳞茎是一个地下储存器官，用于在不利条件下生存。",
+        "错误。层不代表多个季节。每层都是储存食物的变形叶鳞片。鳞茎在一个季节形成作为生存策略，储存养分用于休眠和未来生长。",
+        "错误。洋葱层不帮助吸水——那是鳞茎下面根的工作。层是变形叶，储存地上绿叶产生的食物。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "plant_013",
+      "question_en": "Why do seeds need soil?",
+      "question_zh": "为什么种子需要土壤？",
+
+      "choices_en": [
+        "Soil provides nutrients and support",
+        "Seeds can't grow in water",
+        "Protects from sunlight",
+        "Soil activates germination"
+      ],
+      "choices_zh": [
+        "土壤提供养分和支撑",
+        "种子不能在水中生长",
+        "防止阳光照射",
+        "土壤激活发芽"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Seeds need soil for multiple reasons: it provides physical support for roots to anchor, holds moisture for germination, supplies mineral nutrients once the seed's stored food runs out, and offers protection. Soil structure allows air circulation for root respiration. However, seeds don't absolutely need soil - hydroponics proves plants can grow in water with dissolved nutrients. But soil is nature's perfect growing medium!",
+        "Wrong. Seeds can actually germinate and grow without soil! Hydroponic systems grow plants in water with dissolved nutrients. Soil is ideal because it provides support, nutrients, and moisture, but it's not absolutely required.",
+        "Wrong. Seeds don't need soil to protect from sunlight. Many seeds actually need light to germinate. Soil provides physical support, nutrients, and moisture - that's why it's important.",
+        "Wrong. Soil doesn't 'activate' germination - water, oxygen, and suitable temperature do. Soil is important because it provides support, retains moisture, and supplies nutrients, but germination can happen without it (like in wet paper towels)."
+      ],
+      "explanations_zh": [
+        "正确！种子需要土壤有多个原因：它为根提供物理支撑以固定，保持水分用于发芽，在种子储存的食物用完后提供矿物营养，并提供保护。土壤结构允许空气循环供根呼吸。然而，种子并非绝对需要土壤——水培证明植物可以在含有溶解养分的水中生长。但土壤是大自然的完美生长介质！",
+        "错误。种子实际上可以在没有土壤的情况下发芽和生长！水培系统在含有溶解养分的水中种植植物。土壤理想是因为它提供支撑、养分和水分，但不是绝对必需的。",
+        "错误。种子不需要土壤来防止阳光照射。许多种子实际上需要光来发芽。土壤提供物理支撑、养分和水分——这就是为什么它很重要。",
+        "错误。土壤不会'激活'发芽——水、氧气和适宜温度才会。土壤重要是因为它提供支撑、保持水分和供应养分，但发芽可以在没有它的情况下发生（如在湿纸巾中）。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "plant_014",
+      "question_en": "Why do some plants close at night?",
+      "question_zh": "为什么有些植物夜间闭合？",
+
+      "choices_en": [
+        "Nyctinasty conserves energy",
+        "Sleep like animals do",
+        "Hide from nocturnal insects",
+        "Prevent pollen loss"
+      ],
+      "choices_zh": [
+        "感夜性节省能量",
+        "像动物一样睡觉",
+        "躲避夜间昆虫",
+        "防止花粉流失"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! This is called nyctinasty - sleep movements controlled by circadian rhythms. Plants like prayer plants, mimosa, and clover fold leaves at night to conserve energy and water, reduce heat loss, and protect from nighttime cold. Special cells at leaf bases (pulvini) change pressure to move leaves. Some theories suggest it reduces fungal infection risk or prevents predation. It's not true sleep, but rhythmic daily movements!",
+        "Wrong. Plants don't sleep like animals (no brain or nervous system). Nyctinasty is a circadian rhythm response where plants fold leaves to conserve water, reduce heat loss, and protect from cold - not actual sleep.",
+        "Wrong. While closing might incidentally deter some insects, the main purpose of nyctinasty is conserving water and energy, reducing heat loss, and protecting from cold temperatures at night through circadian-controlled movements.",
+        "Wrong. Most plants that close at night are folding leaves, not flowers. Flower closing (different mechanism) does protect pollen, but leaf nyctinasty is about conserving water, energy, and reducing heat loss through circadian rhythms."
+      ],
+      "explanations_zh": [
+        "正确！这叫感夜性——由昼夜节律控制的睡眠运动。像祈祷植物、含羞草和三叶草这样的植物在夜间折叠叶子以节省能量和水分，减少热量损失，并防御夜间寒冷。叶基部的特殊细胞（叶枕）改变压力以移动叶子。一些理论认为它降低真菌感染风险或防止捕食。这不是真正的睡眠，而是有节律的日常运动！",
+        "错误。植物不像动物那样睡觉（没有大脑或神经系统）。感夜性是一种昼夜节律反应，植物折叠叶子以节省水分，减少热量损失，并防御寒冷——不是真正的睡眠。",
+        "错误。虽然闭合可能偶然阻止一些昆虫，但感夜性的主要目的是通过昼夜节律控制的运动来节省水分和能量，减少热量损失，并防御夜间低温。",
+        "错误。大多数夜间闭合的植物是折叠叶子，而非花朵。花朵闭合（不同机制）确实保护花粉，但叶片感夜性是通过昼夜节律节省水分、能量和减少热量损失。"
+      ],
+      "difficulty": "hard"
     }
   ]
 }

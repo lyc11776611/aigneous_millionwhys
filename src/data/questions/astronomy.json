@@ -97,6 +97,454 @@
         "错误。虽然云朵可以通过反射彩色光为日落增添美感，但它们不会产生这些颜色。温暖色调来自大气对阳光的散射。"
       ],
       "difficulty": "easy"
+    },
+    {
+      "id": "astro_004",
+      "question_en": "Why does the Moon appear to change shape?",
+      "question_zh": "为什么月球看起来会变形？",
+
+      "choices_en": [
+        "Earth's shadow falls on it",
+        "We see different lit portions",
+        "The Moon spins irregularly",
+        "Clouds block parts of it"
+      ],
+      "choices_zh": [
+        "地球的影子落在上面",
+        "我们看到不同的受光部分",
+        "月球不规则自转",
+        "云层遮挡了部分月球"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth's shadow only falls on the Moon during a lunar eclipse, which happens rarely. The regular monthly changes in the Moon's appearance are not caused by Earth's shadow.",
+        "Correct! The Moon doesn't change shape - it's always a sphere. As the Moon orbits Earth (taking 29.5 days), we see different portions of its sunlit side. When the Moon is between Earth and Sun, we see mostly the dark side (new moon). When Earth is between them, we see the full sunlit side (full moon). The changing shapes are called phases.",
+        "Wrong. The Moon rotates steadily, taking the same time to rotate as to orbit Earth (27.3 days). Irregular rotation wouldn't create the predictable monthly pattern of phases we observe.",
+        "Wrong. Clouds can temporarily block our view of the Moon, but they don't cause the regular monthly cycle of phases. The Moon's phases occur even on perfectly clear nights and follow a precise 29.5-day schedule."
+      ],
+      "explanations_zh": [
+        "错误。地球的影子只在月食期间落在月球上，这种情况很少发生。月球每月规律性的外观变化不是由地球影子造成的。",
+        "正确！月球本身不会变形——它始终是球体。当月球绕地球公转时（需29.5天），我们看到其受光面的不同部分。当月球在地球和太阳之间时，我们主要看到黑暗面（新月）。当地球在它们之间时，我们看到完全受光的一面（满月）。这些变化的形状叫做月相。",
+        "错误。月球稳定自转，自转周期与公转周期相同（27.3天）。不规则自转不会产生我们观察到的可预测的月相周期。",
+        "错误。云层可能暂时遮挡我们对月球的视线，但不会造成规律的月相周期。即使在完全晴朗的夜晚，月相也会发生，并遵循精确的29.5天周期。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "astro_005",
+      "question_en": "Why can we see the Moon during the day?",
+      "question_zh": "为什么白天也能看到月亮？",
+
+      "choices_en": [
+        "The Moon is very bright",
+        "The Moon orbits Earth, not Sun",
+        "Daytime air is clearer",
+        "The Moon reflects sunlight"
+      ],
+      "choices_zh": [
+        "月亮非常明亮",
+        "月球绕地球而非太阳",
+        "白天空气更清澈",
+        "月球反射阳光"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While the Moon is relatively bright, Venus and Jupiter are also bright but we rarely see them in full daylight. Brightness alone doesn't explain why the Moon is visible during the day.",
+        "Correct! The Moon orbits Earth, not the Sun, so it can be anywhere in its orbit - sometimes on the night side, sometimes the day side. For about half the month, the Moon is in the daytime sky. It's bright enough (reflecting sunlight) to be visible even when the sky is lit up, especially when not too close to the Sun's glare.",
+        "Wrong. Air clarity doesn't determine when the Moon is visible. The Moon's visibility depends on its position in orbit around Earth and whether it's reflecting enough sunlight to be seen against the bright daytime sky.",
+        "Wrong. While the Moon does reflect sunlight (which is why we can see it at all), this doesn't explain why it's sometimes visible during the day. The key is that the Moon's orbit around Earth brings it into the daytime sky regularly."
+      ],
+      "explanations_zh": [
+        "错误。虽然月球相对明亮，但金星和木星也很亮，我们却很少在白天看到它们。仅靠亮度无法解释为什么月球在白天可见。",
+        "正确！月球绕地球公转，而不是绕太阳，所以它可以在轨道上的任何位置——有时在夜侧，有时在昼侧。大约半个月的时间，月球都在白天的天空中。它足够明亮（反射阳光），即使天空被照亮也能看到，特别是不太靠近太阳光芒时。",
+        "错误。空气清澈度不决定月球何时可见。月球的可见性取决于它绕地球轨道上的位置，以及它是否反射足够的阳光能在明亮的白天天空中被看到。",
+        "错误。虽然月球确实反射阳光（这就是我们能看到它的原因），但这不能解释为什么它有时在白天可见。关键是月球绕地球的公转会定期将它带入白天的天空。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_006",
+      "question_en": "Why do we have seasons?",
+      "question_zh": "为什么会有季节？",
+
+      "choices_en": [
+        "Earth's distance from Sun varies",
+        "Earth's axis is tilted",
+        "The Sun's heat output changes",
+        "Earth's speed varies in orbit"
+      ],
+      "choices_zh": [
+        "地球与太阳的距离变化",
+        "地球轴是倾斜的",
+        "太阳的热量输出变化",
+        "地球轨道速度变化"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth's orbit is nearly circular, and distance changes very little. In fact, Earth is closest to the Sun in January (Northern Hemisphere winter) and farthest in July (summer), which is opposite to what this explanation would suggest.",
+        "Correct! Earth's axis is tilted 23.5° from vertical. As Earth orbits the Sun, this tilt means the Northern Hemisphere points toward the Sun in June (summer there) and away in December (winter). When tilted toward the Sun, that hemisphere gets more direct sunlight and longer days, creating summer. The opposite hemisphere experiences winter. This tilt causes seasons.",
+        "Wrong. The Sun's energy output is remarkably constant over short timescales like years. Small variations (about 0.1%) follow an 11-year solar cycle, but this doesn't cause our annual seasons.",
+        "Wrong. While Earth's orbital speed does vary slightly (faster when closer to the Sun), this small variation doesn't cause seasons. The 23.5° axial tilt is responsible for the dramatic seasonal temperature and daylight changes we experience."
+      ],
+      "explanations_zh": [
+        "错误。地球轨道接近圆形，距离变化很小。实际上，地球在1月（北半球冬季）离太阳最近，在7月（夏季）最远，这与此解释相反。",
+        "正确！地球自转轴相对于垂直方向倾斜23.5°。当地球绕太阳公转时，这种倾斜意味着北半球在6月指向太阳（那里是夏季），在12月背向太阳（冬季）。当倾向太阳时，该半球获得更直接的阳光和更长的白天，形成夏季。相反的半球则经历冬季。这种倾斜造成了季节。",
+        "错误。太阳的能量输出在年份这样的短时间尺度上非常稳定。微小的变化（约0.1%）遵循11年的太阳周期，但这不会造成我们的年度季节。",
+        "错误。虽然地球的轨道速度确实略有变化（接近太阳时更快），但这种微小变化不会造成季节。23.5°的轴倾角才是造成我们经历的剧烈季节性温度和日照变化的原因。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_007",
+      "question_en": "Why is space dark if stars are bright?",
+      "question_zh": "为什么星星很亮空间却是黑暗的？",
+
+      "choices_en": [
+        "Stars are too far apart",
+        "Space absorbs light",
+        "There aren't enough stars",
+        "Dark matter blocks light"
+      ],
+      "choices_zh": [
+        "星星之间距离太远",
+        "太空吸收光线",
+        "星星数量不够多",
+        "暗物质阻挡光线"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! This puzzle is called Olbers' Paradox. Although there are billions of stars, they're incredibly far apart. Space is mostly empty vacuum - about 99.9999999999999% empty. Light from stars spreads out in all directions, getting dimmer with distance. Most light from distant stars is too faint to see. Also, the universe has a finite age (13.8 billion years), so we can't see infinitely distant stars. The vast emptiness makes space appear dark.",
+        "Wrong. Space is a near-perfect vacuum and doesn't absorb light significantly. Light can travel billions of light-years through space without being absorbed. If space absorbed light, we wouldn't be able to see distant galaxies at all.",
+        "Wrong. There are hundreds of billions of stars just in our galaxy alone, and billions of galaxies in the observable universe. The number of stars is enormous. The darkness comes from their vast separation and the finite age of the universe, not insufficient quantity.",
+        "Wrong. Dark matter doesn't block or absorb light - it doesn't interact with light at all, which is why it's called 'dark.' Dark matter only interacts through gravity. The darkness of space is due to the vast distances between stars and limited observable universe."
+      ],
+      "explanations_zh": [
+        "正确！这个难题叫做奥伯斯佯谬。虽然有数十亿颗星星，但它们之间的距离极其遥远。太空大部分是空的真空——约99.9999999999999%是空的。来自星星的光向四面八方传播，随着距离增加而变暗。大多数来自遥远星星的光太微弱而无法看到。此外，宇宙有有限的年龄（138亿年），所以我们看不到无限远的星星。巨大的空虚使太空看起来是黑暗的。",
+        "错误。太空是近乎完美的真空，不会显著吸收光线。光可以穿越数十亿光年的太空而不被吸收。如果太空吸收光线，我们根本看不到遥远的星系。",
+        "错误。仅在我们银河系中就有数千亿颗星星，可观测宇宙中有数十亿个星系。星星的数量是巨大的。黑暗来自于它们之间的巨大间隔和宇宙的有限年龄，而不是数量不足。",
+        "错误。暗物质不会阻挡或吸收光——它根本不与光相互作用，这就是为什么它被称为'暗'物质。暗物质只通过引力相互作用。太空的黑暗是由于星星之间的巨大距离和有限的可观测宇宙。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "astro_008",
+      "question_en": "Why don't we feel the Earth spinning?",
+      "question_zh": "为什么我们感觉不到地球自转？",
+
+      "choices_en": [
+        "Earth spins very slowly",
+        "We spin with Earth at same speed",
+        "Gravity holds us in place",
+        "The atmosphere cushions us"
+      ],
+      "choices_zh": [
+        "地球自转很慢",
+        "我们与地球同速旋转",
+        "重力把我们固定住",
+        "大气层缓冲了我们"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth actually spins quite fast - about 1,000 mph (1,600 km/h) at the equator! But speed alone doesn't determine if we feel motion. A smooth, constant speed feels like standing still, which is why we don't notice it.",
+        "Correct! We move with Earth at the same constant speed, so there's no relative motion to feel. It's like being in a smoothly cruising airplane - you don't feel the 500 mph speed because you, the plane, and the air inside all move together. Earth's rotation is so smooth and constant that everything moves together. We only feel changes in speed or direction (acceleration), not constant motion.",
+        "Wrong. While gravity does keep us on Earth's surface, it doesn't prevent us from feeling motion. Gravity pulls us down, but doesn't explain why we don't sense the rotational movement. The key is that we move at the same constant speed as Earth.",
+        "Wrong. The atmosphere rotates with Earth at the same speed we do, but this isn't what prevents us from feeling the spin. We don't feel motion because we're moving at a constant velocity with Earth. If Earth suddenly stopped spinning, we'd definitely feel it!"
+      ],
+      "explanations_zh": [
+        "错误。地球自转其实很快——在赤道约每小时1000英里（1600公里）！但速度本身不决定我们是否感觉到运动。平稳、恒定的速度感觉像静止不动，这就是我们注意不到的原因。",
+        "正确！我们与地球以相同的恒定速度移动，所以没有相对运动可以感觉到。这就像在平稳巡航的飞机上——你感觉不到每小时500英里的速度，因为你、飞机和里面的空气都一起移动。地球的自转非常平稳和恒定，所有东西都一起移动。我们只能感觉到速度或方向的变化（加速度），而不是恒定的运动。",
+        "错误。虽然重力确实让我们留在地球表面，但它不能防止我们感觉到运动。重力把我们拉向下方，但不能解释为什么我们感觉不到旋转运动。关键是我们与地球以相同的恒定速度移动。",
+        "错误。大气层与地球以我们相同的速度旋转，但这不是防止我们感觉到旋转的原因。我们感觉不到运动是因为我们与地球以恒定速度移动。如果地球突然停止旋转，我们肯定会感觉到！"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_009",
+      "question_en": "Why does a year have 365 days?",
+      "question_zh": "为什么一年有365天？",
+
+      "choices_en": [
+        "Earth rotates 365 times yearly",
+        "Time for Earth to orbit the Sun",
+        "Ancient calendars decided this",
+        "The Moon's cycle determines it"
+      ],
+      "choices_zh": [
+        "地球每年自转365次",
+        "地球绕太阳公转的时间",
+        "古代历法决定的",
+        "月球周期决定的"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Earth actually rotates about 366 times during one orbit of the Sun, not 365. We count 365 days because a 'day' is based on the Sun's position in the sky, which is affected by Earth's orbit as well as rotation.",
+        "Correct! A year is defined by how long Earth takes to complete one full orbit around the Sun - approximately 365.25 days. This is determined by Earth's orbital distance (93 million miles) and speed (67,000 mph). We round to 365 days for convenience, adding a leap day every 4 years to account for the extra 0.25 days. This orbital period is a natural astronomical fact, not a human invention.",
+        "Wrong. Ancient calendars attempted to match the natural astronomical year, not define it. The 365-day period was observed in nature - the cycle of seasons repeating - long before humans created calendars to track it.",
+        "Wrong. The Moon's cycle (29.5 days) doesn't determine Earth's year. Some ancient calendars were lunar-based, but Earth's year is determined by its orbit around the Sun. The Moon's orbit around Earth and Earth's orbit around the Sun are independent cycles."
+      ],
+      "explanations_zh": [
+        "错误。在绕太阳公转一周期间，地球实际上自转约366次，而不是365次。我们计数365天是因为'一天'是基于太阳在天空中的位置，这受到地球公转和自转的共同影响。",
+        "正确！一年是由地球绕太阳完成一次完整公转所需的时间定义的——大约365.25天。这由地球的轨道距离（9300万英里）和速度（每小时67000英里）决定。我们为了方便四舍五入到365天，每4年增加一个闰日来补偿额外的0.25天。这个公转周期是自然的天文事实，不是人类发明的。",
+        "错误。古代历法试图匹配自然的天文年，而不是定义它。365天的周期是在自然界中观察到的——季节的循环重复——早在人类创造历法来追踪它之前。",
+        "错误。月球的周期（29.5天）不决定地球的年份。一些古代历法是基于月相的，但地球的年份是由它绕太阳的公转决定的。月球绕地球的公转和地球绕太阳的公转是独立的周期。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "astro_010",
+      "question_en": "Why is Mars called the Red Planet?",
+      "question_zh": "为什么火星被称为红色星球？",
+
+      "choices_en": [
+        "It has red clouds",
+        "Iron oxide covers its surface",
+        "Its atmosphere is red",
+        "It reflects red starlight"
+      ],
+      "choices_zh": [
+        "它有红色云层",
+        "氧化铁覆盖表面",
+        "它的大气层是红色的",
+        "它反射红色星光"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Mars has very few clouds, and what clouds do exist are mostly made of water ice or carbon dioxide ice, which are white, not red. The red color comes from the surface, not the sky.",
+        "Correct! Mars is covered in iron oxide, commonly known as rust. Billions of years ago, iron in Mars' rocks reacted with oxygen and water, creating a rusty dust that covers much of the planet's surface. This reddish-brown dust gives Mars its distinctive red appearance. Strong winds blow this dust around, coating everything and even creating the reddish sky we see in photos from Mars rovers.",
+        "Wrong. Mars' atmosphere is very thin (only 1% of Earth's) and mostly carbon dioxide, which is colorless. The sky can appear reddish due to red dust suspended in the atmosphere, but the atmosphere itself isn't red. The planet's red color comes from iron oxide on the surface.",
+        "Wrong. Planets don't reflect starlight in a way that would change their color - they reflect sunlight. Mars appears red because its surface is covered in iron oxide (rust), which reflects more red wavelengths of sunlight than blue or green ones."
+      ],
+      "explanations_zh": [
+        "错误。火星几乎没有云层，存在的云主要由水冰或二氧化碳冰组成，是白色的，不是红色的。红色来自表面，而不是天空。",
+        "正确！火星被氧化铁覆盖，通常称为铁锈。数十亿年前，火星岩石中的铁与氧气和水发生反应，形成覆盖行星大部分表面的锈尘。这种红褐色的尘埃赋予火星独特的红色外观。强风吹动这些尘埃，覆盖一切，甚至形成了我们在火星探测器照片中看到的微红色天空。",
+        "错误。火星的大气层非常稀薄（只有地球的1%），主要是二氧化碳，是无色的。由于悬浮在大气中的红色尘埃，天空可能呈现微红色，但大气层本身不是红色的。行星的红色来自表面的氧化铁。",
+        "错误。行星不会以改变颜色的方式反射星光——它们反射太阳光。火星看起来是红色的，因为它的表面覆盖着氧化铁（铁锈），比蓝色或绿色更多地反射红色波长的阳光。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "astro_011",
+      "question_en": "Why do eclipses happen?",
+      "question_zh": "为什么会发生日食和月食？",
+
+      "choices_en": [
+        "Planets align with Earth",
+        "Moon blocks or enters shadow",
+        "Sun's light dims periodically",
+        "Earth's rotation causes them"
+      ],
+      "choices_zh": [
+        "行星与地球排成一线",
+        "月球阻挡或进入阴影",
+        "太阳光周期性变暗",
+        "地球自转导致的"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While planetary alignments occur, they don't cause eclipses visible from Earth. Eclipses involve only the Sun, Moon, and Earth aligning. The planets are too far away to cast shadows that would create eclipses for us.",
+        "Correct! Solar eclipse: Moon passes between Sun and Earth, blocking sunlight and casting a shadow on Earth. This only happens at new moon when all three align. Lunar eclipse: Earth passes between Sun and Moon, and Earth's shadow falls on the Moon. This only happens at full moon. We don't get eclipses every month because the Moon's orbit is tilted 5° to Earth's orbit, so alignment is rare.",
+        "Wrong. The Sun's brightness is remarkably constant. It doesn't dim on a predictable schedule. Eclipses are caused by the Moon blocking the Sun's light (solar eclipse) or Earth's shadow falling on the Moon (lunar eclipse), not by changes in the Sun itself.",
+        "Wrong. Earth's rotation causes day and night but doesn't cause eclipses. Eclipses require the Sun, Moon, and Earth to align in specific ways during the Moon's orbit around Earth. This alignment only happens occasionally, not daily as rotation would suggest."
+      ],
+      "explanations_zh": [
+        "错误。虽然行星确实会排列，但它们不会造成从地球可见的日食或月食。日食月食只涉及太阳、月球和地球的排列。行星太远，无法投射出会为我们造成日食的阴影。",
+        "正确！日食：月球经过太阳和地球之间，阻挡阳光并在地球上投下阴影。这只发生在新月时，当三者排成一线。月食：地球经过太阳和月球之间，地球的影子落在月球上。这只发生在满月时。我们不是每个月都有日食月食，因为月球的轨道相对地球轨道倾斜5°，所以排列很少见。",
+        "错误。太阳的亮度非常稳定。它不会按可预测的时间表变暗。日食是由月球阻挡太阳光（日食）或地球的影子落在月球上（月食）造成的，而不是太阳本身的变化。",
+        "错误。地球自转造成昼夜，但不造成日食月食。日食月食需要太阳、月球和地球在月球绕地球公转期间以特定方式排列。这种排列只是偶尔发生，而不是像自转那样每天发生。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_012",
+      "question_en": "Why do planets orbit the Sun?",
+      "question_zh": "为什么行星绕太阳公转？",
+
+      "choices_en": [
+        "Solar wind pushes them around",
+        "Sun's gravity pulls them",
+        "Magnetic forces attract them",
+        "They follow ancient paths"
+      ],
+      "choices_zh": [
+        "太阳风推动它们",
+        "太阳引力拉动它们",
+        "磁力吸引它们",
+        "它们遵循古老的轨道"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Solar wind is a stream of charged particles from the Sun, but it's far too weak to push planets in their orbits. It can affect comets' tails and spacecraft slightly, but gravity is billions of times stronger for controlling planetary motion.",
+        "Correct! The Sun contains 99.8% of our solar system's mass, creating enormous gravitational pull. Planets would fly off in straight lines, but the Sun's gravity constantly pulls them inward. The result is a balance: the planet's forward motion combined with inward gravitational pull creates a curved orbit. The stronger the Sun's gravity and the closer the planet, the faster it must move to maintain orbit. This is why Mercury orbits in 88 days while Neptune takes 165 years.",
+        "Wrong. While the Sun and planets have magnetic fields, these forces are extremely weak compared to gravity. Magnetic forces affect charged particles and some spacecraft, but they don't control planetary orbits. Gravity is the dominant force keeping planets in orbit.",
+        "Wrong. While planets do follow consistent orbital paths, this doesn't explain why they orbit. The 'ancient path' is maintained by the Sun's continuous gravitational pull. If the Sun suddenly disappeared, planets would immediately fly off in straight lines into space, not continue orbiting the empty path."
+      ],
+      "explanations_zh": [
+        "错误。太阳风是来自太阳的带电粒子流，但它太弱，无法推动行星在轨道上运行。它可以轻微影响彗星的尾巴和航天器，但引力在控制行星运动方面强大数十亿倍。",
+        "正确！太阳包含我们太阳系质量的99.8%，产生巨大的引力。行星本应沿直线飞离，但太阳的引力不断将它们向内拉。结果是一种平衡：行星的向前运动结合向内的引力拉动形成弯曲的轨道。太阳引力越强、行星越近，它必须移动得越快才能保持轨道。这就是为什么水星公转88天，而海王星需要165年。",
+        "错误。虽然太阳和行星都有磁场，但这些力与引力相比极其微弱。磁力影响带电粒子和一些航天器，但它们不控制行星轨道。引力是保持行星在轨道上的主导力量。",
+        "错误。虽然行星确实遵循一致的轨道路径，但这不能解释它们为什么公转。这条'古老的路径'是由太阳持续的引力维持的。如果太阳突然消失，行星会立即沿直线飞向太空，而不是继续沿着空路径公转。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_013",
+      "question_en": "Why are there craters on the Moon?",
+      "question_zh": "为什么月球上有陨石坑？",
+
+      "choices_en": [
+        "Ancient volcanoes erupted",
+        "Asteroids and meteors hit it",
+        "The surface collapsed inward",
+        "Moon rocks exploded from heat"
+      ],
+      "choices_zh": [
+        "古代火山爆发",
+        "小行星和流星撞击",
+        "表面向内塌陷",
+        "月球岩石因热爆炸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While the Moon did have some volcanic activity billions of years ago (creating the dark 'maria' or seas), volcanoes don't create the bowl-shaped craters we see. Impact craters and volcanic craters have different shapes. Most lunar craters are impact craters.",
+        "Correct! Over 4 billion years, countless asteroids, meteors, and comets have crashed into the Moon at tremendous speeds (up to 45,000 mph), creating craters. The Moon has no atmosphere to burn up incoming objects and no weather or plate tectonics to erase craters, so they remain for billions of years. Earth gets hit too, but our atmosphere, oceans, and geological activity hide most impact evidence. The Moon is a preserved record of solar system bombardment.",
+        "Wrong. The craters aren't caused by surface collapse or sinkholes. They're impact craters formed by objects from space striking the surface at high velocity. The explosive energy creates the characteristic bowl shape with raised rims and sometimes central peaks.",
+        "Wrong. Moon rocks don't explode from heat. The Moon's temperature varies from -173°C to 127°C, but this doesn't cause explosions. The craters are impact craters from space objects colliding with the Moon over billions of years at extremely high speeds."
+      ],
+      "explanations_zh": [
+        "错误。虽然月球数十亿年前确实有一些火山活动（形成黑暗的'月海'），但火山不会形成我们看到的碗状陨石坑。撞击坑和火山口有不同的形状。大多数月球陨石坑是撞击坑。",
+        "正确！在40多亿年里，无数小行星、流星和彗星以极高的速度（最高每小时45000英里）撞击月球，形成陨石坑。月球没有大气层来烧毁进入的物体，也没有天气或板块构造来消除陨石坑，所以它们能保持数十亿年。地球也被撞击，但我们的大气层、海洋和地质活动掩盖了大部分撞击证据。月球是太阳系轰击历史的保存记录。",
+        "错误。陨石坑不是由表面塌陷或天坑造成的。它们是由来自太空的物体高速撞击表面形成的撞击坑。爆炸能量形成了具有凸起边缘的特征性碗形，有时还有中央峰。",
+        "错误。月球岩石不会因热量而爆炸。月球温度从-173°C到127°C变化，但这不会造成爆炸。陨石坑是来自太空的物体在数十亿年里以极高速度与月球碰撞形成的撞击坑。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "astro_014",
+      "question_en": "Why can't we see stars during the day?",
+      "question_zh": "为什么白天看不到星星？",
+
+      "choices_en": [
+        "Stars turn off during daytime",
+        "Sunlight is too bright",
+        "Stars move to night side",
+        "Atmosphere blocks starlight"
+      ],
+      "choices_zh": [
+        "星星白天会关闭",
+        "阳光太明亮了",
+        "星星移到夜侧",
+        "大气层阻挡星光"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Stars shine constantly, day and night. They're always there in the sky - during both day and night. They don't turn on and off based on whether it's daytime where you are on Earth.",
+        "Correct! Stars are always in the sky, but during the day the Sun is so bright it overwhelms them. The Sun is much closer (93 million miles vs. trillions of miles for other stars), so it appears millions of times brighter. Sunlight scatters in Earth's atmosphere, creating bright blue sky that drowns out the faint starlight. It's like trying to see a candle flame next to a spotlight - the candle is still lit, but you can't see it. At night, without the Sun's glare, stars become visible.",
+        "Wrong. Stars don't move to the night side of Earth. The stars are so far away that Earth's rotation doesn't move us significantly closer or farther from them. The same stars are above us day and night, but we can only see them at night when the Sun isn't overwhelming their light.",
+        "Wrong. The atmosphere doesn't selectively block starlight during the day. In fact, atmospheric scattering of sunlight is what makes the daytime sky bright, which is why we can't see the relatively dim stars. At night, without sunlight to scatter, the atmosphere doesn't prevent us from seeing stars."
+      ],
+      "explanations_zh": [
+        "错误。星星日夜不停地发光。它们一直在天空中——白天和夜晚都在。它们不会根据你所在地球位置是否是白天而开关。",
+        "正确！星星一直在天空中，但白天太阳太亮，压倒了它们。太阳离我们近得多（9300万英里，而其他星星数万亿英里），所以看起来亮数百万倍。阳光在地球大气层中散射，形成明亮的蓝天，淹没了微弱的星光。这就像试图在聚光灯旁边看到蜡烛火焰——蜡烛仍然点着，但你看不到它。夜晚，没有太阳的光芒，星星就变得可见了。",
+        "错误。星星不会移动到地球的夜侧。星星太远了，地球的自转不会使我们显著地更接近或更远离它们。相同的星星日夜都在我们头顶上，但我们只能在夜晚看到它们，当时太阳不会压倒它们的光。",
+        "错误。大气层不会在白天选择性地阻挡星光。事实上，阳光的大气散射使白天的天空明亮，这就是为什么我们看不到相对暗淡的星星。夜晚，没有阳光散射，大气层不会阻止我们看到星星。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "astro_015",
+      "question_en": "Why does the Moon affect ocean tides?",
+      "question_zh": "为什么月球会影响海洋潮汐？",
+
+      "choices_en": [
+        "Moon's light heats the water",
+        "Moon's gravity pulls the water",
+        "Moon creates ocean currents",
+        "Moon's magnetism moves water"
+      ],
+      "choices_zh": [
+        "月光加热海水",
+        "月球引力拉动海水",
+        "月球制造洋流",
+        "月球磁性移动海水"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Moonlight is just reflected sunlight and is very weak - it doesn't heat the ocean significantly. Temperature changes don't cause the regular twice-daily tides we observe. The tides are caused by gravitational forces, not thermal effects.",
+        "Correct! The Moon's gravity pulls on Earth's oceans. The side of Earth facing the Moon experiences stronger pull, creating a bulge of water (high tide). Surprisingly, the opposite side also gets high tide because Earth itself is pulled more than that distant water, leaving it 'behind' in a bulge. As Earth rotates, locations pass through these bulges, experiencing two high tides daily (every 12.4 hours). The Sun also affects tides but less strongly due to greater distance.",
+        "Wrong. While the Moon does cause tidal flows, these are not permanent currents. Tides are the regular rise and fall of ocean water levels due to gravitational pull, occurring predictably every 12.4 hours. Ocean currents are caused by wind, temperature, and Earth's rotation, not the Moon.",
+        "Wrong. The Moon has a very weak magnetic field - far too weak to move ocean water. Water isn't magnetic anyway. The tides are caused by gravitational pull, not magnetism. Gravity affects all matter, including water, creating the bulges we call tides."
+      ],
+      "explanations_zh": [
+        "错误。月光只是反射的阳光，非常微弱——它不会显著加热海洋。温度变化不会造成我们观察到的规律的每日两次潮汐。潮汐由引力造成，而非热效应。",
+        "正确！月球的引力拉动地球的海洋。面向月球的地球一侧受到更强的拉力，形成水的隆起（高潮）。令人惊讶的是，背对的一侧也会出现高潮，因为地球本身比那片遥远的水受到更多拉力，使水'留在后面'形成隆起。当地球自转时，各地经过这些隆起，每天经历两次高潮（每12.4小时）。太阳也影响潮汐，但由于距离更远而影响较小。",
+        "错误。虽然月球确实引起潮汐流动，但这些不是永久性洋流。潮汐是由于引力造成的海洋水位规律性升降，每12.4小时可预测地发生。洋流是由风、温度和地球自转造成的，不是月球。",
+        "错误。月球的磁场非常弱——太弱而无法移动海水。而且水本来就不是磁性的。潮汐由引力造成，不是磁力。引力影响所有物质，包括水，形成我们称为潮汐的隆起。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "astro_016",
+      "question_en": "Why is Venus the hottest planet?",
+      "question_zh": "为什么金星是最热的行星？",
+
+      "choices_en": [
+        "It's closest to the Sun",
+        "Thick CO₂ atmosphere traps heat",
+        "Volcanoes heat the surface",
+        "Its core is extremely hot"
+      ],
+      "choices_zh": [
+        "它离太阳最近",
+        "厚厚的二氧化碳大气层锁热",
+        "火山加热表面",
+        "它的核心极其炽热"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Mercury is actually closest to the Sun, not Venus. Venus is the second planet. Despite being farther from the Sun than Mercury, Venus is hotter (464°C vs. Mercury's 427°C) due to its extreme greenhouse effect.",
+        "Correct! Venus has a runaway greenhouse effect. Its atmosphere is 96% carbon dioxide and 90 times thicker than Earth's - like being 900 meters underwater! Sunlight passes through but heat can't escape. This trapped heat raises surface temperature to 464°C (867°F) - hot enough to melt lead. The thick clouds of sulfuric acid reflect sunlight but also trap heat. Even though Mercury is closer to the Sun, Venus is hotter because of this extreme atmospheric insulation.",
+        "Wrong. While Venus may have some volcanic activity, active volcanoes don't significantly contribute to its extreme surface temperature. The heat comes from solar energy trapped by the thick CO₂ atmosphere (greenhouse effect), not from internal volcanic heat.",
+        "Wrong. All planets have hot cores, but core heat doesn't significantly warm the surface. Venus's extreme 464°C surface temperature is caused by its thick CO₂ atmosphere trapping solar heat (greenhouse effect), not by heat from its interior rising to the surface."
+      ],
+      "explanations_zh": [
+        "错误。水星实际上离太阳最近，不是金星。金星是第二颗行星。尽管比水星离太阳远，金星却更热（464°C对比水星的427°C），这是由于其极端的温室效应。",
+        "正确！金星有失控的温室效应。它的大气层96%是二氧化碳，厚度是地球的90倍——就像在水下900米！阳光可以穿过，但热量无法逃逸。这种被困住的热量使表面温度升至464°C（867°F）——足以熔化铅。厚厚的硫酸云反射阳光，但也锁住热量。尽管水星离太阳更近，金星却因这种极端的大气绝热而更热。",
+        "错误。虽然金星可能有一些火山活动，但活跃的火山对其极端表面温度的贡献不大。热量来自厚厚的二氧化碳大气层困住的太阳能（温室效应），而非内部火山热。",
+        "错误。所有行星都有炽热的核心，但核心热量不会显著加热表面。金星极端的464°C表面温度是由其厚厚的二氧化碳大气层困住太阳热量（温室效应）造成的，而非内部热量上升到表面。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "astro_017",
+      "question_en": "Why do comets have tails?",
+      "question_zh": "为什么彗星有尾巴？",
+
+      "choices_en": [
+        "They move very fast",
+        "Solar wind and heat create them",
+        "They leave debris behind",
+        "Gravity pulls material out"
+      ],
+      "choices_zh": [
+        "它们移动非常快",
+        "太阳风和热量形成尾巴",
+        "它们留下碎片",
+        "引力拉出物质"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While comets do move fast, speed alone doesn't create tails. Asteroids move just as fast but don't have tails. The tail forms from solar radiation and solar wind affecting the comet's ice and dust when near the Sun, not from speed.",
+        "Correct! Comets are 'dirty snowballs' made of ice, dust, and rock. Far from the Sun, they're frozen and tailless. When they approach the Sun, solar heat vaporizes the ice, releasing gas and dust. Solar radiation pushes dust particles away, creating a yellowish dust tail. Solar wind (charged particles) blows gas away, creating a blue ion tail. Both tails always point away from the Sun, not behind the comet's motion. As the comet moves away from the Sun, it freezes again and the tail disappears.",
+        "Wrong. Comets do leave some debris along their orbits (causing meteor showers when Earth passes through), but this scattered debris isn't what we see as the comet's tail. The visible tail is gas and dust actively being blown away from the comet by solar wind and radiation, forming streams that point away from the Sun.",
+        "Wrong. Gravity doesn't pull material out to form tails - gravity would pull material inward, not outward. The tails form because solar radiation pressure and solar wind (stream of charged particles from the Sun) push gas and dust away from the comet, creating tails that point away from the Sun."
+      ],
+      "explanations_zh": [
+        "错误。虽然彗星确实移动很快，但速度本身不会形成尾巴。小行星移动同样快，但没有尾巴。尾巴是在接近太阳时，太阳辐射和太阳风影响彗星的冰和尘埃形成的，而非速度造成。",
+        "正确！彗星是由冰、尘埃和岩石组成的'脏雪球'。在远离太阳时，它们是冻结的，没有尾巴。当接近太阳时，太阳热量使冰蒸发，释放气体和尘埃。太阳辐射推开尘埃粒子，形成黄色的尘埃尾。太阳风（带电粒子）吹走气体，形成蓝色的离子尾。两条尾巴总是背向太阳，而不是彗星运动的后方。当彗星远离太阳时，它再次冻结，尾巴消失。",
+        "错误。彗星确实沿其轨道留下一些碎片（当地球穿过时造成流星雨），但这些分散的碎片不是我们看到的彗星尾巴。可见的尾巴是被太阳风和辐射主动吹离彗星的气体和尘埃，形成背向太阳的流。",
+        "错误。引力不会拉出物质形成尾巴——引力会把物质拉向内部，而非向外。尾巴的形成是因为太阳辐射压力和太阳风（来自太阳的带电粒子流）将气体和尘埃推离彗星，形成背向太阳的尾巴。"
+      ],
+      "difficulty": "medium"
     }
   ]
 }

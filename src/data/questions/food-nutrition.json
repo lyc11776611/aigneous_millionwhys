@@ -1,0 +1,471 @@
+{
+  "category_en": "Food & Nutrition",
+  "category_zh": "食物与营养",
+  "questions": [
+    {
+      "id": "food_001",
+      "question_en": "Why does bread turn brown when toasted?",
+      "question_zh": "为什么面包烤后变褐色？",
+      "choices_en": [
+        "Sugar caramelizes from heat",
+        "Maillard reaction browns it",
+        "Carbon from burning",
+        "Water evaporates showing color"
+      ],
+      "choices_zh": [
+        "糖焦糖化",
+        "美拉德反应变褐",
+        "燃烧产生碳",
+        "水分蒸发显色"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While caramelization can occur, it requires higher temperatures (above 160°C) than typical toasting. The primary browning in toast comes from a different reaction between amino acids and sugars, not just sugar alone.",
+        "Correct! The Maillard reaction is a chemical reaction between amino acids (from proteins) and reducing sugars when heated. This creates hundreds of flavor compounds and brown pigments called melanoidins. It's the same reaction that browns meat, coffee beans, and baked goods. The reaction starts around 140°C, perfect for toasting!",
+        "Wrong. Toast isn't burning - that would make it black and taste burnt. The brown color comes from the Maillard reaction, a complex chemical process that creates new flavor compounds and brown pigments without charring the bread.",
+        "Wrong. While water does evaporate during toasting, this doesn't cause browning. White bread with evaporated water would still be pale. The brown color specifically comes from the Maillard reaction between proteins and sugars creating new brown compounds."
+      ],
+      "explanations_zh": [
+        "错误。虽然焦糖化可能发生，但它需要比典型烘烤更高的温度（160°C以上）。面包片中的主要褐变来自氨基酸和糖之间的不同反应，而不仅仅是糖。",
+        "正确！美拉德反应是氨基酸（来自蛋白质）和还原糖在加热时的化学反应。这产生数百种风味化合物和称为类黑素的褐色色素。这与使肉类、咖啡豆和烘焙食品变褐色的反应相同。反应在约140°C开始，非常适合烘烤！",
+        "错误。面包片不是在燃烧 - 那会使它变黑并尝起来有烧焦味。褐色来自美拉德反应，这是一个复杂的化学过程，产生新的风味化合物和褐色色素，而不会使面包碳化。",
+        "错误。虽然烘烤时水分确实会蒸发，但这不会导致褐变。蒸发水分的白面包仍然是苍白的。褐色特别来自蛋白质和糖之间的美拉德反应产生新的褐色化合物。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_002",
+      "question_en": "Why do we feel thirsty after salty food?",
+      "question_zh": "为什么吃咸后会口渴？",
+      "choices_en": [
+        "Salt absorbs water in mouth",
+        "Osmosis draws water from cells",
+        "Throat becomes irritated",
+        "Salt increases metabolism"
+      ],
+      "choices_zh": [
+        "盐吸收口腔水分",
+        "渗透作用抽出细胞水",
+        "喉咙受刺激",
+        "盐增加代谢"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Salt doesn't absorb water like a sponge. The thirst sensation is more complex and involves your blood's salt concentration and how your cells respond to maintain balance.",
+        "Correct! When you eat salty food, sodium concentration in your blood increases. This creates osmotic pressure - water moves from cells into the blood to dilute the salt. Your hypothalamus detects this cellular dehydration and triggers thirst. Drinking water restores the balance by diluting blood sodium and rehydrating cells!",
+        "Wrong. While salty food might dry your mouth slightly, throat irritation doesn't cause the deep thirst you feel. The thirst comes from your brain detecting changes in blood salt concentration and cellular dehydration, not local throat sensation.",
+        "Wrong. Salt doesn't significantly increase metabolism. The thirst response is specifically about maintaining osmotic balance. Your body needs to dilute the excess sodium in your bloodstream to protect cells from losing too much water through osmosis."
+      ],
+      "explanations_zh": [
+        "错误。盐不像海绵一样吸收水分。口渴感觉更复杂，涉及血液的盐浓度以及细胞如何响应以保持平衡。",
+        "正确！当你吃咸食时，血液中的钠浓度增加。这产生渗透压 - 水从细胞移入血液以稀释盐分。你的下丘脑检测到这种细胞脱水并触发口渴。喝水通过稀释血钠并补充细胞水分来恢复平衡！",
+        "错误。虽然咸食可能会稍微干燥口腔，但喉咙刺激不会引起你感到的深度口渴。口渴来自大脑检测到血液盐浓度变化和细胞脱水，而不是局部喉咙感觉。",
+        "错误。盐不会显著增加代谢。口渴反应特别是关于维持渗透平衡。你的身体需要稀释血液中过多的钠，以保护细胞不因渗透作用失去太多水分。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_003",
+      "question_en": "Why does spicy food make us sweat?",
+      "question_zh": "为什么辣椒让人出汗？",
+      "choices_en": [
+        "Food raises body temperature",
+        "Capsaicin tricks heat receptors",
+        "Metabolism speeds up",
+        "Blood pressure increases"
+      ],
+      "choices_zh": [
+        "食物升高体温",
+        "辣椒素欺骗热受体",
+        "代谢加速",
+        "血压升高"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Spicy food doesn't actually raise your core body temperature significantly. The sweating happens because your brain thinks you're overheating due to chemical signals, not because you actually are.",
+        "Correct! Capsaicin, the compound in chili peppers, binds to TRPV1 receptors in your mouth. These receptors normally detect actual heat (above 43°C). When capsaicin activates them, your brain receives a 'burning' signal even though there's no real heat. Your body responds as if overheating, triggering sweating to cool you down!",
+        "Wrong. While eating does increase metabolism slightly, that's not why spicy food makes you sweat. The sweating is specifically triggered by capsaicin activating heat-sensing receptors, tricking your brain into thinking you need to cool down.",
+        "Wrong. Though capsaicin can cause a slight cardiovascular response, increased blood pressure doesn't directly cause sweating. The sweating is your body's cooling response to capsaicin fooling your temperature-sensing nerves into signaling heat."
+      ],
+      "explanations_zh": [
+        "错误。辣食实际上不会显著升高你的核心体温。出汗是因为你的大脑认为你过热了，这是由于化学信号，而不是因为你真的过热了。",
+        "正确！辣椒素是辣椒中的化合物，它与口腔中的TRPV1受体结合。这些受体通常检测实际热量（43°C以上）。当辣椒素激活它们时，你的大脑接收到'灼烧'信号，即使没有真正的热量。你的身体像过热一样反应，触发出汗来降温！",
+        "错误。虽然进食确实会略微增加代谢，但这不是辣食让你出汗的原因。出汗特别是由辣椒素激活热感受器触发的，欺骗你的大脑认为你需要降温。",
+        "错误。虽然辣椒素可能引起轻微的心血管反应，但血压升高不会直接导致出汗。出汗是你的身体对辣椒素欺骗温度感应神经发出热信号的冷却反应。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_004",
+      "question_en": "Why does coffee keep us awake?",
+      "question_zh": "为什么咖啡提神？",
+      "choices_en": [
+        "Sugar provides energy",
+        "Caffeine blocks sleep signals",
+        "Warmth stimulates brain",
+        "Aroma activates neurons"
+      ],
+      "choices_zh": [
+        "糖分提供能量",
+        "咖啡因阻断睡眠信号",
+        "温度刺激大脑",
+        "香气激活神经元"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Many people drink coffee black without sugar. While sugar provides energy, it's not what keeps you awake. The alertness comes specifically from caffeine's effect on brain receptors, not from calories or sugar.",
+        "Correct! Caffeine's molecular structure mimics adenosine, a neurotransmitter that builds up during the day and makes you sleepy. Caffeine blocks adenosine receptors in the brain, preventing adenosine from binding and signaling tiredness. This keeps you alert! It takes about 30 minutes to peak and 3-5 hours to reduce by half.",
+        "Wrong. You can drink iced coffee and still stay awake. Temperature doesn't affect alertness the way caffeine does. The stimulating effect is purely chemical - caffeine blocking sleep-promoting adenosine receptors in your brain.",
+        "Wrong. While coffee's aroma is pleasant and might provide a psychological boost, the actual alertness comes from caffeine chemically blocking adenosine receptors. You'd get the same effect from a caffeine pill with no aroma."
+      ],
+      "explanations_zh": [
+        "错误。许多人喝黑咖啡不加糖。虽然糖提供能量，但它不是让你保持清醒的原因。警觉性特别来自咖啡因对大脑受体的影响，而不是来自卡路里或糖。",
+        "正确！咖啡因的分子结构模仿腺苷，这是一种在白天积累并使你困倦的神经递质。咖啡因阻断大脑中的腺苷受体，阻止腺苷结合并发出疲劳信号。这使你保持警觉！大约30分钟达到峰值，3-5小时减少一半。",
+        "错误。你可以喝冰咖啡并仍然保持清醒。温度不会像咖啡因那样影响警觉性。刺激效果纯粹是化学的 - 咖啡因阻断大脑中促进睡眠的腺苷受体。",
+        "错误。虽然咖啡的香气令人愉悦，可能提供心理提升，但实际的警觉性来自咖啡因化学地阻断腺苷受体。你从没有香气的咖啡因药片中也能获得同样的效果。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_005",
+      "question_en": "Why does chocolate melt in your mouth?",
+      "question_zh": "为什么巧克力入口即化？",
+      "choices_en": [
+        "Saliva dissolves it quickly",
+        "Melting point near body temp",
+        "Tongue breaks it down",
+        "Chemical reaction with saliva"
+      ],
+      "choices_zh": [
+        "唾液快速溶解",
+        "熔点接近体温",
+        "舌头分解它",
+        "与唾液化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Saliva helps with taste but doesn't dissolve chocolate quickly. Chocolate melts because of temperature, not dissolution. Cocoa butter in chocolate has a specific melting point that causes the physical change from solid to liquid.",
+        "Correct! Chocolate's main fat, cocoa butter, has a melting point of 34-38°C, just below human body temperature (37°C). When chocolate enters your mouth, body heat causes cocoa butter to melt, creating that smooth, creamy sensation. This unique melting property is why chocolate makers carefully control cocoa butter crystallization during tempering!",
+        "Wrong. Your tongue doesn't mechanically break down chocolate - it melts due to heat. You could hold chocolate in your closed mouth without moving your tongue and it would still melt from body temperature alone.",
+        "Wrong. There's no chemical reaction between chocolate and saliva that causes melting. It's purely a physical change - cocoa butter changing from solid to liquid when heated above its melting point by your mouth's warmth."
+      ],
+      "explanations_zh": [
+        "错误。唾液有助于品尝，但不会快速溶解巧克力。巧克力融化是因为温度，而不是溶解。巧克力中的可可脂具有特定的熔点，导致从固体到液体的物理变化。",
+        "正确！巧克力的主要脂肪可可脂的熔点为34-38°C，略低于人体温度（37°C）。当巧克力进入你的嘴时，体温使可可脂融化，产生光滑、奶油般的感觉。这种独特的融化特性是为什么巧克力制造商在调温过程中仔细控制可可脂结晶！",
+        "错误。你的舌头不会机械地分解巧克力 - 它因热而融化。你可以在闭着嘴不动舌头的情况下拿着巧克力，它仍然会因体温而融化。",
+        "错误。巧克力和唾液之间没有导致融化的化学反应。这纯粹是物理变化 - 可可脂在口腔温暖加热超过其熔点时从固体变为液体。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_006",
+      "question_en": "Why do bananas turn black?",
+      "question_zh": "为什么香蕉会变黑？",
+      "choices_en": [
+        "They're rotting from bacteria",
+        "Enzymes oxidize polyphenols",
+        "Sugar caramelizes naturally",
+        "Skin cells die over time"
+      ],
+      "choices_zh": [
+        "细菌腐烂",
+        "酶氧化多酚",
+        "糖自然焦糖化",
+        "表皮细胞死亡"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While bacteria do eventually cause rot, the initial blackening is enzymatic oxidation, not bacterial decay. This happens even in perfectly preserved bananas as they ripen. The black color appears long before actual rot begins.",
+        "Correct! As bananas ripen, cell walls break down releasing polyphenol oxidase enzyme. This enzyme reacts with phenolic compounds and oxygen, creating dark melanin pigments - the same process that browns apples! Ethylene gas produced by the banana accelerates ripening. Cold slows this enzyme activity, which is why refrigerated bananas stay yellow longer (though the skin still darkens).",
+        "Wrong. Caramelization requires heat above 160°C to break down sugars. Bananas blacken at room temperature through enzymatic oxidation. Though bananas do convert starch to sugar as they ripen, this doesn't cause the dark color.",
+        "Wrong. While cells do change during ripening, the blackening is specifically from enzymatic browning. It's polyphenol oxidase enzyme reacting with phenolic compounds in the presence of oxygen, creating melanin pigments, not just cell death."
+      ],
+      "explanations_zh": [
+        "错误。虽然细菌最终确实会导致腐烂，但最初的变黑是酶促氧化，而不是细菌腐烂。即使在完美保存的香蕉成熟时也会发生这种情况。黑色出现在实际腐烂开始之前很久。",
+        "正确！随着香蕉成熟，细胞壁分解释放多酚氧化酶。这种酶与酚类化合物和氧气反应，产生深色黑色素色素 - 与使苹果变褐色的过程相同！香蕉产生的乙烯气体加速成熟。寒冷减缓这种酶活性，这就是为什么冷藏香蕉保持黄色更久（尽管表皮仍然会变暗）。",
+        "错误。焦糖化需要160°C以上的热量来分解糖。香蕉在室温下通过酶促氧化变黑。虽然香蕉在成熟时确实将淀粉转化为糖，但这不会导致深色。",
+        "错误。虽然细胞在成熟过程中确实会发生变化，但变黑特别来自酶促褐变。这是多酚氧化酶在氧气存在下与酚类化合物反应，产生黑色素色素，而不仅仅是细胞死亡。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_007",
+      "question_en": "Why does hot soup make us feel warm?",
+      "question_zh": "为什么热汤让人暖和？",
+      "choices_en": [
+        "Nutrients generate body heat",
+        "Heat transfers to body",
+        "Steam warms respiratory system",
+        "Spices increase circulation"
+      ],
+      "choices_zh": [
+        "营养产生体热",
+        "热量传递给身体",
+        "蒸汽温暖呼吸系统",
+        "香料促进循环"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While digestion does produce heat through metabolism, this is a slow process taking hours. The immediate warming sensation from hot soup comes from direct heat transfer, not from nutrients being metabolized.",
+        "Correct! Hot soup directly transfers thermal energy to your body through conduction and convection. When you swallow, the hot liquid heats your mouth, throat, and stomach. This warmth spreads through blood vessels, sending 'warm' signals to your brain's thermoreceptors. Your blood vessels may dilate, spreading warmth throughout your body. It's simple physics - heat moves from hot soup to cooler body!",
+        "Wrong. While steam might feel nice, the warming effect is mainly from the hot liquid itself. You feel just as warm drinking hot soup without much steam. The heat from the liquid in your digestive tract is what matters.",
+        "Wrong. Not all soups have spices, and they still warm you. While spices like ginger can cause mild vasodilation, the primary warming comes from the soup's temperature directly transferring heat to your body, not from circulatory changes."
+      ],
+      "explanations_zh": [
+        "错误。虽然消化确实通过代谢产生热量，但这是一个需要数小时的缓慢过程。喝热汤的即时温暖感觉来自直接的热传递，而不是来自营养物质的代谢。",
+        "正确！热汤通过传导和对流直接将热能传递给你的身体。当你吞咽时，热液体加热你的口腔、喉咙和胃。这种温暖通过血管扩散，向大脑的温度受体发送'温暖'信号。你的血管可能扩张，将温暖散布到全身。这是简单的物理学 - 热量从热汤移动到较冷的身体！",
+        "错误。虽然蒸汽可能感觉不错，但温暖效果主要来自热液体本身。你喝没有多少蒸汽的热汤也会感到同样温暖。消化道中液体的热量才是关键。",
+        "错误。不是所有汤都有香料，它们仍然让你暖和。虽然像姜这样的香料可能引起轻微的血管舒张，但主要的温暖来自汤的温度直接将热量传递给你的身体，而不是来自循环变化。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_008",
+      "question_en": "Why does milk make bones strong?",
+      "question_zh": "为什么牛奶强健骨骼？",
+      "choices_en": [
+        "Protein builds bone tissue",
+        "Calcium provides structure",
+        "Fat lubricates joints",
+        "Vitamins repair damage"
+      ],
+      "choices_zh": [
+        "蛋白质构建骨组织",
+        "钙提供结构",
+        "脂肪润滑关节",
+        "维生素修复损伤"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While protein is important for bone health, it's not the main reason milk strengthens bones. Milk contains protein, but its bone-strengthening power comes primarily from calcium and vitamin D working together.",
+        "Correct! Milk is rich in calcium, which is essential for bone mineral density. Bones are made of a calcium phosphate mineral called hydroxyapatite. Your body constantly deposits and removes calcium from bones. Adequate dietary calcium ensures strong bone formation, especially during growth. Milk also contains vitamin D, which helps intestines absorb calcium efficiently!",
+        "Wrong. Milk's fat doesn't lubricate joints or strengthen bones. Joint lubrication comes from synovial fluid produced by your body. Bone strength specifically comes from calcium and other minerals, not fat.",
+        "Wrong. While milk does contain some vitamins, and vitamin D helps calcium absorption, the fundamental reason it strengthens bones is the calcium content. Calcium is the primary structural mineral in bone tissue."
+      ],
+      "explanations_zh": [
+        "错误。虽然蛋白质对骨骼健康很重要，但它不是牛奶强化骨骼的主要原因。牛奶含有蛋白质，但其强化骨骼的力量主要来自钙和维生素D共同作用。",
+        "正确！牛奶富含钙，这对骨矿物质密度至关重要。骨骼由称为羟基磷灰石的磷酸钙矿物质制成。你的身体不断从骨骼中沉积和去除钙。充足的饮食钙确保强壮的骨骼形成，特别是在生长期间。牛奶还含有维生素D，有助于肠道有效吸收钙！",
+        "错误。牛奶的脂肪不会润滑关节或强化骨骼。关节润滑来自你身体产生的滑液。骨骼强度特别来自钙和其他矿物质，而不是脂肪。",
+        "错误。虽然牛奶确实含有一些维生素，维生素D有助于钙吸收，但它强化骨骼的根本原因是钙含量。钙是骨组织中的主要结构矿物质。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_009",
+      "question_en": "Why do vegetables lose color when overcooked?",
+      "question_zh": "为什么蔬菜煮久了褪色？",
+      "choices_en": [
+        "Water washes out pigments",
+        "Heat breaks down chlorophyll",
+        "Nutrients evaporate away",
+        "Oxygen bleaches the color"
+      ],
+      "choices_zh": [
+        "水冲走色素",
+        "热量分解叶绿素",
+        "营养蒸发",
+        "氧气漂白颜色"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Water alone doesn't wash out pigments quickly. While some water-soluble nutrients leach into cooking water, color loss is primarily from heat breaking down pigment molecules, especially chlorophyll in green vegetables.",
+        "Correct! Heat breaks down chlorophyll pigments in green vegetables. Chlorophyll contains magnesium at its center. Prolonged heating causes acids in vegetables to replace magnesium with hydrogen, forming pheophytin - an olive-brown compound. This is why overcooked broccoli turns brownish-green. Quick cooking preserves the bright green! Other pigments like carotenoids and anthocyanins also degrade with excessive heat.",
+        "Wrong. Nutrients don't evaporate - some may leach into water, but this isn't what causes color change. The color loss is specifically from heat breaking down pigment molecules like chlorophyll, not nutrient loss.",
+        "Wrong. Oxygen isn't the primary cause of cooking-related color loss. While oxygen can cause browning in cut fruits, the color change in cooked vegetables is mainly from heat degrading chlorophyll and other pigments at the molecular level."
+      ],
+      "explanations_zh": [
+        "错误。水本身不会快速冲走色素。虽然一些水溶性营养物质会渗入烹饪水中，但颜色损失主要来自热量分解色素分子，特别是绿色蔬菜中的叶绿素。",
+        "正确！热量分解绿色蔬菜中的叶绿素色素。叶绿素中心含有镁。长时间加热导致蔬菜中的酸用氢取代镁，形成脱镁叶绿素 - 一种橄榄褐色化合物。这就是为什么煮过头的西兰花变成褐绿色。快速烹饪保持鲜绿色！其他色素如类胡萝卜素和花青素也会因过度加热而降解。",
+        "错误。营养物质不会蒸发 - 有些可能渗入水中，但这不是导致颜色变化的原因。颜色损失特别来自热量分解叶绿素等色素分子，而不是营养损失。",
+        "错误。氧气不是与烹饪相关的颜色损失的主要原因。虽然氧气可能导致切开的水果褐变，但煮熟蔬菜的颜色变化主要来自热量在分子水平上降解叶绿素和其他色素。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_010",
+      "question_en": "Why does protein help build muscles?",
+      "question_zh": "为什么蛋白质帮助长肌肉？",
+      "choices_en": [
+        "Provides energy for workouts",
+        "Amino acids repair muscle fibers",
+        "Increases blood flow",
+        "Burns fat into muscle"
+      ],
+      "choices_zh": [
+        "为锻炼提供能量",
+        "氨基酸修复肌纤维",
+        "增加血流",
+        "把脂肪变成肌肉"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While protein can be used for energy, that's not its primary role in muscle building. Carbohydrates and fats are preferred energy sources. Protein's special role is providing amino acids for tissue repair and growth.",
+        "Correct! Proteins are made of amino acids. During exercise, muscle fibers get microscopic tears. Your body uses amino acids from dietary protein to repair and rebuild these fibers, making them stronger and larger. This process is called muscle protein synthesis. Essential amino acids (especially leucine) trigger this synthesis. That's why athletes need more protein - typically 1.6-2.2g per kg body weight!",
+        "Wrong. While exercise increases blood flow, protein itself doesn't directly increase circulation. Protein helps muscles by providing amino acids needed to repair and build muscle tissue after exercise-induced damage.",
+        "Wrong. This is a common myth - fat cannot turn into muscle. They're completely different tissues. Protein helps build muscle by providing amino acids for muscle protein synthesis. Fat loss and muscle gain are separate processes that can happen simultaneously with proper diet and exercise."
+      ],
+      "explanations_zh": [
+        "错误。虽然蛋白质可以用于能量，但这不是它在肌肉建设中的主要作用。碳水化合物和脂肪是首选的能量来源。蛋白质的特殊作用是为组织修复和生长提供氨基酸。",
+        "正确！蛋白质由氨基酸组成。运动期间，肌纤维产生微小撕裂。你的身体使用饮食蛋白质中的氨基酸来修复和重建这些纤维，使它们更强壮、更大。这个过程称为肌肉蛋白质合成。必需氨基酸（尤其是亮氨酸）触发这种合成。这就是为什么运动员需要更多蛋白质 - 通常每公斤体重1.6-2.2克！",
+        "错误。虽然运动会增加血流，但蛋白质本身不会直接增加循环。蛋白质通过提供运动引起损伤后修复和构建肌肉组织所需的氨基酸来帮助肌肉。",
+        "错误。这是一个常见的误解 - 脂肪不能变成肌肉。它们是完全不同的组织。蛋白质通过为肌肉蛋白质合成提供氨基酸来帮助建立肌肉。脂肪减少和肌肉增长是通过适当的饮食和运动可以同时发生的独立过程。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_011",
+      "question_en": "Why does fiber help digestion?",
+      "question_zh": "为什么纤维帮助消化？",
+      "choices_en": [
+        "Enzymes break it down faster",
+        "Adds bulk and speeds transit",
+        "Kills harmful bacteria",
+        "Absorbs excess stomach acid"
+      ],
+      "choices_zh": [
+        "酶更快分解它",
+        "增加体积加快排泄",
+        "杀死有害细菌",
+        "吸收多余胃酸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Actually, human enzymes cannot break down fiber - that's exactly why it helps digestion! Fiber passes through largely intact, providing bulk. Some gut bacteria can ferment certain fibers, but we don't digest it ourselves.",
+        "Correct! Dietary fiber is plant material our bodies can't digest. Insoluble fiber (from wheat bran, vegetables) adds bulk to stool and speeds intestinal transit, preventing constipation. Soluble fiber (from oats, beans) absorbs water forming gel, slowing digestion and helping you feel full. Fiber also feeds beneficial gut bacteria, which produce healthy short-chain fatty acids!",
+        "Wrong. While fiber does support beneficial gut bacteria which can outcompete harmful ones, fiber itself doesn't kill bacteria. Its main digestive benefit is mechanical - adding bulk and regulating transit time through the intestines.",
+        "Wrong. Fiber doesn't absorb stomach acid. Its benefits are in the intestines - adding bulk to stool, regulating transit time, feeding beneficial bacteria, and helping maintain healthy cholesterol and blood sugar levels."
+      ],
+      "explanations_zh": [
+        "错误。实际上，人类酶不能分解纤维 - 这正是它帮助消化的原因！纤维基本完整地通过，提供体积。一些肠道细菌可以发酵某些纤维，但我们自己不消化它。",
+        "正确！膳食纤维是我们身体无法消化的植物材料。不溶性纤维（来自麦麸、蔬菜）为粪便增加体积并加快肠道转运，防止便秘。可溶性纤维（来自燕麦、豆类）吸收水分形成凝胶，减缓消化并帮助你感到饱。纤维还喂养有益的肠道细菌，它们产生健康的短链脂肪酸！",
+        "错误。虽然纤维确实支持有益肠道细菌，这些细菌可以竞争有害细菌，但纤维本身不会杀死细菌。它的主要消化益处是机械的 - 增加体积并调节通过肠道的转运时间。",
+        "错误。纤维不会吸收胃酸。它的益处在肠道 - 为粪便增加体积，调节转运时间，喂养有益细菌，并帮助维持健康的胆固醇和血糖水平。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_012",
+      "question_en": "Why do citrus fruits taste sour?",
+      "question_zh": "为什么柑橘类水果酸？",
+      "choices_en": [
+        "High vitamin C content",
+        "Citric acid lowers pH",
+        "Unripe fruits lack sugar",
+        "Essential oils are bitter"
+      ],
+      "choices_zh": [
+        "维生素C含量高",
+        "柠檬酸降低pH值",
+        "未熟缺乏糖分",
+        "精油是苦的"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While citrus fruits are high in vitamin C (ascorbic acid), vitamin C contributes only slightly to sourness. The main sour taste comes from citric acid, which is present in much higher concentrations than vitamin C.",
+        "Correct! Citrus fruits contain high levels of citric acid (typically 5-8% in lemons). When you eat them, citric acid molecules release hydrogen ions (H+), lowering pH. Your tongue's sour taste receptors detect these hydrogen ions and signal 'sour' to your brain. Citric acid also acts as a natural preservative and antioxidant. Ripe citrus still tastes sour even with high sugar because acid dominates!",
+        "Wrong. While unripe fruits are more sour due to less sugar, even ripe citrus fruits taste sour because they naturally contain high citric acid levels. The sourness comes from acid, not just lack of sugar. Oranges have both sugar and acid.",
+        "Wrong. Essential oils in citrus peels can taste bitter, not sour. The sour taste of the fruit flesh comes specifically from citric acid. Bitterness and sourness are detected by different taste receptors on your tongue."
+      ],
+      "explanations_zh": [
+        "错误。虽然柑橘类水果维生素C（抗坏血酸）含量高，但维生素C对酸味的贡献很小。主要的酸味来自柠檬酸，其浓度远高于维生素C。",
+        "正确！柑橘类水果含有高水平的柠檬酸（柠檬中通常为5-8%）。当你吃它们时，柠檬酸分子释放氢离子（H+），降低pH值。你舌头上的酸味受体检测这些氢离子并向大脑发出'酸'的信号。柠檬酸还作为天然防腐剂和抗氧化剂。成熟的柑橘即使含糖量高仍然尝起来酸，因为酸占主导！",
+        "错误。虽然未熟水果因糖分较少而更酸，但即使成熟的柑橘类水果也尝起来酸，因为它们天然含有高柠檬酸水平。酸味来自酸，而不仅仅是缺乏糖。橙子既有糖又有酸。",
+        "错误。柑橘皮中的精油可能尝起来苦，而不是酸。果肉的酸味特别来自柠檬酸。苦味和酸味由舌头上的不同味觉受体检测。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "food_013",
+      "question_en": "Why does freezing preserve food?",
+      "question_zh": "为什么冷冻保存食物？",
+      "choices_en": [
+        "Kills all bacteria and germs",
+        "Slows microbial and enzyme activity",
+        "Removes moisture completely",
+        "Creates protective ice coating"
+      ],
+      "choices_zh": [
+        "杀死所有细菌",
+        "减缓微生物和酶活性",
+        "完全去除水分",
+        "形成保护冰层"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Freezing doesn't kill most bacteria - it just makes them dormant. When food thaws, bacteria can become active again. That's why you shouldn't refreeze thawed food - bacteria may have multiplied during thawing.",
+        "Correct! Freezing preserves food by dramatically slowing down two things: microbial growth and enzyme activity. At freezing temperatures, water becomes ice, making it unavailable for chemical reactions and bacterial metabolism. Enzymes that cause food degradation become nearly inactive. Bacteria don't die but can't reproduce or cause spoilage. Below -18°C, food stays safe almost indefinitely, though quality may decline!",
+        "Wrong. Freezing doesn't remove moisture - it converts water to ice crystals. The water is still there, just in solid form. Freeze-drying is different and does remove moisture, but regular freezing preserves by making water unavailable for microbial and enzymatic activity.",
+        "Wrong. While ice does form, the protective effect isn't from a coating. Preservation happens because water freezing into ice makes it unavailable for microbial growth and enzymatic reactions throughout the food, not just on the surface."
+      ],
+      "explanations_zh": [
+        "错误。冷冻不会杀死大多数细菌 - 它只是使它们休眠。当食物解冻时，细菌可以再次变得活跃。这就是为什么你不应该重新冷冻解冻的食物 - 细菌可能在解冻期间繁殖。",
+        "正确！冷冻通过大幅减缓两件事来保存食物：微生物生长和酶活性。在冷冻温度下，水变成冰，使其无法用于化学反应和细菌代谢。导致食物降解的酶几乎不活跃。细菌不会死亡，但无法繁殖或导致变质。低于-18°C，食物几乎无限期保持安全，尽管质量可能下降！",
+        "错误。冷冻不会去除水分 - 它将水转化为冰晶。水仍然在那里，只是以固体形式。冻干是不同的，确实去除水分，但常规冷冻通过使水无法用于微生物和酶活性来保存。",
+        "错误。虽然冰确实形成，但保护作用不是来自涂层。保存发生是因为水冻结成冰使其无法用于整个食物中的微生物生长和酶反应，而不仅仅是在表面。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "food_014",
+      "question_en": "Why do we need vitamins?",
+      "question_zh": "为什么我们需要维生素？",
+      "choices_en": [
+        "They provide energy calories",
+        "Cofactors for enzyme reactions",
+        "Build muscle and bone tissue",
+        "Directly fight infections"
+      ],
+      "choices_zh": [
+        "提供能量卡路里",
+        "酶反应的辅因子",
+        "构建肌肉和骨骼",
+        "直接对抗感染"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Vitamins don't provide energy or calories. Energy comes from macronutrients: carbohydrates (4 cal/g), proteins (4 cal/g), and fats (9 cal/g). Vitamins are needed in tiny amounts to help enzymes function, not for energy.",
+        "Correct! Vitamins are essential micronutrients that act as cofactors or coenzymes for hundreds of enzyme reactions. For example, B vitamins help enzymes convert food to energy, vitamin K enables blood clotting enzymes, vitamin C helps collagen synthesis enzymes. Without these vitamins, critical enzyme reactions can't occur efficiently. Deficiencies cause specific diseases: no vitamin C = scurvy, no vitamin D = rickets!",
+        "Wrong. While some vitamins support bone health (vitamin D helps calcium absorption, vitamin K activates bone proteins), vitamins don't directly build tissue. Proteins, calcium, and phosphorus are structural materials. Vitamins enable the enzymes that build and maintain these structures.",
+        "Wrong. While vitamins like C and D support immune function, they don't directly fight infections like antibodies or white blood cells do. They work indirectly by enabling immune cell production and function through their roles as enzyme cofactors."
+      ],
+      "explanations_zh": [
+        "错误。维生素不提供能量或卡路里。能量来自宏量营养素：碳水化合物（4卡/克）、蛋白质（4卡/克）和脂肪（9卡/克）。维生素需要少量来帮助酶功能，而不是为了能量。",
+        "正确！维生素是作为数百种酶反应的辅因子或辅酶的必需微量营养素。例如，B族维生素帮助酶将食物转化为能量，维生素K使血液凝固酶能够发挥作用，维生素C帮助胶原蛋白合成酶。没有这些维生素，关键的酶反应无法有效发生。缺乏会导致特定疾病：无维生素C = 坏血病，无维生素D = 佝偻病！",
+        "错误。虽然一些维生素支持骨骼健康（维生素D帮助钙吸收，维生素K激活骨蛋白），但维生素不直接构建组织。蛋白质、钙和磷是结构材料。维生素使构建和维护这些结构的酶能够发挥作用。",
+        "错误。虽然维生素C和D等维生素支持免疫功能，但它们不像抗体或白细胞那样直接对抗感染。它们通过作为酶辅因子的角色间接工作，使免疫细胞产生和功能成为可能。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "food_015",
+      "question_en": "Why does breakfast give us energy?",
+      "question_zh": "为什么早餐给我们能量？",
+      "choices_en": [
+        "Vitamins boost metabolism",
+        "Replenishes glucose after fasting",
+        "Protein activates brain",
+        "Wakes up digestive system"
+      ],
+      "choices_zh": [
+        "维生素提升代谢",
+        "禁食后补充葡萄糖",
+        "蛋白质激活大脑",
+        "唤醒消化系统"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While vitamins are important for metabolism, they don't provide energy themselves. The energy boost from breakfast comes from macronutrients (carbohydrates, proteins, fats) being converted to usable energy, particularly glucose for your brain.",
+        "Correct! After sleeping 8+ hours without eating, your blood glucose and glycogen stores are depleted. Your brain uses about 120g of glucose daily and has no storage - it relies on constant blood supply. Breakfast replenishes blood glucose, primarily from carbohydrates. This provides immediate fuel for brain function, physical activity, and cellular metabolism. Without breakfast, you may feel tired and have poor concentration!",
+        "Wrong. While protein is important for sustained energy, it's not what 'activates' the brain. Your brain primarily runs on glucose from carbohydrates. Protein takes longer to digest and is more important for satiety and maintaining steady energy levels.",
+        "Wrong. Your digestive system doesn't 'wake up' - it's always functioning. What breakfast does is provide fuel (glucose) that was depleted during overnight fasting. The energy feeling comes from restoring blood sugar levels, not from awakening digestion."
+      ],
+      "explanations_zh": [
+        "错误。虽然维生素对代谢很重要，但它们本身不提供能量。早餐的能量提升来自宏量营养素（碳水化合物、蛋白质、脂肪）转化为可用能量，特别是大脑的葡萄糖。",
+        "正确！睡眠8小时以上不吃东西后，你的血糖和糖原储备耗尽。你的大脑每天使用约120克葡萄糖，没有储存 - 它依赖于持续的血液供应。早餐补充血糖，主要来自碳水化合物。这为大脑功能、身体活动和细胞代谢提供即时燃料。不吃早餐，你可能会感到疲倦和注意力不集中！",
+        "错误。虽然蛋白质对持续能量很重要，但它不是'激活'大脑的东西。你的大脑主要靠碳水化合物中的葡萄糖运行。蛋白质消化需要更长时间，对饱腹感和维持稳定的能量水平更重要。",
+        "错误。你的消化系统不会'醒来' - 它总是在运作。早餐所做的是提供在隔夜禁食期间耗尽的燃料（葡萄糖）。能量感觉来自恢复血糖水平，而不是从唤醒消化。"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -97,6 +97,486 @@
         "错误。重力永远不会反转——它总是向下拉。球向上弹起是因为压缩的球弹回原形时释放的弹性能量。"
       ],
       "difficulty": "medium"
+    },
+    {
+      "id": "phys_004",
+      "question_en": "Why do mirrors reverse left and right?",
+      "question_zh": "为什么镜子左右颠倒？",
+
+      "choices_en": [
+        "Mirrors flip the light horizontally",
+        "Your brain interprets it that way",
+        "Mirrors reflect front to back",
+        "Glass bends light sideways"
+      ],
+      "choices_zh": [
+        "镜子水平翻转光",
+        "大脑这样解读",
+        "镜子前后反射",
+        "玻璃横向折光"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Mirrors don't flip light horizontally. They reflect light straight back at the same angle. The apparent left-right reversal is actually a front-to-back flip.",
+        "Wrong. While your brain does interpret the reflection, mirrors actually reverse front to back, not left to right. You perceive it as left-right because you imagine yourself turned around.",
+        "Correct! Mirrors don't reverse left-right - they reverse front to back! When you face a mirror, your front becomes the mirror's back. If you raise your right hand, the person in the mirror also raises their right hand (from their perspective). We think it's reversed because we imagine turning around to face the same direction as our reflection.",
+        "Wrong. Glass doesn't bend light sideways in a flat mirror. Mirrors reflect light at equal angles. The reversal is front-to-back, not left-right or due to bending."
+      ],
+      "explanations_zh": [
+        "错误。镜子不会水平翻转光线。它们以相同角度直接反射光。表面上的左右颠倒实际上是前后翻转。",
+        "错误。虽然大脑确实会解读反射，但镜子实际上是前后颠倒，而非左右颠倒。你觉得是左右颠倒，是因为想象自己转身了。",
+        "正确！镜子不是左右颠倒——而是前后颠倒！当你面对镜子时，你的前面变成了镜子的后面。如果你举起右手，镜中的人从他们的角度看也举起了右手。我们认为是颠倒的，是因为想象自己转身与镜像面向同一方向。",
+        "错误。平面镜中的玻璃不会横向折射光。镜子以相等角度反射光。颠倒是前后的，不是左右的，也不是由折射造成的。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "phys_005",
+      "question_en": "Why does sound travel faster in water?",
+      "question_zh": "为什么声音在水中传播更快？",
+
+      "choices_en": [
+        "Water molecules are closer together",
+        "Water amplifies sound waves",
+        "Pressure pushes sound faster",
+        "Water conducts electricity"
+      ],
+      "choices_zh": [
+        "水分子更紧密",
+        "水放大声波",
+        "压力推动更快",
+        "水导电"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Sound travels by molecules bumping into each other. Water molecules are much closer together than air molecules - water is about 800 times denser. When molecules are closer, they transfer vibrations faster. Sound travels at 343 m/s in air but 1,480 m/s in water - over 4 times faster!",
+        "Wrong. Water doesn't amplify sound waves. Sound travels faster in water because molecules are closer together, allowing vibrations to transfer more quickly from one molecule to the next.",
+        "Wrong. While pressure exists in water, that's not why sound travels faster. The key is molecular spacing - water molecules are closer together than air molecules, allowing faster vibration transfer.",
+        "Wrong. Electrical conductivity is unrelated to sound speed. Sound is a mechanical wave that travels through matter by molecular vibrations, not electrical signals."
+      ],
+      "explanations_zh": [
+        "正确！声音通过分子相互碰撞传播。水分子比空气分子紧密得多——水的密度约是空气的800倍。当分子更接近时，它们传递振动更快。声音在空气中速度为343米/秒，在水中为1480米/秒——快4倍多！",
+        "错误。水不会放大声波。声音在水中传播更快是因为分子更紧密，振动可以更快地从一个分子传递到下一个。",
+        "错误。虽然水中存在压力，但这不是声音传播更快的原因。关键是分子间距——水分子比空气分子更接近，允许更快的振动传递。",
+        "错误。电导率与声速无关。声音是机械波，通过物质的分子振动传播，而非电信号。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_006",
+      "question_en": "Why do ice cubes crack in warm water?",
+      "question_zh": "为什么冰块在温水中会裂开？",
+
+      "choices_en": [
+        "Thermal shock from rapid expansion",
+        "Water dissolves the ice surface",
+        "Air bubbles escape violently",
+        "Chemical reaction breaks bonds"
+      ],
+      "choices_zh": [
+        "快速膨胀的热冲击",
+        "水溶解冰表面",
+        "气泡猛烈逃逸",
+        "化学反应破坏键"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! This is called thermal shock. The outside of the ice cube heats and expands quickly while the inside stays cold and contracted. This creates stress between the layers. Like glass in hot water, the ice can't handle the uneven expansion and cracks! The warmer the water, the louder the crack.",
+        "Wrong. Water doesn't dissolve ice by breaking it apart. Ice cracks due to thermal shock - the outside expands from heat while the inside stays cold, creating internal stress.",
+        "Wrong. While ice can contain tiny air bubbles, they don't cause the cracking sound. The crack comes from thermal stress as the outer layer expands faster than the frozen core.",
+        "Wrong. No chemical reaction occurs - it's purely physical. The cracking is from thermal stress when different parts of the ice expand at different rates due to temperature differences."
+      ],
+      "explanations_zh": [
+        "正确！这叫做热冲击。冰块外部迅速加热膨胀，而内部仍保持冷缩状态。这在层与层之间产生应力。就像玻璃杯遇热水，冰块无法承受不均匀膨胀而开裂！水越热，裂声越响。",
+        "错误。水不会通过分解来溶解冰。冰块开裂是热冲击造成的——外部因热而膨胀，内部保持冷缩，产生内应力。",
+        "错误。虽然冰可能含有微小气泡，但它们不会造成裂声。裂纹来自热应力，因为外层比冻结的核心膨胀更快。",
+        "错误。没有化学反应发生——纯粹是物理现象。开裂是由于温度差异导致冰的不同部分以不同速率膨胀产生的热应力。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_007",
+      "question_en": "Why do ships float but stones sink?",
+      "question_zh": "为什么船能浮而石头下沉？",
+
+      "choices_en": [
+        "Ships are made of lighter materials",
+        "Water pressure lifts ships up",
+        "Ships displace more water",
+        "Engines keep ships afloat"
+      ],
+      "choices_zh": [
+        "船用更轻材料制成",
+        "水压将船托起",
+        "船排开更多水",
+        "发动机保持漂浮"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Ships are often made of steel, which is denser than stone! The material doesn't matter - it's the shape. A hollow ship displaces more water than its weight, creating enough buoyant force to float.",
+        "Wrong. Water pressure acts equally in all directions. Ships float because of buoyancy - they displace a volume of water weighing more than the ship itself.",
+        "Correct! This is Archimedes' principle! A ship's hollow shape lets it displace a huge volume of water. If the water displaced weighs more than the ship, it floats. A stone is solid and compact - it can't displace enough water to equal its weight, so it sinks. That's why a steel ship floats but a steel ball sinks!",
+        "Wrong. Engines power the ship but don't make it float. Even without engines, a properly shaped hull floats by displacing water equal to its weight."
+      ],
+      "explanations_zh": [
+        "错误。船通常由钢铁制成，比石头密度更大！材料不重要——关键是形状。空心的船排开的水比自身重量多，产生足够的浮力。",
+        "错误。水压在各个方向上均等作用。船漂浮是因为浮力——它们排开的水的重量超过船本身。",
+        "正确！这是阿基米德原理！船的空心形状让它排开巨大体积的水。如果排开的水重于船，它就会漂浮。石头是实心紧密的——无法排开足够的水来等于其重量，所以下沉。这就是为什么钢船能浮而钢球会沉！",
+        "错误。发动机为船提供动力但不使其漂浮。即使没有发动机，形状合适的船体也能通过排开等于其重量的水而漂浮。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_008",
+      "question_en": "Why does a compass always point north?",
+      "question_zh": "为什么指南针总是指向北方？",
+
+      "choices_en": [
+        "Earth's magnetic field attracts it",
+        "Stars pull the needle northward",
+        "Gravity is stronger at the poles",
+        "Cold air magnetizes the needle"
+      ],
+      "choices_zh": [
+        "地球磁场吸引它",
+        "星星拉针向北",
+        "两极引力更强",
+        "冷空气磁化针"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Earth acts like a giant magnet with a magnetic field running from south to north. A compass needle is a tiny magnet that can spin freely. It aligns with Earth's magnetic field lines, with one end pointing to the magnetic north pole. Interestingly, Earth's magnetic north is near the geographic North Pole but not exactly the same!",
+        "Wrong. Stars don't exert magnetic force on a compass. The needle aligns with Earth's magnetic field, which is generated by molten iron flowing in Earth's outer core.",
+        "Wrong. Gravity pulls downward and is roughly equal everywhere on Earth's surface. A compass works due to magnetism, not gravity. The needle aligns with Earth's magnetic field.",
+        "Wrong. Temperature doesn't magnetize the needle or affect its direction. The needle is already magnetized and responds to Earth's magnetic field, which exists regardless of air temperature."
+      ],
+      "explanations_zh": [
+        "正确！地球就像一个巨大的磁铁，磁场从南向北延伸。指南针的针是一个可以自由旋转的小磁铁。它与地球磁场线对齐，一端指向磁北极。有趣的是，地球的磁北极靠近地理北极，但并不完全相同！",
+        "错误。星星不会对指南针施加磁力。针与地球磁场对齐，磁场由地核外层流动的熔融铁产生。",
+        "错误。重力向下拉，在地球表面各处大致相等。指南针工作靠的是磁性，而非重力。针与地球磁场对齐。",
+        "错误。温度不会磁化针或影响其方向。针已经被磁化，响应地球磁场，磁场的存在与气温无关。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_009",
+      "question_en": "Why do we see lightning before thunder?",
+      "question_zh": "为什么先看到闪电后听到雷声？",
+
+      "choices_en": [
+        "Light travels faster than sound",
+        "Eyes react quicker than ears",
+        "Lightning happens first",
+        "Sound gets absorbed by clouds"
+      ],
+      "choices_zh": [
+        "光速比声速快",
+        "眼睛反应更快",
+        "闪电先发生",
+        "声音被云吸收"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Light travels at 300,000 km/s while sound only travels at 343 m/s in air - light is almost a million times faster! Lightning and thunder happen at the same instant, but light reaches your eyes almost immediately while sound takes time. Count seconds between flash and thunder, divide by 3 - that's roughly how many kilometers away the lightning struck!",
+        "Wrong. Your senses react at similar speeds. The delay is because light travels much faster than sound - about a million times faster! They both start at the same moment from the lightning.",
+        "Wrong. Lightning and thunder happen simultaneously. The lightning creates the thunder by rapidly heating air. You see light first because it travels much faster than sound.",
+        "Wrong. While clouds can slightly muffle sound, that's not why you hear thunder later. Sound travels much slower than light - that's the real reason for the delay."
+      ],
+      "explanations_zh": [
+        "正确！光速为每秒30万公里，而声音在空气中仅每秒343米——光速几乎是声速的一百万倍！闪电和雷声同时发生，但光几乎立即到达你的眼睛，而声音需要时间。数闪光和雷声之间的秒数，除以3——大约就是闪电击中的公里数！",
+        "错误。你的感官反应速度相似。延迟是因为光的传播速度比声音快得多——大约快一百万倍！它们都从闪电处同时开始。",
+        "错误。闪电和雷声同时发生。闪电通过快速加热空气产生雷声。你先看到光是因为它比声音传播快得多。",
+        "错误。虽然云层可以稍微削弱声音，但这不是你后听到雷声的原因。声音比光传播慢得多——这才是延迟的真正原因。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_010",
+      "question_en": "Why does a spinning coin eventually fall?",
+      "question_zh": "为什么旋转的硬币最终会倒下？",
+
+      "choices_en": [
+        "Air resistance slows it down",
+        "Friction removes rotational energy",
+        "Magnetism pulls it down",
+        "Weight increases when spinning"
+      ],
+      "choices_zh": [
+        "空气阻力减速",
+        "摩擦消耗转动能量",
+        "磁力拉倒它",
+        "旋转时变重"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air resistance has a small effect, but friction between the coin and surface is the main cause. As friction steals rotational energy, the coin spins slower, wobbles more, and eventually falls.",
+        "Correct! A spinning coin stays upright due to angular momentum - like a gyroscope. But friction between the coin's edge and the surface gradually removes this rotational energy. As it spins slower, it can't maintain balance and starts wobbling. Eventually, there's not enough spin to keep it upright, and gravity wins - the coin falls flat!",
+        "Wrong. Magnetism doesn't affect most coins' spinning. The coin falls because friction removes its rotational energy, causing it to slow down and lose the gyroscopic stability that kept it upright.",
+        "Wrong. Weight doesn't change when spinning. The coin falls because friction gradually removes its angular momentum. With less spin, it can't maintain the gyroscopic effect that keeps it balanced."
+      ],
+      "explanations_zh": [
+        "错误。空气阻力有小影响，但硬币与表面之间的摩擦力是主要原因。随着摩擦消耗转动能量，硬币转得更慢，摇晃更多，最终倒下。",
+        "正确！旋转的硬币由于角动量保持直立——就像陀螺仪。但硬币边缘与表面之间的摩擦逐渐消耗这种转动能量。当它转得更慢时，无法保持平衡并开始摇晃。最终，没有足够的旋转来保持直立，重力获胜——硬币平倒！",
+        "错误。磁力不影响大多数硬币的旋转。硬币倒下是因为摩擦消耗其转动能量，导致减速并失去保持直立的陀螺稳定性。",
+        "错误。旋转时重量不变。硬币倒下是因为摩擦逐渐消耗其角动量。旋转减少后，无法保持使其平衡的陀螺效应。"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "phys_011",
+      "question_en": "Why do magnets attract iron?",
+      "question_zh": "为什么磁铁能吸引铁？",
+
+      "choices_en": [
+        "Iron contains natural magnetism",
+        "Magnets align iron's domains",
+        "Static electricity pulls them",
+        "Gravity is stronger in metals"
+      ],
+      "choices_zh": [
+        "铁含有天然磁性",
+        "磁铁排列铁的磁畴",
+        "静电拉它们",
+        "金属中引力更强"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Iron isn't naturally magnetic until exposed to a magnet. Iron contains magnetic domains that normally point in random directions, canceling each other out.",
+        "Correct! Iron contains millions of tiny magnetic regions called domains. Normally they point randomly and cancel out. When a magnet comes near, it aligns these domains in the same direction, temporarily magnetizing the iron. The aligned domains create magnetic poles that attract to the magnet. Remove the magnet, and the domains may stay aligned (making iron magnetic) or randomize again!",
+        "Wrong. Magnetism and static electricity are different forces. Magnets work through magnetic fields that align the magnetic domains in iron, not through electrical charge.",
+        "Wrong. Gravity affects all matter equally and is far weaker than magnetism. Magnets attract iron through magnetic force by aligning iron's internal magnetic domains."
+      ],
+      "explanations_zh": [
+        "错误。铁在暴露于磁铁前不是天然磁性的。铁包含磁畴，通常指向随机方向，相互抵消。",
+        "正确！铁包含数百万个称为磁畴的微小磁性区域。通常它们随机指向并相互抵消。当磁铁靠近时，它将这些磁畴排列在同一方向，暂时磁化铁。排列的磁畴产生吸引磁铁的磁极。移走磁铁后，磁畴可能保持排列（使铁具有磁性）或再次随机化！",
+        "错误。磁性和静电是不同的力。磁铁通过磁场排列铁中的磁畴工作，而非通过电荷。",
+        "错误。重力对所有物质的作用相同，且比磁力弱得多。磁铁通过磁力排列铁的内部磁畴来吸引铁。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_012",
+      "question_en": "Why does hot air rise?",
+      "question_zh": "为什么热空气会上升？",
+
+      "choices_en": [
+        "Heat makes air lighter",
+        "Hot air is less dense",
+        "Pressure pushes it upward",
+        "Steam carries air molecules up"
+      ],
+      "choices_zh": [
+        "热使空气更轻",
+        "热空气密度更小",
+        "压力推它向上",
+        "蒸汽带空气向上"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Heat doesn't change air's weight. When air heats up, molecules move faster and spread out, making the air less dense. Less dense air floats above denser cool air.",
+        "Correct! When air heats, molecules move faster and spread apart, taking up more space. This makes hot air less dense than cold air. Since denser fluids sink and less dense fluids rise (like oil on water), hot air floats upward through cooler, denser air. This convection creates wind, makes hot air balloons fly, and circulates heat in your home!",
+        "Wrong. Pressure differences result from density changes, they don't cause hot air to rise. Hot air rises because it's less dense than the surrounding cooler air.",
+        "Wrong. Steam is water vapor, not related to why hot air rises. Hot air rises due to lower density - heated air molecules spread out, making it lighter than the denser cold air below."
+      ],
+      "explanations_zh": [
+        "错误。热不会改变空气的重量。当空气加热时，分子运动更快并分散开，使空气密度降低。密度较低的空气漂浮在密度较大的冷空气之上。",
+        "正确！当空气加热时，分子运动更快并分散开，占据更多空间。这使热空气密度比冷空气小。由于密度大的流体下沉、密度小的流体上升（就像水上的油），热空气通过更冷、更密的空气向上漂浮。这种对流产生风、使热气球飞行、并在家中循环热量！",
+        "错误。压力差是密度变化的结果，它们不会导致热空气上升。热空气上升是因为它比周围较冷的空气密度小。",
+        "错误。蒸汽是水蒸气，与热空气上升无关。热空气上升是由于密度较低——加热的空气分子分散开，比下方密度更大的冷空气更轻。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_013",
+      "question_en": "Why is the ocean blue?",
+      "question_zh": "为什么海洋是蓝色的？",
+
+      "choices_en": [
+        "Reflects the blue sky",
+        "Water absorbs red light",
+        "Salt turns water blue",
+        "Blue algae color the water"
+      ],
+      "choices_zh": [
+        "反射蓝色天空",
+        "水吸收红光",
+        "盐使水变蓝",
+        "蓝藻给水染色"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While the sky can affect surface appearance, pure water itself is blue. Water molecules preferentially absorb red, orange, and yellow light, while blue light passes through and scatters back to our eyes.",
+        "Correct! Water molecules absorb different colors of light at different rates. Red, orange, and yellow light are absorbed more than blue light. In deep water, only blue light penetrates deeply and scatters back to our eyes. That's why shallow water looks clear but deep ocean appears blue. The same property makes ice and thick water appear blue too!",
+        "Wrong. Salt doesn't make seawater blue - even pure fresh water appears blue when deep enough. The blue color comes from water absorbing red wavelengths while scattering blue light.",
+        "Wrong. While algae can tint water green or brown, the ocean's blue color comes from water itself. Water absorbs red light and scatters blue light, making deep water appear blue."
+      ],
+      "explanations_zh": [
+        "错误。虽然天空可以影响表面外观，但纯水本身就是蓝色的。水分子优先吸收红、橙、黄光，而蓝光穿过并散射回我们的眼睛。",
+        "正确！水分子以不同速率吸收不同颜色的光。红、橙、黄光比蓝光吸收得更多。在深水中，只有蓝光深入穿透并散射回我们的眼睛。这就是为什么浅水看起来清澈，而深海呈蓝色。同样的性质也使冰和厚水层显蓝色！",
+        "错误。盐不会使海水变蓝——即使纯淡水在足够深时也显蓝色。蓝色来自水吸收红波长同时散射蓝光。",
+        "错误。虽然藻类可以将水染成绿色或棕色，但海洋的蓝色来自水本身。水吸收红光并散射蓝光，使深水呈蓝色。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_014",
+      "question_en": "Why does glass break?",
+      "question_zh": "为什么玻璃会破碎？",
+
+      "choices_en": [
+        "Stress exceeds molecular bonds",
+        "Air pressure crushes it",
+        "Temperature melts the structure",
+        "Vibrations shake molecules apart"
+      ],
+      "choices_zh": [
+        "应力超过分子键",
+        "气压压碎它",
+        "温度融化结构",
+        "振动震散分子"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Glass is brittle because its molecules are locked in a rigid, amorphous structure. When force creates stress (like impact or bending), it concentrates at tiny surface flaws. Once stress exceeds the strength of molecular bonds, cracks propagate rapidly through the structure. Unlike metals that bend, glass can't deform plastically - it just breaks! That's why even small scratches weaken glass significantly.",
+        "Wrong. Normal air pressure doesn't crush glass. Glass breaks when applied force creates internal stress that exceeds the strength of bonds between its molecules.",
+        "Wrong. Glass breaks from mechanical stress, not melting. While extreme heat can soften glass, typical breaking happens when stress overcomes the molecular bonds holding the rigid structure together.",
+        "Wrong. Normal vibrations don't break glass (despite the myth about opera singers!). Glass breaks when mechanical stress from impact, bending, or thermal shock exceeds the strength of its molecular bonds."
+      ],
+      "explanations_zh": [
+        "正确！玻璃是脆性的，因为其分子被锁定在刚性的非晶体结构中。当力产生应力时（如冲击或弯曲），它集中在微小的表面缺陷处。一旦应力超过分子键的强度，裂纹迅速穿过结构传播。与可弯曲的金属不同，玻璃无法塑性变形——它只会破碎！这就是为什么即使小划痕也会显著削弱玻璃。",
+        "错误。正常气压不会压碎玻璃。玻璃破碎是当施加的力产生的内应力超过其分子间键的强度时。",
+        "错误。玻璃因机械应力而破碎，而非熔化。虽然极端高温可以软化玻璃，但典型的破碎发生在应力克服维持刚性结构的分子键时。",
+        "错误。正常振动不会破碎玻璃（尽管有关歌剧演员的传说！）。玻璃破碎是当来自冲击、弯曲或热冲击的机械应力超过其分子键强度时。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_015",
+      "question_en": "Why do airplanes fly?",
+      "question_zh": "为什么飞机能飞？",
+
+      "choices_en": [
+        "Engines push them through air",
+        "Wings create lift force",
+        "Propellers pull them upward",
+        "Low pressure sucks them up"
+      ],
+      "choices_zh": [
+        "发动机推动穿过空气",
+        "机翼产生升力",
+        "螺旋桨向上拉",
+        "低压吸它们向上"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Engines provide forward thrust, not upward lift. It's the wings that generate lift by directing air downward, creating an upward reaction force.",
+        "Correct! Wings are curved on top and flatter below. As the plane moves forward, air flows faster over the curved top (Bernoulli's principle) creating lower pressure above. More importantly, the wing's angle deflects air downward. By Newton's third law, pushing air down creates an equal upward force - lift! When lift exceeds weight, the plane flies. Engines provide forward speed; wings generate lift!",
+        "Wrong. Propellers (or jet engines) provide forward thrust, not upward lift. Wings generate the upward lift force by directing air downward as the plane moves forward.",
+        "Wrong. While pressure differences contribute, it's more accurate to say wings redirect air downward, creating an upward reaction force (Newton's third law). Engines move the plane forward; wings create lift."
+      ],
+      "explanations_zh": [
+        "错误。发动机提供向前推力，而非向上升力。是机翼通过向下引导空气产生升力，产生向上的反作用力。",
+        "正确！机翼顶部弯曲，底部较平。当飞机向前移动时，空气在弯曲的顶部流动更快（伯努利原理），在上方产生较低压力。更重要的是，机翼的角度使空气向下偏转。根据牛顿第三定律，向下推空气产生相等的向上力——升力！当升力超过重量时，飞机就飞起来了。发动机提供向前速度；机翼产生升力！",
+        "错误。螺旋桨（或喷气发动机）提供向前推力，而非向上升力。机翼通过在飞机向前移动时向下引导空气产生向上升力。",
+        "错误。虽然压力差有贡献，但更准确地说是机翼将空气重定向向下，产生向上的反作用力（牛顿第三定律）。发动机使飞机向前移动；机翼产生升力。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_016",
+      "question_en": "Why do wheels make things easier to move?",
+      "question_zh": "为什么轮子让移动更容易？",
+
+      "choices_en": [
+        "Wheels reduce friction",
+        "Round shapes roll naturally",
+        "Weight distributes evenly",
+        "Momentum builds with rotation"
+      ],
+      "choices_zh": [
+        "轮子减少摩擦",
+        "圆形自然滚动",
+        "重量均匀分布",
+        "旋转积累动量"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Wheels reduce friction dramatically! When you drag an object, the entire bottom surface rubs against the ground (sliding friction). With wheels, only a tiny point touches the ground at any moment (rolling friction), which is much smaller. Instead of sliding, the wheel rolls over obstacles. This means you need far less force to move heavy objects - that's why even ancient civilizations invented wheels for transport!",
+        "Wrong. While wheels are round, that alone doesn't explain why they help. The key is reducing friction - rolling friction is much less than sliding friction because only a small point contacts the ground.",
+        "Wrong. Weight distribution helps comfort but doesn't explain easier movement. Wheels work by replacing high sliding friction with much lower rolling friction at the contact point.",
+        "Wrong. While rotating wheels have angular momentum, that's not why they make movement easier. The main benefit is reducing friction - rolling creates far less resistance than sliding the entire surface."
+      ],
+      "explanations_zh": [
+        "正确！轮子大幅减少摩擦！当你拖动物体时，整个底面与地面摩擦（滑动摩擦）。有了轮子，任何时刻只有一个微小的点接触地面（滚动摩擦），要小得多。轮子不是滑动，而是滚过障碍物。这意味着你需要少得多的力来移动重物——这就是为什么即使古代文明也发明了轮子用于运输！",
+        "错误。虽然轮子是圆的，但仅此并不能解释为什么它们有帮助。关键是减少摩擦——滚动摩擦比滑动摩擦小得多，因为只有一个小点接触地面。",
+        "错误。重量分布有助于舒适度，但不能解释更容易移动。轮子通过用接触点处低得多的滚动摩擦替代高滑动摩擦来工作。",
+        "错误。虽然旋转的轮子有角动量，但这不是它们使移动更容易的原因。主要好处是减少摩擦——滚动产生的阻力远小于滑动整个表面。"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "phys_017",
+      "question_en": "Why does friction create heat?",
+      "question_zh": "为什么摩擦会产生热量？",
+
+      "choices_en": [
+        "Surfaces compress and warm up",
+        "Kinetic energy converts to heat",
+        "Air between surfaces heats",
+        "Molecules chemically react"
+      ],
+      "choices_zh": [
+        "表面压缩升温",
+        "动能转化为热能",
+        "表面间空气加热",
+        "分子化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While surfaces may compress slightly, that's not the main heat source. Friction converts kinetic energy (motion) into thermal energy by making molecules vibrate faster.",
+        "Correct! This is energy conversion! When surfaces rub, tiny bumps and ridges collide at the molecular level. This converts kinetic energy (motion) into thermal energy. The collisions make molecules vibrate faster - and faster-vibrating molecules mean higher temperature! Rub your hands together - you're converting motion into heat. That's why brakes get hot and why rubbing sticks can start fires!",
+        "Wrong. Air plays a minor role. The heat comes from energy conversion - when surfaces slide past each other, kinetic energy transforms into thermal energy through molecular collisions.",
+        "Wrong. Friction is usually a physical process, not chemical. Heat is generated by converting kinetic energy to thermal energy as surface molecules collide and vibrate faster, not through chemical reactions."
+      ],
+      "explanations_zh": [
+        "错误。虽然表面可能略微压缩，但这不是主要热源。摩擦通过使分子振动更快，将动能（运动）转化为热能。",
+        "正确！这是能量转换！当表面摩擦时，微小的凸起和脊在分子层面碰撞。这将动能（运动）转化为热能。碰撞使分子振动更快——而振动更快的分子意味着更高的温度！搓你的手——你在将运动转化为热量。这就是为什么刹车变热，为什么摩擦木棍可以生火！",
+        "错误。空气起次要作用。热量来自能量转换——当表面相互滑动时，动能通过分子碰撞转化为热能。",
+        "错误。摩擦通常是物理过程，而非化学过程。热量是通过将动能转化为热能产生的，因为表面分子碰撞并振动更快，而非通过化学反应。"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "phys_018",
+      "question_en": "Why do shadows change size during the day?",
+      "question_zh": "为什么影子一天中大小会变？",
+
+      "choices_en": [
+        "Sun's angle changes with time",
+        "Earth rotates and tilts",
+        "Atmosphere bends light more",
+        "Objects expand in heat"
+      ],
+      "choices_zh": [
+        "太阳角度随时间变",
+        "地球旋转倾斜",
+        "大气折射更多光",
+        "物体受热膨胀"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! As Earth rotates, the Sun appears to move across the sky, changing its angle. When the Sun is low (morning/evening), light hits objects at a shallow angle, casting long shadows. At noon, the Sun is high overhead, creating short shadows directly below. The shadow is longest at sunrise/sunset and shortest at noon. This is why ancient people used sundials to tell time!",
+        "Wrong. While Earth's rotation causes the Sun's apparent movement, saying 'rotation and tilt' is too vague. The direct answer is that the Sun's angle in the sky changes throughout the day, affecting shadow length.",
+        "Wrong. Atmospheric refraction has minimal effect on shadow length. Shadows change size because the Sun's angle relative to objects changes as Earth rotates, not from light bending in the atmosphere.",
+        "Wrong. Objects don't expand enough to noticeably change shadow size. Shadows change because the Sun's position in the sky changes throughout the day, altering the angle at which light hits objects."
+      ],
+      "explanations_zh": [
+        "正确！随着地球自转，太阳似乎在天空中移动，改变其角度。当太阳位置低时（早晨/傍晚），光线以浅角度照射物体，投下长影子。中午时，太阳高悬头顶，在正下方产生短影子。影子在日出/日落时最长，中午时最短。这就是为什么古人用日晷报时！",
+        "错误。虽然地球自转导致太阳的表观运动，但说'旋转和倾斜'太模糊。直接答案是太阳在天空中的角度全天变化，影响影子长度。",
+        "错误。大气折射对影子长度影响极小。影子改变大小是因为随着地球自转，太阳相对于物体的角度变化，而非光在大气中弯曲。",
+        "错误。物体膨胀不足以明显改变影子大小。影子改变是因为太阳在天空中的位置全天变化，改变光照射物体的角度。"
+      ],
+      "difficulty": "easy"
     }
   ]
 }
