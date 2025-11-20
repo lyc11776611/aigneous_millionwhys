@@ -84,10 +84,10 @@ const QUESTION_CATEGORIES = [
 // Fetch and merge all questions from different categories
 async function loadAllQuestions(): Promise<Question[]> {
   try {
-    // Fetch all category files in parallel
+    // Fetch all category files in parallel via API
     const responses = await Promise.all(
       QUESTION_CATEGORIES.map(category =>
-        fetch(`/data/questions/${category}.json`).then(res => {
+        fetch(`/api/questions?category=${category}`).then(res => {
           if (!res.ok) throw new Error(`Failed to load ${category}`);
           return res.json();
         })
