@@ -1,0 +1,72 @@
+# Question Draft Template V2 - New Workflow
+#
+# NEW WORKFLOW:
+# 1. Create questions in English (minimal required: question + choices)
+# 2. Claude generates explanations and does fact-checking/self-correction
+# 3. DeepSeek translates everything to Chinese
+# 4. Timestamps added automatically (created_at, last_modified_at)
+#
+# NO OPENAI API USED - Only Claude (Anthropic) and DeepSeek
+
+category: Animals  # Choose from: Animals, Astronomy, Chemistry, Economics, Human Biology, Physics, Plants, Psychology, Technology, Weather, Food & Nutrition, Earth Science
+
+questions:
+  # Example 1: MINIMAL INPUT (Recommended - let AI do the work)
+  # Just provide English question and choices, AI handles everything else
+  - question_en: "Why do octopuses have three hearts?"
+    correct_answer: 1  # Index 0-3
+    choices_en:
+      - "To pump blood faster"
+      - "Two pump blood to gills, one to body"
+      - "Backup in case one fails"
+      - "To control multiple tentacles"
+    difficulty: hard  # easy, medium, or hard
+
+  # What happens automatically:
+  # ✅ Claude generates English explanations
+  # ✅ Claude fact-checks and self-corrects
+  # ✅ DeepSeek translates to Chinese (question, choices, explanations)
+  # ✅ Timestamps added (created_at, last_modified_at)
+
+  # Example 2: WITH EXPLANATIONS (if you want to write them yourself)
+  - question_en: "Why do sloths move so slowly?"
+    correct_answer: 2
+    choices_en:
+      - "They are always tired"
+      - "Their muscles are weak"
+      - "Low metabolism saves energy"
+      - "They move slowly to hide"
+    difficulty: medium
+    explanations_en:
+      - "Wrong. Sloths aren't tired - they're energy-efficient. Their slow movement is an evolutionary adaptation, not fatigue."
+      - "Wrong. Sloth muscles work fine, just differently. They have less muscle mass to save energy, but what they have works well."
+      - "Correct! Sloths have incredibly slow metabolism (40-45% slower than expected). This means they need very little food, but also means they move slowly to conserve energy. It's a survival strategy!"
+      - "Wrong. While slow movement helps avoid predators, the primary reason is energy conservation due to low metabolism."
+
+  # What happens:
+  # ✅ Claude fact-checks your explanations
+  # ✅ Claude auto-corrects if needed
+  # ✅ DeepSeek translates everything to Chinese
+  # ✅ Timestamps added
+
+# IMPORTANT NOTES:
+# - question_en: Max 45 characters
+# - question_zh: Max 25 characters (auto-generated)
+# - choices_en: Max 35 characters each
+# - choices_zh: Max 15 characters each (auto-generated)
+# - Always provide 4 choices
+# - correct_answer is 0-indexed (0, 1, 2, or 3)
+# - Difficulty: easy, medium, or hard
+
+# NEW FEATURES:
+# ✅ Timestamps: created_at and last_modified_at added automatically
+# ✅ Claude-based fact-checking: No OpenAI dependency
+# ✅ DeepSeek translation: Native Chinese quality
+# ✅ Self-correction: Claude fixes issues automatically
+# ✅ No manual confirmations: Fully automated workflow
+
+# WORKFLOW:
+# 1. Copy this template: cp questions/drafts/template_v2.yaml questions/drafts/my_questions.yaml
+# 2. Fill in your questions (just English + choices is enough)
+# 3. Run: python scripts/add_questions.py --draft questions/drafts/my_questions.yaml
+# 4. Review and commit!

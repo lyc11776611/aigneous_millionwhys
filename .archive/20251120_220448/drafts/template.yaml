@@ -1,0 +1,68 @@
+# Question Draft Template
+# Copy this file and fill in your questions
+# Minimal required fields: question_en, correct_answer, choices_en
+# The tool will auto-generate Chinese translations and explanations
+
+category: Animals  # Choose from: Animals, Astronomy, Chemistry, Economics, Human Biology, Physics, Plants, Psychology, Technology, Weather, Food & Nutrition, Earth Science
+
+questions:
+  # Example 1: Minimal input (AI generates everything else)
+  - question_en: "Why do octopuses have three hearts?"
+    correct_answer: 1  # Index 0-3
+    choices_en:
+      - "To pump blood faster"
+      - "Two pump blood to gills, one to body"
+      - "Backup in case one fails"
+      - "To control multiple tentacles"
+    difficulty: hard  # easy, medium, or hard
+
+  # Example 2: Provide Chinese if you have it
+  - question_en: "Why do sloths move so slowly?"
+    question_zh: "为什么树懒动作这么慢？"
+    correct_answer: 2
+    choices_en:
+      - "They are always tired"
+      - "Their muscles are weak"
+      - "Low metabolism saves energy"
+      - "They move slowly to hide"
+    choices_zh:
+      - "它们总是很累"
+      - "它们的肌肉很弱"
+      - "低代谢节省能量"
+      - "慢动作用于隐藏"
+    difficulty: medium
+
+  # Example 3: Full content (skip AI generation)
+  - question_en: "Why do fireflies glow?"
+    question_zh: "萤火虫为什么会发光？"
+    correct_answer: 0
+    choices_en:
+      - "Chemical reaction creates light"
+      - "Reflect moonlight"
+      - "Store sunlight during day"
+      - "Electric charge in body"
+    choices_zh:
+      - "化学反应产生光"
+      - "反射月光"
+      - "白天储存阳光"
+      - "体内电荷"
+    explanations_en:
+      - "Correct! Fireflies produce light through a chemical reaction called bioluminescence. A substance called luciferin reacts with oxygen in the presence of the enzyme luciferase, producing light with almost no heat."
+      - "Wrong. Fireflies don't reflect moonlight. They actively produce their own light through chemical reactions in special organs called lanterns located in their abdomen."
+      - "Wrong. Fireflies don't store sunlight. They create light on demand through a chemical process that can be turned on and off by controlling oxygen flow to light-producing cells."
+      - "Wrong. Firefly light is not produced by electricity. It's a biochemical process involving specific molecules and enzymes that convert chemical energy into light energy."
+    explanations_zh:
+      - "正确！萤火虫通过称为生物发光的化学反应产生光。一种叫萤光素的物质在萤光素酶的作用下与氧气反应，产生几乎无热的光。"
+      - "错误。萤火虫不反射月光。它们在腹部的特殊器官中通过化学反应主动产生自己的光。"
+      - "错误。萤火虫不储存阳光。它们通过控制氧气流向发光细胞，按需创造光的化学过程。"
+      - "错误。萤火虫的光不是由电产生的。这是一个生化过程，涉及将化学能转化为光能的特定分子和酶。"
+    difficulty: medium
+
+# Notes:
+# - question_en: Max 45 characters
+# - question_zh: Max 25 characters
+# - choices_en: Max 35 characters each
+# - choices_zh: Max 15 characters each
+# - Always provide 4 choices
+# - correct_answer is 0-indexed (0, 1, 2, or 3)
+# - If Chinese or explanations are missing, AI will generate them

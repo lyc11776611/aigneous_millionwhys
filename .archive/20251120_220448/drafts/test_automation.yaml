@@ -1,0 +1,25 @@
+# Test Draft for Automation Pipeline
+# This is a test to verify the automation system works end-to-end
+
+category: Animals
+
+questions:
+  # Test Question 1: Minimal input (AI generates everything)
+  - question_en: "Why do chameleons change color?"
+    correct_answer: 1
+    choices_en:
+      - "To blend with surroundings"
+      - "Communication and temperature"
+      - "To scare predators"
+      - "To attract prey"
+    difficulty: medium
+
+  # Test Question 2: Slightly different topic
+  - question_en: "Why do bats hang upside down?"
+    correct_answer: 2
+    choices_en:
+      - "To sleep better"
+      - "To avoid predators"
+      - "Easier takeoff and energy-efficient"
+      - "To digest food"
+    difficulty: easy

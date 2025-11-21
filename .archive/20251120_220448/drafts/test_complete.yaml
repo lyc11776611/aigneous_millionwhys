@@ -1,0 +1,30 @@
+# Complete Test Draft with All Fields
+# This tests the pipeline with full manual content (no AI needed)
+
+category: Animals
+
+questions:
+  - question_en: "Why do chameleons change color?"
+    question_zh: "变色龙为什么会变色？"
+    correct_answer: 1
+    choices_en:
+      - "To blend with surroundings"
+      - "Communication and temperature"
+      - "To scare predators"
+      - "To attract prey"
+    choices_zh:
+      - "融入环境"
+      - "交流和温度调节"
+      - "吓跑捕食者"
+      - "吸引猎物"
+    explanations_en:
+      - "Wrong. While chameleons can change color for camouflage, this is not their primary reason. They change color mainly for communication with other chameleons and to regulate their body temperature."
+      - "Correct! Chameleons change color primarily to communicate with other chameleons (showing mood, territorial displays, mating signals) and to regulate their body temperature by becoming darker to absorb heat or lighter to reflect it."
+      - "Wrong. Chameleons do not change color to scare predators. Their color changes are mainly for communication and thermoregulation, not defense against threats."
+      - "Wrong. Chameleons are ambush predators that remain still while hunting. They don't use color changes to attract prey. Their color changes serve communication and temperature regulation purposes."
+    explanations_zh:
+      - "错误。虽然变色龙可以通过变色来伪装，但这不是它们的主要原因。它们变色主要是为了与其他变色龙交流和调节体温。"
+      - "正确！变色龙变色主要是为了与其他变色龙交流（显示情绪、领地展示、交配信号）并调节体温，通过变深来吸收热量或变浅来反射热量。"
+      - "错误。变色龙不会通过变色来吓跑捕食者。它们的颜色变化主要用于交流和体温调节，而不是防御威胁。"
+      - "错误。变色龙是埋伏型捕食者，在狩猎时保持静止。它们不使用颜色变化来吸引猎物。它们的颜色变化用于交流和温度调节。"
+    difficulty: medium

@@ -1,0 +1,11 @@
+category: Animals
+
+questions:
+  - question_en: "Why do cats have whiskers?"
+    correct_answer: 0
+    choices_en:
+      - "To sense surroundings and navigate"
+      - "To attract mates"
+      - "To keep insects away"
+      - "For decoration only"
+    difficulty: easy

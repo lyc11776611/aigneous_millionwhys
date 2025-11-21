@@ -184,16 +184,19 @@ src/
 └── examples/
     └── QuestionUsageExamples.tsx      # Usage examples for questions
 
-scripts/                                # Validation scripts
-├── auto_validate.py                   # Automated validation system
-├── validate_facts.py                  # Structure validation
-├── ai_fact_check.py                   # AI fact-checking
-└── install_git_hook.sh                # Git pre-commit hook installer
+scripts/                                # Automation & Validation
+├── add_questions.py                   # Main CLI for adding questions
+├── question_builder_v3.py             # DeepSeek translation + timestamps
+├── auto_validate.py                   # Layer 1: Format validation
+├── validate_facts.py                  # Layer 2: Rule-based fact checking
+├── install_git_hook.sh                # Git pre-commit hook installer
+└── utils/                             # Utility modules
+    ├── validation.py                  # 2-layer validation runner
+    ├── id_manager.py                  # Question ID management
+    └── master_list.py                 # Master list updater
 
 docs/                                   # Documentation
-├── CURIOUS_MINDS_QUICKSTART.md        # Quick start guide
-├── questions/                         # Question database docs
-└── ...                                # Additional documentation
+└── CLAUDE_CODE_WORKFLOW_GUIDE.md      # V3 workflow guide
 ```
 
 ## Key Interactions
