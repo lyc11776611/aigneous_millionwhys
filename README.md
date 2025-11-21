@@ -6,7 +6,7 @@ A minimal MVP landing page for AIgneous, featuring interactive volcano effects a
 
 ### Interactive Quiz Application
 - **Quiz Interface** - Full-featured quiz experience at `/quiz`
-  - Random question selection from 186-question bank
+  - Random question selection from 300-question bank
   - Bilingual support (English/Chinese toggle)
   - Instant feedback with detailed explanations
   - Share functionality (Web Share API + Clipboard)
@@ -25,7 +25,7 @@ A minimal MVP landing page for AIgneous, featuring interactive volcano effects a
 - **SEO Protection** - Admin routes blocked via `robots.txt`
 
 ### Question Bank Management
-- **186 Questions** - Expanded from 31 to 186 scientifically validated questions
+- **300 Questions** - Expanded to 300 scientifically validated questions across 19 categories
 - **Secure Storage** - Questions stored in `src/data/questions/` (not publicly accessible)
 - **Admin Interface** - Browse all questions with clickable answer explanations
 - **Data Tracking** - JSONL-based logging for answers and shares (append-only, privacy-safe)
@@ -36,7 +36,7 @@ A minimal MVP landing page for AIgneous, featuring interactive volcano effects a
 - 🕸️ **Knowledge Graph Background** - Animated network visualization that responds to mouse movements
 - 🎨 **Modern Design** - Clean, responsive layout with AIgneous brand colors
 - ⚡ **Next.js 15** - Built with the latest Next.js and React 19
-- 📚 **Curious Minds Questions** - 186 scientifically validated Q&A questions in 10 categories
+- 📚 **Curious Minds Questions** - 300 scientifically validated Q&A questions in 19 categories
 
 ## Questions Database
 
@@ -44,8 +44,8 @@ This repository includes a comprehensive bilingual (English/Chinese) Q&A databas
 
 ### Features
 
-- **31+ Questions** across 10 topics (Astronomy, Chemistry, Physics, Biology, etc.)
-- **Scientifically Validated** - All questions verified through 3-layer validation system
+- **300 Questions** across 19 categories (Astronomy, Chemistry, Physics, Biology, etc.)
+- **Scientifically Validated** - All questions verified through 2-layer validation system
 - **Bilingual** - Full English and Chinese translations
 - **Mobile Optimized** - Character limits designed for small screens
 - **Type-Safe** - Full TypeScript support with type definitions
@@ -74,18 +74,27 @@ export default function QuizPage() {
 }
 ```
 
-### Available Categories
+### Available Categories (19 total, 300 questions)
 
-- Animals (动物行为) - 3 questions
-- Astronomy (天文与太空) - 3 questions
-- Chemistry (身边的化学) - 4 questions
-- Economics (经济与金融) - 3 questions
-- Human Biology (人体生物学) - 3 questions
-- Physics (日常物理) - 3 questions
-- Plants (植物科学) - 3 questions
-- Psychology (心理与行为) - 3 questions
-- Technology (技术) - 3 questions
-- Weather (天气与气候) - 3 questions
+- Animals (动物行为) - 28 questions
+- Astronomy (天文与太空) - 23 questions
+- Chemistry (身边的化学) - 25 questions
+- Earth Science (地球科学) - 15 questions
+- Economics (经济与金融) - 8 questions
+- Food & Nutrition (食物与营养) - 15 questions
+- Health & Medicine (健康与医学) - 10 questions
+- Household Science (家庭科学) - 12 questions
+- Human Biology (人体生物学) - 23 questions
+- Insects (昆虫) - 12 questions
+- Marine Life (海洋生物) - 12 questions
+- Music & Sound (音乐与声音) - 8 questions
+- Physics (日常物理) - 24 questions
+- Plants (植物科学) - 18 questions
+- Psychology (心理与行为) - 15 questions
+- Sports & Exercise (运动与锻炼) - 10 questions
+- Technology (技术) - 17 questions
+- Transportation (交通) - 8 questions
+- Weather (天气与气候) - 17 questions
 
 ### Validation
 

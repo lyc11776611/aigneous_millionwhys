@@ -48,12 +48,12 @@ class MasterListUpdater:
         with open(self.master_list_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
 
-        # Find the category section
-        category_pattern = f"### {category}"
+        # Find the category section (format: ## Category Name (count))
         category_line_idx = None
 
         for i, line in enumerate(lines):
-            if category_pattern in line:
+            # Match "## Category" or "## Category (count)" format
+            if line.startswith('## ') and category in line:
                 category_line_idx = i
                 break
 
@@ -69,7 +69,7 @@ class MasterListUpdater:
             line = lines[current_idx]
 
             # Check if we've hit the next category
-            if line.startswith('###') and category not in line:
+            if line.startswith('## ') and category not in line:
                 # Insert before the separator
                 insert_idx = current_idx - 2
                 break
@@ -186,6 +186,13 @@ class MasterListUpdater:
             'Weather': 'weather.json',
             'Food & Nutrition': 'food-nutrition.json',
             'Earth Science': 'earth-science.json',
+            'Marine Life': 'marine-life.json',
+            'Insects': 'insects.json',
+            'Household Science': 'household-science.json',
+            'Sports & Exercise': 'sports-exercise.json',
+            'Health & Medicine': 'health-medicine.json',
+            'Music & Sound': 'music-sound.json',
+            'Transportation': 'transportation.json',
         }
         return filename_map.get(category, f"{category.lower().replace(' ', '-')}.json")
 

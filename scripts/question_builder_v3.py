@@ -149,9 +149,16 @@ class QuestionBuilderV3:
         return question
 
     def _translate_to_chinese_deepseek(self, text: str, max_chars: Optional[int] = None) -> str:
-        """Translate English text to Chinese using DeepSeek"""
+        """Translate English text to Chinese using DeepSeek.
+
+        Raises:
+            RuntimeError: If DeepSeek client is not configured
+        """
         if not self.deepseek_client:
-            return f"[Translation pending: {text[:30]}...]"
+            raise RuntimeError(
+                "DeepSeek API not configured. Set DEEPSEEK_API_KEY environment variable "
+                "or use --no-ai flag with pre-filled Chinese translations."
+            )
 
         try:
             prompt = f"Translate this to Chinese (Simplified)"
@@ -178,8 +185,7 @@ class QuestionBuilderV3:
             return translation
 
         except Exception as e:
-            print(f"    ⚠️  Translation error: {e}")
-            return f"[Translation failed: {text[:30]}...]"
+            raise RuntimeError(f"Translation failed for '{text[:50]}...': {e}")
 
     def _validate_draft(self, draft: QuestionDraft):
         """Validate basic draft structure"""
