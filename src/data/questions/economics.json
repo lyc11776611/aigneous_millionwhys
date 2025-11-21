@@ -3,10 +3,8 @@
   "category_zh": "经济与金融",
   "questions": [
     {
-      "id": "econ_001",
       "question_en": "Why do prices go up over time?",
-      "question_zh": "为什么物价会持续上涨？",
-
+      "question_zh": "物价为何上涨？",
       "choices_en": [
         "Stores want more profit",
         "Money supply increases",
@@ -14,10 +12,10 @@
         "Demand always rises"
       ],
       "choices_zh": [
-        "商店想要更多利润",
-        "货币供应量增加",
-        "产品质量提高",
-        "需求总是上升"
+        "商店求增利",
+        "货币供应增加",
+        "产品质量提升",
+        "需求持续增长"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. Demand fluctuates for different products and doesn't always rise. The consistent upward pressure on all prices comes from the increasing money supply reducing each dollar's value."
       ],
       "explanations_zh": [
-        "错误。虽然商店确实想要利润，但竞争通常会阻止它们随意提价。真正的原因是每一元钱随时间变得不那么值钱。",
-        "正确！这叫做通货膨胀。当政府印更多钞票时，每一元钱变得不那么值钱。更多钱追逐同样的商品，价格就上涨。少量通胀是正常和健康的。但过多通胀意味着你的钱随时间购买力下降。这就是为什么今天1元买的东西比1950年少！",
-        "错误。虽然质量提高会影响某些价格，但这不能解释所有价格随时间普遍上涨的趋势，包括基本商品。",
-        "错误。不同产品的需求会波动，并不总是上升。所有价格持续上涨的压力来自货币供应增加导致每一元钱的价值降低。"
+        "不对。虽然商店确实追求利润，但竞争通常阻止它们随意涨价。真正的原因是随着时间的推移，每一美元的实际价值在下降。",
+        "没错！这就是所谓的通货膨胀。当政府增发货币时，每一块钱的购买力就会下降。更多的货币追逐同样数量的商品，价格自然上涨。适度的通货膨胀是正常且健康的。但过高的通胀意味着你的钱会随着时间推移越来越不值钱。这就是为什么现在的一美元能买到的东西比1950年少得多！",
+        "错误。虽然质量提升可能影响某些价格，但这并不能解释所有物价随时间普遍上涨的趋势，包括基本商品在内。",
+        "错误。不同产品的需求会有波动，并非总是上升。所有价格持续上涨的压力源于货币供应量的增加，导致每美元价值下降。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_001"
     },
     {
-      "id": "econ_002",
       "question_en": "Why do stock prices change?",
-      "question_zh": "为什么股价会波动？",
-
+      "question_zh": "股价为何变动？",
       "choices_en": [
         "Random computer algorithms",
         "Buyer and seller agreement",
@@ -46,10 +45,10 @@
         "Government sets daily rates"
       ],
       "choices_zh": [
-        "随机计算机算法",
-        "买卖双方达成一致",
-        "公司决定价格",
-        "政府设定日率"
+        "随机算法",
+        "买卖协议",
+        "公司定价",
+        "政府定日费"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -59,18 +58,19 @@
         "Wrong. In free markets, governments don't set stock prices. Prices are determined by buyers and sellers trading on exchanges."
       ],
       "explanations_zh": [
-        "错误。虽然算法确实参与交易，但它们不是随机的。它们遵循基于市场数据的规则。股价最终由买卖双方愿意支付的价格决定。",
-        "正确！股价根据供求关系变化。当更多人想买股票时，价格上涨。当更多人想卖时，价格下跌。投资者根据公司业绩、新闻和未来预期进行买卖。这就像一场全天进行的拍卖会！",
-        "错误。公司在首次公开募股后不会设定自己的股价。市场通过买卖活动决定价格。",
-        "错误。在自由市场中，政府不设定股价。价格由在交易所交易的买卖双方决定。"
+        "错误。虽然算法确实参与交易，但它们并非随机运作，而是依据市场数据遵循既定规则。股票价格最终是由买卖双方达成的共识所决定的。",
+        "正确！股价随供需关系变动。买的人多，股价就上涨；卖的人多，股价则下跌。投资者根据公司业绩、新闻动态及未来预期决定买卖，这就像一场全天候进行的拍卖！",
+        "错误。公司在首次公开募股后并不自行设定股价，而是由市场通过买卖活动来决定价格。",
+        "错误。在自由市场中，政府不设定股票价格。价格是由在交易所进行交易的买卖双方决定的。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_002"
     },
     {
-      "id": "econ_003",
       "question_en": "Why do banks pay interest?",
-      "question_zh": "为什么银行支付利息？",
-
+      "question_zh": "银行为何付息？",
       "choices_en": [
         "Required by law",
         "To attract deposits to lend",
@@ -78,10 +78,10 @@
         "Government gives them money"
       ],
       "choices_zh": [
-        "法律要求",
-        "吸引存款来放贷",
-        "奖励忠实客户",
-        "政府给他们钱"
+        "法定要求",
+        "吸储放贷",
+        "回馈忠实客户",
+        "政府拨款"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -91,18 +91,19 @@
         "Wrong. Governments don't give banks money to pay interest. Banks earn money from the interest rate spread between what they pay depositors and charge borrowers."
       ],
       "explanations_zh": [
-        "错误。虽然银行业受到监管，但法律并不要求银行支付利息。银行支付利息是一种吸引存款的商业策略。",
-        "正确！银行支付利息是为了吸引你的存款。然后他们以更高利率把钱借给别人。差额就是他们的利润。例如，他们可能付你2%，但向借款人收6%。你因让他们使用你的钱而获得报酬，他们从利差中获利！",
-        "错误。虽然客户忠诚度很重要，但利息不是奖励计划。它是银行商业模式的基本部分——为存款付费以便以更高利率再贷出。",
-        "错误。政府不给银行钱来支付利息。银行从向存款人支付的利率和向借款人收取的利率之间的利差中赚钱。"
+        "错误。尽管银行业受到监管，但法律并未强制要求银行支付利息。银行支付利息是作为一种吸引存款的商业策略。",
+        "没错！银行支付利息是为了吸引您的存款。然后，它们以更高的利率将这些钱贷给他人，其中的差额就是它们的利润。例如，银行可能付给您2%的利息，却向借款人收取6%的利息。您因允许银行使用您的资金而获得报酬，而银行则从利差中获利！",
+        "错误。虽然客户忠诚度重要，但利息并非奖励计划。它是银行业务模式的基本组成部分——为存款支付利息以便以更高利率重新贷出。",
+        "错误。政府不会给银行钱来支付利息。银行通过存款利率和贷款利率之间的利差来赚取利润。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_003"
     },
     {
-      "id": "econ_004",
       "question_en": "Why do countries trade with each other?",
-      "question_zh": "为什么国家之间互相贸易？",
-
+      "question_zh": "国家间为何贸易？",
       "choices_en": [
         "To make diplomatic friends",
         "Specialization saves resources",
@@ -110,10 +111,10 @@
         "Create shipping jobs"
       ],
       "choices_zh": [
-        "建立外交友谊",
-        "专业化节省资源",
-        "运输货物远距离",
-        "创造航运工作"
+        "广交外交友",
+        "专业节省资源",
+        "长途货运",
+        "创建发货任务"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -123,18 +124,19 @@
         "Wrong. While trade does create jobs in shipping and logistics, this is a side effect. The main reason is that specialization allows countries to produce more efficiently."
       ],
       "explanations_zh": [
-        "错误。虽然贸易可以改善关系，但这不是经济原因。国家贸易是因为这比自己制造一切更有效率。",
-        "正确！这叫做比较优势。每个国家专注于自己最擅长的，然后与他人交易。日本高效制造汽车，巴西种咖啡很好，沙特有石油。通过专业化和贸易，每个人以更低成本获得更多商品，比独自生产一切要好！",
-        "错误。长途运输货物是贸易的成本，而不是原因。国家贸易是因为专业化使整体生产更有效率。",
-        "错误。虽然贸易确实创造了航运和物流工作，但这是副作用。主要原因是专业化使各国能够更有效地生产。"
+        "不对。虽然贸易能改善关系，但这并非经济原因。各国进行贸易是因为这比自己生产所有东西更高效。",
+        "正确！这被称为比较优势。每个国家专注于自己最擅长的领域，然后与其他国家进行贸易。日本高效制造汽车，巴西擅长种植咖啡，沙特阿拉伯拥有石油资源。通过专业化和贸易，大家都能以比自给自足更低的成本获得更多商品！",
+        "错误。长途运输货物是贸易的成本，而非其原因。国家间进行贸易是因为专业化能使整体生产效率更高。",
+        "错误。虽然贸易确实在航运和物流领域创造了就业机会，但这只是附带效应。其主要原因在于专业化使各国能够更高效地进行生产。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_004"
     },
     {
-      "id": "econ_005",
       "question_en": "Why is gold valuable?",
-      "question_zh": "为什么黄金很有价值？",
-
+      "question_zh": "黄金为何珍贵？",
       "choices_en": [
         "Inherently most useful metal",
         "Scarcity and social agreement",
@@ -142,10 +144,10 @@
         "Magical properties"
       ],
       "choices_zh": [
-        "本质上最有用金属",
-        "稀缺性和社会共识",
-        "所有电子产品必需",
-        "具有魔法属性"
+        "最实用金属",
+        "稀缺与共识",
+        "电子产品必备",
+        "魔法属性"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -155,18 +157,19 @@
         "Wrong. Gold has no magical properties. Its value is purely based on human psychology, cultural tradition, scarcity, and its physical properties like not rusting."
       ],
       "explanations_zh": [
-        "错误。黄金不是最有用的金属。铁和铜在日常生活中有用得多。黄金的价值来自不同的因素。",
-        "正确！黄金有价值是因为它稀有、不腐蚀，而且几千年来社会一致认为它有价值。它在珠宝和电子产品中有一些用途，但其高价主要是因为人们相信它有价值并想拥有它。这叫做市场价值！",
-        "错误。虽然黄金因良好的导电性用于某些电子产品，但并非所有设备都需要。存在许多替代品。黄金的高价不能仅由其工业用途来证明。",
-        "错误。黄金没有魔法属性。它的价值纯粹基于人类心理、文化传统、稀缺性和它不生锈等物理特性。"
+        "错误。黄金并非最有用的金属，铁和铜在日常生活中用途更为广泛。黄金的价值源于其他因素。",
+        "确实！黄金之所以珍贵，是因为它稀有、不易腐蚀，且数千年来社会普遍认同其价值。虽然它在珠宝和电子产品中有一定用途，但其高昂的价格主要源于人们相信它有价值并渴望拥有它。这就是所谓的市场价值！",
+        "错误。虽然黄金因其良好的导电性被用于某些电子产品中，但并非所有设备都需要它。存在许多替代品。黄金的高价仅凭其工业用途是不合理的。",
+        "错误。黄金并无神奇特性，其价值完全基于人类心理、文化传统、稀缺性以及不锈等物理属性。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_005"
     },
     {
-      "id": "econ_006",
       "question_en": "Why do companies advertise?",
-      "question_zh": "为什么公司要打广告？",
-
+      "question_zh": "企业为何做广告？",
       "choices_en": [
         "Legal requirement to inform",
         "Increase awareness and sales",
@@ -174,9 +177,9 @@
         "Fill empty TV time"
       ],
       "choices_zh": [
-        "法律要求告知",
-        "提高知名度和销量",
-        "支持媒体行业",
+        "法定告知义务",
+        "提升认知与销量",
+        "支持传媒业",
         "填补电视空档"
       ],
       "correct_answer": 1,
@@ -187,18 +190,19 @@
         "Wrong. Companies don't advertise to help TV stations fill time. They pay for ad slots because it's an effective way to reach potential customers and increase their sales."
       ],
       "explanations_zh": [
-        "错误。广告不是法律要求的（除了某些披露）。公司选择广告作为提升销售的商业策略。",
-        "正确！公司打广告是为了让人们知道他们的产品并说服他们购买。即使是好产品，如果没人知道它存在也卖不出去。广告创造需求、建立品牌忠诚度，并告诉顾客为什么他们的产品比竞争对手更好。花费的钱通常会以增加的销售额回报！",
-        "错误。虽然广告确实为媒体提供资金，但这不是公司这样做的原因。他们打广告是为了推广自己的产品，增加自己的销售额。",
-        "错误。公司不是为了帮助电视台填补时间而打广告。他们为广告时段付费是因为这是接触潜在客户和增加销售的有效方式。"
+        "错误。广告并非法律要求（除特定披露外）。公司选择广告是作为提升销量的商业策略。",
+        "没错！公司做广告是为了让人们了解其产品并说服他们购买。如果没人知道产品存在，再好的产品也卖不出去。广告能创造需求、建立品牌忠诚度，并告诉顾客为什么他们的产品优于竞争对手。投入的广告费通常会以销售额增长的形式得到回报！",
+        "错误。虽然广告确实为媒体提供资金，但这并非企业投放广告的原因。他们做广告是为了推广自己的产品并提高自身的销量。",
+        "不对。公司投放广告并非为了帮电视台填补时段，而是因为购买广告时段是接触潜在客户并提升销量的有效途径。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_006"
     },
     {
-      "id": "econ_007",
       "question_en": "Why do sales and discounts work?",
-      "question_zh": "为什么促销和折扣有效？",
-
+      "question_zh": "促销为何有效？",
       "choices_en": [
         "Psychology of getting a deal",
         "Products actually cost less",
@@ -206,10 +210,10 @@
         "Government requires them"
       ],
       "choices_zh": [
-        "占便宜的心理",
+        "交易心理学",
         "产品实际更便宜",
-        "商店亏本帮助人",
-        "政府要求促销"
+        "助销亏本",
+        "政府要求他们"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -219,18 +223,19 @@
         "Wrong. Governments don't require sales or discounts. Stores choose to offer them as a marketing strategy to increase customer traffic and sales volume."
       ],
       "explanations_zh": [
-        "正确！折扣触发心理反应。人们觉得自己占了便宜，害怕错过机会。一件100元的商品降到70元，感觉省了30元，即使你本来不打算买。商店经常先提价再打折。紧迫感和感知价值驱动购买！",
-        "错误。生产成本在促销期间不会突然下降。商店通常从一开始就将折扣纳入定价策略，或用促销来清理多余库存。",
-        "错误。商店进行促销不是为了亏本。他们使用战略定价通过吸引更多顾客、清理库存或与竞争对手竞争来增加总收入。",
-        "错误。政府不要求促销或折扣。商店选择提供它们作为营销策略来增加客流量和销售量。"
+        "没错！折扣会引发心理反应。人们觉得自己捡了便宜，还担心错过机会。一件原价100美元的商品降价到70美元，感觉就像省下了30美元，即便原本没打算购买。商家常先提价再打折，这种紧迫感和感知价值推动了购买行为！",
+        "不对。生产成本不会在促销期间突然下降。商店通常从一开始就将折扣纳入定价策略，或者利用促销来清理积压库存。",
+        "不对。商店打折并非为了亏本，而是通过策略性定价来吸引更多顾客、清理库存或与对手竞争，从而提高总收入。",
+        "不对。政府并不要求商家进行促销或打折，商店选择提供这些优惠是作为一种营销策略，以增加客流量和销售额。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_007"
     },
     {
-      "id": "econ_008",
       "question_en": "Why do countries use different currencies?",
-      "question_zh": "为什么各国使用不同货币？",
-
+      "question_zh": "各国为何货币不同？",
       "choices_en": [
         "Can't agree on one design",
         "Control their own economy",
@@ -238,10 +243,10 @@
         "Tradition and pride only"
       ],
       "choices_zh": [
-        "无法统一设计",
-        "控制本国经济",
-        "防止假币",
-        "仅为传统骄傲"
+        "设计难统一",
+        "掌控自身经济",
+        "防伪",
+        "传统与骄傲"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -251,12 +256,15 @@
         "Wrong. While tradition and national identity play a role, the main reason is practical economic control. Countries need the ability to manage their money supply and interest rates independently."
       ],
       "explanations_zh": [
-        "错误。货币设计不是问题。如果各国愿意，可以统一设计。真正的原因是关于经济控制和主权。",
-        "正确！每个国家都想控制自己的货币政策。通过拥有自己的货币，他们可以调整利率、在需要时印钞，并应对他们特定的经济状况。欧元既显示了共同货币的好处（更容易贸易），也显示了缺点（较少的个体控制）！",
-        "错误。不同货币不能防止假币——每种货币都面临这个问题。各国保持独立货币主要是为了经济独立和政策控制。",
-        "错误。虽然传统和民族认同发挥作用，但主要原因是实际的经济控制。各国需要能够独立管理货币供应和利率。"
+        "错误。货币设计并非问题所在。各国若愿意，本可协商一致。真正的原因在于经济控制权和主权。",
+        "正确！每个国家都希望掌控自己的货币政策。通过拥有本国货币，它们能够调整利率、在必要时印钞，并针对具体经济状况作出反应。欧元展现了共享货币的双重性：既带来便利贸易的好处，也存在个体控制力减弱的弊端。",
+        "错误。不同的货币并不能防止伪造——每种货币都面临这个问题。各国保持独立货币主要是为了经济独立和政策控制。",
+        "错误。虽然传统和民族认同有一定作用，但主要原因在于实际的经济控制需求。各国需要具备独立管理货币供应和利率的能力。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "econ_008"
     }
   ]
 }

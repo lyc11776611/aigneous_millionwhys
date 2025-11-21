@@ -3,10 +3,8 @@
   "category_zh": "植物科学",
   "questions": [
     {
-      "id": "plant_001",
       "question_en": "Why are most leaves green?",
-      "question_zh": "为什么大多数叶子是绿色？",
-
+      "question_zh": "为何多数叶子是绿的？",
       "choices_en": [
         "Green pigment is cheapest",
         "Chlorophyll reflects green light",
@@ -14,10 +12,10 @@
         "Matches the environment"
       ],
       "choices_zh": [
-        "绿色素最便宜",
+        "绿色颜料最便宜",
         "叶绿素反射绿光",
-        "更好吸收热量",
-        "匹配环境"
+        "吸热更佳",
+        "适应环境"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. Leaves aren't green to camouflage with the environment. The green color is a byproduct of chlorophyll reflecting green light while absorbing red and blue for photosynthesis."
       ],
       "explanations_zh": [
-        "错误。进化不是按色素的成本效益运作的。叶绿素的进化是因为它能有效捕获光合作用最有用的光波长。",
-        "正确！叶子含有叶绿素，吸收红光和蓝光进行光合作用。绿光不被吸收，所以反射回我们眼睛。这就是为什么叶子看起来是绿色的。这个颜色不是随机的——叶绿素进化出来捕获最有用的光波长来制造食物！",
-        "错误。叶子颜色关乎光合作用的光吸收，而非热量。叶绿素吸收红光和蓝光获取能量，反射我们看到的绿光。",
-        "错误。叶子不是为了与环境伪装而呈绿色。绿色是叶绿素反射绿光同时吸收红蓝光进行光合作用的副产品。"
+        "错误。进化并非依据色素成本效益运作。叶绿素之所以进化，是因为它能有效捕捉对光合作用最有用的光波波长。",
+        "没错！叶子含有叶绿素，它能吸收红光和蓝光进行光合作用。绿光不被吸收，因此反射回我们的眼睛，这就是叶子看起来是绿色的原因。这种颜色并非偶然——叶绿素在进化过程中选择了捕捉对制造食物最有用的光波长！",
+        "错误。叶子的颜色与光合作用中光的吸收有关，而非热量。叶绿素吸收红光和蓝光以获取能量，反射出我们看到的绿光。",
+        "不对。叶子并非为了伪装环境而呈绿色。绿色是叶绿素在吸收红光和蓝光进行光合作用时反射绿光所产生的副产品。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_001"
     },
     {
-      "id": "plant_002",
       "question_en": "Why do flowers have bright colors?",
-      "question_zh": "为什么花朵有鲜艳颜色？",
-
+      "question_zh": "花为何色彩鲜艳？",
       "choices_en": [
         "To absorb more sunlight",
         "To attract pollinators",
@@ -48,7 +47,7 @@
       "choices_zh": [
         "吸收更多阳光",
         "吸引传粉者",
-        "防止紫外线",
+        "防紫外线",
         "显示健康"
       ],
       "correct_answer": 1,
@@ -59,18 +58,19 @@
         "Wrong. Flower colors aren't health indicators for other plants. They evolved specifically to attract animal pollinators through visual signals."
       ],
       "explanations_zh": [
-        "错误。花朵不需要吸收阳光——那是含有叶绿素的叶子的工作。花朵颜色是为了吸引传粉者，而非光合作用。",
-        "正确！鲜艳的花色吸引蜜蜂、蝴蝶和鸟类等传粉者。不同颜色吸引不同动物：蜜蜂看到紫外线图案，蜂鸟喜欢红色，蝴蝶喜欢鲜艳颜色。这种伙伴关系帮助植物繁殖。花越有吸引力，访问次数越多！",
-        "错误。虽然某些色素可能提供轻微的紫外线保护，但鲜艳花色的主要功能是吸引传粉者进行繁殖。",
-        "错误。花朵颜色不是给其他植物的健康指标。它们的进化专门是为了通过视觉信号吸引动物传粉者。"
+        "不对。花朵不需要吸收阳光——那是含有叶绿素的叶子的任务。花色是为了吸引传粉者，而非进行光合作用。",
+        "没错！鲜艳的花朵颜色能吸引蜜蜂、蝴蝶和鸟类等传粉者。不同的颜色会吸引不同的动物：蜜蜂能看到紫外线图案，蜂鸟偏爱红色，蝴蝶则喜欢鲜艳的色彩。这种合作关系有助于植物繁殖。花朵越吸引人，来访的传粉者就越多！",
+        "错误。虽然某些色素可能提供轻微的紫外线防护，但鲜艳花朵颜色的主要功能是吸引传粉者以促进繁殖。",
+        "错误。花的颜色并非其他植物的健康指标，它们是通过视觉信号专门进化来吸引动物传粉者的。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_002"
     },
     {
-      "id": "plant_003",
       "question_en": "Why do tree leaves change color?",
-      "question_zh": "为什么树叶会变色？",
-
+      "question_zh": "树叶为何变色？",
       "choices_en": [
         "Trees produce new pigments",
         "Chlorophyll breaks down",
@@ -78,10 +78,10 @@
         "Less water turns them brown"
       ],
       "choices_zh": [
-        "树木产生新色素",
+        "树木新生色素",
         "叶绿素分解",
-        "寒冷损坏叶子",
-        "缺水让它们变褐"
+        "寒天伤叶",
+        "缺水致其变褐"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -91,18 +91,19 @@
         "Wrong. Water deficiency causes wilting and browning, not the beautiful fall colors. Autumn colors come from chlorophyll breakdown revealing other pigments as trees recycle nutrients."
       ],
       "explanations_zh": [
-        "错误。树木在秋天不会产生新色素。黄色和橙色一直都在，只是被绿色叶绿素掩盖。只有红色色素有时是新产生的。",
-        "正确！秋天日照缩短，树木停止制造叶绿素。绿色消退，显露出一直存在的其他色素：黄色类胡萝卜素和橙色叶黄素。当糖分被困在叶子中时出现红色和紫色。这场色彩盛宴帮助树木通过回收养分为冬季做准备！",
-        "错误。寒冷不会损坏叶子来产生颜色。颜色变化是一个受控过程，叶绿素分解，显露出其他色素，树木为冬季做准备。",
-        "错误。缺水会导致枯萎和变褐，而非美丽的秋色。秋天颜色来自叶绿素分解显露出其他色素，树木回收养分。"
+        "不对。树木在秋天并不会产生新的色素。黄色和橙色其实一直都在，只是被绿色的叶绿素掩盖了。只有红色素有时会新生成。",
+        "正确！秋天，随着白昼变短，树木停止制造叶绿素，绿色褪去，显露出一直存在的其他色素：黄色的类胡萝卜素和橙色的叶黄素。当糖分被困在叶片中时，红色和紫色便会出现。这五彩斑斓的景象通过回收养分帮助树木为冬季做准备！",
+        "错误。寒冷并不会损伤叶子以产生颜色。颜色变化是一个受控过程，其中叶绿素分解，随着树木为冬季做准备，其他色素显现出来。",
+        "错误。缺水会导致枯萎和变黄，而非美丽的秋色。秋色来自叶绿素分解，当树木回收养分时，其他色素显现出来。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_003"
     },
     {
-      "id": "plant_004",
       "question_en": "Why do plants need sunlight?",
-      "question_zh": "为什么植物需要阳光？",
-
+      "question_zh": "植物为何需阳光？",
       "choices_en": [
         "To stay warm",
         "For photosynthesis to make food",
@@ -110,10 +111,10 @@
         "To grow taller"
       ],
       "choices_zh": [
-        "保持温暖",
-        "光合作用制造食物",
-        "蒸发水分",
-        "长得更高"
+        "保暖",
+        "光合作用制食",
+        "除湿",
+        "长高"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -123,18 +124,19 @@
         "Wrong. While plants do grow toward light, they don't need sunlight just to grow taller. They need light energy for photosynthesis to create the sugars that fuel all growth processes."
       ],
       "explanations_zh": [
-        "错误。虽然阳光提供温暖，但植物主要不是为了温度需要它。它们需要光能进行光合作用来制造食物。",
-        "正确！植物利用阳光作为光合作用的能量——一个将二氧化碳和水转化为葡萄糖（糖）和氧气的过程。这发生在叶绿体中，使用叶绿素。没有阳光，植物无法制造食物，最终会死亡。光就是它们的能量来源！",
-        "错误。植物不用阳光蒸发水分。事实上，阳光会增加蒸腾作用（失水），但植物需要光的主要原因是进行光合作用生产食物。",
-        "错误。虽然植物确实向光生长，但它们不只是为了长得更高才需要阳光。它们需要光能进行光合作用，产生为所有生长过程提供动力的糖。"
+        "不对。虽然阳光能带来温暖，但植物主要并非依赖它来调节温度。它们需要光能进行光合作用，以制造自己的养分。",
+        "正确！植物利用阳光作为光合作用的能量来源——这是一个将二氧化碳和水转化为葡萄糖（糖）和氧气的过程。这一过程发生在含有叶绿素的叶绿体中。没有阳光，植物就无法制造食物，最终会死亡。光实质上就是它们的能量来源！",
+        "错误。植物并非利用阳光来干燥水分。实际上，阳光会增加蒸腾作用（水分流失），但植物需要光的主要原因是进行光合作用以制造养分。",
+        "不对。虽然植物确实会向光生长，但它们不仅仅是为了长高才需要阳光。它们需要光能进行光合作用，以制造糖分来驱动所有生长过程。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_004"
     },
     {
-      "id": "plant_005",
       "question_en": "Why do trees shed leaves in autumn?",
-      "question_zh": "为什么树木秋天落叶？",
-
+      "question_zh": "树木为何秋天落叶？",
       "choices_en": [
         "Leaves die from cold",
         "To conserve water and energy",
@@ -142,10 +144,10 @@
         "Wind blows them off"
       ],
       "choices_zh": [
-        "叶子冻死了",
-        "保存水分和能量",
-        "为新生长腾空间",
-        "风吹落的"
+        "叶落知寒",
+        "节水节能",
+        "为新成长腾空间",
+        "风吹落它们"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -155,18 +157,19 @@
         "Wrong. Wind doesn't cause leaf drop - it just helps already-loose leaves fall. Trees actively disconnect leaves by creating an abscission layer that cuts off water and nutrients first."
       ],
       "explanations_zh": [
-        "错误。树木不是被动地因寒冷损害而失去叶子。落叶是一个主动的、受控的过程，树木形成特殊细胞来切断叶子并为冬季保存资源。",
-        "正确！树木落叶是一种生存策略。冬天冻土使水稀缺，叶子会通过蒸腾作用损失太多水分。通过落叶，树木减少失水并节省能量。它们用特殊层封闭叶子，重新吸收养分，然后让它们脱落。这叫休眠！",
-        "错误。树木不是为了给新叶腾空间而落叶。它们落叶是为了在严酷条件下通过保存水分和能量来度过冬天。",
-        "错误。风不会导致落叶——它只是帮助已经松动的叶子掉落。树木通过创建脱落层主动断开叶子，首先切断水和养分供应。"
+        "不对。树木并非因寒冷损伤而被动落叶。落叶是一个主动、受控的过程，树木会形成特殊细胞来切断叶子，以便为冬季保存资源。",
+        "正确！树木落叶是一种生存策略。冬季，土壤冻结导致水分稀缺，叶子会通过蒸腾作用失去大量水分。通过落叶，树木减少了水分流失并节省了能量。它们用特殊层封闭叶子，重新吸收养分，然后让叶子脱落。这被称为休眠期！",
+        "不对。树木落叶并非为了给新叶腾出空间，而是在环境恶劣时通过保存水分和能量来度过冬天。",
+        "不对。风并不会导致树叶掉落——它只是帮助已经松动的叶子落下。树木会主动断开叶子，先形成一层离层来切断水分和养分的供应。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_005"
     },
     {
-      "id": "plant_006",
       "question_en": "Why do cacti store water?",
-      "question_zh": "为什么仙人掌储水？",
-
+      "question_zh": "仙人掌为何储水？",
       "choices_en": [
         "Desert survival adaptation",
         "To stay cool in heat",
@@ -175,9 +178,9 @@
       ],
       "choices_zh": [
         "沙漠生存适应",
-        "在高温下保持凉爽",
-        "防御捕食者",
-        "支撑沉重花朵"
+        "消暑良方",
+        "防天敌",
+        "繁花承重"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -187,18 +190,19 @@
         "Wrong. Cacti don't store water to support flowers. Water storage evolved to survive desert droughts where rain might not come for months or even years."
       ],
       "explanations_zh": [
-        "正确！仙人掌在雨水稀少的沙漠中进化。它们在厚实多肉的茎中储水（不是叶子——那些变成刺了！）。它们像手风琴般的棱在罕见的雨后膨胀以容纳水分。蜡质涂层防止蒸发。一些仙人掌靠储存的水可以存活一年不下雨。完美的沙漠适应！",
-        "错误。虽然储存的水帮助仙人掌忍受高温，但储水的主要原因是在长期干旱期间生存。仙人掌不能依赖沙漠中频繁的降雨。",
-        "错误。仙人掌的刺（变形的叶子）防御捕食者，但储水是为了度过干旱。充满水分的组织实际上对口渴的沙漠动物很有吸引力！",
-        "错误。仙人掌储水不是为了支撑花朵。储水进化是为了在可能数月甚至数年不下雨的沙漠干旱中生存。"
+        "正确！仙人掌是在雨水稀少的沙漠中演化而来的。它们将水分储存在粗壮多肉的茎中（而非叶片——叶子已演变成刺！）。其手风琴般的肋条在罕见降雨后能扩张以储存水分。蜡质表层可防止水分蒸发。有些仙人掌依靠储存的水分，能在一年无雨的情况下存活。堪称完美的沙漠适应典范！",
+        "错误。虽然储存水分有助于仙人掌耐热，但其储水的主要原因是为了在长期干旱期间生存。沙漠中的仙人掌无法依赖频繁的降雨。",
+        "不对。仙人掌的刺（由叶子演化而来）是用来防御捕食者的，而储水则是为了在干旱中生存。实际上，充满水分的组织对口渴的沙漠动物来说极具吸引力！",
+        "错误。仙人掌储水并非为了供养花朵，而是为了在沙漠干旱中生存，那里可能数月甚至数年无雨。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_006"
     },
     {
-      "id": "plant_007",
       "question_en": "Why do bamboo grow so fast?",
-      "question_zh": "为什么竹子生长如此快？",
-
+      "question_zh": "竹子为何生长迅速？",
       "choices_en": [
         "Hollow stems are lightweight",
         "Pre-formed cells expand rapidly",
@@ -206,9 +210,9 @@
         "High water absorption rate"
       ],
       "choices_zh": [
-        "空心茎轻便",
-        "预制细胞快速扩张",
-        "深根吸取养分",
+        "空心茎秆轻质",
+        "预成细胞速扩",
+        "根深汲取养",
         "高吸水率"
       ],
       "correct_answer": 1,
@@ -219,18 +223,19 @@
         "Wrong. Though bamboo does absorb water to expand cells, the real reason for speed is that all cells are pre-formed underground and just need to inflate, rather than being created during growth."
       ],
       "explanations_zh": [
-        "错误。虽然空心茎帮助竹子轻便灵活，但它们不能解释生长速度。竹子生长快是因为细胞已经在地下形成，只是扩张而已。",
-        "正确！竹子的秘密是所有细胞首先在地下笋中创建。当条件合适时，这些预制细胞只需充满水分并扩张——就像给气球充气！有些品种24小时长91厘米。竹子还有节，允许各段同时生长。地球上生长最快的植物！",
-        "错误。虽然竹子确实有广泛的地下根状茎（不是深根），但快速生长来自预制细胞用水快速扩张，而非快速吸取养分。",
-        "错误。虽然竹子确实吸水扩张细胞，但速度的真正原因是所有细胞都在地下预制，只需充气，而非在生长期间创建。"
+        "不对。虽然中空的茎干让竹子变得轻便灵活，但这并不能解释其生长速度。竹子之所以长得快，是因为细胞在地下已经形成，只需扩张即可。",
+        "没错！竹子的秘密在于所有细胞都是先在地下竹笋中形成的。当条件适宜时，这些预先形成的细胞就会像吹气球一样吸水膨胀！有些品种在24小时内能长高91厘米。竹子还有竹节结构，使得各段能同步生长。它是地球上生长最快的植物！",
+        "错误。虽然竹子确实有广泛的地下根茎（并非深根），但其快速生长源于预先形成的细胞在水分作用下迅速扩张，而非快速吸收养分。",
+        "错误。虽然竹子确实通过吸水使细胞膨胀，但其快速生长的真正原因在于所有细胞在地下已预先形成，只需充水膨胀，而非在生长过程中生成。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_007"
     },
     {
-      "id": "plant_008",
       "question_en": "Why do sunflowers follow the sun?",
-      "question_zh": "为什么向日葵跟随太阳？",
-
+      "question_zh": "向日葵为何向日？",
       "choices_en": [
         "Maximize photosynthesis",
         "Keep petals warm",
@@ -239,9 +244,9 @@
       ],
       "choices_zh": [
         "最大化光合作用",
-        "保持花瓣温暖",
+        "花瓣保暖",
         "吸引更多蜜蜂",
-        "防止失水"
+        "防止水分流失"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -251,18 +256,19 @@
         "Wrong. Sun tracking isn't about water conservation. Sunflowers follow the sun to capture maximum light for photosynthesis. They use auxin hormones to grow faster on shaded sides, turning toward light."
       ],
       "explanations_zh": [
-        "正确！年轻向日葵白天从东向西追踪太阳（向日性）。这通过保持叶子垂直于阳光来最大化光合作用。晚上，它们转回东方迎接日出。机制涉及生长激素：生长素在阴暗面积累，导致那里生长更快，使植物转向光。成熟向日葵停止移动并面向东方！",
-        "错误。向日葵追踪太阳不是为了温暖花瓣。年轻植物跟随太阳是为了最大化光捕获进行光合作用。有趣的是，成熟向日葵停止移动并永久面向东方。",
-        "错误。虽然面向东方的成熟向日葵确实在温暖的早晨阳光下吸引更多蜜蜂，但年轻向日葵追踪太阳专门是为了最大化光合作用促进生长。",
-        "错误。追踪太阳与水分保存无关。向日葵跟随太阳是为了捕获最大光量进行光合作用。它们使用生长素激素在阴暗面生长更快，转向光。"
+        "正确！幼嫩的向日葵在白天会随着太阳从东向西转动（向光性）。这通过保持叶片与阳光垂直来最大化光合作用效率。到了夜晚，它们会转回东方迎接日出。其机制涉及生长激素：生长素在背光侧积累，导致该侧生长更快，从而使植株转向光源。成熟的向日葵则会停止转动，固定朝东！",
+        "不对。向日葵并非通过追随太阳来温暖花瓣，幼株追随太阳是为了最大限度地获取光照以进行光合作用。有趣的是，成熟的向日葵会停止转动，永久地朝向东方。",
+        "错误。虽然朝东的成熟向日葵在温暖的早晨阳光下确实能吸引更多蜜蜂，但年轻的向日葵追随太阳主要是为了最大限度地提高光合作用以促进生长。",
+        "不对。向日葵追踪太阳并非为了节水，而是为了获取最大光照进行光合作用。它们通过生长素在背光侧加速生长，从而转向光源。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_008"
     },
     {
-      "id": "plant_009",
       "question_en": "Why do fruits taste sour or sweet?",
-      "question_zh": "为什么水果有酸甜味？",
-
+      "question_zh": "水果为何酸甜？",
       "choices_en": [
         "Random genetic variation",
         "Ripeness signals for animals",
@@ -271,9 +277,9 @@
       ],
       "choices_zh": [
         "随机基因变异",
-        "成熟度对动物信号",
-        "温度影响味道",
-        "土壤酸碱度决定"
+        "动物成熟信号",
+        "温度影响风味",
+        "土壤酸碱定风味"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -283,18 +289,19 @@
         "Wrong. Soil pH doesn't directly determine fruit taste. The sour-to-sweet change happens during ripening as plants convert acids to sugars, signaling animals that seeds are ready for dispersal."
       ],
       "explanations_zh": [
-        "错误。水果风味不是随机的。它们专门作为对动物的信号而进化。酸的未熟水果说'还没准备好'，而甜的成熟水果说'吃我并传播我的种子！'",
-        "正确！水果酸甜是与动物的交流。未熟水果是酸的（高酸低糖）以阻止在种子成熟前被吃掉。成熟水果将酸转化为糖，变甜以吸引动物。动物吃甜果，走开，在粪便中沉积种子。进化的完美伙伴关系用于种子传播！",
-        "错误。虽然温度会影响某些水果的糖生产，但酸到甜的转变主要是关于成熟信号，而非温度。这是种子传播的进化策略。",
-        "错误。土壤酸碱度不直接决定水果味道。酸到甜的变化发生在成熟期间，植物将酸转化为糖，向动物发出种子准备好传播的信号。"
+        "不对。水果的味道并非随意形成，它们是专门为向动物传递信号而演化出来的。酸涩的未成熟果实意味着“还没好”，而甜美的成熟果实则在说“快吃了我，传播我的种子吧！”",
+        "正确！水果的甜或酸是与动物交流的方式。未成熟的水果味道酸（高酸低糖），以防止在种子成熟前被吃掉。成熟的水果将酸转化为糖，变得甜美以吸引动物。动物食用甜果后离开，通过粪便传播种子。这是进化中种子传播的完美合作！",
+        "错误。虽然温度会影响某些水果中糖分的产生，但酸转甜的过程主要与成熟信号有关，而非温度。这是一种种子传播的进化策略。",
+        "错误。土壤的酸碱度并不直接决定果实的味道。酸转甜的变化发生在果实成熟过程中，植物将酸转化为糖分，以此向动物传递种子已准备好传播的信号。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_009"
     },
     {
-      "id": "plant_010",
       "question_en": "Why do plants grow towards light?",
-      "question_zh": "为什么植物向光生长？",
-
+      "question_zh": "植物为何向光生长？",
       "choices_en": [
         "Light pulls plants magnetically",
         "Auxin hormone causes bending",
@@ -302,10 +309,10 @@
         "Roots push from darkness"
       ],
       "choices_zh": [
-        "光磁性吸引植物",
-        "生长素激素导致弯曲",
-        "受光侧长得更快",
-        "根从黑暗处推"
+        "光磁引植",
+        "生长素致弯",
+        "光明面增长快",
+        "根自暗生"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -315,18 +322,19 @@
         "Wrong. Roots don't push plants toward light. The bending is caused by auxin hormone making cells on the shaded side of the stem elongate faster, turning the plant toward light."
       ],
       "explanations_zh": [
-        "错误。光不会磁性吸引植物。植物通过激素介导的过程向光生长，阴暗面的细胞伸长，使植物弯向光源。",
-        "正确！这叫向光性。当光照射一侧时，生长素（生长激素）移向阴暗面。生长素使细胞伸长更快，所以暗面长得更长，茎弯向光。这与你预期的相反——阴暗面生长更多！这确保最大光合作用。达尔文发现的！",
-        "错误。实际上，相反才是真的！由于生长素积累，阴暗面生长更快，导致植物弯向光。受光面生长较慢，而非更快。",
-        "错误。根不会把植物推向光。弯曲是由生长素激素使茎阴暗面的细胞伸长更快引起的，使植物转向光。"
+        "错误。光线并非以磁力吸引植物。植物向光生长是通过激素调节的过程实现的，其中背光面的细胞会伸长，从而使植物向光源方向弯曲。",
+        "正确！这被称为向光性。当光线照射到一侧时，生长素（一种生长激素）会移动到背光侧。生长素促使细胞更快地伸长，因此背光侧生长得更长，使茎干向光源弯曲。这与你的预期相反——背光侧反而长得更多！这确保了光合作用最大化。这是达尔文发现的！",
+        "不对。实际上恰恰相反！由于生长素积累，背光侧生长得更快，导致植物向光弯曲。向光侧生长较慢，而非更快。",
+        "不对。根不会推动植物向光生长。植物的弯曲是由于生长素使得茎部背光一侧的细胞伸长更快，从而使植物转向光源。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_010"
     },
     {
-      "id": "plant_011",
       "question_en": "Why do pine trees stay green in winter?",
-      "question_zh": "为什么松树冬天保持绿色？",
-
+      "question_zh": "松树冬青何故？",
       "choices_en": [
         "Needles are freeze-resistant",
         "Produce antifreeze chemicals",
@@ -334,10 +342,10 @@
         "Needles have waxy coating"
       ],
       "choices_zh": [
-        "针叶抗冻",
-        "产生防冻化学物质",
-        "继续缓慢光合作用",
-        "针叶有蜡质层"
+        "针具耐寒",
+        "生产防冻剂",
+        "缓慢光合作用",
+        "针有蜡涂层"
       ],
       "correct_answer": 3,
       "explanations_en": [
@@ -347,18 +355,19 @@
         "Correct! Pine needles have thick waxy coating and small surface area, which minimizes water loss through transpiration. This makes it efficient to keep them year-round rather than regrow annually. Needle shape, waxy cuticle, and sunken stomata all reduce water loss. In harsh climates where growing season is short, keeping needles saves energy. That's why they're 'evergreen'!"
       ],
       "explanations_zh": [
-        "错误。虽然针叶在某种程度上能抵抗冰冻，但这不是它们保持绿色的原因。针叶的蜡质层和小表面积防止失水，使松树能够常年保留它们。",
-        "错误。虽然松树确实有一些类似防冻剂的化合物，但它们保留针叶的主要原因是蜡质层和小表面积与阔叶相比大幅减少失水。",
-        "错误。虽然常绿植物在冬天可以缓慢进行光合作用，但它们保持绿色针叶主要是因为蜡质层和小尺寸防止失水，使全年保留它们变得高效。",
-        "正确！松针有厚蜡质层和小表面积，最大限度减少通过蒸腾作用失水。这使得全年保留它们比每年重新生长更高效。针叶形状、蜡质角质层和下陷气孔都减少失水。在生长季短的严酷气候中，保留针叶节省能量。这就是为什么它们是'常绿'的！"
+        "错误。虽然针叶能一定程度上抵抗冰冻，但这并非它们保持绿色的原因。针叶表面的蜡质层和小面积减少了水分流失，使得松树能够全年保留它们。",
+        "错误。尽管松树确实含有一些类似防冻剂的化合物，但它们能保留针叶的主要原因在于其蜡质涂层和较小的表面积，相比阔叶树，这大大减少了水分流失。",
+        "错误。尽管常绿树木在冬季能缓慢进行光合作用，但它们保持绿叶主要是因为蜡质表层和细小的叶片能防止水分流失，这使得全年保留叶片更为高效。",
+        "正确！松针具有厚厚的蜡质层和小表面积，这能最大限度地减少通过蒸腾作用流失的水分，因此全年保留它们比每年重新生长更高效。针状形态、蜡质角质层和下陷的气孔都有助于减少水分流失。在生长季节短暂的恶劣气候中，保留针叶能节省能量。这就是它们被称为“常青树”的原因！"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_011"
     },
     {
-      "id": "plant_012",
       "question_en": "Why do onions have layers?",
-      "question_zh": "为什么洋葱有层？",
-
+      "question_zh": "洋葱为何分层？",
       "choices_en": [
         "Modified leaves store food",
         "Protection from insects",
@@ -366,10 +375,10 @@
         "Help absorb water"
       ],
       "choices_zh": [
-        "变形叶储存食物",
-        "防御昆虫",
-        "多个生长季节",
-        "帮助吸水"
+        "变态叶储养分",
+        "防虫",
+        "多季生长",
+        "助吸水"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -379,18 +388,19 @@
         "Wrong. Onion layers don't help absorb water - that's the job of roots below the bulb. Layers are modified leaves that store food produced by the green leaves above ground."
       ],
       "explanations_zh": [
-        "正确！洋葱层实际上是附着在短地下茎（鳞茎）上的变形叶，称为'鳞片'。鳞茎是一个储存器官，洋葱在那里保存光合作用制造的食物（糖）。每一肉质层都是充满营养的鳞片叶。这种储存的能量帮助洋葱度过休眠期，并在条件改善时快速生长。不是所有洋葱都形成鳞茎——大葱就不！",
-        "错误。洋葱层不是为了防御昆虫。它们是储存植物食物（糖和营养）的变形叶。洋葱鳞茎是一个地下储存器官，用于在不利条件下生存。",
-        "错误。层不代表多个季节。每层都是储存食物的变形叶鳞片。鳞茎在一个季节形成作为生存策略，储存养分用于休眠和未来生长。",
-        "错误。洋葱层不帮助吸水——那是鳞茎下面根的工作。层是变形叶，储存地上绿叶产生的食物。"
+        "正确！洋葱的鳞片实际上是附着在地下短茎（鳞茎）上的特化叶片，称为“鳞片”。鳞茎是洋葱储存光合作用所制造食物（糖分）的贮藏器官。每一片肉质层都是富含营养的鳞叶，这些储存的能量帮助洋葱在休眠期存活，并在条件改善时迅速生长。并非所有洋葱都形成鳞茎——例如青葱就不会！",
+        "不对。洋葱层并非用于防虫，它们是植物的变态叶，用于储存食物（糖分和养分）。洋葱鳞茎是地下储藏器官，帮助植物在不利条件下生存。",
+        "错误。鳞片并不代表多个季节。每一层都是储存养分的变态叶鳞。鳞茎在一个季节内形成，作为生存策略，为休眠和未来生长储存营养。",
+        "不对。洋葱的鳞片并不帮助吸收水分——那是球茎下方根部的职责。鳞片是变态叶，用于储存地上绿叶制造的食物。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_012"
     },
     {
-      "id": "plant_013",
       "question_en": "Why do seeds need soil?",
-      "question_zh": "为什么种子需要土壤？",
-
+      "question_zh": "种子为何需土壤？",
       "choices_en": [
         "Soil provides nutrients and support",
         "Seeds can't grow in water",
@@ -398,10 +408,10 @@
         "Soil activates germination"
       ],
       "choices_zh": [
-        "土壤提供养分和支撑",
-        "种子不能在水中生长",
-        "防止阳光照射",
-        "土壤激活发芽"
+        "土壤滋养万物",
+        "种子水中不生",
+        "防晒",
+        "土壤促发芽"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -411,18 +421,19 @@
         "Wrong. Soil doesn't 'activate' germination - water, oxygen, and suitable temperature do. Soil is important because it provides support, retains moisture, and supplies nutrients, but germination can happen without it (like in wet paper towels)."
       ],
       "explanations_zh": [
-        "正确！种子需要土壤有多个原因：它为根提供物理支撑以固定，保持水分用于发芽，在种子储存的食物用完后提供矿物营养，并提供保护。土壤结构允许空气循环供根呼吸。然而，种子并非绝对需要土壤——水培证明植物可以在含有溶解养分的水中生长。但土壤是大自然的完美生长介质！",
-        "错误。种子实际上可以在没有土壤的情况下发芽和生长！水培系统在含有溶解养分的水中种植植物。土壤理想是因为它提供支撑、养分和水分，但不是绝对必需的。",
-        "错误。种子不需要土壤来防止阳光照射。许多种子实际上需要光来发芽。土壤提供物理支撑、养分和水分——这就是为什么它很重要。",
-        "错误。土壤不会'激活'发芽——水、氧气和适宜温度才会。土壤重要是因为它提供支撑、保持水分和供应养分，但发芽可以在没有它的情况下发生（如在湿纸巾中）。"
+        "正确！种子需要土壤有多重原因：它为根系提供物理支撑以固定植株，保持水分促进萌发，在种子储存的养分耗尽后提供矿物质营养，并起到保护作用。土壤结构还能让空气流通，利于根系呼吸。不过，种子并非绝对依赖土壤——水培技术证明植物可以在含有溶解养分的水中生长。但土壤始终是大自然最理想的生长介质！",
+        "错误。实际上，种子没有土壤也能发芽生长！水培系统就是在含有溶解养分的水中培育植物。土壤之所以理想，是因为它能提供支撑、养分和水分，但这并非绝对必需。",
+        "错误。种子不需要土壤来遮挡阳光，许多种子实际上需要光照才能发芽。土壤提供物理支撑、养分和水分——这才是它重要的原因。",
+        "错误。土壤并不“激活”发芽过程——水分、氧气和适宜的温度才是关键。土壤的重要性在于它能提供支撑、保持水分并供应养分，但即便没有土壤（例如在湿纸巾中），种子也能发芽。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_013"
     },
     {
-      "id": "plant_014",
       "question_en": "Why do some plants close at night?",
-      "question_zh": "为什么有些植物夜间闭合？",
-
+      "question_zh": "为何植物夜晚闭合？",
       "choices_en": [
         "Nyctinasty conserves energy",
         "Sleep like animals do",
@@ -430,9 +441,9 @@
         "Prevent pollen loss"
       ],
       "choices_zh": [
-        "感夜性节省能量",
-        "像动物一样睡觉",
-        "躲避夜间昆虫",
+        "夜合节能",
+        "睡如动物",
+        "避夜虫",
         "防止花粉流失"
       ],
       "correct_answer": 0,
@@ -443,12 +454,147 @@
         "Wrong. Most plants that close at night are folding leaves, not flowers. Flower closing (different mechanism) does protect pollen, but leaf nyctinasty is about conserving water, energy, and reducing heat loss through circadian rhythms."
       ],
       "explanations_zh": [
-        "正确！这叫感夜性——由昼夜节律控制的睡眠运动。像祈祷植物、含羞草和三叶草这样的植物在夜间折叠叶子以节省能量和水分，减少热量损失，并防御夜间寒冷。叶基部的特殊细胞（叶枕）改变压力以移动叶子。一些理论认为它降低真菌感染风险或防止捕食。这不是真正的睡眠，而是有节律的日常运动！",
-        "错误。植物不像动物那样睡觉（没有大脑或神经系统）。感夜性是一种昼夜节律反应，植物折叠叶子以节省水分，减少热量损失，并防御寒冷——不是真正的睡眠。",
-        "错误。虽然闭合可能偶然阻止一些昆虫，但感夜性的主要目的是通过昼夜节律控制的运动来节省水分和能量，减少热量损失，并防御夜间低温。",
-        "错误。大多数夜间闭合的植物是折叠叶子，而非花朵。花朵闭合（不同机制）确实保护花粉，但叶片感夜性是通过昼夜节律节省水分、能量和减少热量损失。"
+        "正确！这被称为感夜性——由昼夜节律控制的睡眠运动。像祈祷草、含羞草和三叶草这类植物在夜晚会合拢叶片，以节省能量和水分、减少热量散失，并抵御夜间寒冷。叶基部的特殊细胞（叶枕）通过改变压力来移动叶片。有理论认为这能降低真菌感染风险或防止被啃食。这并非真正的睡眠，而是有节律的日常活动！",
+        "错误。植物不像动物那样睡觉（没有大脑或神经系统）。夜动性是一种昼夜节律反应，植物通过折叠叶子来保存水分、减少热量散失并抵御寒冷——并非真正的睡眠。",
+        "错误。虽然闭合可能偶然阻止一些昆虫，但感夜性的主要目的是通过昼夜节律控制的运动来节约水分和能量，减少热量散失，并在夜间抵御低温。",
+        "错误。大多数在夜晚闭合的植物是折叠叶片，而非花朵。花朵闭合（机制不同）确实能保护花粉，但叶片夜动则是通过昼夜节律来保存水分、能量并减少热量散失。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "plant_014"
+    },
+    {
+      "question_en": "Why do some plants eat insects?",
+      "question_zh": "为什么有些植物会捕食昆虫？",
+      "choices_en": [
+        "Insects taste good to plants",
+        "Poor soil lacks nutrients",
+        "Plants evolved to hunt",
+        "Insects damage the plants"
+      ],
+      "choices_zh": [
+        "植物觉得昆虫味道不错",
+        "贫瘠的土壤缺乏养分。",
+        "植物进化出了捕猎的能力。",
+        "昆虫损害植物。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Plants don't taste anything. They digest insects for nutrients, not flavor.",
+        "Correct! Carnivorous plants like Venus flytraps grow in nutrient-poor soil, especially lacking nitrogen. Catching insects supplements their diet. They still photosynthesize for energy—insects provide nutrients they can't get from poor soil!",
+        "Wrong. Plants don't actively hunt like animals. They use passive traps and haven't evolved predatory behavior.",
+        "Wrong. Plants trap insects for nutrition, not defense. They actually need insects to survive in poor soil."
+      ],
+      "explanations_zh": [
+        "不对。植物并不品尝任何东西。它们消化昆虫是为了获取营养，而不是为了味道。",
+        "没错！像捕蝇草这样的食肉植物生长在营养贫瘠的土壤中，尤其缺乏氮元素。捕捉昆虫可以补充它们的营养需求。它们仍通过光合作用获取能量——昆虫提供了它们无法从贫瘠土壤中获得的养分！",
+        "错误。植物不像动物那样主动捕猎，它们采用被动陷阱，并未进化出捕食行为。",
+        "错误。植物捕捉昆虫是为了获取营养，而非自卫。实际上，在贫瘠的土壤中，它们需要昆虫才能生存。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:37:17.233652+00:00",
+      "last_modified_at": "2025-11-21T04:37:17.233652+00:00",
+      "id": "plant_015"
+    },
+    {
+      "question_en": "Why do roses have thorns?",
+      "question_zh": "为什么玫瑰有刺？",
+      "choices_en": [
+        "Protection from animals",
+        "To collect water drops",
+        "Help climbing structures",
+        "Thorns store nutrients"
+      ],
+      "choices_zh": [
+        "防止动物伤害",
+        "收集水滴",
+        "攀爬架辅助",
+        "刺储存养分"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Thorns evolved to protect roses from being eaten by animals. They deter herbivores and browsers. Interestingly, rose thorns are technically 'prickles'—sharp outgrowths of the stem surface, not modified leaves or branches!",
+        "Wrong. Thorns don't significantly collect water. Defense against herbivores is their primary function.",
+        "Wrong. While some thorny plants climb, rose thorns primarily serve defense, not climbing support.",
+        "Wrong. Thorns don't store nutrients. They're defensive structures, not storage organs."
+      ],
+      "explanations_zh": [
+        "正确！玫瑰的刺是为了保护自己不被动物吃掉而进化出来的，它们能阻止食草动物和啃食者。有趣的是，玫瑰的刺严格来说属于“皮刺”——是茎表面尖锐的突起物，而非叶子或枝条的变形！",
+        "错误。刺并不显著地收集水分，其主要功能是防御食草动物。",
+        "错误。虽然有些带刺植物会攀爬，但玫瑰的刺主要起防御作用，而非攀爬辅助。",
+        "错误。刺并不储存养分，它们是防御结构，而非储存器官。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:37:32.379491+00:00",
+      "last_modified_at": "2025-11-21T04:37:32.379491+00:00",
+      "id": "plant_016"
+    },
+    {
+      "question_en": "Why do seeds need darkness to sprout?",
+      "question_zh": "种子为何需要在黑暗中发芽？",
+      "choices_en": [
+        "Light damages baby plants",
+        "Darkness provides energy",
+        "Darkness signals soil depth",
+        "Seeds sleep in darkness"
+      ],
+      "choices_zh": [
+        "光线会损害幼苗。",
+        "黑暗提供能量",
+        "黑暗预示着土壤的深度",
+        "种子在黑暗中沉睡"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Light doesn't damage seedlings. Many seeds actually need light to germinate.",
+        "Wrong. Darkness provides no energy. Seeds use stored energy regardless of light conditions.",
+        "Correct! Many seeds use darkness as a signal they're buried deep enough for safe growth. Light-requiring seeds won't sprout if buried too deep. This adaptation prevents wasted energy sprouting in poor conditions. Not all seeds need darkness though!",
+        "Wrong. Seeds don't sleep. They're metabolically inactive until conditions trigger germination."
+      ],
+      "explanations_zh": [
+        "错误。光线不会损害幼苗。实际上，许多种子需要光照才能发芽。",
+        "不对。黑暗不提供能量。无论光照条件如何，种子都使用储存的能量。",
+        "正确！许多种子将黑暗视为它们埋得足够深、能安全生长的信号。需要光照的种子如果埋得太深就不会发芽。这种适应机制避免了在不良条件下浪费能量发芽。不过，并非所有种子都需要黑暗！",
+        "不对。种子并不休眠，它们在条件触发萌发前代谢活动处于停滞状态。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:37:48.506279+00:00",
+      "last_modified_at": "2025-11-21T04:37:48.506279+00:00",
+      "id": "plant_017"
+    },
+    {
+      "question_en": "Why do trees have rings inside?",
+      "question_zh": "为什么树木内部有年轮？",
+      "choices_en": [
+        "Bark grows inward yearly",
+        "Growth varies by season",
+        "Rings transport water",
+        "Trees mark their age"
+      ],
+      "choices_zh": [
+        "树皮每年向内生长。",
+        "生长情况因季节而异。",
+        "戒指运输水",
+        "树木记录着它们的年轮。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Bark is on the outside. Rings form from new wood growth in the center, not bark.",
+        "Correct! Trees grow faster in spring/summer (light ring) and slower in fall (dark ring). Each pair is one year. Ring width shows growing conditions—thick rings mean good years. Scientists use rings to study climate history going back thousands of years!",
+        "Wrong. Water flows through the outer rings, but rings form from seasonal growth differences, not water transport.",
+        "Wrong. Rings don't intentionally mark age—they're a byproduct of seasonal growth variation."
+      ],
+      "explanations_zh": [
+        "不对。树皮长在外部。年轮是由中心新木质的生长形成的，而不是树皮。",
+        "正确！树木在春夏生长较快（浅色年轮），秋季较慢（深色年轮）。每对年轮代表一年，年轮宽度反映生长环境——宽年轮意味着风调雨顺。科学家通过年轮可追溯数千年的气候历史！",
+        "错误。水流经的是外层年轮，但年轮的形成源于季节生长差异，而非水分输送。",
+        "不对。年轮并非有意标记树木的年龄，它们是季节性生长变化的自然产物。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:38:05.390756+00:00",
+      "last_modified_at": "2025-11-21T04:38:05.390756+00:00",
+      "id": "plant_018"
     }
   ]
 }

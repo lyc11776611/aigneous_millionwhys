@@ -3,9 +3,8 @@
   "category_zh": "身边的化学",
   "questions": [
     {
-      "id": "chem_001",
       "question_en": "Why do onions make us cry?",
-      "question_zh": "为什么切洋葱会流泪？",
+      "question_zh": "洋葱为何催泪？",
       "choices_en": [
         "They contain spicy chemicals",
         "They release gas forming acid",
@@ -13,9 +12,9 @@
         "Tiny particles irritate eyes"
       ],
       "choices_zh": [
-        "含有辛辣化学物质",
-        "释放气体形成酸",
-        "气味刺激泪腺",
+        "内含辛辣成分",
+        "释放成酸气体",
+        "气味催泪",
         "微粒刺激眼睛"
       ],
       "correct_answer": 1,
@@ -26,17 +25,19 @@
         "Wrong. There are no particles from onions irritating your eyes. It's actually a gas (propanethial S-oxide) that reaches your eyes and forms sulfuric acid when it mixes with tears."
       ],
       "explanations_zh": [
-        "错误。虽然洋葱确实含有强烈的化合物，但引起流泪的不仅仅是辛辣。具体机制涉及在眼睛中产生硫酸的化学反应。",
-        "正确！切洋葱时释放的酶与硫化合物反应产生气体。这种气体到达眼睛后与泪液反应形成硫酸。眼睛产生更多泪水来冲洗刺激物。冷藏洋葱有助于减少这种反应！",
-        "错误。不是气味引发流泪。洋葱释放的气体与眼睛中的水分发生化学反应形成酸，从而引起刺激和流泪。",
-        "错误。不是洋葱的微粒刺激眼睛。实际上是一种气体（丙硫醛S-氧化物）到达眼睛后与泪液混合形成硫酸。"
+        "错误。虽然洋葱确实含有强烈的化合物，但不仅仅是“辣”导致流泪。具体机制涉及一种化学反应，会在眼睛中产生硫酸。",
+        "没错！切洋葱时，酶被释放出来与硫化合物反应生成气体。这种气体进入眼睛，与泪水反应形成硫酸。眼睛会分泌更多泪水来冲走刺激物。冷藏洋葱有助于减少这种反应！",
+        "不对。让你流泪的不是气味。洋葱中的气体与眼睛中的水分发生化学反应，生成酸，这种酸刺激眼睛并导致流泪。",
+        "不对。并非洋葱的颗粒刺激你的眼睛。实际上是一种气体（丙硫醛-S-氧化物）进入眼睛，在与泪水混合时形成硫酸。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_001"
     },
     {
-      "id": "chem_002",
       "question_en": "Why does soap clean dishes?",
-      "question_zh": "为什么肥皂能洗干净碗？",
+      "question_zh": "肥皂为何能去污？",
       "choices_en": [
         "It dissolves everything",
         "Molecules grab water and oil",
@@ -44,10 +45,10 @@
         "It creates hot water"
       ],
       "choices_zh": [
-        "溶解所有东西",
-        "分子同时抓住水和油",
-        "杀死所有细菌",
-        "产生热水"
+        "万物皆溶",
+        "分子吸水吸油",
+        "杀灭所有细菌",
+        "制热水"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -57,17 +58,19 @@
         "Wrong. Soap doesn't create hot water. Hot water can help cleaning by making oils more fluid, but soap's cleaning power comes from its molecules that can simultaneously bind to both water and oil."
       ],
       "explanations_zh": [
-        "错误。肥皂不会溶解所有东西。许多物质如玻璃、陶瓷和某些塑料不受肥皂影响。肥皂专门通过其独特的分子结构作用于油和脂肪。",
-        "正确！肥皂分子很特别：一端亲水，另一端亲油。洗碗时，肥皂用亲油端包围油脂，亲水端朝外。这样水就能冲走油脂了。它就像油和水之间的分子桥梁！",
-        "错误。虽然有些肥皂具有抗菌特性，但这不是它们清洁碗碟的方式。主要的清洁作用来自能够同时结合水和油的分子结构，去除油脂。",
-        "错误。肥皂不会产生热水。热水可以使油更流动从而帮助清洁，但肥皂的清洁力来自其能够同时结合水和油的分子。"
+        "不对。肥皂并不能溶解所有东西。像玻璃、陶瓷和某些塑料这样的物质，肥皂对它们并无影响。肥皂之所以能有效清除油污，是因为其独特的分子结构专门针对油脂起作用。",
+        "正确！肥皂分子很特别：一端亲水，另一端亲油。洗碗时，肥皂用亲油端包裹油污，亲水端朝外，这样水就能冲走油污。它就像连接油和水的分子桥梁！",
+        "错误。虽然有些肥皂具有抗菌特性，但那并非它们清洁餐具的方式。主要的清洁作用来自于肥皂分子的结构，它能同时结合水和油脂，从而去除油污。",
+        "错误。肥皂并不会产生热水。热水能通过使油脂更易流动来辅助清洁，但肥皂的清洁力来自于其分子能同时与水及油脂结合。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_002"
     },
     {
-      "id": "chem_003",
       "question_en": "Why does metal feel colder than wood?",
-      "question_zh": "为什么金属摸起来比木头冷？",
+      "question_zh": "金属为何比木头凉？",
       "choices_en": [
         "Metal is actually colder",
         "Metal conducts heat faster",
@@ -75,10 +78,10 @@
         "Metal absorbs body heat"
       ],
       "choices_zh": [
-        "金属温度更低",
+        "金属实则更冷",
         "金属导热更快",
-        "木头会产生热量",
-        "金属吸收体温"
+        "木材生热",
+        "金属吸热体"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -88,17 +91,19 @@
         "Wrong. While this sounds close, it's not quite accurate. Both materials will take heat from your hand if they're cooler, but metal does it much faster because of its high thermal conductivity. The speed of heat transfer is what matters."
       ],
       "explanations_zh": [
-        "错误。室温下，金属和木头温度相同。你可以用温度计验证这一点。区别在于它们如何传导热量，而不是它们的实际温度。",
-        "正确！室温下，金属和木头温度相同。但金属导热性好，快速从温暖的手中抽走热量。木头导热性差，热量流失缓慢。更快的热量流失让金属感觉更冷，尽管它并不冷！",
-        "错误。木头本身不会产生热量。木头和金属都处于室温。区别在于木头导热性差，不会像金属那样快速从你的手中抽走热量。",
-        "错误。虽然听起来接近，但不太准确。如果它们更冷，两种材料都会从你的手中吸收热量，但金属因为高导热性而做得更快。热传递的速度才是关键。"
+        "不对。在室温下，金属和木头的温度是相同的，你可以用温度计来验证这一点。区别在于它们传导热量的方式，而不是实际温度。",
+        "正确！在室温下，金属和木材的温度是相同的。但金属是优良的热导体，因此会迅速从你温暖的手上吸走热量。而木材导热性差，所以热量从手上流失得慢。热量流失越快，金属摸起来就越觉得凉，尽管实际上并非如此！",
+        "不对。木头本身不产生热量。木头和金属都处于室温状态。区别在于木头是热的不良导体，因此它不像金属那样迅速从你的手中吸走热量。",
+        "不对。虽然听起来很接近，但不够准确。如果这两种材料比你的手凉，它们都会吸收热量，但金属由于导热性高，吸热速度要快得多。关键在于热量传递的速度。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_003"
     },
     {
-      "id": "chem_004",
       "question_en": "Why are soap bubbles always round?",
-      "question_zh": "为什么肥皂泡总是圆的？",
+      "question_zh": "肥皂泡为何总是圆的？",
       "choices_en": [
         "Air pressure makes them round",
         "Surface tension minimizes area",
@@ -106,10 +111,10 @@
         "Soap molecules form circles"
       ],
       "choices_zh": [
-        "气压使其变圆",
+        "气压使其圆",
         "表面张力最小化面积",
-        "重力拉成球形",
-        "肥皂分子形成圆圈"
+        "引力塑球体",
+        "肥皂分子成环"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -119,17 +124,19 @@
         "Wrong. Soap molecules don't form circles. They create a thin film with surface tension. It's this surface tension that pulls the bubble into a sphere, not the arrangement of individual molecules."
       ],
       "explanations_zh": [
-        "错误。气泡内外的气压几乎相等。虽然压力在保持气泡充气方面起作用，但它不是使其呈球形的原因。表面张力才是关键因素。",
-        "正确！肥皂膜中的表面张力将其拉成体积最小表面积的形状 - 球体。球体上的每个点到中心的距离相等，产生均匀的张力。这最小化了能量，使球体成为最稳定的气泡形状！",
-        "错误。重力实际上将气泡向下拉，但不会使其变圆。事实上，在零重力环境下（如空间站），气泡仍然是完美的球形，证明重力不是原因。",
-        "错误。肥皂分子不会形成圆圈。它们形成具有表面张力的薄膜。正是这种表面张力将气泡拉成球体，而不是单个分子的排列。"
+        "错误。气泡内外的气压几乎相等。虽然压力对维持气泡膨胀有作用，但并非使其呈球形的关键。表面张力才是决定性因素。",
+        "正确！肥皂膜的表面张力使其形成体积最小表面积最大的形状——球体。球体上的每一点到中心的距离都相等，从而在整个球面上产生均匀的张力。这实现了能量最小化，使球体成为最稳定的气泡形状！",
+        "错误。重力确实会将气泡向下拉，但不会使它们变圆。实际上，在零重力环境下（如空间站），气泡依然呈完美的球形，这证明重力并非其原因。",
+        "错误。肥皂分子并不会形成圆圈，而是通过表面张力形成一层薄膜。正是这种表面张力将泡泡拉成球形，而非单个分子的排列方式。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_004"
     },
     {
-      "id": "chem_005",
       "question_en": "Why does bread rise when baking?",
-      "question_zh": "为什么面包烘烤时会膨胀？",
+      "question_zh": "面包烘焙时为何膨胀？",
       "choices_en": [
         "Heat expands the dough",
         "Yeast produces CO2 gas",
@@ -137,9 +144,9 @@
         "Air bubbles get bigger"
       ],
       "choices_zh": [
-        "热量膨胀面团",
-        "酵母产生二氧化碳",
-        "水变成蒸汽",
+        "热胀面团",
+        "酵母产二氧化碳",
+        "水化为汽",
         "气泡变大"
       ],
       "correct_answer": 1,
@@ -150,17 +157,19 @@
         "Wrong. Air bubbles don't spontaneously get bigger. The bubbles are filled with carbon dioxide produced by yeast through fermentation. It's this biological process of yeast consuming sugars and releasing CO2 that creates the gas bubbles."
       ],
       "explanations_zh": [
-        "错误。仅靠热量不能使面包膨胀。虽然热量确实会引起一些膨胀，但主要的发酵过程在烘烤前通过生物过程完成。热量实际上是在酵母完成工作后固定结构。",
-        "正确！酵母是一种活的微生物，它吃掉面团中的糖并产生二氧化碳气体作为废物。这些二氧化碳气泡被困在面筋网络中，使面团膨胀。烘烤的热量使气体进一步膨胀并杀死酵母，固定了蓬松的结构！",
-        "错误。虽然烘烤时确实会形成蒸汽并略微促进膨胀，但这不是主要原因。主要的膨胀来自酵母发酵产生的二氧化碳，这甚至在面团进入烤箱之前就发生了。",
-        "错误。气泡不会自发变大。气泡中充满了酵母通过发酵产生的二氧化碳。正是酵母消耗糖并释放二氧化碳的生物过程产生了气泡。"
+        "错误。仅靠热量并不能使面包发酵。虽然热量确实会引起一定的膨胀，但主要的发酵过程是在烘焙前通过生物作用完成的。热量实际上是在酵母完成其工作后固定面包结构。",
+        "正确！酵母是一种活的微生物，它摄取面团中的糖分并产生二氧化碳作为废物。这些二氧化碳气泡被困在面筋网络中，使面团膨胀。烘烤时的热量使气体进一步膨胀并杀死酵母，从而固定了蓬松的结构！",
+        "不对。虽然烘焙过程中确实会产生蒸汽，对膨胀有一定贡献，但这并非主要原因。面团的膨胀主要来自酵母发酵产生的二氧化碳，这个过程甚至在面团入炉前就已发生。",
+        "不对。气泡不会自发变大。气泡里充满了酵母通过发酵产生的二氧化碳。正是酵母消耗糖分并释放二氧化碳这一生物过程，才形成了这些气泡。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_005"
     },
     {
-      "id": "chem_006",
       "question_en": "Why does popcorn pop?",
-      "question_zh": "为什么爆米花会爆开？",
+      "question_zh": "爆米花为何会爆？",
       "choices_en": [
         "Heat breaks the kernel",
         "Water vapor builds pressure",
@@ -168,10 +177,10 @@
         "Oil makes it explode"
       ],
       "choices_zh": [
-        "热量打破玉米粒",
-        "水蒸气产生压力",
-        "内部空气膨胀",
-        "油使其爆炸"
+        "热破内核",
+        "水汽增压",
+        "空气内膨胀",
+        "油爆之因"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -181,17 +190,19 @@
         "Wrong. Oil is used for cooking, not for popping. The pop comes from water inside the kernel turning to steam. You can even pop corn without oil using an air popper or microwave."
       ],
       "explanations_zh": [
-        "错误。热量不会直接打破玉米粒。外壳很坚硬，可以承受高温。打破它的是玉米粒内部水变成蒸汽产生的压力。",
-        "正确！每个爆米花粒含有约14%的水分，包裹在硬壳中。加热时，水变成蒸汽并产生压力。在约180°C时，压力达到正常大气压的9倍，外壳破裂。里面的淀粉瞬间膨胀成我们喜爱的蓬松白色泡沫！",
-        "错误。爆米花粒内没有气穴。压力来自水分子变成水蒸气。这种从液态到气态的相变产生的压力远大于空气膨胀。",
-        "错误。油是用来烹饪的，不是用来爆开的。爆开来自玉米粒内的水变成蒸汽。你甚至可以用空气爆米花机或微波炉不加油爆米花。"
+        "不对。热量并不会直接破坏玉米粒。外壳坚硬，能承受高温。真正使其破裂的是内部水分转化为蒸汽时产生的压力累积。",
+        "正确！每颗爆米花籽粒的硬壳内含有约14%的水分。加热时，这些水分转化为蒸汽并积聚压力。当温度达到约180°C时，压力增至正常大气压的9倍，导致外壳破裂。内部的淀粉瞬间膨胀，形成我们喜爱的蓬松白色泡沫！",
+        "不对。爆米花内部并没有气穴。压力来源于水分子转化为水蒸气。这种从液态到气态的相变所产生的压力远大于空气膨胀所能达到的。",
+        "不对。油是用来烹饪的，不是用来爆玉米花的。爆裂声来自玉米粒内部水分转化为蒸汽。你甚至可以用空气爆米花机或微波炉无油爆玉米花。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_006"
     },
     {
-      "id": "chem_007",
       "question_en": "Why does soap make bubbles?",
-      "question_zh": "为什么肥皂会产生泡泡？",
+      "question_zh": "肥皂为何起泡？",
       "choices_en": [
         "It traps air between layers",
         "It creates oxygen gas",
@@ -199,10 +210,10 @@
         "It dissolves air"
       ],
       "choices_zh": [
-        "在层之间困住空气",
+        "夹层锁气",
         "产生氧气",
-        "与水反应",
-        "溶解空气"
+        "遇水反应",
+        "溶于空气"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -212,17 +223,19 @@
         "Wrong. Soap doesn't dissolve air. Air is already present in the environment. Soap's special molecular structure allows it to form thin, stable films that can trap and hold air bubbles when you agitate the water."
       ],
       "explanations_zh": [
-        "正确！肥皂分子有两端：一端亲水，一端疏水。当你加入空气时，肥皂分子排列成薄薄的三明治结构 - 亲水端朝向两侧的水，疏水端在中间相对。这创造了一个稳定的薄膜来困住空气，形成泡泡！",
-        "错误。肥皂不会产生氧气或任何气体。泡泡的形成是因为肥皂分子创造了一层薄膜，可以困住你吹入的空气或搅拌肥皂水时混入的空气。",
-        "错误。肥皂溶于水但不与水发生化学反应产生气体。泡泡只是被困在薄膜中的空气，肥皂独特的分子结构使这层水膜得以稳定。",
-        "错误。肥皂不会溶解空气。空气已经存在于环境中。肥皂特殊的分子结构使其能够形成薄而稳定的膜，当你搅动水时可以困住并保持气泡。"
+        "正确！肥皂分子有两端：一端亲水，一端疏水。当你加入空气时，肥皂分子会排列成薄薄的三明治结构——亲水端朝向两侧的水，疏水端则在中间相互面对。这样就形成了一个稳定的薄膜，困住空气，从而形成泡泡！",
+        "不对。肥皂并不会产生氧气或任何气体。气泡的形成是因为肥皂分子能形成一层薄膜，可以捕捉你吹入的空气，或是在搅动肥皂水时混入的空气。",
+        "错误。肥皂能溶于水，但不会与之发生化学反应产生气体。泡沫只是空气被困在由肥皂独特的分子结构所稳定的水薄膜中形成的。",
+        "不对。肥皂并不能溶解空气，因为空气本就存在于环境中。肥皂的特殊分子结构使其能在搅动水时形成薄而稳定的膜，从而捕捉并包裹住气泡。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_007"
     },
     {
-      "id": "chem_008",
       "question_en": "Why do apples turn brown after cutting?",
-      "question_zh": "为什么苹果切开后变褐色？",
+      "question_zh": "苹果切开为何变褐？",
       "choices_en": [
         "Dirt gets on the surface",
         "Enzymes react with oxygen",
@@ -230,10 +243,10 @@
         "Cells die and decay"
       ],
       "choices_zh": [
-        "表面沾上灰尘",
-        "酶与氧气反应",
-        "糖分焦糖化",
-        "细胞死亡腐烂"
+        "表面沾尘",
+        "酶与氧反应",
+        "糖焦化",
+        "细胞衰亡"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -243,17 +256,19 @@
         "Wrong. While cells are damaged when cut, the browning is specifically from enzymatic oxidation, not decay. The process happens in minutes, far too fast to be decay. It's a chemical defense mechanism, not decomposition."
       ],
       "explanations_zh": [
-        "错误。褐变发生得太快了，不可能是灰尘。即使在干净环境中新切的苹果也会在几分钟内变褐色。这是化学反应，不是污染。",
-        "正确！苹果含有称为多酚氧化酶的酶和称为酚类的化合物。当你切开苹果时，这些酶与空气中的氧气混合，氧化酚类物质，产生褐色的黑色素色素。这与淤伤变褐色的过程相同！柠檬汁通过降低pH值来防止这种情况。",
-        "错误。焦糖化需要高温来分解糖。苹果褐变在室温下通过酶促氧化发生，而不是热驱动的焦糖化。",
-        "错误。虽然切开时细胞受损，但褐变特别来自酶促氧化，而不是腐烂。这个过程在几分钟内发生，太快了不可能是腐烂。这是一种化学防御机制，而不是分解。"
+        "错误。变褐速度太快，不可能是污垢。即使在洁净环境中刚切开的苹果，几分钟内也会变褐。这是化学反应，而非污染。",
+        "正确！苹果中含有一种叫做多酚氧化酶的酶和称为酚类物质的化合物。当你切开苹果时，这些酶与空气中的氧气混合，氧化酚类物质，生成棕色的黑色素。这与导致瘀伤变褐的过程相同！柠檬汁通过降低pH值来防止这一现象。",
+        "错误。焦糖化需要高温分解糖分。苹果褐变是在室温下通过酶促氧化发生的，而非热驱动的焦糖化过程。",
+        "错误。虽然细胞在切割时会受损，但变黑现象特指酶促氧化作用，而非腐烂。这一过程在几分钟内发生，速度过快不可能是腐烂。它是一种化学防御机制，而非分解过程。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_008"
     },
     {
-      "id": "chem_009",
       "question_en": "Why do baking soda and vinegar react?",
-      "question_zh": "为什么小苏打和醋会反应？",
+      "question_zh": "小苏打与醋为何反应？",
       "choices_en": [
         "Acid neutralizes base",
         "They create heat",
@@ -262,9 +277,9 @@
       ],
       "choices_zh": [
         "酸中和碱",
-        "产生热量",
-        "释放水分",
-        "自然形成气泡"
+        "他们生热",
+        "放水",
+        "气泡自然形成"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -274,17 +289,19 @@
         "Wrong. The bubbles don't form naturally or spontaneously. They are carbon dioxide gas produced by the specific chemical reaction between the acid in vinegar and the base in baking soda. This is a classic acid-base neutralization."
       ],
       "explanations_zh": [
-        "正确！小苏打是碱（碳酸氢钠），醋是酸（乙酸）。混合时，它们发生酸碱中和反应。这产生乙酸钠、水和二氧化碳气体 - 你看到的气泡！反应式为：NaHCO3 + CH3COOH → NaCH3COO + H2O + CO2。",
-        "错误。虽然反应确实释放少量能量，但产生热量不是它们反应的原因。它们反应是因为酸碱化学。冒泡来自产生的二氧化碳气体，而不是热量。",
-        "错误。水实际上是反应的产物之一，而不是从成分中释放出来的。主要的可见效果是产生气泡的二氧化碳气体，而不是水的释放。",
-        "错误。气泡不是自然或自发形成的。它们是醋中的酸和小苏打中的碱之间特定化学反应产生的二氧化碳气体。这是经典的酸碱中和反应。"
+        "正确！小苏打是碱（碳酸氢钠），醋是酸（醋酸）。两者混合时会发生酸碱中和反应，生成醋酸钠、水和二氧化碳气体——就是你看到的气泡！反应式为：NaHCO3 + CH3COOH → NaCH3COO + H2O + CO2。",
+        "错误。虽然反应确实会释放少量能量，但发热并非它们反应的原因。它们之所以反应是由于酸碱化学作用。气泡产生是因为二氧化碳气体的生成，而非热量所致。",
+        "错误。实际上，水是该反应的产物之一，而非从原料中释放出来。主要可见的效果是产生气泡的二氧化碳气体，而非水的释放。",
+        "不对。气泡并非自然或自发形成，它们是醋中的酸与烘焙苏打中的碱发生特定化学反应产生的二氧化碳气体。这是一个典型的酸碱中和反应。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_009"
     },
     {
-      "id": "chem_010",
       "question_en": "Why does salt melt ice?",
-      "question_zh": "为什么盐能融化冰？",
+      "question_zh": "盐为何能融冰？",
       "choices_en": [
         "It generates heat",
         "It lowers freezing point",
@@ -294,8 +311,8 @@
       "choices_zh": [
         "产生热量",
         "降低冰点",
-        "破坏冰晶",
-        "吸收寒冷"
+        "破冰晶",
+        "吸收寒气"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -305,17 +322,19 @@
         "Wrong. Cold isn't a substance that can be absorbed - it's the absence of heat. Salt melts ice by lowering the temperature at which water freezes, not by absorbing or generating anything."
       ],
       "explanations_zh": [
-        "错误。盐不产生热量。融化过程实际上从周围吸收热量，使其更冷。盐通过不同的机制起作用 - 改变水的冰点。",
-        "正确！盐通过'冰点下降'降低水的冰点。纯水在0°C结冰，但盐水可以在0°C以下保持液态。当盐溶解时，它干扰水分子形成冰晶。这迫使现有的冰即使在寒冷温度下也会融化。这就是为什么我们在冬天给道路撒盐！",
-        "错误。盐不会物理上破坏冰晶。它在分子水平上通过干扰水分子如何结合形成冰来起作用。这个过程是化学的，而不是机械的。",
-        "错误。寒冷不是可以被吸收的物质 - 它是热量的缺失。盐通过降低水结冰的温度来融化冰，而不是通过吸收或产生任何东西。"
+        "不对。盐并不会产生热量。实际上，融化过程会从周围吸收热量，使其变得更冷。盐的作用机制不同——它改变水的冰点。",
+        "正确！盐通过“冰点降低”现象降低水的冰点。纯水在0°C结冰，但盐水能在0°C以下保持液态。盐溶解时会干扰水分子形成冰晶，迫使现有冰块即便在低温下也会融化。这就是为什么我们在冬天往路面上撒盐！",
+        "错误。盐并非物理上破坏冰晶，而是在分子层面干扰水分子结合成冰的过程。这一过程是化学性质的，而非机械性的。",
+        "不对。冷并非一种可被吸收的物质——它是热量的缺失。盐通过降低水的冰点来融化冰，而不是通过吸收或产生任何东西。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_010"
     },
     {
-      "id": "chem_011",
       "question_en": "Why does water boil at 100°C?",
-      "question_zh": "为什么水在100°C沸腾？",
+      "question_zh": "水为何在100°C沸腾？",
       "choices_en": [
         "It's a universal constant",
         "Vapor pressure equals air pressure",
@@ -323,9 +342,9 @@
         "Maximum temperature for water"
       ],
       "choices_zh": [
-        "这是普遍常数",
+        "普遍常数",
         "蒸气压等于气压",
-        "分子破裂",
+        "分子分解",
         "水的最高温度"
       ],
       "correct_answer": 1,
@@ -336,17 +355,19 @@
         "Wrong. Water can be heated above 100°C under pressure. In fact, superheated steam in power plants can reach over 500°C. 100°C is just the temperature where vapor pressure matches normal atmospheric pressure at sea level."
       ],
       "explanations_zh": [
-        "错误。100°C不是普遍的 - 它只适用于海平面大气压。在珠穆朗玛峰上，水在70°C沸腾，因为气压较低。在高压锅中，它可以超过100°C。",
-        "正确！沸腾发生在水的蒸气压等于大气压时。在海平面100°C时，分子有足够的能量在整个液体中形成气泡，而不仅仅在表面。较低的气压意味着需要较少的能量，所以水在高海拔地区沸点更低！",
-        "错误。沸腾时水分子不会破裂 - 那将是需要更高能量的电解。沸腾是从液态到气态的相变。H2O分子保持完整，它们只是相距更远。",
-        "错误。在压力下水可以被加热到100°C以上。事实上，发电厂的过热蒸汽可以达到500°C以上。100°C只是在海平面正常大气压下蒸气压与气压匹配的温度。"
+        "错误。100°C并非普遍适用——它仅在海平面大气压下成立。在珠穆朗玛峰上，由于气压较低，水在70°C就会沸腾。而在高压锅中，水温可超过100°C。",
+        "正确！当水的蒸气压等于大气压时，水就会沸腾。在海平面100°C时，水分子有足够的能量在整个液体中形成气泡，而不仅仅是在表面。气压越低，所需能量越少，因此在高海拔地区，水在较低温度下就会沸腾！",
+        "错误。水分子在沸腾时不会分解——那是需要更高能量的电解过程。沸腾是从液态到气态的相变过程。H2O分子保持完整，只是彼此间距离变远。",
+        "错误。水在加压条件下可以加热到100°C以上。实际上，发电厂中的过热蒸汽温度可超过500°C。100°C仅是海平面正常大气压下蒸汽压与之相等的温度。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_011"
     },
     {
-      "id": "chem_012",
       "question_en": "Why do fizzy drinks bubble?",
-      "question_zh": "为什么汽水会冒泡？",
+      "question_zh": "碳酸饮料为何冒泡？",
       "choices_en": [
         "Sugar ferments quickly",
         "CO2 escapes from solution",
@@ -354,10 +375,10 @@
         "Chemical reaction occurs"
       ],
       "choices_zh": [
-        "糖快速发酵",
-        "二氧化碳逸出溶液",
+        "糖易发酵",
+        "二氧化碳逸出",
         "空气混入",
-        "发生化学反应"
+        "化学反应发生"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -367,17 +388,19 @@
         "Wrong. No new chemical reaction occurs when you open a fizzy drink. The CO2 was already dissolved in the liquid. Opening it just releases the pressure, allowing the dissolved CO2 to escape as gas bubbles."
       ],
       "explanations_zh": [
-        "错误。发酵需要数天或数周，用于最初制造二氧化碳，但不是在你喝的时候。你看到的气泡来自打开瓶子时释放的已经在压力下溶解的二氧化碳。",
-        "正确！汽水是通过在高压下将二氧化碳气体溶解到液体中制成的。这产生碳酸，带来酸味。当你打开瓶子时，压力下降，二氧化碳溶解度降低。它从溶液中逸出形成气泡。摇晃会产生成核点，使其冒泡更快！",
-        "错误。气泡不是混入的空气。它们是在压力下溶解在液体中的二氧化碳气体。当通过打开容器释放压力时，二氧化碳从溶液中逸出。",
-        "错误。打开汽水时不会发生新的化学反应。二氧化碳已经溶解在液体中。打开它只是释放压力，允许溶解的二氧化碳以气泡形式逸出。"
+        "不对。发酵过程需要数天或数周，最初是用来产生二氧化碳的，但并非在你饮用时进行。你看到的气泡来自于在压力下已溶解的二氧化碳，在开瓶时释放出来。",
+        "正确！碳酸饮料是通过在高压下将二氧化碳气体溶解于液体中制成的。这会产生碳酸，带来刺激的口感。当你打开瓶盖时，压力下降，二氧化碳的溶解度降低，便以气泡形式从溶液中逸出。摇晃会产生成核点，使气泡更快地冒出！",
+        "不对。这些气泡并非混入的空气，而是原本在压力下溶解于液体中的二氧化碳气体。当打开容器释放压力时，二氧化碳便从溶液中析出。",
+        "不对。打开碳酸饮料时并不会发生新的化学反应。二氧化碳原本就溶解在液体中，打开只是释放了压力，使溶解的二氧化碳以气泡形式逸出。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_012"
     },
     {
-      "id": "chem_013",
       "question_en": "Why does milk turn sour?",
-      "question_zh": "为什么牛奶会变酸？",
+      "question_zh": "牛奶为何变酸？",
       "choices_en": [
         "It oxidizes in air",
         "Bacteria produce lactic acid",
@@ -386,9 +409,9 @@
       ],
       "choices_zh": [
         "在空气中氧化",
-        "细菌产生乳酸",
+        "细菌产乳酸",
         "蛋白质分解",
-        "糖发酵成酒精"
+        "糖发酵成酒"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -398,17 +421,19 @@
         "Wrong. While fermentation is involved, milk bacteria produce lactic acid, not alcohol. Alcohol fermentation requires different microorganisms (yeasts) and conditions. The sourness in milk is specifically from lactic acid fermentation."
       ],
       "explanations_zh": [
-        "错误。虽然氧气会影响牛奶质量，但酸味特别来自酸的产生，而不是氧化。酸味和气味来自乳酸，而不是氧化化合物。",
-        "正确！牛奶中天然存在的细菌（主要是乳酸杆菌）以乳糖（牛奶中的糖）为食，产生乳酸作为副产品。这种酸降低pH值，使牛奶变酸并导致蛋白质凝结。巴氏杀菌杀死大多数细菌以延迟这种情况，但最终一些存活并繁殖。这就是为什么牛奶有保质期！",
-        "错误。蛋白质分解发生在变质后期，产生难闻的气味，而不是酸味。酸味特别来自细菌消耗牛奶糖产生的乳酸，而不是蛋白质分解。",
-        "错误。虽然涉及发酵，但牛奶中的细菌产生乳酸，而不是酒精。酒精发酵需要不同的微生物（酵母）和条件。牛奶的酸味特别来自乳酸发酵。"
+        "错误。虽然氧气会影响牛奶质量，但酸味特指由产酸而非氧化引起。酸味和酸味来自乳酸，而非氧化化合物。",
+        "没错！牛奶中天然存在的细菌（主要是乳酸菌）以乳糖（牛奶中的糖分）为食，并产生乳酸作为副产品。这种酸会降低pH值，使牛奶尝起来变酸并导致蛋白质凝结。巴氏杀菌法会杀死大部分细菌以延缓这一过程，但最终仍有一些细菌存活并繁殖。这就是牛奶有保质期的原因！",
+        "错误。蛋白质分解发生在变质后期，产生的是恶臭，而非酸味。酸味特指细菌消耗乳糖产生的乳酸所致，与蛋白质分解无关。",
+        "错误。虽然发酵过程确实存在，但牛奶中的细菌产生的是乳酸，而非酒精。酒精发酵需要不同的微生物（酵母）和条件。牛奶的酸味特指乳酸发酵所致。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_013"
     },
     {
-      "id": "chem_014",
       "question_en": "Why do batteries produce electricity?",
-      "question_zh": "为什么电池能产生电？",
+      "question_zh": "电池为何发电？",
       "choices_en": [
         "They store static charge",
         "Chemical reactions move electrons",
@@ -416,9 +441,9 @@
         "Acid conducts electricity"
       ],
       "choices_zh": [
-        "储存静电",
-        "化学反应移动电子",
-        "金属产生电流",
+        "储存静电荷",
+        "化学反应移电子",
+        "金属生电",
         "酸导电"
       ],
       "correct_answer": 1,
@@ -429,17 +454,19 @@
         "Wrong. While acid (electrolyte) conducts electricity inside the battery, it doesn't generate it. The electricity comes from chemical reactions at the electrodes that create a difference in electron concentration, driving electron flow."
       ],
       "explanations_zh": [
-        "错误。电池不储存静电。它们储存通过受控化学反应转化为电能的化学能。静电会立即放电，不会提供稳定的电流。",
-        "正确！电池有两个电极（阳极和阴极）浸在电解质中。阳极的化学反应释放电子，而阴极的反应接受电子。这通过外部电路产生电子流（电）。例如，锌原子在一端失去电子，而二氧化锰在另一端获得电子。化学为你的设备供电！",
-        "错误。仅有金属不会产生电。你需要特定金属在化学系统中，其中一种金属氧化（失去电子），另一种还原（获得电子）。产生电流的是化学反应，而不仅仅是金属的存在。",
-        "错误。虽然酸（电解质）在电池内部导电，但它不产生电。电来自电极处的化学反应，这些反应产生电子浓度差异，驱动电子流动。"
+        "错误。电池并不储存静电，而是储存化学能，通过受控的化学反应转化为电能。静电会瞬间释放，无法提供稳定的电流。",
+        "正确！电池在电解液中有两个电极（阳极和阴极）。阳极的化学反应释放电子，而阴极的化学反应则接收电子。这通过外部电路形成了电子流（电流）。例如，锌原子在一端失去电子，而二氧化锰在另一端获得电子。化学原理为您的设备提供动力！",
+        "错误。仅凭金属本身并不能发电。需要在一个化学体系中，使用特定的金属，其中一种金属氧化（失去电子），另一种还原（获得电子）。产生电流的是化学反应，而不仅仅是金属的存在。",
+        "错误。虽然酸（电解质）在电池内部导电，但它并不产生电。电来自于电极处的化学反应，这些反应造成电子浓度差异，从而驱动电子流动。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_014"
     },
     {
-      "id": "chem_015",
       "question_en": "Why does rust form on iron?",
-      "question_zh": "为什么铁会生锈？",
+      "question_zh": "铁为何生锈？",
       "choices_en": [
         "Iron absorbs moisture",
         "Iron oxidizes with oxygen",
@@ -447,10 +474,10 @@
         "Acid dissolves the surface"
       ],
       "choices_zh": [
-        "铁吸收水分",
-        "铁与氧气氧化",
+        "铁吸湿",
+        "铁与氧氧化",
         "细菌侵蚀金属",
-        "酸溶解表面"
+        "酸蚀表面"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -460,17 +487,19 @@
         "Wrong. While acid can corrode iron, common rust is from oxidation, not acid dissolution. Normal rust forms in regular air and moisture conditions without acid. Acid corrosion is faster but chemically different from typical rust formation."
       ],
       "explanations_zh": [
-        "错误。虽然水分是生锈所必需的，但仅吸收不会导致生锈。水作为铁和氧之间化学反应的媒介。产生锈的是氧化反应，而不是水分吸收。",
-        "正确！锈是氧化铁（Fe2O3），当铁在水的存在下与氧气反应时形成。铁原子失去电子（氧化）给氧原子。反应式为：4Fe + 3O2 + 6H2O → 4Fe(OH)3，变成锈。需要氧气和水。涂漆或上油通过阻挡氧气来防止生锈！",
-        "错误。细菌不会导致生锈，尽管它们可以在特定环境中促进某些金属腐蚀。生锈纯粹是化学过程 - 铁在氧气和水的存在下氧化。",
-        "错误。虽然酸可以腐蚀铁，但普通的锈来自氧化，而不是酸溶解。正常的锈在普通空气和湿度条件下形成，不需要酸。酸腐蚀更快，但化学上与典型的生锈形成不同。"
+        "错误。虽然水分是生锈的必要条件，但仅吸收水分并不会导致生锈。水是铁和氧气之间化学反应的媒介。真正导致生锈的是氧化反应，而非水分的吸收。",
+        "正确！铁锈是氧化铁（Fe2O3），当铁在有水的情况下与氧气反应时形成。铁原子失去电子（氧化）给氧原子。反应式为：4Fe + 3O2 + 6H2O → 4Fe(OH)3，最终形成铁锈。此过程需要氧气和水共同作用。给金属涂漆或上油能隔绝氧气，从而防止生锈！",
+        "错误。细菌不会导致生锈，尽管在特定环境中它们可能促进某些金属腐蚀。生锈纯粹是一个化学过程——铁在氧气和水的作用下发生氧化。",
+        "错误。虽然酸能腐蚀铁，但常见的锈迹是由氧化而非酸溶解所致。正常锈蚀在常规空气和湿度条件下形成，无需酸参与。酸腐蚀速度更快，但其化学过程与典型的锈蚀形成不同。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_015"
     },
     {
-      "id": "chem_016",
       "question_en": "Why does fire need oxygen?",
-      "question_zh": "为什么火需要氧气？",
+      "question_zh": "火为何需氧？",
       "choices_en": [
         "Oxygen is flammable",
         "Oxygen enables combustion",
@@ -478,9 +507,9 @@
         "It provides fuel"
       ],
       "choices_zh": [
-        "氧气可燃",
-        "氧气使燃烧成为可能",
-        "使火焰可见",
+        "氧气易燃",
+        "氧气助燃",
+        "火焰可见",
         "提供燃料"
       ],
       "correct_answer": 1,
@@ -491,17 +520,19 @@
         "Wrong. Oxygen is not the fuel - it's the oxidizer. The fuel is what burns (wood, gasoline, etc.). Oxygen reacts with the fuel in a chemical reaction. Fire needs three things: fuel, oxygen, and heat (the fire triangle)."
       ],
       "explanations_zh": [
-        "错误。氧气本身不可燃 - 它不会燃烧。氧气是支持其他材料燃烧的氧化剂。事实上，纯氧可以使火燃烧得更猛烈，但它不是燃料。",
-        "正确！火是快速氧化反应。燃料分子与氧气反应，打破化学键并形成新键（如二氧化碳和水），以热和光的形式释放能量。没有氧气，这个反应无法发生。这就是为什么用毯子闷火有效 - 你切断了氧气供应！",
-        "错误。火焰可见是因为发光的热颗粒和激发的分子，而不是因为氧气。火焰实际上可以根据燃烧物和温度呈现不同的颜色，但氧气是化学反应所需的，而不是为了可见性。",
-        "错误。氧气不是燃料 - 它是氧化剂。燃料是燃烧的东西（木头、汽油等）。氧气在化学反应中与燃料反应。火需要三样东西：燃料、氧气和热量（火三角）。"
+        "错误。氧气本身不可燃——它不会燃烧。氧气是一种助燃剂，能支持其他物质的燃烧。实际上，纯氧能使火燃烧得更剧烈，但它本身并非燃料。",
+        "正确！火是一种快速的氧化反应。燃料分子与氧气反应，破坏化学键并形成新的化学键（如二氧化碳和水），以热和光的形式释放能量。没有氧气，这个反应就无法发生。这就是为什么用毯子扑灭火有效——你切断了氧气供应！",
+        "错误。火焰可见是因为炽热颗粒和受激分子发光，而非氧气。实际上，火焰颜色会因燃烧物和温度不同而变化，但氧气是化学反应所需，与可见性无关。",
+        "错误。氧气并非燃料，而是氧化剂。燃料指的是能够燃烧的物质（如木材、汽油等）。氧气在化学反应中与燃料发生作用。燃烧需要三个要素：燃料、氧气和热量（即火三角）。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_016"
     },
     {
-      "id": "chem_017",
       "question_en": "Why does sugar dissolve in water?",
-      "question_zh": "为什么糖能溶解在水中？",
+      "question_zh": "糖为何溶于水？",
       "choices_en": [
         "Water breaks sugar molecules",
         "Water molecules surround sugar",
@@ -509,10 +540,10 @@
         "Chemical reaction occurs"
       ],
       "choices_zh": [
-        "水打破糖分子",
-        "水分子包围糖",
-        "糖在液体中融化",
-        "发生化学反应"
+        "水分解糖分子",
+        "糖分子被水包围",
+        "糖溶于液",
+        "化学反应发生"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -522,17 +553,19 @@
         "Wrong. Dissolving sugar in water is a physical change, not a chemical reaction. The sugar molecules remain as sucrose - they don't change into different substances. You can get the sugar back by evaporating the water, which you couldn't do with a chemical reaction."
       ],
       "explanations_zh": [
-        "错误。水不会打破糖分子。溶解是物理变化，不是化学变化。蔗糖分子保持完整 - 它们只是彼此分离并被水分子包围。",
-        "正确！糖溶解是因为'相似相溶' - 水和糖都是极性分子。水的极性分子被糖的极性区域吸引。水分子包围每个糖分子，将它们从晶体中拉出并进入溶液。这称为水合。没有化学键被打破 - 糖可以通过蒸发水来回收！",
-        "错误。溶解和融化是不同的过程。融化需要热量从固态变为液态。糖在室温下通过与水的分子相互作用溶解，而不是通过融化。融化的糖完全不同（它是焦糖）。",
-        "错误。糖溶解在水中是物理变化，不是化学反应。糖分子保持为蔗糖 - 它们不会变成不同的物质。你可以通过蒸发水来取回糖，而化学反应则不能这样做。"
+        "不对。水并不会破坏糖分子。溶解是物理变化，而非化学变化。蔗糖分子保持完整——它们只是彼此分离并被水分子包围。",
+        "正确！糖能溶解是因为“相似相溶”——水和糖都是极性分子。水的极性分子被糖的极性区域吸引。水分子包围每个糖分子，将它们从晶体中拉出并进入溶液，这个过程称为水合作用。没有化学键被破坏——通过蒸发水分可以回收糖！",
+        "不对。溶解和融化是不同的过程。融化需要热量使物质从固态变为液态。糖在室温下是通过与水的分子间作用力溶解，而不是通过融化。融化的糖则完全不同（那是焦糖）。",
+        "错误。将糖溶解于水是物理变化，而非化学反应。糖分子仍以蔗糖形式存在，并未转变为其他物质。通过蒸发水分可以回收糖，这在化学反应中是无法实现的。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_017"
     },
     {
-      "id": "chem_018",
       "question_en": "Why does baking powder make cakes rise?",
-      "question_zh": "为什么泡打粉使蛋糕膨胀？",
+      "question_zh": "泡打粉为何使蛋糕膨胀？",
       "choices_en": [
         "It creates air pockets",
         "It releases CO2 when heated",
@@ -540,9 +573,9 @@
         "It adds volume to batter"
       ],
       "choices_zh": [
-        "产生气穴",
-        "加热时释放二氧化碳",
-        "与鸡蛋反应",
+        "形成气穴",
+        "加热释放二氧化碳",
+        "与蛋反应",
         "增加面糊体积"
       ],
       "correct_answer": 1,
@@ -553,17 +586,19 @@
         "Wrong. Adding volume is the result, not the cause. Baking powder works by producing carbon dioxide gas through a chemical reaction. This gas expands when heated, creating bubbles that make the cake rise and become fluffy."
       ],
       "explanations_zh": [
-        "错误。泡打粉不是机械地产生气穴。它通过化学反应产生二氧化碳气体。这些气泡然后创造使蛋糕蓬松的气穴。",
-        "正确！泡打粉含有碳酸氢钠（碱）和酸（如酒石酸氢钾）。与液体混合并加热时，它们反应产生二氧化碳气体。大多数泡打粉是'双效'的 - 湿时释放一些二氧化碳，加热时释放更多。气体在烤箱中膨胀，使蛋糕膨胀！",
-        "错误。虽然泡打粉确实与湿配料相互作用，但它不专门与鸡蛋反应。反应是在泡打粉本身的碱和酸之间，由水分和热量触发。",
-        "错误。增加体积是结果，而不是原因。泡打粉通过化学反应产生二氧化碳气体来工作。这种气体在加热时膨胀，产生使蛋糕膨胀和变得蓬松的气泡。"
+        "错误。泡打粉并非通过机械方式制造气孔，而是通过化学反应产生二氧化碳气体。这些气泡随后形成气孔，使蛋糕变得松软。",
+        "正确！泡打粉含有碳酸氢钠（一种碱）和酸（如酒石酸氢钾）。当与液体混合并加热时，它们会发生反应产生二氧化碳气体。大多数泡打粉是“双效”的——遇湿时释放部分二氧化碳，加热时释放更多。气体在烤箱中膨胀，使蛋糕膨松起来！",
+        "不对。虽然泡打粉会与湿性食材相互作用，但它并不特别与鸡蛋发生反应。实际反应发生在泡打粉自身的碱性和酸性成分之间，由水分和热量触发。",
+        "不对。增加体积是结果而非原因。泡打粉的作用是通过化学反应产生二氧化碳气体。这种气体在受热时膨胀，形成气泡，从而使蛋糕膨胀并变得松软。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_018"
     },
     {
-      "id": "chem_019",
       "question_en": "Why does copper turn green?",
-      "question_zh": "为什么铜会变绿？",
+      "question_zh": "铜为何变绿？",
       "choices_en": [
         "It grows mold",
         "It forms copper carbonate",
@@ -571,10 +606,10 @@
         "Algae grow on surface"
       ],
       "choices_zh": [
-        "长霉菌",
+        "发霉了",
         "形成碳酸铜",
-        "油漆氧化",
-        "表面长藻类"
+        "漆面氧化",
+        "藻类表面生长"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -584,12 +619,213 @@
         "Wrong. Algae don't grow on copper - in fact, copper is antimicrobial and inhibits algae growth! The green is a chemical compound (patina) formed from copper reacting with air, moisture, and carbon dioxide over time."
       ],
       "explanations_zh": [
-        "错误。绿色不是来自霉菌或任何生物生长。它是通过与环境反应形成的化学化合物。这层绿色被称为铜绿，实际上是保护性的。",
-        "正确！铜随着时间推移与空气中的氧气、水和二氧化碳反应。这产生一层绿色的碳酸铜（CuCO3）和氢氧化铜。这就是为什么自由女神像是绿色的 - 它是铜制的！铜绿实际上保护下面的金属免受进一步腐蚀。",
-        "错误。不涉及油漆。绿色来自铜本身与环境因素的化学反应。纯铜开始时是红棕色的，多年后自然形成绿色铜绿。",
-        "错误。藻类不会在铜上生长 - 事实上，铜是抗菌的，抑制藻类生长！绿色是铜随时间与空气、湿气和二氧化碳反应形成的化学化合物（铜绿）。"
+        "错误。绿色并非来自霉菌或任何生物生长，而是一种与环境反应形成的化合物。这层绿色被称为铜绿，实际上具有保护作用。",
+        "正确！铜在空气中会与氧气、水及二氧化碳发生反应，久而久之形成一层绿色的碳酸铜（CuCO₃）和氢氧化铜。这就是自由女神像呈绿色的原因——它由铜制成！这层铜绿实际上保护了内部的金属免受进一步腐蚀。",
+        "不对。这与油漆无关。绿色是铜本身与环境因素发生化学反应的结果。纯铜最初呈红棕色，经过多年自然形成绿色的铜锈。",
+        "错误。藻类不会在铜上生长——实际上，铜具有抗菌性，能抑制藻类生长！那绿色是铜与空气、湿气和二氧化碳长期反应形成的化合物（铜绿）。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "chem_019"
+    },
+    {
+      "question_en": "Why do fireworks have different colors?",
+      "question_zh": "为什么烟花有不同的颜色？",
+      "choices_en": [
+        "Different temperatures",
+        "Different metal compounds",
+        "Various gunpowder types",
+        "Colored paper wrappings"
+      ],
+      "choices_zh": [
+        "不同温度",
+        "不同金属化合物",
+        "多种火药类型",
+        "彩色纸包装"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While temperature affects brightness, specific colors come from chemical composition, not heat levels.",
+        "Correct! Different metals emit specific colors when heated. Copper makes blue, strontium makes red, barium makes green, sodium makes yellow. Firework makers carefully mix these compounds to create their colorful displays!",
+        "Wrong. Gunpowder provides the explosion, not the colors. Metal salts added to the mixture create specific colors.",
+        "Wrong. Colors come from inside the firework, not external wrapping. Metal compounds burning create the light."
+      ],
+      "explanations_zh": [
+        "错误。虽然温度影响亮度，但特定颜色源于化学成分，而非热量水平。",
+        "正确！不同金属在加热时会发出特定的颜色：铜产生蓝色，锶产生红色，钡产生绿色，钠产生黄色。烟花制造者精心混合这些化合物，以创造出五彩斑斓的烟花表演！",
+        "错误。火药提供的是爆炸，而非色彩。混合物中添加的金属盐才产生特定的颜色。",
+        "不对。烟花的颜色来自内部，而非外部包裹。金属化合物燃烧时产生光芒。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:33:14.556566+00:00",
+      "last_modified_at": "2025-11-21T04:33:14.556566+00:00",
+      "id": "chem_020"
+    },
+    {
+      "question_en": "Why does bleach remove stains?",
+      "question_zh": "漂白剂为何能去除污渍？",
+      "choices_en": [
+        "Breaks apart color molecules",
+        "Washes stains away faster",
+        "Kills bacteria causing stains",
+        "Makes stains invisible"
+      ],
+      "choices_zh": [
+        "分解颜色分子",
+        "更快去除污渍",
+        "杀灭导致污渍的细菌",
+        "让污渍隐形"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Bleach releases oxygen that breaks chemical bonds in stain molecules. This process called oxidation destroys the chromophores—the parts that absorb light and create color. No chromophores means no visible stain!",
+        "Wrong. Bleach doesn't wash better—it chemically destroys stain molecules through oxidation.",
+        "Wrong. While bleach does kill bacteria, stain removal works by breaking down color-causing molecules.",
+        "Wrong. Bleach actually destroys stains chemically, it doesn't hide them."
+      ],
+      "explanations_zh": [
+        "正确！漂白剂释放的氧能破坏污渍分子中的化学键，这一称为氧化的过程会摧毁发色团——即吸收光线并产生颜色的部分。没有了发色团，污渍自然就看不见了！",
+        "不对。漂白剂并非洗涤效果更好——它是通过氧化作用化学分解污渍分子的。",
+        "错误。虽然漂白剂确实能杀死细菌，但去除污渍的原理是分解导致颜色的分子。",
+        "错误。漂白剂实际上是化学分解污渍，而非掩盖它们。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:33:30.527111+00:00",
+      "last_modified_at": "2025-11-21T04:33:30.527111+00:00",
+      "id": "chem_021"
+    },
+    {
+      "question_en": "Why does alcohol evaporate quickly?",
+      "question_zh": "为什么酒精会迅速蒸发？",
+      "choices_en": [
+        "Alcohol is very hot",
+        "Air absorbs alcohol fast",
+        "Weak bonds between molecules",
+        "Alcohol weighs very little"
+      ],
+      "choices_zh": [
+        "酒精很烈。",
+        "空气迅速吸收酒精",
+        "分子间的弱键",
+        "酒精的重量很轻。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Alcohol at room temperature isn't hot. It evaporates quickly due to molecular properties.",
+        "Wrong. Air doesn't specially absorb alcohol. Evaporation depends on the liquid's properties.",
+        "Correct! Alcohol molecules have weaker attractions to each other than water molecules do. Less energy is needed for molecules to escape into the air. That's why alcohol feels cold on skin—it evaporates fast, taking heat with it!",
+        "Wrong. Molecular weight isn't the main factor. The weak intermolecular bonds allow easy evaporation."
+      ],
+      "explanations_zh": [
+        "不对。室温下的酒精并不热，它因分子特性而快速蒸发。",
+        "不对。空气并不会特别吸收酒精。蒸发取决于液体的性质。",
+        "没错！酒精分子之间的吸引力比水分子弱，因此分子逃逸到空气中所需的能量较少。这就是为什么酒精在皮肤上感觉凉爽——它蒸发得快，同时带走热量！",
+        "错误。分子量并非主要因素，弱分子间键使其易于蒸发。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:33:45.837653+00:00",
+      "last_modified_at": "2025-11-21T04:33:45.837653+00:00",
+      "id": "chem_022"
+    },
+    {
+      "question_en": "Why does oil float on water?",
+      "question_zh": "为什么油会浮在水上？",
+      "choices_en": [
+        "Oil is lighter in color",
+        "Oil is less dense than water",
+        "Water pushes oil upward",
+        "Oil repels water molecules"
+      ],
+      "choices_zh": [
+        "油的颜色较浅。",
+        "油的密度比水小。",
+        "水将油向上推。",
+        "油排斥水分子"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Color has nothing to do with floating. Clear oils also float on water.",
+        "Correct! Oil molecules are less tightly packed than water molecules, making oil less dense. Less dense substances float on denser ones. Oil also doesn't mix with water because water molecules attract each other more than they attract oil!",
+        "Wrong. Water doesn't actively push oil. Oil floats passively because it's less dense.",
+        "Wrong. While oil and water don't mix, floating is about density, not repulsion."
+      ],
+      "explanations_zh": [
+        "不对。颜色与漂浮无关，清澈的油也能浮在水面上。",
+        "正确！油分子比水分子排列更松散，因此密度较小。密度较小的物质会浮在密度较大的物质之上。此外，油不溶于水是因为水分子之间的相互吸引力远大于水分子对油分子的吸引力！",
+        "不对。水并不会主动推开油。油之所以浮在水面上，是因为它的密度较小。",
+        "错误。虽然油和水不相溶，但漂浮与密度有关，而非排斥作用。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:34:01.968625+00:00",
+      "last_modified_at": "2025-11-21T04:34:01.968625+00:00",
+      "id": "chem_023"
+    },
+    {
+      "question_en": "Why does dry ice smoke?",
+      "question_zh": "干冰为什么会冒烟？",
+      "choices_en": [
+        "CO2 gas condenses water vapor",
+        "The ice is burning slowly",
+        "Cold air becomes visible",
+        "Frozen smoke is released"
+      ],
+      "choices_zh": [
+        "二氧化碳气体使水蒸气凝结。",
+        "冰在缓慢地燃烧",
+        "冷空气变得可见",
+        "冷冻烟雾被释放"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Dry ice (-78°C) sublimates directly into cold CO2 gas. This extremely cold gas makes nearby water vapor condense into tiny droplets—that's the fog you see! The 'smoke' is actually condensed water vapor, not CO2 itself.",
+        "Wrong. Dry ice doesn't burn—it's frozen carbon dioxide that turns directly into gas (sublimation).",
+        "Wrong. Air doesn't become visible. The fog is water vapor condensing due to the extreme cold.",
+        "Wrong. There's no frozen smoke inside. The visible fog forms when cold CO2 condenses moisture from air."
+      ],
+      "explanations_zh": [
+        "正确！干冰（-78°C）会直接升华成冰冷的二氧化碳气体。这种极冷的气体使周围的水蒸气凝结成微小的水滴——这就是你看到的雾气！那“烟雾”实际上是凝结的水蒸气，而非二氧化碳本身。",
+        "不对。干冰不会燃烧——它是固态二氧化碳，直接转化为气体（升华）。",
+        "不对。空气不会变得可见。雾是水蒸气因严寒而凝结形成的。",
+        "不对。里面没有冷冻的烟雾。可见的雾气是冷二氧化碳凝结空气中的水分形成的。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:34:17.166139+00:00",
+      "last_modified_at": "2025-11-21T04:34:17.166139+00:00",
+      "id": "chem_024"
+    },
+    {
+      "question_en": "Why do things smell different?",
+      "question_zh": "为什么东西闻起来不一样？",
+      "choices_en": [
+        "Colors affect our nose",
+        "Air carries different weights",
+        "Unique molecules fit receptors",
+        "Temperature changes smells"
+      ],
+      "choices_zh": [
+        "颜色影响我们的嗅觉。",
+        "空气承载着不同的重量",
+        "独特分子契合受体",
+        "温度变化影响气味"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Color and smell are separate senses using different receptors. You can smell in the dark.",
+        "Wrong. While molecules have different weights, smell detection works through shape recognition, not weight.",
+        "Correct! Every substance releases unique molecules. Your nose has hundreds of receptor types, each fitting different molecule shapes like keys in locks. Your brain interprets the combination as a specific smell—that's why you recognize thousands of odors!",
+        "Wrong. Temperature affects how fast molecules evaporate, but the unique smell comes from molecular shape."
+      ],
+      "explanations_zh": [
+        "不对。颜色和气味是使用不同受体的独立感官。在黑暗中你也能闻到气味。",
+        "错误。虽然分子重量不同，但嗅觉检测是通过形状识别而非重量来工作的。",
+        "没错！每种物质都会释放独特的分子。你的鼻子拥有数百种受体类型，每一种都像锁与钥匙般适配不同的分子形状。大脑将这些组合解读为特定的气味——这就是为什么你能识别成千上万种气味的原因！",
+        "不对。温度影响分子蒸发的速度，但独特的气味源于分子的形状。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:34:33.231461+00:00",
+      "last_modified_at": "2025-11-21T04:34:33.231461+00:00",
+      "id": "chem_025"
     }
   ]
 }

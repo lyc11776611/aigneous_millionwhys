@@ -28,6 +28,13 @@ class IDManager:
         'Weather': 'weather',
         'Food & Nutrition': 'food',
         'Earth Science': 'earth',
+        'Marine Life': 'marine',
+        'Insects': 'insect',
+        'Household Science': 'house',
+        'Sports & Exercise': 'sport',
+        'Health & Medicine': 'health',
+        'Music & Sound': 'music',
+        'Transportation': 'transport',
     }
 
     # Category name to filename mapping
@@ -44,6 +51,13 @@ class IDManager:
         'Weather': 'weather.json',
         'Food & Nutrition': 'food-nutrition.json',
         'Earth Science': 'earth-science.json',
+        'Marine Life': 'marine-life.json',
+        'Insects': 'insects.json',
+        'Household Science': 'household-science.json',
+        'Sports & Exercise': 'sports-exercise.json',
+        'Health & Medicine': 'health-medicine.json',
+        'Music & Sound': 'music-sound.json',
+        'Transportation': 'transportation.json',
     }
 
     def __init__(self, data_dir: Optional[Path] = None):

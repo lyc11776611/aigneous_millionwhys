@@ -3,9 +3,8 @@
   "category_zh": "动物行为",
   "questions": [
     {
-      "id": "anim_001",
       "question_en": "Why do cats purr?",
-      "question_zh": "为什么猫会发出呼噜声？",
+      "question_zh": "猫为何呼噜？",
       "choices_en": [
         "Only when they're happy",
         "For comfort and healing",
@@ -13,10 +12,10 @@
         "Breathing through their nose"
       ],
       "choices_zh": [
-        "只在开心时",
-        "为了安慰和治愈",
-        "呼叫小猫",
-        "用鼻子呼吸"
+        "快乐时",
+        "舒适愈合",
+        "唤他们的小猫",
+        "用鼻呼吸"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -26,17 +25,19 @@
         "Wrong. Purring is not caused by breathing through the nose. It's produced by rapid vibration of muscles in the larynx (voice box), causing the vocal cords to vibrate as the cat breathes in and out."
       ],
       "explanations_zh": [
-        "错误。虽然猫在开心时确实会呼噜，但它们在害怕、受伤或分娩时也会呼噜。呼噜声不仅仅用于表达快乐，还有多种用途。",
-        "正确！猫为了安慰、治愈和自我安抚而发出呼噜声。这种振动（25-150赫兹）可能有助于骨骼愈合和减轻疼痛。母猫用呼噜声安抚小猫，受伤的猫用它自我安慰。这是多用途安慰工具！",
-        "错误。虽然母猫确实用呼噜声与小猫交流，但这不是专门用来呼叫它们的。猫会用不同的叫声如喵叫或啾啾声来呼叫幼崽。",
-        "错误。呼噜声不是通过鼻子呼吸产生的。它是由喉部（声带）肌肉快速振动产生的，在猫吸气和呼气时使声带振动。"
+        "错误。虽然猫在高兴时会发出呼噜声，但它们在害怕、受伤或分娩时也会这样。呼噜声除了表达快乐外，还有多种用途。",
+        "没错！猫发出呼噜声有多种原因：舒适、疗愈和自我安抚。这种振动（25-150赫兹）可能有助于骨骼愈合和减轻疼痛。母猫通过呼噜声安抚幼猫，受伤的猫则以此自我安慰。这真是一种多功能的舒适工具！",
+        "错误。虽然母猫确实会用呼噜声与小猫交流，但这并非专门用来呼唤它们。猫会使用不同的叫声，如喵喵声或啁啾声，来呼唤幼崽。",
+        "不对。呼噜声并非由鼻子呼吸引起，而是喉部肌肉快速振动所致，这种振动使猫在吸气和呼气时声带随之颤动。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_001"
     },
     {
-      "id": "anim_002",
       "question_en": "Why do dogs wag their tails?",
-      "question_zh": "为什么狗会摇尾巴？",
+      "question_zh": "狗为何摇尾巴？",
       "choices_en": [
         "Always means they're happy",
         "Shows different emotions",
@@ -44,10 +45,10 @@
         "Keep flies away"
       ],
       "choices_zh": [
-        "总是代表开心",
-        "表达不同情绪",
-        "跑步时保持平衡",
-        "赶走苍蝇"
+        "永远快乐",
+        "情绪多变",
+        "跑步时平衡",
+        "驱赶苍蝇"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -57,17 +58,19 @@
         "Wrong. Dogs don't wag their tails to keep flies away. That's more common in horses and cows. Dogs wag specifically to communicate emotions and intentions to other animals and humans."
       ],
       "explanations_zh": [
-        "错误。摇尾巴并不总是代表开心。快速僵硬的摇摆可能表示攻击性或高度兴奋。夹着尾巴缓慢摇摆可能表示恐惧。重要的是要观察整个肢体语言。",
-        "正确！摇尾巴表达各种情绪。放松宽幅的摇摆表示友好。快速僵硬的摇摆可能意味着兴奋或攻击性。方向很重要：向右摇通常表示积极情绪，向左表示消极。这是我们能读懂的肢体语言！",
-        "错误。虽然尾巴确实有助于保持平衡，但这不是狗摇尾巴的原因。摇尾巴主要是为了沟通情绪。平衡功能与摇尾巴行为是分开的。",
-        "错误。狗不会摇尾巴来赶走苍蝇。这在马和牛中更常见。狗摇尾巴专门是为了向其他动物和人类传达情绪和意图。"
+        "错误。摇尾巴并不总是表示开心。快速而僵硬的摇摆可能意味着攻击性或高度兴奋。尾巴夹着慢慢摇可能显示恐惧。重要的是要读懂整个身体语言。",
+        "正确！摇尾巴表达多种情绪。放松、大幅度摇摆表示友好；快速而僵硬的摇摆可能意味着兴奋或攻击性。方向也很重要：向右摇通常表示积极情绪，向左则显示负面情绪。这是我们可以解读的身体语言，用以了解它们的心情！",
+        "错误。虽然尾巴确实有助于保持平衡，但这并非狗狗摇尾巴的原因。摇尾巴主要是为了传达情感，而平衡功能与摇尾行为是分开的。",
+        "不对。狗摇尾巴并不是为了驱赶苍蝇，这在马和牛身上更为常见。狗摇尾巴主要是为了向其他动物和人类传达情感和意图。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_002"
     },
     {
-      "id": "anim_003",
       "question_en": "Why do birds migrate?",
-      "question_zh": "为什么鸟类会迁徙？",
+      "question_zh": "鸟儿为何迁徙？",
       "choices_en": [
         "Escape cold weather only",
         "Follow food sources seasonally",
@@ -75,10 +78,10 @@
         "Find better nesting sites"
       ],
       "choices_zh": [
-        "只为逃避寒冷",
-        "季节性追随食物来源",
-        "躲避捕食者",
-        "寻找更好巢穴"
+        "避寒独行",
+        "应季觅食",
+        "躲避天敌",
+        "寻找更佳巢穴"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -88,17 +91,19 @@
         "Wrong. While birds do seek good nesting sites, they typically return to the same breeding grounds each year. Migration is driven by seasonal food availability, not the search for better nesting locations."
       ],
       "explanations_zh": [
-        "错误。温度是一个因素，但不是主要原因。一些北极鸟类迁徙到南极，仍然经历寒冷。这关乎食物供应，而不仅仅是逃避寒冷。",
-        "正确！鸟类迁徙主要是为了追随季节性食物来源。冬季寒冷地区昆虫和植物变得稀缺。鸟儿飞往食物丰富的温暖地区。有些北极鸟类甚至迁徙到南极，追随夏季和食物！这段旅程需要巨大能量但确保生存。",
-        "错误。躲避捕食者不是迁徙的主要驱动力。在繁殖地和越冬地都有捕食者。如果只是为了躲避捕食者，迁徙的能量成本会太高。",
-        "错误。虽然鸟类确实寻找好的巢址，但它们通常每年返回相同的繁殖地。迁徙是由季节性食物供应驱动的，而不是寻找更好的巢穴位置。"
+        "错误。温度是一个因素，但不是主要原因。有些北极鸟类会迁徙到南极，依然经历寒冷。这关乎食物可得性，而不仅仅是为了躲避寒冷。",
+        "正确！鸟类迁徙主要是为了追随季节性的食物来源。冬季，寒冷地区的昆虫和植物变得稀少。鸟类飞往食物丰富的温暖地带。有些北极鸟类甚至会迁徙到南极洲，追逐夏季和食物！这段旅程需要消耗巨大能量，但确保了它们的生存。",
+        "错误。躲避捕食者并非迁徙的主要驱动力。无论在繁殖地还是越冬地，都存在捕食者。若仅为躲避捕食者而迁徙，其能量消耗将过于高昂。",
+        "错误。虽然鸟类确实会寻找良好的筑巢地点，但它们通常每年都会回到相同的繁殖地。迁徙是由季节性食物供应驱动的，而非寻找更好的筑巢地点。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_003"
     },
     {
-      "id": "anim_004",
       "question_en": "Why do cats land on their feet?",
-      "question_zh": "为什么猫总是用脚着地？",
+      "question_zh": "猫为何总能四脚着地？",
       "choices_en": [
         "They have a special bone",
         "Flexible spine twists mid-air",
@@ -106,10 +111,10 @@
         "They can sense the ground"
       ],
       "choices_zh": [
-        "有特殊骨骼",
-        "灵活脊柱在空中扭转",
-        "尾巴保持平衡",
-        "能感应地面"
+        "他们有特骨",
+        "空中柔转脊",
+        "尾巴助平衡",
+        "他们能感知地面"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -119,17 +124,19 @@
         "Wrong. Cats don't sense the ground to land properly. Their righting reflex is triggered by the vestibular apparatus in their inner ear detecting the fall orientation, not ground proximity."
       ],
       "explanations_zh": [
-        "错误。猫没有用于着陆的特殊骨骼。它们的骨骼结构与其他哺乳动物相似。是它们灵活的脊柱和内耳平衡系统使翻正反射成为可能。",
-        "正确！猫有极其灵活的脊柱，有额外的椎骨可以在空中扭转身体。结合内耳平衡系统，它们可以独立旋转前后身体。这种翻正反射在3-4周龄时发展完成！",
-        "错误。虽然尾巴有助于平衡，但无尾猫（如曼岛猫品种）仍然可以用脚着地。关键是灵活的脊柱和内耳的前庭系统。",
-        "错误。猫不是通过感应地面来正确着陆的。它们的翻正反射是由内耳前庭器官检测跌落方向触发的，而不是地面接近度。"
+        "错误。猫并没有用于着陆的特殊骨骼，它们的骨骼结构与其他哺乳动物相似。是它们灵活的脊柱和内耳平衡系统使它们能够完成翻正反射。",
+        "没错！猫的脊柱极其灵活，拥有额外的椎骨，使它们能在半空中扭转身体。结合其内耳平衡系统，猫能独立转动前后躯干。这种“翻正反射”大约在3到4周大时形成！",
+        "错误。虽然尾巴有助于保持平衡，但无尾猫（如曼岛猫）仍能四脚着地。关键在于它们灵活的脊柱和内耳中的前庭系统。",
+        "错误。猫并非通过感知地面来正确着陆。它们的翻正反射是由内耳前庭器官检测到坠落方向触发的，而非地面接近感。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_004"
     },
     {
-      "id": "anim_005",
       "question_en": "Why do dolphins sleep with one eye open?",
-      "question_zh": "为什么海豚睁一只眼睡觉？",
+      "question_zh": "海豚为何睁只眼睡觉？",
       "choices_en": [
         "Watch for predators",
         "Half brain stays awake",
@@ -137,10 +144,10 @@
         "Keep swimming while resting"
       ],
       "choices_zh": [
-        "警惕捕食者",
-        "一半大脑保持清醒",
-        "它们实际上不睡觉",
-        "休息时继续游泳"
+        "谨防天敌",
+        "半脑清醒",
+        "他们没真睡",
+        "游而不息"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -150,17 +157,19 @@
         "Wrong. While continued swimming is necessary and enabled by this sleep pattern, it's not the primary reason. The key is that dolphins must breathe consciously, so part of their brain must always stay awake."
       ],
       "explanations_zh": [
-        "错误。虽然警惕危险是一个好处，但这不是原因。机制是单侧慢波睡眠，大脑一半睡觉而另一半保持清醒。",
-        "正确！海豚使用单侧睡眠，一个脑半球睡觉而另一个保持清醒。这让它们能有意识地呼吸（它们不能像我们一样自动呼吸）、警惕威胁并保持群体联系。它们每2小时切换一次！",
-        "错误。海豚确实睡觉，但方式与陆地哺乳动物不同。它们需要休息，但必须保持部分意识以浮上水面呼吸，因为它们的呼吸是自主的。",
-        "错误。虽然持续游泳是必要的，并由这种睡眠模式实现，但这不是主要原因。关键是海豚必须有意识地呼吸，所以部分大脑必须始终保持清醒。"
+        "错误。虽然警戒危险是一个好处，但这并非原因。其机制是单半球慢波睡眠，即一半大脑休息时，另一半保持清醒。",
+        "正确！海豚采用“单半球睡眠”方式，即一个大脑半球休息时另一个保持清醒。这使得它们能自主呼吸（无法像人类一样自动呼吸）、警戒危险并维持群体联系。它们每两小时会轮换一次左右脑！",
+        "错误。海豚确实会睡觉，但方式与陆地哺乳动物不同。它们需要休息，但必须保持部分清醒以便浮出水面呼吸，因为对它们来说呼吸是自主控制的。",
+        "错误。虽然持续游泳是必要的，并且这种睡眠模式使之成为可能，但这并非主要原因。关键在于海豚必须有意识地呼吸，因此它们大脑的一部分必须始终保持清醒。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_005"
     },
     {
-      "id": "anim_006",
       "question_en": "Why do elephants have good memory?",
-      "question_zh": "为什么大象记忆力好？",
+      "question_zh": "大象为何记忆力强？",
       "choices_en": [
         "They live very long lives",
         "Large brain with complex neurons",
@@ -168,10 +177,10 @@
         "Special memory organ"
       ],
       "choices_zh": [
-        "寿命很长",
-        "大脑大且神经复杂",
-        "会记录事情",
-        "有特殊记忆器官"
+        "他们寿命很长",
+        "大脑复杂神经元",
+        "他们记录",
+        "特殊记忆器"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -181,17 +190,19 @@
         "Wrong. There's no special memory organ. Their exceptional memory comes from their large brain size and particularly well-developed hippocampus, the brain region crucial for forming and storing long-term memories."
       ],
       "explanations_zh": [
-        "错误。虽然大象确实活60-70年，但长寿本身不会产生更好的记忆。许多长寿物种没有特别好的记忆。大脑结构和大小更重要。",
-        "正确！大象有大脑袋（5公斤，陆地动物中最大）和高度发达的海马体和大脑皮层。它们能记住群体成员、水源和迁徙路线几十年。它们甚至能认出多年前见过的人！",
-        "错误。大象不会写字或使用外部记忆辅助。它们惊人的记忆是生物性的，存储在大而复杂的大脑中。",
-        "错误。没有特殊的记忆器官。它们出色的记忆来自大脑尺寸大和特别发达的海马体，海马体是形成和存储长期记忆的关键脑区。"
+        "错误。虽然大象确实能活60到70年，但仅凭寿命长并不能形成更好的记忆力。许多长寿物种并不具备超常的记忆力。大脑的结构和大小更为重要。",
+        "没错！大象拥有巨大的大脑（重达5公斤，是陆地动物中最大的），其海马体和大脑皮层高度发达。它们能记住家族成员、水源及迁徙路线长达数十年之久，甚至还能认出多年前见过的人类！",
+        "错误。大象不会书写或使用外部记忆辅助工具。它们惊人的记忆力是生物性的，储存在其庞大而复杂的大脑中。",
+        "不对。并没有特殊的记忆器官。它们卓越的记忆力源于其大脑体积较大，尤其是海马体特别发达，这是大脑中负责形成和储存长期记忆的关键区域。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_006"
     },
     {
-      "id": "anim_007",
       "question_en": "Why do fireflies light up at night?",
-      "question_zh": "为什么萤火虫夜晚发光？",
+      "question_zh": "萤火虫为何夜晚发光？",
       "choices_en": [
         "To see in the dark",
         "To attract mates",
@@ -199,10 +210,10 @@
         "They absorb sunlight"
       ],
       "choices_zh": [
-        "为了在黑暗中看清",
-        "为了吸引配偶",
-        "吓跑捕食者",
-        "吸收了阳光"
+        "黑暗中视物",
+        "吸引配偶",
+        "吓退捕食者",
+        "吸收阳光"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -212,17 +223,19 @@
         "Wrong. Fireflies produce their own light through a chemical reaction (bioluminescence), not by storing or reflecting sunlight. The reaction happens in special light organs in their abdomen."
       ],
       "explanations_zh": [
-        "错误。萤火虫不用它们的光来看东西。它们的眼睛适应黑暗，用其他感官导航。生物发光专门用于交流，而非照明。",
-        "正确！萤火虫通过使用荧光素和荧光素酶进行生物发光。雄性闪烁特定模式来吸引同种雌性。每个物种都有独特的闪光模式——就像密码！雌性用自己的闪光回应。这是大自然的光基约会应用！",
-        "错误。虽然光可能偶尔会吓到捕食者，但这不是主要目的。特定的节奏模式是为吸引配偶而设计的，而非防御。",
-        "错误。萤火虫通过化学反应（生物发光）产生自己的光，而不是储存或反射阳光。反应发生在腹部的特殊发光器官中。"
+        "不对。萤火虫并非用其发光来视物，它们的眼睛适应黑暗环境，依赖其他感官导航。生物发光是专门用于交流的，而非照明。",
+        "没错！萤火虫通过生物发光现象，利用荧光素和荧光素酶产生光亮。雄虫会发出特定闪光模式来吸引同种雌虫。每种萤火虫都有独特的闪光规律——就像一种暗号！雌虫则以自己的闪光回应。这简直就是大自然的光之约会应用！",
+        "错误。虽然光有时可能会吓到捕食者，但这并非其主要目的。那些特定且有节奏的模式是为了吸引配偶，而非防御。",
+        "错误。萤火虫通过化学反应（生物发光）自身发光，而非储存或反射阳光。该反应发生在它们腹部的特殊发光器官中。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_007"
     },
     {
-      "id": "anim_008",
       "question_en": "Why mosquitoes bite some people more?",
-      "question_zh": "为什么蚊子更爱咬某些人？",
+      "question_zh": "为何蚊子更爱叮某些人？",
       "choices_en": [
         "Sweet blood attracts them",
         "Body odor and CO2 levels",
@@ -230,10 +243,10 @@
         "Eating sugary foods"
       ],
       "choices_zh": [
-        "血液甜吸引它们",
-        "体味和二氧化碳水平",
-        "穿鲜艳颜色",
-        "吃甜食"
+        "甜血引蚊虫",
+        "体味与二氧化碳",
+        "穿亮色",
+        "含糖食品"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -243,17 +256,19 @@
         "Wrong. Eating sugar doesn't change your blood chemistry enough to attract mosquitoes. However, drinking beer can increase attractiveness slightly, possibly due to increased body temperature and changed skin emissions."
       ],
       "explanations_zh": [
-        "错误。血液没有蚊子能从远处探测到的'甜'味。它们通过化学和热信号找到宿主，而非血糖水平。",
-        "正确！蚊子被呼吸中的二氧化碳、体温和皮肤细菌产生的特定体味所吸引。皮肤细菌多、体温高或O型血的人更易被叮咬。怀孕增加二氧化碳排放，使孕妇成为蚊子磁铁。遗传也影响体味！",
-        "错误。虽然蚊子能看到颜色，但这不是主要因素。深色可能保留更多热量（吸引它们），但二氧化碳和体味等化学信号更重要。",
-        "错误。吃糖不会改变血液化学成分来吸引蚊子。但是喝啤酒可能略微增加吸引力，可能是由于体温升高和皮肤排放物改变。"
+        "错误。血液并没有蚊子能从远处探测到的“甜味”。它们是通过化学和热信号而非血糖水平来寻找宿主的。",
+        "没错！蚊子会被呼吸中的二氧化碳、体温以及皮肤细菌产生的特定体味所吸引。皮肤细菌较多、体温较高或O型血的人更容易被叮咬。孕妇因呼出更多二氧化碳而更易招蚊子。遗传因素也会影响体味！",
+        "错误。虽然蚊子能辨别颜色，但这并非主要因素。深色可能保留更多热量（从而吸引它们），但化学信号如二氧化碳和体味则更为关键。",
+        "不对。吃糖并不会显著改变你的血液化学性质来吸引蚊子。不过，喝啤酒可能会稍微增加吸引力，这可能是因为体温升高和皮肤排放物改变所致。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_008"
     },
     {
-      "id": "anim_009",
       "question_en": "Why owls turn heads 270 degrees?",
-      "question_zh": "为什么猫头鹰能转头270度？",
+      "question_zh": "猫头鹰为何转头270度？",
       "choices_en": [
         "Flexible neck muscles",
         "Special neck vertebrae",
@@ -261,10 +276,10 @@
         "To hear better"
       ],
       "choices_zh": [
-        "颈部肌肉灵活",
+        "颈部柔韧肌",
         "特殊颈椎",
-        "眼球不能转动",
-        "为了听得更好"
+        "他们眼睛动不了",
+        "听得更清"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -274,17 +289,19 @@
         "Wrong. While owls have excellent hearing and do turn their heads to locate sounds, the extreme rotation ability exists because their eyes are fixed. Hearing helps them hunt, but doesn't explain the 270-degree rotation."
       ],
       "explanations_zh": [
-        "错误。虽然颈部肌肉起作用，但这不是主要原因。许多动物有灵活的脖子但不能转头这么远。关键是猫头鹰的眼球固定在眼窝中。",
-        "错误。猫头鹰确实有14个颈椎（人类有7个），但转头的主要原因是它们的眼球固定。额外的颈椎有助于实现旋转，但不是主要驱动因素。",
-        "正确！猫头鹰的眼睛呈管状且完全固定在眼窝中——根本不能转动！为了补偿，它们进化出将头旋转270度的能力。特殊的椎骨、血管适应和灵活的颈部结构防止极端旋转时受伤。",
-        "错误。虽然猫头鹰听力出色并确实转头定位声音，但极端旋转能力存在是因为它们的眼球是固定的。听力帮助它们狩猎，但不能解释270度旋转。"
+        "错。虽然颈部肌肉起到一定作用，但并非主要原因。许多动物颈部灵活却无法如此大幅度转动头部。关键在于猫头鹰的眼睛固定在眼窝中无法转动。",
+        "错误。猫头鹰确实有14节颈椎（人类有7节），但其头部能旋转的主要原因在于它们的眼睛是固定的。额外的颈椎有助于实现旋转，但并非主要驱动力。",
+        "没错！猫头鹰的眼睛呈管状，完全固定在眼窝里——根本无法转动！为了弥补这一点，它们进化出了能将头部旋转高达270度的能力。特殊的颈椎、血管适应性结构以及灵活的颈部构造，使它们在如此极端的转动中不会受伤。",
+        "错误。虽然猫头鹰听力极佳，确实会转动头部来定位声音，但它们之所以能实现如此极端的旋转，是因为它们的眼睛是固定的。听力有助于它们捕猎，但并不能解释为何能旋转270度。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_009"
     },
     {
-      "id": "anim_010",
       "question_en": "Why do penguins huddle together?",
-      "question_zh": "为什么企鹅挤在一起？",
+      "question_zh": "企鹅为何群聚？",
       "choices_en": [
         "To stay warm in cold",
         "Protection from predators",
@@ -292,10 +309,10 @@
         "Share food with group"
       ],
       "choices_zh": [
-        "在寒冷中保暖",
-        "抵御捕食者",
-        "社交联系活动",
-        "与群体分享食物"
+        "保暖御寒",
+        "防捕食者",
+        "社交联谊活动",
+        "与组分享食物"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -305,17 +322,19 @@
         "Wrong. Penguins don't share food within huddles. Adult emperor penguins fast for months during breeding season while incubating eggs. The huddle is purely for thermal protection."
       ],
       "explanations_zh": [
-        "正确！帝企鹅在南极冬季（-40°C寒风）抱团保暖。抱团可以有数千只企鹅，内部温度达37°C而外部是-20°C！它们轮换位置让每只都能轮流到温暖的中心。这种协调行为对生存至关重要！",
-        "错误。企鹅抱团主要是为了保暖，而非抵御捕食者。繁殖季节在冰上，它们的主要威胁是空中捕食者如贼鸥，抱团无法抵御它们。",
-        "错误。虽然抱团确实涉及社交互动，但主要不是为了联系。这是应对极寒的生存机制。这种行为是由体温调节必要性驱动的，而非社交需求。",
-        "错误。企鹅不在抱团时分享食物。成年帝企鹅在繁殖季节孵蛋时禁食数月。抱团纯粹是为了热保护。"
+        "没错！帝企鹅在南极冬季（-40°C寒风）中会挤作一团以保存热量。这个企鹅群可达数千只，内部温度可达37°C，而外界温度低至-20°C！它们会轮换位置，确保每只企鹅都能在温暖的中央待上一阵。这种协调行为对它们的生存至关重要！",
+        "错误。企鹅挤在一起主要是为了取暖，而不是防范捕食者。在冰上繁殖季节，它们的主要威胁是像贼鸥这样的空中捕食者，而挤在一起并不能防范它们。",
+        "错误。虽然抱团取暖确实涉及社交互动，但其主要目的并非增进感情。这是应对严寒的生存机制，该行为由体温调节需求驱动，而非社交需求。",
+        "错误。企鹅在群聚时并不分享食物。成年帝企鹅在繁殖季节孵化蛋时会禁食数月。群聚纯粹是为了保暖。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_010"
     },
     {
-      "id": "anim_011",
       "question_en": "Why do snakes shed their skin?",
-      "question_zh": "为什么蛇会蜕皮？",
+      "question_zh": "蛇为何蜕皮？",
       "choices_en": [
         "To grow bigger",
         "Remove parasites only",
@@ -323,10 +342,10 @@
         "When skin gets dirty"
       ],
       "choices_zh": [
-        "为了长大",
-        "只为去除寄生虫",
-        "改变颜色伪装",
-        "皮肤脏了"
+        "茁壮成长",
+        "仅除寄生虫",
+        "伪装换色",
+        "皮肤脏时"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -336,17 +355,19 @@
         "Wrong. Cleanliness isn't why snakes shed. Their skin doesn't grow, so they must replace it as they grow larger. Shedding is a growth-related process, not a hygiene one."
       ],
       "explanations_zh": [
-        "正确！蛇皮不会随身体生长，所以它们必须蜕皮（蜕壳）以适应成长。幼蛇每几周蜕一次，成年蛇每年数次。蜕皮还能去除寄生虫、修复损伤并更新眼鳞。整个外层一次性脱落！",
-        "错误。虽然蜕皮确实能去除寄生虫，但那是有益的副作用，不是主要原因。蛇蜕皮主要是因为它们的皮肤不会随成长而伸展。即使在无寄生虫环境中，它们仍会定期蜕皮。",
-        "错误。蛇不会通过蜕皮改变颜色。它们的颜色图案由更深层皮肤中的色素细胞决定，这些细胞不会脱落。下面的新皮肤与之前图案相同。",
-        "错误。清洁不是蛇蜕皮的原因。它们的皮肤不会生长，所以随着身体长大必须更换。蜕皮是与生长相关的过程，而非卫生过程。"
+        "正确！蛇的皮肤不会随身体生长，因此它们必须通过蜕皮来适应成长。幼蛇每隔几周蜕一次皮，成年蛇每年几次。蜕皮还能去除寄生虫、修复损伤并更新眼部的鳞片。整个外层皮肤会一次性完整脱落！",
+        "错误。虽然蜕皮确实能去除寄生虫，但这只是有益的副作用，而非主要原因。蛇类蜕皮主要是因为它们的皮肤无法随身体生长而伸展。即使在无寄生虫的环境中，它们仍会定期蜕皮。",
+        "不对。蛇不会通过蜕皮改变颜色。它们的颜色图案由较深皮肤层中的色素细胞决定，这些细胞不会脱落。新长出的皮肤与之前的图案相同。",
+        "不对。蛇蜕皮并非为了清洁，而是因为它们的皮肤不会随身体长大而增长，所以必须通过蜕皮来适应体型的变化。蜕皮是生长过程中的一环，与卫生无关。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_011"
     },
     {
-      "id": "anim_012",
       "question_en": "Why do squirrels bury nuts?",
-      "question_zh": "为什么松鼠埋坚果？",
+      "question_zh": "松鼠为何埋坚果？",
       "choices_en": [
         "Playing and having fun",
         "Store food for winter",
@@ -354,10 +375,10 @@
         "Hide from other animals"
       ],
       "choices_zh": [
-        "玩耍和娱乐",
-        "储存冬季食物",
-        "种树为未来",
-        "藏起来躲避他者"
+        "玩乐",
+        "冬储食物",
+        "为未来植树",
+        "躲避其他动物"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -367,17 +388,19 @@
         "Wrong. Burying nuts is about long-term storage, not immediate hiding. Squirrels often bury nuts in plain sight and rely on memory to find them later. It's a sophisticated food storage system, not a simple hiding behavior."
       ],
       "explanations_zh": [
-        "错误。埋坚果（贮藏）不是玩耍行为。这是严肃的生存策略。松鼠在这项活动上花费大量精力，因为它对冬季生存至关重要。",
-        "正确！松鼠为冬季贮藏坚果，使用'分散贮藏'——在多个地点埋坚果。它们使用空间记忆和地标记住数千个位置。它们找回70-80%的埋藏坚果。被遗忘的坚果常长成树——松鼠是意外的森林种植者！",
-        "错误。虽然被遗忘的坚果确实会变成树，但松鼠埋坚果的意图不是种植。它们试图为自己储存食物。森林生长是无意的有益副作用。",
-        "错误。埋坚果是为了长期储存，而非即时隐藏。松鼠常在显眼处埋坚果，依靠记忆后来找到。这是复杂的食物储存系统，而非简单的隐藏行为。"
+        "错误。埋藏坚果并非玩耍行为，而是一种严肃的生存策略。松鼠为此投入大量精力，因为这对它们度过寒冬至关重要。",
+        "没错！松鼠采用“分散储藏”的方式为冬季储备坚果——将坚果埋藏在多个地点。它们依靠空间记忆和地标记住数千个埋藏点，能找回70%-80%的坚果。那些被遗忘的坚果常常长成树木——松鼠可谓是无心插柳的森林播种者！",
+        "不对。虽然被遗忘的坚果确实会长成树，但松鼠埋藏坚果并非有意种植，而是为了给自己储存食物。森林的生长只是无意中带来的有益副作用。",
+        "不对。埋藏坚果是为了长期储存，而非即时隐藏。松鼠常将坚果埋于显眼之处，并依靠记忆日后寻回。这是一种复杂的食物储存系统，而非简单的藏匿行为。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_012"
     },
     {
-      "id": "anim_013",
       "question_en": "Why do zebras have stripes?",
-      "question_zh": "为什么斑马有条纹？",
+      "question_zh": "斑马为何有条纹？",
       "choices_en": [
         "Camouflage in grasslands",
         "Confuse predators when running",
@@ -385,10 +408,10 @@
         "Identify each other"
       ],
       "choices_zh": [
-        "草原伪装",
+        "草原迷彩",
         "奔跑时迷惑捕食者",
-        "驱赶叮咬的苍蝇",
-        "互相识别"
+        "驱赶叮咬蝇",
+        "相互识别"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -398,17 +421,19 @@
         "Wrong. While each zebra has unique stripe patterns, individual recognition isn't the primary evolutionary reason for stripes. They use other cues like scent and vocalizations for recognition."
       ],
       "explanations_zh": [
-        "错误。斑马在草原上相当显眼——它们的条纹不能融入环境。狮子和其他捕食者发现斑马没有困难。研究表明条纹不能作为有效伪装。",
-        "错误。虽然'运动眩晕'理论曾流行，但研究表明捕食者在狩猎时不会被条纹迷惑。狮子尽管有条纹仍能成功捕获斑马。迷惑假说缺乏有力证据。",
-        "正确！最新研究表明条纹主要是为了驱赶携带疾病的叮咬苍蝇（采采蝇和马蝇）。苍蝇难以降落在条纹图案上。实验中，穿条纹衣的马苍蝇降落次数减少70%！条纹宽度与苍蝇视觉敏感度模式匹配。",
-        "错误。虽然每只斑马的条纹图案独特，但个体识别不是条纹进化的主要原因。它们使用气味和叫声等其他线索进行识别。"
+        "错误。斑马在草原上相当显眼——它们的条纹并不起伪装作用。狮子和其它捕食者能轻易发现斑马。研究表明条纹并不具备有效的伪装功能。",
+        "错误。尽管“运动炫目”理论曾广受欢迎，但研究表明捕食者在狩猎时并不会因条纹而困惑。尽管斑马有条纹，狮子仍能成功捕获它们。混淆假说缺乏有力证据。",
+        "确实如此！最新研究表明，斑纹主要能驱散携带疾病的叮咬蝇类（如舌蝇和马蝇）。这些蝇类在条纹图案上难以降落。实验中，披着条纹马衣的马匹身上蝇类降落次数减少了70%！条纹宽度恰好与蝇类视觉敏感模式相匹配。",
+        "错误。虽然每匹斑马的条纹图案独一无二，但个体识别并非条纹进化的主要原因。它们主要依靠气味和叫声等其他线索进行识别。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_013"
     },
     {
-      "id": "anim_014",
       "question_en": "Why can't penguins fly?",
-      "question_zh": "为什么企鹅不会飞？",
+      "question_zh": "企鹅为何不会飞？",
       "choices_en": [
         "Wings are too small",
         "Evolved for swimming efficiency",
@@ -417,9 +442,9 @@
       ],
       "choices_zh": [
         "翅膀太小",
-        "为游泳效率进化",
-        "太重飞不起来",
-        "随时间失去能力"
+        "游泳效率进化",
+        "太重飞不起",
+        "渐失能力"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -429,17 +454,19 @@
         "Wrong. This implies random loss, but penguin wing evolution was purposeful adaptation. They didn't 'lose' flight ability - they traded it for superior swimming capabilities through natural selection. It was an evolutionary trade-off, not a loss."
       ],
       "explanations_zh": [
-        "错误。单靠翅膀尺寸不是问题。企鹅的翅膀与身体比例适当，但这些翅膀为不同目的进化——游泳，而非飞行。",
-        "正确！企鹅从会飞的鸟类进化而来，但适应了擅长游泳。它们的翅膀变成了为水下'飞行'优化的鳍状肢——速度达22英里/小时！高效游泳的生物力学与空中飞行冲突。致密骨骼（不像空心鸟骨）帮助它们深潜。进化偏向游泳专业化！",
-        "错误。体重是一个因素，但不是主要原因。如果企鹅有为飞行设计的翅膀，它们的体重可能是可控的。关键是它们的翅膀专门为游泳进化，使空中飞行在生物力学上不可能。",
-        "错误。这暗示随机丧失，但企鹅翅膀进化是有目的的适应。它们没有'失去'飞行能力——通过自然选择用它换取了卓越的游泳能力。这是进化权衡，而非丧失。"
+        "错误。问题并不单在于翅膀的大小。企鹅的翅膀与其身体比例相称，但这些翅膀进化是为了不同的目的——游泳，而非飞翔。",
+        "正确！企鹅是从飞鸟演化而来，但适应了擅长游泳的特性。它们的翅膀演变成了鳍状肢，专为水下“飞行”优化——速度可达每小时22英里！高效游泳的生物力学与空中飞行相冲突。密实的骨骼（不同于中空的鸟类骨骼）帮助它们深潜。进化更青睐游泳特化！",
+        "错误。体重是一个因素，但并非主要原因。如果企鹅的翅膀是为飞行设计的，它们的体重或许可以承受。关键在于，它们的翅膀特化为游泳而生，这使得空中飞行在生物力学上成为不可能。",
+        "错误。这暗示了随机丧失，但企鹅翅膀的进化是有目的的适应。它们并非“失去”飞行能力，而是通过自然选择将其换取了更卓越的游泳能力。这是一种进化上的权衡，而非损失。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_014"
     },
     {
-      "id": "anim_015",
       "question_en": "Why do bees make honey?",
-      "question_zh": "为什么蜜蜂酿蜜？",
+      "question_zh": "蜜蜂为何酿蜜？",
       "choices_en": [
         "To feed humans",
         "Winter food storage",
@@ -447,10 +474,10 @@
         "Cool down the hive"
       ],
       "choices_zh": [
-        "喂养人类",
-        "储存冬季食物",
-        "吸引花朵到蜂巢",
-        "给蜂巢降温"
+        "养活人类",
+        "冬季储粮",
+        "引花入巢",
+        "冷却蜂巢"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -460,17 +487,19 @@
         "Wrong. While bees do control hive temperature by fanning their wings, honey isn't used for cooling. Honey is specifically an energy-rich food storage system for survival during winter and periods of scarcity."
       ],
       "explanations_zh": [
-        "错误。蜜蜂不是为人类酿蜜。蜂蜜生产在人类开始养蜂之前数百万年就进化出来了。蜜蜂酿蜜纯粹是为了自己族群的生存。",
-        "正确！蜜蜂酿蜜作为冬季食物供应。它们收集花蜜，用酶处理，储存在六角形巢房中。一个蜂巢每年产30-60磅！由于低水分和酸性pH值，蜂蜜永不变质。工蜂在花朵不开且无法离巢时需要这种高能量食物。",
-        "错误。蜜蜂访问花朵以收集花蜜，而非吸引它们。花朵是固定的植物——无法移动到蜂巢。是蜜蜂被花朵吸引，而非反过来。",
-        "错误。虽然蜜蜂确实通过扇动翅膀控制蜂巢温度，但蜂蜜不用于降温。蜂蜜专门是富含能量的食物储存系统，用于冬季和稀缺时期的生存。"
+        "不对。蜜蜂并不是为人类制造蜂蜜的。蜂蜜的生产早在人类开始养蜂数百万年前就已经存在。蜜蜂制造蜂蜜完全是为了它们自己蜂群的生存。",
+        "正确！蜜蜂酿蜜是为了储备冬季食物。它们采集花蜜，用酶加工后储存在六边形蜂巢中。一个蜂群每年可产蜜30-60磅！因含水量低和酸性pH值，蜂蜜永不变质。当花期结束无法离巢时，工蜂需要这种高能量食物维持活力。",
+        "错误。蜜蜂采花是为了采集花蜜，而不是吸引花朵。花朵是静止的植物——它们无法移动到蜂巢。是蜜蜂被花朵吸引，而非相反。",
+        "错误。虽然蜜蜂确实通过扇动翅膀来控制蜂巢温度，但蜂蜜并非用于降温。蜂蜜是专门为冬季和食物匮乏时期储存的富含能量的食物系统。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_015"
     },
     {
-      "id": "anim_016",
       "question_en": "Why do chameleons change color?",
-      "question_zh": "为什么变色龙会变色？",
+      "question_zh": "变色龙为何变色？",
       "choices_en": [
         "Match background perfectly",
         "Communication and mood",
@@ -479,7 +508,7 @@
       ],
       "choices_zh": [
         "完美匹配背景",
-        "交流和表达情绪",
+        "沟通与情绪",
         "更好吸收阳光",
         "迷惑猎物昆虫"
       ],
@@ -491,17 +520,19 @@
         "Wrong. Chameleons are sit-and-wait predators relying on camouflage while stationary and their long, fast tongues for catching prey. Color changes are too slow to confuse insects and aren't used during hunting."
       ],
       "explanations_zh": [
-        "错误。变色龙不会完美匹配周围环境。它们的颜色变化仅限于其物种范围（绿色、棕色、红色）。主要目的不是伪装——许多在变色后仍然可见。",
-        "正确！变色龙变色主要是为了交流情绪和意图。鲜艳颜色表示攻击性或求偶，较暗颜色表示顺从或压力。它们调整皮肤细胞中的纳米晶体间距以反射不同波长。温度调节是次要好处。就像情绪戒指生物学！",
-        "错误。虽然颜色可以略微影响热量吸收，但这不是它们变色的原因。通过变色进行温度调节是次要的副作用，不是主要的进化目的。",
-        "错误。变色龙是守株待兔的捕食者，依靠静止时的伪装和快速的长舌头捕捉猎物。颜色变化太慢无法迷惑昆虫，狩猎时不使用变色。"
+        "错误。变色龙并不能完美融入周围环境，它们的变色能力仅限于其物种特定的颜色范围（绿色、棕色、红色）。主要目的并非伪装——许多变色龙在变色后依然清晰可见。",
+        "正确！变色龙改变颜色主要是为了交流情感和意图。鲜艳的色彩表示攻击或求偶，深色则显示顺从或压力。它们通过调节皮肤细胞中纳米晶体的间距来反射不同波长的光。温度调节是次要的好处。这就像是生物界的情绪戒指！",
+        "错误。虽然颜色能轻微影响热量吸收，但这并非它们变色的原因。通过变色调节温度只是一个次要的附带好处，而非主要的进化目的。",
+        "错误。变色龙是伏击型捕食者，依靠静止时的伪装和快速弹射的长舌捕捉猎物。变色过程太慢，无法迷惑昆虫，捕猎时并不使用。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_016"
     },
     {
-      "id": "anim_017",
       "question_en": "Why do woodpeckers peck trees?",
-      "question_zh": "为什么啄木鸟啄树？",
+      "question_zh": "啄木鸟为何啄树？",
       "choices_en": [
         "Sharpen their beaks",
         "Find insects and make nests",
@@ -509,9 +540,9 @@
         "Exercise their neck muscles"
       ],
       "choices_zh": [
-        "磨尖喙",
-        "寻找昆虫和筑巢",
-        "只为标记领地",
+        "磨砺喙锋",
+        "寻虫筑巢",
+        "仅标记领地",
         "锻炼颈部肌肉"
       ],
       "correct_answer": 1,
@@ -522,17 +553,19 @@
         "Wrong. Pecking isn't for exercise. It's a purposeful behavior for survival: finding food in tree bark, creating homes in tree cavities, and communication through rhythmic drumming. The strong muscles evolved to support these functions."
       ],
       "explanations_zh": [
-        "错误。啄木鸟的喙不像工具需要磨尖。它们持续生长以替换磨损。啄树有特定目的：寻找食物、挖掘巢穴和交流——而非喙部维护。",
-        "正确！啄木鸟啄树有多个原因：从树皮中挖掘昆虫（甲虫、蚂蚁）、在枯木中挖掘巢穴，以及通过'鼓击'交流领地和吸引配偶。它们每秒能啄20次！特殊的头骨适应防止撞击造成脑损伤。",
-        "错误。虽然鼓击确实标记领地，但这只是三个主要啄树目的之一。它们还啄树寻找食物和挖掘巢洞。仅领地标记无法解释广泛的啄树行为。",
-        "错误。啄树不是为了锻炼。这是为了生存的有目的行为：在树皮中寻找食物、在树洞中创建家园，以及通过节奏鼓击交流。强壮肌肉进化是为了支持这些功能。"
+        "错误。啄木鸟的喙不像工具那样需要磨砺。它们会持续生长以替代磨损。啄木行为有特定目的：寻找食物、开凿巢穴和沟通交流——而非保养喙部。",
+        "正确！啄木鸟啄木有多种原因：从树皮中挖掘昆虫（如甲虫、蚂蚁），在枯木上开凿巢穴，以及通过“敲击”来宣示领地和吸引配偶。它们每秒能啄击20次！特殊的头骨结构能防止冲击对大脑造成损伤。",
+        "错误。虽然啄木确实有标记领地的作用，但这只是啄击三大主要目的之一。它们还会通过啄击寻找食物和挖掘巢穴。仅凭标记领地无法解释其广泛的啄击行为。",
+        "错误。啄木并非为了锻炼，而是一种为了生存的有目的行为：在树皮中寻找食物、在树洞中建造家园，以及通过有节奏的敲击进行交流。强壮的肌肉正是为了支持这些功能而进化出来的。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_017"
     },
     {
-      "id": "anim_018",
       "question_en": "Why do dogs have wet noses?",
-      "question_zh": "为什么狗的鼻子是湿的？",
+      "question_zh": "狗鼻为何湿漉？",
       "choices_en": [
         "They lick them frequently",
         "Enhance smell and cooling",
@@ -540,10 +573,10 @@
         "Collect water from air"
       ],
       "choices_zh": [
-        "经常舔鼻子",
-        "增强嗅觉和降温",
-        "只是健康标志",
-        "从空气收集水"
+        "他们常舔它们",
+        "增强嗅觉与清凉",
+        "健康标志",
+        "空中取水"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -553,17 +586,19 @@
         "Wrong. Dog noses don't collect atmospheric water. The moisture comes from specialized mucus-producing glands inside the nose. The wetness serves to enhance olfactory ability and cooling, not hydration."
       ],
       "explanations_zh": [
-        "错误。虽然狗确实会舔鼻子，但这不是鼻子湿润的原因。鼻子里的特殊粘液腺产生的水分有助于捕获气味颗粒。舔鼻子帮助清洁鼻子并将气味转移到口腔进行分析。",
-        "正确！狗的鼻子有粘液腺保持湿润。水分层有助于吸收和捕获气味化学物质，大大改善它们本已强大的嗅觉。它还有助于蒸发降温。狗舔鼻子是为了采样气味并保持鼻子清洁和功能！",
-        "错误。虽然湿鼻子通常表示健康，但湿润本身不只是健康指标。水分有功能性目的：增强气味检测和温度调节。暂时干燥的鼻子并不总是意味着生病。",
-        "错误。狗鼻子不从大气中收集水分。水分来自鼻内专门的粘液分泌腺。湿润用于增强嗅觉能力和降温，而非补水。"
+        "不对。虽然狗确实会舔鼻子，但那并不是鼻子湿润的原因。鼻子里特殊的黏液腺会分泌湿气，帮助捕捉气味颗粒。舔鼻子有助于清洁鼻子，并将气味传送到口中进行分析。",
+        "没错！狗的鼻子有黏液腺保持湿润。这层湿气有助于吸收和捕捉气味分子，显著增强它们本就强大的嗅觉能力。同时，它还起到蒸发冷却的作用。狗会舔鼻子来品尝气味，并保持鼻子清洁和功能正常！",
+        "不对。虽然湿润的鼻子通常代表健康，但湿润本身并不仅仅是健康指标。这种湿度具有功能性作用：增强气味检测和调节体温。鼻子暂时干燥并不总是意味着生病。",
+        "错误。狗的鼻子并不收集大气中的水分。湿润感来源于鼻内特殊的黏液分泌腺体。这种湿润有助于增强嗅觉能力和降温，而非补充水分。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_018"
     },
     {
-      "id": "anim_019",
       "question_en": "Why do cats' eyes glow in the dark?",
-      "question_zh": "为什么猫眼在黑暗中发光？",
+      "question_zh": "猫眼为何夜光？",
       "choices_en": [
         "They produce their own light",
         "Tapetum reflects light back",
@@ -571,9 +606,9 @@
         "Special glow proteins"
       ],
       "choices_zh": [
-        "自己产生光",
-        "反光层反射光线",
-        "吸收月光",
+        "自发光源",
+        "反光膜反射光线",
+        "眼眸映月光",
         "特殊发光蛋白"
       ],
       "correct_answer": 1,
@@ -584,17 +619,19 @@
         "Wrong. Cats don't have bioluminescent proteins. The glow is purely optical - light reflecting off the tapetum lucidum structure. It's a physical reflection phenomenon, not a biological light production."
       ],
       "explanations_zh": [
-        "错误。猫不像萤火虫那样产生光。它们的眼睛发光是因为反射可用光线，而不是产生光。没有任何光源时，猫眼看起来是黑暗的。",
-        "正确！猫的视网膜后面有一层叫做反光层的反射层。它将光线反射回视网膜，让光感受器有第二次机会检测它。这将夜视能力提高6倍！'发光'是反射光，而非产生的光。眼睛颜色影响发光颜色！",
-        "错误。眼睛不像太阳能电池板那样吸收和储存光。发光是对可用光（任何光源，不只是月亮）的即时反射。当光线照射反光层时，它立即反弹回来，产生发光效果。",
-        "错误。猫没有生物发光蛋白。发光纯粹是光学现象——光从反光层结构反射。这是物理反射现象，而非生物产生光。"
+        "不对。猫并不会像萤火虫那样发光。它们的眼睛之所以会发光，是因为反射了周围的光线，而不是自身产生光。在没有光源的情况下，猫的眼睛看起来是暗的。",
+        "没错！猫的视网膜后方有一层名为“照膜”的反射层，能将光线反射回视网膜，让感光细胞有机会再次捕捉光线，从而使夜视能力提升高达6倍！那“发光”现象其实是反射光，并非眼睛自行发光。眼睛的颜色还会影响反光的色泽哦！",
+        "不对。眼睛不像太阳能板那样吸收并储存光线。那种发光是现有光线（任何光源，不仅仅是月光）的即时反射。当光线照到反光膜上时，它会立即反弹回来，从而产生发光效果。",
+        "错误。猫并不具备生物发光蛋白。那种发光纯粹是光学现象——光线在照膜结构上的反射。这是一种物理反射现象，而非生物发光过程。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_019"
     },
     {
-      "id": "anim_020",
       "question_en": "Why do horses sleep standing up?",
-      "question_zh": "为什么马站着睡觉？",
+      "question_zh": "马为何站着睡觉？",
       "choices_en": [
         "Too heavy to lie down",
         "Quick escape from predators",
@@ -602,10 +639,10 @@
         "Save energy from getting up"
       ],
       "choices_zh": [
-        "太重躺不下",
+        "重得躺不下",
         "快速逃离捕食者",
-        "躺下会伤害器官",
-        "节省起身能量"
+        "谎言伤身",
+        "起床省电"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -615,12 +652,279 @@
         "Wrong. Getting up doesn't require excessive energy for healthy horses. The standing sleep ability evolved specifically for predator escape, not energy conservation. The 'stay apparatus' saves energy while standing, but that's a mechanism enabling the behavior, not the reason for it."
       ],
       "explanations_zh": [
-        "错误。马可以也确实会躺下——它们需要躺下进行快速眼动睡眠。体重不是问题。它们腿部有特殊的'支撑装置'锁定关节，让它们能站着打盹而不费肌肉力气。",
-        "正确！马作为开阔平原上的猎物动物进化而来。站立睡眠允许从捕食者那里瞬间逃跑。特殊的腿部锁定机制（支撑装置）让它们能站着打盹而不疲劳。但是，它们必须躺下进行深度快速眼动睡眠（每天2-3小时），否则会睡眠不足。这是生存平衡！",
-        "错误。躺下不会伤害健康的马。它们定期躺下进行深度快速眼动睡眠。大型马长时间躺在一侧可能会出现循环问题，但这不是它们站着睡觉的原因——捕食者逃离是进化驱动力。",
-        "错误。对健康的马来说起身不需要过多能量。站立睡眠能力专门为了逃离捕食者而进化，而非节能。'支撑装置'在站立时节省能量，但那是实现行为的机制，而非原因。"
+        "不对。马确实可以并且会躺下睡觉——它们需要这样来进入快速眼动睡眠。体重不是问题所在。它们的腿部有一种特殊的“停留装置”，能锁定关节，使它们在站立时无需肌肉用力就能打盹。",
+        "确实！马是在开阔平原上演化而成的被捕食动物。站立睡眠使它们能迅速逃离捕食者。一种特殊的腿部锁定机制（驻立装置）让它们站立打盹而不感疲惫。然而，它们必须躺下进行深度快速眼动睡眠（每日2-3小时），否则会睡眠不足。这是一种生存平衡！",
+        "错误。躺下不会对健康的马造成伤害。它们会定期躺下进行深度快速眼动睡眠。大型马如果长时间侧卧可能会引发血液循环问题，但这并非它们站着睡觉的原因——逃避捕食者才是进化上的驱动力。",
+        "错误。对于健康的马来说，起身并不需要过多能量。站立睡眠的能力是专门为逃避捕食者而进化出来的，并非为了节省能量。“站立装置”确实能在站立时节省能量，但那是实现这种行为的一种机制，而非其原因。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "anim_020"
+    },
+    {
+      "question_en": "Why do bats hang upside down?",
+      "question_zh": "为什么蝙蝠倒挂着？",
+      "choices_en": [
+        "Easy takeoff by dropping",
+        "Blood flows to brain better",
+        "Predators can't reach them",
+        "Sleeping position preference"
+      ],
+      "choices_zh": [
+        "投放式简易起飞",
+        "血液更顺畅地流向大脑。",
+        "捕食者无法触及它们。",
+        "睡姿偏好"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Bats have weak legs and can't launch from the ground. Hanging lets them drop into flight instantly. Their tendons lock automatically when gripping, so hanging takes no energy—they can sleep without falling!",
+        "Wrong. Bat circulation works fine in any position. Hanging is about flight mechanics, not blood flow.",
+        "Wrong. Many predators can climb to where bats roost. Hanging is primarily for flight launch efficiency.",
+        "Wrong. Hanging isn't mere preference—it's necessary. Bat leg structure makes ground takeoff nearly impossible."
+      ],
+      "explanations_zh": [
+        "没错！蝙蝠的腿部力量较弱，无法从地面起飞。倒挂能让它们瞬间下坠进入飞行状态。它们的肌腱在抓握时会自动锁定，因此倒挂不消耗能量——即使睡觉也不会掉下来！",
+        "错误。蝙蝠的血液循环在任何姿势下都能正常运作。倒挂关乎飞行力学，而非血液流动。",
+        "不对。许多捕食者都能爬到蝙蝠栖息的地方。倒挂主要是为了飞行起跳的效率。",
+        "错误。悬挂并非仅仅是偏好——而是必须的。蝙蝠的腿部结构使得地面起飞几乎不可能。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:29:31.898507+00:00",
+      "last_modified_at": "2025-11-21T04:29:31.898507+00:00",
+      "id": "anim_021"
+    },
+    {
+      "question_en": "Why do camels have humps?",
+      "question_zh": "骆驼为什么有驼峰？",
+      "choices_en": [
+        "To store water for deserts",
+        "To store fat for energy",
+        "To balance heavy loads",
+        "To regulate body heat"
+      ],
+      "choices_zh": [
+        "为沙漠储水",
+        "储存脂肪以供能量",
+        "平衡重负载",
+        "调节体温"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. This is a common myth! Camels don't store water in humps. Water is distributed throughout their bodies.",
+        "Correct! Humps store fat, not water. Camels metabolize this fat for energy and water when food is scarce. A healthy hump is firm; a droopy one means the camel needs food. They can lose 30% of their water and survive!",
+        "Wrong. Loads are placed around humps, not balanced by them. Humps exist for fat storage.",
+        "Wrong. Heat regulation happens through other adaptations. Humps are specifically fat reserves."
+      ],
+      "explanations_zh": [
+        "错误。这是一个常见的误解！骆驼并不在驼峰中储存水分，水分是分布在整个身体里的。",
+        "正确！驼峰储存的是脂肪而非水分。在食物匮乏时，骆驼会代谢这些脂肪来获取能量和水分。健康的驼峰坚实挺拔，若出现下垂则表明骆驼需要进食。它们即使失去体内30%的水分也能存活！",
+        "错误。负载分布在驼峰周围，而非由其平衡。驼峰的作用是储存脂肪。",
+        "不对。体温调节是通过其他适应方式实现的。驼峰是专门的脂肪储备。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:29:48.096937+00:00",
+      "last_modified_at": "2025-11-21T04:29:48.096937+00:00",
+      "id": "anim_022"
+    },
+    {
+      "question_en": "Why do sloths move so slowly?",
+      "question_zh": "树懒为什么行动如此缓慢？",
+      "choices_en": [
+        "They're always tired",
+        "Slow muscles are stronger",
+        "Low metabolism saves energy",
+        "Rainforest trees are slippery"
+      ],
+      "choices_zh": [
+        "他们总是很累。",
+        "慢肌更强壮",
+        "新陈代谢慢能节省能量",
+        "雨林树木很滑。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Sloths aren't tired—slowness is their survival strategy, not exhaustion.",
+        "Wrong. Sloth muscles are actually quite weak. Their slowness isn't about strength.",
+        "Correct! Sloths eat low-calorie leaves and have very slow metabolisms. Moving slowly conserves energy. It also helps them avoid predators—their slowness makes them hard to spot! They can take a month to digest one meal.",
+        "Wrong. Trees aren't particularly slippery. Sloths have curved claws perfect for gripping branches."
+      ],
+      "explanations_zh": [
+        "不对。树懒并非疲惫——缓慢是它们的生存策略，而非疲倦所致。",
+        "不对。树懒的肌肉其实相当弱。它们的缓慢与力量无关。",
+        "没错！树懒以低热量树叶为食，新陈代谢极为缓慢。缓慢移动有助于节省能量，同时也能帮助它们躲避天敌——它们的慢动作让它们不易被发现！它们可能需要一个月才能消化完一顿饭。",
+        "不对。树木并不特别滑。树懒有弯曲的爪子，非常适合抓握树枝。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:30:03.259911+00:00",
+      "last_modified_at": "2025-11-21T04:30:03.259911+00:00",
+      "id": "anim_023"
+    },
+    {
+      "question_en": "Why do kangaroos hop instead of walk?",
+      "question_zh": "袋鼠为什么是跳跃而不是行走？",
+      "choices_en": [
+        "Hopping is more efficient",
+        "Their legs can't walk",
+        "To move faster than predators",
+        "Pouch babies need bouncing"
+      ],
+      "choices_zh": [
+        "跳跃更高效。",
+        "他们的腿走不了路。",
+        "快过捕食者",
+        "袋鼠宝宝需要蹦跳"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! At high speeds, hopping uses less energy than running. Kangaroo tendons store and release energy like springs. They can cruise at 25 mph and barely get tired! At slow speeds, they use their tail as a fifth leg.",
+        "Wrong. Kangaroos can move their legs independently—they swim by kicking! But on land, hopping is more efficient.",
+        "Wrong. Speed is a benefit, but efficiency is the main reason. Hopping uses their spring-like tendons.",
+        "Wrong. Joeys aren't why kangaroos hop. The pouch is adapted for hopping, not the other way around."
+      ],
+      "explanations_zh": [
+        "正确！在高速移动时，跳跃比奔跑消耗的能量更少。袋鼠的肌腱像弹簧一样储存和释放能量。它们能以每小时25英里的速度巡航，几乎不会感到疲劳！而在慢速移动时，它们会把尾巴当作第五条腿来使用。",
+        "不对。袋鼠可以独立移动双腿——它们通过踢腿来游泳！但在陆地上，跳跃更为高效。",
+        "错误。速度是优势，但效率才是主要原因。跳跃利用了它们如弹簧般的肌腱。",
+        "不对。袋鼠跳跃的原因并非因为育儿袋，而是育儿袋适应了跳跃的生活方式，而非相反。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:30:18.509150+00:00",
+      "last_modified_at": "2025-11-21T04:30:18.509150+00:00",
+      "id": "anim_024"
+    },
+    {
+      "question_en": "Why do porcupines have quills?",
+      "question_zh": "豪猪为什么有刺？",
+      "choices_en": [
+        "To catch food",
+        "Defense against predators",
+        "To attract mates",
+        "Quills sense surroundings"
+      ],
+      "choices_zh": [
+        "捕捉食物",
+        "防御捕食者",
+        "吸引配偶",
+        "羽毛感知周围环境"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Porcupines are herbivores and don't use quills to catch food. They eat plants and bark.",
+        "Correct! Quills are modified hairs with barbed tips. When threatened, porcupines raise their quills. If a predator attacks, quills detach and embed painfully. They can't shoot quills—that's a myth—but quills release easily on contact!",
+        "Wrong. Quills aren't for mating displays. They're purely defensive.",
+        "Wrong. Quills don't function as sensors. Regular hairs and whiskers serve that purpose."
+      ],
+      "explanations_zh": [
+        "错误。豪猪是草食动物，不会用刺来捕食。它们以植物和树皮为食。",
+        "正确！豪猪的刺是特化的毛发，末端带有倒钩。当受到威胁时，豪猪会竖起这些刺。如果捕食者发动攻击，刺会脱落并痛苦地扎入对方体内。它们并不能发射刺——那只是个传说——但刺在接触时很容易脱落！",
+        "不对。羽毛笔不是用来求偶展示的，它们纯粹是防御性的。",
+        "不对。羽毛笔并不具备传感器功能，普通毛发和胡须才用于此目的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:30:34.131553+00:00",
+      "last_modified_at": "2025-11-21T04:30:34.131553+00:00",
+      "id": "anim_025"
+    },
+    {
+      "question_en": "Why do frogs croak at night?",
+      "question_zh": "青蛙为什么在晚上呱呱叫？",
+      "choices_en": [
+        "They're hungry",
+        "To scare predators",
+        "Males attract females",
+        "Night air helps their voice"
+      ],
+      "choices_zh": [
+        "他们饿了。",
+        "吓退捕食者",
+        "雄性吸引雌性",
+        "夜风助长了他们的声音。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Croaking isn't related to hunger. Frogs call for reproductive reasons.",
+        "Wrong. Croaking would attract predators, not scare them. Many predators hunt frogs by sound.",
+        "Correct! Male frogs croak to attract females during breeding season. Each species has a unique call so females find the right mates. Nighttime is safer for calling when many visual predators are inactive!",
+        "Wrong. Night air doesn't affect frog voices. They call at night because it's safer from daytime predators."
+      ],
+      "explanations_zh": [
+        "不对。蛙鸣与饥饿无关，青蛙鸣叫是为了繁殖。",
+        "不对。呱呱叫会引来捕食者，而不是吓跑它们。许多捕食者是靠声音来捕食青蛙的。",
+        "正确！雄性青蛙在繁殖季节通过鸣叫吸引雌性。每种青蛙都有独特的叫声，以便雌性找到合适的伴侣。夜间鸣叫更安全，因为许多视觉捕食者此时不活跃！",
+        "不对。夜晚的空气不会影响青蛙的叫声。它们在夜间鸣叫是因为这样能避开白天的捕食者，更为安全。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:30:49.229233+00:00",
+      "last_modified_at": "2025-11-21T04:30:49.229233+00:00",
+      "id": "anim_026"
+    },
+    {
+      "question_en": "Why do wolves howl?",
+      "question_zh": "狼为什么嚎叫？",
+      "choices_en": [
+        "Pack communication over distance",
+        "To scare away prey",
+        "Howling helps digestion",
+        "They're calling the moon"
+      ],
+      "choices_zh": [
+        "远距离数据包通信",
+        "吓跑猎物",
+        "嚎叫有助于消化。",
+        "他们在呼唤月亮"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Wolves howl to communicate with their pack over miles. Howls can coordinate hunts, announce territory, locate separated members, or strengthen social bonds. Each wolf has a unique voice pack members recognize!",
+        "Wrong. Scaring prey would be counterproductive for hunting. Howling is about pack communication.",
+        "Wrong. Howling has no digestive function. It's purely for communication.",
+        "Wrong. The moon association is a myth. Wolves howl with heads up to project sound farther, often when moon is visible."
+      ],
+      "explanations_zh": [
+        "没错！狼通过嚎叫与数英里外的同伴交流。嚎叫声能协调捕猎、宣告领地、寻找失散成员或加强社会联系。每只狼都有独特的声音，同伴们一听便知！",
+        "不对。吓跑猎物对狩猎不利。嚎叫是为了狼群间的沟通。",
+        "错误。嚎叫并无消化功能，纯粹用于交流。",
+        "不对。狼对月嚎叫的说法是个误解。它们抬头嚎叫是为了让声音传得更远，而这通常发生在月亮可见的时候。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:31:04.795545+00:00",
+      "last_modified_at": "2025-11-21T04:31:04.795545+00:00",
+      "id": "anim_027"
+    },
+    {
+      "question_en": "Why do animals hibernate in winter?",
+      "question_zh": "动物为什么在冬天冬眠？",
+      "choices_en": [
+        "Too cold to move around",
+        "Food is scarce, save energy",
+        "Winter days are too short",
+        "Snow blocks their homes"
+      ],
+      "choices_zh": [
+        "冷得动弹不得。",
+        "食物稀缺，节约能量。",
+        "冬日太短。",
+        "雪堵住了他们的家门。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Many animals are active in cold weather. Hibernation is about food availability, not temperature alone.",
+        "Correct! Hibernation lets animals survive when food is scarce. They drastically slow metabolism—some heartbeats drop from 200 to 5 per minute! Body fat provides energy until spring brings food again.",
+        "Wrong. Day length triggers hibernation hormones, but the survival advantage is conserving energy when food is unavailable.",
+        "Wrong. Snow doesn't trap hibernators. Many dig dens or find sheltered spots before hibernating."
+      ],
+      "explanations_zh": [
+        "错误。许多动物在寒冷天气中依然活跃。冬眠主要与食物供应有关，而非仅仅因为温度。",
+        "正确！冬眠让动物在食物匮乏时得以生存。它们会大幅减缓新陈代谢——有些动物的心跳从每分钟200次降至5次！体内脂肪提供能量，直到春天食物再次出现。",
+        "错误。日照时长会触发冬眠激素，但其生存优势在于食物匮乏时能节省能量。",
+        "不对。雪并不会困住冬眠动物。许多动物在冬眠前会挖掘洞穴或寻找遮蔽处。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:31:20.748962+00:00",
+      "last_modified_at": "2025-11-21T04:31:20.748962+00:00",
+      "id": "anim_028"
     }
   ]
 }

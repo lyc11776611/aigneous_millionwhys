@@ -3,10 +3,8 @@
   "category_zh": "人体生物学",
   "questions": [
     {
-      "id": "bio_001",
       "question_en": "Why do we get hiccups?",
       "question_zh": "为什么会打嗝？",
-
       "choices_en": [
         "Stomach sends air back up",
         "Diaphragm muscle spasms",
@@ -14,10 +12,10 @@
         "Food stuck in throat"
       ],
       "choices_zh": [
-        "胃把空气送回来",
-        "横膈膜肌肉痉挛",
-        "肺部扩张太快",
-        "食物卡在喉咙"
+        "胃反气",
+        "膈肌痉挛",
+        "肺部扩张过快",
+        "食物卡喉"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. Food stuck in the throat would cause choking or coughing, not hiccups. Hiccups come from diaphragm spasms below the lungs."
       ],
       "explanations_zh": [
-        "错误。虽然胃可以通过打嗝释放空气，但打嗝是由肺部下方的横膈膜肌肉引起的，而不是胃的活动。",
-        "正确！打嗝是因为横膈膜肌肉突然收缩。这块肌肉位于肺部下方，控制呼吸。当它痉挛时，你会快速吸气，声带突然关闭，发出嗝声。常见诱因包括吃太快、碳酸饮料或温度突变。",
-        "错误。打嗝不是由肺部扩张引起的。它源于控制呼吸的横膈膜肌肉的非自主收缩。",
-        "错误。食物卡在喉咙会引起窒息或咳嗽，而不是打嗝。打嗝来自肺部下方的横膈膜痉挛。"
+        "不对。虽然胃部会通过打嗝排出空气，但打嗝是由肺部下方的膈肌引起的，与胃部活动无关。",
+        "没错！打嗝是因为膈肌突然收缩引起的。这块肌肉位于肺部下方，负责控制呼吸。当它发生痉挛时，你会快速吸入空气，同时声带猛然闭合，就发出了“嗝”的声音。常见诱因包括进食过快、饮用碳酸饮料或突然的温度变化。",
+        "不对。打嗝并非由肺部扩张引起，而是由于控制呼吸的膈肌发生不自主收缩所致。",
+        "不对。食物卡在喉咙会引起窒息或咳嗽，而不是打嗝。打嗝是由肺部下方的膈肌痉挛引起的。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_001"
     },
     {
-      "id": "bio_002",
       "question_en": "Why do we feel hungry?",
-      "question_zh": "为什么会感到饿？",
-
+      "question_zh": "我们为何会饿？",
       "choices_en": [
         "Stomach is completely empty",
         "Blood sugar drops trigger brain",
@@ -46,9 +45,9 @@
         "Body temperature decreases"
       ],
       "choices_zh": [
-        "胃完全空了",
-        "血糖下降触发大脑",
-        "消化系统需要工作",
+        "胃已空空",
+        "血糖降脑触发",
+        "消化系统需改善",
         "体温下降"
       ],
       "correct_answer": 1,
@@ -59,18 +58,19 @@
         "Wrong. While body temperature affects metabolism, hunger is primarily triggered by the brain detecting drops in blood sugar levels, not temperature changes."
       ],
       "explanations_zh": [
-        "错误。即使胃里还有食物，你也可能感到饥饿。饥饿由大脑检测到的血糖水平控制，而不是胃的空虚程度。",
-        "正确！饥饿由大脑而非胃控制。当血糖水平下降时，大脑检测到这一变化，释放饥饿素等激素发出饥饿信号。胃可能咕咕叫，但那只是蠕动而非空虚。这个系统确保身体在储备耗尽前获得能量。",
-        "错误。消化系统不需要持续工作。饥饿信号来自大脑检测到低血糖，而不是消化系统需要活动。",
-        "错误。虽然体温会影响新陈代谢，但饥饿主要由大脑检测血糖水平下降触发，而不是温度变化。"
+        "不对。即使胃里还有食物，你也可能感到饥饿。饥饿感是由大脑检测到的血糖水平控制的，而不是胃的空虚程度。",
+        "正确！饥饿感是由大脑而非胃控制的。当血糖水平下降时，大脑会察觉到这一变化，并释放如胃饥饿素等激素来发出饥饿信号。胃可能会咕咕作响，但这只是蠕动现象，并非代表空腹。这套机制确保身体在能量储备过低前及时获取能量。",
+        "错误。消化系统无需持续工作。饥饿信号来自大脑检测到血糖降低，而非消化系统需要活动。",
+        "错误。虽然体温会影响新陈代谢，但饥饿感主要是由大脑检测到血糖水平下降引发的，而非温度变化。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_002"
     },
     {
-      "id": "bio_003",
       "question_en": "Why do we get goosebumps?",
-      "question_zh": "为什么会起鸡皮疙瘩？",
-
+      "question_zh": "为何起鸡皮疙瘩？",
       "choices_en": [
         "To generate body heat",
         "Reflex from furry ancestors",
@@ -78,8 +78,8 @@
         "Skin cells multiplying"
       ],
       "choices_zh": [
-        "产生体温",
-        "来自毛茸祖先的反射",
+        "产生体热",
+        "源自毛茸茸祖先的反射",
         "血管收缩",
         "皮肤细胞增殖"
       ],
@@ -91,18 +91,19 @@
         "Wrong. Goosebumps don't involve skin cell multiplication. They're caused by tiny muscles at hair follicles contracting to raise hairs upward."
       ],
       "explanations_zh": [
-        "错误。虽然鸡皮疙瘩在寒冷时出现，但由于人类体毛稀少，它们实际上不会产生太多热量。这是一个无效的进化遗留。",
-        "正确！鸡皮疙瘩是从毛茸茸祖先那里继承的进化遗留。微小肌肉使毛发竖起，在厚毛皮中可困住温暖空气。但人类体毛稀少，所以对保暖几乎没帮助。当我们寒冷或感到恐惧、敬畏等强烈情绪时仍会有这种反应！",
-        "错误。血管收缩是对寒冷的另一种反应。鸡皮疙瘩是由竖起毛发的微小肌肉引起的，是我们拥有厚毛皮时的进化反射。",
-        "错误。鸡皮疙瘩不涉及皮肤细胞增殖。它们是由毛囊处的微小肌肉收缩使毛发竖起引起的。"
+        "错误。虽然寒冷时会出现鸡皮疙瘩，但由于人类体毛稀疏，它们实际上并不能产生多少热量。这是一种无效的进化残留。",
+        "正确！鸡皮疙瘩是我们多毛祖先进化遗留的产物。微小的肌肉会使毛发竖起，以便在浓密的毛发中锁住暖空气。但人类体毛稀少，因此这几乎无法帮助我们保暖。当我们感到寒冷或经历强烈情绪（如恐惧或敬畏）时，仍会出现这种反射！",
+        "不对。血管收缩是对寒冷的另一种反应。鸡皮疙瘩是由微小肌肉竖起毛发引起的，这是我们拥有浓密毛发时进化遗留的反射现象。",
+        "不对。鸡皮疙瘩并非皮肤细胞增殖所致，而是由毛囊处微小肌肉收缩使毛发竖立引起的。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_003"
     },
     {
-      "id": "bio_004",
       "question_en": "Why do we sneeze?",
-      "question_zh": "为什么会打喷嚏？",
-
+      "question_zh": "为何打喷嚏？",
       "choices_en": [
         "To release excess air",
         "To expel irritants from nose",
@@ -110,8 +111,8 @@
         "To exercise facial muscles"
       ],
       "choices_zh": [
-        "释放多余空气",
-        "排出鼻腔刺激物",
+        "排出多余空气",
+        "清除鼻腔刺激物",
         "冷却大脑",
         "锻炼面部肌肉"
       ],
@@ -123,18 +124,19 @@
         "Wrong. While facial muscles do contract during sneezing, this isn't the purpose. Sneezing is a protective reflex to expel irritants and pathogens from the nasal cavity."
       ],
       "explanations_zh": [
-        "错误。打喷嚏不是为了释放多余空气。它是神经系统在鼻腔检测到刺激物时触发的保护性反射。",
-        "正确！打喷嚏是保护呼吸系统的强大反射。当灰尘、花粉或细菌刺激鼻子时，神经末梢向大脑发送信号。大脑触发强力排气，速度可达每小时160公里，将刺激物喷出。这种自动防御机制防止有害颗粒进入肺部。",
-        "错误。打喷嚏不能冷却大脑。它是由三叉神经控制的反射动作，用于清除鼻腔刺激物并保护呼吸系统。",
-        "错误。虽然打喷嚏时面部肌肉确实会收缩，但这不是目的。打喷嚏是保护性反射，用于排出鼻腔中的刺激物和病原体。"
+        "不对。打喷嚏并非排出多余空气，而是当鼻腔检测到刺激物时，神经系统触发的一种保护性反射。",
+        "没错！打喷嚏是一种强大的反射动作，用于保护您的呼吸系统。当灰尘、花粉或细菌刺激您的鼻子时，神经末梢会向大脑发送信号。大脑随即触发一股时速高达100英里的强力气流，将刺激物冲出体外。这种自动防御机制能阻止有害颗粒进入肺部。",
+        "不对。打喷嚏并不能给大脑降温。这是一种由三叉神经控制的反射动作，目的是清除鼻腔内的刺激物并保护呼吸系统。",
+        "不对。虽然打喷嚏时面部肌肉确实会收缩，但这并非其目的。打喷嚏是一种保护性反射，旨在将刺激物和病原体从鼻腔中排出。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_004"
     },
     {
-      "id": "bio_005",
       "question_en": "Why do we cry when we're sad?",
-      "question_zh": "为什么伤心时会哭？",
-
+      "question_zh": "悲伤为何落泪？",
       "choices_en": [
         "To release stress hormones",
         "To attract attention",
@@ -142,10 +144,10 @@
         "To clean the eyes"
       ],
       "choices_zh": [
-        "释放压力激素",
-        "吸引注意力",
+        "释放压力荷尔蒙",
+        "引人注目",
         "降低体温",
-        "清洁眼睛"
+        "清洁眼部"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -155,18 +157,19 @@
         "Wrong. That's the purpose of reflex tears that keep eyes moist. Emotional tears have a different composition containing stress hormones that help regulate emotions."
       ],
       "explanations_zh": [
-        "正确！情绪性眼泪含有皮质醇和内啡肽等压力激素。哭泣时，身体释放这些化学物质，有助于缓解情绪痛苦。哭泣还激活副交感神经系统，让你平静下来。这是身体处理强烈情绪的自然方式，也向他人发出需要支持的信号。",
-        "错误。虽然哭泣可以向他人发出痛苦信号，但主要生理原因是通过边缘系统和自主神经系统释放压力激素并调节情绪。",
-        "错误。眼泪不会降低体温。情绪性哭泣释放压力激素并激活神经系统的镇静反应，帮助处理情感。",
-        "错误。那是保持眼睛湿润的反射性眼泪的作用。情绪性眼泪的成分不同，含有帮助调节情绪的压力激素。"
+        "正确！情感性眼泪中含有皮质醇和内啡肽等压力激素。当你哭泣时，身体会释放这些化学物质，有助于缓解情感痛苦。哭泣还会激活副交感神经系统，让你平静下来。这是身体处理强烈情绪并示意他人你需要支持的自然方式。",
+        "错误。虽然哭泣可以向他人传递痛苦信号，但其主要生物学原因是通过边缘系统和自主神经系统释放压力荷尔蒙并调节情绪。",
+        "不对。眼泪并不会降低体温。情感性哭泣会释放压力荷尔蒙，并激活神经系统的镇静反应，以帮助处理情绪。",
+        "不对。那是反射性眼泪的作用，用来保持眼睛湿润。情感性眼泪的成分不同，含有压力激素，有助于调节情绪。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_005"
     },
     {
-      "id": "bio_006",
       "question_en": "Why do we need to sleep?",
-      "question_zh": "为什么需要睡眠？",
-
+      "question_zh": "为何需要睡眠？",
       "choices_en": [
         "To save energy only",
         "Repair body and consolidate memory",
@@ -174,9 +177,9 @@
         "To digest food"
       ],
       "choices_zh": [
-        "仅为节省能量",
-        "修复身体巩固记忆",
-        "躲避捕食者",
+        "节能专用",
+        "修复身体，巩固记忆",
+        "躲避天敌",
         "消化食物"
       ],
       "correct_answer": 1,
@@ -187,18 +190,19 @@
         "Wrong. Digestion continues during sleep but isn't the reason we need it. Sleep is essential for brain detoxification, memory consolidation, tissue repair, and immune system function."
       ],
       "explanations_zh": [
-        "错误。虽然睡眠确实能节省一些能量，但这不是主要原因。睡眠对大脑功能、记忆巩固、细胞修复和免疫系统维护至关重要。",
-        "正确！睡眠对生存至关重要。睡眠时，大脑巩固记忆并通过类淋巴系统清除毒素。身体修复组织、构建肌肉并增强免疫系统。生长激素释放，神经元形成新连接。缺乏充足睡眠会导致认知功能、情绪和身体健康迅速恶化。",
-        "错误。虽然这可能是进化因素，但现代人需要睡眠主要是为了大脑维护、记忆处理、细胞修复和免疫功能。",
-        "错误。消化在睡眠期间继续进行，但不是我们需要睡眠的原因。睡眠对大脑解毒、记忆巩固、组织修复和免疫系统功能至关重要。"
+        "不对。虽然睡眠确实能节省一些能量，但这并非主要原因。睡眠对于大脑功能、记忆巩固、细胞修复以及免疫系统的维护至关重要。",
+        "确实如此！睡眠对生存至关重要。在睡眠期间，大脑通过类淋巴系统巩固记忆并清除毒素。身体修复组织、增长肌肉并增强免疫系统。生长激素得以释放，神经元形成新的连接。若缺乏充足睡眠，认知功能、情绪和身体健康都会迅速恶化。",
+        "错误。尽管这可能曾是进化中的一个因素，但现代人类需要睡眠主要是为了大脑维护、记忆处理、细胞修复和免疫功能。",
+        "不对。睡眠期间消化仍在继续，但这不是我们需要睡眠的原因。睡眠对于大脑排毒、记忆巩固、组织修复以及免疫系统功能至关重要。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_006"
     },
     {
-      "id": "bio_007",
       "question_en": "Why do we dream?",
-      "question_zh": "为什么会做梦？",
-
+      "question_zh": "我们为何做梦？",
       "choices_en": [
         "Process emotions and memories",
         "To predict the future",
@@ -206,9 +210,9 @@
         "Random electrical signals only"
       ],
       "choices_zh": [
-        "大脑处理情绪记忆",
-        "预测未来",
-        "眼睛需要练习",
+        "处理情感记忆",
+        "预见未来",
+        "眼睛需练动",
         "仅随机电信号"
       ],
       "correct_answer": 0,
@@ -219,18 +223,19 @@
         "Wrong. Dreams aren't random. They involve organized brain activity in the limbic system and hippocampus that processes memories, emotions, and experiences from your waking life."
       ],
       "explanations_zh": [
-        "正确！梦主要发生在快速眼动睡眠期间，此时大脑高度活跃。大脑处理情绪、巩固记忆，并在新旧信息之间建立联系。边缘系统处理情感内容，而前额叶皮层活动减少，这解释了梦的不合逻辑性。梦可能帮助解决问题和处理经历。",
-        "错误。梦不能预测未来。它们是大脑在快速眼动睡眠期间处理记忆和情绪，从边缘系统和海马体的神经活动中创建叙事。",
-        "错误。虽然快速眼动睡眠时确实会有眼球运动，但梦的更深层目的是在大脑边缘系统中进行记忆巩固和情绪处理。",
-        "错误。梦不是随机的。它们涉及边缘系统和海马体中有组织的大脑活动，处理清醒生活中的记忆、情绪和经历。"
+        "正确！梦境主要发生在快速眼动睡眠阶段，此时大脑高度活跃。大脑会处理情绪、巩固记忆，并将新旧信息建立联系。边缘系统负责处理情感内容，而前额叶皮层活动减弱，这解释了梦境的非逻辑性。梦境可能有助于解决问题和处理经历。",
+        "不对。梦境并不能预测未来。它们实际上是大脑在快速眼动睡眠期间处理记忆和情感的过程，由边缘系统和海马体的神经活动构建出故事情节。",
+        "错误。虽然快速眼动睡眠期间确实会出现眼球运动，但梦境的深层作用在于促进大脑边缘系统中记忆的巩固和情绪的处理。",
+        "不对。梦并非随机产生。它们涉及边缘系统和海马体中有组织的大脑活动，这些活动处理你清醒时的记忆、情感和经历。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_007"
     },
     {
-      "id": "bio_008",
       "question_en": "Why does our stomach growl?",
-      "question_zh": "为什么肚子会叫？",
-
+      "question_zh": "为何肚子咕咕叫？",
       "choices_en": [
         "Air trapped in stomach",
         "Digestive muscles contracting",
@@ -238,10 +243,10 @@
         "Stomach acid bubbling"
       ],
       "choices_zh": [
-        "胃里困住空气",
-        "消化肌肉收缩",
+        "胃中积气",
+        "消化肌收缩",
         "食物发酵",
-        "胃酸冒泡"
+        "胃酸翻腾"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -251,18 +256,19 @@
         "Wrong. Stomach acid doesn't bubble to create growling sounds. The noise comes from peristaltic contractions of smooth muscles squeezing air and fluids through the digestive system."
       ],
       "explanations_zh": [
-        "错误。虽然气体会产生一些声音，但肚子叫主要由蠕动引起——节律性肌肉收缩推动食物和液体通过消化道。",
-        "正确！肚子叫，称为肠鸣音，是消化肌肉以蠕动波浪式收缩时产生的。这些收缩推动食物、液体和空气通过肠道。当胃空时，收缩主要挤压空气，产生更响的隆隆声。胃动素等激素触发这些收缩，尤其在饥饿时。",
-        "错误。肠道细菌发酵食物确实会产生气体，但肚子叫是由蠕动性肌肉收缩推动内容物通过消化道引起的。",
-        "错误。胃酸不会冒泡产生咕咕声。声音来自平滑肌的蠕动收缩，将空气和液体挤压通过消化系统。"
+        "不对。虽然气体可能参与产生声音，但肚子咕咕叫主要是由肠蠕动引起的——这是一种有节奏的肌肉收缩，负责推动食物和液体通过消化道。",
+        "正确！胃部咕咕作响，医学上称为肠鸣音，是由于消化道的肌肉进行称为蠕动的波浪式收缩所致。这些收缩推动食物、液体和空气通过肠道。当胃部空虚时，收缩主要挤压空气，从而产生更响的咕噜声。像胃动素这样的激素会引发这些收缩，尤其是在你感到饥饿时。",
+        "不对。肠道细菌发酵食物确实会产生气体，但胃部咕咕作响是由蠕动肌肉收缩推动消化道内容物引起的。",
+        "错误。胃酸并不会产生气泡引起咕噜声。这种声音是由平滑肌的蠕动收缩推动气体和液体通过消化道时产生的。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_008"
     },
     {
-      "id": "bio_009",
       "question_en": "Why do we get tired after eating?",
-      "question_zh": "为什么饭后会困？",
-
+      "question_zh": "饭后为何疲倦？",
       "choices_en": [
         "Blood rushes to stomach",
         "Hormones and brain chemicals shift",
@@ -271,9 +277,9 @@
       ],
       "choices_zh": [
         "血液涌向胃部",
-        "激素和脑化学变化",
+        "激素与脑化学变化",
         "体温升高",
-        "氧气消耗过多"
+        "耗氧过多"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -283,18 +289,19 @@
         "Wrong. Oxygen use doesn't cause post-meal fatigue. Sleepiness comes from hormonal shifts - insulin triggers tryptophan conversion to serotonin and melatonin in the brain."
       ],
       "explanations_zh": [
-        "错误。虽然消化确实会增加流向肠道的血液，但这不会引起餐后疲劳。真正原因是激素变化——胰岛素、血清素和褪黑素水平在进食后发生变化。",
-        "正确！进食后，身体释放胰岛素处理葡萄糖。这触发色氨酸进入大脑，在那里转化为血清素和褪黑素——促进睡眠的化学物质。食欲素水平也下降。大餐，尤其是富含碳水化合物的，会放大这种效应。这就是午饭后感到困倦的原因，常被称为食物昏迷。",
-        "错误。消化时体温确实会略微上升，但餐后困倦是由激素变化引起的——特别是胰岛素释放后血清素和褪黑素产生增加。",
-        "错误。氧气消耗不会导致餐后疲劳。困倦来自激素变化——胰岛素触发色氨酸在大脑中转化为血清素和褪黑素。"
+        "错误。虽然消化会增加流向肠道的血液，但这并不会导致餐后疲劳。真正的原因是荷尔蒙变化——进食后胰岛素、血清素和褪黑激素水平会发生改变。",
+        "没错！饭后，身体会释放胰岛素来处理葡萄糖，这促使色氨酸进入大脑，并转化为血清素和褪黑素——这些化学物质有助于睡眠。同时，食欲素水平也会下降。大餐，尤其是含碳水化合物的，会增强这一效果。这就是为什么午饭后你会感到困倦，常被称为“食物昏迷”。",
+        "错误。消化过程中体温确实会轻微上升，但餐后困倦是由荷尔蒙变化引起的——特别是胰岛素释放后血清素和褪黑激素分泌增加所致。",
+        "不对。饭后疲劳并非由耗氧引起。困倦源于激素变化——胰岛素促使色氨酸在大脑中转化为血清素和褪黑素。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_009"
     },
     {
-      "id": "bio_010",
       "question_en": "Why do our eyes blink?",
-      "question_zh": "为什么眼睛会眨？",
-
+      "question_zh": "眼睛为何会眨眼？",
       "choices_en": [
         "To exercise eye muscles",
         "To spread tears and protect eyes",
@@ -303,9 +310,9 @@
       ],
       "choices_zh": [
         "锻炼眼部肌肉",
-        "涂抹泪液保护眼",
+        "泪护双眼",
         "重置视觉",
-        "阻挡强光"
+        "遮挡强光"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -315,18 +322,19 @@
         "Wrong. Squinting blocks bright light, not blinking. Blinking's main function is to spread tears across the eye surface for moisture and protection, controlled by the trigeminal nerve."
       ],
       "explanations_zh": [
-        "错误。虽然眨眼时眼部肌肉确实会运动，但这不是目的。眨眼将泪膜涂抹在角膜上，保持眼睛湿润并冲走碎屑。",
-        "正确！眨眼对眼睛健康至关重要。每次眨眼都会在角膜上涂抹一层薄薄的泪膜，保持湿润并冲走灰尘和碎屑。这层泪液有三部分：粘液、水和油脂。你每分钟自动眨眼约15-20次。这种反射由三叉神经控制，防止干燥和感染。",
-        "错误。眨眼不会重置视觉。其目的是在角膜上分布泪液以润滑、清除颗粒并维持保护性泪膜层。",
-        "错误。眯眼阻挡强光，而不是眨眼。眨眼的主要功能是在眼球表面涂抹泪液以保湿和保护，由三叉神经控制。"
+        "不对。虽然眨眼时眼部肌肉确实会运动，但这并非其目的。眨眼是为了将泪膜均匀分布在角膜上，保持眼睛湿润并清除异物。",
+        "正确！眨眼对眼睛健康至关重要。每次眨眼都会在角膜上覆盖一层薄薄的泪膜，保持其湿润并清除灰尘和碎屑。这层泪膜由三部分组成：黏液、水和油。你每分钟会自动眨眼约15-20次。这一反射由三叉神经控制，能防止眼睛干燥和感染。",
+        "不对。眨眼并不会重置视觉。它的作用是分布泪液以润滑角膜、清除微粒，并维持保护性的泪膜层。",
+        "不对。眯眼是为了阻挡强光，而不是眨眼。眨眼的主要功能是通过三叉神经控制，将泪液均匀涂抹在眼球表面以保持湿润和提供保护。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_010"
     },
     {
-      "id": "bio_011",
       "question_en": "Why does our heart beat faster with exercise?",
-      "question_zh": "为什么运动时心跳加快？",
-
+      "question_zh": "运动时心跳为何加速？",
       "choices_en": [
         "To cool down the body",
         "To deliver more oxygen to muscles",
@@ -334,10 +342,10 @@
         "To remove sweat faster"
       ],
       "choices_zh": [
-        "冷却身体",
-        "向肌肉输送更多氧",
-        "燃烧更多热量",
-        "更快排汗"
+        "降温解暑",
+        "增加肌肉供氧",
+        "燃烧更多卡路里",
+        "快速除汗"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -347,18 +355,19 @@
         "Wrong. Sweeat is produced by sweat glands, not the heart. Heart rate increases to pump oxygen-rich blood to muscles and remove metabolic waste like carbon dioxide."
       ],
       "explanations_zh": [
-        "错误。虽然运动确实产生热量，但心率加快主要是为了将富氧血液泵送到工作中的肌肉。冷却通过出汗而不是更快心跳实现。",
-        "正确！运动时，肌肉需要更多氧气来产生能量。心脏跳动加快，更快地将富氧血液泵送到肌肉。交感神经系统释放肾上腺素，增加心率。工作中的肌肉还产生必须清除的二氧化碳。你的心率可以翻倍甚至三倍来满足这些需求！",
-        "错误。虽然运动时心率加快确实会燃烧卡路里，但这是副作用。主要原因是向肌肉输送氧气和营养物质并清除二氧化碳。",
-        "错误。汗液由汗腺产生，而不是心脏。心率增加是为了将富氧血液泵送到肌肉并清除二氧化碳等代谢废物。"
+        "错误。虽然运动会产生热量，但心率加快主要是为了向工作肌肉输送含氧血液。降温是通过出汗实现的，而非心跳加快。",
+        "正确！运动时，肌肉需要更多氧气来产生能量。心脏加速跳动，以便更快地将富含氧气的血液输送到肌肉。交感神经系统释放肾上腺素，从而提高心率。同时，工作中的肌肉会产生必须排出的二氧化碳。为了满足这些需求，您的心率可能会翻倍甚至增至三倍！",
+        "不对。虽然运动时心率加快确实会消耗卡路里，但这只是附带效果。其主要目的是向肌肉输送氧气和营养，并排出二氧化碳。",
+        "错误。汗液是由汗腺分泌的，而非心脏。心率加快是为了向肌肉输送富含氧气的血液并清除如二氧化碳等代谢废物。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_011"
     },
     {
-      "id": "bio_012",
       "question_en": "Why do we shiver when cold?",
-      "question_zh": "为什么冷时会发抖？",
-
+      "question_zh": "寒冷为何发抖？",
       "choices_en": [
         "To alert others",
         "Muscles contract to generate heat",
@@ -366,10 +375,10 @@
         "To remove toxins"
       ],
       "choices_zh": [
-        "警告他人",
-        "肌肉收缩产生热量",
-        "增加血流",
-        "排除毒素"
+        "提醒他人",
+        "肌肉收缩生热",
+        "促进血液循环",
+        "排毒"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -379,18 +388,19 @@
         "Wrong. Shivering has nothing to do with removing toxins. It's a thermoregulatory mechanism where the hypothalamus triggers muscle contractions to generate heat when body temperature drops."
       ],
       "explanations_zh": [
-        "错误。发抖不是作为警告信号。它是体温调节反射，当体温下降时肌肉快速收缩产生热量。",
-        "正确！发抖是身体对寒冷的自动反应，由下丘脑控制。当体温下降时，大脑触发快速肌肉收缩。这些非自主运动燃烧能量，通过摩擦和代谢活动产生热量。发抖可以使产热增加多达五倍，帮助维持核心体温在37摄氏度。",
-        "错误。虽然寒冷确实会影响血流（血管收缩以保存核心热量），但发抖专门通过快速肌肉收缩产生热量，通过代谢活动实现。",
-        "错误。发抖与排除毒素无关。它是体温调节机制，下丘脑在体温下降时触发肌肉收缩以产生热量。"
+        "错误。发抖并非预警信号，而是体温下降时肌肉快速收缩以产生热量的体温调节反射。",
+        "正确！颤抖是身体对寒冷的自动反应，由下丘脑控制。当体温下降时，大脑会引发肌肉快速收缩。这些不自主的运动通过摩擦和代谢活动消耗能量并产生热量。颤抖能将产热量提高多达五倍，有助于维持核心体温在37摄氏度。",
+        "错误。虽然寒冷确实会影响血流（血管收缩以保持核心体温），但颤抖是通过快速的肌肉收缩，通过代谢活动产生热量来起作用的。",
+        "错误。发抖与排除毒素无关。它是一种体温调节机制，当下丘脑感知体温下降时，会触发肌肉收缩以产生热量。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_012"
     },
     {
-      "id": "bio_013",
       "question_en": "Why do we sweat?",
-      "question_zh": "为什么会出汗？",
-
+      "question_zh": "我们为何出汗？",
       "choices_en": [
         "To remove waste products",
         "To cool body through evaporation",
@@ -399,9 +409,9 @@
       ],
       "choices_zh": [
         "排除废物",
-        "通过蒸发冷却身体",
-        "滋润皮肤",
-        "驱赶昆虫"
+        "蒸发降温体",
+        "滋润肌肤",
+        "驱虫"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -411,18 +421,19 @@
         "Wrong. Sweat doesn't ward off insects. It's a thermoregulatory mechanism controlled by the hypothalamus where water evaporates from skin to remove heat when body temperature rises."
       ],
       "explanations_zh": [
-        "错误。虽然汗液确实含有少量废物，但其主要功能不是排泄。出汗是通过蒸发冷却身体的体温调节机制。",
-        "正确！出汗是身体的空调系统。当运动或高温导致体温升高时，下丘脑激活汗腺。它们将水释放到皮肤表面。当这些水蒸发时，从身体吸收热能，使你冷却下来。你有200-400万个汗腺，每小时可以产生数升汗液！",
-        "错误。汗液不会滋润皮肤——它实际上含有会使皮肤干燥的盐分。出汗的目的是体温调节：当温度升高时通过蒸发冷却身体。",
-        "错误。汗液不能驱赶昆虫。它是由下丘脑控制的体温调节机制，当体温升高时水从皮肤蒸发以去除热量。"
+        "不对。虽然汗液中含有少量废物，但其主要功能并非排泄。出汗是一种体温调节机制，通过蒸发来冷却身体。",
+        "没错！出汗是身体的空调系统。当运动或炎热导致体温升高时，下丘脑会激活汗腺。它们将水分释放到皮肤表面，随着水分蒸发，会吸收身体的热量，从而让你感到凉爽。人体拥有200万至400万个汗腺，每小时最多可分泌数升汗液！",
+        "错误。汗水并不能滋润皮肤——实际上它含有的盐分会使皮肤变干。出汗的目的是调节体温：当体温升高时，通过蒸发来冷却身体。",
+        "不对。出汗并不能驱赶昆虫。它是下丘脑控制的体温调节机制，当体温升高时，水分从皮肤蒸发以散发热量。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_013"
     },
     {
-      "id": "bio_014",
       "question_en": "Why do we get wrinkles as we age?",
-      "question_zh": "为什么老了会长皱纹？",
-
+      "question_zh": "为何衰老生皱纹？",
       "choices_en": [
         "Skin cells multiply faster",
         "Collagen and elastin break down",
@@ -431,8 +442,8 @@
       ],
       "choices_zh": [
         "皮肤细胞增殖快",
-        "胶原蛋白弹性蛋白分解",
-        "皮肤吸水减少",
+        "胶原蛋白流失",
+        "皮肤吸水少",
         "血管扩张"
       ],
       "correct_answer": 1,
@@ -443,18 +454,19 @@
         "Wrong. Blood vessel changes affect skin color and circulation, but wrinkles form due to decreased production and breakdown of collagen and elastin proteins in the dermal layer."
       ],
       "explanations_zh": [
-        "错误。皮肤细胞生成实际上随年龄减慢而非加快。皱纹形成是因为保持皮肤紧致和弹性的胶原蛋白和弹性蛋白随时间逐渐分解。",
-        "正确！皱纹随着皮肤失去结构蛋白而形成。胶原蛋白提供紧致度，而弹性蛋白使皮肤能够拉伸和回弹。随着年龄增长，成纤维细胞产生的这些蛋白减少，现有蛋白因紫外线损伤、氧化和重复面部表情而分解。皮肤变得更薄、更干、弹性降低，形成永久性皱褶。",
-        "错误。虽然衰老皮肤确实变得更干燥，但皱纹特别是由胶原蛋白和弹性蛋白分解引起的——这些结构蛋白维持皮肤的紧致度和弹性。",
-        "错误。血管变化会影响皮肤颜色和循环，但皱纹形成是由于真皮层中胶原蛋白和弹性蛋白产生减少和分解。"
+        "错误。实际上，随着年龄增长，皮肤细胞的生产会减慢而非加快。皱纹的形成是因为维持皮肤紧致和弹性的胶原蛋白和弹性蛋白随时间逐渐分解。",
+        "正确！皱纹的产生是因为皮肤失去了结构蛋白。胶原蛋白赋予皮肤紧致度，而弹性蛋白则让皮肤能够伸展并恢复原状。随着年龄增长，成纤维细胞产生的这些蛋白质减少，加上紫外线伤害、氧化作用以及反复的面部表情导致现有蛋白质分解，皮肤因此变得更薄、更干燥、弹性减弱，从而形成永久性皱纹。",
+        "错误。虽然老化皮肤确实会变得更干燥，但皱纹主要是由胶原蛋白和弹性蛋白的分解造成的——这两种结构蛋白负责维持皮肤的紧致与弹性。",
+        "错误。血管变化会影响肤色和血液循环，但皱纹的形成是由于真皮层中胶原蛋白和弹性蛋白的生成减少及分解所致。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_014"
     },
     {
-      "id": "bio_015",
       "question_en": "Why do we have fingerprints?",
-      "question_zh": "为什么会有指纹？",
-
+      "question_zh": "为何有指纹？",
       "choices_en": [
         "For personal identification",
         "Improve grip and touch sensitivity",
@@ -462,8 +474,8 @@
         "To protect finger bones"
       ],
       "choices_zh": [
-        "用于个人识别",
-        "提高抓握触觉灵敏",
+        "个人身份识别",
+        "提升握感与触敏",
         "调节温度",
         "保护指骨"
       ],
@@ -475,18 +487,19 @@
         "Wrong. Fingerprints don't protect bones. These dermal ridges enhance grip through increased friction and moisture channeling, plus improve touch sensitivity by amplifying vibrations to mechanoreceptors."
       ],
       "explanations_zh": [
-        "错误。虽然指纹是独特的且用于识别，但这不是它们进化的原因。指纹通过疏导水分增强抓握力，通过真皮乳头增加触觉灵敏度。",
-        "正确！指纹有两个主要功能。脊纹增加摩擦力，通过像轮胎花纹一样疏导水分来改善对物体的抓握。更重要的是，它们放大你触摸的纹理振动。脊纹产生压力变化，刺激皮肤中的机械感受器，提供增强的触觉灵敏度。它们在子宫中形成，真皮乳头创造独特图案。",
-        "错误。指纹不能调节温度。它们进化是为了通过疏导水分增强抓握力，并通过创建放大纹理振动的真皮脊纹来提高触觉灵敏度。",
-        "错误。指纹不保护骨骼。这些真皮脊纹通过增加摩擦和疏导水分增强抓握力，并通过将振动放大到机械感受器来提高触觉灵敏度。"
+        "错误。虽然指纹独一无二且用于身份识别，但这并非其进化原因。指纹通过导走湿气来增强抓握力，并通过真皮乳头提高触觉敏感度。",
+        "正确！指纹主要有两大功能。其纹路能增加摩擦力，通过像轮胎花纹一样疏导水分来提升抓握物体的能力。更重要的是，它们能放大接触物体纹理时产生的振动。这些纹路造成压力变化，刺激皮肤中的机械感受器，从而增强触觉灵敏度。指纹在子宫内形成，由真皮乳头塑造出独特图案。",
+        "不对。指纹并不调节体温，它们的进化是为了通过引导水分来增强抓握力，并通过形成真皮脊来放大纹理振动，从而提高触觉敏感度。",
+        "错误。指纹并不能保护骨骼。这些皮肤褶皱通过增加摩擦力和引导湿气来增强抓握力，同时通过放大振动传递给机械感受器来提高触觉敏感度。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_015"
     },
     {
-      "id": "bio_016",
       "question_en": "Why does our hair turn gray?",
-      "question_zh": "为什么头发会变白？",
-
+      "question_zh": "头发为何变白？",
       "choices_en": [
         "Lack of vitamins",
         "Melanocytes stop making pigment",
@@ -494,9 +507,9 @@
         "Blood flow to scalp decreases"
       ],
       "choices_zh": [
-        "缺乏维生素",
-        "黑色素细胞停止产色素",
-        "头发吸收光线减少",
+        "维生素缺乏",
+        "黑色素细胞停止产色",
+        "头发吸光少",
         "头皮血流减少"
       ],
       "correct_answer": 1,
@@ -507,18 +520,19 @@
         "Wrong. While scalp circulation may change with age, gray hair specifically results from melanocyte cells losing their ability to produce melanin pigment in the hair follicle."
       ],
       "explanations_zh": [
-        "错误。虽然严重营养缺乏会影响头发，但正常变白是由毛囊中的黑色素细胞随时间失去产生黑色素能力引起的。",
-        "正确！头发颜色来自毛囊中黑色素细胞产生的黑色素。随着年龄增长，这些细胞逐渐产生更少黑色素，最终完全停止。头发在没有色素的情况下生长，呈现灰色或白色。这是由氧化应激、过氧化氢积累和毛囊干细胞耗竭引起的。遗传决定这个过程何时开始。",
-        "错误。头发不是通过吸收阳光获得颜色。白发发生在毛囊中的黑色素细胞因衰老、氧化应激和细胞变化而停止产生黑色素时。",
-        "错误。虽然头皮循环可能随年龄变化，但白发特别是由黑色素细胞失去在毛囊中产生黑色素的能力引起的。"
+        "错误。虽然严重的营养缺乏可能影响头发，但正常的白发是由毛囊中的黑色素细胞随时间的推移逐渐失去产生黑色素的能力所致。",
+        "正确！发色源自毛囊中黑色素细胞产生的黑色素。随着年龄增长，这些细胞逐渐减少黑色素生成直至完全停止。头发因缺乏色素而呈现灰白。这一过程由氧化应激、过氧化氢积累及毛囊干细胞耗竭导致，而遗传因素决定了该过程何时启动。",
+        "错误。头发并非通过吸收阳光获得颜色。白发是因为毛囊中的黑色素细胞因衰老、氧化应激和细胞变化而停止产生黑色素所致。",
+        "错误。虽然头皮血液循环可能随年龄变化，但白发特别是因为毛囊中的黑色素细胞失去产生黑色素的能力所致。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_016"
     },
     {
-      "id": "bio_017",
       "question_en": "Why do we have blood types?",
-      "question_zh": "为什么会有血型？",
-
+      "question_zh": "为何有血型之分？",
       "choices_en": [
         "To identify family members",
         "Antigens on red blood cells vary",
@@ -526,10 +540,10 @@
         "To fight different diseases"
       ],
       "choices_zh": [
-        "识别家庭成员",
-        "红细胞表面抗原不同",
-        "氧气携带能力不同",
-        "对抗不同疾病"
+        "识别亲属",
+        "红细胞抗原各异",
+        "不同氧容量",
+        "抗击百病"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -539,12 +553,213 @@
         "Wrong. While blood type may influence disease susceptibility slightly, types exist due to genetic variations in red blood cell surface antigens. Your immune system makes antibodies against antigens you don't have."
       ],
       "explanations_zh": [
-        "错误。血型不是用于识别。它们存在是因为红细胞表面抗原（蛋白质标记）的遗传变异。你的免疫系统对你没有的抗原产生抗体。",
-        "正确！血型（A、B、AB、O）由抗原决定——红细胞表面的蛋白质标记。A型有A抗原，B型有B抗原，AB型两者都有，O型都没有。你的免疫系统对你缺乏的抗原产生抗体。如果输入不相容的血液，抗体会攻击外来细胞，导致危险的凝集。Rh因子是另一个抗原系统。",
-        "错误。所有血型使用血红蛋白携带氧气的能力相同。血型不同是因为红细胞表面抗原的遗传变异，如果错误混合会触发免疫反应。",
-        "错误。虽然血型可能略微影响疾病易感性，但血型存在是由于红细胞表面抗原的遗传变异。你的免疫系统对你没有的抗原产生抗体。"
+        "错误。血型并非用于身份识别。它们的存在是因为红细胞表面的抗原（蛋白质标记）存在遗传变异。你的免疫系统会针对你没有的抗原产生抗体。",
+        "正确！血型（A型、B型、AB型、O型）是由抗原决定的——即红细胞表面的蛋白质标记。A型血有A抗原，B型血有B抗原，AB型血两者皆有，而O型血则两者皆无。你的免疫系统会针对你所缺乏的抗原产生抗体。如果输入不兼容的血液，抗体会攻击外来细胞，导致危险的血凝块。Rh因子是另一种抗原系统。",
+        "错误。所有血型都通过血红蛋白同样有效地携带氧气。血型的差异源于红细胞表面抗原的遗传变异，这些抗原在混合不当时会引发免疫反应。",
+        "错误。虽然血型可能轻微影响疾病易感性，但血型的存在是由于红细胞表面抗原的遗传变异。你的免疫系统会针对你没有的抗原产生抗体。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "bio_017"
+    },
+    {
+      "question_en": "Why do we yawn when others yawn?",
+      "question_zh": "为什么我们看到别人打哈欠时自己也会打哈欠？",
+      "choices_en": [
+        "We copy to get oxygen",
+        "Mirror neurons fire automatically",
+        "Yawns spread through air",
+        "We're equally tired"
+      ],
+      "choices_zh": [
+        "我们模仿以获取氧气",
+        "镜像神经元会自动激活",
+        "哈欠在空气中蔓延",
+        "我们都一样累"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Contagious yawning isn't about oxygen needs. It happens even when you're not tired.",
+        "Correct! Our brains have mirror neurons that activate when we see others' actions. Seeing a yawn triggers an automatic response. This may have evolved for social bonding. Even thinking about yawning can trigger one!",
+        "Wrong. Nothing physical spreads through air. It's a neurological response to seeing yawns.",
+        "Wrong. You can catch a yawn even when well-rested. It's an empathetic brain response, not tiredness."
+      ],
+      "explanations_zh": [
+        "不对。传染性打哈欠与需氧量无关，即使你不累时也会发生。",
+        "没错！我们大脑中的镜像神经元在看到他人动作时会激活。看到打哈欠会引发自动反应，这可能是为了社会联系而进化出来的。甚至想到打哈欠也能触发一个哈欠！",
+        "不对。打哈欠并非通过空气传播的物理现象，而是看到他人打哈欠时产生的神经反应。",
+        "不对。即使休息得很好，你也会打哈欠。这是大脑的同理心反应，而非疲劳所致。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:34:51.261578+00:00",
+      "last_modified_at": "2025-11-21T04:34:51.261578+00:00",
+      "id": "bio_018"
+    },
+    {
+      "question_en": "Why do fingers wrinkle in water?",
+      "question_zh": "为什么手指在水里会起皱？",
+      "choices_en": [
+        "Nervous system creates grip",
+        "Skin absorbs water",
+        "Blood leaves fingertips",
+        "Oils wash away"
+      ],
+      "choices_zh": [
+        "神经系统产生抓握力",
+        "皮肤吸收水分",
+        "指尖渗血",
+        "油脂洗去"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Pruney fingers aren't passive water absorption—your nervous system triggers it! The wrinkles improve grip on wet objects, like tire treads. People with nerve damage don't get wrinkly fingers. It's an evolved adaptation!",
+        "Wrong. Skin does absorb some water, but wrinkling is an active nervous system response, not passive swelling.",
+        "Wrong. Blood flow isn't reduced. The wrinkles are caused by blood vessel constriction controlled by nerves.",
+        "Wrong. Oils washing away would cause dryness, not wrinkles. The nervous system actively creates the pattern."
+      ],
+      "explanations_zh": [
+        "没错！手指起皱并非被动吸水，而是神经系统在起作用！这些皱纹能增强对湿滑物体的抓握力，就像轮胎花纹一样。神经受损的人手指不会起皱。这是一种进化而来的适应性特征！",
+        "错误。皮肤确实会吸收一些水分，但起皱是神经系统的主动反应，而非被动膨胀。",
+        "错误。血流并未减少。皱纹是由神经控制的血管收缩引起的。",
+        "错误。油脂被洗掉会导致干燥，而非皱纹。神经系统主动形成了这一模式。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:35:06.721019+00:00",
+      "last_modified_at": "2025-11-21T04:35:06.721019+00:00",
+      "id": "bio_019"
+    },
+    {
+      "question_en": "Why do we get brain freeze?",
+      "question_zh": "为什么我们会感到脑冻结？",
+      "choices_en": [
+        "Brain actually gets cold",
+        "Ice cream numbs nerves",
+        "Blood vessels rapidly change",
+        "Cold damages brain cells"
+      ],
+      "choices_zh": [
+        "大脑实际上会变冷",
+        "冰淇淋能麻痹神经。",
+        "血管迅速变化",
+        "寒冷会损害脑细胞"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Your brain is well-protected and doesn't actually freeze from cold food.",
+        "Wrong. Nerves aren't numbed—they're actually overstimulated by rapid temperature change.",
+        "Correct! Cold food touching the roof of your mouth causes blood vessels to rapidly constrict then dilate. This triggers pain receptors. Your brain interprets this as head pain. Pressing your tongue to the roof of your mouth can help!",
+        "Wrong. No brain damage occurs. It's a temporary pain response from blood vessel changes in your mouth."
+      ],
+      "explanations_zh": [
+        "不对。你的大脑受到良好保护，实际上并不会因为冷食而冻结。",
+        "不对。神经并非麻木，而是因温度的急剧变化而过度受刺激。",
+        "没错！冷食接触上颚会导致血管迅速收缩后扩张，这会刺激痛觉感受器，大脑便将此解读为头痛。将舌头抵住上颚能有所缓解！",
+        "错误。不会造成脑损伤。这只是口腔血管变化引起的暂时性疼痛反应。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:35:23.335233+00:00",
+      "last_modified_at": "2025-11-21T04:35:23.335233+00:00",
+      "id": "bio_020"
+    },
+    {
+      "question_en": "Why do we have two eyes?",
+      "question_zh": "为什么我们有两只眼睛？",
+      "choices_en": [
+        "Backup if one is injured",
+        "To see depth and distance",
+        "Wider field of view only",
+        "Two eyes see more colors"
+      ],
+      "choices_zh": [
+        "受伤时的替补",
+        "看清深度与距离",
+        "仅更广视野",
+        "双眼能见更多色彩"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While having two eyes does provide backup, that's not the main evolutionary reason.",
+        "Correct! Each eye sees from a slightly different angle. Your brain combines these views to create depth perception—judging how far away objects are. This stereoscopic vision was crucial for our ancestors hunting and avoiding predators!",
+        "Wrong. Wider view is a benefit, but depth perception is the key advantage of two forward-facing eyes.",
+        "Wrong. Color vision works the same with one or two eyes. Depth perception requires two viewpoints."
+      ],
+      "explanations_zh": [
+        "错误。虽然拥有两只眼睛确实提供了备用功能，但这并非主要的进化原因。",
+        "没错！每只眼睛从略微不同的角度观察事物，大脑将这些视角合并以形成深度感知——判断物体的远近。这种立体视觉对我们的祖先在狩猎和躲避捕食者时至关重要！",
+        "错误。视野更广确实是一个优点，但双眼朝前的关键在于深度感知能力。",
+        "错误。无论单眼还是双眼，色觉原理相同。深度感知则需要双眼视角。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:35:38.727589+00:00",
+      "last_modified_at": "2025-11-21T04:35:38.727589+00:00",
+      "id": "bio_021"
+    },
+    {
+      "question_en": "Why do we get dizzy when spinning?",
+      "question_zh": "为什么旋转时会感到头晕？",
+      "choices_en": [
+        "Ear fluid keeps moving",
+        "Brain loses oxygen briefly",
+        "Eyes can't focus properly",
+        "Blood rushes to head"
+      ],
+      "choices_zh": [
+        "耳内液体持续流动",
+        "大脑短暂缺氧",
+        "眼睛无法正确对焦",
+        "血涌上头"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Fluid in your inner ear detects rotation. When you stop spinning, the fluid keeps moving due to momentum. Your brain gets conflicting signals—ears say spinning, eyes say stopped. This mismatch causes dizziness!",
+        "Wrong. Spinning doesn't significantly affect brain oxygen. The dizziness comes from inner ear signals.",
+        "Wrong. Eye focus isn't the cause. The inner ear's balance system creates the spinning sensation.",
+        "Wrong. Blood distribution doesn't cause post-spinning dizziness. Inner ear fluid momentum does."
+      ],
+      "explanations_zh": [
+        "正确！内耳中的液体负责感知旋转。当你停止转动时，由于惯性，液体仍在继续流动。大脑接收到相互矛盾的信号——耳朵说在转，眼睛说已停止。这种不匹配导致了头晕！",
+        "错误。旋转并不会显著影响大脑供氧。眩晕感源于内耳信号。",
+        "不对。眼睛聚焦并非原因，内耳的平衡系统才是产生旋转感的关键。",
+        "不对。血液分布不是导致旋转后头晕的原因，内耳液体动量才是。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:35:54.281421+00:00",
+      "last_modified_at": "2025-11-21T04:35:54.281421+00:00",
+      "id": "bio_022"
+    },
+    {
+      "question_en": "Why do our joints crack?",
+      "question_zh": "为什么我们的关节会发出响声？",
+      "choices_en": [
+        "Bones are grinding together",
+        "Tendons snap over bones",
+        "Gas bubbles pop in fluid",
+        "Cartilage is breaking down"
+      ],
+      "choices_zh": [
+        "骨头在相互摩擦",
+        "肌腱在骨骼上滑动",
+        "气泡在液体中破裂",
+        "软骨正在磨损"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. If bones were grinding, it would hurt! Normal cracking doesn't involve bone contact.",
+        "Wrong. While tendons can make sounds, the classic knuckle crack comes from gas bubbles.",
+        "Correct! Joints contain fluid with dissolved gases. Stretching the joint lowers pressure, causing gases to form a bubble that quickly collapses—pop! You must wait for gas to redissolve before cracking again. Studies show it doesn't cause arthritis!",
+        "Wrong. Cracking isn't cartilage damage. It's harmless gas bubble popping in joint fluid."
+      ],
+      "explanations_zh": [
+        "不对。如果骨头在摩擦，那会疼的！正常的关节响动并不涉及骨头接触。",
+        "错误。虽然肌腱可能发出声音，但典型的指关节响声来源于气泡。",
+        "正确！关节内含有溶解了气体的液体。拉伸关节会降低压力，使气体形成气泡并迅速破裂——发出“啪”的一声！你必须等待气体重新溶解后才能再次掰响关节。研究表明这不会导致关节炎！",
+        "不对。关节响不是软骨损伤，而是关节液中无害气泡破裂的声音。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:36:10.526235+00:00",
+      "last_modified_at": "2025-11-21T04:36:10.526235+00:00",
+      "id": "bio_023"
     }
   ]
 }

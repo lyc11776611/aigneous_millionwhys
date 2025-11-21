@@ -1,0 +1,336 @@
+{
+  "category_en": "Health & Medicine",
+  "category_zh": "健康与医学",
+  "questions": [
+    {
+      "question_en": "Why do cuts bleed then stop?",
+      "question_zh": "为什么伤口会先流血后止血？",
+      "choices_en": [
+        "Blood clots seal the wound",
+        "Skin grows back instantly",
+        "Blood runs out near cut",
+        "Air pressure stops flow"
+      ],
+      "choices_zh": [
+        "血栓封住伤口。",
+        "皮肤瞬间再生",
+        "伤口附近血流不止。",
+        "气压阻止流动"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Platelets rush to wounds and stick together, forming a plug. Then proteins create fibrin threads that weave a stronger clot. This amazing process happens in minutes to prevent blood loss!",
+        "Wrong. Skin takes days to heal fully. Bleeding stops because blood clots form, not because skin regrows.",
+        "Wrong. Blood continues flowing through your body. Clotting at the wound site stops the bleeding.",
+        "Wrong. Air pressure doesn't stop bleeding. The body's internal clotting system seals wounds."
+      ],
+      "explanations_zh": [
+        "正确！血小板迅速涌向伤口并聚集在一起形成栓塞。随后，蛋白质生成纤维蛋白丝，编织成更坚固的血凝块。这一奇妙过程在几分钟内发生，以防止失血！",
+        "错误。皮肤完全愈合需要数天时间。流血停止是因为血液凝结形成血块，而非皮肤再生。",
+        "不对。血液仍在体内流动，伤口处的凝血阻止了出血。",
+        "错误。气压并不能止血，是人体内部的凝血系统在封闭伤口。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:24:13.385947+00:00",
+      "last_modified_at": "2025-11-21T04:24:13.385947+00:00",
+      "id": "health_001"
+    },
+    {
+      "question_en": "Why do bruises change colors?",
+      "question_zh": "为什么瘀伤会变色？",
+      "choices_en": [
+        "Skin layers are damaged",
+        "Hemoglobin breaks down",
+        "Blood mixes with skin cells",
+        "Infection changes the color"
+      ],
+      "choices_zh": [
+        "皮肤层受损",
+        "血红蛋白分解",
+        "血液与皮肤细胞混合",
+        "感染改变颜色"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Bruises occur under the skin, not from skin layer damage. The color changes come from blood breakdown.",
+        "Correct! Trapped blood under skin breaks down over time. Hemoglobin turns from red to blue-purple, then green, then yellow as it's processed. This color progression shows your body is healing!",
+        "Wrong. Blood doesn't mix with skin cells. It pools under the skin and gradually breaks down into different compounds.",
+        "Wrong. Normal bruise color changes aren't from infection. They're from the natural breakdown of blood components."
+      ],
+      "explanations_zh": [
+        "不对。瘀伤发生在皮下，并非由皮肤层损伤引起。颜色变化源于血液分解。",
+        "正确！皮下淤血会随时间分解。血红蛋白在处理过程中由红变蓝紫，再转绿，最后呈黄色。这种颜色变化表明你的身体正在康复！",
+        "不对。血液不会与皮肤细胞混合，而是在皮下积聚并逐渐分解成不同的化合物。",
+        "错误。普通瘀伤的颜色变化并非由感染引起，而是血液成分自然分解的结果。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:24:27.582062+00:00",
+      "last_modified_at": "2025-11-21T04:24:27.582062+00:00",
+      "id": "health_002"
+    },
+    {
+      "question_en": "Why do we get fevers when sick?",
+      "question_zh": "生病时为何会发烧？",
+      "choices_en": [
+        "Germs make us hot",
+        "Body loses temperature control",
+        "Heat helps fight infection",
+        "Sick cells produce heat"
+      ],
+      "choices_zh": [
+        "细菌使我们发热。",
+        "身体失去温度控制",
+        "热有助于抵抗感染。",
+        "病态细胞会产生热量。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Germs don't directly produce the heat. Your immune system deliberately raises body temperature.",
+        "Wrong. Fever is controlled, not accidental. Your body intentionally raises its thermostat setting.",
+        "Correct! Your brain raises body temperature on purpose! Higher temperatures help immune cells work faster and make it harder for some germs to survive. Fever is actually your body's defense mechanism!",
+        "Wrong. Individual sick cells don't produce enough heat. The whole body raises its temperature as a coordinated immune response."
+      ],
+      "explanations_zh": [
+        "不对。病菌并不直接产生热量，是你的免疫系统有意提高体温的。",
+        "不对。发烧是受调控的，并非偶然。你的身体是有意调高体温设定点的。",
+        "没错！你的大脑会故意提高体温！较高的温度有助于免疫细胞更快地工作，并使一些病菌难以生存。发烧其实是身体的防御机制！",
+        "错误。单个病变细胞产生的热量不足。整个身体会作为协调的免疫反应来提高体温。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:24:42.326804+00:00",
+      "last_modified_at": "2025-11-21T04:24:42.326804+00:00",
+      "id": "health_003"
+    },
+    {
+      "question_en": "Why does ice reduce swelling?",
+      "question_zh": "为什么冰能减轻肿胀？",
+      "choices_en": [
+        "Cold shrinks blood vessels",
+        "Ice kills damaged cells",
+        "Frozen tissue doesn't swell",
+        "Cold numbs the swelling"
+      ],
+      "choices_zh": [
+        "寒冷使血管收缩。",
+        "冰会杀死受损细胞。",
+        "冷冻组织不会膨胀。",
+        "寒冷使肿胀麻木"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Cold causes blood vessels to constrict (vasoconstriction). Less blood flow means less fluid leaks into injured tissue. This reduces swelling and inflammation. That's why RICE (Rest, Ice, Compression, Elevation) helps injuries!",
+        "Wrong. Ice doesn't kill cells when used properly. It reduces blood flow and inflammation.",
+        "Wrong. Ice doesn't freeze tissue during normal use. It just cools the area enough to reduce blood flow.",
+        "Wrong. Numbing reduces pain sensation but doesn't directly affect swelling. Vasoconstriction does."
+      ],
+      "explanations_zh": [
+        "正确！寒冷会导致血管收缩（血管收缩）。血流减少意味着流入受伤组织的液体减少，从而减轻肿胀和炎症。这就是为什么RICE原则（休息、冰敷、压迫、抬高）有助于处理损伤！",
+        "错误。正确使用冰敷并不会杀死细胞，而是减少血流和炎症。",
+        "不对。冰在正常使用下不会冻结组织，它只是冷却该区域以减少血流。",
+        "错误。麻醉能减轻疼痛感，但不会直接影响肿胀。血管收缩才会。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:24:56.968854+00:00",
+      "last_modified_at": "2025-11-21T04:24:56.968854+00:00",
+      "id": "health_004"
+    },
+    {
+      "question_en": "Why do vaccines prevent diseases?",
+      "question_zh": "为什么疫苗能预防疾病？",
+      "choices_en": [
+        "They kill germs in blood",
+        "They train your immune system",
+        "Vaccines block infection entry",
+        "They strengthen all cells"
+      ],
+      "choices_zh": [
+        "它们能杀灭血液中的细菌。",
+        "它们训练你的免疫系统",
+        "疫苗阻断感染途径",
+        "它们增强所有细胞"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Vaccines don't contain active germ-killing agents that stay in your blood. They work by teaching your immune system.",
+        "Correct! Vaccines contain harmless pieces or weakened forms of germs. Your immune system learns to recognize them and creates antibodies. If the real germ appears later, your body is ready to fight it fast!",
+        "Wrong. Vaccines don't create physical barriers. They prepare your immune system to fight infections that enter.",
+        "Wrong. Vaccines don't strengthen all cells. They specifically train immune cells to recognize certain threats."
+      ],
+      "explanations_zh": [
+        "不对。疫苗并不含有留在血液中的活性杀菌成分，它们的作用是教会你的免疫系统如何应对。",
+        "正确！疫苗中含有无害的或弱化的病菌片段。你的免疫系统学会识别它们并产生抗体。如果以后真正的病菌出现，你的身体就能迅速准备战斗！",
+        "错误。疫苗不会形成物理屏障，而是让你的免疫系统准备好对抗入侵的感染。",
+        "不对。疫苗并非强化所有细胞，而是专门训练免疫细胞以识别特定威胁。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:25:12.666728+00:00",
+      "last_modified_at": "2025-11-21T04:25:12.666728+00:00",
+      "id": "health_005"
+    },
+    {
+      "question_en": "Why do we need to brush teeth?",
+      "question_zh": "我们为什么要刷牙？",
+      "choices_en": [
+        "To make teeth whiter",
+        "To strengthen tooth enamel",
+        "To remove bacteria and plaque",
+        "Toothpaste feeds teeth"
+      ],
+      "choices_zh": [
+        "使牙齿更白",
+        "强化牙釉质",
+        "去除细菌和牙菌斑",
+        "牙膏滋养牙齿。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Whitening is a cosmetic side effect. The main purpose is removing harmful bacteria and plaque.",
+        "Wrong. Brushing doesn't add strength to enamel. Fluoride in toothpaste helps, but brushing's main job is cleaning.",
+        "Correct! Bacteria in your mouth form sticky plaque that produces acid, causing cavities. Brushing removes plaque before it hardens into tartar. Without brushing, bacteria damage teeth and gums!",
+        "Wrong. Teeth don't eat or absorb nutrients from toothpaste. Brushing mechanically removes harmful buildup."
+      ],
+      "explanations_zh": [
+        "错误。美白只是美容方面的副作用，其主要目的是清除有害细菌和牙菌斑。",
+        "错误。刷牙并不能增强牙釉质的强度。牙膏中的氟化物有帮助，但刷牙的主要作用是清洁。",
+        "没错！口腔中的细菌会形成黏性牙菌斑，产生酸性物质导致蛀牙。刷牙能在牙菌斑硬化成牙垢前将其清除。若不刷牙，细菌会损害牙齿和牙龈！",
+        "不对。牙齿不会吃牙膏或从中吸收营养，刷牙是通过机械方式清除有害堆积物的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:25:27.586428+00:00",
+      "last_modified_at": "2025-11-21T04:25:27.586428+00:00",
+      "id": "health_006"
+    },
+    {
+      "question_en": "Why does skin heal after wounds?",
+      "question_zh": "为什么皮肤受伤后能愈合？",
+      "choices_en": [
+        "Cells multiply to fill gaps",
+        "Blood creates new skin",
+        "Air triggers skin growth",
+        "Scabs become new skin"
+      ],
+      "choices_zh": [
+        "细胞繁殖以填补空隙",
+        "血液生成新皮肤",
+        "空气触发皮肤生长",
+        "痂皮脱落成新肤"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Skin cells at wound edges divide and migrate to close the gap. Special cells called fibroblasts produce collagen to rebuild tissue. For small wounds, skin regenerates almost perfectly!",
+        "Wrong. Blood forms clots for protection but doesn't transform into skin. New skin grows from existing skin cells.",
+        "Wrong. Air doesn't trigger healing. The process is controlled by growth factors and signals from your body.",
+        "Wrong. Scabs protect healing skin but don't become it. New skin forms underneath, and scabs eventually fall off."
+      ],
+      "explanations_zh": [
+        "正确！伤口边缘的皮肤细胞会分裂并迁移以闭合创口。一种名为成纤维细胞的特殊细胞会产生胶原蛋白来重建组织。对于小伤口，皮肤几乎能完美再生！",
+        "错误。血液会凝结以保护伤口，但不会变成皮肤。新皮肤是由现有皮肤细胞生长出来的。",
+        "不对。空气不会触发愈合过程。这一过程是由生长因子和身体发出的信号控制的。",
+        "错误。痂保护正在愈合的皮肤，但不会变成皮肤。新皮肤在痂下形成，最终痂会脱落。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:25:43.826895+00:00",
+      "last_modified_at": "2025-11-21T04:25:43.826895+00:00",
+      "id": "health_007"
+    },
+    {
+      "question_en": "Why do ears pop on airplanes?",
+      "question_zh": "为什么在飞机上耳朵会感到堵塞？",
+      "choices_en": [
+        "Cabin air enters your ears",
+        "Pressure equalizes through tubes",
+        "Altitude affects hearing",
+        "Engines create sound waves"
+      ],
+      "choices_zh": [
+        "机舱空气进入您的耳朵",
+        "压力通过管道均衡。",
+        "海拔影响听力",
+        "发动机产生声波。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air doesn't enter your ears from outside. The pop involves pressure changes in your middle ear.",
+        "Correct! As altitude changes, air pressure outside differs from inside your middle ear. The Eustachian tube opens to equalize pressure, causing a pop. Swallowing or yawning helps open this tube!",
+        "Wrong. Altitude doesn't directly affect hearing ability. The popping is about pressure equalization.",
+        "Wrong. Engine noise doesn't cause ear popping. It's purely a pressure phenomenon."
+      ],
+      "explanations_zh": [
+        "不对。空气并非从外部进入耳朵，那种“噗”声其实是中耳内部压力变化引起的。",
+        "正确！随着海拔变化，外界气压与中耳内部气压产生差异。咽鼓管会打开以平衡压力，从而产生“噗”的一声。吞咽或打哈欠有助于打开这根管道！",
+        "不对。海拔并不直接影响听力。耳朵的响声其实是关于压力平衡的问题。",
+        "不对。发动机噪音不会引起耳朵胀痛。这纯粹是压力现象。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:25:59.535681+00:00",
+      "last_modified_at": "2025-11-21T04:25:59.535681+00:00",
+      "id": "health_008"
+    },
+    {
+      "question_en": "Why do some people need glasses?",
+      "question_zh": "为什么有些人需要戴眼镜？",
+      "choices_en": [
+        "Eyes wear out from use",
+        "Too much screen time",
+        "Eye shape affects focus",
+        "Weak eye muscles"
+      ],
+      "choices_zh": [
+        "眼睛因使用而磨损",
+        "屏幕时间过长",
+        "眼睛形状影响聚焦",
+        "眼部肌肉无力"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Eyes don't wear out like machines. Vision problems are usually about eye shape or lens flexibility.",
+        "Wrong. While screens may strain eyes, they don't cause the structural issues that require glasses.",
+        "Correct! If your eyeball is too long, you're nearsighted. Too short, you're farsighted. Glasses bend light to compensate, focusing images correctly on your retina. The lens shape prescription corrects your specific eye shape!",
+        "Wrong. Most vision problems aren't muscle weakness. They're about how the eye focuses light."
+      ],
+      "explanations_zh": [
+        "不对。眼睛不像机器那样会磨损。视力问题通常与眼球的形状或晶状体的柔韧性有关。",
+        "不对。虽然屏幕可能使眼睛疲劳，但它们不会导致需要戴眼镜的结构性问题。",
+        "正确！如果你的眼球过长，你就是近视；过短，则是远视。眼镜通过折射光线来补偿，使影像准确聚焦在视网膜上。镜片度数的设计正是为了矫正你眼睛的具体形状！",
+        "不对。大多数视力问题并非肌肉无力所致，而是与眼睛如何聚焦光线有关。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:26:15.195984+00:00",
+      "last_modified_at": "2025-11-21T04:26:15.195984+00:00",
+      "id": "health_009"
+    },
+    {
+      "question_en": "Why does sunburn hurt?",
+      "question_zh": "为什么晒伤会疼？",
+      "choices_en": [
+        "UV damages skin cells",
+        "Sun dries out the skin",
+        "Heat burns like fire",
+        "Sweat irritates skin"
+      ],
+      "choices_zh": [
+        "紫外线会损伤皮肤细胞。",
+        "太阳会使皮肤干燥。",
+        "热如火灼",
+        "汗水会刺激皮肤。"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! UV radiation damages DNA in skin cells, triggering inflammation. Your body sends blood to repair damage, causing redness, heat, and pain. Severe sunburn kills skin cells, causing peeling. Always use sunscreen!",
+        "Wrong. Sunburn isn't about dryness. It's radiation damage at the cellular level that causes inflammation.",
+        "Wrong. Sunburn isn't a heat burn—you can get sunburned on cold, cloudy days. UV radiation causes the damage.",
+        "Wrong. Sweat doesn't cause sunburn. The pain comes from UV damage to skin cells."
+      ],
+      "explanations_zh": [
+        "正确！紫外线会损伤皮肤细胞中的DNA，引发炎症反应。身体会输送血液修复损伤，导致皮肤发红、发热和疼痛。严重晒伤会杀死皮肤细胞，造成脱皮。记得随时涂抹防晒霜！",
+        "不对。晒伤并非皮肤干燥所致，而是细胞层面受到辐射损伤引发的炎症反应。",
+        "不对。晒伤不是热烧伤——即使在寒冷、阴天也可能被晒伤。造成伤害的是紫外线辐射。",
+        "不对。汗水不会导致晒伤。疼痛是紫外线对皮肤细胞造成损伤所致。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:26:31.260856+00:00",
+      "last_modified_at": "2025-11-21T04:26:31.260856+00:00",
+      "id": "health_010"
+    }
+  ]
+}

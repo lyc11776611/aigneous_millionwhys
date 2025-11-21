@@ -3,10 +3,8 @@
   "category_zh": "天气与气候",
   "questions": [
     {
-      "id": "weather_001",
       "question_en": "Why are clouds white but rain clouds dark?",
-      "question_zh": "为什么云是白色雨云是黑色？",
-
+      "question_zh": "云白雨云暗何故？",
       "choices_en": [
         "Rain clouds have dirty water",
         "Rain clouds are thicker",
@@ -14,10 +12,10 @@
         "Rain clouds cast shadows"
       ],
       "choices_zh": [
-        "雨云含有脏水",
-        "雨云更厚",
-        "云的物质不同",
-        "雨云产生阴影"
+        "雨云含污水",
+        "乌云密布",
+        "多种云材质",
+        "雨云投影"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. While rain clouds can cast shadows on the ground, their dark appearance is due to their thickness absorbing light as it passes through, not from shadows they create."
       ],
       "explanations_zh": [
-        "错误。雨云不是脏的——它们和白云一样由水滴组成。黑暗来自它们的厚度，而非污染。",
-        "正确！所有云都会散射阳光，呈现白色。但雨云厚得多、密得多。光线穿过时大部分在到达底部前被吸收。透出的光线少，看起来就是深灰色。云越黑，含水越多，下雨可能性越大！",
-        "错误。所有云都由水滴或冰晶组成。雨云看起来黑是因为它们更厚更密，而不是由不同材料组成。",
-        "错误。虽然雨云可以在地面投下阴影，但它们的黑暗外观是由于其厚度在光线穿过时吸收光线，而不是它们产生的阴影。"
+        "不对。雨云并不脏——它们和白云一样由水滴构成。其暗色源于厚度而非污染。",
+        "没错！所有云都会散射阳光，因此呈现白色。但雨云更为厚重密集。当光线穿透时，大部分在到达云底前就被吸收了。较少的光线能逸出，使得云看起来呈深灰色。云层越暗，含水量越高，下雨的可能性就越大！",
+        "不对。所有的云都是由水滴或冰晶构成的。雨云看起来颜色深是因为它们更厚更密，而不是因为构成物质不同。",
+        "错误。虽然雨云能在地面上投下阴影，但它们之所以看起来黑暗，是因为云层较厚，光线穿过时被吸收，而非由它们产生的阴影所致。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_001"
     },
     {
-      "id": "weather_002",
       "question_en": "Why does thunder come after lightning?",
-      "question_zh": "为什么先看到闪电后听到雷声？",
-
+      "question_zh": "为何雷声在闪电后？",
       "choices_en": [
         "Lightning is faster than sound",
         "Light travels faster than sound",
@@ -46,9 +45,9 @@
         "Our eyes react faster"
       ],
       "choices_zh": [
-        "闪电比声音快",
-        "光速比声速快",
-        "雷声需要时间形成",
+        "闪电快于声",
+        "光速快于声速",
+        "雷声酝酿需时",
         "眼睛反应更快"
       ],
       "correct_answer": 1,
@@ -59,18 +58,19 @@
         "Wrong. Our eyes and ears process signals at similar speeds. The delay between seeing lightning and hearing thunder is due to light traveling vastly faster than sound."
       ],
       "explanations_zh": [
-        "错误。闪电本身不会移动——它是一种放电。区别在于我们几乎立即看到光，因为光传播速度比声音（雷声）到达我们这里快得多。",
-        "正确！闪电和雷声同时发生。但光速是30万公里/秒，而声速只有0.3公里/秒——慢了约100万倍！所以你几乎立即看到闪光，但声音需要时间才能到达。数一下闪电和雷声间隔的秒数，除以3就是距离（公里）！",
-        "错误。雷声在闪电加热空气时立即产生。延迟是因为声音比光传播慢得多，而不是雷声需要时间形成。",
-        "错误。我们的眼睛和耳朵处理信号的速度相似。看到闪电和听到雷声之间的延迟是由于光传播速度远快于声音。"
+        "不对。闪电本身并不移动——它是一种放电现象。区别在于我们瞬间看到光，因为光传播的速度远快于声音（雷声）传到我们这里所需的时间。",
+        "没错！闪电和雷声是同时发生的。但光速为每秒30万公里，而声音仅以每秒0.3公里的速度传播——大约慢了一百万倍！因此你几乎瞬间就能看到闪光，但声音需要时间才能传到你的耳朵。数一数闪电和雷声之间的秒数，再除以3，就能得出距离的公里数！",
+        "不对。雷声是闪电瞬间加热空气时立即产生的。延迟是因为声音传播速度远慢于光速，而不是因为雷声需要时间形成。",
+        "不对。我们的眼睛和耳朵处理信号的速度相近。看到闪电后听到雷声的延迟是因为光传播速度远快于声音。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_002"
     },
     {
-      "id": "weather_003",
       "question_en": "Why is the sky blue?",
-      "question_zh": "为什么天空是蓝色的？",
-
+      "question_zh": "天空为何是蓝色？",
       "choices_en": [
         "Ocean reflects blue light",
         "Air scatters blue light more",
@@ -78,10 +78,10 @@
         "Our eyes prefer blue"
       ],
       "choices_zh": [
-        "海洋反射蓝光",
-        "空气更多散射蓝光",
-        "太阳主要发出蓝光",
-        "眼睛偏好蓝色"
+        "海洋映蓝光",
+        "空气更散蓝光",
+        "太阳主发蓝光",
+        "我们偏爱蓝色"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -91,18 +91,19 @@
         "Wrong. Our eyes can see all colors equally well. The sky looks blue because atmospheric molecules scatter blue wavelengths of sunlight more than other colors."
       ],
       "explanations_zh": [
-        "错误。即使远离海洋，天空也是蓝色的。实际上，海洋看起来蓝色部分是因为它反射蓝天，而不是相反！",
-        "正确！阳光是白色的，包含所有颜色。当它撞击地球大气层时，微小的空气分子将其散射。蓝光波长较短，比其他颜色更容易散射。所以蓝光在天空中到处反弹，而其他颜色更直接穿过，使天空呈现蓝色。",
-        "错误。太阳发出包含光谱所有颜色的白光。天空看起来蓝是因为地球大气层散射蓝光多于其他颜色。",
-        "错误。我们的眼睛可以同样好地看到所有颜色。天空看起来蓝是因为大气分子散射太阳光的蓝色波长多于其他颜色。"
+        "不对。天空在任何地方都是蓝色的，即使远离海洋也是如此。实际上，海洋呈现蓝色部分是因为它反射了蓝天，而不是相反！",
+        "没错！阳光是白色的，包含了所有颜色。当它照射到地球大气层时，微小的空气分子会将其散射。蓝光波长较短，比其他颜色更容易散射。因此，蓝光在天空中四处散射，而其他颜色则更直接地穿透，使得天空呈现蓝色。",
+        "不对。太阳发出的是包含光谱中所有颜色的白光。天空之所以呈现蓝色，是因为地球大气层对蓝光的散射作用比其他颜色更强。",
+        "错误。我们的眼睛对所有颜色的感知能力是相同的。天空呈现蓝色是因为大气中的分子对阳光中蓝色波长的散射作用比其他颜色更强。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_003"
     },
     {
-      "id": "weather_004",
       "question_en": "Why does wind blow?",
-      "question_zh": "为什么会有风？",
-
+      "question_zh": "风为何吹？",
       "choices_en": [
         "Earth's rotation creates air flow",
         "Air moves from high to low pressure",
@@ -110,9 +111,9 @@
         "Temperature makes air vibrate"
       ],
       "choices_zh": [
-        "地球自转产生气流",
-        "空气从高压流向低压",
-        "树木摇动推动空气",
+        "地球自转生风",
+        "空气从高压向低压流动",
+        "树摇风动",
         "温度使空气振动"
       ],
       "correct_answer": 1,
@@ -123,18 +124,19 @@
         "Wrong. Temperature changes air density and pressure, but doesn't make it vibrate to create wind. Wind forms when air moves from high-pressure to low-pressure areas."
       ],
       "explanations_zh": [
-        "错误。地球自转确实影响风向（科里奥利效应），但不会产生风。风是由地球表面受热不均造成的气压差产生的。",
-        "正确！风的产生是因为空气从高压区移动到低压区。太阳不均匀地加热地球表面——一些区域变暖，暖空气上升形成低压。冷空气（高压）冲进来填补空间，形成风。压力差越大，风越强！",
-        "错误。树木不会产生风——它们因为风而移动！风是由大气中的压力差引起的空气运动。",
-        "错误。温度改变空气密度和压力，但不会使其振动产生风。风是在空气从高压区移动到低压区时形成的。"
+        "错误。地球自转确实会影响风向（科里奥利效应），但并非产生风的原因。风是由地球表面受热不均引起的气压差异所产生的。",
+        "正确！风是由于空气从高压区向低压区流动而产生的。太阳不均匀地加热地球表面——某些区域变得更热，形成低压，因为暖空气上升。较冷的空气（高压）迅速涌入填补空间，从而形成风。气压差越大，风力就越强！",
+        "不对。树木不会产生风——它们是因为风而动的！风是大气中因压力差而产生的空气流动。",
+        "错误。温度变化会影响空气密度和压力，但不会使其振动产生风。风是在空气从高压区向低压区流动时形成的。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_004"
     },
     {
-      "id": "weather_005",
       "question_en": "Why is it colder at higher altitudes?",
-      "question_zh": "为什么海拔越高越冷？",
-
+      "question_zh": "海拔越高为何越冷？",
       "choices_en": [
         "Less sunlight reaches high places",
         "Air is thinner and holds less heat",
@@ -142,10 +144,10 @@
         "Mountains block warm air"
       ],
       "choices_zh": [
-        "高处阳光更少",
-        "空气稀薄保温差",
-        "空气上升膨胀降温",
-        "山脉阻挡暖空气"
+        "高处阳光少",
+        "空气稀薄散热快",
+        "空气上升膨胀冷却",
+        "山阻暖流"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -155,18 +157,19 @@
         "Wrong. Mountains don't block warm air in a way that explains altitude temperature. The cooling happens because rising air expands in lower pressure and loses heat through adiabatic cooling."
       ],
       "explanations_zh": [
-        "错误。高海拔实际上接收更直接的阳光，大气过滤更少。但由于压力较低，空气无法有效保持热量。",
-        "错误。虽然高海拔空气稀薄，但这不是主要原因。关键是上升的空气因压力降低而膨胀，膨胀通过绝热冷却过程导致降温。",
-        "正确！随着空气上升，大气压降低。较低的压力使空气膨胀，气体膨胀时会冷却——这就是绝热冷却。温度每升高一公里下降约6.5°C。所以即使你在山上离太阳更近，空气却冷得多！",
-        "错误。山脉不会以能解释海拔温度的方式阻挡暖空气。降温是因为上升的空气在低压下膨胀，通过绝热冷却失去热量。"
+        "错误。实际上，海拔越高，接受的阳光越直接，大气过滤越少。但由于气压较低，空气无法有效保持热量。",
+        "错误。虽然高海拔地区空气稀薄，但这并非主要原因。关键在于上升的空气因压力降低而膨胀，而膨胀通过一种称为绝热冷却的过程导致温度下降。",
+        "正确！随着空气上升，大气压力降低。压力减小使得空气膨胀，而气体膨胀时会冷却——这就是绝热冷却。海拔每升高一公里，温度大约下降6.5°C。因此，尽管在山顶上离太阳更近，空气却要冷得多！",
+        "错误。山脉并不会以解释海拔温度的方式来阻挡暖空气。实际上，温度降低是因为上升的空气在较低压力下膨胀，并通过绝热冷却过程散失热量。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_005"
     },
     {
-      "id": "weather_006",
       "question_en": "Why does fog form?",
-      "question_zh": "为什么会起雾？",
-
+      "question_zh": "雾为何形成？",
       "choices_en": [
         "Clouds fall to the ground",
         "Smoke mixes with moisture",
@@ -174,10 +177,10 @@
         "Ice crystals float near surface"
       ],
       "choices_zh": [
-        "云降落到地面",
-        "烟雾混合水汽",
-        "空气降温水汽凝结",
-        "冰晶飘浮地表"
+        "云落地面",
+        "烟湿交融",
+        "空气冷却水凝结",
+        "冰晶浮于表"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -187,18 +190,19 @@
         "Wrong. Fog is made of liquid water droplets, not ice crystals. Ice fog can form in extremely cold conditions (below -30°C), but regular fog is liquid water suspended in air."
       ],
       "explanations_zh": [
-        "错误。雾不是掉下来的云。雾在地面形成，当水蒸气凝结时，就像云在天空中形成一样。雾本质上是接触地面的云！",
-        "错误。雾是纯水滴，不是烟雾。虽然污染会使雾看起来更脏（烟雾），但雾本身是在冷空气中水蒸气凝结时形成的。",
-        "正确！雾在空气冷却到露点时形成——水蒸气凝结成微小水滴的温度。这通常发生在夜间地面冷却，冷却其上空气时。数百万悬浮水滴散射光线，降低能见度。雾基本上是地面的云！",
-        "错误。雾由液态水滴组成，不是冰晶。冰雾可以在极冷条件下（低于-30°C）形成，但普通雾是悬浮在空气中的液态水。"
+        "不对。雾并非从天而降的云。雾是在地面形成的水汽凝结现象，正如云在天空中形成一样。雾实质上就是接触地面的云！",
+        "错误。雾是纯净的水滴，而非烟雾。虽然污染可能使雾看起来更脏（形成烟雾），但雾本身是在冷空气中水蒸气凝结时形成的。",
+        "正确！雾的形成是当空气冷却至其露点——水蒸气凝结成微小水滴的温度。这通常发生在夜间，当地面冷却时，会使上方的空气变冷。数以百万计的悬浮水滴散射光线，从而降低能见度。雾实质上就是地面上的云！",
+        "错误。雾是由液态水滴组成的，而非冰晶。在极寒条件下（低于零下30摄氏度）可能形成冰雾，但常规雾是悬浮在空气中的液态水。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_006"
     },
     {
-      "id": "weather_007",
       "question_en": "Why do clouds float in the sky?",
-      "question_zh": "为什么云会漂浮在空中？",
-
+      "question_zh": "云为何飘浮空中？",
       "choices_en": [
         "Wind holds them up",
         "Droplets are lighter than air",
@@ -206,10 +210,10 @@
         "Static electricity suspends them"
       ],
       "choices_zh": [
-        "风托着它们",
-        "水滴比空气轻",
-        "上升气流托住它们",
-        "静电悬浮它们"
+        "风托其身",
+        "水滴轻于空气",
+        "气流托举飞行",
+        "静电悬浮"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -219,18 +223,19 @@
         "Wrong. While clouds contain some electrical charge (creating lightning), static electricity doesn't hold clouds up. Clouds float because rising air currents support tiny, slowly-falling water droplets."
       ],
       "explanations_zh": [
-        "错误。风横向移动云，但不会托住它们。云漂浮是因为微小的水滴下降得很慢，上升气流使它们保持悬浮。",
-        "错误。水实际上比空气密！云滴极小（约0.01毫米），下降得很慢——只有每秒约1厘米。上升的空气向上移动比水滴下降快，使云保持漂浮。",
-        "正确！云滴很小，下降得很慢。但暖空气通过对流不断从地球表面上升。这种向上的空气运动（上升气流）比水滴的下降速度快，使它们保持悬浮。当水滴变得足够重（结合成雨滴）时，它们克服上升气流，以雨的形式下降！",
-        "错误。虽然云含有一些电荷（产生闪电），但静电不会托住云。云漂浮是因为上升气流支撑着微小、缓慢下降的水滴。"
+        "不对。风使云横向移动，但并不支撑它们。云能飘浮是因为微小的水滴下落速度极慢，上升的气流使它们保持悬浮状态。",
+        "不对。实际上，水的密度比空气大！云滴极其微小（约0.01毫米），下落速度非常缓慢——每秒仅约1厘米。上升气流的上升速度超过了云滴的下落速度，从而使云悬浮在空中。",
+        "没错！云滴微小且下落缓慢。但暖空气通过对流不断从地表上升。这股上升气流的速度超过了云滴的下落速度，使它们悬浮在空中。当云滴增长到足够重（合并成雨滴）时，它们便能克服上升气流，以雨的形式落下！",
+        "错误。虽然云层带有一定的电荷（从而产生闪电），但静电并不能支撑云朵漂浮。云之所以能飘浮，是因为上升的气流托住了那些微小且缓慢下落的水滴。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_007"
     },
     {
-      "id": "weather_008",
       "question_en": "Why does it rain?",
-      "question_zh": "为什么会下雨？",
-
+      "question_zh": "为何下雨？",
       "choices_en": [
         "Clouds become too heavy",
         "Droplets merge and grow large",
@@ -238,10 +243,10 @@
         "Clouds absorb too much water"
       ],
       "choices_zh": [
-        "云变得太重",
-        "水滴合并变大",
-        "云中温度下降",
-        "云吸收太多水"
+        "云层过重",
+        "水滴汇聚成大滴",
+        "云中降温",
+        "云吸水过多"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -251,18 +256,19 @@
         "Wrong. Clouds don't 'absorb' water like a sponge. They're made of suspended droplets that merge and grow until they're heavy enough to overcome updrafts and fall as rain."
       ],
       "explanations_zh": [
-        "错误。'太重'不够精确。雨发生在单个水滴长得足够大，重力将它们向下拉的速度比上升气流托住它们的速度快时。",
-        "正确！云滴很小（0.01毫米），保持悬浮在空气中。雨在数百万个这些水滴碰撞并合并时形成，长成约2-5毫米的水滴。在这个大小时，重力克服上升气流，它们作为雨下降。暖云使用碰撞；冷云形成冰晶在下降时融化！",
-        "错误。温度变化可以影响云的形成，但雨发生在水滴长得足够大而下降时。在暖云中，水滴合并；在冷云中，冰晶形成并下降。",
-        "错误。云不会像海绵一样'吸收'水。它们由悬浮的水滴组成，这些水滴合并并生长，直到它们足够重以克服上升气流并作为雨下降。"
+        "不对。“太重”这个说法不准确。实际上，雨滴是在单个水滴增长到足够大，以至于重力使其下落速度超过上升气流支撑能力时形成的。",
+        "正确！云滴极小（0.01毫米），能悬浮于空气中。当数百万云滴碰撞合并，形成约2-5毫米的水滴时便形成降雨。此时重力胜过上升气流，水滴便以雨的形式落下。暖云通过碰撞形成降雨；冷云则形成冰晶，下落过程中融化成雨！",
+        "错误。温度变化确实会影响云的形成，但降雨是在云滴增大到足以降落时发生的。在暖云中，云滴合并；在冷云中，冰晶形成并降落。",
+        "不对。云并不像海绵那样“吸收”水分。它们是由悬浮的水滴组成的，这些水滴会合并并增大，直到重量足以克服上升气流，从而以雨的形式落下。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_008"
     },
     {
-      "id": "weather_009",
       "question_en": "Why do we see our breath in cold weather?",
-      "question_zh": "为什么冷天能看到呼出的气？",
-
+      "question_zh": "为何冷天呼出白气？",
       "choices_en": [
         "Cold makes our breath visible",
         "Water vapor condenses into mist",
@@ -270,10 +276,10 @@
         "Our breath contains ice particles"
       ],
       "choices_zh": [
-        "寒冷使呼吸可见",
-        "水蒸气凝结成雾",
-        "氧气在空气中结冰",
-        "呼吸含冰颗粒"
+        "寒气凝呼可见",
+        "水汽凝结成雾",
+        "氧气在空气中凝固",
+        "呼出冰晶"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -283,18 +289,19 @@
         "Wrong. Your breath doesn't contain ice particles. The visible cloud forms when water vapor from your warm, moist breath condenses into tiny liquid droplets upon meeting cold air."
       ],
       "explanations_zh": [
-        "错误。寒冷本身不会使呼吸可见。可见性来自温暖呼吸中的水蒸气在遇到冷空气时凝结成微小水滴。",
-        "正确！你的呼吸含有来自肺部的水蒸气。当你呼气到冷空气中时，温暖的水分突然冷却到露点以下，凝结成微小的水滴，形成可见的雾——就像一个微型云！空气越冷，效果越明显。",
-        "错误。氧气在冬季温度下不会结冰（它在-218°C结冰！）。可见的雾是水蒸气凝结，不是冻结的气体。",
-        "错误。你的呼吸不含冰颗粒。可见的云是在温暖、潮湿呼吸中的水蒸气遇到冷空气时凝结成微小液滴形成的。"
+        "不对。寒冷本身并不会让呼吸可见。可见性来自于你温暖呼吸中的水蒸气在遇到冷空气时凝结成微小水滴。",
+        "没错！你呼出的气息中含有来自肺部的水蒸气。当你向冷空气中呼气时，温暖的湿气突然冷却至露点以下，凝结成微小的水滴，形成可见的雾气——就像一朵微缩的云！空气越冷，这种效果就越明显。",
+        "错误。氧气在冬季温度下不会冻结（它在-218°C才结冰！）。可见的雾气是水蒸气凝结而成，并非冻结的气体。",
+        "不对。你呼出的气息中并不含有冰粒。那可见的云雾状现象是因为你温暖湿润的呼出水蒸气遇到冷空气后凝结成了微小的液滴。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_009"
     },
     {
-      "id": "weather_010",
       "question_en": "Why does ice form on windows in winter?",
-      "question_zh": "为什么冬天窗户会结冰？",
-
+      "question_zh": "冬日窗上为何结冰？",
       "choices_en": [
         "Rain freezes on the glass",
         "Indoor moisture on cold glass",
@@ -302,10 +309,10 @@
         "Glass attracts frozen particles"
       ],
       "choices_zh": [
-        "雨水在玻璃上结冰",
-        "室内水汽在冷玻璃上结冰",
+        "雨凝窗上",
+        "冷玻璃内湿气",
         "冷空气含冰晶",
-        "玻璃吸引冰颗粒"
+        "玻璃吸凝粒"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -315,18 +322,19 @@
         "Wrong. Glass doesn't attract ice particles. Ice forms when water vapor in warm indoor air deposits directly onto the cold window surface, creating frost crystals."
       ],
       "explanations_zh": [
-        "错误。窗冰通常在内侧形成，不是从外面的雨。它是在室内水蒸气接触冰冷的窗户表面时产生的。",
-        "正确！室内空气含有来自呼吸、烹饪和其他活动的水蒸气。当这种温暖、潮湿的空气接触非常冷的窗户（低于0°C）时，蒸气直接沉积为冰晶，跳过液相——这个过程称为凝华。美丽的霜花图案形成是因为冰沿着玻璃上的划痕和瑕疵生长！",
-        "错误。冷空气只能容纳很少的水分。窗户上的冰来自室内水蒸气，当它接触冷玻璃表面时结冰。",
-        "错误。玻璃不会吸引冰颗粒。冰是在温暖室内空气中的水蒸气直接沉积到冷窗户表面时形成的，产生霜晶。"
+        "不对。窗冰通常是在室内形成的，而不是来自外面的雨水。它是当室内的水蒸气接触到冰冷的窗户表面时产生的。",
+        "正确！室内空气中含有呼吸、烹饪等活动产生的水蒸气。当这些温暖潮湿的空气接触到极冷的窗户（低于0°C）时，水蒸气会直接凝结成冰晶，跳过液态阶段——这一过程称为凝华。美丽的霜花图案之所以形成，是因为冰晶会沿着玻璃上的划痕和瑕疵生长！",
+        "不对。冷空气几乎无法容纳水分。窗户上的冰霜来自室内水蒸气，当它接触到冰冷的玻璃表面时便会结冰。",
+        "不对。玻璃并不会吸引冰粒。当室内温暖空气中的水蒸气直接沉积在冰冷的窗户表面时，就会形成冰晶，也就是霜。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_010"
     },
     {
-      "id": "weather_011",
       "question_en": "Why is humidity uncomfortable?",
-      "question_zh": "为什么湿度大会不舒服？",
-
+      "question_zh": "湿度为何令人不适？",
       "choices_en": [
         "Humid air is heavier to breathe",
         "Sweat can't evaporate to cool us",
@@ -334,10 +342,10 @@
         "Humidity makes air hotter"
       ],
       "choices_zh": [
-        "湿润空气呼吸困难",
-        "汗水无法蒸发降温",
-        "水蒸气阻挡氧气",
-        "湿度使空气更热"
+        "潮湿空气呼吸沉",
+        "汗水难蒸发降温",
+        "水汽阻氧",
+        "湿度升高气温"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -347,18 +355,19 @@
         "Wrong. Humidity doesn't change air temperature. It feels hotter because humid air prevents sweat evaporation, stopping your body's natural cooling mechanism."
       ],
       "explanations_zh": [
-        "错误。虽然湿润空气稍微密一点，但这不影响呼吸。不适来自你的身体无法通过汗水蒸发来降温。",
-        "正确！你的身体通过出汗来降温——当汗水从皮肤蒸发时，它带走热量。但蒸发需要干燥的空气。在高湿度下，空气已经饱和水蒸气，所以汗水无法蒸发。它只是停留在皮肤上，让你又热又黏，无法有效降温！",
-        "错误。水蒸气不会阻挡氧气——空气同时含有两者。高湿度感觉不舒服是因为饱和空气阻止汗水蒸发，阻塞你身体的冷却系统。",
-        "错误。湿度不会改变空气温度。感觉更热是因为湿润空气阻止汗水蒸发，停止你身体的自然冷却机制。"
+        "错误。虽然潮湿空气密度稍大，但这并不影响呼吸。不适感源于身体无法通过汗液蒸发来有效降温。",
+        "没错！你的身体通过出汗来降温——汗水从皮肤蒸发时带走热量。但蒸发需要干燥的空气。在高湿度环境下，空气已饱含水分，汗水无法蒸发，只会停留在皮肤表面，让你感到闷热黏腻，无法有效降温！",
+        "错误。水蒸气不会阻碍氧气——空气中两者并存。高湿度让人感到不适是因为饱和的空气阻止了汗液蒸发，阻碍了身体的散热系统。",
+        "不对。湿度并不会改变空气温度。感觉更热是因为潮湿的空气阻碍了汗液蒸发，从而阻止了身体的自然冷却机制。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_011"
     },
     {
-      "id": "weather_012",
       "question_en": "Why do tornadoes spin?",
-      "question_zh": "为什么龙卷风会旋转？",
-
+      "question_zh": "龙卷风为何旋转？",
       "choices_en": [
         "Earth's rotation makes them spin",
         "Wind shear creates rotation",
@@ -366,10 +375,10 @@
         "Lightning creates spinning air"
       ],
       "choices_zh": [
-        "地球自转使其旋转",
-        "风切变产生旋转",
-        "热空气螺旋上升",
-        "闪电产生旋转气流"
+        "地球自转致其旋",
+        "风切变生旋转",
+        "热气盘旋上升",
+        "闪电生旋风"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -379,18 +388,19 @@
         "Wrong. Lightning is an electrical discharge and doesn't create spinning air. Tornado rotation comes from wind shear - different wind speeds at different heights creating rotation that gets tilted and tightened by updrafts."
       ],
       "explanations_zh": [
-        "错误。地球自转（科里奥利效应）影响飓风等大型系统，但太弱无法产生龙卷风。龙卷风旋转来自风切变——不同高度的风向不同方向移动。",
-        "正确！龙卷风在不同高度的风以不同方向或速度吹动（风切变）时形成。这产生水平旋转效应。当强大的雷暴上升气流将这种旋转倾斜为垂直并收紧时，龙卷风就形成了。随着旋转柱变窄（角动量守恒），它旋转得更快——就像花样滑冰运动员收拢手臂！",
-        "错误。虽然上升的热空气是雷暴的一部分，但它不会产生旋转。龙卷风旋转来自被上升气流倾斜为垂直的风切变，然后收紧成涡旋。",
-        "错误。闪电是放电，不会产生旋转空气。龙卷风旋转来自风切变——不同高度的不同风速产生旋转，被上升气流倾斜并收紧。"
+        "错误。地球自转（科里奥利效应）会影响飓风等大型系统，但力量太弱无法形成龙卷风。龙卷风的旋转来源于风切变——即不同高度的风以不同方向运动。",
+        "正确！龙卷风的形成是由于不同高度的风向或风速不同（风切变），这会产生水平旋转效应。当强烈的雷暴上升气流将这种旋转转为垂直并收紧时，龙卷风就形成了。随着旋转柱变窄（角动量守恒），它旋转得更快——就像花样滑冰运动员收紧手臂一样！",
+        "错误。虽然上升的热空气是雷暴的一部分，但它并不产生旋转。龙卷风的旋转来自于风切变被上升气流倾斜至垂直方向，随后收紧形成涡旋。",
+        "不对。闪电是一种电放电现象，不会产生旋转的空气。龙卷风的旋转来源于风切变——即不同高度风速的差异形成的旋转，随后被上升气流倾斜并收紧。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_012"
     },
     {
-      "id": "weather_013",
       "question_en": "Why does dew form on grass in the morning?",
-      "question_zh": "为什么早晨草上会有露水？",
-
+      "question_zh": "清晨草上为何结露？",
       "choices_en": [
         "Plants release water overnight",
         "Air cools and moisture condenses",
@@ -398,10 +408,10 @@
         "Underground water rises up"
       ],
       "choices_zh": [
-        "植物夜间释放水分",
-        "空气降温水汽凝结",
-        "晨雾落在草上",
-        "地下水上升"
+        "植物夜间释水",
+        "空气冷却水汽凝",
+        "晨雾落草间",
+        "地下水涌出"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -411,18 +421,19 @@
         "Wrong. Dew doesn't come from underground - it forms from water vapor in the air. When surfaces cool overnight, air moisture condenses on them as tiny droplets."
       ],
       "explanations_zh": [
-        "错误。虽然植物确实会蒸腾水分，但露水来自空气中的水蒸气，不是来自植物。它在空气冷却到足以使其水分在冷表面凝结时形成。",
-        "正确！夜间，草和地面通过向太空辐射热量而冷却。接触这些冷表面的空气降到露点以下——水蒸气凝结的温度。空气中的水分然后在冷草上凝结成水滴。晴朗、平静的夜晚产生最多露水，因为热量在没有云或风的情况下有效地辐射掉！",
-        "错误。露水不是雾落下——它是水蒸气直接凝结在冷表面上。雾是空气中的悬浮水滴；露水在表面冷却到低于空气露点时形成。",
-        "错误。露水不来自地下——它由空气中的水蒸气形成。当表面在夜间冷却时，空气水分在其上凝结成微小水滴。"
+        "不对。虽然植物确实会蒸腾水分，但露水来源于空气中的水蒸气，而非植物。当空气冷却到一定程度，其水分就会在冷表面上凝结形成露水。",
+        "正确！夜晚，草地和地面通过向太空辐射热量而冷却。接触这些冷却表面的空气温度降至露点以下——即水蒸气凝结的温度。随后，空气中的湿气在凉爽的草叶上凝结成水滴。晴朗无风的夜晚露水最多，因为此时热量能有效地散发，没有云层或风的干扰！",
+        "错误。露水不是雾沉降形成的，而是水蒸气直接在冷表面上凝结而成。雾是悬浮在空气中的水滴；当表面冷却至空气露点以下时，就会形成露水。",
+        "不对。露水并非来自地下——它是由空气中的水蒸气形成的。当地表在夜间冷却时，空气中的水分会在上面凝结成小水滴。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_013"
     },
     {
-      "id": "weather_014",
       "question_en": "Why do thunderstorms produce hail?",
-      "question_zh": "为什么雷暴会产生冰雹？",
-
+      "question_zh": "雷暴为何产生冰雹？",
       "choices_en": [
         "Rain freezes while falling",
         "Ice is thrown up and down in clouds",
@@ -430,10 +441,10 @@
         "Cold air meets warm storms"
       ],
       "choices_zh": [
-        "雨在下落时结冰",
-        "冰在云中上下抛掷",
-        "闪电冻结水滴",
-        "冷空气遇到暖风暴"
+        "雨落成冰",
+        "冰在云中上下抛",
+        "闪电凝水滴",
+        "冷空气遇暖风暴"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -443,18 +454,19 @@
         "Wrong. While thunderstorms have temperature contrasts, hail specifically forms when strong updrafts repeatedly lift ice particles through freezing levels, allowing layers to accumulate."
       ],
       "explanations_zh": [
-        "错误。雨不会在下落时结冰形成冰雹。冰雹在雷云内部形成，强上升气流反复将冰粒提升通过冰冻区，堆积层次。",
-        "正确！冰雹在具有强上升气流的强大雷暴中形成。冰粒被提升到冰点以上，收集过冷水滴，结冰，然后下降。但上升气流再次将它们抛起！这个循环重复，像洋葱一样形成同心冰层。当冰雹变得太重，上升气流无法提升时（有些达到棒球大小！），它们最终落到地面。",
-        "错误。闪电不会冻结水——它是电放电。冰雹在强上升气流反复将冰循环通过冰冻区时形成，堆积冰层。",
-        "错误。虽然雷暴有温度对比，但冰雹具体在强上升气流反复将冰粒提升通过冰点水平时形成，允许层次积累。"
+        "不对。雨在下落过程中并不会结冰形成冰雹。冰雹是在雷暴云内部形成的，强烈的上升气流反复将冰粒抬升到冻结区域，使其层层累积而成。",
+        "正确！冰雹形成于具有强烈上升气流的强大雷暴中。冰粒被抬升到冰点以上，捕获过冷水滴后冻结并下落，但上升气流再次将它们抛起！这一过程循环往复，形成如洋葱般的同心冰层。当冰雹增长到上升气流无法支撑其重量时（有些甚至能达到棒球大小！），它们最终坠落地面。",
+        "不对。闪电不会冻结水——它是一种放电现象。冰雹是在强上升气流反复将冰粒带入冻结区域，层层积累冰层时形成的。",
+        "错误。虽然雷暴中存在温度差异，但冰雹的形成特别依赖于强烈的上升气流反复将冰粒抬升至冻结层以上，使其层层累积而成。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_014"
     },
     {
-      "id": "weather_015",
       "question_en": "Why does wind feel colder than still air?",
-      "question_zh": "为什么有风比无风感觉更冷？",
-
+      "question_zh": "风为何比静止空气更冷？",
       "choices_en": [
         "Wind is actually colder air",
         "Wind removes warm air near skin",
@@ -462,10 +474,10 @@
         "Wind increases air pressure"
       ],
       "choices_zh": [
-        "风本身就更冷",
-        "风吹走皮肤暖空气",
-        "运动空气热量少",
-        "风增加气压"
+        "风实为冷空气",
+        "风带走体表暖流",
+        "流动空气热量少",
+        "风增气压"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -475,12 +487,81 @@
         "Wrong. Wind doesn't increase air pressure in a way that affects temperature sensation. Wind feels colder because it removes the warm air layer your body creates, increasing heat loss."
       ],
       "explanations_zh": [
-        "错误。风不一定更冷——即使在相同温度下，风也比静止空气感觉更冷。区别在于风不断吹走皮肤附近的温暖空气层。",
-        "正确！你的身体温暖皮肤旁边的薄空气层。在静止空气中，这个温暖层使你保温。但风不断吹走这个温暖空气，用较冷空气替换，迫使你的身体更努力工作来保暖。这种'风寒'效应使有风的10°C比无风的10°C感觉冷得多！",
-        "错误。运动空气在相同温度下的热量不比静止空气少。风感觉更冷是因为它比静止空气更快地移除身体周围的温暖绝缘空气层。",
-        "错误。风不会以影响温度感觉的方式增加气压。风感觉更冷是因为它移除你身体产生的温暖空气层，增加热量损失。"
+        "不对。风不一定更冷——即使在相同温度下，风也比静止空气感觉更冷。区别在于风会持续吹走皮肤附近的温暖空气层。",
+        "没错！你的身体会温暖皮肤表面的一薄层空气。在静止的空气中，这层温暖的空气能为你保温。但风会不断吹走这层暖空气，并用较冷的空气替代，迫使身体更努力地产热以维持体温。这种“风寒”效应使得有风时的10°C感觉比无风时冷得多！",
+        "错误。流动的空气并不比静止的空气在相同温度下热量少。风感觉更冷是因为它比静止空气更快地带走了身体周围的温暖保温空气层。",
+        "不对。风并不会以影响温度感知的方式增加气压。风之所以让人感觉更冷，是因为它吹走了身体周围形成的暖空气层，从而加快了热量流失。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "weather_015"
+    },
+    {
+      "question_en": "Why do snowflakes have six sides?",
+      "question_zh": "雪花为什么有六个边？",
+      "choices_en": [
+        "Cold air has hexagon shape",
+        "Water molecules bond hexagonally",
+        "Six is nature's lucky number",
+        "Wind creates six-sided patterns"
+      ],
+      "choices_zh": [
+        "冷空气呈六边形。",
+        "水分子以六边形方式结合。",
+        "六是大自然的幸运数字。",
+        "风塑造出六边形图案"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air molecules don't have shapes that influence snowflakes. The structure comes from water itself.",
+        "Correct! Water molecules bond at 120-degree angles due to hydrogen bonding. When ice crystals form, this angle creates six-fold symmetry. Each snowflake branch grows differently based on temperature and humidity it encounters—that's why each is unique!",
+        "Wrong. Six isn't lucky—it's physics! Water's molecular bonding angle naturally creates hexagonal structures.",
+        "Wrong. Wind doesn't create the six-sided shape. The structure is determined by water's molecular bonding angles."
+      ],
+      "explanations_zh": [
+        "错误。空气分子并不具备影响雪花形状的结构，雪花的形态源于水本身。",
+        "正确！水分子因氢键作用以120度角结合。当冰晶形成时，这种角度产生了六重对称性。每片雪花的枝杈根据其所遇温度和湿度的不同而各异生长——这就是每片雪花都独一无二的原因！",
+        "错。六并非幸运数字——这是物理原理！水分子间的键角自然形成了六边形结构。",
+        "不对。风并不会形成六边形结构。这种结构是由水分子间的键合角度决定的。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:39:26.404247+00:00",
+      "last_modified_at": "2025-11-21T04:39:26.404247+00:00",
+      "id": "weather_016"
+    },
+    {
+      "question_en": "Why are sunsets more colorful than sunrises?",
+      "question_zh": "为什么日落比日出色彩更丰富？",
+      "choices_en": [
+        "Evening air has more particles",
+        "Sun is cooler in evening",
+        "Our eyes adjust overnight",
+        "West horizon is dustier"
+      ],
+      "choices_zh": [
+        "夜晚空气中颗粒物更多",
+        "太阳在傍晚时更凉爽。",
+        "我们的眼睛在一夜之间适应了。",
+        "西边天际尘土更浓。"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! By evening, human activity has released more dust, pollution, and particles into the air. These scatter more light, creating vivid reds and oranges. Morning air is cleaner after particles settled overnight. Sunsets after storms can be spectacular!",
+        "Wrong. The Sun's temperature doesn't change. Color differences come from atmospheric particles, not solar temperature.",
+        "Wrong. Eye adaptation doesn't explain sunset colors. The atmosphere contains more particles in evening.",
+        "Wrong. The direction doesn't matter. Evening air everywhere has accumulated more particles from daily activity."
+      ],
+      "explanations_zh": [
+        "没错！到了傍晚，人类活动向空气中释放了更多的尘埃、污染物和颗粒物。这些物质散射更多光线，从而形成鲜艳的红色和橙色。而早晨的空气经过一夜的沉淀更为洁净。暴风雨后的日落景象尤为壮观！",
+        "不对。太阳的温度不会改变。颜色的差异来自大气中的粒子，而非太阳的温度。",
+        "错误。眼睛适应并不能解释日落色彩。傍晚时分大气中含有更多颗粒物。",
+        "不对。方向无关紧要。傍晚的空气中，各处都积聚了更多日常活动产生的颗粒物。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:39:43.057572+00:00",
+      "last_modified_at": "2025-11-21T04:39:43.057572+00:00",
+      "id": "weather_017"
     }
   ]
 }

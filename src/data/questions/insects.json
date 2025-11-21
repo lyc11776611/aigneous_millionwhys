@@ -1,0 +1,402 @@
+{
+  "category_en": "Insects",
+  "category_zh": "昆虫世界",
+  "questions": [
+    {
+      "question_en": "Why do ants walk in lines?",
+      "question_zh": "为什么蚂蚁会排成队行走？",
+      "choices_en": [
+        "They follow scent trails",
+        "They copy the ant in front",
+        "Their eyes only see forward",
+        "The queen tells them to"
+      ],
+      "choices_zh": [
+        "它们沿着气味踪迹前进。",
+        "他们模仿前面的蚂蚁。",
+        "他们的眼睛只向前看。",
+        "女王告诉他们要"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Ants release pheromones that other ants follow. When one finds food, it leaves a chemical trail back to the nest. More ants follow and strengthen the trail, creating those neat lines!",
+        "Wrong. Ants don't visually copy each other. They follow chemical scent trails called pheromones that guide them to food sources and back home.",
+        "Wrong. Ant vision isn't the reason. They follow invisible chemical trails left by other ants, not visual cues from ants ahead of them.",
+        "Wrong. The queen doesn't direct traffic. Worker ants independently follow pheromone trails laid down by scouts who found food."
+      ],
+      "explanations_zh": [
+        "没错！蚂蚁会释放信息素，其他蚂蚁便循迹而行。一旦有蚂蚁发现食物，它就会留下一条化学路径返回巢穴。更多的蚂蚁跟随并加强这条路径，从而形成那些整齐的队伍！",
+        "不对。蚂蚁并非通过视觉相互模仿，而是依靠一种名为信息素的化学气味轨迹来引导它们找到食物源并返回巢穴。",
+        "不对。蚂蚁的视力并非原因所在。它们遵循的是其他蚂蚁留下的无形化学痕迹，而非前方蚂蚁的视觉信号。",
+        "不对。蚁后并不指挥交通，工蚁会自主跟随侦察蚁发现食物时留下的信息素路径。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:16:42.582857+00:00",
+      "last_modified_at": "2025-11-21T04:16:42.582857+00:00",
+      "id": "insect_001"
+    },
+    {
+      "question_en": "Why do butterflies have colorful wings?",
+      "question_zh": "蝴蝶为什么有五彩斑斓的翅膀？",
+      "choices_en": [
+        "To absorb more sunlight",
+        "To attract mates and warn predators",
+        "Colors help them fly better",
+        "They eat colorful flowers"
+      ],
+      "choices_zh": [
+        "吸收更多阳光",
+        "吸引配偶并警示天敌",
+        "颜色有助于它们更好地飞行。",
+        "他们吃五彩斑斓的花朵。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While butterflies do bask in sun, wing colors aren't primarily for heat absorption. Colors serve communication purposes with other butterflies and predators.",
+        "Correct! Bright colors help butterflies find mates of their species. Some patterns also warn predators they're toxic. The colors come from tiny scales that reflect light in beautiful ways!",
+        "Wrong. Color doesn't affect flight ability. Wings work through their shape and structure, not their color patterns.",
+        "Wrong. Butterfly colors come from pigments and light-reflecting scales, not from their diet. The colors are genetic and develop during metamorphosis."
+      ],
+      "explanations_zh": [
+        "错误。虽然蝴蝶确实会在阳光下晒太阳，但翅膀的颜色主要并非用于吸收热量。颜色主要用于与其他蝴蝶和捕食者进行交流。",
+        "没错！鲜艳的色彩有助于蝴蝶找到同类的伴侣。某些图案还能警告捕食者它们有毒。这些颜色来自于微小的鳞片，它们以美丽的方式反射光线！",
+        "错误。颜色不影响飞行能力。翅膀的功能取决于其形状和结构，而非颜色图案。",
+        "错误。蝴蝶的颜色来源于色素和反光鳞片，而非其饮食。这些颜色是遗传的，并在蜕变过程中形成。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:16:57.221733+00:00",
+      "last_modified_at": "2025-11-21T04:16:57.221733+00:00",
+      "id": "insect_002"
+    },
+    {
+      "question_en": "Why do cicadas make loud sounds?",
+      "question_zh": "蝉为什么会发出响亮的声音？",
+      "choices_en": [
+        "To scare away predators",
+        "They're calling for food",
+        "Males attract females",
+        "To communicate danger"
+      ],
+      "choices_zh": [
+        "吓跑捕食者",
+        "他们在要吃的。",
+        "雄性吸引雌性",
+        "传达危险"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. The loud sound doesn't effectively scare predators. Cicadas rely on camouflage and numbers for protection, not noise.",
+        "Wrong. Cicadas don't call for food. They feed on plant sap and don't need to signal for meals.",
+        "Correct! Male cicadas vibrate special organs called tymbals to produce their loud songs. Each species has a unique call that females recognize. Some cicadas reach 100 decibels—as loud as a motorcycle!",
+        "Wrong. Cicadas don't have alarm calls. Their sounds are mating calls, not warning signals to other cicadas."
+      ],
+      "explanations_zh": [
+        "不对。响亮的声音并不能有效吓退捕食者。蝉依靠伪装和数量来保护自己，而非噪音。",
+        "不对。蝉鸣并非为了觅食。它们以植物汁液为食，无需发出信号来寻找食物。",
+        "正确！雄性蝉通过振动称为鼓膜的特殊器官来发出响亮的歌声。每种蝉都有独特的叫声，雌性能够识别。有些蝉的叫声可达100分贝——与摩托车的噪音一样响亮！",
+        "不对。蝉没有警报叫声。它们发出的声音是求偶信号，而不是对其他蝉的警告信号。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:17:12.680188+00:00",
+      "last_modified_at": "2025-11-21T04:17:12.680188+00:00",
+      "id": "insect_003"
+    },
+    {
+      "question_en": "Why do spiders spin webs?",
+      "question_zh": "蜘蛛为什么织网？",
+      "choices_en": [
+        "To trap flying insects",
+        "To make homes warmer",
+        "For decoration",
+        "To store water"
+      ],
+      "choices_zh": [
+        "捕捉飞虫",
+        "让家更温暖",
+        "用于装饰",
+        "储水"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Spider webs are sticky traps for catching prey. The silk is incredibly strong for its size—some is stronger than steel! Spiders wait for vibrations that signal trapped insects.",
+        "Wrong. Webs don't provide insulation. Spiders are cold-blooded and don't need to warm their homes like mammals do.",
+        "Wrong. Webs serve survival purposes, not aesthetics. Every strand has a function in catching food or providing structure.",
+        "Wrong. Spider webs don't store water. Some spiders drink morning dew from webs, but that's not why they build them."
+      ],
+      "explanations_zh": [
+        "没错！蜘蛛网是用来捕捉猎物的粘性陷阱。蛛丝的强度与其尺寸相比令人难以置信——有些甚至比钢铁还要坚韧！蜘蛛会等待振动信号，表明有昆虫被困。",
+        "错误。蜘蛛网并不提供保温作用。蜘蛛是冷血动物，不像哺乳动物那样需要为巢穴保暖。",
+        "错误。蜘蛛网是为了生存而非美观，每一根丝都承担着捕捉食物或提供结构支撑的功能。",
+        "错误。蜘蛛网并不储存水分。有些蜘蛛会从网上喝晨露，但这并非它们织网的原因。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:17:27.285758+00:00",
+      "last_modified_at": "2025-11-21T04:17:27.285758+00:00",
+      "id": "insect_004"
+    },
+    {
+      "question_en": "Why do ladybugs have spots?",
+      "question_zh": "瓢虫为什么有斑点？",
+      "choices_en": [
+        "To count their age",
+        "To warn predators away",
+        "For camouflage in flowers",
+        "Spots help them fly"
+      ],
+      "choices_zh": [
+        "计算他们的年龄",
+        "用以警示捕食者远离",
+        "为在花丛中伪装",
+        "斑点助它们飞翔。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Spots don't indicate age—that's a myth! Ladybugs are born with their spot pattern, and it stays the same throughout life.",
+        "Correct! The bright red and black pattern is warning coloration. It tells predators 'I taste bad!' Ladybugs produce bitter chemicals that make birds avoid eating them.",
+        "Wrong. Red and black actually stand out, not blend in. The conspicuous colors are meant to be noticed as a warning signal.",
+        "Wrong. Spots have no aerodynamic function. They're purely for visual communication with potential predators."
+      ],
+      "explanations_zh": [
+        "不对。斑点并不代表年龄——那是个误解！瓢虫天生就有它们的斑点图案，并且一生都不会改变。",
+        "没错！鲜艳的红黑斑纹是警戒色，它在告诉捕食者“我很难吃！”瓢虫体内会产生苦味化学物质，让鸟儿望而却步。",
+        "错误。红色和黑色实际上是突出而非融合。这些醒目的颜色旨在作为警告信号被注意到。",
+        "错误。斑纹并无空气动力学功能，它们纯粹是为了与潜在捕食者进行视觉交流。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:17:41.765800+00:00",
+      "last_modified_at": "2025-11-21T04:17:41.765800+00:00",
+      "id": "insect_005"
+    },
+    {
+      "question_en": "Why do flies rub their legs together?",
+      "question_zh": "苍蝇为什么搓腿？",
+      "choices_en": [
+        "They're feeling cold",
+        "It's a mating dance",
+        "To clean their sensors",
+        "Showing happiness"
+      ],
+      "choices_zh": [
+        "他们觉得冷。",
+        "这是一场求偶之舞。",
+        "清洁其传感器",
+        "展现快乐"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Flies are cold-blooded and don't generate heat by rubbing. The behavior serves a cleaning purpose instead.",
+        "Wrong. Leg rubbing isn't part of fly courtship. They have different behaviors for attracting mates.",
+        "Correct! Flies taste and smell with sensors on their feet! Rubbing removes dirt and food particles so these sensors work properly. Clean feet help flies find their next meal.",
+        "Wrong. Insects don't express emotions like happiness. The rubbing is purely functional—keeping sensory organs clean."
+      ],
+      "explanations_zh": [
+        "不对。苍蝇是冷血动物，不会通过摩擦产生热量。这种行为实际上是为了清洁身体。",
+        "不对。腿部摩擦并非苍蝇求偶行为的一部分。它们吸引配偶的方式各不相同。",
+        "没错！苍蝇用脚上的传感器来品尝和闻气味！搓脚能清除污垢和食物残渣，确保这些传感器正常工作。干净的脚帮助苍蝇找到下一顿美餐。",
+        "错误。昆虫并不表达如快乐这样的情感。摩擦行为纯粹是功能性的——保持感觉器官清洁。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:17:55.659094+00:00",
+      "last_modified_at": "2025-11-21T04:17:55.659094+00:00",
+      "id": "insect_006"
+    },
+    {
+      "question_en": "Why do moths fly toward lights?",
+      "question_zh": "为什么飞蛾会扑向灯光？",
+      "choices_en": [
+        "They navigate by moon angle",
+        "Light gives them energy",
+        "They think it's the sun",
+        "Lights feel warm to them"
+      ],
+      "choices_zh": [
+        "他们通过月亮角度导航。",
+        "光赋予它们能量",
+        "他们认为那是太阳",
+        "灯光让他们感到温暖。"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Moths evolved to navigate using moonlight, keeping it at a constant angle. Artificial lights confuse this system—moths spiral toward bulbs trying to maintain their angle to what they think is the moon!",
+        "Wrong. Moths don't get energy from light like plants do. They eat as caterpillars and some adults don't eat at all.",
+        "Wrong. Moths are nocturnal and avoid sunlight. They're drawn to artificial lights due to confusion with their moon-based navigation system.",
+        "Wrong. While some moths bask for warmth, that's not why they circle lights. It's a navigation error caused by their moon-angle instinct."
+      ],
+      "explanations_zh": [
+        "没错！飞蛾进化出依靠月光导航的能力，通过保持与月光的角度不变来飞行。人造光源干扰了这一系统——飞蛾误将灯光当作月亮，为了维持与这个“月亮”的角度，它们会绕着灯泡盘旋！",
+        "不对。飞蛾不像植物那样从光中获取能量。它们在毛毛虫阶段进食，有些成虫则完全不吃东西。",
+        "错误。蛾类是夜行性昆虫，会避开阳光。它们被人造光源吸引是因为其基于月光的导航系统产生了混淆。",
+        "错误。虽然有些飞蛾会晒太阳取暖，但这并非它们绕灯飞行的原因。那是由于它们依赖月亮角度导航的本能导致的导航失误。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:18:13.509475+00:00",
+      "last_modified_at": "2025-11-21T04:18:13.509475+00:00",
+      "id": "insect_007"
+    },
+    {
+      "question_en": "Why do dragonflies have big eyes?",
+      "question_zh": "蜻蜓为什么有大眼睛？",
+      "choices_en": [
+        "To see in the dark",
+        "To catch prey while flying",
+        "To find water easily",
+        "Big eyes scare predators"
+      ],
+      "choices_zh": [
+        "在黑暗中看见",
+        "飞行中捕食猎物",
+        "轻松找到水源",
+        "大眼睛能吓退捕食者。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Dragonflies are daytime hunters, not nocturnal. Their eyes are optimized for bright conditions and fast movement detection.",
+        "Correct! Dragonflies catch insects mid-flight and need exceptional vision. Their compound eyes have 30,000 lenses and can see nearly 360 degrees. They spot prey from 40 feet away!",
+        "Wrong. While dragonflies live near water, their big eyes evolved for hunting flying insects, not finding ponds.",
+        "Wrong. Dragonflies' eyes aren't for intimidation. They're precision hunting tools for catching fast-moving prey."
+      ],
+      "explanations_zh": [
+        "错误。蜻蜓是日间捕食者，而非夜间活动。它们的眼睛适应明亮环境，擅长探测快速移动。",
+        "没错！蜻蜓能在飞行中捕捉昆虫，这得益于它们非凡的视觉。它们的复眼拥有三万个小眼，视野接近360度，能在40英尺外发现猎物！",
+        "错误。虽然蜻蜓生活在水边，但它们的大眼睛是为了捕食飞行昆虫而进化出来的，而不是用来寻找池塘的。",
+        "不对。蜻蜓的眼睛并非用于威慑，而是捕捉快速移动猎物的精密狩猎工具。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:18:29.076380+00:00",
+      "last_modified_at": "2025-11-21T04:18:29.076380+00:00",
+      "id": "insect_008"
+    },
+    {
+      "question_en": "Why do grasshoppers jump so high?",
+      "question_zh": "为什么蚱蜢能跳这么高？",
+      "choices_en": [
+        "Powerful spring-loaded legs",
+        "They're very lightweight",
+        "Wind helps lift them",
+        "They have hidden wings"
+      ],
+      "choices_zh": [
+        "强力弹簧腿",
+        "它们非常轻便。",
+        "风助它们腾空而起。",
+        "他们藏起了翅膀"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Grasshopper legs store energy like a spring. Special proteins in their knees act like rubber bands, releasing stored energy explosively. They can jump 20 times their body length!",
+        "Wrong. Being light helps, but the key is their leg mechanism. The spring-loaded knee joints provide the explosive power.",
+        "Wrong. Grasshoppers jump using muscle power, not wind. Their jumps work even in still air.",
+        "Wrong. While grasshoppers do have wings, their famous jumping comes from their powerful hind legs, not wing assistance."
+      ],
+      "explanations_zh": [
+        "正确！蚱蜢的腿像弹簧一样储存能量。它们膝盖中的特殊蛋白质如同橡皮筋，能爆发性地释放储存的能量。它们能跳出相当于自身体长20倍的距离！",
+        "不对。体重轻有帮助，但关键在于它们的腿部机制。弹簧式膝关节提供了爆发力。",
+        "错误。蚱蜢是靠肌肉力量跳跃，而非风力。即使在静止的空气中，它们也能跳跃。",
+        "错误。虽然蚱蜢确实有翅膀，但它们著名的跳跃能力来自于强健的后腿，而非翅膀的辅助。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:18:45.840039+00:00",
+      "last_modified_at": "2025-11-21T04:18:45.840039+00:00",
+      "id": "insect_009"
+    },
+    {
+      "question_en": "Why do beetles have hard shells?",
+      "question_zh": "甲虫为什么有坚硬的外壳？",
+      "choices_en": [
+        "To store water inside",
+        "Shells help them swim",
+        "Protection from predators",
+        "To make sounds louder"
+      ],
+      "choices_zh": [
+        "内置储水",
+        "外壳帮助它们游泳。",
+        "防范天敌",
+        "使声音更响亮"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Beetle shells don't store water. They do help prevent water loss, but that's different from storage.",
+        "Wrong. Most beetles aren't swimmers. Some water beetles have adaptations, but the hard shell isn't primarily for swimming.",
+        "Correct! The hard outer wings called elytra act as armor. They protect the delicate flying wings underneath and shield the beetle's body from predators, parasites, and physical damage.",
+        "Wrong. Beetle shells don't amplify sound. Some beetles make sounds by rubbing body parts together, but shells aren't involved."
+      ],
+      "explanations_zh": [
+        "错误。甲虫的外壳并不储存水分。它们确实有助于防止水分流失，但这与储存是不同的。",
+        "不对。大多数甲虫并不擅长游泳。一些水生甲虫虽有适应性特征，但它们的硬壳主要并非用于游泳。",
+        "正确！被称为鞘翅的坚硬外翅起着盔甲的作用。它们保护着下方脆弱的飞行翅膀，并使甲虫身体免受捕食者、寄生虫和物理伤害的侵害。",
+        "不对。甲虫的外壳并不能放大声音。有些甲虫通过摩擦身体部位发出声音，但外壳并不参与其中。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:19:01.704024+00:00",
+      "last_modified_at": "2025-11-21T04:19:01.704024+00:00",
+      "id": "insect_010"
+    },
+    {
+      "question_en": "Why do caterpillars become butterflies?",
+      "question_zh": "为什么毛毛虫会变成蝴蝶？",
+      "choices_en": [
+        "They outgrow their skin",
+        "Complete body transformation",
+        "Wings grow from eating",
+        "It's a different species"
+      ],
+      "choices_zh": [
+        "它们蜕皮了",
+        "全身彻底改变",
+        "翅膀因吃而生。",
+        "这是不同的物种。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While caterpillars do molt, metamorphosis is far more dramatic than just growing bigger. Their entire body restructures.",
+        "Correct! Inside the chrysalis, caterpillar cells break down into a soup-like substance and reorganize into butterfly parts. This complete metamorphosis lets one animal live two very different lives—crawling then flying!",
+        "Wrong. Diet doesn't cause metamorphosis. The transformation is genetically programmed and triggered by hormones when the caterpillar is ready.",
+        "Wrong. Caterpillars and butterflies are the same species at different life stages, like how tadpoles become frogs."
+      ],
+      "explanations_zh": [
+        "错误。虽然毛毛虫确实会蜕皮，但蜕变远比仅仅长大要剧烈得多。它们的整个身体结构都会重组。",
+        "正确！在蛹内，毛毛虫的细胞分解成类似汤状的液体，并重组为蝴蝶的各个部分。这种完全变态过程让一个生物经历了两种截然不同的生活——先爬行后飞翔！",
+        "错误。饮食不会引起变态。这种转变是由基因编程决定的，并在毛毛虫准备就绪时由激素触发。",
+        "错误。毛毛虫和蝴蝶是同一物种在不同生命阶段的形态，就像蝌蚪变成青蛙一样。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:19:17.099500+00:00",
+      "last_modified_at": "2025-11-21T04:19:17.099500+00:00",
+      "id": "insect_011"
+    },
+    {
+      "question_en": "Why do some insects play dead?",
+      "question_zh": "为什么有些昆虫会装死？",
+      "choices_en": [
+        "Predators prefer live prey",
+        "To rest without moving",
+        "They're actually sleeping",
+        "It cools their body down"
+      ],
+      "choices_zh": [
+        "捕食者偏爱活猎物。",
+        "静止休息",
+        "他们其实在睡觉。",
+        "它使他们的身体降温。"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Many predators are triggered by movement and ignore motionless prey. Playing dead (thanatosis) can save an insect's life. Some even release bad-smelling chemicals to seem more convincingly dead!",
+        "Wrong. Playing dead isn't restful—it's a stress response. Insects have other ways to conserve energy that don't involve this defense mechanism.",
+        "Wrong. This behavior is conscious defense, not sleep. Insects can snap out of it instantly when danger passes.",
+        "Wrong. Playing dead doesn't affect body temperature. It's purely a predator-avoidance strategy."
+      ],
+      "explanations_zh": [
+        "没错！许多捕食者会被移动触发而对静止的猎物视而不见。装死（假死状态）能救昆虫一命。有些昆虫甚至会释放难闻的化学物质，让自己看起来更像真的死了！",
+        "错误。装死并非休息，而是一种应激反应。昆虫有其他节省能量的方式，无需采用这种防御机制。",
+        "错误。这种行为是有意识的防御，而非睡眠。昆虫在危险过去后能立即恢复。",
+        "不对。装死并不会影响体温，这纯粹是一种躲避捕食者的策略。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:19:33.073938+00:00",
+      "last_modified_at": "2025-11-21T04:19:33.073938+00:00",
+      "id": "insect_012"
+    }
+  ]
+}

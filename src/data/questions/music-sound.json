@@ -1,0 +1,270 @@
+{
+  "category_en": "Music & Sound",
+  "category_zh": "音乐与声音",
+  "questions": [
+    {
+      "question_en": "Why do instruments sound different?",
+      "question_zh": "为什么不同乐器发出的声音会有所不同？",
+      "choices_en": [
+        "Different air temperatures",
+        "Unique overtone patterns",
+        "Sound travels at varied speeds",
+        "Our ears hear selectively"
+      ],
+      "choices_zh": [
+        "不同的气温",
+        "独特的泛音模式",
+        "声音以不同的速度传播。",
+        "我们的耳朵有选择性地聆听"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Temperature affects pitch slightly but doesn't explain why a piano sounds different from a violin playing the same note.",
+        "Correct! Each instrument produces a unique mix of overtones (harmonics) along with the main note. A violin and piano playing the same note have different overtone patterns—that's their timbre or 'color' of sound!",
+        "Wrong. Sound travels at the same speed regardless of instrument. The difference is in the sound wave patterns produced.",
+        "Wrong. Our ears hear all instruments similarly. The difference is in the actual sound waves each instrument produces."
+      ],
+      "explanations_zh": [
+        "错误。温度确实会轻微影响音高，但这并不能解释为什么钢琴和小提琴演奏同一音符时声音不同。",
+        "正确！每种乐器在发出主音的同时，都会产生独特的泛音（谐波）组合。小提琴和钢琴演奏同一音符时，其泛音结构各不相同——这正是它们音色或声音“色彩”的差异所在！",
+        "错误。声音的传播速度与乐器无关，差异在于产生的声波模式不同。",
+        "不对。我们的耳朵对所有乐器的听觉方式是一样的，区别在于每种乐器实际产生的声音波不同。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:24:22.073484+00:00",
+      "last_modified_at": "2025-11-21T04:24:22.073484+00:00",
+      "id": "music_001"
+    },
+    {
+      "question_en": "Why do we hear echoes?",
+      "question_zh": "为什么我们能听到回声？",
+      "choices_en": [
+        "Sound bounces off surfaces",
+        "Air carries sound twice",
+        "Our ears replay sounds",
+        "Sound waves split apart"
+      ],
+      "choices_zh": [
+        "声音在表面反射",
+        "空气传播声音的速度是两倍。",
+        "我们的耳朵会回放声音",
+        "声波分离"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Sound waves reflect off hard surfaces like walls, cliffs, or buildings. The reflected sound reaches your ears after the original, creating an echo. Soft surfaces absorb sound, which is why echoes are clearer in empty rooms!",
+        "Wrong. Air doesn't carry sound twice. The echo is a reflection of the original sound wave bouncing back.",
+        "Wrong. Ears don't have replay function. You hear actual reflected sound waves arriving after the original.",
+        "Wrong. Sound waves don't split to create echoes. They bounce off surfaces intact."
+      ],
+      "explanations_zh": [
+        "正确！声波会在墙壁、悬崖或建筑物等坚硬表面反射。反射的声音比原声稍晚到达你的耳朵，从而形成回声。而柔软的表面会吸收声音，这就是为什么在空房间里回声更清晰！",
+        "不对。空气不会传播两次声音。回声是原始声波反射回来的结果。",
+        "不对。耳朵没有回放功能。你听到的是实际反射回来的声波，它们比原声晚到。",
+        "不对。声波不会分裂产生回声，它们是完整地从表面反射回来的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:24:37.111713+00:00",
+      "last_modified_at": "2025-11-21T04:24:37.111713+00:00",
+      "id": "music_002"
+    },
+    {
+      "question_en": "Why do recordings sound different?",
+      "question_zh": "为什么录音听起来不一样？",
+      "choices_en": [
+        "Microphones add extra sounds",
+        "Digital files lose quality",
+        "You hear voice differently",
+        "Speakers distort all sound"
+      ],
+      "choices_zh": [
+        "麦克风会增加额外的声音。",
+        "数字文件会损失画质。",
+        "你听到的声音不同。",
+        "扬声器使所有声音失真"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Good microphones faithfully capture sound. The difference is in how you normally hear your voice.",
+        "Wrong. High-quality recordings preserve sound accurately. The strange feeling comes from hearing your voice externally.",
+        "Correct! You normally hear your voice through skull vibrations AND air. Recordings only capture the air portion. Without bone conduction, your voice sounds higher and thinner—that's the real external sound of your voice!",
+        "Wrong. Quality speakers reproduce sound accurately. The difference is hearing yourself without bone conduction."
+      ],
+      "explanations_zh": [
+        "错误。优质麦克风能真实捕捉声音，区别在于你通常听到自己声音的方式。",
+        "不对。高质量的录音能准确保存声音。那种奇怪的感觉是因为你从外部听到了自己的声音。",
+        "没错！你通常通过颅骨振动和空气传导听到自己的声音。录音只捕捉到空气传导部分。没有骨传导，你的声音听起来更高更细——这才是你声音在外部真实的样子！",
+        "不对。优质扬声器能精准还原声音，区别在于听不到自身骨传导的声音。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:24:51.850202+00:00",
+      "last_modified_at": "2025-11-21T04:24:51.850202+00:00",
+      "id": "music_003"
+    },
+    {
+      "question_en": "Why can we hear through walls?",
+      "question_zh": "为什么我们能隔着墙听到声音？",
+      "choices_en": [
+        "Walls have tiny holes",
+        "Sound vibrates solid matter",
+        "Air leaks carry sound",
+        "Walls amplify sound waves"
+      ],
+      "choices_zh": [
+        "墙壁上有微小的孔洞。",
+        "声音使固体物质振动",
+        "漏气会传递声音",
+        "墙壁会放大声波。"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Sound travels through solid walls, not through holes. Even sealed walls transmit some sound.",
+        "Correct! Sound waves make wall molecules vibrate, passing energy through the solid material. The wall then vibrates air on the other side. Low frequencies travel through walls better than high ones—that's why you hear bass from neighbors!",
+        "Wrong. While air gaps help sound travel, sound also moves directly through solid materials by vibration.",
+        "Wrong. Walls actually reduce sound, they don't amplify it. Some sound still gets through via vibration."
+      ],
+      "explanations_zh": [
+        "错误。声音是通过固体墙壁传播的，而不是通过孔洞。即使是密封的墙壁也会传递一些声音。",
+        "没错！声波使墙壁分子振动，将能量传递过固体材料。墙壁随之振动另一侧的空气。低频声波比高频更容易穿透墙壁——这就是为什么你能听到邻居家的低音！",
+        "错误。尽管空气间隙有助于声音传播，但声音也通过固体材料的振动直接传播。",
+        "错误。墙壁实际上会减少声音，而不是放大它。部分声音仍会通过振动传递过来。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:25:06.915208+00:00",
+      "last_modified_at": "2025-11-21T04:25:06.915208+00:00",
+      "id": "music_004"
+    },
+    {
+      "question_en": "Why do loud sounds hurt our ears?",
+      "question_zh": "为什么巨大的声音会伤害我们的耳朵？",
+      "choices_en": [
+        "Strong vibrations damage cells",
+        "Sound fills ear completely",
+        "Loud sounds are hot",
+        "Ears run out of energy"
+      ],
+      "choices_zh": [
+        "强烈振动会损伤细胞。",
+        "声音充盈耳畔",
+        "响亮的声音是热的",
+        "耳朵没电了"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Loud sounds create powerful pressure waves that can damage delicate hair cells in your inner ear. These cells don't regenerate! That's why hearing protection matters—damage from loud noise is permanent.",
+        "Wrong. Sound doesn't fill space like liquid. Damage comes from excessive vibration intensity.",
+        "Wrong. Sound waves don't carry significant heat. The damage is mechanical, from excessive vibration.",
+        "Wrong. Ears don't tire out. Loud sounds physically damage the sensitive structures inside."
+      ],
+      "explanations_zh": [
+        "没错！巨大的声音会产生强烈的压力波，损伤内耳中脆弱的毛细胞。这些细胞一旦受损便无法再生！因此，保护听力至关重要——噪音造成的损害是永久性的。",
+        "错误。声音不会像液体那样充满空间。损害来自于过度的振动强度。",
+        "错误。声波并不携带显著热量。损害是机械性的，源于过度振动。",
+        "不对。耳朵不会疲劳，响亮的声音会物理损伤内部敏感结构。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:25:22.166420+00:00",
+      "last_modified_at": "2025-11-21T04:25:22.166420+00:00",
+      "id": "music_005"
+    },
+    {
+      "question_en": "Why does helium change your voice?",
+      "question_zh": "为什么氦气会改变你的声音？",
+      "choices_en": [
+        "Helium shrinks vocal cords",
+        "It makes you breathe faster",
+        "Sound travels faster in helium",
+        "Helium vibrates differently"
+      ],
+      "choices_zh": [
+        "氦气使声带收缩。",
+        "它让你呼吸加快。",
+        "声音在氦气中传播得更快。",
+        "氦气的振动方式不同。"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Helium doesn't physically affect your vocal cords. They vibrate at the same frequency.",
+        "Wrong. Breathing rate doesn't cause the voice change. It's about how sound travels through the gas.",
+        "Correct! Sound travels nearly 3 times faster in helium than in air. This changes the resonance in your throat and mouth, boosting higher frequencies. Your vocal cords work normally—only the sound quality changes!",
+        "Wrong. Helium molecules vibrate similarly to air. The effect comes from sound's different speed in helium."
+      ],
+      "explanations_zh": [
+        "不对。氦气并不会物理性地影响你的声带，它们以相同的频率振动。",
+        "不对。呼吸频率不会导致声音变化，关键在于声音在气体中传播的方式。",
+        "正确！声音在氦气中传播的速度比在空气中快近3倍。这会改变您喉咙和口腔中的共鸣，增强高频音。您的声带工作正常——只是音质发生了变化！",
+        "不对。氦气分子的振动方式与空气相似。这种效应源于声音在氦气中传播速度的不同。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:25:37.860220+00:00",
+      "last_modified_at": "2025-11-21T04:25:37.860220+00:00",
+      "id": "music_006"
+    },
+    {
+      "question_en": "Why do some sounds make us calm?",
+      "question_zh": "为何某些声音能让我们感到平静？",
+      "choices_en": [
+        "Quiet sounds are always calming",
+        "Certain patterns relax the brain",
+        "Calm sounds have no bass",
+        "Familiar sounds feel safe"
+      ],
+      "choices_zh": [
+        "轻柔的声音总能让人平静。",
+        "某些模式能让大脑放松",
+        "平静的声音没有低音。",
+        "熟悉的声音让人安心"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Quietness alone doesn't guarantee calm. Some quiet sounds (like whispers) can be unsettling.",
+        "Correct! Gentle, predictable sounds with slow rhythms activate our parasympathetic nervous system. Nature sounds like rain, waves, or birdsong have patterns our brains evolved with. Sudden, unpredictable sounds trigger alertness instead!",
+        "Wrong. Bass frequencies can be calming (like thunder in rain sounds). Calmness comes from patterns, not frequency ranges.",
+        "Wrong. Familiarity helps, but unfamiliar nature sounds can calm us too. It's about the predictable, gentle patterns."
+      ],
+      "explanations_zh": [
+        "错。安静本身并不保证平静。有些安静的声音（如低语）反而令人不安。",
+        "正确！节奏缓慢、轻柔可预测的声音能激活我们的副交感神经系统。像雨声、海浪或鸟鸣这类自然声音，其模式与我们大脑的进化相契合。而突然、不可预测的声音则会引发警觉反应！",
+        "错误。低音频率也能让人平静（如雨声中雷鸣般的低频）。平静感源于规律模式，而非频率范围。",
+        "错误。熟悉感确实有帮助，但陌生的自然声音也能让我们平静。关键在于那些可预测的、温和的节奏。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:25:53.906143+00:00",
+      "last_modified_at": "2025-11-21T04:25:53.906143+00:00",
+      "id": "music_007"
+    },
+    {
+      "question_en": "Why do songs get stuck in our heads?",
+      "question_zh": "为什么歌曲会在我们脑海中挥之不去？",
+      "choices_en": [
+        "Brain loops incomplete patterns",
+        "We secretly like the song",
+        "Songs are designed to stick",
+        "Hearing triggers replay"
+      ],
+      "choices_zh": [
+        "大脑循环未完成模式",
+        "我们暗自喜欢这首歌。",
+        "歌曲旨在深入人心",
+        "听觉触发回放"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Earworms often happen with songs we haven't finished or fully processed. Your brain keeps 'playing' it trying to complete the pattern. Simple, repetitive melodies are most likely to stick because they're easy to partially remember!",
+        "Wrong. Earworms happen with songs we dislike too. It's about how our brain processes incomplete musical patterns.",
+        "Wrong. While catchiness helps, earworms are more about our brain's pattern-completion tendency than song design.",
+        "Wrong. Just hearing a song doesn't guarantee an earworm. The brain's attempt to complete patterns causes them."
+      ],
+      "explanations_zh": [
+        "没错！耳虫现象常出现在我们未听完或未完全消化的歌曲中。大脑会持续“播放”它，试图完成这个模式。简单、重复的旋律最容易卡在脑海里，因为它们容易被部分记住！",
+        "错误。耳虫现象也会发生在我们不喜欢的歌曲上。这与大脑如何处理未完成的音乐模式有关。",
+        "错误。虽然朗朗上口有助于传播，但耳虫现象更多源于大脑的完形填空倾向，而非歌曲设计本身。",
+        "不对。仅仅听一首歌并不能保证会产生耳虫现象。大脑试图完成模式的行为才是其成因。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:26:10.595890+00:00",
+      "last_modified_at": "2025-11-21T04:26:10.595890+00:00",
+      "id": "music_008"
+    }
+  ]
+}
