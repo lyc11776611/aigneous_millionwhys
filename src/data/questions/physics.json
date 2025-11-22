@@ -3,10 +3,8 @@
   "category_zh": "日常物理",
   "questions": [
     {
-      "id": "phys_001",
       "question_en": "Why does ice float on water?",
-      "question_zh": "为什么冰会浮在水面上？",
-
+      "question_zh": "为什么冰块能浮在水面上？",
       "choices_en": [
         "Ice is filled with air bubbles",
         "Ice is less dense than water",
@@ -14,10 +12,10 @@
         "Cold pushes things upward"
       ],
       "choices_zh": [
-        "冰里充满气泡",
+        "冰块里全是气泡",
         "冰的密度比水小",
-        "表面张力托住它",
-        "寒冷推东西向上"
+        "水的表面张力托住了它",
+        "寒冷会把东西往上推"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. Temperature doesn't create an upward force. Ice floats because when water freezes into a crystal structure, it becomes less dense than liquid water."
       ],
       "explanations_zh": [
-        "错误。虽然冰可以困住一些气泡，但这不是它漂浮的原因。没有气泡的纯冰仍然会浮起，因为其分子结构使它比水的密度小。",
-        "正确！冰的密度比液态水小，这很不寻常。当水结冰时，分子排列成晶体结构，彼此间隔更大。这使冰的密度比水低约9%。所以冰会浮起来！这一特性对水生生物至关重要，因为结冰的湖泊底部保持液态。",
-        "错误。表面张力可以托住非常轻的物体，但冰漂浮是由于其密度较低，而非表面张力。即使是大型冰山也会漂浮。",
-        "错误。温度不会产生向上的力。冰漂浮是因为水冻结成晶体结构时，密度变得比液态水小。"
+        "错啦！冰块里确实可能有气泡，但这可不是它浮起来的原因。就算没有气泡的纯冰块也能浮起来，因为它的分子结构让它比水轻。",
+        "对啦！冰的密度比液态水小，这可不常见哦。水结冰时，分子会排成晶体结构，中间空隙变大，让冰的密度比水小约9%。所以冰就浮起来啦！这个特性对水生生物很重要，因为湖面结冰后下面还是液态水。",
+        "不对哦。表面张力能托住很轻的东西，但冰块浮起来是因为密度更小，不是表面张力。就连大冰山也能浮着呢！",
+        "错啦！温度可不会产生向上的推力。冰块能浮起来，是因为水结冰变成晶体结构后，密度比液态水小。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_001"
     },
     {
-      "id": "phys_002",
       "question_en": "Why do microwaves heat food?",
-      "question_zh": "为什么微波炉能加热食物？",
-
+      "question_zh": "微波炉为什么能加热食物？",
       "choices_en": [
         "They vibrate water molecules",
         "They create chemical reactions",
@@ -46,10 +45,10 @@
         "They emit infrared heat"
       ],
       "choices_zh": [
-        "振动水分子",
-        "产生化学反应",
-        "压缩食物周围空气",
-        "发出红外热量"
+        "它让水分子快速振动",
+        "它引发化学反应",
+        "它压缩食物周围的空气",
+        "它发出红外线热量"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -59,18 +58,19 @@
         "Wrong. Microwaves and infrared are different types of electromagnetic radiation. Microwaves work by causing water molecules to vibrate, not by emitting infrared heat."
       ],
       "explanations_zh": [
-        "正确！微波是一种电磁波，能使水分子快速振动。食物含有大量水分。当水分子每秒来回旋转数十亿次时，这种摩擦产生热量。这就是为什么含水多的食物加热更快，空盘子却保持冷却！",
-        "错误。微波不会引起食物中的化学反应。它们只是使水分子振动，通过摩擦产生热量。烹饪可能导致化学变化，但那是热量造成的，不是微波直接作用。",
-        "错误。微波不是通过压缩空气工作的。它们穿透食物，直接使内部水分子振动并产生热量。",
-        "错误。微波和红外线是不同类型的电磁辐射。微波通过使水分子振动起作用，而不是发出红外热量。"
+        "正确！微波是一种电磁波，能让食物中的水分子高速振动。食物含有大量水分，水分子每秒振动数十亿次，摩擦生热。所以水分多的食物热得快，空盘子还是凉的！",
+        "错误。微波不会直接引发化学反应，它只是通过振动水分子摩擦生热。烹饪中的化学变化是热量导致的，不是微波直接作用。",
+        "错误。微波不是靠压缩空气工作，它能穿透食物，直接让内部水分子振动产生热量。",
+        "错误。微波和红外线是不同类型的电磁辐射。微波通过振动水分子加热，而不是发出红外线热量。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_002"
     },
     {
-      "id": "phys_003",
       "question_en": "Why does a ball bounce?",
       "question_zh": "为什么球会弹起来？",
-
       "choices_en": [
         "Air inside pushes it back up",
         "Stored energy from compression",
@@ -78,9 +78,9 @@
         "Gravity reverses briefly"
       ],
       "choices_zh": [
-        "内部空气推回去",
-        "压缩储存的能量",
-        "地面排斥球",
+        "球内空气把它推回去",
+        "压缩时储存的能量释放",
+        "地面排斥球体",
         "重力短暂反转"
       ],
       "correct_answer": 1,
@@ -91,18 +91,19 @@
         "Wrong. Gravity never reverses - it always pulls downward. The ball bounces up due to elastic energy released when the compressed ball springs back to its original shape."
       ],
       "explanations_zh": [
-        "错误。虽然球内气压有助于保持其形状，但弹跳是因为球的材料压缩并释放弹性能量，而不仅仅是气压作用。",
-        "正确！球撞击地面时会被压缩并储存弹性能量，就像弹簧一样。这种储存的能量推动球恢复原形，使其向上弹起。部分能量以热量和声音形式损失，所以每次弹跳都更低。橡胶等材料储能更多，弹性更好！",
-        "错误。地面不会排斥球。弹跳来自球在撞击时压缩储存的弹性能量，然后在恢复原形时释放。",
-        "错误。重力永远不会反转——它总是向下拉。球向上弹起是因为压缩的球弹回原形时释放的弹性能量。"
+        "错误。虽然球内气压帮助维持形状，但弹跳是因球体材料压缩释放弹性势能，不只是气压作用。",
+        "正确！球落地时压缩储存弹性势能，像弹簧一样。储存的能量让球恢复原状并弹起，部分能量以热和声形式流失，所以每次弹跳变低。橡胶等材料储能更多，弹得更高！",
+        "错误。地面不会排斥球，弹跳来自球撞击压缩时储存的弹性势能，在恢复形状时释放。",
+        "错误。重力从不反转——它始终向下拉。球弹起是因压缩球恢复原状时释放的弹性势能。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_003"
     },
     {
-      "id": "phys_004",
       "question_en": "Why do mirrors reverse left and right?",
-      "question_zh": "为什么镜子左右颠倒？",
-
+      "question_zh": "为什么镜子会左右颠倒？",
       "choices_en": [
         "Mirrors flip the light horizontally",
         "Your brain interprets it that way",
@@ -110,10 +111,10 @@
         "Glass bends light sideways"
       ],
       "choices_zh": [
-        "镜子水平翻转光",
+        "镜子水平翻转光线",
         "大脑这样解读",
-        "镜子前后反射",
-        "玻璃横向折光"
+        "镜子前后翻转",
+        "玻璃使光线侧向弯曲"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -123,18 +124,19 @@
         "Wrong. Glass doesn't bend light sideways in a flat mirror. Mirrors reflect light at equal angles. The reversal is front-to-back, not left-right or due to bending."
       ],
       "explanations_zh": [
-        "错误。镜子不会水平翻转光线。它们以相同角度直接反射光。表面上的左右颠倒实际上是前后翻转。",
-        "错误。虽然大脑确实会解读反射，但镜子实际上是前后颠倒，而非左右颠倒。你觉得是左右颠倒，是因为想象自己转身了。",
-        "正确！镜子不是左右颠倒——而是前后颠倒！当你面对镜子时，你的前面变成了镜子的后面。如果你举起右手，镜中的人从他们的角度看也举起了右手。我们认为是颠倒的，是因为想象自己转身与镜像面向同一方向。",
-        "错误。平面镜中的玻璃不会横向折射光。镜子以相等角度反射光。颠倒是前后的，不是左右的，也不是由折射造成的。"
+        "错误。镜子不会水平翻转光线，而是以相同角度直接反射光线。看似左右颠倒其实是前后翻转。",
+        "错误。虽然大脑会解读反射，但镜子实际是前后翻转，而非左右颠倒。我们觉得左右颠倒是因为想象自己转身了。",
+        "正确！镜子不会左右颠倒——它们会前后翻转！当你面对镜子时，你的前面变成了镜子的后面。如果你举起右手，镜中人也会举起他们的右手（从他们的视角）。我们觉得颠倒是因为想象转身和反射面朝同一方向。",
+        "错误。平面镜中玻璃不会侧向弯曲光线。镜子以相等角度反射光线。颠倒现象是前后翻转造成的，与左右颠倒或光线弯曲无关。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_004"
     },
     {
-      "id": "phys_005",
       "question_en": "Why does sound travel faster in water?",
-      "question_zh": "为什么声音在水中传播更快？",
-
+      "question_zh": "为什么声音在水中传播得更快？",
       "choices_en": [
         "Water molecules are closer together",
         "Water amplifies sound waves",
@@ -142,10 +144,10 @@
         "Water conducts electricity"
       ],
       "choices_zh": [
-        "水分子更紧密",
-        "水放大声波",
-        "压力推动更快",
-        "水导电"
+        "水分子排列更紧密",
+        "水能放大声波",
+        "压力推动声音加速",
+        "水能导电"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -155,18 +157,19 @@
         "Wrong. Electrical conductivity is unrelated to sound speed. Sound is a mechanical wave that travels through matter by molecular vibrations, not electrical signals."
       ],
       "explanations_zh": [
-        "正确！声音通过分子相互碰撞传播。水分子比空气分子紧密得多——水的密度约是空气的800倍。当分子更接近时，它们传递振动更快。声音在空气中速度为343米/秒，在水中为1480米/秒——快4倍多！",
-        "错误。水不会放大声波。声音在水中传播更快是因为分子更紧密，振动可以更快地从一个分子传递到下一个。",
-        "错误。虽然水中存在压力，但这不是声音传播更快的原因。关键是分子间距——水分子比空气分子更接近，允许更快的振动传递。",
-        "错误。电导率与声速无关。声音是机械波，通过物质的分子振动传播，而非电信号。"
+        "正确！声音通过分子碰撞传播。水分子比空气分子紧密得多——水密度约是空气的800倍。分子越紧密，振动传递越快。声音在空气中速度为343米/秒，在水中达1480米/秒——快4倍多！",
+        "错误。水不会放大声波。声音在水中更快是因分子更紧密，让振动能更快在分子间传递。",
+        "错误。水中虽有压力，但这不是主因。关键在于分子间距——水分子比空气分子更近，使振动传递更快。",
+        "错误。导电性与声速无关。声音是机械波，靠分子振动在物质中传播，而非电信号。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_005"
     },
     {
-      "id": "phys_006",
       "question_en": "Why do ice cubes crack in warm water?",
-      "question_zh": "为什么冰块在温水中会裂开？",
-
+      "question_zh": "冰块在温水里为什么会噼啪作响？",
       "choices_en": [
         "Thermal shock from rapid expansion",
         "Water dissolves the ice surface",
@@ -174,10 +177,10 @@
         "Chemical reaction breaks bonds"
       ],
       "choices_zh": [
-        "快速膨胀的热冲击",
-        "水溶解冰表面",
+        "热胀冷缩导致内外应力不均",
+        "水溶解了冰块表面",
         "气泡猛烈逃逸",
-        "化学反应破坏键"
+        "化学反应破坏分子键"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -187,18 +190,19 @@
         "Wrong. No chemical reaction occurs - it's purely physical. The cracking is from thermal stress when different parts of the ice expand at different rates due to temperature differences."
       ],
       "explanations_zh": [
-        "正确！这叫做热冲击。冰块外部迅速加热膨胀，而内部仍保持冷缩状态。这在层与层之间产生应力。就像玻璃杯遇热水，冰块无法承受不均匀膨胀而开裂！水越热，裂声越响。",
-        "错误。水不会通过分解来溶解冰。冰块开裂是热冲击造成的——外部因热而膨胀，内部保持冷缩，产生内应力。",
-        "错误。虽然冰可能含有微小气泡，但它们不会造成裂声。裂纹来自热应力，因为外层比冻结的核心膨胀更快。",
-        "错误。没有化学反应发生——纯粹是物理现象。开裂是由于温度差异导致冰的不同部分以不同速率膨胀产生的热应力。"
+        "正确！这叫热冲击。冰块外层遇热快速膨胀，内部却保持冰冷收缩，层间产生巨大应力。就像玻璃遇热水，冰块扛不住这种不均匀膨胀就裂开啦！水温越高，响声越清脆。",
+        "错啦。水不会靠溶解让冰块碎裂。冰块开裂是热冲击造成的——外层受热膨胀时，内部还冻得硬邦邦，内部应力让它撑不住。",
+        "不对哦。冰块里确实可能藏着小气泡，但它们不是噼啪声的元凶。裂响来自热应力——外层比冰冻核心膨胀得快，应力爆发。",
+        "错。这里没有化学反应，纯属物理现象。开裂是因为冰块各部分受温度影响，膨胀速度不同，热应力在作怪。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_006"
     },
     {
-      "id": "phys_007",
       "question_en": "Why do ships float but stones sink?",
-      "question_zh": "为什么船能浮而石头下沉？",
-
+      "question_zh": "为什么轮船能浮在水面，而石头却会沉底？",
       "choices_en": [
         "Ships are made of lighter materials",
         "Water pressure lifts ships up",
@@ -206,10 +210,10 @@
         "Engines keep ships afloat"
       ],
       "choices_zh": [
-        "船用更轻材料制成",
-        "水压将船托起",
-        "船排开更多水",
-        "发动机保持漂浮"
+        "轮船是用更轻的材料造的",
+        "水的压力把轮船托起来",
+        "轮船排开的水更多",
+        "发动机让轮船保持漂浮"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -219,18 +223,19 @@
         "Wrong. Engines power the ship but don't make it float. Even without engines, a properly shaped hull floats by displacing water equal to its weight."
       ],
       "explanations_zh": [
-        "错误。船通常由钢铁制成，比石头密度更大！材料不重要——关键是形状。空心的船排开的水比自身重量多，产生足够的浮力。",
-        "错误。水压在各个方向上均等作用。船漂浮是因为浮力——它们排开的水的重量超过船本身。",
-        "正确！这是阿基米德原理！船的空心形状让它排开巨大体积的水。如果排开的水重于船，它就会漂浮。石头是实心紧密的——无法排开足够的水来等于其重量，所以下沉。这就是为什么钢船能浮而钢球会沉！",
-        "错误。发动机为船提供动力但不使其漂浮。即使没有发动机，形状合适的船体也能通过排开等于其重量的水而漂浮。"
+        "错啦！轮船常用钢铁制造，比石头还重呢！关键在于形状——空心的轮船排开的水比自身重，产生足够的浮力来漂浮。",
+        "不对哦！水的压力四面八方都一样。轮船能浮起来是因为浮力——它排开的水重量超过了船本身。",
+        "正确！这就是阿基米德原理！轮船的空心结构让它排开大量水。如果排开的水比船重，它就浮起来。石头是实心的，排开的水不够重，所以沉下去。这就是为什么钢铁船能浮，而钢铁球会沉！",
+        "错啦！发动机驱动轮船前进，但不让它漂浮。即使没发动机，合适的船体也能靠排开与自身等重的水来漂浮。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_007"
     },
     {
-      "id": "phys_008",
       "question_en": "Why does a compass always point north?",
       "question_zh": "为什么指南针总是指向北方？",
-
       "choices_en": [
         "Earth's magnetic field attracts it",
         "Stars pull the needle northward",
@@ -238,10 +243,10 @@
         "Cold air magnetizes the needle"
       ],
       "choices_zh": [
-        "地球磁场吸引它",
-        "星星拉针向北",
-        "两极引力更强",
-        "冷空气磁化针"
+        "地球磁场吸引指针",
+        "星星把指针拉向北方",
+        "两极重力更强",
+        "冷空气磁化指针"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -251,18 +256,19 @@
         "Wrong. Temperature doesn't magnetize the needle or affect its direction. The needle is already magnetized and responds to Earth's magnetic field, which exists regardless of air temperature."
       ],
       "explanations_zh": [
-        "正确！地球就像一个巨大的磁铁，磁场从南向北延伸。指南针的针是一个可以自由旋转的小磁铁。它与地球磁场线对齐，一端指向磁北极。有趣的是，地球的磁北极靠近地理北极，但并不完全相同！",
-        "错误。星星不会对指南针施加磁力。针与地球磁场对齐，磁场由地核外层流动的熔融铁产生。",
-        "错误。重力向下拉，在地球表面各处大致相等。指南针工作靠的是磁性，而非重力。针与地球磁场对齐。",
-        "错误。温度不会磁化针或影响其方向。针已经被磁化，响应地球磁场，磁场的存在与气温无关。"
+        "正确！地球像个大磁铁，磁场从南到北。指南针指针是小磁铁，能自由转动，它会顺着地球磁场线对齐，一端指向磁北极。有趣的是，地球磁北极靠近地理北极，但不完全重合！",
+        "错误。星星不会对指南针施加磁力。指针对齐的是地球磁场，它由地球外核熔融铁流动产生。",
+        "错误。重力向下拉，地球表面各处大致相等。指南针靠磁性工作，不是重力。指针对齐的是地球磁场。",
+        "错误。温度不会磁化指针或影响方向。指针本身已磁化，响应地球磁场，这与空气温度无关。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_008"
     },
     {
-      "id": "phys_009",
       "question_en": "Why do we see lightning before thunder?",
-      "question_zh": "为什么先看到闪电后听到雷声？",
-
+      "question_zh": "为什么我们总是先看到闪电，后听到雷声？",
       "choices_en": [
         "Light travels faster than sound",
         "Eyes react quicker than ears",
@@ -270,10 +276,10 @@
         "Sound gets absorbed by clouds"
       ],
       "choices_zh": [
-        "光速比声速快",
-        "眼睛反应更快",
-        "闪电先发生",
-        "声音被云吸收"
+        "光速比声速快得多",
+        "眼睛反应比耳朵快",
+        "闪电先于雷声发生",
+        "云层吸收了雷声"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -283,18 +289,19 @@
         "Wrong. While clouds can slightly muffle sound, that's not why you hear thunder later. Sound travels much slower than light - that's the real reason for the delay."
       ],
       "explanations_zh": [
-        "正确！光速为每秒30万公里，而声音在空气中仅每秒343米——光速几乎是声速的一百万倍！闪电和雷声同时发生，但光几乎立即到达你的眼睛，而声音需要时间。数闪光和雷声之间的秒数，除以3——大约就是闪电击中的公里数！",
-        "错误。你的感官反应速度相似。延迟是因为光的传播速度比声音快得多——大约快一百万倍！它们都从闪电处同时开始。",
-        "错误。闪电和雷声同时发生。闪电通过快速加热空气产生雷声。你先看到光是因为它比声音传播快得多。",
-        "错误。虽然云层可以稍微削弱声音，但这不是你后听到雷声的原因。声音比光传播慢得多——这才是延迟的真正原因。"
+        "正确！光速高达每秒30万公里，而声音在空气中仅每秒343米——光速比声速快近百万倍！闪电和雷声同时产生，但光瞬间抵达眼睛，声音却需要时间传播。数数闪电和雷声间隔的秒数，除以3，就能估算出闪电离你大约多少公里远！",
+        "错啦！眼睛和耳朵的反应速度差不多。延迟的真正原因是光速远快于声速——约快一百万倍！它们都是从闪电发生的同一瞬间开始的。",
+        "不对哦。闪电和雷声是同时发生的——闪电通过瞬间加热空气产生雷声。你先看到光是因为光传播得比声音快得多。",
+        "这个说法不准确。云层虽然能稍微减弱声音，但这不是雷声延迟的主要原因。真正的原因是声速比光速慢得多，所以才会有时间差。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_009"
     },
     {
-      "id": "phys_010",
       "question_en": "Why does a spinning coin eventually fall?",
       "question_zh": "为什么旋转的硬币最终会倒下？",
-
       "choices_en": [
         "Air resistance slows it down",
         "Friction removes rotational energy",
@@ -302,10 +309,10 @@
         "Weight increases when spinning"
       ],
       "choices_zh": [
-        "空气阻力减速",
-        "摩擦消耗转动能量",
-        "磁力拉倒它",
-        "旋转时变重"
+        "空气阻力让它变慢",
+        "摩擦力消耗了旋转能量",
+        "磁力把它往下拉",
+        "旋转时重量增加了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -315,18 +322,19 @@
         "Wrong. Weight doesn't change when spinning. The coin falls because friction gradually removes its angular momentum. With less spin, it can't maintain the gyroscopic effect that keeps it balanced."
       ],
       "explanations_zh": [
-        "错误。空气阻力有小影响，但硬币与表面之间的摩擦力是主要原因。随着摩擦消耗转动能量，硬币转得更慢，摇晃更多，最终倒下。",
-        "正确！旋转的硬币由于角动量保持直立——就像陀螺仪。但硬币边缘与表面之间的摩擦逐渐消耗这种转动能量。当它转得更慢时，无法保持平衡并开始摇晃。最终，没有足够的旋转来保持直立，重力获胜——硬币平倒！",
-        "错误。磁力不影响大多数硬币的旋转。硬币倒下是因为摩擦消耗其转动能量，导致减速并失去保持直立的陀螺稳定性。",
-        "错误。旋转时重量不变。硬币倒下是因为摩擦逐渐消耗其角动量。旋转减少后，无法保持使其平衡的陀螺效应。"
+        "错误。空气阻力影响很小，主要是硬币与表面的摩擦力作祟。摩擦力偷走旋转能量，硬币越转越慢，摇晃加剧，最终倒下。",
+        "正确！旋转硬币能立住靠的是角动量——就像陀螺仪。但硬币边缘与表面的摩擦力会逐渐消耗旋转能量。转得越慢，它就越难保持平衡，开始摇晃。最终旋转不足以支撑站立，重力获胜——硬币啪嗒倒下！",
+        "错误。磁力对大多数硬币的旋转没影响。硬币倒下是因为摩擦力消耗了旋转能量，导致它失去陀螺仪般的稳定平衡。",
+        "错误。旋转时重量不会变。硬币倒下是因为摩擦力逐渐消耗了角动量。旋转减弱，就无法维持保持平衡的陀螺效应。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_010"
     },
     {
-      "id": "phys_011",
       "question_en": "Why do magnets attract iron?",
       "question_zh": "为什么磁铁能吸引铁？",
-
       "choices_en": [
         "Iron contains natural magnetism",
         "Magnets align iron's domains",
@@ -334,10 +342,10 @@
         "Gravity is stronger in metals"
       ],
       "choices_zh": [
-        "铁含有天然磁性",
-        "磁铁排列铁的磁畴",
-        "静电拉它们",
-        "金属中引力更强"
+        "铁本身就有天然磁性",
+        "磁铁让铁的内部磁畴对齐",
+        "静电把它们拉在一起",
+        "金属中的重力更强"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -347,18 +355,19 @@
         "Wrong. Gravity affects all matter equally and is far weaker than magnetism. Magnets attract iron through magnetic force by aligning iron's internal magnetic domains."
       ],
       "explanations_zh": [
-        "错误。铁在暴露于磁铁前不是天然磁性的。铁包含磁畴，通常指向随机方向，相互抵消。",
-        "正确！铁包含数百万个称为磁畴的微小磁性区域。通常它们随机指向并相互抵消。当磁铁靠近时，它将这些磁畴排列在同一方向，暂时磁化铁。排列的磁畴产生吸引磁铁的磁极。移走磁铁后，磁畴可能保持排列（使铁具有磁性）或再次随机化！",
-        "错误。磁性和静电是不同的力。磁铁通过磁场排列铁中的磁畴工作，而非通过电荷。",
-        "错误。重力对所有物质的作用相同，且比磁力弱得多。磁铁通过磁力排列铁的内部磁畴来吸引铁。"
+        "错误。铁本身没有天然磁性，除非暴露在磁铁下。铁含有磁畴，通常指向随机方向，相互抵消。",
+        "正确！铁含有数百万个微小磁畴。通常它们随机指向并相互抵消。当磁铁靠近时，它会将这些磁畴对齐到同一方向，暂时磁化铁。对齐的磁畴产生磁极，吸引磁铁。移开磁铁后，磁畴可能保持对齐（使铁有磁性）或再次随机化！",
+        "错误。磁力和静电是不同的力。磁铁通过磁场对齐铁中的磁畴起作用，而不是通过电荷。",
+        "错误。重力对所有物质影响相同，且远弱于磁力。磁铁通过磁力对齐铁的内部磁畴来吸引铁。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_011"
     },
     {
-      "id": "phys_012",
       "question_en": "Why does hot air rise?",
-      "question_zh": "为什么热空气会上升？",
-
+      "question_zh": "为什么热空气会往上升呢？",
       "choices_en": [
         "Heat makes air lighter",
         "Hot air is less dense",
@@ -366,10 +375,10 @@
         "Steam carries air molecules up"
       ],
       "choices_zh": [
-        "热使空气更轻",
+        "热量让空气变轻了",
         "热空气密度更小",
-        "压力推它向上",
-        "蒸汽带空气向上"
+        "压力把它往上推",
+        "水蒸气带着空气分子上升"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -379,18 +388,19 @@
         "Wrong. Steam is water vapor, not related to why hot air rises. Hot air rises due to lower density - heated air molecules spread out, making it lighter than the denser cold air below."
       ],
       "explanations_zh": [
-        "错误。热不会改变空气的重量。当空气加热时，分子运动更快并分散开，使空气密度降低。密度较低的空气漂浮在密度较大的冷空气之上。",
-        "正确！当空气加热时，分子运动更快并分散开，占据更多空间。这使热空气密度比冷空气小。由于密度大的流体下沉、密度小的流体上升（就像水上的油），热空气通过更冷、更密的空气向上漂浮。这种对流产生风、使热气球飞行、并在家中循环热量！",
-        "错误。压力差是密度变化的结果，它们不会导致热空气上升。热空气上升是因为它比周围较冷的空气密度小。",
-        "错误。蒸汽是水蒸气，与热空气上升无关。热空气上升是由于密度较低——加热的空气分子分散开，比下方密度更大的冷空气更轻。"
+        "错啦！热量不会改变空气的重量。空气受热时，分子运动加快、间距变大，导致密度变小。密度小的热空气就会浮在密度大的冷空气上面。",
+        "答对啦！空气加热后分子运动加速、间距拉大，占据更多空间，所以热空气密度比冷空气小。就像油浮在水上一样，密度小的流体会上升——热空气就这样穿过更密实的冷空气向上飘啦！这就是对流现象，它制造风、让热气球飞起来，还帮你家循环暖气呢！",
+        "不对哦。压力差是密度变化的结果，不是热空气上升的原因。热空气上升纯粹是因为它比周围冷空气密度小。",
+        "错啦。水蒸气和热空气上升没关系。热空气上升是由于密度更低——受热的空气分子扩散开来，比下面密度大的冷空气更轻，所以往上飘。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_012"
     },
     {
-      "id": "phys_013",
       "question_en": "Why is the ocean blue?",
-      "question_zh": "为什么海洋是蓝色的？",
-
+      "question_zh": "为什么大海是蓝色的？",
       "choices_en": [
         "Reflects the blue sky",
         "Water absorbs red light",
@@ -398,10 +408,10 @@
         "Blue algae color the water"
       ],
       "choices_zh": [
-        "反射蓝色天空",
-        "水吸收红光",
-        "盐使水变蓝",
-        "蓝藻给水染色"
+        "反射了蓝天的颜色",
+        "水吸收了红色光",
+        "盐让水变蓝",
+        "蓝藻染蓝了海水"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -411,18 +421,19 @@
         "Wrong. While algae can tint water green or brown, the ocean's blue color comes from water itself. Water absorbs red light and scatters blue light, making deep water appear blue."
       ],
       "explanations_zh": [
-        "错误。虽然天空可以影响表面外观，但纯水本身就是蓝色的。水分子优先吸收红、橙、黄光，而蓝光穿过并散射回我们的眼睛。",
-        "正确！水分子以不同速率吸收不同颜色的光。红、橙、黄光比蓝光吸收得更多。在深水中，只有蓝光深入穿透并散射回我们的眼睛。这就是为什么浅水看起来清澈，而深海呈蓝色。同样的性质也使冰和厚水层显蓝色！",
-        "错误。盐不会使海水变蓝——即使纯淡水在足够深时也显蓝色。蓝色来自水吸收红波长同时散射蓝光。",
-        "错误。虽然藻类可以将水染成绿色或棕色，但海洋的蓝色来自水本身。水吸收红光并散射蓝光，使深水呈蓝色。"
+        "错啦！虽然天空会影响海面颜色，但纯净水本身就是蓝色的。水分子会优先吸收红、橙、黄色光，而蓝光则穿透散射回我们眼中。",
+        "答对啦！水分子吸收不同颜色光的速度不同，红、橙、黄光比蓝光更容易被吸收。在深海中，只有蓝光能穿透深处并散射回来，所以浅水清澈而深海湛蓝。冰和厚水层也是这个原理才显蓝哦！",
+        "错啦！盐并不会让海水变蓝——就连纯净的淡水够深时也会显蓝。蓝色来自水吸收红色波长并散射蓝光的特性。",
+        "错啦！虽然藻类能把水染成绿色或褐色，但海洋的蓝色来自水本身。水吸收红光、散射蓝光，才让深海呈现蓝色。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_013"
     },
     {
-      "id": "phys_014",
       "question_en": "Why does glass break?",
-      "question_zh": "为什么玻璃会破碎？",
-
+      "question_zh": "玻璃为什么会碎呢？",
       "choices_en": [
         "Stress exceeds molecular bonds",
         "Air pressure crushes it",
@@ -430,10 +441,10 @@
         "Vibrations shake molecules apart"
       ],
       "choices_zh": [
-        "应力超过分子键",
-        "气压压碎它",
-        "温度融化结构",
-        "振动震散分子"
+        "应力超过了分子键的强度",
+        "空气压力把它压碎了",
+        "温度融化了玻璃结构",
+        "振动把分子震散了"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -443,18 +454,19 @@
         "Wrong. Normal vibrations don't break glass (despite the myth about opera singers!). Glass breaks when mechanical stress from impact, bending, or thermal shock exceeds the strength of its molecular bonds."
       ],
       "explanations_zh": [
-        "正确！玻璃是脆性的，因为其分子被锁定在刚性的非晶体结构中。当力产生应力时（如冲击或弯曲），它集中在微小的表面缺陷处。一旦应力超过分子键的强度，裂纹迅速穿过结构传播。与可弯曲的金属不同，玻璃无法塑性变形——它只会破碎！这就是为什么即使小划痕也会显著削弱玻璃。",
-        "错误。正常气压不会压碎玻璃。玻璃破碎是当施加的力产生的内应力超过其分子间键的强度时。",
-        "错误。玻璃因机械应力而破碎，而非熔化。虽然极端高温可以软化玻璃，但典型的破碎发生在应力克服维持刚性结构的分子键时。",
-        "错误。正常振动不会破碎玻璃（尽管有关歌剧演员的传说！）。玻璃破碎是当来自冲击、弯曲或热冲击的机械应力超过其分子键强度时。"
+        "正确！玻璃很脆，因为它的分子被锁在刚性的非晶结构中。当外力（如撞击或弯曲）产生应力时，应力会集中在微小的表面缺陷处。一旦应力超过分子键的强度，裂纹就会迅速扩展。不像金属可以弯曲，玻璃无法塑性变形——它只会碎！这就是为什么即使小划痕也会显著削弱玻璃。",
+        "错误。正常的空气压力不会压碎玻璃。玻璃碎是因为施加的力产生的内部应力超过了分子间键的强度。",
+        "错误。玻璃碎是由于机械应力，而不是融化。虽然极端高温可以使玻璃软化，但典型的破碎发生在应力克服了维持刚性结构的分子键时。",
+        "错误。正常的振动不会让玻璃碎（尽管有歌剧歌手能震碎玻璃的传说！）。玻璃碎是由于撞击、弯曲或热冲击产生的机械应力超过了其分子键的强度。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_014"
     },
     {
-      "id": "phys_015",
       "question_en": "Why do airplanes fly?",
-      "question_zh": "为什么飞机能飞？",
-
+      "question_zh": "飞机为什么能飞上天？",
       "choices_en": [
         "Engines push them through air",
         "Wings create lift force",
@@ -462,10 +474,10 @@
         "Low pressure sucks them up"
       ],
       "choices_zh": [
-        "发动机推动穿过空气",
+        "引擎推动飞机穿过空气",
         "机翼产生升力",
-        "螺旋桨向上拉",
-        "低压吸它们向上"
+        "螺旋桨向上拉飞机",
+        "低压把飞机吸上去"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -475,18 +487,19 @@
         "Wrong. While pressure differences contribute, it's more accurate to say wings redirect air downward, creating an upward reaction force (Newton's third law). Engines move the plane forward; wings create lift."
       ],
       "explanations_zh": [
-        "错误。发动机提供向前推力，而非向上升力。是机翼通过向下引导空气产生升力，产生向上的反作用力。",
-        "正确！机翼顶部弯曲，底部较平。当飞机向前移动时，空气在弯曲的顶部流动更快（伯努利原理），在上方产生较低压力。更重要的是，机翼的角度使空气向下偏转。根据牛顿第三定律，向下推空气产生相等的向上力——升力！当升力超过重量时，飞机就飞起来了。发动机提供向前速度；机翼产生升力！",
-        "错误。螺旋桨（或喷气发动机）提供向前推力，而非向上升力。机翼通过在飞机向前移动时向下引导空气产生向上升力。",
-        "错误。虽然压力差有贡献，但更准确地说是机翼将空气重定向向下，产生向上的反作用力（牛顿第三定律）。发动机使飞机向前移动；机翼产生升力。"
+        "错误。引擎提供向前的推力，而不是向上的升力。升力是由机翼引导空气向下流动，产生向上的反作用力。",
+        "正确！机翼上表面弯曲，下表面较平。飞机前进时，空气在弯曲上表面流动更快（伯努利原理），导致上方压力降低。更重要的是，机翼角度将空气向下偏转。根据牛顿第三定律，向下推空气会产生相等的向上力——升力！当升力超过重力，飞机就飞起来了。引擎提供前进速度；机翼产生升力！",
+        "错误。螺旋桨（或喷气引擎）提供向前的推力，而不是向上的升力。升力是由机翼在飞机前进时引导空气向下产生的。",
+        "错误。虽然压力差有贡献，但更准确地说，机翼将空气向下引导，产生向上的反作用力（牛顿第三定律）。引擎让飞机前进；机翼创造升力。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_015"
     },
     {
-      "id": "phys_016",
       "question_en": "Why do wheels make things easier to move?",
-      "question_zh": "为什么轮子让移动更容易？",
-
+      "question_zh": "为什么轮子能让东西更容易移动？",
       "choices_en": [
         "Wheels reduce friction",
         "Round shapes roll naturally",
@@ -494,10 +507,10 @@
         "Momentum builds with rotation"
       ],
       "choices_zh": [
-        "轮子减少摩擦",
-        "圆形自然滚动",
-        "重量均匀分布",
-        "旋转积累动量"
+        "轮子大大减小了摩擦力",
+        "圆形天生就会滚动",
+        "重量分布更均匀",
+        "旋转能积累动量"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -507,18 +520,19 @@
         "Wrong. While rotating wheels have angular momentum, that's not why they make movement easier. The main benefit is reducing friction - rolling creates far less resistance than sliding the entire surface."
       ],
       "explanations_zh": [
-        "正确！轮子大幅减少摩擦！当你拖动物体时，整个底面与地面摩擦（滑动摩擦）。有了轮子，任何时刻只有一个微小的点接触地面（滚动摩擦），要小得多。轮子不是滑动，而是滚过障碍物。这意味着你需要少得多的力来移动重物——这就是为什么即使古代文明也发明了轮子用于运输！",
-        "错误。虽然轮子是圆的，但仅此并不能解释为什么它们有帮助。关键是减少摩擦——滚动摩擦比滑动摩擦小得多，因为只有一个小点接触地面。",
-        "错误。重量分布有助于舒适度，但不能解释更容易移动。轮子通过用接触点处低得多的滚动摩擦替代高滑动摩擦来工作。",
-        "错误。虽然旋转的轮子有角动量，但这不是它们使移动更容易的原因。主要好处是减少摩擦——滚动产生的阻力远小于滑动整个表面。"
+        "正确！轮子能显著减小摩擦力！当你拖动物体时，整个底面都与地面摩擦（滑动摩擦）。而轮子只有一小点接触地面（滚动摩擦），摩擦力小得多。轮子还能滚过障碍物，所以移动重物省力多了——这就是为什么古代文明发明轮子来运输！",
+        "错误。虽然轮子是圆的，但这并不是它能省力的关键。关键在于减小摩擦力——因为只有一小点接触地面，滚动摩擦比滑动摩擦小得多。",
+        "错误。重量分布均匀能提升舒适度，但无法解释为什么移动更省力。轮子的原理是用极小的滚动摩擦替代高滑动摩擦。",
+        "错误。虽然旋转的轮子有角动量，但这并不是它让移动更轻松的主要原因。核心好处是减小摩擦力——滚动产生的阻力远小于整个表面滑动。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_016"
     },
     {
-      "id": "phys_017",
       "question_en": "Why does friction create heat?",
       "question_zh": "为什么摩擦会产生热量？",
-
       "choices_en": [
         "Surfaces compress and warm up",
         "Kinetic energy converts to heat",
@@ -526,10 +540,10 @@
         "Molecules chemically react"
       ],
       "choices_zh": [
-        "表面压缩升温",
+        "表面压缩并升温",
         "动能转化为热能",
-        "表面间空气加热",
-        "分子化学反应"
+        "表面间空气受热",
+        "分子发生化学反应"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -539,18 +553,19 @@
         "Wrong. Friction is usually a physical process, not chemical. Heat is generated by converting kinetic energy to thermal energy as surface molecules collide and vibrate faster, not through chemical reactions."
       ],
       "explanations_zh": [
-        "错误。虽然表面可能略微压缩，但这不是主要热源。摩擦通过使分子振动更快，将动能（运动）转化为热能。",
-        "正确！这是能量转换！当表面摩擦时，微小的凸起和脊在分子层面碰撞。这将动能（运动）转化为热能。碰撞使分子振动更快——而振动更快的分子意味着更高的温度！搓你的手——你在将运动转化为热量。这就是为什么刹车变热，为什么摩擦木棍可以生火！",
-        "错误。空气起次要作用。热量来自能量转换——当表面相互滑动时，动能通过分子碰撞转化为热能。",
-        "错误。摩擦通常是物理过程，而非化学过程。热量是通过将动能转化为热能产生的，因为表面分子碰撞并振动更快，而非通过化学反应。"
+        "错误。虽然表面可能轻微压缩，但这不是主要热源。摩擦通过让分子振动更快，将动能（运动）转化为热能。",
+        "正确！这是能量转换！当表面摩擦时，微小凸起在分子层面碰撞，将动能转化为热能。碰撞使分子振动加快——振动越快温度越高！搓搓手，你就在把运动变成热量。这就是刹车变热、摩擦生火的原因！",
+        "错误。空气作用很小。热量来自能量转换——表面相互滑动时，动能通过分子碰撞转化为热能。",
+        "错误。摩擦通常是物理过程，不是化学的。热量是通过表面分子碰撞振动加快，将动能转化为热能产生的，而非化学反应。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_017"
     },
     {
-      "id": "phys_018",
       "question_en": "Why do shadows change size during the day?",
-      "question_zh": "为什么影子一天中大小会变？",
-
+      "question_zh": "为什么影子在一天中会变大变小？",
       "choices_en": [
         "Sun's angle changes with time",
         "Earth rotates and tilts",
@@ -558,10 +573,10 @@
         "Objects expand in heat"
       ],
       "choices_zh": [
-        "太阳角度随时间变",
-        "地球旋转倾斜",
-        "大气折射更多光",
-        "物体受热膨胀"
+        "太阳的角度随时间变化",
+        "地球自转和倾斜",
+        "大气层让光线弯曲更多",
+        "物体在热天膨胀"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -571,12 +586,213 @@
         "Wrong. Objects don't expand enough to noticeably change shadow size. Shadows change because the Sun's position in the sky changes throughout the day, altering the angle at which light hits objects."
       ],
       "explanations_zh": [
-        "正确！随着地球自转，太阳似乎在天空中移动，改变其角度。当太阳位置低时（早晨/傍晚），光线以浅角度照射物体，投下长影子。中午时，太阳高悬头顶，在正下方产生短影子。影子在日出/日落时最长，中午时最短。这就是为什么古人用日晷报时！",
-        "错误。虽然地球自转导致太阳的表观运动，但说'旋转和倾斜'太模糊。直接答案是太阳在天空中的角度全天变化，影响影子长度。",
-        "错误。大气折射对影子长度影响极小。影子改变大小是因为随着地球自转，太阳相对于物体的角度变化，而非光在大气中弯曲。",
-        "错误。物体膨胀不足以明显改变影子大小。影子改变是因为太阳在天空中的位置全天变化，改变光照射物体的角度。"
+        "正确！地球自转让太阳在天空中移动，角度改变。太阳低时（早晚），光线斜射，影子拉长；中午太阳高，影子短小。影子在日出日落时最长，正午最短，古人就用日晷来计时哦！",
+        "错误。虽然地球自转导致太阳看似移动，但说'自转和倾斜'太模糊。直接原因是太阳在天空中的角度变化，影响影子长度。",
+        "错误。大气折射对影子长度影响很小。影子变化是因为地球自转让太阳角度改变，光线照射角度不同，不是大气弯曲光线。",
+        "错误。物体膨胀不足以明显改变影子大小。影子变化是因为太阳位置在一天中变化，光线照射角度不同。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "phys_018"
+    },
+    {
+      "question_en": "Why do spinning tops stay upright?",
+      "question_zh": "为什么旋转的陀螺能保持直立不倒？",
+      "choices_en": [
+        "Centrifugal force pushes outward",
+        "Gyroscopic effect resists tilting",
+        "Air pressure holds them up",
+        "Spinning reduces gravity effect"
+      ],
+      "choices_zh": [
+        "离心力向外推",
+        "陀螺效应抵抗倾斜",
+        "空气压力支撑",
+        "旋转减弱重力影响"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Centrifugal force acts outward but doesn't explain the upright stability.",
+        "Correct! Angular momentum creates gyroscopic stability. A spinning object resists changes to its rotation axis. The faster it spins, the more stable it becomes—that's why tops wobble more as they slow down!",
+        "Wrong. Air pressure plays no significant role in keeping tops upright.",
+        "Wrong. Gravity still acts fully on spinning objects. It's angular momentum that provides stability."
+      ],
+      "explanations_zh": [
+        "错误。离心力确实向外作用，但无法解释直立稳定性。",
+        "正确！角动量产生陀螺稳定性。旋转物体抵抗其旋转轴的变化——转得越快越稳定，所以陀螺变慢时摇晃更明显！",
+        "错误。空气压力在保持陀螺直立中不起重要作用。",
+        "错误。重力对旋转物体依然完全作用，是角动量提供了稳定性。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T05:09:24.113647+00:00",
+      "last_modified_at": "2025-11-21T05:09:24.113647+00:00",
+      "id": "phys_021"
+    },
+    {
+      "question_en": "Why do old books turn yellow?",
+      "question_zh": "为什么旧书会变黄？",
+      "choices_en": [
+        "Dust accumulates over time",
+        "Paper oxidizes with age",
+        "Ink fades and spreads",
+        "Mold grows on pages"
+      ],
+      "choices_zh": [
+        "灰尘长期堆积",
+        "纸张随岁月氧化",
+        "墨水褪色扩散",
+        "霉菌在书页生长"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Dust sits on surfaces but doesn't cause yellowing of the paper itself.",
+        "Correct! Paper contains lignin which oxidizes when exposed to air and light, creating yellow-brown compounds. Acid in cheaper paper accelerates this. That's why archival paper is acid-free!",
+        "Wrong. Ink behavior doesn't cause paper yellowing. The paper itself chemically changes.",
+        "Wrong. Mold causes different damage patterns, not uniform yellowing."
+      ],
+      "explanations_zh": [
+        "错！灰尘只停留在表面，不会让纸张本身变黄。",
+        "对！纸张含有木质素，接触空气和光线会氧化，产生黄褐色化合物。廉价纸中的酸会加速这个过程，所以档案纸是无酸的！",
+        "错！墨水的行为不会导致纸张变黄，是纸张自身发生了化学变化。",
+        "错！霉菌会造成不同的损坏模式，而不是均匀的变黄。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T05:09:39.149117+00:00",
+      "last_modified_at": "2025-11-21T05:09:39.149117+00:00",
+      "id": "phys_022"
+    },
+    {
+      "question_en": "Why does water expand when freezing?",
+      "question_zh": "为什么水结冰时会膨胀？",
+      "choices_en": [
+        "Ice contains trapped air",
+        "Molecules form crystal lattice",
+        "Cold makes molecules grow",
+        "Freezing adds water vapor"
+      ],
+      "choices_zh": [
+        "冰块里含有空气",
+        "分子形成晶体结构",
+        "寒冷让分子变大",
+        "结冰时添加水蒸气"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air bubbles are minimal. The expansion is due to molecular arrangement.",
+        "Correct! Water molecules form a hexagonal crystal structure when freezing, spacing them farther apart than in liquid form. This is why ice floats and pipes can burst in winter—ice is about 9% less dense than water!",
+        "Wrong. Molecules don't change size. They just arrange differently in solid form.",
+        "Wrong. No water is added during freezing. The same molecules just take up more space."
+      ],
+      "explanations_zh": [
+        "错误。空气泡很少，膨胀是分子排列导致的。",
+        "正确！水结冰时分子形成六角晶体结构，间距比液态时大，所以冰会浮起，冬天水管会爆裂——冰的密度比水低约9%！",
+        "错误。分子大小不变，只是固态时排列不同。",
+        "错误。结冰时不添加水，相同分子占据更多空间。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T05:09:54.334447+00:00",
+      "last_modified_at": "2025-11-21T05:09:54.334447+00:00",
+      "id": "phys_023"
+    },
+    {
+      "question_en": "Why do hot air balloons float?",
+      "question_zh": "为什么热气球能飘在空中？",
+      "choices_en": [
+        "Hot air is lighter than cold",
+        "Balloon fabric repels gravity",
+        "Fire pushes balloon upward",
+        "Helium forms from heating"
+      ],
+      "choices_zh": [
+        "热空气比冷空气轻",
+        "气球布料能排斥重力",
+        "火焰直接推动气球上升",
+        "加热空气会产生氦气"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Heating air makes molecules move faster and spread apart, reducing density. The less dense hot air inside the balloon is buoyant in the denser cold air outside—just like a bubble rising in water!",
+        "Wrong. Balloon fabric has no anti-gravity properties. It simply contains the hot air.",
+        "Wrong. Fire heats the air but doesn't directly push the balloon. Buoyancy does the lifting.",
+        "Wrong. Heating air doesn't create helium. Hot air balloons use regular air, just heated."
+      ],
+      "explanations_zh": [
+        "正确！加热空气会让分子运动加快、间距变大，密度降低。气球内密度较小的热空气在外部较密的冷空气中产生浮力——就像水中的气泡往上冒！",
+        "错误。气球布料没有抗重力特性，它只是用来包裹热空气的容器。",
+        "错误。火焰的作用是加热空气，但并非直接推动气球。真正让气球上升的是浮力原理。",
+        "错误。加热普通空气不会生成氦气。热气球使用的是被加热的普通空气，并非特殊气体。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T05:10:10.482608+00:00",
+      "last_modified_at": "2025-11-21T05:10:10.482608+00:00",
+      "id": "phys_024"
+    },
+    {
+      "question_en": "Why do pendulum clocks keep time?",
+      "question_zh": "为什么摆钟能准确计时？",
+      "choices_en": [
+        "Gravity pulls evenly on weights",
+        "Swing time is constant for length",
+        "Gears regulate the motion",
+        "Air resistance slows it down"
+      ],
+      "choices_zh": [
+        "重力均匀拉动重物",
+        "摆长决定恒定摆动时间",
+        "齿轮调节运动",
+        "空气阻力使其变慢"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While gravity powers the clock, it's the pendulum's properties that keep accurate time.",
+        "Correct! A pendulum's period depends only on its length, not the swing size. This isochronism, discovered by Galileo, means each swing takes the same time—perfect for timekeeping!",
+        "Wrong. Gears transfer motion but the pendulum itself is what regulates timing accuracy.",
+        "Wrong. Air resistance actually causes slight inaccuracy. The constant period comes from pendulum physics."
+      ],
+      "explanations_zh": [
+        "错误。虽然重力驱动时钟，但计时准确性来自摆锤的特性。",
+        "正确！摆锤周期只取决于长度，与摆动幅度无关。伽利略发现的这种等时性让每次摆动时间相同，完美用于计时！",
+        "错误。齿轮传递运动，但调节计时精度的核心是摆锤本身。",
+        "错误。空气阻力反而会造成微小误差，恒定周期源于摆锤的物理特性。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T05:12:58.466773+00:00",
+      "last_modified_at": "2025-11-21T05:12:58.466773+00:00",
+      "id": "phys_025"
+    },
+    {
+      "question_en": "Why do bubbles always form spheres?",
+      "question_zh": "为什么泡泡总是圆滚滚的？",
+      "choices_en": [
+        "Surface tension minimizes area",
+        "Air inside pushes equally",
+        "Soap makes round shapes",
+        "Gravity pulls them round"
+      ],
+      "choices_zh": [
+        "表面张力让面积最小化",
+        "内部空气均匀推动",
+        "肥皂天生造圆形",
+        "重力把它们拉圆了"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Surface tension pulls the soap film into the smallest possible shape for a given volume—a sphere. This minimizes surface energy, which is why free-floating bubbles are always round!",
+        "Wrong. While air pressure is equal inside, it's surface tension that creates the spherical shape.",
+        "Wrong. Soap reduces surface tension but doesn't determine the shape. Geometry does that.",
+        "Wrong. Gravity actually distorts bubbles slightly. In zero gravity, bubbles are even more perfectly spherical."
+      ],
+      "explanations_zh": [
+        "正确！表面张力把肥皂膜拉成体积相同时面积最小的形状——圆球。这能降低表面能量，所以自由飘浮的泡泡总是圆的！",
+        "错啦。虽然内部气压均匀，但形成球形靠的是表面张力。",
+        "错啦。肥皂能降低表面张力，但不决定形状。几何原理才是关键。",
+        "错啦。重力其实会让泡泡轻微变形。在失重环境下，泡泡反而更接近完美球形。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T05:13:14.054669+00:00",
+      "last_modified_at": "2025-11-21T05:13:14.054669+00:00",
+      "id": "phys_026"
     }
   ]
 }

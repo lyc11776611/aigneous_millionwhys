@@ -1,0 +1,270 @@
+{
+  "category_en": "Transportation",
+  "category_zh": "交通工具",
+  "questions": [
+    {
+      "question_en": "Why do trains run on tracks?",
+      "question_zh": "火车为什么要在铁轨上行驶？",
+      "choices_en": [
+        "Trains can't steer",
+        "Steel on steel has low friction",
+        "Tracks prevent derailing only",
+        "Roads can't support trains"
+      ],
+      "choices_zh": [
+        "火车不会转向",
+        "钢铁摩擦小效率高",
+        "铁轨只防脱轨",
+        "公路承受不了火车"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Trains don't steer because they don't need to—tracks handle direction. But that's not why tracks exist.",
+        "Correct! Steel wheels on steel rails create very low friction, allowing trains to pull huge loads efficiently. A train can move 100 tons with the same energy a truck uses for 1 ton! Tracks also guide direction.",
+        "Wrong. While tracks do prevent derailing, the main benefit is the extremely low friction of steel on steel.",
+        "Wrong. Roads can support heavy vehicles. Tracks exist for efficiency—steel on steel friction is far lower than rubber on asphalt."
+      ],
+      "explanations_zh": [
+        "错啦！火车不转向是因为铁轨引导方向，但这并非铁轨存在的根本原因。",
+        "对啦！钢铁轮子在钢轨上摩擦极小，让火车能高效拉动巨量货物——用卡车运1吨货的力气，火车能运100吨！铁轨还负责引导方向。",
+        "错啦！铁轨确实防止脱轨，但主要好处是钢铁间的极低摩擦带来的高效率。",
+        "错啦！公路能承受重型车辆。铁轨是为效率而生——钢铁摩擦远低于橡胶与沥青。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:27:02.979490+00:00",
+      "last_modified_at": "2025-11-21T04:27:02.979490+00:00",
+      "id": "transport_001"
+    },
+    {
+      "question_en": "Why do ships have pointed fronts?",
+      "question_zh": "为什么船头是尖尖的？",
+      "choices_en": [
+        "To cut through water easier",
+        "Pointed shapes float better",
+        "For storing anchor chains",
+        "To see ahead more clearly"
+      ],
+      "choices_zh": [
+        "为了轻松劈开水流",
+        "尖头形状浮力更好",
+        "用来存放锚链",
+        "为了看得更清楚前方"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! The pointed bow (front) parts water smoothly, reducing drag. A flat front would push water and create resistance. The shape lets ships move faster with less fuel. Different bow shapes suit different speeds and conditions!",
+        "Wrong. Shape doesn't affect buoyancy—that depends on displacement. The point reduces water resistance.",
+        "Wrong. Anchors could be stored anywhere. The pointed shape is purely for hydrodynamics.",
+        "Wrong. Ship navigation doesn't depend on bow shape. The point is designed to minimize water resistance."
+      ],
+      "explanations_zh": [
+        "正确！尖尖的船头能平滑地分开水流，减少阻力。如果船头是平的，会推开水流产生更大阻力。这种设计让船跑得更快，还省燃料。不同船头形状适合不同速度和条件哦！",
+        "不对。形状不影响浮力，浮力取决于排水量。尖头主要是为了减少水的阻力。",
+        "不对。锚链可以存放在任何地方。尖头设计纯粹是为了流体动力学。",
+        "不对。船的导航不依赖船头形状。尖头是为了最小化水的阻力。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:27:19.715053+00:00",
+      "last_modified_at": "2025-11-21T04:27:19.715053+00:00",
+      "id": "transport_002"
+    },
+    {
+      "question_en": "Why do bicycles stay upright moving?",
+      "question_zh": "为什么自行车骑起来不会倒？",
+      "choices_en": [
+        "Wheels act like gyroscopes",
+        "Weight stays perfectly balanced",
+        "Multiple physics effects combine",
+        "Rider shifts weight constantly"
+      ],
+      "choices_zh": [
+        "车轮像陀螺仪一样旋转",
+        "重量完美平衡",
+        "多种物理效应共同作用",
+        "骑手不断调整重心"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Gyroscopic effect helps but isn't the main factor. Bikes can balance even with non-spinning wheels in tests.",
+        "Wrong. Bikes aren't in perfect balance. They constantly make small corrections to stay upright.",
+        "Correct! Bicycle stability comes from: steering geometry (caster effect), gyroscopic forces, and rider corrections. The front wheel's angle makes the bike self-steer into falls. Even scientists debated this for over a century!",
+        "Wrong. Riders do help, but bikes can balance without riders at certain speeds. Multiple physics effects work together."
+      ],
+      "explanations_zh": [
+        "错啦！陀螺效应有帮助，但不是主因。实验证明，车轮不转时自行车也能保持平衡。",
+        "不对哦。自行车并非完美平衡，它需要不断微调才能保持直立。",
+        "答对啦！自行车稳定靠三大法宝：前叉转向角（像购物车轮的自回正）、陀螺效应，还有骑手的微调。前轮角度能让车自动转向防倒——科学家为这事儿争论了上百年呢！",
+        "不准确。骑手确实能帮忙，但特定速度下无人自行车也能自平衡。关键是多种物理效应在协同作战！"
+      ],
+      "difficulty": "hard",
+      "created_at": "2025-11-21T04:27:36.428409+00:00",
+      "last_modified_at": "2025-11-21T04:27:36.428409+00:00",
+      "id": "transport_003"
+    },
+    {
+      "question_en": "Why do car tires have grooves?",
+      "question_zh": "为什么汽车轮胎上有花纹？",
+      "choices_en": [
+        "To grip dry roads better",
+        "To channel water away",
+        "To make tires lighter",
+        "To absorb road bumps"
+      ],
+      "choices_zh": [
+        "为了在干燥路面抓地力更强",
+        "为了将水排走",
+        "为了让轮胎更轻",
+        "为了吸收路面颠簸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. On dry roads, smooth tires (like racing slicks) actually grip better. Grooves sacrifice some dry grip for wet safety.",
+        "Correct! Grooves channel water away from under the tire, preventing hydroplaning. On wet roads, water can lift the tire and cause loss of control. The patterns are designed to push water out quickly!",
+        "Wrong. Grooves don't significantly reduce weight. Their purpose is water evacuation for wet-road safety.",
+        "Wrong. Suspension absorbs bumps, not tire grooves. Tread patterns are specifically for water management."
+      ],
+      "explanations_zh": [
+        "错误。在干燥路面上，光滑轮胎（如赛车光头胎）抓地力其实更好。花纹牺牲了部分干地抓地力来保障湿滑路面的安全。",
+        "正确！花纹能将轮胎下方的水排走，防止水滑现象。在湿滑路面上，积水可能抬起轮胎导致失控。这些图案设计就是为了快速排水！",
+        "错误。花纹并不会显著减轻重量。它们的主要作用是在湿滑路面上排水以保障安全。",
+        "错误。减震系统负责吸收颠簸，而不是轮胎花纹。胎面图案是专门为排水设计的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:27:54.225737+00:00",
+      "last_modified_at": "2025-11-21T04:27:54.225737+00:00",
+      "id": "transport_004"
+    },
+    {
+      "question_en": "Why do submarines sink and rise?",
+      "question_zh": "为什么潜艇能沉下去又浮上来？",
+      "choices_en": [
+        "Ballast tanks fill or empty",
+        "Propellers push down or up",
+        "Hull shape changes underwater",
+        "Water pressure controls depth"
+      ],
+      "choices_zh": [
+        "压载水舱注水或排水",
+        "螺旋桨向下或向上推",
+        "船体在水下改变形状",
+        "水压控制深度"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Submarines have special tanks that fill with water to sink (heavier than surrounding water) or fill with air to rise (lighter). This changes buoyancy without changing the submarine's shape or size!",
+        "Wrong. Propellers provide forward thrust. Depth is controlled by buoyancy through ballast tanks.",
+        "Wrong. Submarine hulls are rigid and don't change shape. Buoyancy is controlled by ballast tanks.",
+        "Wrong. Water pressure doesn't control the submarine. The crew controls ballast tanks to change buoyancy."
+      ],
+      "explanations_zh": [
+        "正确！潜艇有特殊水舱，注水时变重下沉，充气时变轻上浮。这改变浮力，不改变船体形状！",
+        "错误。螺旋桨提供前进推力，深度由压载水舱控制浮力调节。",
+        "错误。潜艇船体是固定的，不改变形状。浮力由压载水舱控制。",
+        "错误。水压不控制潜艇，船员通过压载水舱改变浮力来控制深度。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:28:10.306575+00:00",
+      "last_modified_at": "2025-11-21T04:28:10.306575+00:00",
+      "id": "transport_005"
+    },
+    {
+      "question_en": "Why do helicopters have top rotors?",
+      "question_zh": "为什么直升机的顶部有旋翼？",
+      "choices_en": [
+        "To blow air downward",
+        "Top is the strongest point",
+        "Spinning blades create lift",
+        "To balance the weight below"
+      ],
+      "choices_zh": [
+        "向下吹空气",
+        "顶部是最坚固的地方",
+        "旋转叶片产生升力",
+        "平衡下方重量"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. While rotors do push air down, that's the result not the purpose. The rotor creates lift through aerodynamics.",
+        "Wrong. Rotor position isn't about structural strength. It's about creating lift above the aircraft.",
+        "Correct! Helicopter rotor blades are shaped like airplane wings. As they spin, they create lift by pushing air down. Tilting the rotor lets helicopters move in any direction—they're like flying fans that can change angle!",
+        "Wrong. Balance is important, but the rotor's position is about generating lift directly above the center of gravity."
+      ],
+      "explanations_zh": [
+        "错误。旋翼确实向下推空气，但这是结果而非目的。旋翼通过空气动力学产生升力。",
+        "错误。旋翼位置与结构强度无关，而是为了在飞机上方产生升力。",
+        "正确！直升机旋翼叶片形状像飞机机翼。旋转时，它们通过向下推空气产生升力。倾斜旋翼让直升机能向任何方向移动——就像能改变角度的飞行风扇！",
+        "错误。平衡很重要，但旋翼位置是为了直接在重心上方产生升力。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:28:25.438605+00:00",
+      "last_modified_at": "2025-11-21T04:28:25.438605+00:00",
+      "id": "transport_006"
+    },
+    {
+      "question_en": "Why do rockets need so much fuel?",
+      "question_zh": "为什么火箭需要那么多燃料？",
+      "choices_en": [
+        "Space is very far away",
+        "Must carry own oxygen and mass",
+        "Fuel burns inefficiently",
+        "Engines are very heavy"
+      ],
+      "choices_zh": [
+        "太空太遥远了",
+        "必须自带氧气和燃料",
+        "燃料燃烧效率低",
+        "发动机太重了"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Distance matters, but the real challenge is that rockets must carry everything they need, including oxygen.",
+        "Correct! Unlike planes that use atmospheric oxygen, rockets must carry their own oxidizer. Plus, each bit of fuel needs more fuel to lift it! This 'tyranny of the rocket equation' means most of a rocket's weight is fuel.",
+        "Wrong. Rocket engines are actually quite efficient. The challenge is the fundamental physics of carrying your own propellant.",
+        "Wrong. Engines are relatively small. The fuel mass dominates because rockets must carry both fuel AND oxygen."
+      ],
+      "explanations_zh": [
+        "错。距离是因素，但真正挑战是火箭必须携带所有必需品，包括氧气。",
+        "正确！不像飞机用大气中的氧气，火箭必须自带氧化剂。而且，每份燃料都需要更多燃料来提升它！这种'火箭方程暴政'导致火箭大部分重量是燃料。",
+        "错。火箭发动机其实很高效。挑战在于携带自身推进剂的基本物理原理。",
+        "错。发动机相对较小。燃料质量占主导，因为火箭必须携带燃料和氧气。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:28:41.624448+00:00",
+      "last_modified_at": "2025-11-21T04:28:41.624448+00:00",
+      "id": "transport_007"
+    },
+    {
+      "question_en": "Why do hot air balloons float?",
+      "question_zh": "为什么热气球能飘在空中？",
+      "choices_en": [
+        "Hot air is lighter than cold",
+        "The balloon pushes air down",
+        "Helium inside provides lift",
+        "Flame creates upward thrust"
+      ],
+      "choices_zh": [
+        "热空气比冷空气轻",
+        "气球向下推空气",
+        "里面的氦气提供升力",
+        "火焰产生向上推力"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Heating air makes molecules move faster and spread apart, reducing density. The hot air inside weighs less than the cold air outside, creating buoyancy. The balloon rises like a bubble in water!",
+        "Wrong. Balloons don't push air for thrust. They float because hot air is less dense than surrounding cold air.",
+        "Wrong. Hot air balloons use heated air, not helium. Gas balloons use helium, but that's a different type.",
+        "Wrong. The flame heats air, it doesn't create thrust. Buoyancy from density difference provides lift."
+      ],
+      "explanations_zh": [
+        "正确！加热空气让分子运动更快、间距变大，密度降低。热空气比外部冷空气轻，产生浮力，气球就像水里的泡泡一样上升！",
+        "错误。气球不是靠推空气获得推力，而是因为热空气比周围冷空气密度小才漂浮。",
+        "错误。热气球用的是加热的空气，不是氦气。氦气球才用氦气，那是另一种类型。",
+        "错误。火焰是加热空气，不产生推力。升力来自密度差造成的浮力。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:28:58.122872+00:00",
+      "last_modified_at": "2025-11-21T04:28:58.122872+00:00",
+      "id": "transport_008"
+    }
+  ]
+}

@@ -3,9 +3,8 @@
   "category_zh": "食物与营养",
   "questions": [
     {
-      "id": "food_001",
       "question_en": "Why does bread turn brown when toasted?",
-      "question_zh": "为什么面包烤后变褐色？",
+      "question_zh": "为什么面包烤过会变棕色？",
       "choices_en": [
         "Sugar caramelizes from heat",
         "Maillard reaction browns it",
@@ -13,10 +12,10 @@
         "Water evaporates showing color"
       ],
       "choices_zh": [
-        "糖焦糖化",
-        "美拉德反应变褐",
-        "燃烧产生碳",
-        "水分蒸发显色"
+        "糖遇热焦糖化",
+        "美拉德反应让它变棕",
+        "碳化燃烧所致",
+        "水分蒸发显出色"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -26,17 +25,19 @@
         "Wrong. While water does evaporate during toasting, this doesn't cause browning. White bread with evaporated water would still be pale. The brown color specifically comes from the Maillard reaction between proteins and sugars creating new brown compounds."
       ],
       "explanations_zh": [
-        "错误。虽然焦糖化可能发生，但它需要比典型烘烤更高的温度（160°C以上）。面包片中的主要褐变来自氨基酸和糖之间的不同反应，而不仅仅是糖。",
-        "正确！美拉德反应是氨基酸（来自蛋白质）和还原糖在加热时的化学反应。这产生数百种风味化合物和称为类黑素的褐色色素。这与使肉类、咖啡豆和烘焙食品变褐色的反应相同。反应在约140°C开始，非常适合烘烤！",
-        "错误。面包片不是在燃烧 - 那会使它变黑并尝起来有烧焦味。褐色来自美拉德反应，这是一个复杂的化学过程，产生新的风味化合物和褐色色素，而不会使面包碳化。",
-        "错误。虽然烘烤时水分确实会蒸发，但这不会导致褐变。蒸发水分的白面包仍然是苍白的。褐色特别来自蛋白质和糖之间的美拉德反应产生新的褐色化合物。"
+        "错误。虽然焦糖化可能发生，但需要高于160°C的温度，比普通烤面包高。面包变棕主要来自氨基酸和糖的不同反应，不只是糖本身。",
+        "正确！美拉德反应是氨基酸（来自蛋白质）和还原糖在加热时的化学反应，产生数百种风味化合物和棕色色素——类黑精。这正是让肉类、咖啡豆和烘焙食品变棕的同一反应，始于约140°C，非常适合烤面包！",
+        "错误。面包没有燃烧——那会变黑并尝起来焦糊。棕色来自美拉德反应，一种复杂的化学过程，在不烧焦面包的情况下创造新风味和棕色色素。",
+        "错误。虽然烤面包时水分会蒸发，但这不会导致变棕。水分蒸发后的白面包仍会苍白。棕色特指蛋白质和糖的美拉德反应产生的新棕色化合物。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_001"
     },
     {
-      "id": "food_002",
       "question_en": "Why do we feel thirsty after salty food?",
-      "question_zh": "为什么吃咸后会口渴？",
+      "question_zh": "为什么吃了咸的东西会口渴？",
       "choices_en": [
         "Salt absorbs water in mouth",
         "Osmosis draws water from cells",
@@ -44,10 +45,10 @@
         "Salt increases metabolism"
       ],
       "choices_zh": [
-        "盐吸收口腔水分",
-        "渗透作用抽出细胞水",
-        "喉咙受刺激",
-        "盐增加代谢"
+        "盐在嘴里吸水了",
+        "渗透作用让细胞失水",
+        "喉咙被刺激了",
+        "盐加速了新陈代谢"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -57,17 +58,19 @@
         "Wrong. Salt doesn't significantly increase metabolism. The thirst response is specifically about maintaining osmotic balance. Your body needs to dilute the excess sodium in your bloodstream to protect cells from losing too much water through osmosis."
       ],
       "explanations_zh": [
-        "错误。盐不像海绵一样吸收水分。口渴感觉更复杂，涉及血液的盐浓度以及细胞如何响应以保持平衡。",
-        "正确！当你吃咸食时，血液中的钠浓度增加。这产生渗透压 - 水从细胞移入血液以稀释盐分。你的下丘脑检测到这种细胞脱水并触发口渴。喝水通过稀释血钠并补充细胞水分来恢复平衡！",
-        "错误。虽然咸食可能会稍微干燥口腔，但喉咙刺激不会引起你感到的深度口渴。口渴来自大脑检测到血液盐浓度变化和细胞脱水，而不是局部喉咙感觉。",
-        "错误。盐不会显著增加代谢。口渴反应特别是关于维持渗透平衡。你的身体需要稀释血液中过多的钠，以保护细胞不因渗透作用失去太多水分。"
+        "错啦！盐可不像海绵那样吸水。口渴的感觉更复杂，它和血液里的盐浓度有关，身体需要维持平衡。",
+        "对啦！吃咸食后，血液里的钠浓度升高，产生渗透压——水分从细胞跑到血液里稀释盐分。下丘脑察觉到细胞脱水，就发出口渴信号。喝水能稀释血液中的钠，让细胞重新喝饱水，恢复平衡！",
+        "错啦！咸食可能让嘴巴有点干，但喉咙刺激不会引起那种深层口渴。口渴是大脑检测到血液盐浓度变化和细胞脱水的结果，不是喉咙的局部感觉。",
+        "错啦！盐不会明显加快新陈代谢。口渴反应是为了维持渗透平衡。身体需要稀释血液中多余的钠，防止细胞因渗透作用流失太多水分。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_002"
     },
     {
-      "id": "food_003",
       "question_en": "Why does spicy food make us sweat?",
-      "question_zh": "为什么辣椒让人出汗？",
+      "question_zh": "为什么吃辣的食物会让我们出汗？",
       "choices_en": [
         "Food raises body temperature",
         "Capsaicin tricks heat receptors",
@@ -75,9 +78,9 @@
         "Blood pressure increases"
       ],
       "choices_zh": [
-        "食物升高体温",
-        "辣椒素欺骗热受体",
-        "代谢加速",
+        "食物会升高体温",
+        "辣椒素欺骗了热感受器",
+        "新陈代谢加快",
         "血压升高"
       ],
       "correct_answer": 1,
@@ -88,17 +91,19 @@
         "Wrong. Though capsaicin can cause a slight cardiovascular response, increased blood pressure doesn't directly cause sweating. The sweating is your body's cooling response to capsaicin fooling your temperature-sensing nerves into signaling heat."
       ],
       "explanations_zh": [
-        "错误。辣食实际上不会显著升高你的核心体温。出汗是因为你的大脑认为你过热了，这是由于化学信号，而不是因为你真的过热了。",
-        "正确！辣椒素是辣椒中的化合物，它与口腔中的TRPV1受体结合。这些受体通常检测实际热量（43°C以上）。当辣椒素激活它们时，你的大脑接收到'灼烧'信号，即使没有真正的热量。你的身体像过热一样反应，触发出汗来降温！",
-        "错误。虽然进食确实会略微增加代谢，但这不是辣食让你出汗的原因。出汗特别是由辣椒素激活热感受器触发的，欺骗你的大脑认为你需要降温。",
-        "错误。虽然辣椒素可能引起轻微的心血管反应，但血压升高不会直接导致出汗。出汗是你的身体对辣椒素欺骗温度感应神经发出热信号的冷却反应。"
+        "错误。辣的食物并不会显著升高你的核心体温。出汗是因为大脑接收到化学信号，误以为你过热了，而不是你真的过热。",
+        "正确！辣椒中的辣椒素会与口腔中的TRPV1受体结合。这些受体通常检测真实热量（超过43°C）。当辣椒素激活它们时，即使没有真实热量，你的大脑也会收到‘灼热’信号。身体误以为过热，触发出汗来降温！",
+        "错误。虽然吃东西会轻微加快新陈代谢，但这并不是辣食物导致出汗的原因。出汗是辣椒素激活热感受器，欺骗大脑以为需要降温。",
+        "错误。尽管辣椒素可能引起轻微心血管反应，但血压升高不会直接导致出汗。出汗是身体对辣椒素欺骗温度感知神经发出热量信号的降温反应。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_003"
     },
     {
-      "id": "food_004",
       "question_en": "Why does coffee keep us awake?",
-      "question_zh": "为什么咖啡提神？",
+      "question_zh": "咖啡为什么能让我们保持清醒？",
       "choices_en": [
         "Sugar provides energy",
         "Caffeine blocks sleep signals",
@@ -108,7 +113,7 @@
       "choices_zh": [
         "糖分提供能量",
         "咖啡因阻断睡眠信号",
-        "温度刺激大脑",
+        "温暖刺激大脑",
         "香气激活神经元"
       ],
       "correct_answer": 1,
@@ -119,17 +124,19 @@
         "Wrong. While coffee's aroma is pleasant and might provide a psychological boost, the actual alertness comes from caffeine chemically blocking adenosine receptors. You'd get the same effect from a caffeine pill with no aroma."
       ],
       "explanations_zh": [
-        "错误。许多人喝黑咖啡不加糖。虽然糖提供能量，但它不是让你保持清醒的原因。警觉性特别来自咖啡因对大脑受体的影响，而不是来自卡路里或糖。",
-        "正确！咖啡因的分子结构模仿腺苷，这是一种在白天积累并使你困倦的神经递质。咖啡因阻断大脑中的腺苷受体，阻止腺苷结合并发出疲劳信号。这使你保持警觉！大约30分钟达到峰值，3-5小时减少一半。",
-        "错误。你可以喝冰咖啡并仍然保持清醒。温度不会像咖啡因那样影响警觉性。刺激效果纯粹是化学的 - 咖啡因阻断大脑中促进睡眠的腺苷受体。",
-        "错误。虽然咖啡的香气令人愉悦，可能提供心理提升，但实际的警觉性来自咖啡因化学地阻断腺苷受体。你从没有香气的咖啡因药片中也能获得同样的效果。"
+        "错误。很多人喝黑咖啡不加糖。虽然糖分提供能量，但这不是保持清醒的原因。清醒感主要来自咖啡因对大脑受体的作用，而非热量或糖分。",
+        "正确！咖啡因的分子结构模仿腺苷——一种在白天积累、让人困倦的神经递质。咖啡因会阻断大脑中的腺苷受体，阻止腺苷结合并传递疲劳信号，从而让你保持警觉！大约30分钟效果达到顶峰，3-5小时后减半。",
+        "错误。喝冰咖啡同样能保持清醒。温度不像咖啡因那样影响警觉性。刺激作用是纯化学的——咖啡因阻断了大脑中促进睡眠的腺苷受体。",
+        "错误。虽然咖啡香气怡人，可能带来心理上的提振，但真正的清醒感来自咖啡因化学阻断腺苷受体。即使没有香气，服用咖啡因药片也能达到同样效果。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_004"
     },
     {
-      "id": "food_005",
       "question_en": "Why does chocolate melt in your mouth?",
-      "question_zh": "为什么巧克力入口即化？",
+      "question_zh": "为什么巧克力在嘴里会融化？",
       "choices_en": [
         "Saliva dissolves it quickly",
         "Melting point near body temp",
@@ -137,10 +144,10 @@
         "Chemical reaction with saliva"
       ],
       "choices_zh": [
-        "唾液快速溶解",
+        "唾液快速溶解它",
         "熔点接近体温",
-        "舌头分解它",
-        "与唾液化学反应"
+        "舌头把它嚼碎",
+        "与唾液发生化学反应"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -150,17 +157,19 @@
         "Wrong. There's no chemical reaction between chocolate and saliva that causes melting. It's purely a physical change - cocoa butter changing from solid to liquid when heated above its melting point by your mouth's warmth."
       ],
       "explanations_zh": [
-        "错误。唾液有助于品尝，但不会快速溶解巧克力。巧克力融化是因为温度，而不是溶解。巧克力中的可可脂具有特定的熔点，导致从固体到液体的物理变化。",
-        "正确！巧克力的主要脂肪可可脂的熔点为34-38°C，略低于人体温度（37°C）。当巧克力进入你的嘴时，体温使可可脂融化，产生光滑、奶油般的感觉。这种独特的融化特性是为什么巧克力制造商在调温过程中仔细控制可可脂结晶！",
-        "错误。你的舌头不会机械地分解巧克力 - 它因热而融化。你可以在闭着嘴不动舌头的情况下拿着巧克力，它仍然会因体温而融化。",
-        "错误。巧克力和唾液之间没有导致融化的化学反应。这纯粹是物理变化 - 可可脂在口腔温暖加热超过其熔点时从固体变为液体。"
+        "错误。唾液能帮助品尝味道，但不会快速溶解巧克力。巧克力融化是因为温度，而不是溶解。巧克力中的可可脂有特定熔点，导致它从固体变成液体。",
+        "正确！巧克力的主要脂肪——可可脂，熔点在34-38°C，略低于人体体温（37°C）。当巧克力进入嘴里时，身体热量让可可脂融化，产生顺滑、奶油般的口感。这种独特的融化特性是巧克力制造商在调温过程中精心控制可可脂结晶的原因！",
+        "错误。舌头不会机械地嚼碎巧克力——它是被热量融化的。即使你闭着嘴不动舌头，巧克力也会因体温而融化。",
+        "错误。巧克力和唾液之间没有化学反应导致融化。这纯粹是物理变化——可可脂在嘴里温度超过熔点时从固体变成液体。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_005"
     },
     {
-      "id": "food_006",
       "question_en": "Why do bananas turn black?",
-      "question_zh": "为什么香蕉会变黑？",
+      "question_zh": "香蕉为什么会变黑？",
       "choices_en": [
         "They're rotting from bacteria",
         "Enzymes oxidize polyphenols",
@@ -168,10 +177,10 @@
         "Skin cells die over time"
       ],
       "choices_zh": [
-        "细菌腐烂",
-        "酶氧化多酚",
-        "糖自然焦糖化",
-        "表皮细胞死亡"
+        "细菌导致腐烂",
+        "酶氧化多酚物质",
+        "糖分自然焦糖化",
+        "表皮细胞逐渐死亡"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -181,17 +190,19 @@
         "Wrong. While cells do change during ripening, the blackening is specifically from enzymatic browning. It's polyphenol oxidase enzyme reacting with phenolic compounds in the presence of oxygen, creating melanin pigments, not just cell death."
       ],
       "explanations_zh": [
-        "错误。虽然细菌最终确实会导致腐烂，但最初的变黑是酶促氧化，而不是细菌腐烂。即使在完美保存的香蕉成熟时也会发生这种情况。黑色出现在实际腐烂开始之前很久。",
-        "正确！随着香蕉成熟，细胞壁分解释放多酚氧化酶。这种酶与酚类化合物和氧气反应，产生深色黑色素色素 - 与使苹果变褐色的过程相同！香蕉产生的乙烯气体加速成熟。寒冷减缓这种酶活性，这就是为什么冷藏香蕉保持黄色更久（尽管表皮仍然会变暗）。",
-        "错误。焦糖化需要160°C以上的热量来分解糖。香蕉在室温下通过酶促氧化变黑。虽然香蕉在成熟时确实将淀粉转化为糖，但这不会导致深色。",
-        "错误。虽然细胞在成熟过程中确实会发生变化，但变黑特别来自酶促褐变。这是多酚氧化酶在氧气存在下与酚类化合物反应，产生黑色素色素，而不仅仅是细胞死亡。"
+        "错误。虽然细菌最终会导致腐烂，但最初的变黑是酶促氧化，而非细菌腐败。即使在保存完好的香蕉成熟过程中也会发生，变黑远早于实际腐烂开始。",
+        "正确！香蕉成熟时，细胞壁分解释放多酚氧化酶。该酶与酚类化合物和氧气反应，产生深色黑色素——和苹果变褐的原理一样！香蕉产生的乙烯气加速成熟，低温会减缓酶活性，所以冷藏香蕉保持黄色更久（尽管表皮仍会变暗）。",
+        "错误。焦糖化需要160°C以上高温分解糖分。香蕉在室温下变黑是通过酶促氧化。虽然香蕉成熟时淀粉会转化为糖，但这不会导致颜色变深。",
+        "错误。虽然细胞在成熟过程中会变化，但变黑特指酶促褐变。是多酚氧化酶在氧气存在下与酚类化合物反应生成黑色素，不仅仅是细胞死亡。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_006"
     },
     {
-      "id": "food_007",
       "question_en": "Why does hot soup make us feel warm?",
-      "question_zh": "为什么热汤让人暖和？",
+      "question_zh": "为什么热汤会让我们感觉暖和？",
       "choices_en": [
         "Nutrients generate body heat",
         "Heat transfers to body",
@@ -199,10 +210,10 @@
         "Spices increase circulation"
       ],
       "choices_zh": [
-        "营养产生体热",
-        "热量传递给身体",
+        "营养产生身体热量",
+        "热量传递到身体",
         "蒸汽温暖呼吸系统",
-        "香料促进循环"
+        "香料促进血液循环"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -212,17 +223,19 @@
         "Wrong. Not all soups have spices, and they still warm you. While spices like ginger can cause mild vasodilation, the primary warming comes from the soup's temperature directly transferring heat to your body, not from circulatory changes."
       ],
       "explanations_zh": [
-        "错误。虽然消化确实通过代谢产生热量，但这是一个需要数小时的缓慢过程。喝热汤的即时温暖感觉来自直接的热传递，而不是来自营养物质的代谢。",
-        "正确！热汤通过传导和对流直接将热能传递给你的身体。当你吞咽时，热液体加热你的口腔、喉咙和胃。这种温暖通过血管扩散，向大脑的温度受体发送'温暖'信号。你的血管可能扩张，将温暖散布到全身。这是简单的物理学 - 热量从热汤移动到较冷的身体！",
-        "错误。虽然蒸汽可能感觉不错，但温暖效果主要来自热液体本身。你喝没有多少蒸汽的热汤也会感到同样温暖。消化道中液体的热量才是关键。",
-        "错误。不是所有汤都有香料，它们仍然让你暖和。虽然像姜这样的香料可能引起轻微的血管舒张，但主要的温暖来自汤的温度直接将热量传递给你的身体，而不是来自循环变化。"
+        "错误。虽然消化通过新陈代谢会产生热量，但这需要数小时，是缓慢过程。热汤带来的即时温暖感来自直接热量传递，而非营养代谢。",
+        "正确！热汤通过传导和对流直接将热能传递到你的身体。吞咽时，热液体会加热口腔、喉咙和胃部，温暖通过血管扩散，向大脑的热感受器发送'温暖'信号。血管可能扩张，让温暖遍布全身——这是简单的物理原理：热量从热汤流向较冷的身体！",
+        "错误。虽然蒸汽可能感觉舒适，但温暖效果主要来自热液体本身。即使没有太多蒸汽，喝热汤同样暖和。关键在于液体在消化道中的热量。",
+        "错误。并非所有汤都含香料，但它们仍能让你暖和。虽然像姜这样的香料可能引起轻微血管扩张，但主要温暖来自汤的温度直接传递热量到身体，而非循环变化。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_007"
     },
     {
-      "id": "food_008",
       "question_en": "Why does milk make bones strong?",
-      "question_zh": "为什么牛奶强健骨骼？",
+      "question_zh": "为什么喝牛奶能让骨骼更强壮？",
       "choices_en": [
         "Protein builds bone tissue",
         "Calcium provides structure",
@@ -230,8 +243,8 @@
         "Vitamins repair damage"
       ],
       "choices_zh": [
-        "蛋白质构建骨组织",
-        "钙提供结构",
+        "蛋白质构建骨骼组织",
+        "钙质提供骨骼结构",
         "脂肪润滑关节",
         "维生素修复损伤"
       ],
@@ -243,17 +256,19 @@
         "Wrong. While milk does contain some vitamins, and vitamin D helps calcium absorption, the fundamental reason it strengthens bones is the calcium content. Calcium is the primary structural mineral in bone tissue."
       ],
       "explanations_zh": [
-        "错误。虽然蛋白质对骨骼健康很重要，但它不是牛奶强化骨骼的主要原因。牛奶含有蛋白质，但其强化骨骼的力量主要来自钙和维生素D共同作用。",
-        "正确！牛奶富含钙，这对骨矿物质密度至关重要。骨骼由称为羟基磷灰石的磷酸钙矿物质制成。你的身体不断从骨骼中沉积和去除钙。充足的饮食钙确保强壮的骨骼形成，特别是在生长期间。牛奶还含有维生素D，有助于肠道有效吸收钙！",
-        "错误。牛奶的脂肪不会润滑关节或强化骨骼。关节润滑来自你身体产生的滑液。骨骼强度特别来自钙和其他矿物质，而不是脂肪。",
-        "错误。虽然牛奶确实含有一些维生素，维生素D有助于钙吸收，但它强化骨骼的根本原因是钙含量。钙是骨组织中的主要结构矿物质。"
+        "错啦！蛋白质对骨骼健康确实重要，但牛奶强骨的关键不是它。牛奶虽含蛋白质，但强骨主力是钙和维生素D这对黄金搭档。",
+        "答对啦！牛奶富含钙质，这是骨骼密度的关键。骨骼主要由羟基磷灰石（一种磷酸钙矿物）构成。身体会不断在骨骼中沉积和移除钙，充足钙摄入能确保骨骼强健生长，尤其在成长期。牛奶里的维生素D还能帮肠道高效吸收钙哦！",
+        "错啦！牛奶中的脂肪不负责润滑关节或强健骨骼。关节润滑靠的是身体自产的滑液。骨骼强度主要来自钙等矿物质，和脂肪无关。",
+        "错啦！牛奶虽含维生素（如维生素D助钙吸收），但强骨的根本原因是钙含量。钙才是骨骼组织的核心结构矿物质。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_008"
     },
     {
-      "id": "food_009",
       "question_en": "Why do vegetables lose color when overcooked?",
-      "question_zh": "为什么蔬菜煮久了褪色？",
+      "question_zh": "为什么蔬菜煮过头会变色？",
       "choices_en": [
         "Water washes out pigments",
         "Heat breaks down chlorophyll",
@@ -261,10 +276,10 @@
         "Oxygen bleaches the color"
       ],
       "choices_zh": [
-        "水冲走色素",
-        "热量分解叶绿素",
-        "营养蒸发",
-        "氧气漂白颜色"
+        "水分冲走了色素",
+        "高温破坏了叶绿素",
+        "营养蒸发掉了",
+        "氧气漂白了颜色"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -274,17 +289,19 @@
         "Wrong. Oxygen isn't the primary cause of cooking-related color loss. While oxygen can cause browning in cut fruits, the color change in cooked vegetables is mainly from heat degrading chlorophyll and other pigments at the molecular level."
       ],
       "explanations_zh": [
-        "错误。水本身不会快速冲走色素。虽然一些水溶性营养物质会渗入烹饪水中，但颜色损失主要来自热量分解色素分子，特别是绿色蔬菜中的叶绿素。",
-        "正确！热量分解绿色蔬菜中的叶绿素色素。叶绿素中心含有镁。长时间加热导致蔬菜中的酸用氢取代镁，形成脱镁叶绿素 - 一种橄榄褐色化合物。这就是为什么煮过头的西兰花变成褐绿色。快速烹饪保持鲜绿色！其他色素如类胡萝卜素和花青素也会因过度加热而降解。",
-        "错误。营养物质不会蒸发 - 有些可能渗入水中，但这不是导致颜色变化的原因。颜色损失特别来自热量分解叶绿素等色素分子，而不是营养损失。",
-        "错误。氧气不是与烹饪相关的颜色损失的主要原因。虽然氧气可能导致切开的水果褐变，但煮熟蔬菜的颜色变化主要来自热量在分子水平上降解叶绿素和其他色素。"
+        "错误。水分本身不会快速冲走色素。虽然一些水溶性营养会流失到煮菜水中，但变色主要是高温破坏了色素分子，尤其是绿叶蔬菜中的叶绿素。",
+        "正确！高温会破坏绿叶蔬菜中的叶绿素。叶绿素中心含有镁元素。长时间加热使蔬菜中的酸用氢替换镁，形成脱镁叶绿素——一种橄榄褐色的化合物。这就是为什么煮过头的西兰花会变成褐绿色。快速烹饪能保持鲜绿色！其他色素如类胡萝卜素和花青素也会因过度加热而降解。",
+        "错误。营养不会蒸发——有些可能流失到水中，但这并非导致变色的原因。变色是高温破坏了像叶绿素这样的色素分子，而非营养流失。",
+        "错误。氧气不是烹饪导致变色的主要原因。虽然氧气会使切开的果实褐变，但煮菜变色主要是高温在分子水平上降解叶绿素和其他色素。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_009"
     },
     {
-      "id": "food_010",
       "question_en": "Why does protein help build muscles?",
-      "question_zh": "为什么蛋白质帮助长肌肉？",
+      "question_zh": "为什么蛋白质能帮助增肌？",
       "choices_en": [
         "Provides energy for workouts",
         "Amino acids repair muscle fibers",
@@ -294,8 +311,8 @@
       "choices_zh": [
         "为锻炼提供能量",
         "氨基酸修复肌纤维",
-        "增加血流",
-        "把脂肪变成肌肉"
+        "增加血液流动",
+        "将脂肪转化为肌肉"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -305,17 +322,19 @@
         "Wrong. This is a common myth - fat cannot turn into muscle. They're completely different tissues. Protein helps build muscle by providing amino acids for muscle protein synthesis. Fat loss and muscle gain are separate processes that can happen simultaneously with proper diet and exercise."
       ],
       "explanations_zh": [
-        "错误。虽然蛋白质可以用于能量，但这不是它在肌肉建设中的主要作用。碳水化合物和脂肪是首选的能量来源。蛋白质的特殊作用是为组织修复和生长提供氨基酸。",
-        "正确！蛋白质由氨基酸组成。运动期间，肌纤维产生微小撕裂。你的身体使用饮食蛋白质中的氨基酸来修复和重建这些纤维，使它们更强壮、更大。这个过程称为肌肉蛋白质合成。必需氨基酸（尤其是亮氨酸）触发这种合成。这就是为什么运动员需要更多蛋白质 - 通常每公斤体重1.6-2.2克！",
-        "错误。虽然运动会增加血流，但蛋白质本身不会直接增加循环。蛋白质通过提供运动引起损伤后修复和构建肌肉组织所需的氨基酸来帮助肌肉。",
-        "错误。这是一个常见的误解 - 脂肪不能变成肌肉。它们是完全不同的组织。蛋白质通过为肌肉蛋白质合成提供氨基酸来帮助建立肌肉。脂肪减少和肌肉增长是通过适当的饮食和运动可以同时发生的独立过程。"
+        "错误。虽然蛋白质能提供能量，但这并非其增肌的主要作用。碳水化合物和脂肪才是首选能量来源。蛋白质的特殊作用在于提供氨基酸，用于组织修复和生长。",
+        "正确！蛋白质由氨基酸组成。锻炼时，肌纤维会出现微小撕裂。身体利用食物蛋白质中的氨基酸修复并重建这些纤维，使其更强壮、更粗大。这个过程称为肌肉蛋白质合成。必需氨基酸（尤其是亮氨酸）会触发这一合成。因此运动员需要更多蛋白质——通常每公斤体重1.6-2.2克！",
+        "错误。虽然运动会增加血液流动，但蛋白质本身并不直接促进循环。蛋白质通过提供氨基酸来帮助肌肉，这些氨基酸用于修复和构建运动损伤后的肌肉组织。",
+        "错误。这是个常见误区——脂肪无法变成肌肉。它们是截然不同的组织。蛋白质通过提供氨基酸进行肌肉蛋白质合成来帮助增肌。减脂和增肌是独立过程，在合理饮食和锻炼下可同时发生。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_010"
     },
     {
-      "id": "food_011",
       "question_en": "Why does fiber help digestion?",
-      "question_zh": "为什么纤维帮助消化？",
+      "question_zh": "为什么膳食纤维能帮助消化？",
       "choices_en": [
         "Enzymes break it down faster",
         "Adds bulk and speeds transit",
@@ -323,8 +342,8 @@
         "Absorbs excess stomach acid"
       ],
       "choices_zh": [
-        "酶更快分解它",
-        "增加体积加快排泄",
+        "酶能更快分解它",
+        "增加粪便体积并加速肠道蠕动",
         "杀死有害细菌",
         "吸收多余胃酸"
       ],
@@ -336,17 +355,19 @@
         "Wrong. Fiber doesn't absorb stomach acid. Its benefits are in the intestines - adding bulk to stool, regulating transit time, feeding beneficial bacteria, and helping maintain healthy cholesterol and blood sugar levels."
       ],
       "explanations_zh": [
-        "错误。实际上，人类酶不能分解纤维 - 这正是它帮助消化的原因！纤维基本完整地通过，提供体积。一些肠道细菌可以发酵某些纤维，但我们自己不消化它。",
-        "正确！膳食纤维是我们身体无法消化的植物材料。不溶性纤维（来自麦麸、蔬菜）为粪便增加体积并加快肠道转运，防止便秘。可溶性纤维（来自燕麦、豆类）吸收水分形成凝胶，减缓消化并帮助你感到饱。纤维还喂养有益的肠道细菌，它们产生健康的短链脂肪酸！",
-        "错误。虽然纤维确实支持有益肠道细菌，这些细菌可以竞争有害细菌，但纤维本身不会杀死细菌。它的主要消化益处是机械的 - 增加体积并调节通过肠道的转运时间。",
-        "错误。纤维不会吸收胃酸。它的益处在肠道 - 为粪便增加体积，调节转运时间，喂养有益细菌，并帮助维持健康的胆固醇和血糖水平。"
+        "错误！其实人体酶无法分解膳食纤维——这正是它助消化的关键！纤维基本原样通过肠道，提供体积。某些肠道细菌能发酵部分纤维，但我们自身不消化它。",
+        "正确！膳食纤维是人体无法消化的植物成分。不溶性纤维（来自麦麸、蔬菜）增加粪便体积、加速肠道蠕动，预防便秘；可溶性纤维（来自燕麦、豆类）吸水成凝胶，延缓消化、增加饱腹感。纤维还喂养有益肠道菌群，产生健康短链脂肪酸！",
+        "错误。虽然纤维支持有益菌抑制有害菌，但它本身不杀菌。主要消化益处是机械性的——增加体积、调节肠道通过时间。",
+        "错误。纤维不吸收胃酸，其益处在于肠道——增加粪便体积、调节蠕动时间、喂养有益菌，并帮助维持健康胆固醇和血糖水平。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_011"
     },
     {
-      "id": "food_012",
       "question_en": "Why do citrus fruits taste sour?",
-      "question_zh": "为什么柑橘类水果酸？",
+      "question_zh": "为什么柑橘类水果尝起来酸溜溜的？",
       "choices_en": [
         "High vitamin C content",
         "Citric acid lowers pH",
@@ -355,8 +376,8 @@
       ],
       "choices_zh": [
         "维生素C含量高",
-        "柠檬酸降低pH值",
-        "未熟缺乏糖分",
+        "柠檬酸降低了pH值",
+        "未成熟水果缺糖",
         "精油是苦的"
       ],
       "correct_answer": 1,
@@ -367,17 +388,19 @@
         "Wrong. Essential oils in citrus peels can taste bitter, not sour. The sour taste of the fruit flesh comes specifically from citric acid. Bitterness and sourness are detected by different taste receptors on your tongue."
       ],
       "explanations_zh": [
-        "错误。虽然柑橘类水果维生素C（抗坏血酸）含量高，但维生素C对酸味的贡献很小。主要的酸味来自柠檬酸，其浓度远高于维生素C。",
-        "正确！柑橘类水果含有高水平的柠檬酸（柠檬中通常为5-8%）。当你吃它们时，柠檬酸分子释放氢离子（H+），降低pH值。你舌头上的酸味受体检测这些氢离子并向大脑发出'酸'的信号。柠檬酸还作为天然防腐剂和抗氧化剂。成熟的柑橘即使含糖量高仍然尝起来酸，因为酸占主导！",
-        "错误。虽然未熟水果因糖分较少而更酸，但即使成熟的柑橘类水果也尝起来酸，因为它们天然含有高柠檬酸水平。酸味来自酸，而不仅仅是缺乏糖。橙子既有糖又有酸。",
-        "错误。柑橘皮中的精油可能尝起来苦，而不是酸。果肉的酸味特别来自柠檬酸。苦味和酸味由舌头上的不同味觉受体检测。"
+        "错啦！虽然柑橘类水果富含维生素C（抗坏血酸），但维生素C对酸味的贡献很小。主要的酸味来自柠檬酸，它的浓度远高于维生素C。",
+        "答对啦！柑橘类水果含有大量柠檬酸（柠檬中通常占5-8%）。吃水果时，柠檬酸分子释放氢离子（H+），降低pH值。你舌头上的酸味受体检测到这些氢离子，向大脑发出'酸'的信号。柠檬酸还充当天然防腐剂和抗氧化剂。即使成熟柑橘含糖高，酸味依然占主导！",
+        "错啦！虽然未成熟水果因糖少更酸，但成熟柑橘也酸，因为它们天然含高柠檬酸。酸味来自酸，不只是缺糖。橙子既有糖又有酸。",
+        "错啦！柑橘皮中的精油尝起来苦，不是酸。果肉的酸味特指来自柠檬酸。苦味和酸味由舌头上的不同味觉受体检测。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_012"
     },
     {
-      "id": "food_013",
       "question_en": "Why does freezing preserve food?",
-      "question_zh": "为什么冷冻保存食物？",
+      "question_zh": "为什么冷冻能保鲜食物？",
       "choices_en": [
         "Kills all bacteria and germs",
         "Slows microbial and enzyme activity",
@@ -385,10 +408,10 @@
         "Creates protective ice coating"
       ],
       "choices_zh": [
-        "杀死所有细菌",
-        "减缓微生物和酶活性",
+        "杀死所有细菌和病菌",
+        "减缓微生物和酶的活动",
         "完全去除水分",
-        "形成保护冰层"
+        "形成保护性冰层"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -398,15 +421,17 @@
         "Wrong. While ice does form, the protective effect isn't from a coating. Preservation happens because water freezing into ice makes it unavailable for microbial growth and enzymatic reactions throughout the food, not just on the surface."
       ],
       "explanations_zh": [
-        "错误。冷冻不会杀死大多数细菌 - 它只是使它们休眠。当食物解冻时，细菌可以再次变得活跃。这就是为什么你不应该重新冷冻解冻的食物 - 细菌可能在解冻期间繁殖。",
-        "正确！冷冻通过大幅减缓两件事来保存食物：微生物生长和酶活性。在冷冻温度下，水变成冰，使其无法用于化学反应和细菌代谢。导致食物降解的酶几乎不活跃。细菌不会死亡，但无法繁殖或导致变质。低于-18°C，食物几乎无限期保持安全，尽管质量可能下降！",
-        "错误。冷冻不会去除水分 - 它将水转化为冰晶。水仍然在那里，只是以固体形式。冻干是不同的，确实去除水分，但常规冷冻通过使水无法用于微生物和酶活性来保存。",
-        "错误。虽然冰确实形成，但保护作用不是来自涂层。保存发生是因为水冻结成冰使其无法用于整个食物中的微生物生长和酶反应，而不仅仅是在表面。"
+        "错误。冷冻不会杀死大多数细菌——只是让它们休眠。食物解冻时，细菌可能重新活跃。这就是为什么解冻的食物不宜再冷冻——细菌可能在解冻过程中繁殖。",
+        "正确！冷冻通过大幅减缓两件事来保鲜：微生物生长和酶活性。在冷冻温度下，水结成冰，使其无法用于化学反应和细菌代谢。导致食物变质的酶几乎停止活动。细菌虽未死亡，但无法繁殖或引起腐败。低于-18°C时，食物几乎无限期安全，但品质可能下降！",
+        "错误。冷冻不会去除水分——而是将水转化为冰晶。水分仍在，只是固态形式。冻干则不同，会去除水分，但普通冷冻通过让水无法被微生物和酶利用来保鲜。",
+        "错误。虽然冰会形成，但保鲜效果并非来自涂层。保鲜是因为水结冰使其无法用于整个食物中的微生物生长和酶反应，而不仅限于表面。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_013"
     },
     {
-      "id": "food_014",
       "question_en": "Why do we need vitamins?",
       "question_zh": "为什么我们需要维生素？",
       "choices_en": [
@@ -416,9 +441,9 @@
         "Directly fight infections"
       ],
       "choices_zh": [
-        "提供能量卡路里",
-        "酶反应的辅因子",
-        "构建肌肉和骨骼",
+        "它们提供能量和热量",
+        "作为酶反应的辅助因子",
+        "直接构建肌肉和骨骼组织",
         "直接对抗感染"
       ],
       "correct_answer": 1,
@@ -429,17 +454,19 @@
         "Wrong. While vitamins like C and D support immune function, they don't directly fight infections like antibodies or white blood cells do. They work indirectly by enabling immune cell production and function through their roles as enzyme cofactors."
       ],
       "explanations_zh": [
-        "错误。维生素不提供能量或卡路里。能量来自宏量营养素：碳水化合物（4卡/克）、蛋白质（4卡/克）和脂肪（9卡/克）。维生素需要少量来帮助酶功能，而不是为了能量。",
-        "正确！维生素是作为数百种酶反应的辅因子或辅酶的必需微量营养素。例如，B族维生素帮助酶将食物转化为能量，维生素K使血液凝固酶能够发挥作用，维生素C帮助胶原蛋白合成酶。没有这些维生素，关键的酶反应无法有效发生。缺乏会导致特定疾病：无维生素C = 坏血病，无维生素D = 佝偻病！",
-        "错误。虽然一些维生素支持骨骼健康（维生素D帮助钙吸收，维生素K激活骨蛋白），但维生素不直接构建组织。蛋白质、钙和磷是结构材料。维生素使构建和维护这些结构的酶能够发挥作用。",
-        "错误。虽然维生素C和D等维生素支持免疫功能，但它们不像抗体或白细胞那样直接对抗感染。它们通过作为酶辅因子的角色间接工作，使免疫细胞产生和功能成为可能。"
+        "错误。维生素不提供能量或热量。能量来自宏量营养素：碳水化合物（4卡/克）、蛋白质（4卡/克）和脂肪（9卡/克）。维生素只需微量，帮助酶发挥作用，而非提供能量。",
+        "正确！维生素是必需的微量营养素，作为数百种酶反应的辅助因子或辅酶。例如，B族维生素帮助酶将食物转化为能量，维生素K使凝血酶发挥作用，维生素C帮助胶原合成酶。没有这些维生素，关键酶反应无法高效进行。缺乏会导致特定疾病：无维生素C=坏血病，无维生素D=佝偻病！",
+        "错误。虽然某些维生素支持骨骼健康（维生素D帮助钙吸收，维生素K激活骨蛋白），但维生素不直接构建组织。蛋白质、钙和磷是结构材料。维生素使酶能够构建和维护这些结构。",
+        "错误。虽然维生素如C和D支持免疫功能，但它们不像抗体或白细胞那样直接对抗感染。它们通过作为酶辅助因子的作用，间接促进免疫细胞的产生和功能。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_014"
     },
     {
-      "id": "food_015",
       "question_en": "Why does breakfast give us energy?",
-      "question_zh": "为什么早餐给我们能量？",
+      "question_zh": "为什么早餐能给我们提供能量？",
       "choices_en": [
         "Vitamins boost metabolism",
         "Replenishes glucose after fasting",
@@ -447,8 +474,8 @@
         "Wakes up digestive system"
       ],
       "choices_zh": [
-        "维生素提升代谢",
-        "禁食后补充葡萄糖",
+        "维生素促进新陈代谢",
+        "补充禁食后的葡萄糖",
         "蛋白质激活大脑",
         "唤醒消化系统"
       ],
@@ -460,12 +487,15 @@
         "Wrong. Your digestive system doesn't 'wake up' - it's always functioning. What breakfast does is provide fuel (glucose) that was depleted during overnight fasting. The energy feeling comes from restoring blood sugar levels, not from awakening digestion."
       ],
       "explanations_zh": [
-        "错误。虽然维生素对代谢很重要，但它们本身不提供能量。早餐的能量提升来自宏量营养素（碳水化合物、蛋白质、脂肪）转化为可用能量，特别是大脑的葡萄糖。",
-        "正确！睡眠8小时以上不吃东西后，你的血糖和糖原储备耗尽。你的大脑每天使用约120克葡萄糖，没有储存 - 它依赖于持续的血液供应。早餐补充血糖，主要来自碳水化合物。这为大脑功能、身体活动和细胞代谢提供即时燃料。不吃早餐，你可能会感到疲倦和注意力不集中！",
-        "错误。虽然蛋白质对持续能量很重要，但它不是'激活'大脑的东西。你的大脑主要靠碳水化合物中的葡萄糖运行。蛋白质消化需要更长时间，对饱腹感和维持稳定的能量水平更重要。",
-        "错误。你的消化系统不会'醒来' - 它总是在运作。早餐所做的是提供在隔夜禁食期间耗尽的燃料（葡萄糖）。能量感觉来自恢复血糖水平，而不是从唤醒消化。"
+        "错误。虽然维生素对新陈代谢很重要，但它们本身不提供能量。早餐的能量提升来自宏量营养素（碳水化合物、蛋白质、脂肪）转化为可用能量，尤其是大脑所需的葡萄糖。",
+        "正确！经过8小时以上睡眠不进食，你的血糖和糖原储备已耗尽。大脑每天消耗约120克葡萄糖且无储存——它依赖持续血液供应。早餐补充血糖，主要来自碳水化合物，为大脑功能、身体活动和细胞代谢提供即时燃料。不吃早餐，你可能会感到疲劳和注意力不集中！",
+        "错误。虽然蛋白质对持续能量很重要，但它不是‘激活’大脑的关键。大脑主要依赖碳水化合物产生的葡萄糖运行。蛋白质消化较慢，更侧重于饱腹感和维持稳定能量水平。",
+        "错误。你的消化系统不会‘唤醒’——它始终在运作。早餐的作用是提供夜间禁食期间耗尽的燃料（葡萄糖）。能量感来自恢复血糖水平，而非唤醒消化。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "food_015"
     }
   ]
 }

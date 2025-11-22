@@ -1,0 +1,402 @@
+{
+  "category_en": "Household Science",
+  "category_zh": "生活科学",
+  "questions": [
+    {
+      "question_en": "Why does soap foam?",
+      "question_zh": "为什么肥皂会产生泡沫？",
+      "choices_en": [
+        "Air escapes from soap",
+        "Soap traps air in films",
+        "Water creates the foam",
+        "Chemical reaction with dirt"
+      ],
+      "choices_zh": [
+        "肥皂内部释放空气",
+        "肥皂分子捕捉空气形成薄膜",
+        "水本身产生泡沫",
+        "与污垢发生化学反应"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Air doesn't come from inside soap. The foam is created when soap molecules trap air from outside.",
+        "Correct! Soap molecules reduce water's surface tension and form stretchy films. These films trap air, creating bubbles. Agitation introduces more air, making foam. More soap means more stable bubbles!",
+        "Wrong. Water alone doesn't foam—try shaking pure water. Soap's unique molecular structure is what enables foam formation.",
+        "Wrong. Foam forms even in clean water with no dirt. It's the soap's ability to create stable air bubbles, not a cleaning reaction."
+      ],
+      "explanations_zh": [
+        "错误。空气并非来自肥皂内部，而是肥皂分子从外部捕捉空气形成泡沫。",
+        "正确！肥皂分子降低水的表面张力，形成弹性薄膜，捕捉空气形成气泡。搅动引入更多空气，产生泡沫；肥皂越多，气泡越稳定！",
+        "错误。纯水不会起泡——试试摇晃纯水。肥皂的独特分子结构才是泡沫形成的关键。",
+        "错误。即使在无污垢的干净水中，肥皂也能产生泡沫，这是因为肥皂能形成稳定的气泡，而非清洁反应。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:20:02.767769+00:00",
+      "last_modified_at": "2025-11-21T04:20:02.767769+00:00",
+      "id": "house_001"
+    },
+    {
+      "question_en": "Why do mirrors fog up in bathrooms?",
+      "question_zh": "为什么浴室里的镜子会起雾？",
+      "choices_en": [
+        "Steam condenses on cold glass",
+        "Soap residue attracts water",
+        "Glass releases moisture",
+        "Hot air pushes water out"
+      ],
+      "choices_zh": [
+        "水蒸气在冷玻璃上凝结",
+        "肥皂残留物吸引水分",
+        "玻璃释放出湿气",
+        "热空气把水挤出来"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Hot shower steam hits the cooler mirror surface. Water vapor loses energy and condenses into tiny droplets. These droplets scatter light, making the mirror look foggy. Warming the mirror prevents this!",
+        "Wrong. Clean mirrors fog just as easily. The fog is water condensation from temperature difference, not soap attraction.",
+        "Wrong. Glass doesn't release moisture. The water comes from humid air condensing on the cool surface.",
+        "Wrong. Hot air holds more moisture, not less. When it contacts cool glass, moisture condenses out as fog."
+      ],
+      "explanations_zh": [
+        "正确！洗澡时的热蒸汽碰到较冷的镜面，水蒸气失去能量凝结成小水滴，这些水滴散射光线，让镜子看起来雾蒙蒙的。预热镜子就能避免哦！",
+        "错啦。干净的镜子照样容易起雾，雾气是温差导致的水汽凝结，不是肥皂吸引的。",
+        "错。玻璃不会释放湿气，水来自潮湿空气在冷表面的凝结。",
+        "错。热空气能容纳更多水分，不是更少。当它接触冷玻璃时，水分会凝结成雾。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:20:18.953896+00:00",
+      "last_modified_at": "2025-11-21T04:20:18.953896+00:00",
+      "id": "house_002"
+    },
+    {
+      "question_en": "Why does glue stick things together?",
+      "question_zh": "为什么胶水能把东西粘在一起？",
+      "choices_en": [
+        "It melts surfaces together",
+        "Magnetic attraction",
+        "Molecules bond to surfaces",
+        "Glue hardens like cement"
+      ],
+      "choices_zh": [
+        "它把表面熔化在一起",
+        "磁力吸引",
+        "分子与表面形成化学键",
+        "胶水像水泥一样变硬"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Glue doesn't melt materials. It works by forming molecular bonds with surfaces while remaining a separate substance.",
+        "Wrong. Glue has no magnetic properties. The sticking power comes from chemical and mechanical bonding.",
+        "Correct! Glue molecules form chemical bonds with surface molecules (adhesion) and with each other (cohesion). Some glues also seep into tiny pores, creating mechanical locks. Different glues use different bonding methods!",
+        "Wrong. While some glues do harden, that's not why they stick. The adhesion happens at the molecular level between glue and surface."
+      ],
+      "explanations_zh": [
+        "错！胶水不会熔化材料。它通过与表面形成分子键来粘合，但本身仍是独立物质。",
+        "错！胶水没有磁性。粘合力来自化学和机械结合。",
+        "对！胶水分子与表面分子形成化学键（粘附），同时分子间也相互结合（内聚）。有些胶水还会渗入微小孔隙，形成机械锁扣。不同胶水采用不同粘合方式哦！",
+        "错！虽然有些胶水会变硬，但这并非粘合原因。粘附发生在胶水与表面的分子层面。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:20:35.538666+00:00",
+      "last_modified_at": "2025-11-21T04:20:35.538666+00:00",
+      "id": "house_003"
+    },
+    {
+      "question_en": "Why does tape lose stickiness over time?",
+      "question_zh": "为什么胶带用久了会失去粘性？",
+      "choices_en": [
+        "The glue evaporates",
+        "Adhesive dries and hardens",
+        "Dust covers the surface",
+        "Tape stretches too thin"
+      ],
+      "choices_zh": [
+        "胶水蒸发了",
+        "粘合剂变干变硬",
+        "灰尘覆盖表面",
+        "胶带拉伸变薄"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Adhesive doesn't evaporate significantly. The loss of stickiness comes from chemical changes in the adhesive itself.",
+        "Correct! Tape adhesive slowly oxidizes and loses its flexibility. UV light and heat speed up this process. The once-soft, tacky adhesive becomes hard and brittle, losing its ability to form bonds with surfaces.",
+        "Wrong. While dust can reduce stickiness, old tape loses adhesion even when kept clean. The chemical breakdown of adhesive is the main cause.",
+        "Wrong. Tape thickness doesn't significantly change. The adhesive's chemical properties degrade over time."
+      ],
+      "explanations_zh": [
+        "错啦！粘合剂不会明显蒸发，失去粘性是因为粘合剂本身的化学变化。",
+        "对啦！胶带粘合剂会慢慢氧化，失去柔韧性。紫外线和热量会加速这个过程，原本柔软粘稠的粘合剂变硬变脆，无法与表面牢固结合。",
+        "不对哦！虽然灰尘会降低粘性，但即使保持清洁，旧胶带也会失去粘附力，主要原因是粘合剂的化学分解。",
+        "错啦！胶带厚度不会明显改变，是粘合剂的化学性质随时间退化导致的。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:20:52.026264+00:00",
+      "last_modified_at": "2025-11-21T04:20:52.026264+00:00",
+      "id": "house_004"
+    },
+    {
+      "question_en": "Why do clothes wrinkle?",
+      "question_zh": "为什么衣服会起皱呢？",
+      "choices_en": [
+        "Fabric fibers bend and set",
+        "Static electricity pulls",
+        "Clothes shrink unevenly",
+        "Air pressure flattens them"
+      ],
+      "choices_zh": [
+        "布料纤维弯曲并定型",
+        "静电吸引导致",
+        "衣服收缩不均匀",
+        "空气压力压平它们"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Fabric is made of long molecular chains. When compressed or twisted, these chains form new bonds in the bent position. Heat and moisture break these bonds—that's why ironing and steaming remove wrinkles!",
+        "Wrong. Static electricity causes clinging, not wrinkles. Wrinkles form from mechanical bending of fiber molecules.",
+        "Wrong. Wrinkling isn't about size changes. It's about fiber molecules bonding in bent positions.",
+        "Wrong. Air pressure doesn't cause wrinkles. They form from fabric being compressed, folded, or twisted."
+      ],
+      "explanations_zh": [
+        "正确！布料由长分子链组成。当被挤压或扭曲时，这些链在弯曲位置形成新键。热量和湿气能打破这些键——这就是熨烫和蒸汽能去除褶皱的原因！",
+        "错误。静电会导致衣物粘附，而不是起皱。褶皱是由纤维分子的机械弯曲形成的。",
+        "错误。起皱与尺寸变化无关，而是纤维分子在弯曲位置形成键合。",
+        "错误。空气压力不会导致起皱。褶皱是布料被压缩、折叠或扭曲时形成的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:21:07.910383+00:00",
+      "last_modified_at": "2025-11-21T04:21:07.910383+00:00",
+      "id": "house_005"
+    },
+    {
+      "question_en": "Why does hot water clean better?",
+      "question_zh": "为什么热水清洁效果更好？",
+      "choices_en": [
+        "Hot water is more pure",
+        "Heat kills all germs",
+        "Heat helps dissolve grease",
+        "Hot water has more oxygen"
+      ],
+      "choices_zh": [
+        "热水更纯净",
+        "高温能杀死所有细菌",
+        "热量帮助溶解油脂",
+        "热水含氧量更高"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Temperature doesn't affect water purity. Hot and cold tap water have similar composition.",
+        "Wrong. Normal hot water isn't hot enough to kill most germs. Sanitizing requires much higher temperatures or chemicals.",
+        "Correct! Heat makes molecules move faster, helping break bonds in grease and oils. It also helps soap work better by lowering surface tension further. Grease literally melts and washes away more easily!",
+        "Wrong. Hot water actually holds less dissolved oxygen than cold water. Cleaning power comes from molecular energy, not oxygen content."
+      ],
+      "explanations_zh": [
+        "错误。温度不影响水的纯净度，冷热自来水的成分基本相同。",
+        "错误。普通热水温度不足以杀死大多数细菌，消毒需要更高温度或化学物质。",
+        "正确！热量让分子运动加快，帮助破坏油脂中的化学键，还能降低表面张力让肥皂更有效——油脂会融化并被轻松冲走！",
+        "错误。热水溶解氧含量其实比冷水低，清洁能力来自分子能量而非含氧量。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:21:22.408291+00:00",
+      "last_modified_at": "2025-11-21T04:21:22.408291+00:00",
+      "id": "house_006"
+    },
+    {
+      "question_en": "Why do candles flicker?",
+      "question_zh": "为什么蜡烛的火焰会闪烁跳动？",
+      "choices_en": [
+        "Wax burns unevenly",
+        "Air currents disturb flame",
+        "Wick moves back and forth",
+        "Fire needs to breathe"
+      ],
+      "choices_zh": [
+        "蜡燃烧不均匀",
+        "空气流动扰动火焰",
+        "烛芯来回摆动",
+        "火焰需要呼吸"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Even with perfect wax, flames flicker. The flickering comes from air movement, not fuel supply.",
+        "Correct! Even tiny air currents push the flame around. Hot air rising from the flame creates its own turbulence too. In perfectly still air (rare!), candle flames burn steadily without flickering.",
+        "Wrong. Wicks stay stationary. The flame movement comes from air currents affecting the hot gases.",
+        "Wrong. While fire does need oxygen, the flickering isn't about breathing. It's caused by air movement disturbing the flame."
+      ],
+      "explanations_zh": [
+        "错误。即使蜡燃烧均匀，火焰也会闪烁。闪烁来自空气流动，而非燃料供应问题。",
+        "正确！微小的空气流动就能推动火焰晃动。火焰上升的热空气自身也会产生湍流。在完全静止的空气中（很罕见！），蜡烛火焰会稳定燃烧而不闪烁。",
+        "错误。烛芯是固定不动的。火焰的移动是空气流动影响热气体造成的。",
+        "错误。虽然火焰需要氧气，但闪烁与呼吸无关，而是空气流动扰动火焰导致的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:21:37.846951+00:00",
+      "last_modified_at": "2025-11-21T04:21:37.846951+00:00",
+      "id": "house_007"
+    },
+    {
+      "question_en": "Why does perfume smell fade?",
+      "question_zh": "为什么香水味会渐渐消失？",
+      "choices_en": [
+        "Scent molecules evaporate",
+        "Your nose gets tired",
+        "Air absorbs the smell",
+        "Light breaks down perfume"
+      ],
+      "choices_zh": [
+        "香味分子蒸发掉了",
+        "你的鼻子闻习惯了",
+        "空气把香味吸走了",
+        "光线分解了香水"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Perfume contains volatile molecules that evaporate into the air. As they spread out and dissipate, fewer reach your nose. Top notes fade fastest, while base notes linger because they evaporate more slowly.",
+        "Wrong. While nose fatigue (olfactory adaptation) happens, the perfume itself also physically disappears through evaporation.",
+        "Wrong. Air doesn't absorb smell—scent molecules disperse through it and eventually spread too thin to detect.",
+        "Wrong. Light can degrade perfume in bottles, but worn perfume fades primarily through evaporation."
+      ],
+      "explanations_zh": [
+        "正确！香水含有易挥发的香味分子，它们会蒸发到空气中。随着分子扩散和消散，到达你鼻子的香味就变少了。前调消失最快，而后调更持久，因为它们蒸发得更慢。",
+        "不对。虽然鼻子疲劳（嗅觉适应）确实会发生，但香水本身也会通过蒸发而物理性地消失。",
+        "不对。空气并不会吸收香味——香味分子是通过空气扩散的，最终会变得太稀薄而无法闻到。",
+        "不对。光线确实会降解瓶子里的香水，但喷在身上的香水香味消失主要是由于蒸发。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:21:54.489988+00:00",
+      "last_modified_at": "2025-11-21T04:21:54.489988+00:00",
+      "id": "house_008"
+    },
+    {
+      "question_en": "Why do ice cubes stick in freezers?",
+      "question_zh": "为什么冰块在冰箱里会粘在一起？",
+      "choices_en": [
+        "Cold air acts like glue",
+        "Ice expands and locks",
+        "Surface ice melts and refreezes",
+        "Plastic trays grip the ice"
+      ],
+      "choices_zh": [
+        "冷空气像胶水一样粘",
+        "冰块膨胀后卡住",
+        "表面冰融化又冻结",
+        "塑料托盘夹住冰块"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Cold air doesn't have adhesive properties. The sticking involves water phase changes, not air.",
+        "Wrong. Expansion doesn't cause sticking. Ice cubes actually contract slightly at very low temperatures.",
+        "Correct! When you touch ice or open the freezer, slight warming melts a thin surface layer. This water quickly refreezes, bonding ice cubes together or to the tray. That's why fresh ice separates easily!",
+        "Wrong. The tray material isn't the issue—ice sticks to metal trays too. Surface melting and refreezing causes the bond."
+      ],
+      "explanations_zh": [
+        "错！冷空气没有粘性。冰块粘住是因为水的相变，和空气无关。",
+        "错！膨胀不会导致粘住。冰块在极低温下反而会轻微收缩。",
+        "对啦！当你触碰冰块或打开冰箱时，轻微升温会让表面薄层融化，水又迅速冻结，把冰块粘在一起或粘在托盘上。所以新制的冰块很容易分开！",
+        "错！托盘材质不是原因——冰块也会粘在金属托盘上。是表面融化再冻结造成了粘合。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:22:11.079936+00:00",
+      "last_modified_at": "2025-11-21T04:22:11.079936+00:00",
+      "id": "house_009"
+    },
+    {
+      "question_en": "Why does wood float but nails sink?",
+      "question_zh": "为什么木头能浮起来，钉子却会沉下去？",
+      "choices_en": [
+        "Wood is lighter than water",
+        "Density determines floating",
+        "Wood contains air bubbles",
+        "Metal attracts water down"
+      ],
+      "choices_zh": [
+        "木头比水轻",
+        "密度决定浮沉",
+        "木头里有气泡",
+        "金属会吸水下潜"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. 'Lighter' is incomplete—a huge log weighs more than a small nail. The key is density (mass per volume).",
+        "Correct! Wood has lower density than water (lots of air spaces in cells), so it floats. Iron nails are much denser than water, so they sink. An object floats if it's less dense than the liquid!",
+        "Wrong. While wood does have air spaces, the complete answer is about overall density compared to water.",
+        "Wrong. There's no magnetic-like attraction. Sinking is purely about density—the nail is denser than water."
+      ],
+      "explanations_zh": [
+        "错！'轻'不准确——大木头比小钉子重多了。关键是密度（单位体积的质量）。",
+        "对！木头密度比水低（细胞里有大量空气），所以浮着。铁钉密度远大于水，所以下沉。物体密度小于液体就会浮起来！",
+        "错！木头确实有空气，但完整答案要看整体密度是否比水小。",
+        "错！没有磁铁那样的吸引力。下沉纯粹因为密度——钉子密度比水大。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:22:27.361900+00:00",
+      "last_modified_at": "2025-11-21T04:22:27.361900+00:00",
+      "id": "house_010"
+    },
+    {
+      "question_en": "Why do windows fog on cold days?",
+      "question_zh": "为什么冷天窗户会起雾？",
+      "choices_en": [
+        "Indoor humidity condenses",
+        "Cold air leaks through glass",
+        "Glass sweats from inside",
+        "Temperature cracks release moisture"
+      ],
+      "choices_zh": [
+        "室内湿气遇冷凝结",
+        "冷空气透过玻璃渗入",
+        "玻璃从内部出汗",
+        "温度变化释放水分"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Warm indoor air holds moisture. When it contacts cold window glass, water vapor condenses into droplets. This is why fogging is worse with poor insulation or high indoor humidity.",
+        "Wrong. Air doesn't leak through solid glass. The fog forms from indoor humidity condensing on the cold surface.",
+        "Wrong. Glass doesn't contain or release water. The moisture comes from humid indoor air.",
+        "Wrong. Temperature changes don't crack windows or release moisture. Condensation comes from humid air hitting cold glass."
+      ],
+      "explanations_zh": [
+        "正确！温暖的室内空气含有湿气，遇到冰冷的窗玻璃时，水蒸气凝结成小水滴。隔热差或室内湿度高时，起雾会更严重。",
+        "错误。空气无法透过实心玻璃渗入。雾气是室内湿气在冷表面凝结形成的。",
+        "错误。玻璃本身不含水也不会释放水。湿气来自潮湿的室内空气。",
+        "错误。温度变化不会导致窗户开裂或释放水分。凝结是潮湿空气接触冷玻璃的结果。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:22:44.035934+00:00",
+      "last_modified_at": "2025-11-21T04:22:44.035934+00:00",
+      "id": "house_011"
+    },
+    {
+      "question_en": "Why does plastic become brittle?",
+      "question_zh": "塑料为什么会变脆？",
+      "choices_en": [
+        "Plastic dries out over time",
+        "Sunlight bleaches the color",
+        "UV breaks molecular chains",
+        "Air slowly dissolves plastic"
+      ],
+      "choices_zh": [
+        "塑料随时间变干",
+        "阳光漂白了颜色",
+        "紫外线破坏分子链",
+        "空气慢慢溶解塑料"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Plastic doesn't contain water to dry out. The brittleness comes from chemical changes in the polymer structure.",
+        "Wrong. Color fading and brittleness are both caused by UV damage, but bleaching isn't why plastic becomes brittle.",
+        "Correct! UV light breaks the long molecular chains that make plastic flexible. Shorter chains can't bend without breaking. Heat and oxygen also contribute. That's why outdoor plastics degrade faster!",
+        "Wrong. Air doesn't dissolve plastic. Oxygen can contribute to degradation, but the main issue is UV breaking molecular bonds."
+      ],
+      "explanations_zh": [
+        "错误。塑料不含水分，不会变干。变脆源于聚合物结构的化学变化。",
+        "错误。颜色褪色和变脆都由紫外线损伤引起，但漂白不是变脆的原因。",
+        "正确！紫外线破坏使塑料柔韧的长分子链。短链无法弯曲而断裂。热和氧气也加速降解，所以户外塑料坏得更快！",
+        "错误。空气不会溶解塑料。氧气可能促进降解，但主要问题是紫外线破坏分子键。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:22:59.823078+00:00",
+      "last_modified_at": "2025-11-21T04:22:59.823078+00:00",
+      "id": "house_012"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+# Question Draft Template V3 - Claude Code Fact-Checking Workflow
+#
+# NEW WORKFLOW (V3):
+# 1. Create questions in English (you or Claude Code)
+# 2. Claude Code fact-checks content HERE in the conversation
+# 3. Script translates to Chinese using DeepSeek
+# 4. Script adds timestamps automatically
+#
+# NO ANTHROPIC_API_KEY NEEDED - Fact-checking happens in Claude Code conversation
+# ONLY DEEPSEEK_API_KEY NEEDED - For Chinese translation
+
+category: Animals  # Choose from: Animals, Astronomy, Chemistry, Economics, Human Biology, Physics, Plants, Psychology, Technology, Weather, Food & Nutrition, Earth Science
+
+questions:
+  # REQUIRED FIELDS (All fact-checked by Claude Code before running script):
+  - question_en: "Why do cats have whiskers?"
+    correct_answer: 0  # Index 0-3
+    choices_en:
+      - "To sense surroundings and navigate"
+      - "To attract mates"
+      - "To keep insects away"
+      - "For decoration only"
+    explanations_en:
+      # IMPORTANT: All 4 explanations must be provided and fact-checked
+      # by Claude Code in the conversation BEFORE running the script
+      - "Correct! Cat whiskers (vibrissae) are highly sensitive touch receptors that help cats navigate in the dark, judge distances, and detect changes in their surroundings. They're essential sensory tools."
+      - "Wrong. Whiskers are not for attracting mates. They are sensory organs that help cats navigate and sense their environment, not reproductive features."
+      - "Wrong. Whiskers don't keep insects away. They are sensitive touch receptors used for navigation and spatial awareness in low-light conditions."
+      - "Wrong. Whiskers serve important sensory functions. They help cats navigate, judge distances, and detect changes in air currents around them."
+    difficulty: easy  # easy, medium, or hard
+
+  # Example 2: Another question
+  - question_en: "Why do dogs wag their tails?"
+    correct_answer: 2
+    choices_en:
+      - "Only when they're happy"
+      - "To keep balance while running"
+      - "To communicate emotions"
+      - "To cool down their body"
+    explanations_en:
+      - "Wrong. Tail wagging doesn't always mean happiness. Dogs wag their tails for various emotions including excitement, anxiety, and even aggression. The speed, height, and direction matter."
+      - "Wrong. While tails can help with balance, that's not why dogs wag them. Wagging is specifically for communication with other dogs and humans."
+      - "Correct! Dogs wag their tails to communicate a range of emotions and intentions. A high, fast wag might signal excitement, while a low, slow wag could indicate uncertainty. The direction of the wag can even convey different feelings!"
+      - "Wrong. Dogs cool down by panting through their mouths, not by wagging their tails. Tail wagging is a form of emotional communication."
+    difficulty: medium
+
+# WORKFLOW STEPS:
+#
+# 1. CREATE QUESTIONS:
+#    - You write English questions OR
+#    - Ask Claude Code to create them for you
+#
+# 2. FACT-CHECK WITH CLAUDE CODE:
+#    - Claude Code reviews all content in the conversation
+#    - Claude Code corrects any inaccuracies
+#    - Claude Code ensures scientific accuracy
+#    - This happens BEFORE running the script
+#
+# 3. RUN SCRIPT:
+#    - Copy this template: cp questions/drafts/template_v3.yaml questions/drafts/my_questions.yaml
+#    - Fill in fact-checked content
+#    - Run: python scripts/add_questions.py --draft questions/drafts/my_questions.yaml
+#
+# 4. SCRIPT AUTOMATICALLY:
+#    ✅ Translates to Chinese (DeepSeek)
+#    ✅ Adds timestamps (created_at, last_modified_at)
+#    ✅ Validates format
+#    ✅ Adds to JSON file
+#    ✅ Updates master list
+#    ✅ NO confirmations needed!
+
+# CHARACTER LIMITS:
+# - question_en: Max 45 characters
+# - question_zh: Max 25 characters (auto-translated)
+# - choices_en: Max 35 characters each
+# - choices_zh: Max 15 characters each (auto-translated)
+# - Always provide exactly 4 choices
+# - Always provide exactly 4 explanations
+# - correct_answer is 0-indexed (0, 1, 2, or 3)
+# - difficulty: easy, medium, or hard
+
+# IMPORTANT:
+# ✅ English explanations are REQUIRED (fact-checked by Claude Code)
+# ✅ Chinese translation is AUTOMATIC (DeepSeek)
+# ✅ Timestamps are AUTOMATIC
+# ✅ No ANTHROPIC_API_KEY needed
+# ✅ Only DEEPSEEK_API_KEY needed for translation
+# ✅ Fully automated - no confirmations
+
+# EXAMPLE CONVERSATION WITH CLAUDE CODE:
+#
+# User: "I want to create a question about why the sky is blue"
+#
+# Claude Code: "Great! Here's a fact-checked question:
+#
+# Question: Why is the sky blue?
+# Correct Answer: Rayleigh scattering
+# Choices:
+#   0. "Rayleigh scattering of sunlight"
+#   1. "Ocean reflects its color"
+#   2. "Blue nitrogen in atmosphere"
+#   3. "Ozone layer is blue"
+#
+# Explanations:
+#   0. "Correct! Blue light has shorter wavelength..." [fact-checked]
+#   1. "Wrong. The ocean is blue because..." [fact-checked]
+#   2. "Wrong. Nitrogen is colorless..." [fact-checked]
+#   3. "Wrong. The ozone layer..." [fact-checked]
+#
+# This content has been fact-checked. Now add it to a YAML file and run the script!"

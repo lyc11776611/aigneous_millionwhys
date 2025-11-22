@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Question Draft Schema",
+  "description": "Schema for validating question draft files before processing",
+  "type": "object",
+  "required": ["category", "questions"],
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "Animals",
+        "Astronomy",
+        "Chemistry",
+        "Economics",
+        "Human Biology",
+        "Physics",
+        "Plants",
+        "Psychology",
+        "Technology",
+        "Weather",
+        "Food & Nutrition",
+        "Earth Science"
+      ],
+      "description": "Category name for the questions"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/question"
+      }
+    }
+  },
+  "definitions": {
+    "question": {
+      "type": "object",
+      "required": ["question_en", "correct_answer", "choices_en"],
+      "properties": {
+        "question_en": {
+          "type": "string",
+          "maxLength": 45,
+          "minLength": 5,
+          "description": "Question in English (max 45 chars)"
+        },
+        "question_zh": {
+          "type": "string",
+          "maxLength": 25,
+          "description": "Question in Chinese (max 25 chars, auto-generated if missing)"
+        },
+        "correct_answer": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "Index of correct choice (0-3)"
+        },
+        "choices_en": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "maxLength": 35,
+            "minLength": 3
+          },
+          "description": "Four answer choices in English (max 35 chars each)"
+        },
+        "choices_zh": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "maxLength": 15
+          },
+          "description": "Four answer choices in Chinese (auto-generated if missing)"
+        },
+        "explanations_en": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "string"
+          },
+          "description": "Four explanations in English (auto-generated if missing)"
+        },
+        "explanations_zh": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "string"
+          },
+          "description": "Four explanations in Chinese (auto-generated if missing)"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "default": "medium",
+          "description": "Question difficulty level"
+        }
+      }
+    }
+  }
+}

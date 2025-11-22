@@ -3,9 +3,8 @@
   "category_zh": "地球科学",
   "questions": [
     {
-      "id": "earth_001",
       "question_en": "Why do earthquakes happen?",
-      "question_zh": "为什么会发生地震？",
+      "question_zh": "地震为什么会发生？",
       "choices_en": [
         "The ground shakes randomly",
         "Tectonic plates move and shift",
@@ -13,8 +12,8 @@
         "Gravity pulls the earth"
       ],
       "choices_zh": [
-        "地面随机震动",
-        "地壳板块移动",
+        "地面随机摇晃",
+        "地壳板块移动和碰撞",
         "地下发生爆炸",
         "重力拉扯地球"
       ],
@@ -26,17 +25,19 @@
         "Wrong. Gravity doesn't cause earthquakes. While gravity affects plate tectonics indirectly, earthquakes are caused by the movement and collision of tectonic plates driven by convection currents in Earth's mantle, not by gravity pulling the earth."
       ],
       "explanations_zh": [
-        "错误。地震不是随机发生的。它们发生在地壳板块相遇和相互作用的特定位置。大多数地震发生在断层线上，这是板块之间的边界。",
-        "正确！地球的地壳被分成大块称为地壳板块，漂浮在下面的半熔融地幔上。这些板块不断非常缓慢地移动。当它们相互摩擦、卡住，然后突然滑动时，储存的能量以地震波的形式释放 - 这就是地震！大多数发生在板块边界。",
-        "错误。虽然地下爆炸（如核试验）可能引起轻微震动，但自然地震是由地壳板块运动引起的，而不是爆炸。能量来自断层线上应力的缓慢积累。",
-        "错误。重力不会引起地震。虽然重力间接影响板块构造，但地震是由地球地幔中对流引起的地壳板块运动和碰撞引起的，而不是重力拉扯地球。"
+        "错误。地震并非随机发生，它们出现在地壳板块相遇和相互作用的特定位置。大多数地震发生在板块边界的断层线上。",
+        "正确！地壳被分割成巨大的板块，漂浮在半熔融的地幔上。这些板块缓慢移动，当它们相互摩擦、卡住后突然滑动，储存的能量以地震波形式释放——这就是地震！多数发生在板块边界。",
+        "错误。虽然地下爆炸（如核试验）可能引发轻微震动，但自然地震是由地壳板块运动引起的，而非爆炸。能量来自断层线上应力的缓慢积累。",
+        "错误。重力不会导致地震。尽管重力间接影响板块构造，但地震是由地幔对流驱动的地壳板块移动和碰撞引起的，而非重力拉扯地球。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_001"
     },
     {
-      "id": "earth_002",
       "question_en": "Why do volcanoes erupt?",
-      "question_zh": "为什么火山会喷发？",
+      "question_zh": "火山为什么会喷发？",
       "choices_en": [
         "Mountains get too hot",
         "Magma pressure forces it up",
@@ -44,10 +45,10 @@
         "Earthquakes trigger eruptions"
       ],
       "choices_zh": [
-        "山体过热",
-        "岩浆压力推动上升",
+        "山脉太热了",
+        "岩浆压力把它推上来",
         "气泡导致爆炸",
-        "地震触发喷发"
+        "地震引发喷发"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -57,17 +58,19 @@
         "Wrong. While earthquakes and volcanic eruptions are related (both occur at plate boundaries), earthquakes don't cause eruptions. Both are symptoms of tectonic activity. The eruption is caused by magma pressure, though earthquakes can sometimes trigger eruptions that were already ready to happen."
       ],
       "explanations_zh": [
-        "错误。不是山体变热 - 热量来自地球深处。火山形成于地幔中的岩浆可以到达地表的地方。山只是由以前喷发堆积而成的锥体。",
-        "正确！在地下深处，由于极端的热量和压力，岩石融化成岩浆。岩浆比周围的岩石密度小，所以上升。随着上升，溶解的气体膨胀，压力增加。当压力超过上覆岩石的强度时，火山就喷发了！岩浆可以通过地壳中的裂缝或薄弱点到达地表。",
-        "错误。虽然岩浆中的气泡通过膨胀确实有助于爆炸性喷发，但它们不是主要原因。根本原因是岩浆压力。气体使喷发更猛烈，但上升岩浆的压力积累才是驱动喷发的原因。",
-        "错误。虽然地震和火山喷发有关（两者都发生在板块边界），但地震不会引起喷发。两者都是构造活动的症状。喷发是由岩浆压力引起的，尽管地震有时可以触发已经准备好喷发的火山。"
+        "错啦！不是山脉变热——热量来自地球深处。火山形成于地幔岩浆能到达地表的地方，山脉只是之前喷发堆积的锥体。",
+        "对啦！地下深处，岩石在高温高压下融化成岩浆。岩浆比周围岩石密度小，所以会上升。上升时溶解的气体膨胀，压力增大。当压力超过上覆岩石强度，火山就喷发啦！岩浆通过地壳裂缝或薄弱处到达地表。",
+        "错啦！虽然岩浆中的气泡通过膨胀会加剧爆炸性喷发，但不是主要原因。根本原因是岩浆压力。气泡让喷发更猛烈，但上升岩浆的压力积累才是驱动喷发的关键。",
+        "错啦！虽然地震和火山喷发有关（都发生在板块边界），但地震不会导致喷发。两者都是构造活动的表现。喷发由岩浆压力引起，不过地震有时会触发本就蓄势待发的喷发。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_002"
     },
     {
-      "id": "earth_003",
       "question_en": "Why is the ocean salty?",
-      "question_zh": "为什么海洋是咸的？",
+      "question_zh": "为什么海水是咸的？",
       "choices_en": [
         "Salt deposits dissolved over time",
         "Sea creatures produce salt",
@@ -75,10 +78,10 @@
         "Evaporation concentrates salt"
       ],
       "choices_zh": [
-        "盐沉积物长期溶解",
-        "海洋生物产生盐",
-        "海底火山增加盐",
-        "蒸发浓缩盐"
+        "盐矿溶解历经漫长岁月",
+        "海洋生物会制造盐分",
+        "海底火山喷发添加盐分",
+        "水分蒸发使盐分浓缩"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -88,17 +91,19 @@
         "Wrong. Evaporation is the result, not the cause. Evaporation does concentrate salt in areas like the Dead Sea, but it doesn't explain where the salt came from originally. The salt is from weathered rocks carried to the ocean by rivers over geological time."
       ],
       "explanations_zh": [
-        "正确！数十亿年来，雨水风化陆地上的岩石，溶解包括盐在内的矿物质。河流将这些溶解的矿物质带到海洋。水蒸发，但盐留下来，随着时间积累。海底火山活动也增加矿物质。海洋已经收集这些盐超过30亿年了！",
-        "错误。海洋生物不产生盐。事实上，海洋生物必须适应咸的环境。一些过滤盐，另一些保持盐平衡。盐来自岩石风化和火山活动，而不是生物过程。",
-        "错误。虽然海底火山确实向海洋贡献一些矿物质，但它们不是盐的主要来源。主要来源是数十亿年来陆地岩石的风化。河流不断将溶解的矿物质带到海洋。",
-        "错误。蒸发是结果，不是原因。蒸发确实会在死海等地区浓缩盐，但它不能解释盐最初从哪里来。盐来自经过地质时间被河流带到海洋的风化岩石。"
+        "正确！数十亿年来，雨水冲刷陆地岩石，溶解了包括盐在内的矿物质。河流将这些溶解的矿物质带入海洋。水分蒸发，但盐分留下，随时间不断累积。海底火山活动也贡献了矿物质。海洋已收集这些盐分超过30亿年！",
+        "错误。海洋生物不会制造盐分。实际上，海洋生物必须适应咸水环境，有些会过滤盐分，有些则维持盐分平衡。盐分来自岩石风化和火山活动，而非生物过程。",
+        "错误。虽然海底火山确实为海洋贡献了一些矿物质，但它们不是盐分的主要来源。主要来源是数十亿年来陆地岩石的风化，河流不断将溶解的矿物质带入海洋。",
+        "错误。蒸发是结果而非原因。蒸发确实会在死海等区域浓缩盐分，但这无法解释盐分最初来自哪里。盐分来自地质时期河流携带的风化岩石进入海洋。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_003"
     },
     {
-      "id": "earth_004",
       "question_en": "Why do mountains have snow on top?",
-      "question_zh": "为什么山顶有雪？",
+      "question_zh": "为什么山顶上会有积雪呢？",
       "choices_en": [
         "Clouds drop snow there",
         "Temperature drops with altitude",
@@ -106,10 +111,10 @@
         "Mountains are closer to clouds"
       ],
       "choices_zh": [
-        "云在那里降雪",
-        "温度随海拔降低",
-        "风将雪带上去",
-        "山离云更近"
+        "云朵在那里下雪",
+        "温度随海拔升高而降低",
+        "风把雪吹到山顶",
+        "山顶离云更近"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -119,17 +124,19 @@
         "Wrong. Being closer to clouds doesn't make it colder. In fact, clouds form at various altitudes. Mountains have snow because temperature decreases with altitude due to lower air pressure and thinner atmosphere, which holds less heat. It's the cold temperature that creates and preserves snow."
       ],
       "explanations_zh": [
-        "错误。虽然降水确实从高海拔的云中落下，但这不能解释为什么是雪而不是雨，或者为什么雪留在山顶。关键是温度随海拔降低。",
-        "正确！温度每升高1000米下降约6.5°C。这称为环境递减率。在某个海拔（雪线）以上，足够冷，降水以雪的形式落下，雪全年保持冰冻。即使热带山脉在高海拔也可以有永久雪！稀薄的空气也保持较少的热量。",
-        "错误。风不会将雪向上带到山上沉积。雪是在冷空气中水蒸气结晶时形成的。山顶由于海拔而更冷，所以降水以雪的形式落在那里并保持冰冻。",
-        "错误。离云更近不会使其更冷。事实上，云在不同海拔形成。山有雪是因为温度随海拔降低，这是由于较低的气压和较薄的大气层，保持较少的热量。是寒冷的温度创造和保存雪。"
+        "错啦！虽然高海拔地区确实有降水，但这不能解释为什么是雪而不是雨，或者雪为什么能留在山顶。关键在于温度会随海拔升高而下降。",
+        "对啦！海拔每升高1000米，温度大约下降6.5°C，这叫环境递减率。超过一定海拔（雪线），温度低到降水以雪的形式落下，并且雪能常年保持冰冻状态。就连热带的高山上也可能有永久积雪哦！稀薄的空气也储存不了多少热量。",
+        "错啦！风并不会把雪吹到山顶堆积起来。雪是冷空气中的水蒸气结晶形成的。山顶因为海拔高而更冷，所以降水在那里以雪的形式落下并保持冰冻。",
+        "错啦！离云更近并不会让温度变低。实际上，云可以在不同高度形成。山顶有雪是因为海拔升高导致温度下降，空气压力降低、大气变薄，储存的热量更少。是低温造就并保存了雪。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_004"
     },
     {
-      "id": "earth_005",
       "question_en": "Why are there waves in the ocean?",
-      "question_zh": "为什么海洋中有波浪？",
+      "question_zh": "为什么大海里会有波浪？",
       "choices_en": [
         "Fish swimming creates waves",
         "Wind friction on water surface",
@@ -137,10 +144,10 @@
         "Ocean floor pushes water"
       ],
       "choices_zh": [
-        "鱼游动产生波浪",
-        "风摩擦水面",
-        "月亮拉动水",
-        "海底推动水"
+        "鱼儿游动掀起波浪",
+        "风吹水面摩擦生波",
+        "月亮引力拉扯海水",
+        "海底推动海水涌动"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -150,17 +157,19 @@
         "Wrong. The ocean floor doesn't push water to create waves. Waves are surface phenomena caused by wind. However, underwater earthquakes can create special waves called tsunamis, but regular ocean waves come from wind friction on the surface."
       ],
       "explanations_zh": [
-        "错误。鱼可以产生小波纹，但海浪太大了，不可能由海洋生物引起。波浪主要由风产生，波浪大小取决于风速、持续时间和风区（水面上的距离）。",
-        "正确！吹过海洋的风通过摩擦将能量传递给水。这产生波纹，然后长成波浪。波浪大小取决于风速、吹的时间和吹过的距离（风区）。水本身不向前移动 - 能量移动！只有波形传播；水粒子在圆形轨道中移动。",
-        "错误。虽然月亮确实影响海水，但它引起潮汐（数小时内的涨落），而不是波浪（每几秒发生一次）。潮汐与波浪不同。常规海浪是由风引起的，而不是月球引力拉动。",
-        "错误。海底不会推动水产生波浪。波浪是由风引起的表面现象。然而，海底地震可以产生称为海啸的特殊波浪，但常规海浪来自水面上的风摩擦。"
+        "错啦！鱼儿只能掀起小涟漪，大海的波浪可大得多，主要靠风形成。波浪大小取决于风速、时长和吹过的海面距离。",
+        "对啦！风吹海面时，通过摩擦把能量传给海水，形成涟漪并长成波浪。波浪大小看风速、时长和吹过的距离。海水本身不前进，是能量在传播——水粒子只是转圈圈！",
+        "错啦！月亮确实影响海水，但它引起的是潮汐（几小时涨落一次），不是波浪（几秒一次）。潮汐和波浪是两码事，普通波浪是风吹出来的。",
+        "错啦！海底不会推水造波浪。波浪是风吹水面形成的表面现象。不过海底地震会引发特殊波浪——海啸，但普通波浪都来自风吹水面哦。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_005"
     },
     {
-      "id": "earth_006",
       "question_en": "Why does sand exist at beaches?",
-      "question_zh": "为什么海滩上有沙子？",
+      "question_zh": "为什么沙滩上会有沙子呢？",
       "choices_en": [
         "Ocean creates sand particles",
         "Rocks eroded over millions of years",
@@ -168,10 +177,10 @@
         "Wind carries desert sand there"
       ],
       "choices_zh": [
-        "海洋产生沙粒",
-        "岩石历经百万年侵蚀",
-        "贝壳溶解成沙",
-        "风带来沙漠的沙"
+        "海洋制造了沙子颗粒",
+        "岩石经过数百万年风化侵蚀",
+        "贝壳溶解成了沙子",
+        "风把沙漠的沙子吹了过来"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -181,17 +190,19 @@
         "Wrong. Desert sand rarely reaches beaches. Beach sand is locally sourced from nearby rock erosion and river deposits. Desert sand grains are actually more rounded from wind erosion, while beach sand is more angular from water action. They form through different processes."
       ],
       "explanations_zh": [
-        "错误。海洋不产生沙子 - 它运输和沉积沙子。沙子来自极长时期内岩石、矿物质，有时是贝壳的风化和侵蚀。海浪和洋流将沙子移动到海滩。",
-        "正确！沙子主要是岩石和矿物质的微小碎片，是数百万年的风化和侵蚀产生的。河流将这些颗粒带到海洋，海浪和洋流将它们分类并沉积在海滩上。海滩沙子成分各不相同 - 有些是来自花岗岩的石英，有些是火山岩，有些是珊瑚或贝壳碎片！白沙滩含有更多贝壳和珊瑚成分。",
-        "错误。虽然一些海滩沙子确实含有贝壳碎片，特别是在热带海滩，但大多数沙子来自侵蚀的岩石。贝壳可以分解成沙粒大小的颗粒，但不是主要来源。地质时间内的岩石侵蚀产生大多数海滩沙子。",
-        "错误。沙漠沙子很少到达海滩。海滩沙子来自当地附近的岩石侵蚀和河流沉积。沙漠沙粒实际上由于风蚀更圆，而海滩沙子由于水作用更有棱角。它们通过不同的过程形成。"
+        "错啦！海洋不会制造沙子，它只是搬运和堆积沙子。沙子来自岩石、矿物，有时还有贝壳经过极长时间的风化和侵蚀。海浪和海流把沙子带到沙滩上。",
+        "答对啦！沙子主要是岩石和矿物的微小碎片，经过数百万年的风化和侵蚀形成。河流把这些颗粒带到海洋，海浪和海流对它们进行分类并堆积在沙滩上。沙滩沙子的成分各不相同——有的是花岗岩中的石英，有的是火山岩，还有的是珊瑚或贝壳碎片！白色沙滩的贝壳和珊瑚含量更高哦。",
+        "不对哦。虽然有些沙滩沙子确实含有贝壳碎片，尤其是在热带沙滩，但大部分沙子来自被侵蚀的岩石。贝壳可以分解成沙子大小的颗粒，但不是主要来源。地质时期岩石的侵蚀形成了大多数沙滩沙子。",
+        "错啦！沙漠沙子很少能到达沙滩。沙滩沙子主要来自附近岩石的侵蚀和河流沉积。沙漠沙粒因风蚀更圆润，而沙滩沙子因水的作用更棱角分明。它们是通过不同过程形成的。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_006"
     },
     {
-      "id": "earth_007",
       "question_en": "Why do rivers flow to the ocean?",
-      "question_zh": "为什么河流流向海洋？",
+      "question_zh": "为什么河流总是流向大海呢？",
       "choices_en": [
         "Ocean pulls water magnetically",
         "Gravity pulls water downhill",
@@ -199,10 +210,10 @@
         "Rivers follow underground tunnels"
       ],
       "choices_zh": [
-        "海洋磁性吸引水",
-        "重力将水拉下坡",
-        "地球自转推动水",
-        "河流沿地下隧道"
+        "海洋用磁力吸引水",
+        "重力让水往低处流",
+        "地球自转推动水流",
+        "河流沿着地下隧道走"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -212,17 +223,19 @@
         "Wrong. Rivers don't follow underground tunnels - they flow on the surface along channels they've carved through erosion. Groundwater can flow underground, but rivers are surface water flowing downhill due to gravity, creating their own paths over geological time."
       ],
       "explanations_zh": [
-        "错误。海洋没有吸引水的磁性。水不是磁性的。河流流动是因为重力 - 它们沿着最小阻力的下坡路径，而海洋处于最低海拔。",
-        "正确！由于重力，水总是向下流动，沿着最小阻力的路径。河流从高海拔（山脉、丘陵）开始，流向最低点 - 通常是海洋。陆地表面自然向海倾斜。河流随着时间侵蚀山谷，创造引导流动的河道。所有河流最终到达海洋或较低海拔的内陆湖泊/海！",
-        "错误。地球自转确实影响洋流和风模式（科里奥利效应），但它不会推动河流流向海洋。河流由于重力向下流动。方向由地形（景观坡度）决定，而不是地球自转。",
-        "错误。河流不沿地下隧道流动 - 它们在表面沿着通过侵蚀雕刻的河道流动。地下水可以在地下流动，但河流是由于重力在表面流动的水，在地质时间内创造自己的路径。"
+        "错啦！海洋没有磁力能吸引水，水本身也不是磁性的。河流流动是因为重力作用——它们沿着阻力最小的路径往低处流，而大海通常处于最低点。",
+        "正确！水总是受重力影响往低处流，沿着阻力最小的路径。河流从高处（如山脉、丘陵）出发，流向最低点——通常是海洋。陆地表面自然向海倾斜，河流经过长时间冲刷，形成河道引导水流。所有河流最终都会汇入海洋或更低的内陆湖泊！",
+        "不对哦。地球自转确实会影响洋流和风（科里奥利效应），但它不会推动河流流向大海。河流流动是重力导致的，方向由地形坡度决定，而不是地球自转。",
+        "错啦！河流不是沿着地下隧道流动的——它们在地表沿着自己侵蚀出的河道流动。地下水可能在地下流动，但河流是地表水，受重力作用往低处流，在地质时间中塑造自己的路径。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_007"
     },
     {
-      "id": "earth_008",
       "question_en": "Why are caves formed?",
-      "question_zh": "为什么会形成洞穴？",
+      "question_zh": "洞穴是怎么形成的？",
       "choices_en": [
         "Animals dig them out",
         "Water dissolves rock over time",
@@ -231,9 +244,9 @@
       ],
       "choices_zh": [
         "动物挖出来的",
-        "水长期溶解岩石",
-        "地震裂开岩石",
-        "风侵蚀掏空岩石"
+        "水长时间溶解岩石",
+        "地震震裂岩石",
+        "风蚀掏空岩石"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -243,17 +256,19 @@
         "Wrong. Wind erosion can create shallow rock shelters in deserts, but not deep underground cave systems. Most caves form through water dissolving soluble rocks like limestone underground. Wind erosion is a surface process and too weak to create large underground chambers."
       ],
       "explanations_zh": [
-        "错误。虽然一些动物生活在洞穴中或扩大小洞，但它们不会创造大型洞穴系统。大多数洞穴通过水对岩石的化学溶解形成，这个过程需要数千到数百万年。",
-        "正确！大多数洞穴通过称为溶解的过程在石灰岩中形成。雨水从空气和土壤中吸收二氧化碳，变得微酸性。这种弱碳酸在渗透裂缝时慢慢溶解石灰岩。经过数千年，这创造了地下洞穴。钟乳石和石笋由滴水重新沉积的矿物质形成！",
-        "错误。虽然地震可以裂开岩石并产生裂缝，但它们不会创造我们称为洞穴的大型空心室。洞穴形成是水对岩石的缓慢化学溶解过程，而不是突然的机械破裂。",
-        "错误。风侵蚀可以在沙漠中创造浅岩石遮蔽物，但不能创造深地下洞穴系统。大多数洞穴通过水溶解地下可溶性岩石如石灰岩形成。风侵蚀是表面过程，太弱无法创造大型地下室。"
+        "错啦！虽然有些动物住在洞穴里或扩大小洞，但它们不会形成大型洞穴系统。大多数洞穴是水化学溶解岩石形成的，这个过程要花上千年到百万年呢。",
+        "对啦！大多数洞穴是在石灰岩中通过溶解作用形成的。雨水吸收空气和土壤中的二氧化碳，变成弱酸性。这种弱碳酸渗入岩石裂缝，慢慢溶解石灰岩。经过数千年，就形成了地下洞穴。钟乳石和石笋就是滴水重新沉积矿物质形成的哦！",
+        "错啦！地震虽然能震裂岩石形成裂缝，但不会形成我们所说的巨大洞穴空腔。洞穴形成是水溶解岩石的缓慢化学过程，不是突然的机械破裂。",
+        "错啦！风蚀在沙漠里能形成浅的岩棚，但不会形成深的地下洞穴系统。大多数洞穴是水在地下溶解可溶性岩石（如石灰岩）形成的。风蚀是地表过程，力量太弱，造不出大型地下空腔。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_008"
     },
     {
-      "id": "earth_009",
       "question_en": "Why do islands form?",
-      "question_zh": "为什么会形成岛屿？",
+      "question_zh": "岛屿是怎么形成的？",
       "choices_en": [
         "Floating rocks accumulate",
         "Volcanic or tectonic activity",
@@ -261,10 +276,10 @@
         "Icebergs melt and settle"
       ],
       "choices_zh": [
-        "漂浮岩石积累",
-        "火山或构造活动",
-        "海洋沙子堆积",
-        "冰山融化沉降"
+        "漂浮的岩石堆积而成",
+        "火山或地壳活动",
+        "海洋中的沙子堆积",
+        "冰山融化后沉淀"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -274,17 +289,19 @@
         "Wrong. Icebergs are floating ice that melts into water - they don't settle to form land. Islands are solid rock formations that rise from the seafloor, formed by volcanic activity, tectonic uplift, or coral growth, not from melted ice."
       ],
       "explanations_zh": [
-        "错误。岩石不会漂浮并积累形成岛屿。岛屿是属于地壳一部分的陆地块，连接到海底。它们通过火山活动、构造隆起，或有时珊瑚礁生长形成。",
-        "正确！岛屿通过几个过程形成：火山喷发从海底堆积陆地（如夏威夷）；地壳板块运动将水下陆地抬升到海平面以上；珊瑚礁在火山基础上生长（环礁）；或海平面上升隔离以前的大陆地区。一些岛屿如日本位于板块边界上。关键是地质过程创造水上陆地！",
-        "错误。虽然沙子可以在海岸附近形成屏障岛，但这不能解释大多数岛屿。主要岛屿通过火山活动或构造隆起形成。沙子移动是可能改变海岸线的次要过程，而不是创造大量岛屿。",
-        "错误。冰山是融化成水的漂浮冰 - 它们不会沉降形成陆地。岛屿是从海底升起的固体岩石地层，由火山活动、构造隆起或珊瑚生长形成，而不是来自融化的冰。"
+        "错误。岩石不会漂浮堆积成岛屿。岛屿是地壳的一部分，与海底相连，通常由火山活动、地壳抬升或珊瑚礁生长形成。",
+        "正确！岛屿形成有多种方式：火山喷发从海底堆积成陆地（如夏威夷）；地壳板块运动将水下陆地抬升出海面；珊瑚礁在火山基础上生长（环礁）；或海平面上升使原大陆部分孤立。像日本这样的岛屿位于板块边界。关键是地质过程创造了水上陆地！",
+        "错误。虽然沙子可在海岸附近形成障壁岛，但这不能解释大多数岛屿。主要岛屿由火山活动或地壳抬升形成。沙子移动是次要过程，可能改变海岸线，而非形成实质性岛屿。",
+        "错误。冰山是漂浮的冰，融化后变成水——不会沉淀成陆地。岛屿是从海底升起的固体岩石构造，由火山活动、地壳抬升或珊瑚生长形成，而非来自融化的冰。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_009"
     },
     {
-      "id": "earth_010",
       "question_en": "Why do tsunamis happen?",
-      "question_zh": "为什么会发生海啸？",
+      "question_zh": "为什么大海会突然掀起滔天巨浪，形成海啸呢？",
       "choices_en": [
         "Strong winds create huge waves",
         "Underwater quakes displace water",
@@ -292,10 +309,10 @@
         "Underwater volcanoes boil water"
       ],
       "choices_zh": [
-        "强风产生巨浪",
-        "海底地震移动水体",
-        "月球引力拉动海洋",
-        "海底火山煮沸水"
+        "狂风卷起巨大海浪",
+        "海底地震让海水移位",
+        "月球引力拉扯海洋",
+        "海底火山煮沸海水"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -305,17 +322,19 @@
         "Wrong. Underwater volcanoes don't boil water to create tsunamis. However, violent volcanic explosions can displace water suddenly, creating tsunamis. But most tsunamis come from underwater earthquakes, not volcanic activity. It's the sudden movement of Earth's crust displacing water that creates these waves."
       ],
       "explanations_zh": [
-        "错误。风产生常规海浪，而不是海啸。海啸不同 - 它们由大量水的突然位移引起，通常来自海底地震。风驱动的波浪只影响表面；海啸涉及整个水柱。",
-        "正确！海啸由海底的突然垂直位移触发，通常来自俯冲带的海底地震。当地壳板块突然移动时，它们推动或拉动大量水。这种能量以喷气速度（高达800公里/小时）在海洋中传播波浪！海底滑坡和火山喷发也可以引起海啸。波浪高度在浅海水域急剧增加。",
-        "错误。月球引力产生潮汐 - 在6小时内缓慢、可预测的涨落。海啸是由地质事件如海底地震或滑坡触发的突然灾难性波浪。它们是完全不同的现象。",
-        "错误。海底火山不会煮沸水产生海啸。然而，猛烈的火山爆发可以突然移动水，产生海啸。但大多数海啸来自海底地震，而不是火山活动。是地壳的突然运动移动水产生这些波浪。"
+        "错啦！狂风只能制造普通海浪，海啸可不一样。它是由海底地震等导致大量海水突然移位形成的。风浪只影响海面，海啸却撼动整个水层。",
+        "对啦！海啸通常由海底地震引发，尤其是在板块俯冲带。当地壳突然移动，会推拉巨量海水，形成以喷气机速度（高达800公里/小时）传播的波浪！海底滑坡和火山爆发也能导致海啸，波浪在浅海会急剧增高。",
+        "错啦！月球引力造成的是潮汐——缓慢、可预测的6小时涨落。海啸是突发灾难波，由地质事件如海底地震或滑坡触发，两者完全不同。",
+        "错啦！海底火山不会煮沸海水来制造海啸。但猛烈火山爆发可能突然移位海水，形成海啸。不过，大多数海啸源自海底地震，不是火山活动。是地壳突然移动移位海水，才造就这些巨浪。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_010"
     },
     {
-      "id": "earth_011",
       "question_en": "Why is underground water cold?",
-      "question_zh": "为什么地下水是冷的？",
+      "question_zh": "为什么地下水总是凉飕飕的？",
       "choices_en": [
         "Ice melts underground",
         "Earth insulates from surface heat",
@@ -323,10 +342,10 @@
         "Lack of sunlight makes it cold"
       ],
       "choices_zh": [
-        "地下冰融化",
-        "地球隔绝地表热量",
-        "岩石冷却水",
-        "缺少阳光使其冷"
+        "地下冰块融化所致",
+        "大地隔绝了地表热量",
+        "岩石把水冷却了",
+        "没有阳光照射变冷"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -336,17 +355,19 @@
         "Wrong. Lack of sunlight doesn't directly make water cold - it just means no direct heating. Underground water is cool because earth insulates it from surface temperature changes. The stable temperature is close to the annual average surface temperature. Deep underground, water actually gets warmer from geothermal heat!"
       ],
       "explanations_zh": [
-        "错误。冰融化会暂时提供冷水，但大多数地区地下没有冰。地下水温度稳定，由深度和当地地热条件决定，与地表温度变化隔绝。",
-        "正确！地下水保持相对恒定的温度，接近该地区的年平均地表温度（通常为10-15°C）。地球充当绝缘体，保护地下水免受日常和季节性温度波动的影响。这就是为什么洞穴在夏天感觉凉爽，在冬天感觉温暖！然而，由于地球内部的地热，深处的水会变得更温暖。",
-        "错误。岩石不会主动冷却水。岩石充当绝缘体，保持水在稳定温度。凉爽来自与地表热量变化隔绝。在浅层深度，地下水温度反映该地区的年平均温度。",
-        "错误。缺少阳光不会直接使水变冷 - 它只是意味着没有直接加热。地下水凉爽是因为地球使其与地表温度变化隔绝。稳定的温度接近年平均地表温度。深地下，水实际上由于地热而变得更温暖！"
+        "错啦！冰块融化只能暂时让水变凉，但大多数地方地下根本没有冰。地下水温度稳定，由深度和地热条件决定，不受地表温度变化影响。",
+        "对啦！地下水温度相对恒定，接近当地年平均地表温度（通常10-15°C）。大地像保温层一样，保护地下水免受日夜和季节温度波动。这就是为什么洞穴夏天凉爽、冬天温暖！不过，越往深处，水会因地热而变暖哦。",
+        "不对哦！岩石不会主动冷却水，而是作为绝缘体保持水温稳定。凉意来自隔绝地表热量变化。浅层地下水温度反映当地年平均温度。",
+        "错啦！没有阳光不会直接让水变冷，只是没有直接加热。地下水凉是因为大地隔绝了地表温度变化，稳定温度接近年平均地表温度。深地下，水反而因地热变暖呢！"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_011"
     },
     {
-      "id": "earth_012",
       "question_en": "Why do glaciers move?",
-      "question_zh": "为什么冰川会移动？",
+      "question_zh": "冰川为什么会移动呢？",
       "choices_en": [
         "Wind pushes them forward",
         "Gravity and ice deformation",
@@ -354,10 +375,10 @@
         "Earthquakes shake them loose"
       ],
       "choices_zh": [
-        "风推动它们",
-        "重力和冰变形",
-        "洋流拉动它们",
-        "地震震松它们"
+        "风把它们往前推",
+        "重力和冰的变形作用",
+        "洋流在拉动它们",
+        "地震让它们松动"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -367,17 +388,19 @@
         "Wrong. Earthquakes don't cause glacier movement. Glaciers move continuously and slowly due to gravity and ice deformation under pressure. While earthquakes might trigger ice avalanches on steep glacier faces, they don't cause the fundamental slow flow of glaciers."
       ],
       "explanations_zh": [
-        "错误。风不能移动冰川 - 它们是重达数百万吨的巨大冰层。冰川由于重力和自身重量导致冰变形和流动而移动，就像非常缓慢流动的冰河。",
-        "正确！冰川通过两种机制移动：内部变形和基底滑动。在自身重量的巨大压力下，冰晶变形并像非常粘稠的流体一样流动 - 重力将它们拉下坡。在基底，摩擦融化一些冰，产生薄水层作为润滑剂。冰川每天可以移动毫米到米！它们在数千年间雕刻了山谷并塑造了景观。",
-        "错误。洋流不会拉动冰川。山谷冰川由于重力向下移动，而冰盖从其中心向外扩散。当冰川到达海洋时，它们可以形成随洋流漂流的冰山，但冰川本身由于重力和冰物理学而移动。",
-        "错误。地震不会引起冰川运动。冰川由于重力和压力下的冰变形而持续缓慢移动。虽然地震可能触发陡峭冰川面上的冰雪崩，但它们不会引起冰川的基本缓慢流动。"
+        "错啦！风可推不动冰川——它们可是重达数百万吨的巨大冰块。冰川移动是因为重力和自身重量导致冰变形流动，就像一条慢悠悠的冰河。",
+        "正确！冰川移动有两种方式：内部变形和基底滑动。在巨大压力下，冰晶变形流动，像黏稠液体一样；重力把它们拉下山。底部摩擦融化冰，形成薄水层润滑。冰川每天能移动几毫米到几米！它们历经千年，雕刻出山谷和地貌。",
+        "错啦！洋流拉不动冰川。山谷冰川因重力下移，冰盖从中心向外扩展。冰川入海会形成冰山随洋流漂移，但冰川本身移动靠重力和冰物理。",
+        "错啦！地震不会让冰川移动。冰川在压力下因重力和冰变形持续缓慢流动。地震可能引发陡坡冰崩，但不影响冰川的基本慢速流动。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_012"
     },
     {
-      "id": "earth_013",
       "question_en": "Why do deserts exist?",
-      "question_zh": "为什么会有沙漠？",
+      "question_zh": "为什么地球上会有沙漠呢？",
       "choices_en": [
         "Sand naturally accumulates there",
         "Low rainfall due to air patterns",
@@ -385,10 +408,10 @@
         "No plants grow there"
       ],
       "choices_zh": [
-        "沙子自然积累",
-        "气流模式导致少雨",
-        "太阳蒸发所有水",
-        "没有植物生长"
+        "沙子自然堆积在那里",
+        "空气流动导致降雨稀少",
+        "太阳把水都蒸发了",
+        "那里没有植物生长"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -398,17 +421,19 @@
         "Wrong. Plants don't grow because it's a desert, not the other way around. Deserts exist primarily due to lack of rainfall from atmospheric and geographical factors. The absence of vegetation is a consequence, not a cause. Some plants do survive in deserts by adapting to extreme water scarcity."
       ],
       "explanations_zh": [
-        "错误。沙子是沙漠的结果，而不是原因。沙漠存在是因为缺少降雨，这是由大气环流模式和地理因素引起的。并非所有沙漠都是沙质的 - 有些是岩石或冰（南极洲是沙漠！）。",
-        "正确！大多数沙漠由于大气环流形成。在赤道，热空气上升并释放水分作为降雨（热带森林）。这种干空气向30°纬度移动，下沉并变暖 - 下沉空气阻止云和雨。这创造了亚热带沙漠如撒哈拉！雨影沙漠在山脉阻挡水分时形成。寒冷洋流和远离水也创造沙漠。",
-        "错误。虽然太阳确实引起蒸发，但这本身不会创造沙漠。根本原因是由于大气环流模式、地理屏障或寒冷洋流导致缺少降雨。一些沙漠如阿塔卡马几十年几乎没有降雨！",
-        "错误。植物不生长是因为它是沙漠，而不是相反。沙漠主要由于大气和地理因素导致缺少降雨而存在。植被的缺乏是结果，而不是原因。一些植物通过适应极端缺水在沙漠中生存。"
+        "错误。沙子是沙漠的结果，不是原因。沙漠形成是因为降雨稀少，这由大气环流和地理因素造成。不是所有沙漠都是沙质的，有些是岩石或冰原（比如南极洲也是沙漠！）。",
+        "正确！大多数沙漠因大气环流形成。在赤道，热空气上升释放水分形成雨（热带雨林）。干燥空气向30°纬度移动、下沉并变暖——下沉空气阻止云和雨形成，造就了像撒哈拉这样的亚热带沙漠！雨影沙漠则因山脉阻挡湿气形成。冷洋流和远离水域也会产生沙漠。",
+        "错误。虽然太阳确实导致蒸发，但这本身不会形成沙漠。根本原因是降雨稀少，由大气环流、地理障碍或冷洋流引起。像阿塔卡马沙漠这样的地方，几十年几乎不下雨！",
+        "错误。植物不生长是因为那里是沙漠，而不是反过来。沙漠主要因大气和地理因素导致降雨稀少而形成。植被缺失是结果，不是原因。有些植物通过适应极端缺水在沙漠中生存。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_013"
     },
     {
-      "id": "earth_014",
       "question_en": "Why does earth have different layers?",
-      "question_zh": "为什么地球有不同的层？",
+      "question_zh": "地球为什么会有不同的分层结构？",
       "choices_en": [
         "Layers formed randomly",
         "Dense materials sank when molten",
@@ -416,10 +441,10 @@
         "Asteroids deposited different rocks"
       ],
       "choices_zh": [
-        "层随机形成",
-        "密集材料下沉形成",
-        "火山喷发产生层次",
-        "小行星沉积不同岩石"
+        "分层是随机形成的",
+        "熔融时致密物质下沉",
+        "火山喷发造就了分层",
+        "小行星带来不同岩石"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -429,17 +454,19 @@
         "Wrong. While asteroids added material during Earth's formation, they didn't create the layered structure. The layers formed through differentiation when Earth was molten - denser materials sank to the center, lighter materials rose. Asteroid impacts contributed material but didn't organize the layers."
       ],
       "explanations_zh": [
-        "错误。地球的层次不是随机形成的。它们通过分异形成 - 当地球熔融时材料按密度分离的系统过程。较重的元素沉到中心，而较轻的元素上升到表面。",
-        "正确！当地球在46亿年前形成时，由于碰撞能量而熔融。通过'行星分异'，密度较大的材料（铁、镍）下沉形成核心，而较轻的硅酸盐岩石漂浮上升形成地幔和地壳。这创造了不同的层次：内核、外核、地幔和地壳。这就像油漂浮在水上 - 材料按密度分离！",
-        "错误。火山喷发发生是因为地球的分层结构，它们没有创造它。层次在地球早期熔融状态下通过密度驱动的分离形成。火山将材料从地幔带到地表，但不会创造基本的层次结构。",
-        "错误。虽然小行星在地球形成期间增加了材料，但它们没有创造分层结构。层次通过地球熔融时的分异形成 - 密度较大的材料沉到中心，较轻的材料上升。小行星撞击贡献了材料，但没有组织层次。"
+        "错误！地球分层并非随机形成，而是通过分异作用——地球熔融时物质按密度系统分离的过程。重元素沉向中心，轻元素浮到表面。",
+        "正确！约46亿年前地球形成时，因碰撞能量呈熔融状态。通过'行星分异作用'，铁、镍等致密物质下沉形成地核，较轻硅酸盐岩石上浮形成地幔和地壳，最终形成内核、外核、地幔、地壳的清晰分层。就像油浮在水上——物质按密度自然分离！",
+        "错误！火山喷发是地球分层结构的结果而非成因。分层形成于地球早期熔融态时的密度驱动分离。火山虽将地幔物质带到地表，但并未创造基础分层结构。",
+        "错误！小行星在地球形成期补充了物质，但未创造分层结构。分层由熔融地球的分异作用形成——致密物质下沉、轻物质上浮。陨石撞击仅补充物质，未主导分层组织。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_014"
     },
     {
-      "id": "earth_015",
       "question_en": "Why are fossils found in rocks?",
-      "question_zh": "为什么岩石中有化石？",
+      "question_zh": "为什么化石总是在岩石里被发现？",
       "choices_en": [
         "Animals hide in rocks",
         "Organisms buried and mineralized",
@@ -447,10 +474,10 @@
         "Earthquakes trap animals"
       ],
       "choices_zh": [
-        "动物藏在岩石中",
-        "生物被埋藏矿化",
-        "岩石围绕骨骼生长",
-        "地震困住动物"
+        "动物藏在岩石里",
+        "生物被掩埋并矿物化",
+        "岩石会包裹住骨头生长",
+        "地震把动物困住了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -460,12 +487,15 @@
         "Wrong. While sudden burial helps fossilization (volcanic ash, mudslides), earthquakes don't trap animals to create fossils. Fossils form when organisms are buried in sediment that later becomes rock, and minerals gradually replace the organic material over millions of years. It's a slow geological process."
       ],
       "explanations_zh": [
-        "错误。动物不会藏在岩石中并成为化石。化石在生物死亡并在腐烂前被沉积物快速掩埋时形成。经过数百万年，周围的沉积物变成岩石，而生物被矿物质替代。",
-        "正确！化石化发生在生物死后迅速被沉积物（泥、沙）掩埋，保护它们免于腐烂。经过数百万年，沉积物层压缩成沉积岩。与此同时，矿物质逐渐替代有机物质，创造生物的岩石副本。只有极少数生物成为化石 - 它需要特定条件！化石提供古代生命的证据。",
-        "错误。岩石不会围绕骨骼生长。化石通过生物被沉积物掩埋的过程形成，然后经过数百万年的压缩变成沉积岩。有机物质被矿物质替代，在岩石内创造化石。",
-        "错误。虽然突然掩埋有助于化石化（火山灰、泥石流），但地震不会困住动物产生化石。化石在生物被沉积物掩埋后形成，沉积物后来变成岩石，矿物质在数百万年内逐渐替代有机物质。这是一个缓慢的地质过程。"
+        "错啦！动物可不会躲在岩石里变成化石。化石是在生物死亡后、尚未腐烂前，被沉积物迅速掩埋形成的。经过数百万年，周围的沉积物变成岩石，而生物体则被矿物质取代。",
+        "对啦！化石形成的过程是这样的：生物死亡后被沉积物（如泥浆、沙子）快速掩埋，避免腐烂。经过数百万年，沉积层被压缩成沉积岩。同时，矿物质逐渐取代有机物质，形成生物的石质复制品。只有极少数生物能变成化石——这需要特定的条件！化石是远古生命的重要证据。",
+        "不对哦，岩石不会自己长出来包裹骨头。化石是通过生物被沉积物掩埋，经过数百万年的压缩，沉积物变成沉积岩的过程形成的。有机物质被矿物质取代，最终在岩石中形成化石。",
+        "错啦！虽然突然掩埋（如火山灰、泥石流）有助于化石形成，但地震并不会困住动物来制造化石。化石是生物被沉积物掩埋，后来沉积物变成岩石，经过数百万年矿物质逐渐取代有机物质的缓慢地质过程。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "earth_015"
     }
   ]
 }

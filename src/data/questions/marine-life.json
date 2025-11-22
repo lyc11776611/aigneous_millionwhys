@@ -1,0 +1,402 @@
+{
+  "category_en": "Marine Life",
+  "category_zh": "海洋生物",
+  "questions": [
+    {
+      "question_en": "Why do fish have scales?",
+      "question_zh": "鱼儿为什么长满鳞片？",
+      "choices_en": [
+        "Protection and smoother swimming",
+        "To store nutrients",
+        "To absorb oxygen from water",
+        "For temperature regulation"
+      ],
+      "choices_zh": [
+        "保护身体，游得更顺畅",
+        "储存营养",
+        "从水中吸收氧气",
+        "调节体温"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Fish scales act like armor, protecting against predators and parasites. They also overlap to reduce drag, helping fish glide smoothly through water. Some scales even provide camouflage!",
+        "Wrong. Scales don't store nutrients. Fish store energy in their liver and muscles, not in their scales which are made of bone-like material.",
+        "Wrong. Fish absorb oxygen through their gills, not scales. Scales are protective outer coverings that don't participate in respiration.",
+        "Wrong. Fish are cold-blooded and regulate temperature through behavior, not scales. Scales primarily serve protection and hydrodynamic functions."
+      ],
+      "explanations_zh": [
+        "答对啦！鱼鳞就像盔甲，能抵御天敌和寄生虫。鳞片层层叠叠，减少阻力，让鱼儿在水中自如穿梭。有些鳞片还能伪装呢！",
+        "错啦。鳞片不储存营养。鱼把能量储存在肝脏和肌肉里，鳞片是骨头样的物质，不负责存营养。",
+        "错啦。鱼通过鳃吸收氧气，不是鳞片。鳞片是保护外壳，不参与呼吸。",
+        "错啦。鱼是冷血动物，靠行为调节体温，不靠鳞片。鳞片主要起保护和减阻作用。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T03:58:20.670384+00:00",
+      "last_modified_at": "2025-11-21T03:58:20.670384+00:00",
+      "id": "marine_001"
+    },
+    {
+      "question_en": "Why can whales hold breath so long?",
+      "question_zh": "鲸鱼为什么能憋气那么久？",
+      "choices_en": [
+        "They have larger lungs",
+        "Myoglobin stores extra oxygen",
+        "They breathe underwater slowly",
+        "Their blood has more iron"
+      ],
+      "choices_zh": [
+        "它们有更大的肺",
+        "肌红蛋白储存额外氧气",
+        "它们在水下缓慢呼吸",
+        "它们的血液含铁量更高"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While whale lungs are large, lung size isn't the main factor. Humans absorb only 5% of oxygen per breath, while whales absorb up to 90% thanks to special proteins.",
+        "Correct! Whales have high levels of myoglobin, a protein that stores oxygen in muscles. They also slow their heart rate dramatically during dives—some to just 2 beats per minute!",
+        "Wrong. Whales are mammals and cannot breathe underwater at all. They must surface to breathe air through their blowholes.",
+        "Wrong. While blood carries oxygen, the key is myoglobin in muscles. This protein stores oxygen for use during long dives when they can't breathe."
+      ],
+      "explanations_zh": [
+        "错误。虽然鲸鱼肺很大，但肺大小不是主因。人类每次呼吸只吸收5%氧气，而鲸鱼因特殊蛋白质能吸收高达90%！",
+        "正确！鲸鱼有高水平的肌红蛋白，这种蛋白质在肌肉中储存氧气。它们潜水时还会大幅降低心率——有些甚至降到每分钟仅2次！",
+        "错误。鲸鱼是哺乳动物，根本不能在水下呼吸。它们必须浮出水面，通过气孔呼吸空气。",
+        "错误。虽然血液携带氧气，但关键是肌肉中的肌红蛋白。这种蛋白质储存氧气，供它们在无法呼吸的长时间潜水中使用。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T03:58:37.557564+00:00",
+      "last_modified_at": "2025-11-21T03:58:37.557564+00:00",
+      "id": "marine_002"
+    },
+    {
+      "question_en": "Why do jellyfish sting?",
+      "question_zh": "水母为什么会蜇人？",
+      "choices_en": [
+        "To communicate with others",
+        "To move through water",
+        "To catch prey and defend",
+        "To attract mates"
+      ],
+      "choices_zh": [
+        "为了和其他水母交流",
+        "为了在水中移动",
+        "为了捕捉猎物和自卫",
+        "为了吸引配偶"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Jellyfish don't communicate through stinging. They're actually quite simple organisms without brains, communicating through chemical signals instead.",
+        "Wrong. Jellyfish move by pulsing their bell-shaped body, not by stinging. Their tentacles trail behind for catching food.",
+        "Correct! Jellyfish have specialized cells called nematocysts that fire tiny harpoon-like structures. These inject venom to paralyze prey and deter predators. They fire automatically on contact!",
+        "Wrong. Jellyfish don't use stinging for mating. Many reproduce by releasing eggs and sperm into the water where fertilization occurs externally."
+      ],
+      "explanations_zh": [
+        "错误。水母不通过蜇人来交流。它们其实是简单的生物，没有大脑，而是通过化学信号沟通。",
+        "错误。水母通过脉动钟形身体来移动，而不是靠蜇人。它们的触手拖在后面用来捕食。",
+        "正确！水母有特殊的刺细胞，能发射像小飞镖一样的结构。这些结构注入毒液，麻痹猎物并吓退捕食者。它们一接触就会自动发射！",
+        "错误。水母不用蜇人来求偶。许多水母通过将卵子和精子释放到水中，进行外部受精来繁殖。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T03:58:53.940649+00:00",
+      "last_modified_at": "2025-11-21T03:58:53.940649+00:00",
+      "id": "marine_003"
+    },
+    {
+      "question_en": "Why do crabs walk sideways?",
+      "question_zh": "螃蟹为什么横着走路？",
+      "choices_en": [
+        "Their leg joints bend sideways",
+        "To see predators better",
+        "To move faster underwater",
+        "Their shells block forward motion"
+      ],
+      "choices_zh": [
+        "它们的腿关节天生侧向弯曲",
+        "为了更好地观察捕食者",
+        "在水下能游得更快",
+        "外壳阻碍了前进"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Crab legs attach at the sides and have joints that bend best sideways. This body structure makes sideways movement most efficient. Some crabs can walk forward, but it's slower and awkward!",
+        "Wrong. While crabs have good vision, their sideways walk isn't for seeing predators. It's due to how their legs are structured and attached to their body.",
+        "Wrong. Sideways walking isn't faster than forward movement. It's simply how crab anatomy works—their leg joints naturally bend in that direction.",
+        "Wrong. The shell doesn't block forward motion. Crabs walk sideways because their leg joints are designed to bend that way, making it their most natural gait."
+      ],
+      "explanations_zh": [
+        "正确！螃蟹的腿长在身体两侧，关节最适合侧向弯曲。这种身体结构让横着走最省力。有些螃蟹也能直行，但动作又慢又别扭！",
+        "错误。虽然螃蟹视力不错，但横着走不是为了看捕食者，而是由腿部结构和连接方式决定的。",
+        "错误。横着走并不比直行更快，纯粹是螃蟹的身体构造使然——它们的关节天生就适合侧向活动。",
+        "错误。外壳并不会阻挡前进。螃蟹横着走是因为腿部关节设计成侧向弯曲，这是它们最自然的步态。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T03:59:10.186965+00:00",
+      "last_modified_at": "2025-11-21T03:59:10.186965+00:00",
+      "id": "marine_004"
+    },
+    {
+      "question_en": "Why do octopuses have three hearts?",
+      "question_zh": "章鱼为什么有三颗心脏？",
+      "choices_en": [
+        "To pump more blood faster",
+        "Two for gills, one for body",
+        "Backup if one heart fails",
+        "Each controls different arms"
+      ],
+      "choices_zh": [
+        "为了更快地泵送更多血液",
+        "两颗用于鳃部，一颗用于身体",
+        "如果一颗心脏失灵，有备用",
+        "每颗控制不同的触手"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Having three hearts isn't about speed. Octopus blood carries copper-based hemocyanin which is less efficient than our iron-based hemoglobin, requiring specialized circulation.",
+        "Correct! Two branchial hearts pump blood through the gills to pick up oxygen. The main systemic heart pumps oxygenated blood to the body. This helps their copper-based blue blood deliver oxygen efficiently!",
+        "Wrong. The three hearts aren't backups—each has a specific job. Losing one would seriously impair the octopus's circulation system.",
+        "Wrong. Hearts don't control arms. Octopuses do have neurons in their arms for some independent movement, but hearts only pump blood."
+      ],
+      "explanations_zh": [
+        "错误。三颗心脏不是为了速度。章鱼的血液含有铜基血蓝蛋白，比我们铁基血红蛋白效率低，需要专门的循环系统。",
+        "正确！两颗鳃心将血液泵过鳃部吸收氧气。主心将含氧血液泵到身体。这有助于它们的铜基蓝血高效输送氧气！",
+        "错误。三颗心脏不是备用——每颗都有特定任务。失去一颗会严重损害章鱼的循环系统。",
+        "错误。心脏不控制触手。章鱼触手中有神经元实现部分独立运动，但心脏只负责泵血。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T03:59:25.535166+00:00",
+      "last_modified_at": "2025-11-21T03:59:25.535166+00:00",
+      "id": "marine_005"
+    },
+    {
+      "question_en": "Why do some sharks swim constantly?",
+      "question_zh": "为什么有些鲨鱼必须不停地游动？",
+      "choices_en": [
+        "To digest food properly",
+        "To maintain body temperature",
+        "To push water over their gills",
+        "To avoid predators"
+      ],
+      "choices_zh": [
+        "为了顺利消化食物",
+        "为了保持体温稳定",
+        "为了水流冲刷鳃部呼吸",
+        "为了躲避天敌攻击"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Swimming isn't required for digestion. Sharks digest food regardless of movement, though some species do need to keep moving for other reasons.",
+        "Wrong. While some sharks are warm-blooded, constant swimming isn't primarily for temperature. It's about breathing for species that lack the ability to pump water over gills.",
+        "Correct! Some shark species like great whites must swim to force water over their gills—this is called ram ventilation. Without swimming, they can't breathe! Other sharks can pump water while resting.",
+        "Wrong. Adult sharks have few natural predators. They swim constantly because some species physically cannot breathe without water flowing over their gills."
+      ],
+      "explanations_zh": [
+        "错误！鲨鱼消化食物不需要依赖游动。虽然某些鲨鱼因其他原因需要持续游动，但消化系统在静止时也能正常工作。",
+        "错误！部分鲨鱼虽是温血动物，但持续游动主要目的不是调节体温。对于无法主动泵水的鲨鱼来说，游动是为了维持呼吸。",
+        "正确！像大白鲨这类鲨鱼必须通过游动让水流经鳃部进行呼吸（称为冲压式呼吸）。一旦停止游动，它们就会窒息！其他鲨鱼则能在静止时自主泵水呼吸。",
+        "错误！成年鲨鱼在自然界几乎没有天敌。它们持续游动的根本原因是某些物种的生理结构决定了：没有水流经过鳃部就无法呼吸。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T03:59:42.315887+00:00",
+      "last_modified_at": "2025-11-21T03:59:42.315887+00:00",
+      "id": "marine_006"
+    },
+    {
+      "question_en": "Why do sea turtles return to birth beach?",
+      "question_zh": "为什么海龟会回到出生海滩？",
+      "choices_en": [
+        "Imprint on magnetic field",
+        "They follow other turtles",
+        "Beach has special nutrients",
+        "Warmer sand helps eggs"
+      ],
+      "choices_zh": [
+        "对磁场产生印记",
+        "它们跟随其他海龟",
+        "海滩有特殊营养",
+        "温暖沙子帮助孵化"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Baby turtles imprint on Earth's magnetic field at their birth beach. Years later, they use this internal compass to navigate thousands of miles back to the exact same beach to lay eggs!",
+        "Wrong. Sea turtles don't follow each other to nesting beaches. Each female independently navigates using magnetic field memory from when she hatched.",
+        "Wrong. Beaches don't provide nutrients for turtle eggs. Turtles return due to magnetic imprinting, not because of any special beach properties.",
+        "Wrong. While sand temperature affects egg development, turtles don't choose beaches by temperature. They return to their birth beach due to magnetic field imprinting."
+      ],
+      "explanations_zh": [
+        "正确！小海龟在出生海滩时会对地球磁场产生印记。多年后，它们利用这个内部指南针，跨越数千英里，精准返回同一片海滩产卵！",
+        "错误。海龟不会互相跟随到筑巢海滩。每只雌海龟都独立依靠孵化时的磁场记忆来导航。",
+        "错误。海滩不会为海龟蛋提供营养。海龟返回是因为磁场印记，而非海滩的特殊属性。",
+        "错误。虽然沙子温度影响蛋的发育，但海龟不会因温度选择海滩。它们返回出生海滩是由于磁场印记。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T03:59:57.605512+00:00",
+      "last_modified_at": "2025-11-21T03:59:57.605512+00:00",
+      "id": "marine_007"
+    },
+    {
+      "question_en": "Why do clownfish live in anemones?",
+      "question_zh": "小丑鱼为什么爱和海葵一起生活？",
+      "choices_en": [
+        "Anemones provide food",
+        "Mutual protection partnership",
+        "Anemones keep water clean",
+        "Clownfish can't swim far"
+      ],
+      "choices_zh": [
+        "海葵提供食物",
+        "互相保护的伙伴关系",
+        "海葵能清洁水质",
+        "小丑鱼游不远"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. While clownfish may eat anemone scraps, that's not the main reason. The relationship is primarily about protection—both species benefit from living together.",
+        "Correct! It's a symbiotic relationship. Clownfish have a special mucus that protects them from stings. The anemone protects clownfish from predators, while clownfish chase away anemone-eating fish and provide nutrients!",
+        "Wrong. Anemones don't filter or clean water. The relationship is about mutual defense—the anemone's stinging tentacles protect the clownfish.",
+        "Wrong. Clownfish can swim normally. They choose to live in anemones because the stinging tentacles provide excellent protection from predators."
+      ],
+      "explanations_zh": [
+        "错啦！虽然小丑鱼会吃海葵的残渣，但这不是主要原因。它们的关系主要是为了互相保护——双方住在一起都有好处。",
+        "对啦！这是一种共生关系。小丑鱼有特殊的黏液保护自己不被海葵蜇伤。海葵保护小丑鱼免受捕食者攻击，而小丑鱼会赶走吃海葵的鱼，并提供营养哦！",
+        "错啦！海葵不会过滤或清洁水。它们的关系是关于互相防御——海葵的带刺触手保护着小丑鱼。",
+        "错啦！小丑鱼游泳能力正常。它们选择住在海葵里，是因为那些带刺的触手能提供绝佳的保护，让捕食者不敢靠近。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:00:14.122263+00:00",
+      "last_modified_at": "2025-11-21T04:00:14.122263+00:00",
+      "id": "marine_008"
+    },
+    {
+      "question_en": "Why do deep-sea fish glow?",
+      "question_zh": "为什么深海鱼会发光？",
+      "choices_en": [
+        "To warm themselves up",
+        "From eating glowing bacteria",
+        "Bioluminescence for survival",
+        "Reflection of surface light"
+      ],
+      "choices_zh": [
+        "为了给自己取暖",
+        "因为吃了发光细菌",
+        "生物发光用于生存",
+        "反射水面光线"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. Bioluminescence doesn't generate significant heat. Deep-sea fish produce light through chemical reactions, but this creates almost no warmth.",
+        "Wrong. While some fish do host light-producing bacteria, many create light themselves through chemical reactions in specialized organs called photophores.",
+        "Correct! Deep-sea fish use bioluminescence to find mates, lure prey, confuse predators, or camouflage against faint surface light. In the pitch-black deep ocean, making your own light is a powerful survival tool!",
+        "Wrong. No sunlight reaches the deep sea—it's completely dark below 1,000 meters. Fish must produce their own light through chemical reactions called bioluminescence."
+      ],
+      "explanations_zh": [
+        "错误。生物发光几乎不产生热量，深海鱼通过化学反应发光，但几乎不会发热。",
+        "错误。虽然有些鱼体内有发光细菌，但许多鱼是通过称为发光器的特殊器官自行产生光。",
+        "正确！深海鱼用生物发光来寻找伴侣、引诱猎物、迷惑捕食者或伪装自己。在漆黑的深海中，自己发光是强大的生存工具！",
+        "错误。阳光无法到达深海，1000米以下一片漆黑。鱼必须通过生物发光化学反应自己产生光。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:00:29.191711+00:00",
+      "last_modified_at": "2025-11-21T04:00:29.191711+00:00",
+      "id": "marine_009"
+    },
+    {
+      "question_en": "Why do seahorses swim upright?",
+      "question_zh": "海马为什么总是竖着游泳？",
+      "choices_en": [
+        "To hide among seagrass",
+        "Their spine won't bend",
+        "To swim faster",
+        "To carry babies better"
+      ],
+      "choices_zh": [
+        "为了躲在海草丛中",
+        "它们的脊柱不能弯曲",
+        "为了游得更快",
+        "为了更好地携带宝宝"
+      ],
+      "correct_answer": 0,
+      "explanations_en": [
+        "Correct! Swimming vertically helps seahorses camouflage perfectly among seagrass and coral. Their body shape mimics swaying plants, making them nearly invisible to predators and prey alike!",
+        "Wrong. Seahorse spines are actually quite flexible. They swim upright as an evolutionary adaptation for camouflage in their seagrass habitat.",
+        "Wrong. Seahorses are actually very slow swimmers! Their upright posture isn't for speed but for blending in with vertical seagrass where they live.",
+        "Wrong. While male seahorses carry babies in pouches, this isn't why they swim upright. The vertical posture evolved for camouflage among seagrass."
+      ],
+      "explanations_zh": [
+        "正确！海马竖着游泳能完美地藏身于海草和珊瑚中。它们的体型模仿摇曳的植物，让捕食者和猎物都几乎看不见它们！",
+        "错误。海马的脊柱其实很灵活。它们竖着游泳是进化出的适应策略，便于在海草栖息地伪装。",
+        "错误。海马其实是游得很慢的！它们竖着游泳不是为了速度，而是为了融入它们生活的垂直海草中。",
+        "错误。虽然雄性海马会用育儿袋携带宝宝，但这并不是它们竖着游泳的原因。这种垂直姿势是为了在海草中伪装而进化出来的。"
+      ],
+      "difficulty": "easy",
+      "created_at": "2025-11-21T04:00:45.442445+00:00",
+      "last_modified_at": "2025-11-21T04:00:45.442445+00:00",
+      "id": "marine_010"
+    },
+    {
+      "question_en": "Why can starfish regrow their arms?",
+      "question_zh": "为什么海星能重新长出断臂？",
+      "choices_en": [
+        "They have no bones to heal",
+        "Special stem cells throughout body",
+        "Arms aren't vital organs",
+        "Seawater promotes healing"
+      ],
+      "choices_zh": [
+        "它们没有骨头需要愈合",
+        "全身遍布特殊干细胞",
+        "断臂不是重要器官",
+        "海水促进愈合过程"
+      ],
+      "correct_answer": 1,
+      "explanations_en": [
+        "Wrong. Lack of bones doesn't explain regeneration. Many boneless animals can't regenerate. Starfish have special cellular abilities that allow regrowth.",
+        "Correct! Starfish have stem cells distributed throughout their bodies that can become any cell type. When an arm is lost, these cells multiply and differentiate to rebuild the entire limb—some species can even regrow from just one arm!",
+        "Wrong. Arms actually contain vital organs in starfish! Each arm has digestive glands and parts of the nervous system. They regenerate due to stem cell abilities, not because arms are unimportant.",
+        "Wrong. Seawater doesn't promote regeneration. The ability comes from starfish having stem cells that can transform into any tissue type needed for regrowth."
+      ],
+      "explanations_zh": [
+        "错误。没有骨头不能解释再生能力。许多无骨动物无法再生。海星靠特殊细胞能力实现再生。",
+        "正确！海星全身有干细胞，能变成任何细胞类型。断臂时，这些细胞增殖分化，重建整个肢体——有些物种甚至能从单臂重生！",
+        "错误。海星的断臂其实包含重要器官！每只臂都有消化腺和部分神经系统。再生靠干细胞能力，而非断臂不重要。",
+        "错误。海水不促进再生。海星有干细胞能转化为所需组织类型，这才是再生原因。"
+      ],
+      "difficulty": "medium",
+      "created_at": "2025-11-21T04:01:01.572101+00:00",
+      "last_modified_at": "2025-11-21T04:01:01.572101+00:00",
+      "id": "marine_011"
+    },
+    {
+      "question_en": "Why is coral an animal, not a plant?",
+      "question_zh": "珊瑚为什么是动物，而不是植物？",
+      "choices_en": [
+        "It moves at night",
+        "It doesn't need sunlight",
+        "It catches and eats food",
+        "It produces carbon dioxide"
+      ],
+      "choices_zh": [
+        "它晚上会移动",
+        "它不需要阳光",
+        "它会捕捉并吃掉食物",
+        "它会产生二氧化碳"
+      ],
+      "correct_answer": 2,
+      "explanations_en": [
+        "Wrong. While coral polyps do extend at night to feed, movement alone doesn't define animals. Some animals never move, and some plants do move.",
+        "Wrong. Coral actually does need sunlight—but for the algae living inside it. The coral itself is still an animal regardless of light needs.",
+        "Correct! Corals are colonies of tiny animals called polyps that catch and digest food using stinging tentacles. Unlike plants, they can't make their own food through photosynthesis—they must eat to survive!",
+        "Wrong. Both animals and plants produce carbon dioxide through respiration. What makes coral an animal is that it actively catches and consumes food."
+      ],
+      "explanations_zh": [
+        "错误。虽然珊瑚虫晚上会伸展捕食，但移动本身不能定义动物。有些动物从不移动，有些植物也会动。",
+        "错误。珊瑚其实需要阳光——但这是为了它体内的藻类。珊瑚本身是动物，与光照需求无关。",
+        "正确！珊瑚是由微小动物珊瑚虫组成的群体，它们用带刺的触手捕捉并消化食物。与植物不同，它们无法通过光合作用自造食物——必须靠吃来生存！",
+        "错误。动物和植物都会通过呼吸产生二氧化碳。珊瑚是动物的关键在于它会主动捕捉并消耗食物。"
+      ],
+      "difficulty": "hard",
+      "created_at": "2025-11-21T04:01:17.100684+00:00",
+      "last_modified_at": "2025-11-21T04:01:17.100684+00:00",
+      "id": "marine_012"
+    }
+  ]
+}

@@ -259,13 +259,17 @@ aigneous_millionwhys/
 │       ├── economics.json
 │       └── technology.json
 ├── scripts/                      ← Simplified (no /validation subdirectory)
-│   ├── auto_validate.py
-│   ├── validate_facts.py
-│   ├── ai_fact_check.py
-│   └── install_git_hook.sh
-└── docs/questions/
-    ├── README.md
-    └── generate_with_validation.md
+│   ├── add_questions.py          ← Main CLI for adding questions
+│   ├── question_builder_v3.py    ← DeepSeek translation + timestamps
+│   ├── auto_validate.py          ← Layer 1: Format validation
+│   ├── validate_facts.py         ← Layer 2: Rule-based fact checking
+│   ├── install_git_hook.sh
+│   └── utils/
+│       ├── validation.py         ← 2-layer validation runner
+│       ├── id_manager.py
+│       └── master_list.py
+└── docs/
+    └── CLAUDE_CODE_WORKFLOW_GUIDE.md  ← V3 workflow documentation
 ```
 
 Each JSON file contains multiple questions for that category, with both English and Chinese versions in the same file. This keeps translations paired and prevents sync issues.
@@ -517,69 +521,85 @@ Each topic JSON file follows this structure:
 
 ## Usage Instructions
 
-### Generating New Questions
+### Generating New Questions (V3 Workflow)
 
-When invoked, this skill will follow this **automated 3-layer validation workflow**:
+When invoked, this skill will follow this **Claude Code interactive workflow**:
 
 **Phase 1: Planning**
-1. Ask what topic category you're interested in (or browse existing topics)
-2. Ask for the desired difficulty level (easy/medium/hard)
-3. Ask how many questions you want to generate
+1. User specifies topic category (or browse existing topics)
+2. User specifies difficulty level (easy/medium/hard)
+3. User specifies how many questions to generate
 
-**Phase 2: Generation**
-4. Generate initial question, choices, and explanations (4 explanations: 1 correct, 3 wrong)
-5. Check character limits (mobile-optimized: 45 chars EN question, 35 chars EN choices)
-6. Create Chinese translation equivalent
+**Phase 2: Generation & Fact-Checking (Claude Code)**
+4. Generate question, choices, and explanations (4 explanations: 1 correct, 3 wrong)
+5. **Claude Code fact-checks all content** in conversation:
+   - Verify scientific accuracy against established knowledge
+   - Validate correct answer is definitively correct
+   - Verify wrong answer explanations are accurate
+   - Ensure no misconceptions are reinforced
+   - Self-correct any issues found
+6. Check character limits (mobile-optimized: 45 chars EN question, 35 chars EN choices)
+7. Only accept "High Confidence" content
 
-**Phase 3: LAYER 1 - Manual Review Agent (CRITICAL)**
-7. **Activate Review Agent** to verify scientific accuracy
-8. Check all facts against established knowledge
-9. Validate correct answer is definitively correct
-10. Verify wrong answer explanations are accurate
-11. Ensure no misconceptions are reinforced
-12. Verify Chinese translation is scientifically accurate
+**Phase 3: Save to YAML Draft**
+8. User saves fact-checked content to YAML file:
+   ```yaml
+   category: Animals
+   questions:
+     - question_en: "Why do cats purr?"
+       correct_answer: 1
+       choices_en: [...]
+       explanations_en: [...]  # Required - fact-checked by Claude Code
+       difficulty: medium
+   ```
 
-**Phase 4: Self-Correction Loop (Layer 1)**
-13. If Review Agent finds issues → document, research, correct
-14. Re-run review process until all checks pass
-15. Only accept "High Confidence" content
+**Phase 4: Run Automated Script**
+9. Run: `python scripts/add_questions.py --draft questions/drafts/my_questions.yaml`
+10. Script automatically:
+    - ✅ Translates to Chinese (DeepSeek API)
+    - ✅ Adds timestamps (created_at, last_modified_at)
+    - ✅ Runs 2-layer validation
+    - ✅ Updates JSON file
+    - ✅ Updates master list
+    - **No confirmations needed**
 
-**Phase 5: Save & LAYER 2 - Automated Validation**
-16. Add validated questions to appropriate topic file in `src/data/questions/` directory
-17. **Automatically run validation**: `python3 scripts/auto_validate.py [file].json` OR `npm run validate`
-18. Layer 2 checks:
-    - ✓ JSON structure and format
-    - ✓ All required fields present
-    - ✓ Character limits for mobile
-    - ✓ Explanation format (Correct!/Wrong. prefixes)
-    - ✓ Logical consistency
-    - ✓ Red flag detection (absolutes, misconceptions)
-19. **BLOCKS if critical issues found** - must fix before proceeding
+**Phase 5: 2-Layer Validation (Automatic)**
+11. **Layer 1: Format Validation** (auto_validate.py)
+    - JSON structure and format
+    - All required fields present
+    - Character limits for mobile
+    - Explanation format (Correct!/Wrong. prefixes)
+    - Logical consistency
+12. **Layer 2: Fact Checking** (validate_facts.py)
+    - Rule-based accuracy checks
+    - Red flag detection (absolutes, misconceptions)
+    - Cross-reference validation
+13. **BLOCKS if critical issues found** - must fix before proceeding
 
-**Phase 6: LAYER 3 - AI Fact-Check (for new topics/complex questions)**
-20. Generate AI fact-check prompt: `python3 scripts/ai_fact_check.py --file [file] --question [id]`
-21. Run prompt through Claude with web search enabled
-22. Verify scientific claims against authoritative sources:
-    - Astronomy: NASA, astronomical databases
-    - Chemistry: Chemistry journals, educational sites
-    - Biology: NIH, medical sites
-    - Physics: Physics resources, verified sources
-    - Psychology: Peer-reviewed research
-23. Review AI's detailed fact-check report
-
-**Phase 7: Final Self-Correction (if Layer 2 or 3 found issues)**
-24. Fix any issues identified in automated or AI fact-check
-25. Re-run validation: `python3 scripts/auto_validate.py [file].json` OR `npm run validate`
-26. Repeat until ✅ ALL LAYERS PASSED
-
-**Phase 8: Finalization**
-27. Update question count in docs/questions/README.md
-28. Commit with automatic pre-commit validation (if git hook installed)
-29. ✅ Question ready for production
+**Phase 6: Finalization**
+14. Review generated JSON in `src/data/questions/`
+15. Master list automatically updated
+16. Commit when ready: `git add . && git commit -m "Add X questions"`
+17. ✅ Question ready for production
 
 ### Automatic Validation Options
 
-**Option 1: Git Pre-Commit Hook (Recommended for teams)**
+**Option 1: Main CLI (Recommended)**
+```bash
+# Add questions from YAML draft (fully automated)
+python scripts/add_questions.py --draft questions/drafts/my_questions.yaml
+
+# Dry run (preview without writing)
+python scripts/add_questions.py --draft my_questions.yaml --dry-run
+
+# Skip AI translation (manual content only)
+python scripts/add_questions.py --draft my_questions.yaml --no-ai
+
+# Update master list totals only
+python scripts/add_questions.py --update-master-list
+```
+
+**Option 2: Git Pre-Commit Hook**
 ```bash
 # One-time setup (from repository root)
 bash scripts/install_git_hook.sh
@@ -588,19 +608,7 @@ bash scripts/install_git_hook.sh
 # Commits are BLOCKED if critical issues found
 ```
 
-**Option 2: NPM Scripts (Next.js friendly)**
-```bash
-# Validate all files
-npm run validate
-
-# Validate specific file
-npm run validate chemistry.json
-
-# Watch mode
-npm run validate:watch
-```
-
-**Option 3: Direct Python Commands**
+**Option 3: Direct Validation Commands**
 ```bash
 # Validate specific file
 python3 scripts/auto_validate.py chemistry.json
@@ -608,14 +616,11 @@ python3 scripts/auto_validate.py chemistry.json
 # Validate all files
 python3 scripts/auto_validate.py --all
 
-# Watch mode
-python3 scripts/auto_validate.py --watch
-
-# With AI fact-check prompts
-python3 scripts/auto_validate.py chemistry.json --ai-check
+# Run 2-layer validation pipeline
+python scripts/utils/validation.py
 ```
 
-See `docs/questions/generate_with_validation.md` for complete workflow documentation.
+See `docs/CLAUDE_CODE_WORKFLOW_GUIDE.md` for complete workflow documentation.
 
 ### Reviewing Existing Questions
 

@@ -25,7 +25,7 @@ import {
 import chemistryData from '@/data/questions/chemistry.json';
 
 // Type assertion (with validation in production)
-const chemistry: QuestionCategory = chemistryData as QuestionCategory;
+const chemistry: QuestionCategory = chemistryData as unknown as QuestionCategory;
 
 /**
  * Example 2: Simple question display component

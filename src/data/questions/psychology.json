@@ -3,10 +3,8 @@
   "category_zh": "心理与行为",
   "questions": [
     {
-      "id": "psych_001",
       "question_en": "Why does time feel faster as we age?",
-      "question_zh": "为什么年纪越大时间过得越快？",
-
+      "question_zh": "为什么年纪越大，时间过得越快？",
       "choices_en": [
         "Our brain slows down",
         "Each year is smaller part of life",
@@ -14,10 +12,10 @@
         "We sleep less as we age"
       ],
       "choices_zh": [
-        "大脑运转变慢",
-        "每年占生命比例更小",
-        "记忆变少了",
-        "睡眠时间减少"
+        "我们的大脑变慢了",
+        "每一年占生命的比例变小",
+        "我们的记忆变少了",
+        "年纪越大，我们睡得越少"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -27,18 +25,19 @@
         "Wrong. Sleep changes don't explain the perception of time speeding up. It's about each year being a smaller fraction of your total life and having fewer novel experiences that create detailed memories."
       ],
       "explanations_zh": [
-        "错误。大脑处理速度的减慢不会让时间感觉更快。感知变化是由于比例时间和更少的新鲜体验，而不是处理速度。",
-        "正确！5岁时，一年占生命的20%。50岁时只占2%。此外，儿童经历许多第一次，创造详细记忆，使时间感觉更长。成年人生活常规化，新鲜体验较少，大脑编码的细节更少，时间就似乎飞逝了。",
-        "错误。我们随着年龄增长记忆并没有变少——实际上积累了更多总记忆。问题是常规成人生活创造的独特、详细记忆比童年的众多新鲜体验要少。",
-        "错误。睡眠变化不能解释时间加速的感知。这是因为每年在你总生命中占比更小，以及更少能创造详细记忆的新鲜体验。"
+        "错误。大脑处理速度并不会变慢到让时间感觉变快。时间感知变化是由于比例时间和新奇体验减少，而非处理速度。",
+        "正确！5岁时，一年占你生命的20%；50岁时，只占2%。而且，孩子经历许多'第一次'，形成详细记忆，让时间感觉更长。成年人生活规律，新奇体验少，大脑编码细节少，时间就飞逝了。",
+        "错误。我们年纪越大，记忆并没有变少——实际上总记忆在积累。问题是成年人规律生活产生的独特详细记忆比童年少。",
+        "错误。睡眠变化不能解释时间变快的感觉。关键在于每一年占生命总比例变小，以及新奇体验减少导致详细记忆减少。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_001"
     },
     {
-      "id": "psych_002",
       "question_en": "Why do we yawn when tired?",
-      "question_zh": "为什么累了会打哈欠？",
-
+      "question_zh": "为什么我们累了会打哈欠？",
       "choices_en": [
         "To get more oxygen",
         "To cool the brain",
@@ -46,9 +45,9 @@
         "To signal sleepiness"
       ],
       "choices_zh": [
-        "为了获得更多氧气",
+        "为了吸入更多氧气",
         "为了给大脑降温",
-        "为了拉伸肌肉",
+        "为了伸展肌肉",
         "为了表示困倦"
       ],
       "correct_answer": 1,
@@ -59,18 +58,19 @@
         "Wrong. While yawning is associated with tiredness, it's not a social signal. It's a physiological response to help cool the brain when it's overheated from fatigue or warm conditions."
       ],
       "explanations_zh": [
-        "错误。这是一个常见误解。研究显示打哈欠不会显著改变血氧水平。目前的理论集中在大脑温度调节上。",
-        "正确！最新研究表明打哈欠有助于给大脑降温。疲劳时大脑会轻微升温。打哈欠将凉爽空气带入鼻腔和口腔，冷却流向大脑的血液，帮助大脑保持最佳工作温度。这就是为什么在困倦或闷热环境中容易打哈欠。",
-        "错误。虽然打哈欠确实涉及下颌运动，但拉伸肌肉不是其主要目的。主要功能似乎是通过空气循环给大脑降温。",
-        "错误。虽然打哈欠与疲倦有关，但它不是社交信号。这是一种生理反应，帮助大脑在因疲劳或温暖条件过热时降温。"
+        "错误。这是个常见误解。研究表明，打哈欠不会显著改变血氧水平。当前理论聚焦于大脑温度调节。",
+        "正确！最新研究显示，打哈欠能帮助冷却大脑。累了时，大脑会轻微升温。打哈欠将冷空气带入鼻腔和口腔，冷却流向大脑的血液，从而保持大脑在最佳工作温度。这就是为什么在困倦或温暖房间里常打哈欠。",
+        "错误。虽然打哈欠涉及下巴运动，但伸展肌肉不是其主要目的。主要功能是通过空气循环冷却大脑。",
+        "错误。尽管打哈欠与困倦相关，但它不是社交信号。它是一种生理反应，帮助在疲劳或温暖环境下冷却过热的大脑。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_002"
     },
     {
-      "id": "psych_003",
       "question_en": "Why do babies cry so much?",
-      "question_zh": "为什么婴儿总是哭？",
-
+      "question_zh": "为什么小宝宝总是哭个不停？",
       "choices_en": [
         "They're manipulative",
         "It's their only communication",
@@ -78,10 +78,10 @@
         "Their brains are underdeveloped"
       ],
       "choices_zh": [
-        "他们很爱操控人",
-        "这是唯一的沟通方式",
-        "他们更容易疼痛",
-        "大脑发育不完全"
+        "他们在耍心眼",
+        "这是他们唯一的沟通方式",
+        "他们感觉更疼",
+        "他们的大脑还没发育好"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -91,18 +91,19 @@
         "Wrong. While baby brains are developing, this isn't why they cry. Crying is a communication tool they use because they can't yet use language or gestures to express needs."
       ],
       "explanations_zh": [
-        "错误。婴儿不会操控人——他们缺乏操控所需的认知发展。哭泣是需求的诚实信号，而非控制照顾者的精心计算。",
-        "正确！婴儿不会说话、走路或用手指表达需求。哭泣是他们表达饥饿、不适、疲倦或需要关爱的主要方式。这是一种进化出的生存机制，确保照顾者快速响应他们的需要。随着语言和运动能力发展，哭泣会显著减少。",
-        "错误。婴儿经历的疼痛并不比成人多。他们频繁哭泣是因为哭泣是他们表达所有需求的唯一方式，而不仅仅是疼痛。",
-        "错误。虽然婴儿大脑正在发育，但这不是他们哭泣的原因。哭泣是一种沟通工具，因为他们还不能用语言或手势表达需求而使用。"
+        "错啦！小宝宝可不会耍心眼——他们的大脑还没发育到能算计的程度。哭是真实需求的信号，不是故意要控制大人哦。",
+        "对啦！小宝宝不会说话、走路或指东西来表达需求。哭是他们沟通饥饿、不舒服、困倦或需要关爱的主要方式，这是进化来的生存机制，确保大人快速回应。等他们学会语言和动作，哭闹就少多啦。",
+        "不对哦。小宝宝并不比大人感觉更疼。他们总哭是因为哭是表达所有需求的唯一途径，不只是因为疼。",
+        "不对。虽然小宝宝大脑在发育，但这可不是哭的原因。哭是他们用的沟通工具，因为他们还不会用语言或手势来表达需求。"
       ],
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_003"
     },
     {
-      "id": "psych_004",
       "question_en": "Why do we forget things?",
-      "question_zh": "为什么我们会忘记东西？",
-
+      "question_zh": "为什么我们会忘记事情？",
       "choices_en": [
         "Brain deletes old memories",
         "Memories fade without use",
@@ -110,9 +111,9 @@
         "Brain damage over time"
       ],
       "choices_zh": [
-        "大脑删除旧记忆",
-        "记忆不用会褪色",
-        "记太多东西了",
+        "大脑会删除旧记忆",
+        "记忆不用就会淡忘",
+        "我们记住的东西太多",
         "大脑随时间受损"
       ],
       "correct_answer": 1,
@@ -123,18 +124,19 @@
         "Wrong. Normal forgetting isn't caused by brain damage. It's a natural process where unused memory pathways weaken. Brain damage causes different, more severe memory problems than everyday forgetting."
       ],
       "explanations_zh": [
-        "错误。大脑不像电脑那样主动删除记忆。相反，当神经通路没有通过提取和使用得到加强时，记忆痕迹会变弱。",
-        "正确！遗忘遵循'用进废退'原则。当我们不回忆某个记忆时，存储它的神经连接会随时间减弱，这个过程叫记忆衰退。大脑也不断形成新记忆，会干扰旧记忆（干扰理论）。此外，如果当时注意力不集中，我们可能无法正确编码记忆，使其'被遗忘'，尽管它从未真正存储过。",
-        "错误。虽然我们确实存储大量信息，但数量本身不会导致遗忘。问题在于未使用的神经通路减弱和新记忆的干扰，而不是存储容量。",
-        "错误。正常遗忘不是由大脑损伤引起的。这是一个自然过程，未使用的记忆通路会减弱。大脑损伤造成的记忆问题比日常遗忘更严重。"
+        "错误。大脑不会像电脑一样主动删除记忆。实际上，当神经通路没有通过回忆和使用得到强化时，记忆痕迹会变弱。",
+        "正确！遗忘遵循'用进废退'原则。当我们不回忆某个记忆时，存储它的神经连接会随时间减弱，这叫记忆衰退。大脑还不断形成新记忆，干扰旧记忆（干扰理论）。此外，如果一开始没注意，记忆可能没被正确编码，导致'遗忘'，尽管它们从未真正存储过。",
+        "错误。虽然我们存储大量信息，但数量本身不会导致遗忘。问题在于未使用的神经通路变弱和新记忆的干扰，而不是存储容量。",
+        "错误。正常遗忘不是由大脑损伤引起的。它是未使用的记忆通路变弱的自然过程。大脑损伤会导致比日常遗忘更严重的记忆问题。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_004"
     },
     {
-      "id": "psych_005",
       "question_en": "Why do we laugh when tickled?",
-      "question_zh": "为什么被挠痒痒会笑？",
-
+      "question_zh": "为什么被挠痒痒时我们会哈哈大笑？",
       "choices_en": [
         "It actually hurts",
         "Panic response to touch",
@@ -142,9 +144,9 @@
         "Automatic muscle reflex"
       ],
       "choices_zh": [
-        "其实是疼痛感",
-        "对触摸的恐慌",
-        "大脑理解为玩耍",
+        "其实是因为疼",
+        "对触摸的恐慌反应",
+        "大脑解读为玩耍",
         "肌肉自动反射"
       ],
       "correct_answer": 2,
@@ -155,18 +157,19 @@
         "Wrong. While laughter involves muscle movements, tickle response isn't a simple reflex. It requires brain interpretation of social context - that's why strangers tickling you feels uncomfortable, not funny."
       ],
       "explanations_zh": [
-        "错误。挠痒痒不会疼——它产生的是一种独特的感觉，不同于疼痛。笑的反应是社交性的，不是对疼痛的反应。",
-        "错误。虽然挠痒痒确实触发躯体感觉皮层的强烈反应（检测意外触摸），但笑声不是恐慌。这是一种社交联结行为，表明玩耍互动。",
-        "正确！当有人挠你痒时，大脑前额叶皮层将意外触摸解读为玩耍性社交互动，触发笑声作为联结反应。有趣的是，你无法自己挠自己痒，因为小脑会预测自己的触摸，消除了惊喜元素。挠痒痒的笑声进化为人类传递玩耍信号和建立社交联系的方式，这就是为什么它最常发生在熟人之间。",
-        "错误。虽然笑声涉及肌肉运动，但挠痒反应不是简单的反射。它需要大脑对社交情境的解读——这就是为什么陌生人挠你会感觉不舒服，而不是有趣。"
+        "错啦！挠痒痒并不疼，它产生一种独特的、不同于疼痛的感觉。笑是社交反应，不是疼痛反应哦。",
+        "不对哦。虽然挠痒痒会触发体感皮层的警觉（检测意外触摸），但笑声不是恐慌。它是一种社交互动行为，表示在玩耍呢。",
+        "答对啦！当有人挠你痒痒时，大脑前额叶皮层会把这种意外触摸解读为有趣的社交互动，从而触发笑声来增进感情。有趣的是，你没法给自己挠痒痒，因为小脑能预测自己的动作，消除了惊喜感。这种笑是人类进化出来表示玩耍和建立社交纽带的方式，所以熟人之间更容易发生。",
+        "错啦。虽然笑涉及肌肉运动，但挠痒痒反应不是简单的反射。它需要大脑对社交情境的解读——这就是为什么陌生人挠你时感觉不舒服而不是好笑。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_005"
     },
     {
-      "id": "psych_006",
       "question_en": "Why remember bad events more than good?",
-      "question_zh": "为何坏事比好事记得牢？",
-
+      "question_zh": "为什么我们更容易记住坏事而不是好事？",
       "choices_en": [
         "We're naturally pessimistic",
         "Negativity bias for survival",
@@ -174,10 +177,10 @@
         "Brain focuses on problems"
       ],
       "choices_zh": [
-        "天生悲观主义者",
-        "生存需要负面偏见",
-        "好记忆褪色更快",
-        "大脑专注问题"
+        "我们天生悲观",
+        "负面偏见帮助生存",
+        "美好记忆消退更快",
+        "大脑偏爱关注问题"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -187,18 +190,19 @@
         "Wrong. While the brain does attend to problems, this explanation is too vague. The specific mechanism is negativity bias - an evolutionary adaptation where the amygdala encodes threatening information more strongly than positive information."
       ],
       "explanations_zh": [
-        "错误。更好地记住负面事件不是性格悲观。这是大多数人类都有的进化认知偏见，无论他们对生活的总体看法如何。",
-        "正确！这叫'负面偏见'——一种经过数百万年进化的生存机制。我们的祖先记住危险或负面经历（捕食者藏哪、哪些食物有毒）比忘记它们的人生存得更好。杏仁核是大脑的威胁检测中心，会强烈编码负面情绪体验，使其在记忆中更牢固。一次糟糕经历可能意味着死亡，而错过一次好机会很少会。",
-        "错误。不是积极记忆衰退更快——两种类型随时间衰退相似。区别在于初始编码强度：负面事件触发更强的情绪唤醒和杏仁核激活，从一开始就创建更深的记忆痕迹。",
-        "错误。虽然大脑确实关注问题，但这个解释太模糊。具体机制是负面偏见——一种进化适应，杏仁核对威胁信息的编码比积极信息更强。"
+        "错！记住负面事件更多不是性格悲观的问题。这是一种进化来的认知偏见，存在于大多数人中，与生活态度无关。",
+        "正确！这叫'负面偏见'——一种进化了数百万年的生存机制。我们的祖先记住危险或负面经历（如捕食者藏身处、有毒食物）比忘记它们的人更容易存活。大脑的威胁检测中心杏仁核强烈编码负面情感体验，让它们更牢固地留在记忆中。一次坏经历可能致命，而错过一次好机会很少如此。",
+        "错！不是积极记忆消退更快——两种记忆随时间消退相似。区别在于初始编码强度：负面事件触发更强的情绪唤醒和杏仁核激活，从一开始就形成更深的记忆痕迹。",
+        "错！虽然大脑确实关注问题，但这个解释太模糊。具体机制是负面偏见——一种进化适应，杏仁核对威胁信息的编码比积极信息更强。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_006"
     },
     {
-      "id": "psych_007",
       "question_en": "Why do first impressions matter?",
-      "question_zh": "为什么第一印象很重要？",
-
+      "question_zh": "为什么第一印象如此重要？",
       "choices_en": [
         "We judge people quickly",
         "Primacy effect in memory",
@@ -207,8 +211,8 @@
       ],
       "choices_zh": [
         "我们快速评判他人",
-        "记忆首因效应",
-        "社会规则要求",
+        "记忆中的首因效应",
+        "社交规则要求如此",
         "我们相信直觉"
       ],
       "correct_answer": 1,
@@ -219,18 +223,19 @@
         "Wrong. 'Trusting instincts' doesn't explain why first impressions persist even when later evidence contradicts them. The real mechanism is primacy effect plus confirmation bias, which makes us unconsciously favor information that confirms our initial judgment."
       ],
       "explanations_zh": [
-        "错误。虽然我们确实会快速判断（几秒内），但这不能解释为什么第一印象如此难以改变。真正原因涉及我们的记忆和认知偏见如何工作。",
-        "正确！第一印象重要是因为'首因效应'——最先遇到的信息对我们的整体判断有不成比例的影响力。我们的大脑用初始信息创建关于一个人的图式（心理框架）。后来的信息通过确认偏见被这个现有图式过滤——我们注意并记住确认第一印象的事，而忽略矛盾证据。这是因为改变现有图式比维持它们需要更多认知努力。",
-        "错误。社交礼仪不会导致第一印象的心理粘性。这个效应来自首因效应和确认偏见等认知机制，而非社会习俗。",
-        "错误。'相信直觉'不能解释为什么第一印象即使在后来证据矛盾时仍持续存在。真正机制是首因效应加确认偏见，使我们无意识地偏向确认初始判断的信息。"
+        "错误。虽然我们确实会在几秒内快速评判他人，但这无法解释为何第一印象难以改变。真正原因涉及记忆和认知偏差的作用。",
+        "正确！第一印象之所以重要，是因为'首因效应'——最先接触的信息对我们整体判断影响巨大。大脑会用初始信息构建关于他人的心理框架（图式），后续信息会通过确认偏差被过滤：我们更容易注意和记住符合第一印象的证据，而忽略矛盾信息。这是因为改变现有图式比维持它需要更多认知努力。",
+        "错误。社交礼仪并非第一印象根深蒂固的原因。这种效应来自首因效应和确认偏差等认知机制，而非社会惯例。",
+        "错误。'相信直觉'无法解释为何即使后续证据矛盾，第一印象仍会持续。真正机制是首因效应加确认偏差，让我们无意识地偏爱印证最初判断的信息。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_007"
     },
     {
-      "id": "psych_008",
       "question_en": "Why do we procrastinate?",
-      "question_zh": "为什么我们会拖延？",
-
+      "question_zh": "为什么我们总爱拖延？",
       "choices_en": [
         "We're lazy by nature",
         "Present bias over future",
@@ -238,10 +243,10 @@
         "Tasks are too difficult"
       ],
       "choices_zh": [
-        "天生就懒惰",
-        "偏好当下胜过未来",
-        "缺乏自律能力",
-        "任务太困难了"
+        "天生懒惰",
+        "当下偏好压倒未来",
+        "缺乏自律",
+        "任务太难了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -251,18 +256,19 @@
         "Wrong. Task difficulty isn't the core issue - people procrastinate on both easy and hard tasks. The key factor is emotional aversion (stress, boredom, anxiety) that makes our brain prioritize immediate mood repair over long-term goals."
       ],
       "explanations_zh": [
-        "错误。拖延不是懒惰——人们拖延时常在其他任务上努力工作。这是关于大脑如何权衡即时情绪修复与未来后果。",
-        "正确！拖延由'当下偏见'和时间折扣引起。我们的边缘系统（情绪大脑）强烈重视即时奖励和避免当前不适，而前额叶皮层（计划大脑）试图考虑未来利益。面对不愉快任务时，边缘系统获胜：不做任务的即时解脱感比完成任务的抽象未来奖励感觉更好。我们的大脑对未来奖励的重视程度确实低于即时奖励——这种心理现象叫双曲贴现。",
-        "错误。拖延不是性格缺陷或缺乏自律。这是大脑接线问题，当任务触发焦虑或无聊等负面情绪时，情绪调节（边缘系统）压倒计划（前额叶皮层）。",
-        "错误。任务难度不是核心问题——人们对简单和困难任务都会拖延。关键因素是情绪厌恶（压力、无聊、焦虑），使我们的大脑优先考虑即时情绪修复而非长期目标。"
+        "错！拖延不是懒惰——人们拖延时往往在其他任务上很努力。关键在于大脑如何权衡即时情绪修复与未来后果。",
+        "对！拖延由‘当下偏好’和时间贴现引起。我们的边缘系统（情绪脑）强烈看重即时奖励和避免当前不适，而前额叶皮层（规划脑）试图考虑未来收益。面对不愉快任务时，边缘系统胜出：不做的即时解脱感比完成的抽象未来奖励更诱人。大脑确实更看重即时回报——这叫双曲线贴现心理现象。",
+        "错！拖延不是性格缺陷或缺乏自律。它是大脑布线问题：当任务引发焦虑或无聊等负面情绪时，情绪调节（边缘系统）压倒了规划（前额叶皮层）。",
+        "错！任务难度不是核心——人们既拖延简单任务也拖延困难任务。关键因素是情绪厌恶（压力、无聊、焦虑），让大脑优先考虑即时情绪修复而非长期目标。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_008"
     },
     {
-      "id": "psych_009",
       "question_en": "Why do colors affect our mood?",
-      "question_zh": "为什么颜色影响情绪？",
-
+      "question_zh": "为什么颜色会影响我们的心情？",
       "choices_en": [
         "Cultural color associations",
         "Brain chemistry responses",
@@ -270,10 +276,10 @@
         "Evolutionary survival cues"
       ],
       "choices_zh": [
-        "文化颜色联想",
+        "文化中的颜色联想",
         "大脑化学反应",
-        "学习的情绪连接",
-        "进化生存线索"
+        "后天习得的情感联系",
+        "进化中的生存信号"
       ],
       "correct_answer": 3,
       "explanations_en": [
@@ -283,18 +289,19 @@
         "Correct! Colors affect mood primarily through evolutionary associations. Blue and green (water, vegetation, clear sky) signal safety and resources, triggering calm responses. Red increases arousal because it signals ripe fruit, blood, and danger - our ancestors needed heightened alertness around red. Yellow (sunlight) energizes us. These connections developed over millions of years. Additionally, different wavelengths stimulate our photoreceptors differently: blue light affects circadian rhythms and alertness through specialized cells in our eyes."
       ],
       "explanations_zh": [
-        "错误。虽然文化确实影响一些颜色偏好（如红色在中国意味着幸运，在西方意味着危险），但颜色的基本情绪效应具有跨文化存在的进化和生物学基础。",
-        "错误。颜色不像药物那样直接触发大脑化学变化。情绪效应来自进化联想和我们的视觉系统如何处理不同波长，而非化学反应。",
-        "错误。尽管我们确实学习了一些颜色联想，但许多颜色-情绪效应似乎是天生的且跨文化的，表明有更深的进化根源而非纯粹习得的反应。",
-        "正确！颜色主要通过进化联想影响情绪。蓝色和绿色（水、植被、晴朗天空）标志安全和资源，触发平静反应。红色增加唤醒，因为它标志成熟果实、血液和危险——我们的祖先需要对红色保持警觉。黄色（阳光）让我们有活力。这些联系经过数百万年发展。此外，不同波长对我们的光感受器刺激不同：蓝光通过眼睛中的特殊细胞影响昼夜节律和警觉性。"
+        "错误。虽然文化会影响某些颜色偏好（如红色在中国代表好运，西方代表危险），但颜色对心情的根本影响具有跨文化的进化和生物学基础。",
+        "错误。颜色不像药物那样直接触发大脑化学变化。心情影响来自进化联想和视觉系统对不同波长的处理，而非化学反应。",
+        "错误。尽管我们确实学习了一些颜色联想，但许多颜色-心情效应是天生的、跨文化的，表明更深层的进化根源，而非纯粹后天习得。",
+        "正确！颜色主要通过进化联想影响心情。蓝色和绿色（水、植被、晴朗天空）象征安全和资源，引发平静反应；红色增加兴奋感，因为它代表成熟果实、血液和危险——祖先需要高度警觉；黄色（阳光）让我们充满活力。这些联系历经数百万年演化。此外，不同波长以不同方式刺激感光细胞：蓝光通过眼中特殊细胞影响昼夜节律和警觉性。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_009"
     },
     {
-      "id": "psych_010",
       "question_en": "Why do we like music?",
       "question_zh": "为什么我们喜欢音乐？",
-
       "choices_en": [
         "Music is universally pleasant",
         "Dopamine reward prediction",
@@ -302,10 +309,10 @@
         "Brain pattern recognition"
       ],
       "choices_zh": [
-        "音乐普遍令人愉悦",
-        "多巴胺奖励预测",
-        "社交联结工具",
-        "大脑模式识别"
+        "音乐天生就让人愉悦",
+        "多巴胺奖励预测机制",
+        "音乐是社交黏合剂",
+        "大脑模式识别作用"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -315,18 +322,19 @@
         "Wrong. Pattern recognition is involved in how we process music, but it doesn't explain the pleasure. The reward comes from dopamine release triggered by how music plays with our predictions and expectations, not pattern recognition alone."
       ],
       "explanations_zh": [
-        "错误。音乐并非普遍令人愉悦——不同的人喜欢不同类型。这不能解释当我们确实喜欢音乐时为什么感觉良好的神经学机制。",
-        "正确！音乐通过多巴胺释放激活大脑的奖励系统，特别是在伏隔核中。关键是'奖励预测'——音乐创造期望（基于模式），然后以有趣的方式实现或违背这些期望。当一首歌建立张力并释放它，或当我们期待熟悉的副歌时，大脑会释放多巴胺。这与食物、性和其他快乐涉及的化学物质相同。音乐还同时调动多个大脑区域（听觉皮层、运动皮层、情感中心），创造丰富、愉悦的体验。",
-        "错误。虽然音乐确实促进社交联结（想想音乐会、摇篮曲、集体唱歌），但这不能解释神经学奖励机制。基于多巴胺的奖励预测系统是为什么单独听音乐仍然感觉良好的原因。",
-        "错误。模式识别确实参与我们如何处理音乐，但它不能解释快乐。奖励来自多巴胺释放，由音乐如何玩弄我们的预测和期望触发，而非仅仅模式识别。"
+        "错误。音乐并非人人喜爱——不同人偏好不同风格。这无法解释当我们喜欢音乐时，其带来愉悦感的神经机制。",
+        "正确！音乐通过释放多巴胺（尤其在伏隔核）激活大脑奖励系统。关键在于'奖励预测'——音乐基于模式制造期待，再以有趣方式满足或打破它。当歌曲营造张力后释放，或我们期待熟悉副歌时，大脑会释放多巴胺。这种化学物质同样参与食物、性等愉悦体验。音乐还同步调动多个脑区（听觉皮层、运动皮层、情绪中枢），创造丰富享受。",
+        "错误。虽然音乐确实促进社交联结（如演唱会、摇篮曲、合唱），但这无法解释神经奖励机制。基于多巴胺的奖励预测系统才是独自听音乐也感到愉悦的原因。",
+        "错误。模式识别参与音乐处理过程，但无法解释愉悦感。奖励来自音乐如何玩弄我们的预测和期待所触发的多巴胺释放，而非单纯模式识别。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_010"
     },
     {
-      "id": "psych_011",
       "question_en": "Why do we get nervous before exams?",
-      "question_zh": "为什么考试前会紧张？",
-
+      "question_zh": "为什么考试前我们会紧张得手心冒汗？",
       "choices_en": [
         "We're afraid of failure",
         "Stress hormone activation",
@@ -334,10 +342,10 @@
         "Performance pressure builds"
       ],
       "choices_zh": [
-        "害怕失败结果",
-        "压力激素激活",
-        "准备不充分",
-        "表现压力累积"
+        "害怕考砸丢面子",
+        "压力激素被激活啦",
+        "复习得不够充分",
+        "心理压力堆积如山"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -347,18 +355,19 @@
         "Wrong. 'Pressure' is too vague. The specific mechanism is the hypothalamic-pituitary-adrenal (HPA) axis releasing cortisol and adrenaline when your brain perceives the exam as a threat, triggering physical symptoms."
       ],
       "explanations_zh": [
-        "错误。害怕失败是心理触发因素，但不能解释生理紧张（出汗、心跳加速、肚子翻腾）。实际机制涉及压力激素。",
-        "正确！考试紧张是你的战斗或逃跑反应激活。当你认为考试威胁到你的社会地位或未来时，杏仁核触发压力激素释放——皮质醇和肾上腺素。这些激素增加心率，将血液重新导向肌肉，提高专注力，产生'肚子翻腾'的感觉。这种反应进化来帮助我们的祖先逃离物理危险。你的大脑无法区分'考试威胁'和'捕食者威胁'，所以激活同样的古老生存系统——尽管你无法对考试战斗或逃跑！",
-        "错误。即使准备充分的学生也会紧张，因为压力反应是由对自尊和未来后果的感知威胁触发的，而非实际准备水平。杏仁核对风险做出反应，而非你的学习时长。",
-        "错误。'压力'太模糊。具体机制是下丘脑-垂体-肾上腺（HPA）轴在大脑认为考试是威胁时释放皮质醇和肾上腺素，触发生理症状。"
+        "错！害怕失败是心理因素，但解释不了手心冒汗、心跳加速这些身体反应。真正原因是压力激素在作怪。",
+        "对啦！考试紧张是身体的'战斗或逃跑'反应被激活了。大脑把考试当成威胁，杏仁核立刻释放压力激素——皮质醇和肾上腺素，让你心跳加快、血液涌向肌肉、注意力集中，还产生'小鹿乱撞'的感觉。这原本是帮祖先逃命的古老机制，可惜大脑分不清'考试威胁'和'野兽威胁'呀！",
+        "错！就算复习到滚瓜烂熟也会紧张，因为压力反应来自对自尊和未来的担忧，和实际准备程度无关。杏仁核只关心'考试有多重要'，可不看你熬夜多久哦。",
+        "错！'压力'说得太模糊啦。真正机制是：当大脑把考试视为威胁，下丘脑-垂体-肾上腺轴会释放皮质醇和肾上腺素，直接引发身体的各种紧张症状。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_011"
     },
     {
-      "id": "psych_012",
       "question_en": "Why do habits form?",
-      "question_zh": "为什么会形成习惯？",
-
+      "question_zh": "为什么习惯会形成？",
       "choices_en": [
         "We repeat comfortable actions",
         "Basal ganglia automates tasks",
@@ -366,10 +375,10 @@
         "Brain saves mental energy"
       ],
       "choices_zh": [
-        "重复舒适的行为",
-        "基底神经节自动化",
-        "过去成功的记忆",
-        "大脑节省能量"
+        "我们重复舒适的动作",
+        "基底神经节让任务自动化",
+        "对过去成功的记忆",
+        "大脑节省心理能量"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -379,18 +388,19 @@
         "Wrong. Though habits do conserve mental energy (by reducing decisions), this is the benefit, not the mechanism. The actual formation process involves the basal ganglia creating automated neural pathways through repetition."
       ],
       "explanations_zh": [
-        "错误。舒适感不能解释习惯的自动性或为何如此难以打破。机制涉及创建自动行为循环的特定大脑结构。",
-        "正确！习惯通过基底神经节形成，它通过'组块'将重复行为转化为自动程序。当你重复执行一个序列（提示→惯例→奖励）时，基底神经节将其编码为单一单元，释放前额叶皮层做其他任务。这创建了习惯循环：提示自动触发惯例，无需意识决策。神经学上，行为通路会被髓鞘化（绝缘），使信号传播更快更高效。这种自动化在进化上有优势——想象必须有意识地思考走路！",
-        "错误。虽然记忆确实参与，但仅仅记住成功不会创造习惯的自动、无意识本质。基底神经节的组块过程才是使习惯自动化且抗拒意识控制的原因。",
-        "错误。虽然习惯确实节约精神能量（通过减少决策），但这是好处，而非机制。实际形成过程涉及基底神经节通过重复创建自动化神经通路。"
+        "错误。舒适无法解释习惯的自动性或难以改变的原因。其机制涉及特定大脑结构创建自动行为循环。",
+        "正确！习惯通过基底神经节形成，它将重复行为通过“组块化”转化为自动程序。当你反复执行序列（线索→常规→奖励）时，基底神经节将其编码为单一单元，释放前额叶皮层处理其他任务。这形成习惯循环：线索自动触发常规，无需意识决策。从神经学看，行为通路被髓鞘化（绝缘），使信号传输更快更高效。这种自动化在进化中有利——想象走路都要有意识思考！",
+        "错误。虽然记忆参与其中，但仅记住成功不会创造习惯的自动、无意识特性。基底神经节的组块化过程才使习惯自动且抵抗意识控制。",
+        "错误。尽管习惯确实节省心理能量（通过减少决策），但这是好处而非机制。实际形成过程涉及基底神经节通过重复创建自动化神经通路。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_012"
     },
     {
-      "id": "psych_013",
       "question_en": "Why do we have emotions?",
-      "question_zh": "为什么我们有情绪？",
-
+      "question_zh": "我们为什么会有情绪？",
       "choices_en": [
         "To express our feelings",
         "Evolutionary survival signals",
@@ -398,10 +408,10 @@
         "Brain chemical reactions"
       ],
       "choices_zh": [
-        "为了表达感受",
-        "进化生存信号",
-        "社交沟通需要",
-        "大脑化学反应"
+        "为了表达内心感受",
+        "进化中的生存信号",
+        "满足社交沟通需求",
+        "大脑化学反应驱动"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -411,18 +421,19 @@
         "Wrong. Brain chemicals (neurotransmitters like serotonin, dopamine) are the mechanism of how emotions work, not why we have them. The evolutionary reason is survival advantage through rapid action programs."
       ],
       "explanations_zh": [
-        "错误。表达感受是我们用情绪做什么，而非我们为什么有它们。这不能解释情绪的进化目的或为什么存在特定情绪。",
-        "正确！情绪作为生存的快速决策和行动系统进化而来。恐惧在意识思考前触发战斗或逃跑——面对危险时至关重要。厌恶防止我们吃腐败食物或触碰污染物。愤怒让我们准备对抗威胁。快乐强化有益行为。悲伤标志损失并触发寻求支持。这些由边缘系统（特别是杏仁核）协调的情绪程序，提供比理性分析更快的反应——对我们祖先来说是生死攸关的优势。情绪本质上是大脑的快速生存软件。",
-        "错误。虽然情绪确实促进社交沟通（面部表情、同理心），但这是次要好处。主要进化功能是通过快速威胁/机会反应实现个体生存。",
-        "错误。大脑化学物质（神经递质如血清素、多巴胺）是情绪如何工作的机制，而非我们为什么有它们。进化原因是通过快速行动程序获得生存优势。"
+        "错误！表达感受是我们运用情绪的方式，而非情绪存在的根本原因。这无法解释情绪的进化目的或特定情绪为何存在。",
+        "正确！情绪是进化形成的快速决策与行动系统，专为生存服务。恐惧能在意识思考前触发战斗或逃跑反应——面对危险时至关重要；厌恶阻止我们食用变质食物或接触污染物；愤怒让我们准备对抗威胁；快乐强化有益行为；悲伤提示损失并引发求助。这些由边缘系统（尤其是杏仁核）协调的情绪程序，比理性分析反应更快——为祖先提供了生死攸关的生存优势。情绪本质上是大脑的快速生存软件！",
+        "错误！虽然情绪确实促进社交沟通（如表情传递、共情），但这只是次要功能。其核心进化意义在于通过快速应对威胁与机遇来实现个体生存。",
+        "错误！大脑化学物质（如血清素、多巴胺等神经递质）是情绪如何运作的机制，而非情绪存在的原因。进化层面的答案在于：快速行动程序带来的生存优势！"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_013"
     },
     {
-      "id": "psych_014",
       "question_en": "Why do we enjoy playing games?",
-      "question_zh": "为什么我们喜欢玩游戏？",
-
+      "question_zh": "为什么我们玩游戏会这么上瘾？",
       "choices_en": [
         "Games are fun entertainment",
         "Dopamine from achieving goals",
@@ -430,10 +441,10 @@
         "Competition is natural"
       ],
       "choices_zh": [
-        "游戏是娱乐活动",
-        "达成目标的多巴胺",
-        "逃避现实生活",
-        "竞争是天性"
+        "游戏是超棒的娱乐方式",
+        "达成目标时大脑释放多巴胺",
+        "为了逃避现实生活",
+        "竞争是人类的天性"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -443,18 +454,19 @@
         "Wrong. Competition exists in some games but not all (many are cooperative or solo). The universal appeal comes from dopamine release triggered by goal achievement and progression, not competition specifically."
       ],
       "explanations_zh": [
-        "错误。说游戏'有趣'只是重新表述问题，没有解释为什么感觉良好的神经学机制。真正答案涉及大脑化学。",
-        "正确！游戏通过完美校准的奖励系统触发多巴胺释放。游戏提供明确目标、即时反馈和可实现的挑战——创建持续的多巴胺循环。当你即将实现某事（升级、获胜、解谜）时，大脑在期待中释放多巴胺，使活动感觉有奖励。这与学习和生存行为涉及的神经递质相同。游戏本质上'黑进'了我们的成就-奖励回路。可变奖励（如战利品箱）特别强大，因为不可预测性增强多巴胺释放——类似于赌博。",
-        "错误。虽然有些人用游戏逃避现实问题，但这不能解释根本吸引力。即使心理健康的人也喜欢游戏，因为基于多巴胺的奖励机制。",
-        "错误。竞争存在于某些游戏中但不是全部（许多是合作或单人游戏）。普遍吸引力来自目标达成和进展触发的多巴胺释放，而非具体竞争。"
+        "错误！说游戏'好玩'只是重复问题，没有解释背后的神经机制。真正的原因和大脑化学反应有关。",
+        "正确！游戏通过精心设计的奖励系统触发多巴胺释放。游戏提供明确目标、即时反馈和可实现的挑战，形成持续的多巴胺循环。当你即将达成目标（升级、获胜、解谜）时，大脑会提前释放多巴胺，让活动充满成就感。这种神经递质同样参与学习和生存行为。游戏本质上'破解'了我们的成就-奖励回路。可变奖励（如战利品箱）尤其让人上瘾，因为不确定性会增强多巴胺释放——类似赌博机制。",
+        "错误！虽然有人用游戏逃避现实问题，但这不能解释游戏的根本吸引力。即使生活顺遂的人也会因多巴胺奖励机制而沉迷游戏。",
+        "错误！竞争确实存在于某些游戏中，但并非全部（很多是合作或单人游戏）。游戏的普遍吸引力来自目标达成和进度推进触发的多巴胺释放，而非竞争本身。"
       ],
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_014"
     },
     {
-      "id": "psych_015",
       "question_en": "Why do we learn better by doing?",
-      "question_zh": "为什么实践学得更好？",
-
+      "question_zh": "为什么动手实践能让我们学得更好？",
       "choices_en": [
         "Hands-on is more engaging",
         "Motor cortex aids memory",
@@ -462,10 +474,10 @@
         "Active learning vs. passive"
       ],
       "choices_zh": [
-        "动手更有参与感",
-        "运动皮层辅助记忆",
-        "记住练习的内容",
-        "主动学习非被动"
+        "动手学习更有趣",
+        "运动皮层帮助记忆",
+        "熟能生巧",
+        "主动学习胜过被动"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -475,12 +487,15 @@
         "Wrong. Active vs. passive learning is a useful distinction but doesn't explain the mechanism. The neurological reason is that doing engages motor and sensory cortices along with memory systems, creating redundant neural pathways that make information more retrievable."
       ],
       "explanations_zh": [
-        "错误。'参与感'太模糊，没有解释神经学优势。大脑机制涉及多个记忆系统协同工作。",
-        "正确！实践学习将程序性记忆（存储在基底神经节和小脑）与陈述性记忆（海马体）结合起来。当你在学习时身体执行动作时，运动皮层、感觉皮层和记忆中心同时激活，为同一信息创建多条神经通路——这个过程叫'编码特异性'。这种多通路编码使记忆更强，更容易提取。此外，主动学习触发更深的认知处理和错误纠正，比被动观察更能强化神经连接。",
-        "错误。这部分正确，但没有解释为什么练习比阅读/听讲创建更强的记忆。关键是多系统编码：运动动作创建额外的神经通路，在简单重复之外强化记忆。",
-        "错误。主动与被动学习是有用的区分，但没有解释机制。神经学原因是实践将运动和感觉皮层与记忆系统结合，创建冗余神经通路，使信息更易提取。"
+        "错误。'有趣'太模糊，没解释神经优势。大脑机制涉及多种记忆系统协同工作。",
+        "正确！动手学习同时调动程序性记忆（基底节和小脑）和陈述性记忆（海马体）。当你边学边做动作时，运动皮层、感觉皮层和记忆中心同时激活，为同一信息创建多条神经通路——这叫'编码特异性'。这种多通路编码让记忆更牢固、易提取。此外，主动学习触发更深认知处理和纠错，比被动观察更能强化神经连接。",
+        "错误。这说法部分正确，但没解释为什么练习比阅读/听讲更能强化记忆。关键在于多系统编码：动作创造额外神经通路，超越简单重复来巩固记忆。",
+        "错误。主动与被动学习的区分有用，但没解释机制。神经学原因是：动手能调动运动、感觉皮层和记忆系统，创建冗余神经通路，让信息更易提取。"
       ],
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "created_at": "2025-11-20T00:07:00.000000+00:00",
+      "last_modified_at": "2025-11-20T00:07:00.000000+00:00",
+      "id": "psych_015"
     }
   ]
 }

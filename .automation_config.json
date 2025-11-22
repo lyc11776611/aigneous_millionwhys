@@ -1,0 +1,26 @@
+{
+  "_comment": "Automation Configuration - Controls automatic processing",
+  "auto_mode": {
+    "enabled": true,
+    "skip_manual_confirmations": true,
+    "auto_proceed_on_warnings": true,
+    "auto_proceed_on_validation_pass": true
+  },
+  "validation": {
+    "auto_fix_on_fail": false,
+    "continue_on_warnings": true,
+    "skip_validation": false
+  },
+  "workflows": {
+    "use_claude_for_generation": true,
+    "use_deepseek_for_translation": true,
+    "add_timestamps": true,
+    "auto_fact_check": true,
+    "auto_correct": true
+  },
+  "output": {
+    "verbose": true,
+    "show_progress": true,
+    "show_warnings": true
+  }
+}

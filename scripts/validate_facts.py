@@ -67,6 +67,16 @@ class FactChecker:
             'food & nutrition': 'Nutrition',
             'food and nutrition': 'Nutrition',
             'earth science': 'Earth Science',
+            'marine life': 'Marine Life',
+            'insects': 'Insects',
+            'household science': 'Household Science',
+            'sports & exercise': 'Sports & Exercise',
+            'sports and exercise': 'Sports & Exercise',
+            'health & medicine': 'Health & Medicine',
+            'health and medicine': 'Health & Medicine',
+            'music & sound': 'Music & Sound',
+            'music and sound': 'Music & Sound',
+            'transportation': 'Transportation',
         }
 
     def normalize_category(self, category: str) -> str:

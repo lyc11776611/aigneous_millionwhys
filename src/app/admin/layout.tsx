@@ -1,22 +1,9 @@
 'use client';
 
-import { useState, useEffect, createContext, useContext } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-
-interface AuthContextType {
-  password: string;
-  setPassword: (pw: string) => void;
-  logout: () => void;
-}
-
-const AuthContext = createContext<AuthContextType>({
-  password: '',
-  setPassword: () => {},
-  logout: () => {},
-});
-
-export const useAuth = () => useContext(AuthContext);
+import { AuthContext } from './auth-context';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const [password, setPasswordState] = useState('');
