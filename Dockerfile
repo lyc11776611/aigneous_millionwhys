@@ -39,6 +39,10 @@ COPY --from=builder /app/public ./public
 # Copy question data for API routes
 COPY --from=builder /app/src/data ./src/data
 
+# Create data/logs directory with write permissions for all users
+# This is needed because volume mounts can have different ownership
+RUN mkdir -p /app/data/logs && chmod -R 777 /app/data/logs
+
 # Set the correct permission for prerender cache
 RUN mkdir .next
 RUN chown nextjs:nodejs .next
