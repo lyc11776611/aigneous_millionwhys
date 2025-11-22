@@ -4,7 +4,7 @@
   "questions": [
     {
       "question_en": "Why do instruments sound different?",
-      "question_zh": "为什么不同乐器发出的声音会有所不同？",
+      "question_zh": "为什么不同乐器听起来不一样？",
       "choices_en": [
         "Different air temperatures",
         "Unique overtone patterns",
@@ -12,10 +12,10 @@
         "Our ears hear selectively"
       ],
       "choices_zh": [
-        "不同的气温",
+        "空气温度不同",
         "独特的泛音模式",
-        "声音以不同的速度传播。",
-        "我们的耳朵有选择性地聆听"
+        "声音传播速度不同",
+        "我们的耳朵选择性听音"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -25,10 +25,10 @@
         "Wrong. Our ears hear all instruments similarly. The difference is in the actual sound waves each instrument produces."
       ],
       "explanations_zh": [
-        "错误。温度确实会轻微影响音高，但这并不能解释为什么钢琴和小提琴演奏同一音符时声音不同。",
-        "正确！每种乐器在发出主音的同时，都会产生独特的泛音（谐波）组合。小提琴和钢琴演奏同一音符时，其泛音结构各不相同——这正是它们音色或声音“色彩”的差异所在！",
-        "错误。声音的传播速度与乐器无关，差异在于产生的声波模式不同。",
-        "不对。我们的耳朵对所有乐器的听觉方式是一样的，区别在于每种乐器实际产生的声音波不同。"
+        "错误。温度对音高有轻微影响，但无法解释为什么钢琴和小提琴弹奏同一个音符听起来不同。",
+        "正确！每种乐器在发出主音的同时，会产生独特的泛音组合。小提琴和钢琴弹奏同一个音符时，泛音模式不同——这就是它们的音色或声音'色彩'！",
+        "错误。声音传播速度与乐器无关，差异在于产生的声波模式。",
+        "错误。我们的耳朵对所有乐器的听觉方式相似，差异在于每种乐器实际产生的声波。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:24:22.073484+00:00",
@@ -45,10 +45,10 @@
         "Sound waves split apart"
       ],
       "choices_zh": [
-        "声音在表面反射",
-        "空气传播声音的速度是两倍。",
-        "我们的耳朵会回放声音",
-        "声波分离"
+        "声音从表面反弹回来",
+        "空气两次传递声音",
+        "我们的耳朵重放声音",
+        "声波分裂开来"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -58,10 +58,10 @@
         "Wrong. Sound waves don't split to create echoes. They bounce off surfaces intact."
       ],
       "explanations_zh": [
-        "正确！声波会在墙壁、悬崖或建筑物等坚硬表面反射。反射的声音比原声稍晚到达你的耳朵，从而形成回声。而柔软的表面会吸收声音，这就是为什么在空房间里回声更清晰！",
-        "不对。空气不会传播两次声音。回声是原始声波反射回来的结果。",
-        "不对。耳朵没有回放功能。你听到的是实际反射回来的声波，它们比原声晚到。",
-        "不对。声波不会分裂产生回声，它们是完整地从表面反射回来的。"
+        "正确！声波会从墙壁、悬崖或建筑物等坚硬表面反射回来。反射的声音在原始声音之后到达你的耳朵，形成回声。柔软表面会吸收声音，这就是为什么在空房间里回声更清晰！",
+        "错误。空气不会两次传递声音。回声是原始声波反弹回来的反射。",
+        "错误。耳朵没有重放功能。你听到的是实际反射的声波，它们在原始声音之后到达。",
+        "错误。声波不会分裂来产生回声。它们会完整地从表面反弹回来。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:24:37.111713+00:00",
@@ -70,7 +70,7 @@
     },
     {
       "question_en": "Why do recordings sound different?",
-      "question_zh": "为什么录音听起来不一样？",
+      "question_zh": "为什么录音里的声音听起来不一样？",
       "choices_en": [
         "Microphones add extra sounds",
         "Digital files lose quality",
@@ -78,10 +78,10 @@
         "Speakers distort all sound"
       ],
       "choices_zh": [
-        "麦克风会增加额外的声音。",
-        "数字文件会损失画质。",
-        "你听到的声音不同。",
-        "扬声器使所有声音失真"
+        "麦克风会添加额外声音",
+        "数字文件会损失音质",
+        "你听到自己声音的方式不同",
+        "扬声器会扭曲所有声音"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -91,10 +91,10 @@
         "Wrong. Quality speakers reproduce sound accurately. The difference is hearing yourself without bone conduction."
       ],
       "explanations_zh": [
-        "错误。优质麦克风能真实捕捉声音，区别在于你通常听到自己声音的方式。",
-        "不对。高质量的录音能准确保存声音。那种奇怪的感觉是因为你从外部听到了自己的声音。",
-        "没错！你通常通过颅骨振动和空气传导听到自己的声音。录音只捕捉到空气传导部分。没有骨传导，你的声音听起来更高更细——这才是你声音在外部真实的样子！",
-        "不对。优质扬声器能精准还原声音，区别在于听不到自身骨传导的声音。"
+        "错啦！好的麦克风能忠实捕捉声音，差异在于你平时听到自己声音的方式。",
+        "错啦！高质量的录音能准确保存声音，那种奇怪感觉来自听到外部传来的声音。",
+        "对啦！你平时通过头骨振动和空气两种方式听到自己声音，录音只捕捉空气部分。少了骨传导，声音就更高更细——这才是你真实的外部声音！",
+        "错啦！优质扬声器能准确还原声音，差异在于听不到骨传导的声音。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:24:51.850202+00:00",
@@ -103,7 +103,7 @@
     },
     {
       "question_en": "Why can we hear through walls?",
-      "question_zh": "为什么我们能隔着墙听到声音？",
+      "question_zh": "为什么我们能隔着墙壁听到声音？",
       "choices_en": [
         "Walls have tiny holes",
         "Sound vibrates solid matter",
@@ -111,10 +111,10 @@
         "Walls amplify sound waves"
       ],
       "choices_zh": [
-        "墙壁上有微小的孔洞。",
-        "声音使固体物质振动",
-        "漏气会传递声音",
-        "墙壁会放大声波。"
+        "墙壁上有微小孔洞",
+        "声音让固体物质振动",
+        "空气泄漏传递声音",
+        "墙壁放大声波"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -124,10 +124,10 @@
         "Wrong. Walls actually reduce sound, they don't amplify it. Some sound still gets through via vibration."
       ],
       "explanations_zh": [
-        "错误。声音是通过固体墙壁传播的，而不是通过孔洞。即使是密封的墙壁也会传递一些声音。",
-        "没错！声波使墙壁分子振动，将能量传递过固体材料。墙壁随之振动另一侧的空气。低频声波比高频更容易穿透墙壁——这就是为什么你能听到邻居家的低音！",
-        "错误。尽管空气间隙有助于声音传播，但声音也通过固体材料的振动直接传播。",
-        "错误。墙壁实际上会减少声音，而不是放大它。部分声音仍会通过振动传递过来。"
+        "错误。声音是通过固体墙壁传播的，不是通过孔洞。即使密封的墙壁也能传递一些声音。",
+        "正确！声波使墙壁分子振动，能量穿过固体材料。墙壁再振动另一侧的空气。低频声音比高频更容易穿过墙壁——这就是为什么你能听到邻居的低音！",
+        "错误。虽然空气缝隙有助于声音传播，但声音也通过振动直接在固体材料中移动。",
+        "错误。墙壁实际上会减弱声音，不会放大它。一些声音仍通过振动传过来。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:25:06.915208+00:00",
@@ -136,7 +136,7 @@
     },
     {
       "question_en": "Why do loud sounds hurt our ears?",
-      "question_zh": "为什么巨大的声音会伤害我们的耳朵？",
+      "question_zh": "为什么巨大的声响会伤害我们的耳朵？",
       "choices_en": [
         "Strong vibrations damage cells",
         "Sound fills ear completely",
@@ -144,10 +144,10 @@
         "Ears run out of energy"
       ],
       "choices_zh": [
-        "强烈振动会损伤细胞。",
-        "声音充盈耳畔",
-        "响亮的声音是热的",
-        "耳朵没电了"
+        "强烈震动损伤细胞",
+        "声音完全填满耳朵",
+        "巨大声响很烫",
+        "耳朵能量耗尽"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -157,10 +157,10 @@
         "Wrong. Ears don't tire out. Loud sounds physically damage the sensitive structures inside."
       ],
       "explanations_zh": [
-        "没错！巨大的声音会产生强烈的压力波，损伤内耳中脆弱的毛细胞。这些细胞一旦受损便无法再生！因此，保护听力至关重要——噪音造成的损害是永久性的。",
-        "错误。声音不会像液体那样充满空间。损害来自于过度的振动强度。",
-        "错误。声波并不携带显著热量。损害是机械性的，源于过度振动。",
-        "不对。耳朵不会疲劳，响亮的声音会物理损伤内部敏感结构。"
+        "正确！巨大声响产生强力压力波，会损伤内耳脆弱的毛细胞。这些细胞无法再生！所以保护听力很重要——噪音损伤是永久性的。",
+        "错误。声音不会像液体一样填满空间。损伤来自过度震动的强度。",
+        "错误。声波不携带显著热量。损伤是机械性的，源于过度震动。",
+        "错误。耳朵不会疲劳。巨大声响会物理损伤内部的敏感结构。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:25:22.166420+00:00",
@@ -169,7 +169,7 @@
     },
     {
       "question_en": "Why does helium change your voice?",
-      "question_zh": "为什么氦气会改变你的声音？",
+      "question_zh": "为什么吸了氦气，声音会变尖？",
       "choices_en": [
         "Helium shrinks vocal cords",
         "It makes you breathe faster",
@@ -177,10 +177,10 @@
         "Helium vibrates differently"
       ],
       "choices_zh": [
-        "氦气使声带收缩。",
-        "它让你呼吸加快。",
-        "声音在氦气中传播得更快。",
-        "氦气的振动方式不同。"
+        "氦气让声带缩小了",
+        "它让你呼吸变快",
+        "声音在氦气中传播更快",
+        "氦气振动方式不同"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -190,10 +190,10 @@
         "Wrong. Helium molecules vibrate similarly to air. The effect comes from sound's different speed in helium."
       ],
       "explanations_zh": [
-        "不对。氦气并不会物理性地影响你的声带，它们以相同的频率振动。",
-        "不对。呼吸频率不会导致声音变化，关键在于声音在气体中传播的方式。",
-        "正确！声音在氦气中传播的速度比在空气中快近3倍。这会改变您喉咙和口腔中的共鸣，增强高频音。您的声带工作正常——只是音质发生了变化！",
-        "不对。氦气分子的振动方式与空气相似。这种效应源于声音在氦气中传播速度的不同。"
+        "错啦！氦气不会让声带变小，声带振动频率其实没变。",
+        "不对哦，呼吸快慢和声音变化无关，关键是声音在气体中的传播方式。",
+        "没错！声音在氦气中传播速度比空气中快近3倍，这会改变喉咙和口腔的共鸣，增强高频音。声带工作正常，只是声音听起来不一样了！",
+        "错啦，氦气分子振动和空气差不多，效果来自声音在氦气中传播速度不同。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:25:37.860220+00:00",
@@ -202,7 +202,7 @@
     },
     {
       "question_en": "Why do some sounds make us calm?",
-      "question_zh": "为何某些声音能让我们感到平静？",
+      "question_zh": "为什么有些声音能让我们感到平静？",
       "choices_en": [
         "Quiet sounds are always calming",
         "Certain patterns relax the brain",
@@ -210,9 +210,9 @@
         "Familiar sounds feel safe"
       ],
       "choices_zh": [
-        "轻柔的声音总能让人平静。",
-        "某些模式能让大脑放松",
-        "平静的声音没有低音。",
+        "安静的声音总是让人平静",
+        "特定模式能放松大脑",
+        "平静的声音没有低音",
         "熟悉的声音让人安心"
       ],
       "correct_answer": 1,
@@ -223,10 +223,10 @@
         "Wrong. Familiarity helps, but unfamiliar nature sounds can calm us too. It's about the predictable, gentle patterns."
       ],
       "explanations_zh": [
-        "错。安静本身并不保证平静。有些安静的声音（如低语）反而令人不安。",
-        "正确！节奏缓慢、轻柔可预测的声音能激活我们的副交感神经系统。像雨声、海浪或鸟鸣这类自然声音，其模式与我们大脑的进化相契合。而突然、不可预测的声音则会引发警觉反应！",
-        "错误。低音频率也能让人平静（如雨声中雷鸣般的低频）。平静感源于规律模式，而非频率范围。",
-        "错误。熟悉感确实有帮助，但陌生的自然声音也能让我们平静。关键在于那些可预测的、温和的节奏。"
+        "错误。安静不一定带来平静，有些安静声音（如耳语）反而让人不安。",
+        "正确！轻柔、可预测的声音，如雨声、海浪或鸟鸣，能激活副交感神经系统，帮助放松。",
+        "错误。低音频率（如雷声）也能平静，关键在于声音模式，而非频率范围。",
+        "错误。熟悉感有帮助，但陌生的自然声音也能平静，关键是可预测的轻柔模式。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:25:53.906143+00:00",
@@ -235,7 +235,7 @@
     },
     {
       "question_en": "Why do songs get stuck in our heads?",
-      "question_zh": "为什么歌曲会在我们脑海中挥之不去？",
+      "question_zh": "为什么歌曲会一直在脑海里回响？",
       "choices_en": [
         "Brain loops incomplete patterns",
         "We secretly like the song",
@@ -243,10 +243,10 @@
         "Hearing triggers replay"
       ],
       "choices_zh": [
-        "大脑循环未完成模式",
-        "我们暗自喜欢这首歌。",
-        "歌曲旨在深入人心",
-        "听觉触发回放"
+        "大脑循环未完成的模式",
+        "我们其实喜欢这首歌",
+        "歌曲被设计成易记",
+        "听到触发重播"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -256,10 +256,10 @@
         "Wrong. Just hearing a song doesn't guarantee an earworm. The brain's attempt to complete patterns causes them."
       ],
       "explanations_zh": [
-        "没错！耳虫现象常出现在我们未听完或未完全消化的歌曲中。大脑会持续“播放”它，试图完成这个模式。简单、重复的旋律最容易卡在脑海里，因为它们容易被部分记住！",
-        "错误。耳虫现象也会发生在我们不喜欢的歌曲上。这与大脑如何处理未完成的音乐模式有关。",
-        "错误。虽然朗朗上口有助于传播，但耳虫现象更多源于大脑的完形填空倾向，而非歌曲设计本身。",
-        "不对。仅仅听一首歌并不能保证会产生耳虫现象。大脑试图完成模式的行为才是其成因。"
+        "正确！耳虫现象常发生在未听完或未完全处理的歌曲上。大脑不断'播放'它，试图完成模式。简单重复的旋律最易记住，因为它们容易部分回忆！",
+        "错误。耳虫也会出现在我们讨厌的歌曲上。这与大脑如何处理未完成的音乐模式有关。",
+        "错误。虽然朗朗上口有帮助，但耳虫更多源于大脑的模式完成倾向，而非歌曲设计。",
+        "错误。仅仅听到歌曲不保证出现耳虫。大脑尝试完成模式才是原因。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:26:10.595890+00:00",

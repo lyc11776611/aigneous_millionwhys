@@ -40,9 +40,9 @@ class QuestionBuilderV3:
     # Character limits
     LIMITS = {
         'question_en': 45,
-        'question_zh': 25,
+        'question_zh': 35,  # Relaxed for clearer phrasing
         'choice_en': 35,
-        'choice_zh': 15,
+        'choice_zh': 25,    # Relaxed for clearer phrasing
     }
 
     def __init__(self, use_deepseek: bool = True):
@@ -106,24 +106,13 @@ class QuestionBuilderV3:
                 "These should be fact-checked by Claude Code before running this script."
             )
 
-        # Step 3: Translate to Chinese (using DeepSeek)
-        if not draft.question_zh:
-            print("  🇨🇳 Translating question to Chinese...")
-            draft.question_zh = self._translate_to_chinese_deepseek(draft.question_en)
-
-        if not draft.choices_zh:
-            print("  🇨🇳 Translating choices to Chinese...")
-            draft.choices_zh = [
-                self._translate_to_chinese_deepseek(choice)
-                for choice in draft.choices_en
-            ]
-
-        if not draft.explanations_zh:
-            print("  🇨🇳 Translating explanations to Chinese...")
-            draft.explanations_zh = [
-                self._translate_to_chinese_deepseek(exp)
-                for exp in draft.explanations_en
-            ]
+        # Step 3: Translate to Chinese (using DeepSeek with full context)
+        if not draft.question_zh or not draft.choices_zh or not draft.explanations_zh:
+            print("  🇨🇳 Translating to Chinese (with full context)...")
+            translation = self._translate_question_with_context(draft)
+            draft.question_zh = translation['question']
+            draft.choices_zh = translation['choices']
+            draft.explanations_zh = translation['explanations']
 
         # Step 4: Validate character limits
         self._validate_lengths(draft)
@@ -147,6 +136,87 @@ class QuestionBuilderV3:
 
         print("  ✅ Question completed successfully")
         return question
+
+    def _translate_question_with_context(self, draft: QuestionDraft) -> Dict:
+        """Translate entire question with full context using DeepSeek.
+
+        Translates question, choices, and explanations together to maintain
+        context and coherence.
+
+        Returns:
+            Dict with 'question', 'choices', 'explanations' keys
+        """
+        if not self.deepseek_client:
+            raise RuntimeError(
+                "DeepSeek API not configured. Set DEEPSEEK_API_KEY environment variable."
+            )
+
+        # Build structured prompt with full context
+        prompt = f"""请将以下科普问答翻译成简体中文。这是"十万个为什么"风格的科普问题，目标读者是对科学好奇的普通大众。
+
+翻译要求：
+1. 使用生动、有趣、吸引人的语言风格
+2. 保持科学准确性，但用通俗易懂的表达
+3. 所有选项必须与问题紧密相关，确保语义连贯
+4. 问题不超过{self.LIMITS['question_zh']}字
+5. 每个选项不超过{self.LIMITS['choice_zh']}字
+6. 解释可以适当放宽字数，保证清晰易懂
+
+请按以下JSON格式返回（只返回JSON，不要其他文字）：
+
+{{
+  "question": "问题翻译",
+  "choices": ["选项1", "选项2", "选项3", "选项4"],
+  "explanations": ["解释1", "解释2", "解释3", "解释4"]
+}}
+
+原文：
+
+**问题：** {draft.question_en}
+
+**选项：**
+1. {draft.choices_en[0]}
+2. {draft.choices_en[1]}
+3. {draft.choices_en[2]}
+4. {draft.choices_en[3]}
+
+**解释：**
+1. {draft.explanations_en[0]}
+2. {draft.explanations_en[1]}
+3. {draft.explanations_en[2]}
+4. {draft.explanations_en[3]}
+
+（正确答案是选项 {draft.correct_answer + 1}）
+"""
+
+        try:
+            response = self.deepseek_client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "你是一位优秀的科普翻译专家，擅长将英文科学知识翻译成生动有趣、通俗易懂的中文。你的翻译风格活泼、吸引人，同时保持科学严谨性。"
+                    },
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.5,  # Slightly higher for more natural/engaging language
+                response_format={"type": "json_object"}
+            )
+
+            result_text = response.choices[0].message.content.strip()
+            translation = json.loads(result_text)
+
+            # Validate structure
+            if not all(key in translation for key in ['question', 'choices', 'explanations']):
+                raise ValueError("Translation missing required keys")
+
+            if len(translation['choices']) != 4 or len(translation['explanations']) != 4:
+                raise ValueError("Translation must have exactly 4 choices and 4 explanations")
+
+            return translation
+
+        except Exception as e:
+            raise RuntimeError(f"Contextual translation failed: {e}")
 
     def _translate_to_chinese_deepseek(self, text: str, max_chars: Optional[int] = None) -> str:
         """Translate English text to Chinese using DeepSeek.

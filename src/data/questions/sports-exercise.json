@@ -12,10 +12,10 @@
         "Blood flow decreases"
       ],
       "choices_zh": [
-        "乳酸堆积",
-        "微小肌肉撕裂修复",
-        "肌肉缺氧",
-        "血流减少"
+        "乳酸堆积导致",
+        "肌肉微撕裂修复",
+        "肌肉缺氧引起",
+        "血流减少造成"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -25,10 +25,10 @@
         "Wrong. Blood flow actually increases during and after exercise. Delayed soreness comes from the repair process."
       ],
       "explanations_zh": [
-        "错误。乳酸在几小时内就会清除，但酸痛感在1-2天后达到高峰。过时的“乳酸”理论已被取代。",
-        "正确！锻炼会在肌肉纤维中造成微小撕裂。身体修复这些撕裂，从而增强肌肉力量。这个修复过程会引起炎症和酸痛——这实际上是变得更强壮的标志！",
-        "错误。缺氧会导致立即疲劳，而非延迟性酸痛。疼痛源于肌肉纤维的损伤与修复过程。",
-        "错误。实际上，运动期间及之后血流会增加。延迟性肌肉酸痛源于修复过程。"
+        "错啦！乳酸几小时就代谢掉了，但酸痛在1-2天后才最明显。过时的'乳酸理论'早被推翻啦！",
+        "答对啦！运动会让肌肉纤维产生微小撕裂，身体修复时会产生炎症和酸痛——这可是变强的小信号哦！",
+        "不对哦~缺氧会立刻感到疲劳，但延迟酸痛来自肌肉纤维的损伤修复过程",
+        "错啦！运动时和运动后血流反而会增加。延迟酸痛其实是肌肉修复的'施工噪音'呢"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:24:03.137112+00:00",
@@ -37,7 +37,7 @@
     },
     {
       "question_en": "Why does stretching help before sports?",
-      "question_zh": "为什么运动前拉伸有帮助？",
+      "question_zh": "为什么运动前拉伸身体能帮上忙？",
       "choices_en": [
         "Increases muscle flexibility",
         "Builds instant strength",
@@ -45,10 +45,10 @@
         "Cools muscles down"
       ],
       "choices_zh": [
-        "增强肌肉柔韧性",
-        "瞬间增强力量",
+        "增强肌肉的柔韧性",
+        "瞬间提升力量",
         "清除肌肉中的废物",
-        "冷却肌肉"
+        "让肌肉冷却下来"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -58,10 +58,10 @@
         "Wrong. Stretching doesn't cool muscles—warming up actually raises muscle temperature. Stretching improves flexibility."
       ],
       "explanations_zh": [
-        "正确！拉伸能拉长肌肉纤维并增加活动范围，这有助于为肌肉活动做准备，并可能降低受伤风险。现在，运动前进行动态拉伸比静态拉伸更受推荐！",
-        "不对。拉伸并不能增强力量——那需要抗阻训练。拉伸主要是提高柔韧性和活动范围。",
-        "错误。废物清除是通过血液循环进行的，而非拉伸。拉伸主要影响肌肉的长度和柔韧性。",
-        "错误。拉伸不会让肌肉变凉——热身实际上会提高肌肉温度。拉伸能增强柔韧性。"
+        "正确！拉伸能拉长肌肉纤维，增加活动范围，让肌肉为运动做好准备，还能降低受伤风险。现在更推荐运动前做动态拉伸，而不是静态拉伸！",
+        "错误。拉伸不能增强力量——那需要抗阻训练。拉伸主要改善柔韧性和活动范围。",
+        "错误。废物清除是通过血液循环进行的，不是拉伸。拉伸主要影响肌肉长度和柔韧性。",
+        "错误。拉伸不会让肌肉冷却——热身反而会提高肌肉温度。拉伸是提升柔韧性的好方法。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:24:18.236929+00:00",
@@ -70,7 +70,7 @@
     },
     {
       "question_en": "Why is hydration important in exercise?",
-      "question_zh": "为什么在运动中补水很重要？",
+      "question_zh": "运动时为什么补水很重要？",
       "choices_en": [
         "Water provides energy",
         "It prevents muscle growth",
@@ -78,10 +78,10 @@
         "Keeps joints lubricated only"
       ],
       "choices_zh": [
-        "水提供能量",
-        "它阻碍肌肉生长。",
-        "调节体温",
-        "仅保持关节润滑"
+        "水能提供能量",
+        "它会阻止肌肉生长",
+        "调节身体温度",
+        "仅润滑关节"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -91,10 +91,10 @@
         "Wrong. Joint lubrication is one benefit, but temperature regulation is more critical during exercise."
       ],
       "explanations_zh": [
-        "错误。水不含热量，不提供能量。碳水化合物、脂肪和蛋白质才是能量来源。",
-        "错误。适当的水分补充实际上有助于肌肉功能和恢复，而非阻碍生长。",
-        "正确！运动时出汗有助于身体降温。若水分不足，排汗不畅，可能导致体温过高。同时，水还能帮助将营养和氧气输送到工作中的肌肉！",
-        "错误。关节润滑是好处之一，但在锻炼过程中，温度调节更为关键。"
+        "错误。水不含热量，不能提供能量。碳水化合物、脂肪和蛋白质才是能量来源。",
+        "错误。适当补水其实能支持肌肉功能和恢复，而不是阻止生长。",
+        "正确！出汗能在运动中给身体降温。如果水不够，就无法有效出汗，可能导致过热。水还能帮助将营养和氧气输送到工作肌肉！",
+        "错误。关节润滑是好处之一，但运动时温度调节更关键。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:24:33.212202+00:00",
@@ -103,7 +103,7 @@
     },
     {
       "question_en": "Why do athletes warm up first?",
-      "question_zh": "运动员为什么先热身？",
+      "question_zh": "为什么运动员要先热身？",
       "choices_en": [
         "To burn extra calories",
         "Increases blood flow to muscles",
@@ -111,10 +111,10 @@
         "Rules require warming up"
       ],
       "choices_zh": [
-        "燃烧额外卡路里",
-        "增加肌肉的血流量",
-        "为了练习他们的运动",
-        "规则要求热身"
+        "为了燃烧额外卡路里",
+        "增加肌肉血液流动",
+        "为了练习运动项目",
+        "规则要求必须热身"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -124,10 +124,10 @@
         "Wrong. No rules mandate warm-ups. Athletes do them because they improve performance and reduce injuries."
       ],
       "explanations_zh": [
-        "不对。虽然热身运动会消耗一些卡路里，但这并非其目的。其真正用意是让身体为高强度活动做好准备。",
-        "正确！热身能逐渐提高心率和血流速度，为肌肉输送更多氧气。温暖的肌肉更灵活，收缩效率更高，从而降低受伤风险！",
-        "不对。练习和热身是不同的。热身是让身体做好物理准备，而练习则是提升技能。",
-        "错误。没有规定要求必须进行热身。运动员之所以做热身，是因为它能提高表现并减少受伤风险。"
+        "错误。虽然热身会消耗一些卡路里，但这并非主要目的。热身是为了让身体为高强度活动做好准备。",
+        "正确！热身能逐步提高心率和血液流动，为肌肉输送更多氧气。温暖的肌肉更灵活、收缩更高效，还能降低受伤风险！",
+        "错误。练习和热身是两回事。热身是让身体做好物理准备，而练习是为了提升运动技能。",
+        "错误。没有规则强制要求热身。运动员主动热身是因为它能提升表现、预防受伤。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:24:47.763784+00:00",
@@ -136,7 +136,7 @@
     },
     {
       "question_en": "Why does running make you breathe faster?",
-      "question_zh": "为什么跑步会让你呼吸加快？",
+      "question_zh": "为什么跑步时我们会喘得更快？",
       "choices_en": [
         "Muscles need more oxygen",
         "To cool down your lungs",
@@ -145,9 +145,9 @@
       ],
       "choices_zh": [
         "肌肉需要更多氧气",
-        "润肺",
-        "跑步会震动胸部。",
-        "心脏排出空气"
+        "为了给肺部降温",
+        "跑步晃动胸部",
+        "心脏把空气推出去"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -157,10 +157,10 @@
         "Wrong. The heart pumps blood, not air. Breathing is controlled by the diaphragm and chest muscles."
       ],
       "explanations_zh": [
-        "正确！工作肌肉需要氧气来产生能量。加快呼吸能将更多氧气带入血液并排出二氧化碳废物。你的身体会自动调节呼吸以适应需求！",
-        "不对。呼吸主要不是给肺部降温。热量主要通过皮肤和汗液散发。",
-        "不对。身体活动本身并不会导致呼吸加快。你的大脑是根据氧气和二氧化碳水平来调节呼吸频率的。",
-        "不对。心脏负责泵血，而非空气。呼吸由膈肌和胸肌控制。"
+        "正确！运动中的肌肉需要氧气来产生能量。加快呼吸能吸入更多氧气进入血液，并排出二氧化碳废物。身体会自动调节呼吸来满足需求！",
+        "错误。呼吸的主要目的不是给肺部降温。热量主要通过皮肤和汗液散发。",
+        "错误。身体晃动不会直接导致呼吸加快。大脑会根据氧气和二氧化碳水平来增加呼吸频率。",
+        "错误。心脏负责泵血，而不是推动空气。呼吸是由膈肌和胸肌控制的。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:25:02.364668+00:00",
@@ -169,7 +169,7 @@
     },
     {
       "question_en": "Why do swimmers shave their bodies?",
-      "question_zh": "游泳运动员为何要剃除体毛？",
+      "question_zh": "为什么游泳运动员要剃光体毛？",
       "choices_en": [
         "To look more athletic",
         "Hair blocks oxygen absorption",
@@ -177,9 +177,9 @@
         "Prevents skin infections"
       ],
       "choices_zh": [
-        "看起来更健美",
-        "头发阻碍氧气吸收",
-        "略微减少水的阻力",
+        "为了看起来更健美",
+        "毛发阻碍氧气吸收",
+        "略微减少水中阻力",
         "预防皮肤感染"
       ],
       "correct_answer": 2,
@@ -190,10 +190,10 @@
         "Wrong. Hair doesn't significantly affect infection risk in chlorinated pools."
       ],
       "explanations_zh": [
-        "错误。虽然可能存在心理影响，但主要原因在于表现。",
-        "不对。皮肤不会为了游泳而吸收氧气。呼吸才是提供氧气的途径。",
-        "没错！头发在水中会产生微小的阻力。对于顶尖游泳选手来说，比赛胜负往往取决于百分之一秒的差距，因此任何细微的阻力减少都至关重要。剃毛还能让游泳者感觉更顺滑，对水的触感也更敏锐！",
-        "错误。在含氯泳池中，头发并不会显著增加感染风险。"
+        "错误。虽然有心理作用，但主要原因是为了提升表现。",
+        "错误。皮肤不靠吸收氧气游泳，呼吸才是供氧方式。",
+        "正确！毛发在水中会产生微小阻力。对顶尖选手来说，比赛胜负常差百分之一秒，任何减阻都重要。剃毛还让选手感觉更顺滑，对水更敏感！",
+        "错误。在含氯泳池中，毛发对感染风险影响不大。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:25:16.949995+00:00",
@@ -202,7 +202,7 @@
     },
     {
       "question_en": "Why does exercise improve mood?",
-      "question_zh": "为什么运动能改善情绪？",
+      "question_zh": "为什么运动能让人心情变好？",
       "choices_en": [
         "Tired muscles feel relaxed",
         "Brain releases feel-good chemicals",
@@ -210,10 +210,10 @@
         "Sweat removes toxins"
       ],
       "choices_zh": [
-        "疲惫的肌肉感到放松",
-        "大脑释放令人愉悦的化学物质",
-        "运动能让人暂时忘却烦恼。",
-        "汗水排出毒素。"
+        "疲惫的肌肉感觉放松",
+        "大脑释放快乐化学物质",
+        "运动让人暂时忘记烦恼",
+        "汗水排出体内毒素"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -223,10 +223,10 @@
         "Wrong. Sweat primarily removes water and salt for cooling. Toxin removal isn't the cause of mood improvement."
       ],
       "explanations_zh": [
-        "错误。虽然身体会放松，但情绪的提升源于大脑化学变化。",
-        "正确！运动能促使身体释放内啡肽、血清素和多巴胺——这些是大脑天然的快乐物质。规律运动对轻度抑郁的缓解效果可与药物相媲美，即便是短暂散步也有帮助！",
-        "不对。虽然分散注意力可能暂时有效，但运动能引起大脑中实际的化学变化，从而改善情绪。",
-        "错误。出汗主要是为了散热而排出水分和盐分，毒素排出并非情绪改善的原因。"
+        "错误。虽然身体会放松，但心情变好主要来自大脑化学变化。",
+        "正确！运动促使大脑释放内啡肽、血清素和多巴胺——这些是天然的快乐信使。规律运动对轻度抑郁的效果甚至堪比药物，连散步都有帮助哦！",
+        "错误。暂时忘记烦恼可能有点用，但运动真正改善心情靠的是大脑的化学变化。",
+        "错误。汗水主要是为了降温而排出水分和盐分，和排毒改善心情没啥关系。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:25:33.526952+00:00",
@@ -235,7 +235,7 @@
     },
     {
       "question_en": "Why do we get a 'second wind'?",
-      "question_zh": "为什么我们会迎来“第二次呼吸”？",
+      "question_zh": "为什么我们会有'第二次呼吸'的感觉？",
       "choices_en": [
         "Body adjusts to exercise demand",
         "Muscles find hidden energy",
@@ -243,10 +243,10 @@
         "Pain receptors shut off"
       ],
       "choices_zh": [
-        "身体适应运动需求",
-        "肌肉发掘隐藏能量",
-        "呼吸变得更加高效",
-        "疼痛感受器关闭"
+        "身体适应了运动需求",
+        "肌肉找到了隐藏能量",
+        "呼吸变得更有效率",
+        "疼痛感受器关闭了"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -256,10 +256,10 @@
         "Wrong. Pain receptors don't shut off. Endorphins may reduce discomfort, but the main factor is metabolic adjustment."
       ],
       "explanations_zh": [
-        "没错！起初，你的身体难以满足氧气供需平衡。10到20分钟后，心血管和代谢系统开始调整——血流优化，有氧能量供应跟上。这就是你的第二次呼吸！",
-        "错误。身体并没有隐藏的能量储备，而是变得更有效地利用现有能源。",
-        "不对。呼吸效率不会突然提高。整个系统——心脏、血液、肌肉——是逐步协调同步的。",
-        "错误。痛觉感受器不会关闭。内啡肽或许能减轻不适，但主要因素是代谢调节。"
+        "正确！刚开始身体难以匹配氧气供需，10-20分钟后心血管和代谢系统调整——血流优化，有氧能量生产跟上，这就是你的第二次呼吸！",
+        "错误。没有隐藏能量储备，身体只是更高效地利用现有能量源。",
+        "错误。呼吸效率不会突然提升，是心脏、血液、肌肉等整个系统逐渐协调同步。",
+        "错误。疼痛感受器不会关闭，内啡肽可能减轻不适，但主要因素是代谢调整。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-21T04:25:48.988864+00:00",
@@ -268,7 +268,7 @@
     },
     {
       "question_en": "Why eat carbs before games?",
-      "question_zh": "比赛前为何要摄入碳水化合物？",
+      "question_zh": "比赛前为什么要吃碳水化合物？",
       "choices_en": [
         "Carbs build muscle fast",
         "They prevent dehydration",
@@ -276,10 +276,10 @@
         "Carbs reduce injuries"
       ],
       "choices_zh": [
-        "碳水化合物快速增肌",
-        "它们防止脱水。",
-        "肌肉快速能量补充",
-        "碳水化合物减少受伤风险"
+        "碳水化合物能快速增肌",
+        "它们能防止脱水",
+        "为肌肉提供快速能量",
+        "碳水化合物能减少受伤"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -289,10 +289,10 @@
         "Wrong. Carbs don't prevent injuries. Proper warm-up, technique, and conditioning reduce injury risk."
       ],
       "explanations_zh": [
-        "错误。蛋白质才是增肌的关键，而非碳水化合物。碳水化合物主要作为能量来源。",
-        "错误。水能防止脱水，而碳水化合物对水分补充影响不大。",
-        "正确！碳水化合物会转化为葡萄糖，这是肌肉首选的燃料来源。身体会将葡萄糖以糖原形式储存在肌肉中。运动前摄入碳水化合物能确保这些储备充足，以支持最佳表现！",
-        "错误。碳水化合物并不能预防受伤。适当的热身、正确的技术和体能训练才能降低受伤风险。"
+        "错。蛋白质才是增肌的关键，碳水化合物主要作为能量燃料。",
+        "错。防止脱水靠的是水，碳水化合物对补水影响不大。",
+        "对！碳水化合物转化为葡萄糖，这是肌肉最爱的燃料。身体将葡萄糖以糖原形式储存在肌肉中，赛前补充碳水能确保能量储备充足，助你发挥最佳状态！",
+        "错。碳水化合物不能预防受伤。正确的热身、技巧和体能训练才是降低受伤风险的关键。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:26:04.755851+00:00",
@@ -301,7 +301,7 @@
     },
     {
       "question_en": "Why does cold water help recovery?",
-      "question_zh": "为什么冷水有助于恢复？",
+      "question_zh": "为什么冷水能帮助身体恢复？",
       "choices_en": [
         "Freezes damaged tissue",
         "Reduces inflammation and swelling",
@@ -309,9 +309,9 @@
         "Cold makes muscles grow"
       ],
       "choices_zh": [
-        "冻结受损组织",
+        "冻住受损组织",
         "减轻炎症和肿胀",
-        "杀死肌肉中的细菌",
+        "杀死肌肉里的细菌",
         "寒冷促进肌肉生长"
       ],
       "correct_answer": 1,
@@ -322,10 +322,10 @@
         "Wrong. Cold doesn't promote muscle growth. Growth happens during rest and recovery, aided by nutrition."
       ],
       "explanations_zh": [
-        "不对。冰浴并不会冻结组织——只是使其冷却。真正的冻结会造成损伤。",
-        "正确！寒冷会使血管收缩，减少血流和炎症，从而有助于减轻剧烈运动后的肌肉酸痛和肿胀。虽然效果是暂时的，但能促进恢复！",
-        "错误。健康肌肉中没有需要杀死的细菌。冷疗的作用是通过减轻炎症来实现的。",
-        "错误。寒冷并不能促进肌肉生长。肌肉的增长发生在休息和恢复期间，并需要营养的支持。"
+        "错误。冰浴不会冻住组织，只是降温。真冻住反而会损伤组织。",
+        "正确！冷水让血管收缩，减少血流和炎症，能缓解运动后的肌肉酸痛和肿胀。效果虽短暂，但确实有助恢复！",
+        "错误。健康肌肉里没有细菌可杀。冷疗是通过减轻炎症起作用的。",
+        "错误。寒冷不会促进肌肉生长。肌肉生长发生在休息恢复期，需要营养支持。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:26:20.733206+00:00",

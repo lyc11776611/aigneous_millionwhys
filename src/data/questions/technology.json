@@ -4,7 +4,7 @@
   "questions": [
     {
       "question_en": "How does WiFi work?",
-      "question_zh": "WiFi如何运作？",
+      "question_zh": "WiFi是如何工作的？",
       "choices_en": [
         "Sends data through wires",
         "Uses radio waves for data",
@@ -12,10 +12,10 @@
         "Creates magnetic fields"
       ],
       "choices_zh": [
-        "有线传输数据",
-        "无线电传输数据",
-        "卫星信号反射",
-        "产生磁场"
+        "通过电线传输数据",
+        "利用无线电波传输数据",
+        "通过卫星反射信号",
+        "产生磁场传输数据"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -25,10 +25,10 @@
         "Wrong. WiFi uses electromagnetic radio waves, not magnetic fields, to transmit data wirelessly between your device and the router."
       ],
       "explanations_zh": [
-        "错误。WiFi是无线技术——这正是“Wi”所代表的含义。它通过空气中的无线电波传输数据，而非物理线路。",
-        "正确！WiFi通过无线电波传输数据，类似于广播或电视信号。您的路由器将互联网数据转换成无线电信号，设备接收这些信号后再将其转换回数据。整个过程速度极快。墙壁和距离会减弱信号，这就是为什么靠近路由器时WiFi效果更好的原因！",
-        "错误。WiFi并不使用卫星，它是通过无线电波在你的设备和路由器之间进行本地通信的。卫星互联网是另一种技术。",
-        "错误。WiFi利用的是电磁无线电波，而非磁场，来实现设备与路由器之间的无线数据传输。"
+        "错误！WiFi是无线技术——'Wi'就代表无线。它通过空气中的无线电波传输数据，而不是物理电线。",
+        "正确！WiFi使用无线电波传输数据，类似于广播或电视。路由器将互联网数据转换成无线电信号，设备接收后还原成数据，整个过程极快。墙壁和距离会减弱信号，所以靠近路由器时WiFi效果更好！",
+        "错误！WiFi不使用卫星——它通过无线电波在设备和路由器之间本地工作。卫星互联网是另一种技术。",
+        "错误！WiFi使用电磁无线电波，而不是磁场，在设备和路由器之间无线传输数据。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -37,7 +37,7 @@
     },
     {
       "question_en": "Why do batteries run out?",
-      "question_zh": "电池为何耗尽？",
+      "question_zh": "为什么电池会没电？",
       "choices_en": [
         "Electricity leaks out slowly",
         "Chemical reactions deplete",
@@ -45,10 +45,10 @@
         "Internal parts wear down"
       ],
       "choices_zh": [
-        "电量缓慢流失",
-        "化学反应消耗",
-        "吸收周围能量",
-        "内部零件磨损"
+        "电量慢慢漏光了",
+        "化学反应耗尽了",
+        "吸收了周围能量",
+        "内部零件磨损了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -58,10 +58,10 @@
         "Wrong. While some battery degradation can occur, batteries primarily run out because the chemicals that produce electricity through reactions get depleted, not from mechanical wear."
       ],
       "explanations_zh": [
-        "不对。电池不会像容器漏水那样漏电。电池是通过化学反应产生电力的，这些化学反应最终会耗尽。",
-        "正确！电池通过化学物质储存能量。当你使用电池时，化学反应会产生电力。随着时间的推移，这些化学物质逐渐耗尽，无法再发生反应，这时电池就没电了。可充电电池在充电时可以逆转这一反应，恢复化学物质以供再次使用！",
-        "错误。电池不会从周围环境中吸收能量，它们通过化学反应将储存的化学能转化为电能，最终会耗尽。",
-        "错误。虽然电池可能会有一定程度的损耗，但电池耗尽主要是因为产生电能的化学反应物质被消耗殆尽，而非机械磨损。"
+        "错！电不会像水从容器漏出那样从电池漏走。电池通过化学反应发电，这些反应最终会耗尽。",
+        "对啦！电池把能量储存在化学物质里。使用时，化学反应产生电。时间久了，化学物质耗尽无法再反应，电池就“罢工”了。可充电电池插电时能逆转反应，让化学物质恢复再利用哦！",
+        "错！电池不会吸收周围能量。它们通过转化储存的化学能来发电，这些反应最终会耗尽。",
+        "错！虽然电池可能有些老化，但主要没电是因为发电的化学物质通过反应耗尽了，不是机械磨损。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -70,7 +70,7 @@
     },
     {
       "question_en": "How do touchscreens work?",
-      "question_zh": "触摸屏如何运作？",
+      "question_zh": "触摸屏是怎么感应到我们手指的？",
       "choices_en": [
         "Detect pressure from fingers",
         "Sense electrical field changes",
@@ -78,10 +78,10 @@
         "Cameras track finger position"
       ],
       "choices_zh": [
-        "手指压力检测",
+        "检测手指按压的压力",
         "感知电场变化",
-        "触温即启",
-        "摄像头追踪手指位置"
+        "感应手指触摸的热量",
+        "用摄像头追踪手指位置"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -91,10 +91,10 @@
         "Wrong. Touchscreens don't use cameras to track fingers. They have an electrical sensor grid beneath the glass that detects touch through field changes."
       ],
       "explanations_zh": [
-        "错误。现代触摸屏不依赖压力。旧式电阻屏确实依赖压力，但现在的电容屏通过检测手指导电特性引起的电变化来工作。",
-        "正确！大多数触摸屏采用电容技术。您的屏幕上布满了传感器网格，形成一个微小的电场。当手指触碰时，人体会吸收部分电流，改变电场状态。手机会精确计算出触碰位置。这就是为什么戴手套时触摸屏无法操作——手套阻断了电连接！",
-        "不对。触摸屏并非通过检测热量工作，而是当您导电的手指接触屏幕时，通过感知电场的变化来实现操作。",
-        "错误。触摸屏并非通过摄像头追踪手指，而是在玻璃下方设有电传感器网格，通过电场变化来检测触摸。"
+        "错啦！现代触摸屏不靠压力感应。老式电阻屏才用压力，现在主流的电容屏是通过手指的导电性来检测电场变化的。",
+        "答对啦！大多数触摸屏用的是电容技术。屏幕上有密密麻麻的传感器网格，形成微弱的电场。你的手指一碰，身体会吸收一点电，改变电场，手机就能算出触摸位置。这就是为什么戴手套时触摸屏不灵——手套会阻断电连接！",
+        "错啦！触摸屏不靠热量感应。它是通过导电的手指触摸屏幕时引起电场变化来工作的。",
+        "错啦！触摸屏不用摄像头追踪手指。它在玻璃下面有电场传感器网格，通过检测电场变化来感知触摸。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -103,7 +103,7 @@
     },
     {
       "question_en": "Why do computers slow down over time?",
-      "question_zh": "电脑为何越用越慢？",
+      "question_zh": "为什么电脑用久了会变慢？",
       "choices_en": [
         "Parts physically wear out",
         "Files get fragmented on disk",
@@ -111,10 +111,10 @@
         "Battery loses power"
       ],
       "choices_zh": [
-        "部件物理磨损",
-        "文件磁盘碎片化",
-        "灰尘阻塞散热扇",
-        "电池耗电"
+        "硬件零件磨损了",
+        "文件在磁盘上变得零散",
+        "灰尘堵住了散热风扇",
+        "电池电量衰减了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -124,10 +124,10 @@
         "Wrong. Battery degradation affects laptop runtime, not computer speed. Slowdowns are mainly caused by software issues like file fragmentation and too many programs running."
       ],
       "explanations_zh": [
-        "错误。像处理器和内存这样的电脑部件不会像机械部件那样因使用而物理磨损。速度变慢通常与软件相关，而非硬件退化。",
-        "没错！随着电脑使用，文件会被分割成碎片散落在硬盘各处——这被称为碎片化。电脑需要搜索多个位置才能读取一个文件，耗时更长。此外，后台程序、临时文件和软件更新会随时间累积，占用更多资源。定期进行磁盘碎片整理和清理启动程序等维护，有助于恢复运行速度！",
-        "错误。虽然灰尘会影响散热并导致过热，但它并非电脑随时间变慢的主要原因。软件问题，如碎片化和程序积累，才是主要因素。",
-        "错误。电池损耗影响的是笔记本电脑的续航时间，而非运行速度。电脑变慢主要由软件问题引起，如文件碎片过多和运行程序过多。"
+        "错误。电脑的处理器和内存等硬件不会像机械零件那样因使用而磨损。变慢通常是软件问题，而非硬件老化。",
+        "正确！随着使用，文件会被分割成碎片散落在硬盘各处，这叫碎片化。电脑需要搜索多个位置来读取一个文件，耗时更长。此外，后台程序、临时文件和软件更新会不断累积，占用更多资源。定期进行磁盘碎片整理和清理启动程序有助于恢复速度！",
+        "错误。虽然灰尘会影响散热导致过热，但这不是电脑变慢的主要原因。软件问题如碎片化和程序累积才是主因。",
+        "错误。电池衰减影响笔记本电脑的续航时间，而非电脑速度。变慢主要由文件碎片化和运行程序过多等软件问题引起。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -136,7 +136,7 @@
     },
     {
       "question_en": "Why does Wi-Fi have limited range?",
-      "question_zh": "Wi-Fi为何范围有限？",
+      "question_zh": "为什么Wi-Fi信号的范围有限？",
       "choices_en": [
         "Radio waves weaken with distance",
         "Routers have power limits",
@@ -144,10 +144,10 @@
         "Too many devices connected"
       ],
       "choices_zh": [
-        "无线电波随距减弱",
-        "路由器功率受限",
-        "空气吸收所有信号",
-        "设备连接过多"
+        "无线电波随距离减弱",
+        "路由器功率有限制",
+        "空气会吸收所有信号",
+        "太多设备同时连接"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -157,10 +157,10 @@
         "Wrong. Too many devices can slow your WiFi speed by sharing bandwidth, but it doesn't reduce the signal range. The limited range is due to radio waves weakening with distance."
       ],
       "explanations_zh": [
-        "没错！WiFi使用的是无线电波，这些波在空间中传播时会自然扩散并减弱，遵循反平方定律。墙壁、家具和其他障碍物会吸收和反射这些波，从而降低信号强度。2.4GHz频段穿透墙壁的能力更强，但理论覆盖范围比5GHz短，而5GHz速度更快但更容易被阻挡。这就是为什么离路由器越近，WiFi信号越好的原因！",
-        "错误。虽然路由器的功率受到法规限制，但这并非WiFi覆盖范围受限的主要原因。根本问题在于无线电波在传播过程中会随距离自然衰减。",
-        "错误。空气并不会吸收所有无线电信号——它们可以传播得很远。然而，无线电波在传播过程中自然会逐渐减弱，而且像墙壁这样的固体会显著吸收和反射它们。",
-        "错误。设备过多会因共享带宽而降低WiFi速度，但不会缩小信号覆盖范围。信号范围受限是因为无线电波随距离增加而减弱。"
+        "正确！Wi-Fi使用无线电波，它们在空间中传播时会自然扩散和减弱，遵循平方反比定律。墙壁、家具等障碍物会吸收和反射这些波，降低信号强度。2.4GHz频率穿透墙壁更好但理论范围较短，而5GHz更快但更容易被阻挡，所以靠近路由器信号更强！",
+        "错误。虽然路由器功率受法规限制，但这并非Wi-Fi范围有限的主要原因。根本问题是无线电波随距离自然减弱。",
+        "错误。空气不会吸收所有无线电信号——它们能传播很远。但无线电波会自然扩散减弱，且墙壁等固体物会显著吸收和反射它们。",
+        "错误。太多设备会因共享带宽而减慢Wi-Fi速度，但不减少信号范围。范围有限是因无线电波随距离减弱。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -169,7 +169,7 @@
     },
     {
       "question_en": "Why do we need to charge batteries?",
-      "question_zh": "电池为何需充电？",
+      "question_zh": "为什么电池需要充电？",
       "choices_en": [
         "To refill lost electricity",
         "To reverse chemical reactions",
@@ -177,9 +177,9 @@
         "To clean battery contacts"
       ],
       "choices_zh": [
-        "补充流失电能",
+        "补充流失的电能",
         "逆转化学反应",
-        "冷却内部部件",
+        "给内部部件降温",
         "清洁电池触点"
       ],
       "correct_answer": 1,
@@ -190,10 +190,10 @@
         "Wrong. Cleaning contacts might improve connection but isn't what charging does. Charging reverses the chemical reactions that were depleted during use to restore the battery's energy."
       ],
       "explanations_zh": [
-        "错误。电并不是像水充满水箱那样“填满”电池。电池是通过化学反应产生电能的，而不是直接储存电子。",
-        "正确！像锂离子电池这样的可充电电池通过可逆化学反应工作。当你使用电池时，化学物质反应产生电力，将化学能转化为电能。充电时施加电流以逆转这一反应，使化学物质恢复到原始状态。这就是为什么你可以给电池充电数百次——实际上就是在逆转化学反应！",
-        "错误。充电并不会让电池冷却，实际上会产生一些热量。充电是逆转电池内部的化学反应，以恢复其储能能力。",
-        "错误。清洁接触点可能改善连接，但并非充电的作用。充电是通过逆转使用过程中消耗的化学反应来恢复电池的能量。"
+        "错误。电能不像水灌满水箱那样“填满”电池。电池通过化学反应产生电能，而不是直接储存电子。",
+        "正确！像锂离子这样的可充电电池通过可逆化学反应工作。使用电池时，化学物质反应产生电能，将化学能转化为电能。充电时施加电流逆转这个反应，使化学物质恢复原状。这就是为什么电池能充电数百次——你实际上是在逆转化学反应！",
+        "错误。充电不会给电池降温——实际上会产生一些热量。充电是逆转电池内部的化学反应，恢复其储能能力。",
+        "错误。清洁触点可能改善连接，但这不是充电的作用。充电是逆转使用过程中耗尽的化学反应，恢复电池的能量。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -202,7 +202,7 @@
     },
     {
       "question_en": "Why does GPS know where you are?",
-      "question_zh": "GPS为何知你位置？",
+      "question_zh": "GPS为什么能知道你在哪儿？",
       "choices_en": [
         "Tracks your phone movements",
         "Measures satellite distances",
@@ -210,10 +210,10 @@
         "Uses internet location data"
       ],
       "choices_zh": [
-        "追踪手机动态",
-        "测量卫星距",
-        "连接基站",
-        "使用网络定位"
+        "追踪手机移动轨迹",
+        "测量卫星距离",
+        "连接手机信号塔",
+        "使用网络定位数据"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -223,10 +223,10 @@
         "Wrong. GPS doesn't require internet - it only receives signals from satellites. Internet can help GPS load maps and speed up initial location lock, but position calculation is done using satellite signals alone."
       ],
       "explanations_zh": [
-        "不对。GPS并不追踪你的移动轨迹，而是实时计算你的位置。你的设备接收来自卫星的信号，并通过时间延迟来计算距离。",
-        "正确！全球定位系统（GPS）通过卫星进行三角测量来工作。您的设备接收来自至少四颗环绕地球的GPS卫星信号。每颗卫星发送其位置和时间戳。您的设备通过测量信号传播时间（信号以光速传播）来计算与每颗卫星的距离。利用多颗卫星的距离信息，它就能精确确定您的位置——就像画圆并找出它们的交点一样！",
-        "错误。虽然基站可以通过三角测量提供大致位置，但那并非GPS。GPS特指利用卫星信号而非通信基站来确定精确位置。",
-        "错误。GPS并不需要互联网——它仅接收来自卫星的信号。互联网可以帮助GPS加载地图并加快初始定位锁定，但位置计算仅通过卫星信号完成。"
+        "错啦！GPS不追踪你的移动——它是实时计算位置的。设备接收卫星信号，通过时间差算出距离。",
+        "对啦！GPS通过卫星三角定位法工作。设备接收至少4颗地球轨道卫星的信号，每颗卫星发送位置和时间戳。设备通过测量信号传播时间（光速传播）计算与各卫星距离，多个距离数据交叉锁定你的精确位置——就像画圆找交点！",
+        "错啦！虽然手机信号塔能通过三角测量提供大致位置，但这不是GPS。GPS专门用卫星信号（非基站）来精确定位。",
+        "错啦！GPS不需要网络——它只接收卫星信号。网络能帮GPS加载地图、加快初始定位，但位置计算全靠卫星信号完成。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -235,7 +235,7 @@
     },
     {
       "question_en": "Why do LED lights use less energy?",
-      "question_zh": "LED灯为何节能？",
+      "question_zh": "为什么LED灯更省电？",
       "choices_en": [
         "Emit light without heat",
         "Convert electricity efficiently",
@@ -243,10 +243,10 @@
         "Turn on and off rapidly"
       ],
       "choices_zh": [
-        "发光不发热",
-        "高效节电",
-        "调低亮度",
-        "快速开关"
+        "发光时几乎不发热",
+        "电能转化效率高",
+        "灯光亮度较低",
+        "开关响应极快"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -256,10 +256,10 @@
         "Wrong. While LEDs can turn on/off instantly, that's not why they use less energy. Their efficiency comes from converting electricity directly to light through semiconductor physics rather than heating a filament."
       ],
       "explanations_zh": [
-        "错误。LED确实会产生一些热量，只是比传统灯泡少得多。关键在于它们将大部分电能直接转化为光，而不是以热量的形式浪费掉。",
-        "正确！LED（发光二极管）将电能转化为光的效率远高于传统白炽灯泡。当电流通过LED中的半导体材料时，电子通过电致发光过程以光子（光）的形式释放能量。白炽灯泡则浪费约90%的能量转化为热量——它们通过加热灯丝至发光来工作！而LED能将约80%-90%的能量转化为光，这就是它们保持较低温度并节能的原因。",
-        "错误。LED灯在节能的同时，亮度完全可以与传统灯泡相媲美。其节能优势源于高效的电能转化为光能，而非亮度不足。",
-        "错误。虽然LED能瞬间开关，但这并非其节能的原因。其高效在于通过半导体物理直接将电能转化为光，而非加热灯丝。"
+        "错误。LED灯也会产生少量热量，但远少于传统灯泡。关键在于它们将大部分电能直接转化为光，而非浪费在发热上。",
+        "正确！LED（发光二极管）通过电致发光原理，让电子在半导体中释放光子（光），电能转化效率高达80-90%。而白炽灯约90%电能浪费在加热灯丝上，所以LED既省电又凉快！",
+        "错误。LED灯在同等亮度下可比传统灯泡更省电，节能秘诀在于高效的光电转化，而非降低亮度。",
+        "错误。虽然LED能瞬间开关，但这并非省电主因。其节能优势源于半导体直接发光，无需加热灯丝的物理原理。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -268,7 +268,7 @@
     },
     {
       "question_en": "Why do solar panels generate electricity?",
-      "question_zh": "太阳能为何发电？",
+      "question_zh": "太阳能板为什么能发电？",
       "choices_en": [
         "Heat creates steam power",
         "Photons knock electrons loose",
@@ -276,10 +276,10 @@
         "Light pressure moves turbines"
       ],
       "choices_zh": [
-        "热生蒸汽力",
-        "光子释放电子",
-        "太阳磁吸电子",
-        "光压转动涡轮"
+        "热量产生蒸汽动力",
+        "光子撞出自由电子",
+        "太阳磁力吸引电子",
+        "光压驱动涡轮机"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -289,10 +289,10 @@
         "Wrong. Solar panels have no moving parts or turbines. They generate electricity directly when light photons knock electrons loose in the semiconductor material - this is called the photovoltaic effect."
       ],
       "explanations_zh": [
-        "不对。太阳能电池板并不利用热量或蒸汽——那是太阳能热电站的工作原理，而非光伏（太阳能）电池板。太阳能电池板通过光伏效应直接将光能转化为电能。",
-        "正确！太阳能电池板通过光伏效应工作。它们由两层半导体材料（通常是硅）制成。当来自阳光的光子（光粒子）击中电池板时，会将能量传递给原子中的电子。这股能量使电子挣脱束缚，形成自由电子。电池板的结构产生电场，推动这些电子单向流动——这就是电！无需任何活动部件！",
-        "不对。太阳能电池板并不利用磁力。它们是通过光伏效应，在半导体材料中，当阳光中的光子撞击使电子脱离时产生电流来发电的。",
-        "不对。太阳能板没有活动部件或涡轮机。当光子撞击半导体材料中的电子使其释放时，它们直接产生电力——这被称为光伏效应。"
+        "错啦！太阳能板不靠热量或蒸汽发电——那是太阳能热电站的原理。光伏板通过光电效应直接把光能转化为电能。",
+        "答对啦！太阳能板靠光电效应工作。它们由两层半导体材料（通常是硅）制成。当阳光中的光子撞击面板时，会把能量传给原子里的电子，撞出自由电子。面板结构形成的电场推动电子定向流动——这就是电！完全不需要活动部件！",
+        "错啦！太阳能板不靠磁力发电。它们是靠阳光中的光子撞击半导体材料撞出电子，通过光电效应产生电流的。",
+        "错啦！太阳能板没有活动部件或涡轮机。它们是靠光子在半导体材料中撞出电子直接发电的——这就是光电效应。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -301,7 +301,7 @@
     },
     {
       "question_en": "Why does Bluetooth connect wirelessly?",
-      "question_zh": "蓝牙为何无线连接？",
+      "question_zh": "蓝牙为什么能无线连接？",
       "choices_en": [
         "Uses infrared light beams",
         "Creates magnetic fields",
@@ -309,10 +309,10 @@
         "Sends ultrasonic sound waves"
       ],
       "choices_zh": [
-        "采用红外光束",
+        "利用红外光束",
         "产生磁场",
-        "采用短程无线电波",
-        "发射超声波"
+        "使用短距离无线电波",
+        "发送超声波"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -322,10 +322,10 @@
         "Wrong. Bluetooth doesn't use sound waves - it uses radio waves. Sound waves would require line-of-sight and wouldn't work through walls like Bluetooth does."
       ],
       "explanations_zh": [
-        "错误。蓝牙并不使用红外光——那是另一种技术（如旧式电视遥控器）。蓝牙利用2.4GHz频段的无线电波进行无线通信。",
-        "错误。蓝牙并非通过产生磁场来传输数据，而是利用2.4GHz频率的无线电波传递信息，这与WiFi类似，但针对更短距离和更低功耗进行了优化。",
-        "正确！蓝牙技术利用2.4GHz频段的短程无线电波进行通信。它就像微型广播站——您的设备通过无线电信号收发数据。该技术采用跳频机制：在79个不同频率间快速切换以规避干扰。这就是蓝牙能穿透墙壁和口袋工作，但传输距离有限（通常10-100米）的原因。这项技术专为低功耗短距离连接设计！",
-        "错误。蓝牙并不使用声波，而是利用无线电波。声波需要直线传播，无法像蓝牙那样穿透墙壁工作。"
+        "错啦！蓝牙不用红外光——那是老电视遥控器的技术。它用的是2.4GHz频段的无线电波来无线通信。",
+        "不对哦！蓝牙不靠磁场传数据。它通过2.4GHz的无线电波传输信息，类似WiFi但专为短距离低功耗设计。",
+        "答对啦！蓝牙用2.4GHz频段的短距离无线电波。它像个小电台——设备通过无线电信号收发数据。技术采用跳频：在79个频率间快速切换来避开干扰。所以蓝牙能穿墙过袋，但范围有限（通常10-100米），专为低功耗短距离连接而生！",
+        "错啦！蓝牙不用声波——它用的是无线电波。声波需要直线传播，可没法像蓝牙那样穿墙工作。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -334,7 +334,7 @@
     },
     {
       "question_en": "Why do QR codes work?",
-      "question_zh": "二维码为何有效？",
+      "question_zh": "二维码为什么能存储信息？",
       "choices_en": [
         "Patterns encode data in 2D",
         "Colors store information",
@@ -342,10 +342,10 @@
         "Holograms contain codes"
       ],
       "choices_zh": [
-        "图案二维编码",
-        "色彩存储信息",
-        "磁条存储数据",
-        "全息图含代码"
+        "黑白方块组成二维图案编码数据",
+        "用不同颜色存储信息",
+        "靠磁性条带保存数据",
+        "通过全息图包含代码"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -355,10 +355,10 @@
         "Wrong. QR codes aren't holograms - they're simple 2D printed patterns. The black and white squares encode data that can be read by any camera without special 3D viewing technology."
       ],
       "explanations_zh": [
-        "正确！QR码（快速响应码）通过黑白方块组成的二维图案编码信息。每个方块代表二进制数据（黑=1，白=0）。三个大角标帮助摄像头准确定位二维码。这种图案可存储数千字符——远超传统条形码。摄像头拍摄图像后，软件会解码图案并提取数据（如网址或文本）。QR码还具备纠错功能，即使部分损坏也能正常读取！",
-        "错误。标准二维码仅使用黑白图案，而非彩色。信息是通过这些黑白方块的排列和位置来编码的，而非颜色变化。",
-        "错误。二维码没有磁条，它们只是印刷的图案。信息通过黑白方块的排列进行视觉编码，摄像头可以读取这些信息。",
-        "错误。二维码并非全息图，它们只是简单的二维打印图案。黑白方块编码的数据可通过任何摄像头读取，无需特殊的3D观看技术。"
+        "正确！二维码（快速响应码）通过黑白方块组成的二维图案编码信息。每个方块代表二进制数据（黑=1，白=0）。三个大角方块帮助摄像头准确定位。这种图案能存储数千字符——远超传统条形码。摄像头拍摄图像后，软件解码图案并提取数据（如网址或文本）。二维码还具备纠错功能，即使部分损坏也能正常读取！",
+        "错误。标准二维码仅使用黑白图案，不依赖颜色。信息是通过黑白方块的排列和位置编码的，而非颜色变化。",
+        "错误。二维码没有磁性条带——它们只是印刷图案。信息通过黑白方块的排列进行视觉编码，摄像头可直接读取。",
+        "错误。二维码不是全息图——它们是简单的二维印刷图案。黑白方块编码的数据可由任何摄像头读取，无需特殊3D观看技术。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -367,7 +367,7 @@
     },
     {
       "question_en": "Why does 5G work faster than 4G?",
-      "question_zh": "5G为何比4G快？",
+      "question_zh": "为什么5G比4G速度更快？",
       "choices_en": [
         "Uses stronger signal power",
         "Has more cell towers",
@@ -375,10 +375,10 @@
         "Compresses data better"
       ],
       "choices_zh": [
-        "信号更强",
-        "信号塔更多",
-        "采用更高频率",
-        "压缩更优"
+        "信号强度更强",
+        "基站数量更多",
+        "使用更高频率",
+        "数据压缩更好"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -388,10 +388,10 @@
         "Wrong. 5G and 4G use similar data compression techniques. The speed advantage comes from 5G using higher radio frequencies that can carry more data simultaneously, not better compression."
       ],
       "explanations_zh": [
-        "错误。5G之所以速度更快，并非因为信号强度更大。实际上，相比4G信号，5G的高频信号更弱，传输距离也更短。",
-        "错误。虽然5G网络最终可能会有更多基站，但速度并非源于基站数量。其速度优势在于使用了更高的无线电频率，这些频率能同时传输更多数据。",
-        "正确！5G使用的是比4G（低于6 GHz）更高的无线电频率（24-100 GHz）。可以把频率想象成高速公路——频率越高，就像车道越宽，能同时传输更多数据。这些毫米波能同时传送大量信息。但代价是传输距离较短且易被墙壁阻挡，因此5G需要更多小型基站。这就是5G速度可达4G的10至100倍的原因！",
-        "错误。5G和4G采用相似的数据压缩技术。其速度优势在于5G使用了更高的无线电频率，能够同时传输更多数据，而非压缩技术更优。"
+        "错误！5G速度更快不是因为信号更强。实际上，5G的高频信号比4G信号更弱、传输距离更短。",
+        "错误！虽然5G网络未来可能有更多基站，但速度优势不来自基站数量，而是来自能同时传输更多数据的高频无线电波。",
+        "正确！5G使用比4G（低于6GHz）更高的无线电频率（24-100GHz）。把频率想象成高速公路——高频就像更宽的车道，能同时传输更多数据。这些毫米波能同时传送海量信息，代价是传输距离短、易被墙壁阻挡，所以5G需要更多小型基站。这就是5G速度可达4G的10-100倍的原因！",
+        "错误！5G和4G采用相似的数据压缩技术。速度优势来自5G使用能同时传输更多数据的高频无线电波，而非更好的压缩。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -400,7 +400,7 @@
     },
     {
       "question_en": "Why do electric cars not need gasoline?",
-      "question_zh": "电动车为何无需汽油？",
+      "question_zh": "为什么电动汽车不需要汽油？",
       "choices_en": [
         "Use battery-powered motors",
         "Run on solar power only",
@@ -408,9 +408,9 @@
         "Use hydrogen fuel cells"
       ],
       "choices_zh": [
-        "使用电池马达",
-        "仅靠太阳能",
-        "行车发电",
+        "使用电池驱动的电动机",
+        "仅靠太阳能行驶",
+        "行驶时自行发电",
         "使用氢燃料电池"
       ],
       "correct_answer": 0,
@@ -421,10 +421,10 @@
         "Wrong. Most electric cars use battery-powered electric motors, not hydrogen fuel cells. Hydrogen fuel cell vehicles are a different type of electric vehicle that generates electricity from hydrogen gas."
       ],
       "explanations_zh": [
-        "没错！电动汽车使用大型电池组（通常是锂离子电池）储存电能。它们没有燃烧汽油的内燃机，而是配备电动机，直接将电能转化为机械运动。通过插电为电池充电，就像给手机充电一样，只是规模大得多！电动机也比汽油发动机更高效——能将约85%-90%的能量转化为动力，而汽油发动机仅有20%-30%。无需汽油、更换机油，也没有尾气排放！",
-        "不对。电动汽车并非仅靠太阳能驱动——它们通过电网充电。部分车型装有太阳能板作为辅助电源，但主要动力来源于插电充电的可充电电池。",
-        "错误。虽然电动汽车通过再生制动能回收部分能量，但无法产生足够电力实现无限行驶。它们主要依赖电池供电，必须通过插电方式充电。",
-        "错误。大多数电动汽车使用的是电池驱动的电动机，而非氢燃料电池。氢燃料电池车是另一种类型的电动汽车，它通过氢气发电。"
+        "正确！电动汽车使用大型电池组（通常是锂离子电池）储存电能。它们没有燃烧汽油的内燃机，而是通过电动机将电能直接转化为机械运动。就像给手机充电一样，你需要插电给电池充电，只不过规模更大！电动机效率也更高——约85-90%的能量转化为动力，而汽油发动机只有20-30%。无需汽油、换机油或排放尾气！",
+        "错误。电动汽车并非仅靠太阳能行驶——它们从电网充电。有些车型配备太阳能板作为辅助电源，但主要动力来自可充电电池，需插电充电。",
+        "错误。虽然电动汽车通过再生制动回收部分能量，但无法产生足够电力无限行驶。它们主要依赖电池供电，必须插电充电。",
+        "错误。大多数电动汽车使用电池驱动的电动机，而非氢燃料电池。氢燃料电池车是另一种电动汽车类型，通过氢气发电。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-20T00:07:00.000000+00:00",
@@ -433,7 +433,7 @@
     },
     {
       "question_en": "Why do phone screens respond to touch?",
-      "question_zh": "为什么手机屏幕能触控？",
+      "question_zh": "为什么手机屏幕能感应到我们的触摸呢？",
       "choices_en": [
         "Finger disrupts electric field",
         "Heat from finger activates",
@@ -441,10 +441,10 @@
         "Skin oils trigger response"
       ],
       "choices_zh": [
-        "手指干扰电场",
-        "手指热量激活",
-        "压力传感器检测轻触",
-        "皮肤油脂引发反应"
+        "手指干扰了电场",
+        "手指热量激活屏幕",
+        "压力传感器检测点击",
+        "皮肤油脂触发响应"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -454,10 +454,10 @@
         "Wrong. Oils don't trigger the screen. Your finger's electrical conductivity is what's detected."
       ],
       "explanations_zh": [
-        "正确！现代手机采用电容式触摸屏。您手指的电气特性会干扰屏幕上该点的电场，手机便能精确检测到触摸位置。这就是手套无法操作的原因——它们阻断了电接触！",
-        "错误。大多数触摸屏并不检测热量，电容屏是通过感应手指的电学特性来工作的。",
-        "错误。大多数手机并不使用压力传感器进行触控，电容屏是通过检测电场变化来实现的。",
-        "不对。油不会触发屏幕，检测到的是你手指的导电性。"
+        "正确！现代手机使用电容式触摸屏。你的手指具有电学特性，会干扰屏幕上的电场，手机就能精确检测触摸位置。这就是为什么戴手套不管用——它阻断了电接触！",
+        "错误。大多数触摸屏不检测热量。电容式屏幕检测的是手指的电学特性。",
+        "错误。大多数手机不用压力传感器来感应触摸。电容式屏幕检测的是电场变化。",
+        "错误。油脂不会触发屏幕。检测的是你手指的导电性。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:38:21.965526+00:00",
@@ -466,7 +466,7 @@
     },
     {
       "question_en": "Why does the internet work?",
-      "question_zh": "互联网为何能运作？",
+      "question_zh": "互联网为什么能运作？",
       "choices_en": [
         "One giant computer serves all",
         "Radio waves carry everything",
@@ -474,10 +474,10 @@
         "Phone lines connect everyone"
       ],
       "choices_zh": [
-        "一台巨型计算机服务所有用户",
-        "无线电波承载一切",
-        "数据包全球路由",
-        "电话线连接着每一个人。"
+        "一台巨型电脑服务所有人",
+        "无线电波传输一切信息",
+        "数据包在全球路由传递",
+        "电话线连接每个人"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -487,10 +487,10 @@
         "Wrong. Modern internet uses fiber optic cables, not phone lines. Phone networks and internet are separate systems."
       ],
       "explanations_zh": [
-        "错误。互联网是去中心化的——没有单一计算机控制它。数百万台连接的服务器共同分担负载。",
-        "错误。虽然WiFi在本地使用无线电波，但互联网的主干网络是跨大陆的光纤电缆。",
-        "正确！数据被分割成小包，在网络中独立传输，可能走不同的路径。路由器负责将数据包导向目的地。这一系统具备容错能力——即使某条路径中断，数据包也能找到其他路径！",
-        "错误。现代互联网使用的是光纤电缆，而非电话线。电话网络和互联网是两套独立的系统。"
+        "错啦！互联网是去中心化的——没有单一电脑控制它。数百万台互联服务器共同分担负载。",
+        "不对哦！虽然WiFi在本地使用无线电波，但互联网主干依赖横跨大陆的光纤电缆传输。",
+        "答对啦！数据被拆分成小数据包，各自独立穿越网络，可能走不同路线。路由器引导数据包奔向目的地——这个系统超可靠，一条路断了还能自动找新路！",
+        "错啦！现代互联网用的是光纤电缆，不是电话线。电话网络和互联网是两个不同的系统。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-21T04:38:37.711420+00:00",
@@ -507,10 +507,10 @@
         "Photos were always yellowish"
       ],
       "choices_zh": [
-        "纸张吸收浅色。",
-        "与空气的化学反应",
-        "墨迹褪去留黄",
-        "照片总是偏黄。"
+        "纸张吸收了光的颜色",
+        "与空气发生化学反应",
+        "墨水褪色留下黄色",
+        "照片原本就偏黄"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -520,10 +520,10 @@
         "Wrong. Fresh photos weren't yellow. Chemical degradation over time causes the color change."
       ],
       "explanations_zh": [
-        "不对。纸张不会吸收光线中的颜色。发黄是纸张本身发生的化学变化。",
-        "正确！纸张中含有木质素，当暴露于空气和光线中时会氧化，变成黄褐色。纸张中的酸性物质也会随时间分解纸张。这就是为什么档案照片使用无酸纸，并储存在黑暗中的原因！",
-        "不对。黄色并非隐藏在下层。纸张的化学分解过程产生了黄色。",
-        "不对。新鲜的照片不会发黄。颜色变化是化学物质随时间降解造成的。"
+        "错！纸张不会吸收光的颜色。变黄是纸张自身的化学变化。",
+        "对啦！纸张中的木质素接触空气和光会氧化变黄褐，酸性物质也会随时间分解纸张。所以档案照片要用无酸纸并避光保存！",
+        "错！黄色不是藏在下面的。纸张化学分解产生了黄色。",
+        "错！新照片不黄。是随时间化学降解导致颜色变化。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:38:53.278727+00:00",
@@ -532,7 +532,7 @@
     },
     {
       "question_en": "Why do refrigerators keep food cold?",
-      "question_zh": "冰箱为何能让食物保持冷藏？",
+      "question_zh": "冰箱为什么能让食物保持冰凉？",
       "choices_en": [
         "Gas absorbs heat when expanding",
         "Cold air is pumped inside",
@@ -540,10 +540,10 @@
         "Electricity makes air cold"
       ],
       "choices_zh": [
-        "气体膨胀时吸收热量",
-        "冷空气被泵入内部。",
-        "内部储存的冰块",
-        "电使空气变冷。"
+        "气体膨胀时会吸收热量",
+        "把冷空气泵进冰箱里",
+        "冰箱里存放着冰块",
+        "电能让空气变冷"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -553,10 +553,10 @@
         "Wrong. Electricity powers the compressor, but the cooling comes from refrigerant phase changes, not direct electrical cooling."
       ],
       "explanations_zh": [
-        "正确！冰箱采用循环原理：液态制冷剂在内部蒸发（吸收食物热量），然后在外部被压缩回液态（释放热量）。膨胀的气体吸收热量，循环往复。这个过程是将热量移出，而非注入冷气！",
-        "不对。冰箱并非从外部抽取冷气，而是通过制冷剂气体循环来移除热量。",
-        "不对。现代冰箱不使用冰块，而是采用压缩机和制冷剂系统。",
-        "错误。电力驱动压缩机，但制冷效果来自制冷剂的相变，而非直接的电制冷。"
+        "正确！冰箱利用制冷剂循环：液态制冷剂在内部蒸发（吸收食物热量），然后在外部压缩回液态（释放热量）。气体膨胀吸热，循环往复，是把热量移走，不是把冷气送进来！",
+        "错啦。冰箱不是从外面泵冷空气进来，而是通过制冷剂气体循环来移除热量。",
+        "不对哦。现代冰箱不用冰块，用的是压缩机和制冷剂系统。",
+        "不对。电是驱动压缩机的，但制冷效果来自制冷剂的相变，不是电直接让空气变冷。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:39:09.364127+00:00",

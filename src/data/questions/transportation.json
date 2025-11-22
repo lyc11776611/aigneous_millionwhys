@@ -4,7 +4,7 @@
   "questions": [
     {
       "question_en": "Why do trains run on tracks?",
-      "question_zh": "火车为什么在轨道上行驶？",
+      "question_zh": "火车为什么要在铁轨上行驶？",
       "choices_en": [
         "Trains can't steer",
         "Steel on steel has low friction",
@@ -12,10 +12,10 @@
         "Roads can't support trains"
       ],
       "choices_zh": [
-        "火车无法转向",
-        "钢与钢之间摩擦系数低。",
-        "轨道仅用于防止脱轨。",
-        "道路无法承载火车。"
+        "火车不会转向",
+        "钢铁摩擦小效率高",
+        "铁轨只防脱轨",
+        "公路承受不了火车"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -25,10 +25,10 @@
         "Wrong. Roads can support heavy vehicles. Tracks exist for efficiency—steel on steel friction is far lower than rubber on asphalt."
       ],
       "explanations_zh": [
-        "不对。火车不需要转向，因为铁轨已经决定了方向，但这并非铁轨存在的根本原因。",
-        "正确！钢轮在钢轨上产生的摩擦力极小，使得火车能高效牵引巨大负载。火车用与卡车运送1吨货物相同的能量，就能拉动100吨！轨道还起到导向作用。",
-        "错误。虽然轨道确实能防止脱轨，但主要好处在于钢与钢之间的极低摩擦力。",
-        "错误。道路能够承载重型车辆。铁轨的存在是为了效率——钢与钢之间的摩擦力远低于橡胶与沥青之间的摩擦力。"
+        "错啦！火车不转向是因为铁轨引导方向，但这并非铁轨存在的根本原因。",
+        "对啦！钢铁轮子在钢轨上摩擦极小，让火车能高效拉动巨量货物——用卡车运1吨货的力气，火车能运100吨！铁轨还负责引导方向。",
+        "错啦！铁轨确实防止脱轨，但主要好处是钢铁间的极低摩擦带来的高效率。",
+        "错啦！公路能承受重型车辆。铁轨是为效率而生——钢铁摩擦远低于橡胶与沥青。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:27:02.979490+00:00",
@@ -37,7 +37,7 @@
     },
     {
       "question_en": "Why do ships have pointed fronts?",
-      "question_zh": "为什么船的前端是尖的？",
+      "question_zh": "为什么船头是尖尖的？",
       "choices_en": [
         "To cut through water easier",
         "Pointed shapes float better",
@@ -45,10 +45,10 @@
         "To see ahead more clearly"
       ],
       "choices_zh": [
-        "更易划水",
-        "尖形物体浮力更佳",
-        "用于存放锚链",
-        "看得更远"
+        "为了轻松劈开水流",
+        "尖头形状浮力更好",
+        "用来存放锚链",
+        "为了看得更清楚前方"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -58,10 +58,10 @@
         "Wrong. Ship navigation doesn't depend on bow shape. The point is designed to minimize water resistance."
       ],
       "explanations_zh": [
-        "正确！尖形船首（前端）能顺畅地划开水面，减少阻力。平坦的前端则会推水产生阻力。这种形状让船只以更少的燃料行驶得更快。不同的船首形状适用于不同的速度和条件！",
-        "错误。形状不影响浮力——浮力取决于排水量。尖头设计是为了减少水的阻力。",
-        "错误。锚可以存放在任何地方，其尖端形状纯粹是为了流体动力学设计的。",
-        "错误。船舶航行并不依赖船首形状。其尖端设计旨在最小化水的阻力。"
+        "正确！尖尖的船头能平滑地分开水流，减少阻力。如果船头是平的，会推开水流产生更大阻力。这种设计让船跑得更快，还省燃料。不同船头形状适合不同速度和条件哦！",
+        "不对。形状不影响浮力，浮力取决于排水量。尖头主要是为了减少水的阻力。",
+        "不对。锚链可以存放在任何地方。尖头设计纯粹是为了流体动力学。",
+        "不对。船的导航不依赖船头形状。尖头是为了最小化水的阻力。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:27:19.715053+00:00",
@@ -70,7 +70,7 @@
     },
     {
       "question_en": "Why do bicycles stay upright moving?",
-      "question_zh": "为什么自行车在行驶时能保持直立？",
+      "question_zh": "为什么自行车骑起来不会倒？",
       "choices_en": [
         "Wheels act like gyroscopes",
         "Weight stays perfectly balanced",
@@ -78,9 +78,9 @@
         "Rider shifts weight constantly"
       ],
       "choices_zh": [
-        "轮子如同陀螺仪一般运作。",
-        "重量保持完美平衡",
-        "多种物理效应叠加",
+        "车轮像陀螺仪一样旋转",
+        "重量完美平衡",
+        "多种物理效应共同作用",
         "骑手不断调整重心"
       ],
       "correct_answer": 2,
@@ -91,10 +91,10 @@
         "Wrong. Riders do help, but bikes can balance without riders at certain speeds. Multiple physics effects work together."
       ],
       "explanations_zh": [
-        "错误。陀螺效应虽有帮助，但并非主因。实验表明，即使车轮不转动，自行车也能保持平衡。",
-        "不对。自行车并非处于完美平衡状态，它们需要不断进行微调以保持直立。",
-        "正确！自行车的稳定性源于：转向几何（后倾效应）、陀螺效应以及骑手的调整。前轮的角度使自行车能够自动转向以抵消倾倒。科学家们对此争论了超过一个世纪！",
-        "错误。骑手确实有帮助，但在特定速度下自行车无需骑手也能保持平衡。多种物理效应共同作用。"
+        "错啦！陀螺效应有帮助，但不是主因。实验证明，车轮不转时自行车也能保持平衡。",
+        "不对哦。自行车并非完美平衡，它需要不断微调才能保持直立。",
+        "答对啦！自行车稳定靠三大法宝：前叉转向角（像购物车轮的自回正）、陀螺效应，还有骑手的微调。前轮角度能让车自动转向防倒——科学家为这事儿争论了上百年呢！",
+        "不准确。骑手确实能帮忙，但特定速度下无人自行车也能自平衡。关键是多种物理效应在协同作战！"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-21T04:27:36.428409+00:00",
@@ -103,7 +103,7 @@
     },
     {
       "question_en": "Why do car tires have grooves?",
-      "question_zh": "汽车轮胎为什么有沟槽？",
+      "question_zh": "为什么汽车轮胎上有花纹？",
       "choices_en": [
         "To grip dry roads better",
         "To channel water away",
@@ -111,10 +111,10 @@
         "To absorb road bumps"
       ],
       "choices_zh": [
-        "更好地抓握干燥路面",
-        "引水疏导",
-        "使轮胎更轻",
-        "吸收路面颠簸"
+        "为了在干燥路面抓地力更强",
+        "为了将水排走",
+        "为了让轮胎更轻",
+        "为了吸收路面颠簸"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -124,10 +124,10 @@
         "Wrong. Suspension absorbs bumps, not tire grooves. Tread patterns are specifically for water management."
       ],
       "explanations_zh": [
-        "错误。在干燥路面上，光滑轮胎（如赛车光头胎）实际上抓地力更强。沟槽设计牺牲了部分干地抓地力以提升湿地安全性。",
-        "正确！轮胎的沟槽能将水从胎面下方引导出去，防止水滑现象发生。在湿滑路面上，积水可能使轮胎浮起导致失控。这些花纹的设计正是为了快速排水！",
-        "错误。凹槽并不会显著减轻重量，其作用在于排水以保障湿滑路面的安全。",
-        "不对。悬挂系统是用来吸收颠簸的，而不是轮胎花纹。胎面花纹是专门用于排水设计的。"
+        "错误。在干燥路面上，光滑轮胎（如赛车光头胎）抓地力其实更好。花纹牺牲了部分干地抓地力来保障湿滑路面的安全。",
+        "正确！花纹能将轮胎下方的水排走，防止水滑现象。在湿滑路面上，积水可能抬起轮胎导致失控。这些图案设计就是为了快速排水！",
+        "错误。花纹并不会显著减轻重量。它们的主要作用是在湿滑路面上排水以保障安全。",
+        "错误。减震系统负责吸收颠簸，而不是轮胎花纹。胎面图案是专门为排水设计的。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:27:54.225737+00:00",
@@ -136,7 +136,7 @@
     },
     {
       "question_en": "Why do submarines sink and rise?",
-      "question_zh": "潜艇为何能下沉和上浮？",
+      "question_zh": "为什么潜艇能沉下去又浮上来？",
       "choices_en": [
         "Ballast tanks fill or empty",
         "Propellers push down or up",
@@ -144,9 +144,9 @@
         "Water pressure controls depth"
       ],
       "choices_zh": [
-        "压载舱注水或排水",
-        "螺旋桨向下或向上推动。",
-        "船体水下形状变化",
+        "压载水舱注水或排水",
+        "螺旋桨向下或向上推",
+        "船体在水下改变形状",
         "水压控制深度"
       ],
       "correct_answer": 0,
@@ -157,10 +157,10 @@
         "Wrong. Water pressure doesn't control the submarine. The crew controls ballast tanks to change buoyancy."
       ],
       "explanations_zh": [
-        "正确！潜艇有特殊的水箱，通过注水使潜艇下沉（比周围水重）或充气使之上浮（比周围水轻）。这样无需改变潜艇的形状或大小就能调节浮力！",
-        "错误。螺旋桨提供的是向前的推力。深度是通过压载舱调节浮力来控制的。",
-        "错误。潜艇的船体是刚性的，不会改变形状。浮力通过压载水舱来控制。",
-        "错误。水压并不控制潜艇。船员通过调节压载水舱来改变浮力。"
+        "正确！潜艇有特殊水舱，注水时变重下沉，充气时变轻上浮。这改变浮力，不改变船体形状！",
+        "错误。螺旋桨提供前进推力，深度由压载水舱控制浮力调节。",
+        "错误。潜艇船体是固定的，不改变形状。浮力由压载水舱控制。",
+        "错误。水压不控制潜艇，船员通过压载水舱改变浮力来控制深度。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:28:10.306575+00:00",
@@ -169,7 +169,7 @@
     },
     {
       "question_en": "Why do helicopters have top rotors?",
-      "question_zh": "直升机为什么有顶部旋翼？",
+      "question_zh": "为什么直升机的顶部有旋翼？",
       "choices_en": [
         "To blow air downward",
         "Top is the strongest point",
@@ -177,9 +177,9 @@
         "To balance the weight below"
       ],
       "choices_zh": [
-        "向下吹气",
-        "顶端是最强点。",
-        "旋转的叶片产生升力",
+        "向下吹空气",
+        "顶部是最坚固的地方",
+        "旋转叶片产生升力",
         "平衡下方重量"
       ],
       "correct_answer": 2,
@@ -190,10 +190,10 @@
         "Wrong. Balance is important, but the rotor's position is about generating lift directly above the center of gravity."
       ],
       "explanations_zh": [
-        "错误。虽然旋翼确实向下推动空气，但这是结果而非目的。旋翼通过空气动力学产生升力。",
-        "错误。转子位置并非关乎结构强度，而是为了在飞机上方产生升力。",
-        "正确！直升机旋翼叶片的形状类似飞机机翼。当它们旋转时，通过向下推动空气产生升力。倾斜旋翼使直升机能够朝任意方向移动——它们就像能改变角度的飞行风扇！",
-        "错误。平衡固然重要，但旋翼的位置是为了直接在重心正上方产生升力。"
+        "错误。旋翼确实向下推空气，但这是结果而非目的。旋翼通过空气动力学产生升力。",
+        "错误。旋翼位置与结构强度无关，而是为了在飞机上方产生升力。",
+        "正确！直升机旋翼叶片形状像飞机机翼。旋转时，它们通过向下推空气产生升力。倾斜旋翼让直升机能向任何方向移动——就像能改变角度的飞行风扇！",
+        "错误。平衡很重要，但旋翼位置是为了直接在重心上方产生升力。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:28:25.438605+00:00",
@@ -202,7 +202,7 @@
     },
     {
       "question_en": "Why do rockets need so much fuel?",
-      "question_zh": "为什么火箭需要这么多燃料？",
+      "question_zh": "为什么火箭需要那么多燃料？",
       "choices_en": [
         "Space is very far away",
         "Must carry own oxygen and mass",
@@ -210,10 +210,10 @@
         "Engines are very heavy"
       ],
       "choices_zh": [
-        "太空非常遥远。",
-        "必须自带氧气和质量",
-        "燃料燃烧不充分",
-        "发动机非常重。"
+        "太空太遥远了",
+        "必须自带氧气和燃料",
+        "燃料燃烧效率低",
+        "发动机太重了"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -223,10 +223,10 @@
         "Wrong. Engines are relatively small. The fuel mass dominates because rockets must carry both fuel AND oxygen."
       ],
       "explanations_zh": [
-        "不对。距离确实重要，但真正的挑战在于火箭必须携带所需的一切，包括氧气。",
-        "正确！与依赖大气中氧气的飞机不同，火箭必须自带氧化剂。而且，每一份燃料都需要额外的燃料来将其送入太空！这种“火箭方程的暴政”意味着火箭的大部分重量都是燃料。",
-        "错误。火箭发动机实际上相当高效。挑战在于携带自身推进剂的基本物理原理。",
-        "错误。发动机相对较小，燃料质量占主导地位，因为火箭必须同时携带燃料和氧气。"
+        "错。距离是因素，但真正挑战是火箭必须携带所有必需品，包括氧气。",
+        "正确！不像飞机用大气中的氧气，火箭必须自带氧化剂。而且，每份燃料都需要更多燃料来提升它！这种'火箭方程暴政'导致火箭大部分重量是燃料。",
+        "错。火箭发动机其实很高效。挑战在于携带自身推进剂的基本物理原理。",
+        "错。发动机相对较小。燃料质量占主导，因为火箭必须携带燃料和氧气。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:28:41.624448+00:00",
@@ -235,7 +235,7 @@
     },
     {
       "question_en": "Why do hot air balloons float?",
-      "question_zh": "热气球为什么会飘浮？",
+      "question_zh": "为什么热气球能飘在空中？",
       "choices_en": [
         "Hot air is lighter than cold",
         "The balloon pushes air down",
@@ -243,10 +243,10 @@
         "Flame creates upward thrust"
       ],
       "choices_zh": [
-        "热空气比冷空气轻。",
-        "气球向下推压空气。",
-        "内部氦气提供升力",
-        "火焰产生向上的推力"
+        "热空气比冷空气轻",
+        "气球向下推空气",
+        "里面的氦气提供升力",
+        "火焰产生向上推力"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -256,10 +256,10 @@
         "Wrong. The flame heats air, it doesn't create thrust. Buoyancy from density difference provides lift."
       ],
       "explanations_zh": [
-        "正确！加热空气会使分子运动加快、间距增大，从而降低密度。热气球内部的热空气比外部的冷空气轻，产生浮力。气球就像水中的气泡一样上升！",
-        "不对。气球不是通过推动空气来获得推力的。它们之所以能飘浮，是因为热空气比周围的冷空气密度小。",
-        "错误。热气球使用的是加热的空气，而不是氦气。气体气球才用氦气，但那是另一种类型。",
-        "不对。火焰加热空气，并不产生推力。浮力来自于密度差异，从而提供升力。"
+        "正确！加热空气让分子运动更快、间距变大，密度降低。热空气比外部冷空气轻，产生浮力，气球就像水里的泡泡一样上升！",
+        "错误。气球不是靠推空气获得推力，而是因为热空气比周围冷空气密度小才漂浮。",
+        "错误。热气球用的是加热的空气，不是氦气。氦气球才用氦气，那是另一种类型。",
+        "错误。火焰是加热空气，不产生推力。升力来自密度差造成的浮力。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:28:58.122872+00:00",

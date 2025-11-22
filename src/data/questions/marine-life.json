@@ -4,7 +4,7 @@
   "questions": [
     {
       "question_en": "Why do fish have scales?",
-      "question_zh": "鱼为什么有鳞片？",
+      "question_zh": "鱼儿为什么长满鳞片？",
       "choices_en": [
         "Protection and smoother swimming",
         "To store nutrients",
@@ -12,10 +12,10 @@
         "For temperature regulation"
       ],
       "choices_zh": [
-        "保护与更顺畅的游泳体验",
-        "储存养分",
+        "保护身体，游得更顺畅",
+        "储存营养",
         "从水中吸收氧气",
-        "用于温度调节"
+        "调节体温"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -25,10 +25,10 @@
         "Wrong. Fish are cold-blooded and regulate temperature through behavior, not scales. Scales primarily serve protection and hydrodynamic functions."
       ],
       "explanations_zh": [
-        "没错！鱼鳞如同铠甲，能抵御天敌和寄生虫的侵袭。它们层层叠覆还能减少阻力，助鱼在水中自如游弋。有些鳞片甚至具备伪装功能！",
-        "不对。鱼鳞并不储存营养。鱼类将能量储存在肝脏和肌肉中，而非由骨质物质构成的鱼鳞里。",
-        "错误。鱼是通过鳃而不是鳞片吸收氧气的。鳞片是起保护作用的外层覆盖物，不参与呼吸过程。",
-        "错误。鱼类是冷血动物，通过行为而非鳞片来调节体温。鳞片主要起保护和流体动力学作用。"
+        "答对啦！鱼鳞就像盔甲，能抵御天敌和寄生虫。鳞片层层叠叠，减少阻力，让鱼儿在水中自如穿梭。有些鳞片还能伪装呢！",
+        "错啦。鳞片不储存营养。鱼把能量储存在肝脏和肌肉里，鳞片是骨头样的物质，不负责存营养。",
+        "错啦。鱼通过鳃吸收氧气，不是鳞片。鳞片是保护外壳，不参与呼吸。",
+        "错啦。鱼是冷血动物，靠行为调节体温，不靠鳞片。鳞片主要起保护和减阻作用。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T03:58:20.670384+00:00",
@@ -37,7 +37,7 @@
     },
     {
       "question_en": "Why can whales hold breath so long?",
-      "question_zh": "鲸鱼为何能长时间屏住呼吸？",
+      "question_zh": "鲸鱼为什么能憋气那么久？",
       "choices_en": [
         "They have larger lungs",
         "Myoglobin stores extra oxygen",
@@ -45,10 +45,10 @@
         "Their blood has more iron"
       ],
       "choices_zh": [
-        "他们的肺更大。",
-        "肌红蛋白储存额外的氧气。",
-        "他们在水下缓慢地呼吸。",
-        "他们的血液中铁含量更高"
+        "它们有更大的肺",
+        "肌红蛋白储存额外氧气",
+        "它们在水下缓慢呼吸",
+        "它们的血液含铁量更高"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -58,10 +58,10 @@
         "Wrong. While blood carries oxygen, the key is myoglobin in muscles. This protein stores oxygen for use during long dives when they can't breathe."
       ],
       "explanations_zh": [
-        "错误。虽然鲸鱼的肺很大，但肺的大小并非主要因素。人类每次呼吸仅能吸收5%的氧气，而鲸鱼因特殊蛋白质可吸收高达90%的氧气。",
-        "正确！鲸鱼肌肉中含有大量肌红蛋白，这是一种储存氧气的蛋白质。它们在潜水时还会大幅降低心率——有些鲸鱼的心率甚至降至每分钟仅2次！",
-        "错误。鲸鱼是哺乳动物，完全无法在水下呼吸。它们必须浮出水面，通过气孔呼吸空气。",
-        "不对。虽然血液携带氧气，但关键在于肌肉中的肌红蛋白。这种蛋白质储存氧气，在它们无法呼吸的长时间潜水期间使用。"
+        "错误。虽然鲸鱼肺很大，但肺大小不是主因。人类每次呼吸只吸收5%氧气，而鲸鱼因特殊蛋白质能吸收高达90%！",
+        "正确！鲸鱼有高水平的肌红蛋白，这种蛋白质在肌肉中储存氧气。它们潜水时还会大幅降低心率——有些甚至降到每分钟仅2次！",
+        "错误。鲸鱼是哺乳动物，根本不能在水下呼吸。它们必须浮出水面，通过气孔呼吸空气。",
+        "错误。虽然血液携带氧气，但关键是肌肉中的肌红蛋白。这种蛋白质储存氧气，供它们在无法呼吸的长时间潜水中使用。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T03:58:37.557564+00:00",
@@ -78,10 +78,10 @@
         "To attract mates"
       ],
       "choices_zh": [
-        "与他人沟通",
-        "在水中移动",
-        "捕捉猎物与防御",
-        "吸引配偶"
+        "为了和其他水母交流",
+        "为了在水中移动",
+        "为了捕捉猎物和自卫",
+        "为了吸引配偶"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -91,10 +91,10 @@
         "Wrong. Jellyfish don't use stinging for mating. Many reproduce by releasing eggs and sperm into the water where fertilization occurs externally."
       ],
       "explanations_zh": [
-        "不对。水母并不通过蜇刺来交流。它们其实是相当简单的生物，没有大脑，而是通过化学信号进行沟通。",
-        "错误。水母通过脉动其钟形身体移动，而非通过刺蜇。它们的触手拖在身后用于捕捉食物。",
-        "正确！水母拥有称为刺细胞的特殊细胞，能发射微小的鱼叉状结构。这些结构会注入毒液以麻痹猎物并威慑捕食者。它们一接触就会自动发射！",
-        "错误。水母并不通过刺丝进行交配。许多水母通过将卵子和精子释放到水中，在体外完成受精来繁殖。"
+        "错误。水母不通过蜇人来交流。它们其实是简单的生物，没有大脑，而是通过化学信号沟通。",
+        "错误。水母通过脉动钟形身体来移动，而不是靠蜇人。它们的触手拖在后面用来捕食。",
+        "正确！水母有特殊的刺细胞，能发射像小飞镖一样的结构。这些结构注入毒液，麻痹猎物并吓退捕食者。它们一接触就会自动发射！",
+        "错误。水母不用蜇人来求偶。许多水母通过将卵子和精子释放到水中，进行外部受精来繁殖。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T03:58:53.940649+00:00",
@@ -103,7 +103,7 @@
     },
     {
       "question_en": "Why do crabs walk sideways?",
-      "question_zh": "螃蟹为什么横着走？",
+      "question_zh": "螃蟹为什么横着走路？",
       "choices_en": [
         "Their leg joints bend sideways",
         "To see predators better",
@@ -111,10 +111,10 @@
         "Their shells block forward motion"
       ],
       "choices_zh": [
-        "它们的腿部关节向侧面弯曲。",
-        "为了更好地看清捕食者",
-        "在水下更快移动",
-        "它们的壳阻碍了前进运动。"
+        "它们的腿关节天生侧向弯曲",
+        "为了更好地观察捕食者",
+        "在水下能游得更快",
+        "外壳阻碍了前进"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -124,10 +124,10 @@
         "Wrong. The shell doesn't block forward motion. Crabs walk sideways because their leg joints are designed to bend that way, making it their most natural gait."
       ],
       "explanations_zh": [
-        "正确！螃蟹的腿长在身体两侧，关节最适合横向弯曲。这种身体结构使横向移动最为高效。有些螃蟹也能向前走，但速度较慢且动作笨拙！",
-        "不对。虽然螃蟹视力很好，但它们横着走并不是为了观察捕食者，而是因为它们的腿部结构和与身体的连接方式决定的。",
-        "不对。横着走并不比直行快。这只是螃蟹身体结构使然——它们的腿关节天生就朝那个方向弯曲。",
-        "不对。螃蟹的壳并不阻碍它们向前移动。它们之所以横着走，是因为它们的腿部关节结构使得侧向弯曲更为自然，这成了它们最习惯的行走方式。"
+        "正确！螃蟹的腿长在身体两侧，关节最适合侧向弯曲。这种身体结构让横着走最省力。有些螃蟹也能直行，但动作又慢又别扭！",
+        "错误。虽然螃蟹视力不错，但横着走不是为了看捕食者，而是由腿部结构和连接方式决定的。",
+        "错误。横着走并不比直行更快，纯粹是螃蟹的身体构造使然——它们的关节天生就适合侧向活动。",
+        "错误。外壳并不会阻挡前进。螃蟹横着走是因为腿部关节设计成侧向弯曲，这是它们最自然的步态。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T03:59:10.186965+00:00",
@@ -136,7 +136,7 @@
     },
     {
       "question_en": "Why do octopuses have three hearts?",
-      "question_zh": "章鱼为何有三个心脏？",
+      "question_zh": "章鱼为什么有三颗心脏？",
       "choices_en": [
         "To pump more blood faster",
         "Two for gills, one for body",
@@ -144,10 +144,10 @@
         "Each controls different arms"
       ],
       "choices_zh": [
-        "更快地泵出更多血液",
-        "两腮各一，身体一个。",
-        "一颗心若衰竭，还有备份在。",
-        "各自掌控不同的武器。"
+        "为了更快地泵送更多血液",
+        "两颗用于鳃部，一颗用于身体",
+        "如果一颗心脏失灵，有备用",
+        "每颗控制不同的触手"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -157,10 +157,10 @@
         "Wrong. Hearts don't control arms. Octopuses do have neurons in their arms for some independent movement, but hearts only pump blood."
       ],
       "explanations_zh": [
-        "错误。拥有三颗心脏并非关乎速度。章鱼的血液携带铜基血蓝蛋白，其效率低于我们铁基的血红蛋白，因此需要特殊的循环系统。",
-        "正确！两个鳃心将血液泵过鳃部以摄取氧气，主循环心脏则将含氧血液泵送至全身。这有助于它们基于铜的蓝色血液高效输送氧气！",
-        "错误。这三个心脏并非备用——每个都有特定功能。失去任何一个都会严重损害章鱼的循环系统。",
-        "错误。心脏并不控制手臂。章鱼的触手确实有神经元以实现部分独立运动，但心脏仅负责泵血。"
+        "错误。三颗心脏不是为了速度。章鱼的血液含有铜基血蓝蛋白，比我们铁基血红蛋白效率低，需要专门的循环系统。",
+        "正确！两颗鳃心将血液泵过鳃部吸收氧气。主心将含氧血液泵到身体。这有助于它们的铜基蓝血高效输送氧气！",
+        "错误。三颗心脏不是备用——每颗都有特定任务。失去一颗会严重损害章鱼的循环系统。",
+        "错误。心脏不控制触手。章鱼触手中有神经元实现部分独立运动，但心脏只负责泵血。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T03:59:25.535166+00:00",
@@ -169,7 +169,7 @@
     },
     {
       "question_en": "Why do some sharks swim constantly?",
-      "question_zh": "为什么有些鲨鱼要不停地游动？",
+      "question_zh": "为什么有些鲨鱼必须不停地游动？",
       "choices_en": [
         "To digest food properly",
         "To maintain body temperature",
@@ -177,10 +177,10 @@
         "To avoid predators"
       ],
       "choices_zh": [
-        "正确消化食物",
-        "维持体温",
-        "将水推过它们的鳃",
-        "躲避天敌"
+        "为了顺利消化食物",
+        "为了保持体温稳定",
+        "为了水流冲刷鳃部呼吸",
+        "为了躲避天敌攻击"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -190,10 +190,10 @@
         "Wrong. Adult sharks have few natural predators. They swim constantly because some species physically cannot breathe without water flowing over their gills."
       ],
       "explanations_zh": [
-        "不对。游泳并非消化所必需。鲨鱼无论是否游动都能消化食物，尽管有些种类的鲨鱼因其他原因需要持续游动。",
-        "不对。虽然有些鲨鱼是温血动物，但持续游动的主要原因并非为了维持体温，而是对于那些无法主动泵水过鳃的物种来说，这是它们呼吸的方式。",
-        "正确！一些鲨鱼种类，如大白鲨，必须通过游动迫使水流过鳃部——这被称为冲压式呼吸。不游动，它们就无法呼吸！而其他鲨鱼在休息时也能泵水呼吸。",
-        "不对。成年鲨鱼几乎没有天敌。它们之所以不停地游动，是因为某些物种的生理结构决定了它们必须让水流过鳃部才能呼吸。"
+        "错误！鲨鱼消化食物不需要依赖游动。虽然某些鲨鱼因其他原因需要持续游动，但消化系统在静止时也能正常工作。",
+        "错误！部分鲨鱼虽是温血动物，但持续游动主要目的不是调节体温。对于无法主动泵水的鲨鱼来说，游动是为了维持呼吸。",
+        "正确！像大白鲨这类鲨鱼必须通过游动让水流经鳃部进行呼吸（称为冲压式呼吸）。一旦停止游动，它们就会窒息！其他鲨鱼则能在静止时自主泵水呼吸。",
+        "错误！成年鲨鱼在自然界几乎没有天敌。它们持续游动的根本原因是某些物种的生理结构决定了：没有水流经过鳃部就无法呼吸。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T03:59:42.315887+00:00",
@@ -202,7 +202,7 @@
     },
     {
       "question_en": "Why do sea turtles return to birth beach?",
-      "question_zh": "海龟为何会回到出生海滩？",
+      "question_zh": "为什么海龟会回到出生海滩？",
       "choices_en": [
         "Imprint on magnetic field",
         "They follow other turtles",
@@ -210,10 +210,10 @@
         "Warmer sand helps eggs"
       ],
       "choices_zh": [
-        "磁场印记",
-        "它们跟随其他海龟。",
-        "海滩含有特殊养分",
-        "温暖的沙子有助于孵化蛋。"
+        "对磁场产生印记",
+        "它们跟随其他海龟",
+        "海滩有特殊营养",
+        "温暖沙子帮助孵化"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -223,10 +223,10 @@
         "Wrong. While sand temperature affects egg development, turtles don't choose beaches by temperature. They return to their birth beach due to magnetic field imprinting."
       ],
       "explanations_zh": [
-        "没错！小海龟在出生海滩上会对地球磁场产生印记。多年后，它们利用这种内在的指南针，跨越数千英里，准确无误地回到同一片海滩产卵！",
-        "错误。海龟并不会跟随彼此前往筑巢海滩。每只雌龟都是利用孵化时记忆的磁场信息独立导航的。",
-        "错误。海滩并不为海龟蛋提供营养。海龟返回是因为磁场印记，而非海滩的任何特殊属性。",
-        "错误。虽然沙子的温度会影响蛋的发育，但海龟并非根据温度选择海滩。它们因磁场印记而返回出生地海滩。"
+        "正确！小海龟在出生海滩时会对地球磁场产生印记。多年后，它们利用这个内部指南针，跨越数千英里，精准返回同一片海滩产卵！",
+        "错误。海龟不会互相跟随到筑巢海滩。每只雌海龟都独立依靠孵化时的磁场记忆来导航。",
+        "错误。海滩不会为海龟蛋提供营养。海龟返回是因为磁场印记，而非海滩的特殊属性。",
+        "错误。虽然沙子温度影响蛋的发育，但海龟不会因温度选择海滩。它们返回出生海滩是由于磁场印记。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T03:59:57.605512+00:00",
@@ -235,7 +235,7 @@
     },
     {
       "question_en": "Why do clownfish live in anemones?",
-      "question_zh": "小丑鱼为什么生活在海葵里？",
+      "question_zh": "小丑鱼为什么爱和海葵一起生活？",
       "choices_en": [
         "Anemones provide food",
         "Mutual protection partnership",
@@ -243,10 +243,10 @@
         "Clownfish can't swim far"
       ],
       "choices_zh": [
-        "海葵提供食物。",
-        "互保伙伴关系",
-        "海葵能净化水质。",
-        "小丑鱼游不远。"
+        "海葵提供食物",
+        "互相保护的伙伴关系",
+        "海葵能清洁水质",
+        "小丑鱼游不远"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -256,10 +256,10 @@
         "Wrong. Clownfish can swim normally. They choose to live in anemones because the stinging tentacles provide excellent protection from predators."
       ],
       "explanations_zh": [
-        "错误。虽然小丑鱼可能会吃海葵的残渣，但这并非主要原因。这种关系主要是关于保护——双方在共生中都能获益。",
-        "正确！这是一种共生关系。小丑鱼体内有一种特殊的黏液，能保护它们不被海葵蜇伤。海葵保护小丑鱼免受捕食者侵害，而小丑鱼则会驱赶以海葵为食的鱼类，并提供养分！",
-        "不对。海葵并不过滤或清洁水。它们之间的关系是相互防御——海葵的带刺触手保护着小丑鱼。",
-        "不对。小丑鱼可以正常游动。它们选择栖息在海葵中，是因为海葵带刺的触手能有效保护它们免受捕食者的侵害。"
+        "错啦！虽然小丑鱼会吃海葵的残渣，但这不是主要原因。它们的关系主要是为了互相保护——双方住在一起都有好处。",
+        "对啦！这是一种共生关系。小丑鱼有特殊的黏液保护自己不被海葵蜇伤。海葵保护小丑鱼免受捕食者攻击，而小丑鱼会赶走吃海葵的鱼，并提供营养哦！",
+        "错啦！海葵不会过滤或清洁水。它们的关系是关于互相防御——海葵的带刺触手保护着小丑鱼。",
+        "错啦！小丑鱼游泳能力正常。它们选择住在海葵里，是因为那些带刺的触手能提供绝佳的保护，让捕食者不敢靠近。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:00:14.122263+00:00",
@@ -268,7 +268,7 @@
     },
     {
       "question_en": "Why do deep-sea fish glow?",
-      "question_zh": "深海鱼类为何会发光？",
+      "question_zh": "为什么深海鱼会发光？",
       "choices_en": [
         "To warm themselves up",
         "From eating glowing bacteria",
@@ -276,10 +276,10 @@
         "Reflection of surface light"
       ],
       "choices_zh": [
-        "暖和暖和身子",
-        "源自发光细菌的摄取",
-        "生物发光以求生存",
-        "表面光的反射"
+        "为了给自己取暖",
+        "因为吃了发光细菌",
+        "生物发光用于生存",
+        "反射水面光线"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -289,10 +289,10 @@
         "Wrong. No sunlight reaches the deep sea—it's completely dark below 1,000 meters. Fish must produce their own light through chemical reactions called bioluminescence."
       ],
       "explanations_zh": [
-        "错误。生物发光并不会产生显著热量。深海鱼类通过化学反应发光，但这几乎不会产生热量。",
-        "错误。虽然有些鱼类确实寄宿发光细菌，但许多鱼类是通过名为发光器的特殊器官中的化学反应自身发光的。",
-        "没错！深海鱼利用生物发光来寻找配偶、诱捕猎物、迷惑捕食者或伪装以应对微弱的海面光线。在漆黑的深海中，自己制造光源是一种强大的生存手段！",
-        "错误。深海中并无阳光照射——在1000米以下完全黑暗。鱼类必须通过一种称为生物发光的化学反应自行产生光线。"
+        "错误。生物发光几乎不产生热量，深海鱼通过化学反应发光，但几乎不会发热。",
+        "错误。虽然有些鱼体内有发光细菌，但许多鱼是通过称为发光器的特殊器官自行产生光。",
+        "正确！深海鱼用生物发光来寻找伴侣、引诱猎物、迷惑捕食者或伪装自己。在漆黑的深海中，自己发光是强大的生存工具！",
+        "错误。阳光无法到达深海，1000米以下一片漆黑。鱼必须通过生物发光化学反应自己产生光。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:00:29.191711+00:00",
@@ -301,7 +301,7 @@
     },
     {
       "question_en": "Why do seahorses swim upright?",
-      "question_zh": "海马为什么直立游泳？",
+      "question_zh": "海马为什么总是竖着游泳？",
       "choices_en": [
         "To hide among seagrass",
         "Their spine won't bend",
@@ -309,10 +309,10 @@
         "To carry babies better"
       ],
       "choices_zh": [
-        "藏身于海草之中",
-        "他们的脊梁不会弯曲",
-        "游得更快",
-        "更好地抱宝宝"
+        "为了躲在海草丛中",
+        "它们的脊柱不能弯曲",
+        "为了游得更快",
+        "为了更好地携带宝宝"
       ],
       "correct_answer": 0,
       "explanations_en": [
@@ -322,10 +322,10 @@
         "Wrong. While male seahorses carry babies in pouches, this isn't why they swim upright. The vertical posture evolved for camouflage among seagrass."
       ],
       "explanations_zh": [
-        "没错！垂直游动有助于海马完美地藏身于海草和珊瑚之中。它们的体形模仿摇曳的水生植物，使它们对捕食者和猎物来说几乎隐形！",
-        "错误。海马的脊骨其实相当灵活。它们直立游泳是进化过程中为了在海草栖息地中伪装而适应的结果。",
-        "不对。海马其实是游得非常慢的！它们直立的姿势不是为了速度，而是为了融入它们生活的垂直海草中。",
-        "错误。虽然雄性海马用育儿袋携带幼崽，但这并非它们直立游泳的原因。它们演化出垂直姿态是为了在海草中伪装。"
+        "正确！海马竖着游泳能完美地藏身于海草和珊瑚中。它们的体型模仿摇曳的植物，让捕食者和猎物都几乎看不见它们！",
+        "错误。海马的脊柱其实很灵活。它们竖着游泳是进化出的适应策略，便于在海草栖息地伪装。",
+        "错误。海马其实是游得很慢的！它们竖着游泳不是为了速度，而是为了融入它们生活的垂直海草中。",
+        "错误。虽然雄性海马会用育儿袋携带宝宝，但这并不是它们竖着游泳的原因。这种垂直姿势是为了在海草中伪装而进化出来的。"
       ],
       "difficulty": "easy",
       "created_at": "2025-11-21T04:00:45.442445+00:00",
@@ -334,7 +334,7 @@
     },
     {
       "question_en": "Why can starfish regrow their arms?",
-      "question_zh": "海星为何能重新长出触手？",
+      "question_zh": "为什么海星能重新长出断臂？",
       "choices_en": [
         "They have no bones to heal",
         "Special stem cells throughout body",
@@ -342,10 +342,10 @@
         "Seawater promotes healing"
       ],
       "choices_zh": [
-        "他们没有骨头需要愈合。",
-        "遍布全身的特殊干细胞",
-        "手臂并非要害器官。",
-        "海水有助于伤口愈合。"
+        "它们没有骨头需要愈合",
+        "全身遍布特殊干细胞",
+        "断臂不是重要器官",
+        "海水促进愈合过程"
       ],
       "correct_answer": 1,
       "explanations_en": [
@@ -355,10 +355,10 @@
         "Wrong. Seawater doesn't promote regeneration. The ability comes from starfish having stem cells that can transform into any tissue type needed for regrowth."
       ],
       "explanations_zh": [
-        "错误。没有骨骼并不能解释再生能力。许多无骨动物无法再生。海星拥有特殊的细胞能力，使其能够重新生长。",
-        "正确！海星体内遍布着能够分化成任何细胞类型的干细胞。当一只腕足脱落时，这些细胞会增殖分化，重建完整的肢体——某些物种甚至仅凭一条腕足就能再生出整个身体！",
-        "错误。实际上，海星的腕足内含有重要器官！每条腕足都有消化腺和部分神经系统。它们之所以能再生，是因为干细胞的能力，而不是因为腕足不重要。",
-        "不对。海水并不能促进再生。海星之所以具备这种能力，是因为它们拥有能够转化为再生所需任何组织类型的干细胞。"
+        "错误。没有骨头不能解释再生能力。许多无骨动物无法再生。海星靠特殊细胞能力实现再生。",
+        "正确！海星全身有干细胞，能变成任何细胞类型。断臂时，这些细胞增殖分化，重建整个肢体——有些物种甚至能从单臂重生！",
+        "错误。海星的断臂其实包含重要器官！每只臂都有消化腺和部分神经系统。再生靠干细胞能力，而非断臂不重要。",
+        "错误。海水不促进再生。海星有干细胞能转化为所需组织类型，这才是再生原因。"
       ],
       "difficulty": "medium",
       "created_at": "2025-11-21T04:01:01.572101+00:00",
@@ -367,7 +367,7 @@
     },
     {
       "question_en": "Why is coral an animal, not a plant?",
-      "question_zh": "为什么珊瑚是动物而不是植物？",
+      "question_zh": "珊瑚为什么是动物，而不是植物？",
       "choices_en": [
         "It moves at night",
         "It doesn't need sunlight",
@@ -375,10 +375,10 @@
         "It produces carbon dioxide"
       ],
       "choices_zh": [
-        "它在夜间移动。",
-        "它不需要阳光。",
-        "它捕捉并吃掉食物。",
-        "它产生二氧化碳。"
+        "它晚上会移动",
+        "它不需要阳光",
+        "它会捕捉并吃掉食物",
+        "它会产生二氧化碳"
       ],
       "correct_answer": 2,
       "explanations_en": [
@@ -388,10 +388,10 @@
         "Wrong. Both animals and plants produce carbon dioxide through respiration. What makes coral an animal is that it actively catches and consumes food."
       ],
       "explanations_zh": [
-        "错误。虽然珊瑚虫确实在夜间伸展捕食，但仅凭移动并不能定义动物。有些动物从不移动，而有些植物却会移动。",
-        "错误。珊瑚确实需要阳光——但这是为了生活在其中的藻类。无论对光的需求如何，珊瑚本身仍是动物。",
-        "正确！珊瑚是由名为珊瑚虫的微小动物组成的群体，它们利用带刺的触手捕捉并消化食物。与植物不同，珊瑚无法通过光合作用自造食物——它们必须进食才能生存！",
-        "错误。动物和植物都通过呼吸作用产生二氧化碳。珊瑚之所以是动物，是因为它会主动捕捉并摄取食物。"
+        "错误。虽然珊瑚虫晚上会伸展捕食，但移动本身不能定义动物。有些动物从不移动，有些植物也会动。",
+        "错误。珊瑚其实需要阳光——但这是为了它体内的藻类。珊瑚本身是动物，与光照需求无关。",
+        "正确！珊瑚是由微小动物珊瑚虫组成的群体，它们用带刺的触手捕捉并消化食物。与植物不同，它们无法通过光合作用自造食物——必须靠吃来生存！",
+        "错误。动物和植物都会通过呼吸产生二氧化碳。珊瑚是动物的关键在于它会主动捕捉并消耗食物。"
       ],
       "difficulty": "hard",
       "created_at": "2025-11-21T04:01:17.100684+00:00",
