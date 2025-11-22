@@ -100,16 +100,15 @@ class MasterListUpdater:
                 num = int(match.group(1))
                 highest_num = max(highest_num, num)
 
-        # Prepare new question lines
+        # Prepare new question lines (format: "N. Question text [difficulty]")
         new_lines = []
         next_num = highest_num + 1
 
         for question in questions:
-            q_id = question['id']
             q_text = question['question_en']
-            q_file = self._get_category_filename(category)
+            difficulty = question.get('difficulty', 'medium')
 
-            line = f"{next_num}. {q_text} | {category} | ✅ Complete | {q_file} | {q_id}\n"
+            line = f"{next_num}. {q_text} [{difficulty}]\n"
             new_lines.append(line)
             next_num += 1
 
@@ -143,25 +142,20 @@ class MasterListUpdater:
         with open(self.master_list_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # Count total questions
-        question_pattern = r'^\d+\.\s+.+\|.+\|.+\|.+\|.+$'
+        # Count total questions (format: "1. Question text [difficulty]")
+        question_pattern = r'^\d+\.\s+.+\s+\[(easy|medium|hard)\]'
         total_questions = len(re.findall(question_pattern, content, re.MULTILINE))
 
         if dry_run:
             print(f"DRY RUN - Would update total to: {total_questions}")
             return False
 
-        # Update header
+        # Update total count (format: "Total questions: 300")
         content = re.sub(
-            r'# Master Question List - All \d+ Questions',
-            f'# Master Question List - All {total_questions} Questions',
-            content
-        )
-
-        content = re.sub(
-            r'\*\*Total Questions\*\*: \d+',
-            f'**Total Questions**: {total_questions}',
-            content
+            r'^Total questions: \d+',
+            f'Total questions: {total_questions}',
+            content,
+            flags=re.MULTILINE
         )
 
         # Write back
@@ -173,17 +167,18 @@ class MasterListUpdater:
 
     def _get_category_filename(self, category: str) -> str:
         """Get the JSON filename for a category"""
+        # Map display names (used in master list) to filenames
         filename_map = {
-            'Animals': 'animals.json',
-            'Astronomy': 'astronomy.json',
-            'Chemistry': 'chemistry.json',
-            'Economics': 'economics.json',
+            'Animal Behavior': 'animals.json',
+            'Astronomy & Space': 'astronomy.json',
+            'Chemistry Around Us': 'chemistry.json',
+            'Economics & Money': 'economics.json',
             'Human Biology': 'human-biology.json',
-            'Physics': 'physics.json',
-            'Plants': 'plants.json',
-            'Psychology': 'psychology.json',
+            'Physics in Daily Life': 'physics.json',
+            'Plant Science': 'plants.json',
+            'Psychology & Behavior': 'psychology.json',
             'Technology': 'technology.json',
-            'Weather': 'weather.json',
+            'Weather & Climate': 'weather.json',
             'Food & Nutrition': 'food-nutrition.json',
             'Earth Science': 'earth-science.json',
             'Marine Life': 'marine-life.json',
@@ -195,6 +190,32 @@ class MasterListUpdater:
             'Transportation': 'transportation.json',
         }
         return filename_map.get(category, f"{category.lower().replace(' ', '-')}.json")
+
+    def _get_category_display_name(self, json_category: str) -> str:
+        """Convert JSON category_en to display name used in master list"""
+        # Map from JSON category_en to master list display names
+        display_map = {
+            'Animals': 'Animal Behavior',
+            'Astronomy': 'Astronomy & Space',
+            'Chemistry': 'Chemistry Around Us',
+            'Economics': 'Economics & Money',
+            'Human Biology': 'Human Biology',
+            'Physics': 'Physics in Daily Life',
+            'Plants': 'Plant Science',
+            'Psychology': 'Psychology & Behavior',
+            'Technology': 'Technology',
+            'Weather': 'Weather & Climate',
+            'Food & Nutrition': 'Food & Nutrition',
+            'Earth Science': 'Earth Science',
+            'Marine Life': 'Marine Life',
+            'Insects': 'Insects',
+            'Household Science': 'Household Science',
+            'Sports & Exercise': 'Sports & Exercise',
+            'Health & Medicine': 'Health & Medicine',
+            'Music & Sound': 'Music & Sound',
+            'Transportation': 'Transportation',
+        }
+        return display_map.get(json_category, json_category)
 
 
 # CLI for testing
