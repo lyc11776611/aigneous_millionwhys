@@ -34,8 +34,9 @@ class MasterListUpdater:
         Add new questions to the master list
 
         Args:
-            category: Category name
-            questions: List of question dicts (with 'id' and 'question_en')
+            category: JSON category name (e.g., "Animals", "Astronomy")
+                      Will be converted to display name automatically
+            questions: List of question dicts (must have 'question_en' and 'difficulty')
             dry_run: If True, don't write changes
 
         Returns:
@@ -44,6 +45,10 @@ class MasterListUpdater:
         Raises:
             ValueError: If category not found in master list
         """
+        # Convert JSON category to display name for searching
+        # (e.g., "Animals" -> "Animal Behavior")
+        display_name = self._get_category_display_name(category)
+
         # Read current content
         with open(self.master_list_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
@@ -53,25 +58,28 @@ class MasterListUpdater:
 
         for i, line in enumerate(lines):
             # Match "## Category" or "## Category (count)" format
-            if line.startswith('## ') and category in line:
+            if line.startswith('## ') and display_name in line:
                 category_line_idx = i
                 break
 
         if category_line_idx is None:
-            raise ValueError(f"Category '{category}' not found in master list")
+            raise ValueError(
+                f"Category '{category}' (display name: '{display_name}') not found in master list. "
+                f"Available categories: Animal Behavior, Astronomy & Space, Chemistry Around Us, etc."
+            )
 
         # Find where to insert (after the last question in this category)
         insert_idx = None
         current_idx = category_line_idx + 1
 
-        # Skip until we find the "New (N):" section or end of category
+        # Skip until we find the next category or end of file
         while current_idx < len(lines):
             line = lines[current_idx]
 
             # Check if we've hit the next category
-            if line.startswith('## ') and category not in line:
-                # Insert before the separator
-                insert_idx = current_idx - 2
+            if line.startswith('## ') and display_name not in line:
+                # Insert before the blank line separator
+                insert_idx = current_idx - 1
                 break
 
             # Check for end of questions (summary section or end of file)
