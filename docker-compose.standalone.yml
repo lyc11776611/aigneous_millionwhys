@@ -18,4 +18,6 @@ services:
       - PORT=${PORT:-8004}
     env_file:
       - .env
+    volumes:
+      - ./data/logs:/app/data/logs
     restart: unless-stopped
