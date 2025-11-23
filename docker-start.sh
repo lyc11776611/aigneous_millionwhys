@@ -64,6 +64,10 @@ start_dev() {
     print_info "Mode: Development (hot reload enabled)"
     print_info "Access: http://localhost:${PORT}"
 
+    # Ensure data/logs directory exists with write permissions
+    mkdir -p data/logs
+    chmod 777 data/logs
+
     $DOCKER_COMPOSE up
 
     print_success "Development server started!"
@@ -76,6 +80,11 @@ start_standalone() {
     print_warning "Stopping any running containers..."
     $DOCKER_COMPOSE down 2>/dev/null || true
     $DOCKER_COMPOSE -f docker-compose.standalone.yml down 2>/dev/null || true
+
+    # Ensure data/logs directory exists with write permissions
+    print_info "Setting up data/logs directory..."
+    mkdir -p data/logs
+    chmod 777 data/logs
 
     print_info "Building Docker image (this may take a few minutes)..."
     $DOCKER_COMPOSE -f docker-compose.standalone.yml build
@@ -111,6 +120,11 @@ start_prod() {
     print_warning "Stopping any running containers..."
     $DOCKER_COMPOSE down 2>/dev/null || true
     $DOCKER_COMPOSE -f docker-compose.standalone.yml down 2>/dev/null || true
+
+    # Ensure data/logs directory exists with write permissions
+    print_info "Setting up data/logs directory..."
+    mkdir -p data/logs
+    chmod 777 data/logs
 
     print_info "Building Docker image (this may take a few minutes)..."
     $DOCKER_COMPOSE -f docker-compose.prod.yml build
